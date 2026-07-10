@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>בִּינָה, Binah — AI News Daily</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕯️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Instrument+Sans:wght@400;500;600&family=David+Libre:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #FAF5EA;
+  --paper-deep: #F3EBDA;
+  --ink: #1E2A3A;
+  --ink-soft: #4A5568;
+  --ink-faint: #8B93A1;
+  --gold: #B07A1E;
+  --gold-soft: #E7D3AC;
+  --spotlight-bg: #F6EDD9;
+  --rule: #D8CDB6;
+  --card: #FFFDF7;
+  --pod: #2E5E4E;
+  --pod-soft: #DCE9E2;
+  --shadow: 0 1px 2px rgba(30,42,58,.06), 0 6px 18px -8px rgba(30,42,58,.14);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #171E29;
+    --paper-deep: #121822;
+    --ink: #EDE6D6;
+    --ink-soft: #B6BDC9;
+    --ink-faint: #75808F;
+    --gold: #D9A94E;
+    --gold-soft: #4A3B1D;
+    --spotlight-bg: #1F2634;
+    --rule: #333E4F;
+    --card: #1D2532;
+    --pod: #8DC3AE;
+    --pod-soft: #23392F;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 18px -8px rgba(0,0,0,.5);
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Source Serif 4', Georgia, serif;
+  line-height: 1.55;
+  background-image: radial-gradient(ellipse 80% 50% at 50% -10%, var(--paper-deep), transparent);
+}
+a { color: inherit; }
+
+/* ============ Masthead ============ */
+.masthead {
+  max-width: 1180px; margin: 0 auto; padding: 40px 28px 20px;
+  text-align: center;
+  border-bottom: 3px double var(--rule);
+  animation: settle .7s ease both;
+}
+.masthead .kicker {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 12px; letter-spacing: .22em; text-transform: uppercase;
+  color: var(--ink-faint); display: flex; align-items: center; gap: 14px; justify-content: center;
+}
+.masthead .kicker::before, .masthead .kicker::after {
+  content: ""; height: 1px; flex: 1; max-width: 220px; background: var(--rule);
+}
+.masthead h1 {
+  font-family: 'Fraunces', serif; font-weight: 900;
+  font-size: clamp(44px, 7vw, 76px); line-height: 1.05; margin: 10px 0 2px;
+  letter-spacing: -.01em;
+}
+.masthead h1 .heb { font-family: 'David Libre', serif; font-weight: 700; color: var(--gold); }
+.masthead .tagline {
+  font-style: italic; color: var(--ink-soft); font-size: 17px; margin-bottom: 14px;
+}
+.masthead .dateline {
+  font-family: 'Instrument Sans', sans-serif; font-size: 12.5px; letter-spacing: .06em;
+  color: var(--ink-faint); text-transform: uppercase;
+  display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;
+}
+.masthead .dateline b { color: var(--ink-soft); font-weight: 600; }
+.masthead .dateline span + span::before { content: "·"; margin-right: 10px; color: var(--rule); }
+
+/* ============ Controls ============ */
+.controls {
+  max-width: 1180px; margin: 0 auto; padding: 16px 28px;
+  display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  position: sticky; top: 0; z-index: 20;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rule);
+  animation: settle .7s .1s ease both;
+}
+.tab {
+  font-family: 'Instrument Sans', sans-serif; font-size: 13.5px; font-weight: 600;
+  padding: 7px 15px; border-radius: 99px; border: 1px solid var(--rule);
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+  transition: all .18s ease;
+}
+.tab:hover { border-color: var(--gold); color: var(--gold); }
+.tab.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.tab.active.gold-tab { background: var(--gold); border-color: var(--gold); color: #fff; }
+.tab .n { opacity: .55; font-weight: 400; margin-left: 4px; }
+.spacer { flex: 1; }
+.search {
+  font-family: 'Instrument Sans', sans-serif; font-size: 14px;
+  padding: 8px 14px; border-radius: 99px; border: 1px solid var(--rule);
+  background: var(--card); color: var(--ink); width: 200px;
+  transition: width .25s ease, border-color .18s;
+}
+.search:focus { outline: none; border-color: var(--gold); width: 260px; }
+select.src {
+  font-family: 'Instrument Sans', sans-serif; font-size: 13.5px;
+  padding: 8px 12px; border-radius: 99px; border: 1px solid var(--rule);
+  background: var(--card); color: var(--ink-soft); cursor: pointer; max-width: 190px;
+}
+
+/* ============ Spotlight ============ */
+.spotlight {
+  max-width: 1180px; margin: 26px auto 8px; padding: 0 28px;
+  animation: settle .7s .18s ease both;
+}
+.spot-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; }
+.spot-head h2 {
+  font-family: 'Fraunces', serif; font-weight: 600; font-size: 26px;
+  color: var(--gold);
+}
+.spot-head h2 .heb { font-family: 'David Libre', serif; }
+.spot-head .rule { flex: 1; height: 1px; background: linear-gradient(90deg, var(--gold-soft), transparent); }
+.spot-head .sub { font-family: 'Instrument Sans', sans-serif; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
+.spot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.spot-card {
+  background: var(--spotlight-bg); border: 1px solid var(--gold-soft);
+  border-top: 3px solid var(--gold);
+  border-radius: 10px; padding: 18px 20px 16px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; gap: 8px;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.spot-card:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(30,42,58,.08), 0 14px 28px -10px rgba(30,42,58,.22); }
+.spot-card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 18.5px; line-height: 1.3; }
+.spot-card h3 a { text-decoration: none; }
+.spot-card h3 a:hover { color: var(--gold); }
+.spot-card p { font-size: 14.5px; color: var(--ink-soft); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.hit-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; }
+.hit {
+  font-family: 'Instrument Sans', sans-serif; font-size: 10.5px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--gold); border: 1px solid var(--gold-soft);
+  padding: 2px 8px; border-radius: 99px; background: color-mix(in srgb, var(--gold) 7%, transparent);
+}
+
+/* ============ Feed ============ */
+.feed { max-width: 1180px; margin: 10px auto 40px; padding: 0 28px; animation: settle .7s .26s ease both; }
+.day-head {
+  font-family: 'Instrument Sans', sans-serif; font-size: 12.5px; font-weight: 600;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--ink-faint);
+  margin: 30px 0 12px; display: flex; align-items: center; gap: 14px;
+}
+.day-head::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+  padding: 16px 18px 14px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; gap: 7px;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s;
+}
+.card:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--gold) 40%, var(--rule)); }
+.meta {
+  font-family: 'Instrument Sans', sans-serif; font-size: 11.5px; letter-spacing: .05em;
+  color: var(--ink-faint); display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+}
+.meta .src { font-weight: 600; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .1em; font-size: 10.5px; }
+.badge-pod {
+  font-weight: 600; font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--pod); background: var(--pod-soft); padding: 2px 8px; border-radius: 99px;
+}
+.badge-rel {
+  font-weight: 600; font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--gold); background: color-mix(in srgb, var(--gold) 10%, transparent);
+  padding: 2px 8px; border-radius: 99px;
+}
+.card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 17px; line-height: 1.32; }
+.card h3 a { text-decoration: none; }
+.card h3 a:hover { color: var(--gold); }
+.card p { font-size: 14px; color: var(--ink-soft); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.listen {
+  font-family: 'Instrument Sans', sans-serif; font-size: 12.5px; font-weight: 600;
+  color: var(--pod); cursor: pointer; background: none; border: none; padding: 0;
+  text-align: left; margin-top: 2px;
+}
+.listen:hover { text-decoration: underline; }
+.card audio { width: 100%; margin-top: 6px; height: 34px; }
+.empty {
+  text-align: center; padding: 70px 20px; color: var(--ink-faint); font-style: italic; font-size: 17px;
+}
+
+/* ============ Footer ============ */
+footer {
+  border-top: 3px double var(--rule); margin-top: 30px;
+  padding: 26px 28px 46px; text-align: center;
+  font-family: 'Instrument Sans', sans-serif; font-size: 12.5px; color: var(--ink-faint);
+}
+footer .heb { font-family: 'David Libre', serif; color: var(--gold); font-size: 15px; }
+footer .row { margin-top: 6px; }
+footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
+
+@keyframes settle { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (max-width: 640px) {
+  .masthead { padding: 26px 18px 16px; }
+  .controls, .spotlight, .feed { padding-left: 18px; padding-right: 18px; }
+  .search, .search:focus { width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="kicker">A Daily Digest of Artificial Intelligence</div>
+  <h1><span class="heb">בִּינָה</span>, Binah</h1>
+  <div class="tagline">the news in machine intelligence — with an eye on faith, ethics, and Jewish life</div>
+  <div class="dateline" id="dateline"></div>
+</header>
+
+<nav class="controls" id="controls">
+  <button class="tab active" data-tab="all">Everything <span class="n" id="n-all"></span></button>
+  <button class="tab gold-tab" data-tab="religion">AI &amp; Religion <span class="n" id="n-religion"></span></button>
+  <button class="tab" data-tab="news">News <span class="n" id="n-news"></span></button>
+  <button class="tab" data-tab="podcast">Podcasts <span class="n" id="n-podcast"></span></button>
+  <div class="spacer"></div>
+  <select class="src" id="srcFilter"><option value="">All sources</option></select>
+  <input class="search" id="search" type="search" placeholder="Search headlines…">
+</nav>
+
+<section class="spotlight" id="spotlight" hidden>
+  <div class="spot-head">
+    <h2><span class="heb">בִּינָה וֶאֱמוּנָה</span>, Binah Ve'emunah — AI &amp; Religion</h2>
+    <div class="rule"></div>
+    <div class="sub" id="spotCount"></div>
+  </div>
+  <div class="spot-grid" id="spotGrid"></div>
+</section>
+
+<main class="feed">
+  <div id="feedBody"></div>
+  <div class="empty" id="empty" hidden>Nothing matches — try clearing the search or filters.</div>
+</main>
+
+<footer>
+  <div><span class="heb">בִּינָה</span>, Binah — AI News Daily</div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v1.0 · refresh with <code>python3 fetch_news.py</code></div>
+  <div class="srcs" id="srcList"></div>
+</footer>
+
+<script>
+// Load data.js with a cache-buster so a refreshed feed is never stuck behind
+// the browser cache (matters once a scheduled Action rewrites data.js).
+document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
+</script>
+<script>
+(function () {
+  var DATA = window.NEWS_DATA || { items: [], generatedAt: null };
+  var items = DATA.items.filter(function (i) { return i.title && i.link; });
+  var SPOT_MIN = 3; // religionScore threshold for the spotlight & religion tab
+
+  var state = { tab: 'all', q: '', src: '' };
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function isReligion(i) { return i.religionScore >= SPOT_MIN; }
+  function tabOf(i) { return i.category === 'podcast' ? 'podcast' : 'news'; }
+
+  function relTime(iso) {
+    if (!iso) return '';
+    var d = new Date(iso), now = new Date(), h = (now - d) / 36e5;
+    if (h < 1) return Math.max(1, Math.round(h * 60)) + 'm ago';
+    if (h < 24) return Math.round(h) + 'h ago';
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  }
+  function dayKey(iso) {
+    if (!iso) return 'Undated';
+    var d = new Date(iso), now = new Date();
+    var today = now.toDateString(), yest = new Date(now - 864e5).toDateString();
+    if (d.toDateString() === today) return 'Today';
+    if (d.toDateString() === yest) return 'Yesterday';
+    return d.toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
+  }
+
+  function matches(i) {
+    if (state.tab === 'religion' && !isReligion(i)) return false;
+    if (state.tab === 'news' && tabOf(i) !== 'news') return false;
+    if (state.tab === 'podcast' && tabOf(i) !== 'podcast') return false;
+    if (state.src && i.source !== state.src) return false;
+    if (state.q) {
+      var blob = (i.title + ' ' + i.summary + ' ' + i.source).toLowerCase();
+      if (blob.indexOf(state.q) === -1) return false;
+    }
+    return true;
+  }
+
+  function cardHTML(i, spot) {
+    var badges = '';
+    if (i.category === 'podcast') badges += '<span class="badge-pod">Podcast</span>';
+    if (!spot && isReligion(i)) badges += '<span class="badge-rel">AI &amp; Religion</span>';
+    var listen = (i.audio && i.category === 'podcast')
+      ? '<button class="listen" data-audio="' + esc(i.audio) + '">▶ Listen here</button>'
+      : '';
+    var hits = '';
+    if (spot && i.religionHits && i.religionHits.length) {
+      hits = '<div class="hit-tags">' + i.religionHits.slice(0, 4).map(function (h) {
+        return '<span class="hit">' + esc(h) + '</span>';
+      }).join('') + '</div>';
+    }
+    return '<article class="' + (spot ? 'spot-card' : 'card') + '">' +
+      '<div class="meta"><span class="src">' + esc(i.source) + '</span>' + badges +
+      '<span>' + relTime(i.date) + '</span></div>' +
+      '<h3><a href="' + esc(i.link) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a></h3>' +
+      (i.summary ? '<p>' + esc(i.summary) + '</p>' : '') +
+      hits + listen + '</article>';
+  }
+
+  function render() {
+    var visible = items.filter(matches);
+
+    // Spotlight: only on Everything tab, unfiltered by tab but respecting search/src
+    var spotEl = document.getElementById('spotlight');
+    if (state.tab === 'all') {
+      var spot = visible.filter(isReligion).slice(0, 9);
+      spotEl.hidden = spot.length === 0;
+      document.getElementById('spotGrid').innerHTML = spot.map(function (i) { return cardHTML(i, true); }).join('');
+      document.getElementById('spotCount').textContent = spot.length + ' this week';
+    } else {
+      spotEl.hidden = true;
+    }
+
+    // Feed (on Everything tab, exclude what's already in the spotlight)
+    var feed = visible;
+    if (state.tab === 'all') {
+      var shown = {};
+      visible.filter(isReligion).slice(0, 9).forEach(function (i) { shown[i.link] = 1; });
+      feed = visible.filter(function (i) { return !shown[i.link]; });
+    }
+    var groups = {}, order = [];
+    feed.forEach(function (i) {
+      var k = dayKey(i.date);
+      if (!groups[k]) { groups[k] = []; order.push(k); }
+      groups[k].push(i);
+    });
+    document.getElementById('feedBody').innerHTML = order.map(function (k) {
+      return '<div class="day-head">' + esc(k) + '</div><div class="grid">' +
+        groups[k].map(function (i) { return cardHTML(i, false); }).join('') + '</div>';
+    }).join('');
+    document.getElementById('empty').hidden = feed.length > 0 || !spotEl.hidden;
+  }
+
+  // ---- Counts & static chrome ----
+  var counts = { all: items.length, religion: 0, news: 0, podcast: 0 };
+  items.forEach(function (i) {
+    if (isReligion(i)) counts.religion++;
+    counts[tabOf(i)]++;
+  });
+  ['all', 'religion', 'news', 'podcast'].forEach(function (k) {
+    document.getElementById('n-' + k).textContent = counts[k];
+  });
+
+  var gen = DATA.generatedAt ? new Date(DATA.generatedAt) : null;
+  document.getElementById('dateline').innerHTML =
+    '<span><b>' + new Date().toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) + '</b></span>' +
+    '<span>' + counts.all + ' stories</span>' +
+    (gen ? '<span>updated ' + relTime(gen.toISOString()) + '</span>' : '');
+
+  var srcs = {};
+  items.forEach(function (i) { srcs[i.source] = (srcs[i.source] || 0) + 1; });
+  var srcNames = Object.keys(srcs).sort();
+  var sel = document.getElementById('srcFilter');
+  srcNames.forEach(function (s) {
+    var o = document.createElement('option');
+    o.value = s; o.textContent = s + ' (' + srcs[s] + ')';
+    sel.appendChild(o);
+  });
+  document.getElementById('srcList').textContent = 'Sources: ' + srcNames.join(' · ');
+
+  // ---- Events ----
+  document.getElementById('controls').addEventListener('click', function (e) {
+    var t = e.target.closest('.tab');
+    if (!t) return;
+    document.querySelectorAll('.tab').forEach(function (b) { b.classList.remove('active'); });
+    t.classList.add('active');
+    state.tab = t.getAttribute('data-tab');
+    render();
+  });
+  sel.addEventListener('change', function () { state.src = sel.value; render(); });
+  document.getElementById('search').addEventListener('input', function (e) {
+    state.q = e.target.value.trim().toLowerCase();
+    render();
+  });
+  document.body.addEventListener('click', function (e) {
+    var b = e.target.closest('.listen');
+    if (!b) return;
+    var card = b.closest('article');
+    var existing = card.querySelector('audio');
+    if (existing) { existing.remove(); b.textContent = '▶ Listen here'; return; }
+    var a = document.createElement('audio');
+    a.controls = true; a.src = b.getAttribute('data-audio');
+    card.appendChild(a); a.play();
+    b.textContent = '✕ Close player';
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

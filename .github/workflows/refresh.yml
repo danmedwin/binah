@@ -1,0 +1,32 @@
+name: Refresh news data
+
+on:
+  schedule:
+    # Every 6 hours (UTC). Adjust freely.
+    - cron: "0 5,11,17,23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch feeds and bake data.js
+        run: python3 fetch_news.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "binah-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.js
+          git diff --cached --quiet && echo "No changes." && exit 0
+          git commit -m "Refresh news data"
+          git push
