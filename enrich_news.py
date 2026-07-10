@@ -65,20 +65,31 @@ BRIEF_SYSTEM = (
     "rabbi and Jewish educator. From the items provided (all AI news of the last "
     "few days — industry, research, policy, culture; NOT limited to religion), "
     "pick the genuinely consequential developments and write the day's brief: "
-    "(1) bullets — 4-5 'what you need to know' takeaways, each one plain sentence "
-    "under ~35 words, concrete, no hype; group related items into one takeaway "
-    "(e.g. several model launches = one frontier-model bullet); order by importance. "
-    "(2) links — the 5-8 links (verbatim from the provided list) of the stories "
-    "behind those takeaways. Base everything only on the provided text."
+    "4-5 'what you need to know' takeaways, ordered by importance. Each takeaway "
+    "has: text — one plain sentence under ~35 words, concrete, no hype; group "
+    "related items into one takeaway (e.g. several model launches = one "
+    "frontier-model bullet); and links — the 1-3 links (verbatim from the "
+    "provided list) of the stories that takeaway is drawn from. Base everything "
+    "only on the provided text."
 )
 
 BRIEF_SCHEMA = {
     "type": "object",
     "properties": {
-        "bullets": {"type": "array", "items": {"type": "string"}},
-        "links": {"type": "array", "items": {"type": "string"}},
+        "bullets": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "text": {"type": "string"},
+                    "links": {"type": "array", "items": {"type": "string"}},
+                },
+                "required": ["text", "links"],
+                "additionalProperties": False,
+            },
+        },
     },
-    "required": ["bullets", "links"],
+    "required": ["bullets"],
     "additionalProperties": False,
 }
 
@@ -133,10 +144,18 @@ def build_brief(api_key, items):
     if not res or not res.get("bullets"):
         return None
     valid = {i["link"] for i in recent}
+    bullets = []
+    for b in res["bullets"]:
+        text = (b.get("text") or "").strip()
+        if not text:
+            continue
+        bullets.append({
+            "text": text,
+            "links": [l for l in b.get("links", []) if l in valid][:3],
+        })
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "bullets": [b.strip() for b in res["bullets"] if b.strip()][:5],
-        "links": [l for l in res.get("links", []) if l in valid][:8],
+        "bullets": bullets[:5],
     }
 
 

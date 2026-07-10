@@ -3198,20 +3198,40 @@ window.NEWS_DATA = {
  "highlights": {
   "generatedAt": "2026-07-10T14:58:59.637966+00:00",
   "bullets": [
-   "A frontier-model week: OpenAI shipped the GPT-5.6 family (Sol, Terra, Luna) plus 'ChatGPT Work' after a government greenlight, and SpaceXAI answered with Grok 4.5 — its first Opus-class model.",
-   "Anthropic launched Claude Fable 5 as a premium tier, and its researchers found a 'hidden space' where Claude puzzles over concepts — reading a model's mind is becoming a real research method.",
-   "Leadership shake-up at OpenAI: Fidji Simo, CEO of AGI deployment, is stepping down due to illness.",
-   "The data walls are rising: OpenAI may have made a fatal misstep in its copyright fight with news organizations, and Patreon now blocks AI crawlers from creators' work.",
-   "For educators: an Ivy League professor's switch to an in-person final dropped scores 50% amid AI-cheating suspicions — the same week OpenAI launched an AI-skills program for K-12 teachers."
-  ],
-  "links": [
-   "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-   "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
-   "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
-   "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-   "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
-   "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-   "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/"
+   {
+    "text": "A frontier-model week: OpenAI shipped the GPT-5.6 family (Sol, Terra, Luna) plus 'ChatGPT Work' after a government greenlight, and SpaceXAI answered with Grok 4.5 — its first Opus-class model.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+     "https://www.latent.space/p/ainews-spacexai-launches-grok-45"
+    ]
+   },
+   {
+    "text": "Anthropic launched Claude Fable 5 as a premium tier, and its researchers found a 'hidden space' where Claude puzzles over concepts — reading a model's mind is becoming a real research method.",
+    "links": [
+     "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
+     "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
+    ]
+   },
+   {
+    "text": "Leadership shake-up at OpenAI: Fidji Simo, CEO of AGI deployment, is stepping down due to illness.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
+    ]
+   },
+   {
+    "text": "The data walls are rising: OpenAI may have made a fatal misstep in its copyright fight with news organizations, and Patreon now blocks AI crawlers from creators' work.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+     "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/"
+    ]
+   },
+   {
+    "text": "For educators: an Ivy League professor's switch to an in-person final dropped scores 50% amid AI-cheating suspicions — the same week OpenAI launched an AI-skills program for K-12 teachers.",
+    "links": [
+     "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+     "https://openai.com/index/k-12-educators-practical-skills"
+    ]
+   }
   ]
  }
 };

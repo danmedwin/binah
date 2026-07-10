@@ -150,24 +150,16 @@ select.src {
   font-family: 'Fraunces', serif; font-weight: 900; font-size: 24px;
   color: var(--gold); opacity: .9;
 }
-.brief-stories {
-  margin-top: 14px; padding-top: 12px;
-  border-top: 1px solid color-mix(in srgb, var(--paper) 14%, transparent);
-  display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline;
-}
-.brief-stories .lbl {
-  font-family: 'Instrument Sans', sans-serif; font-size: 10.5px; font-weight: 600;
-  letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-right: 4px;
-}
-.brief-stories a {
-  font-family: 'Instrument Sans', sans-serif; font-size: 12.5px; font-weight: 500;
+.b-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
+.b-links a {
+  font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 500;
   color: var(--paper); text-decoration: none;
   border: 1px solid color-mix(in srgb, var(--paper) 30%, transparent);
-  border-radius: 99px; padding: 4px 12px;
+  border-radius: 99px; padding: 3px 11px;
   transition: border-color .15s, color .15s;
 }
-.brief-stories a:hover { border-color: var(--gold); color: var(--gold); }
-.brief-stories a .s { opacity: .55; font-weight: 400; }
+.b-links a:hover { border-color: var(--gold); color: var(--gold); }
+.b-links a .s { opacity: .55; font-weight: 400; }
 
 /* ============ Spotlight ============ */
 .spotlight {
@@ -250,6 +242,13 @@ select.src {
   letter-spacing: .14em; text-transform: uppercase; color: var(--gold);
   margin-top: 6px;
 }
+p.sum.expanded { -webkit-line-clamp: unset; display: block; }
+.more-btn {
+  background: none; border: none; padding: 0; margin-top: -2px;
+  font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 600;
+  color: var(--gold); cursor: pointer; text-align: left; align-self: flex-start;
+}
+.more-btn:hover { text-decoration: underline; }
 .card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 17px; line-height: 1.32; }
 .card h3 a { text-decoration: none; }
 .card h3 a:hover { color: var(--gold); }
@@ -307,7 +306,6 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
     <div class="brief-kicker">The Brief · <span id="briefDate"></span></div>
     <h2><span class="heb">הָעִקָּר</span> HaIkar — What You Need to Know</h2>
     <ol id="briefList"></ol>
-    <div class="brief-stories" id="briefStories"></div>
   </div>
 </section>
 
@@ -327,7 +325,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <footer>
   <div><span class="heb">בִּינָה</span> Binah — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v3.0 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v3.1 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 
@@ -397,8 +395,8 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
       }).join('') + '</div>';
     }
     var body = i.aiSummary
-      ? '<p>' + esc(i.aiSummary) + '</p>'
-      : (i.summary ? '<p>' + esc(i.summary) + '</p>' : '');
+      ? '<p class="sum">' + esc(i.aiSummary) + '</p>'
+      : (i.summary ? '<p class="sum">' + esc(i.summary) + '</p>' : '');
     var why = '';
     if (i.whyMatters && i.whyMatters.length) {
       why = '<div class="why-label">Why this matters</div><ul class="why">' +
@@ -424,19 +422,21 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     briefEl.hidden = false;
     document.getElementById('briefDate').textContent =
       new Date(hl.generatedAt || Date.now()).toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
+    function chip(i) {
+      return '<a href="' + esc(i.link) + '" target="_blank" rel="noopener">' +
+        esc(i.title.length > 58 ? i.title.slice(0, 56) + '…' : i.title) +
+        ' <span class="s">· ' + esc(i.source) + '</span></a>';
+    }
     document.getElementById('briefList').innerHTML = hl.bullets.map(function (b) {
-      return '<li>' + esc(b) + '</li>';
+      // b is {text, links:[...]}; tolerate the older plain-string form
+      var text = typeof b === 'string' ? b : b.text;
+      var links = (typeof b === 'string' ? [] : b.links || []).map(function (l) {
+        return items.filter(function (i) { return i.link === l; })[0];
+      }).filter(Boolean);
+      return '<li>' + esc(text) +
+        (links.length ? '<div class="b-links">' + links.map(chip).join('') + '</div>' : '') +
+        '</li>';
     }).join('');
-    var linked = (hl.links || []).map(function (l) {
-      return items.filter(function (i) { return i.link === l; })[0];
-    }).filter(Boolean);
-    document.getElementById('briefStories').innerHTML = linked.length
-      ? '<span class="lbl">The stories</span>' + linked.map(function (i) {
-          return '<a href="' + esc(i.link) + '" target="_blank" rel="noopener">' +
-            esc(i.title.length > 64 ? i.title.slice(0, 62) + '…' : i.title) +
-            ' <span class="s">· ' + esc(i.source) + '</span></a>';
-        }).join('')
-      : '';
   }
 
   function render() {
@@ -472,6 +472,21 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
         groups[k].map(function (i) { return cardHTML(i, false); }).join('') + '</div>';
     }).join('');
     document.getElementById('empty').hidden = feed.length > 0 || !spotEl.hidden;
+    attachMoreButtons();
+  }
+
+  // Add a "More" toggle to any summary the line-clamp actually truncated.
+  function attachMoreButtons() {
+    document.querySelectorAll('p.sum').forEach(function (p) {
+      if (p.dataset.checked) return;
+      p.dataset.checked = '1';
+      if (p.scrollHeight - p.clientHeight > 4) {
+        var btn = document.createElement('button');
+        btn.className = 'more-btn';
+        btn.textContent = 'More ▾';
+        p.insertAdjacentElement('afterend', btn);
+      }
+    });
   }
 
   // ---- Counts & static chrome ----
@@ -516,6 +531,13 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     render();
   });
   document.body.addEventListener('click', function (e) {
+    var m = e.target.closest('.more-btn');
+    if (m) {
+      var p = m.previousElementSibling;
+      var open = p.classList.toggle('expanded');
+      m.textContent = open ? 'Less ▴' : 'More ▾';
+      return;
+    }
     var b = e.target.closest('.listen');
     if (!b) return;
     var card = b.closest('article');
