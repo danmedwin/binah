@@ -22,6 +22,11 @@ jobs:
       - name: Fetch feeds and bake data.js
         run: python3 fetch_news.py
 
+      - name: Summarize new items with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 enrich_news.py
+
       - name: Commit refreshed data
         run: |
           git config user.name "binah-bot"

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>בִּינָה, Binah — AI News Daily</title>
+<title>בִּינָה Binah — AI News Daily</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕯️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -181,6 +181,24 @@ select.src {
   color: var(--gold); background: color-mix(in srgb, var(--gold) 10%, transparent);
   padding: 2px 8px; border-radius: 99px;
 }
+.thumb {
+  width: calc(100% + 36px); margin: -16px -18px 4px;
+  height: 150px; object-fit: cover;
+  border-radius: 9px 9px 0 0; display: block;
+  background: var(--paper-deep);
+}
+.spot-card .thumb { width: calc(100% + 40px); margin: -18px -20px 4px; border-radius: 7px 7px 0 0; }
+.why {
+  margin: 2px 0 0; padding: 0; list-style: none;
+  font-size: 13px; color: var(--ink-soft); line-height: 1.45;
+}
+.why li { padding-left: 16px; position: relative; margin-top: 3px; }
+.why li::before { content: "▸"; position: absolute; left: 2px; color: var(--gold); }
+.why-label {
+  font-family: 'Instrument Sans', sans-serif; font-size: 10.5px; font-weight: 600;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--gold);
+  margin-top: 6px;
+}
 .card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 17px; line-height: 1.32; }
 .card h3 a { text-decoration: none; }
 .card h3 a:hover { color: var(--gold); }
@@ -218,7 +236,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <header class="masthead">
   <div class="kicker">A Daily Digest of Artificial Intelligence</div>
-  <h1><span class="heb">בִּינָה</span>, Binah</h1>
+  <h1><span class="heb">בִּינָה</span> Binah</h1>
   <div class="tagline">the news in machine intelligence — with an eye on faith, ethics, and Jewish life</div>
   <div class="dateline" id="dateline"></div>
 </header>
@@ -235,7 +253,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <section class="spotlight" id="spotlight" hidden>
   <div class="spot-head">
-    <h2><span class="heb">בִּינָה וֶאֱמוּנָה</span>, Binah Ve'emunah — AI &amp; Religion</h2>
+    <h2><span class="heb">בִּינָה וֶאֱמוּנָה</span> Binah Ve'emunah — AI &amp; Religion</h2>
     <div class="rule"></div>
     <div class="sub" id="spotCount"></div>
   </div>
@@ -248,8 +266,8 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 </main>
 
 <footer>
-  <div><span class="heb">בִּינָה</span>, Binah — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v1.0 · refresh with <code>python3 fetch_news.py</code></div>
+  <div><span class="heb">בִּינָה</span> Binah — AI News Daily</div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v2.0 · refresh with <code>python3 fetch_news.py</code> · summaries via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 
@@ -306,6 +324,9 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     var badges = '';
     if (i.category === 'podcast') badges += '<span class="badge-pod">Podcast</span>';
     if (!spot && isReligion(i)) badges += '<span class="badge-rel">AI &amp; Religion</span>';
+    var thumb = i.image
+      ? '<img class="thumb" src="' + esc(i.image) + '" alt="" loading="lazy" onerror="this.remove()">'
+      : '';
     var listen = (i.audio && i.category === 'podcast')
       ? '<button class="listen" data-audio="' + esc(i.audio) + '">▶ Listen here</button>'
       : '';
@@ -315,12 +336,20 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
         return '<span class="hit">' + esc(h) + '</span>';
       }).join('') + '</div>';
     }
-    return '<article class="' + (spot ? 'spot-card' : 'card') + '">' +
+    var body = i.aiSummary
+      ? '<p>' + esc(i.aiSummary) + '</p>'
+      : (i.summary ? '<p>' + esc(i.summary) + '</p>' : '');
+    var why = '';
+    if (i.whyMatters && i.whyMatters.length) {
+      why = '<div class="why-label">Why this matters</div><ul class="why">' +
+        i.whyMatters.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') +
+        '</ul>';
+    }
+    return '<article class="' + (spot ? 'spot-card' : 'card') + '">' + thumb +
       '<div class="meta"><span class="src">' + esc(i.source) + '</span>' + badges +
       '<span>' + relTime(i.date) + '</span></div>' +
       '<h3><a href="' + esc(i.link) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a></h3>' +
-      (i.summary ? '<p>' + esc(i.summary) + '</p>' : '') +
-      hits + listen + '</article>';
+      body + why + hits + listen + '</article>';
   }
 
   function render() {

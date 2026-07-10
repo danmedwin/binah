@@ -118,6 +118,24 @@ def localname(tag):
     return tag.rsplit("}", 1)[-1]
 
 
+IMG_SRC_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
+
+
+def extract_image(el):
+    """Pull an image URL from media:content / media:thumbnail / enclosure / itunes:image."""
+    n = localname(el.tag)
+    if n in ("content", "thumbnail") and "media" in el.tag:
+        url = el.get("url", "")
+        mtype = el.get("type", "") or el.get("medium", "")
+        if url and ("image" in mtype or n == "thumbnail" or not mtype):
+            return url
+    elif n == "enclosure" and "image" in (el.get("type") or ""):
+        return el.get("url", "")
+    elif n == "image" and "itunes" in el.tag:
+        return el.get("href", "")
+    return ""
+
+
 def parse_feed(raw):
     """Return list of dicts from RSS 2.0 or Atom bytes."""
     root = ET.fromstring(raw)
@@ -126,12 +144,12 @@ def parse_feed(raw):
         for entry in root:
             if localname(entry.tag) != "entry":
                 continue
-            it = {"title": "", "link": "", "date": None, "summary": ""}
+            it = {"title": "", "link": "", "date": None, "summary": "", "image": "", "raw_html": ""}
             for child in entry:
                 n = localname(child.tag)
                 if n == "title":
                     it["title"] = text_of(child)
-                elif n == "link":
+                elif n == "link" and "media" not in child.tag:
                     rel = child.get("rel", "alternate")
                     if rel == "alternate" or not it["link"]:
                         it["link"] = child.get("href", "")
@@ -139,26 +157,48 @@ def parse_feed(raw):
                     it["date"] = parse_date(text_of(child))
                 elif n in ("summary", "content") and not it["summary"]:
                     it["summary"] = text_of(child)
+                    it["raw_html"] = it["summary"]
+                elif not it["image"]:
+                    it["image"] = extract_image(child)
+                # media:group nests media:content/thumbnail one level down
+                if not it["image"] and localname(child.tag) == "group":
+                    for sub in child:
+                        it["image"] = extract_image(sub)
+                        if it["image"]:
+                            break
             items.append(it)
     else:  # RSS
         for item in root.iter():
             if localname(item.tag) != "item":
                 continue
-            it = {"title": "", "link": "", "date": None, "summary": "", "audio": ""}
+            it = {"title": "", "link": "", "date": None, "summary": "", "audio": "", "image": "", "raw_html": ""}
             for child in item:
                 n = localname(child.tag)
                 if n == "title":
                     it["title"] = text_of(child)
-                elif n == "link" and not it["link"]:
+                elif n == "link" and "media" not in child.tag and not it["link"]:
                     it["link"] = text_of(child) or child.get("href", "")
                 elif n == "pubDate":
                     it["date"] = parse_date(text_of(child))
                 elif n in ("description", "summary") and not it["summary"]:
                     it["summary"] = text_of(child)
-                elif n == "encoded" and len(text_of(child)) > len(it["summary"]):
-                    pass  # content:encoded is usually full HTML; description is enough
+                    it["raw_html"] = it["summary"]
+                elif n == "encoded":
+                    it["raw_html"] = it["raw_html"] or text_of(child)
                 elif n == "enclosure" and "audio" in (child.get("type") or ""):
                     it["audio"] = child.get("url", "")
+                if not it["image"]:
+                    it["image"] = extract_image(child)
+                    if not it["image"] and localname(child.tag) == "group":
+                        for sub in child:
+                            it["image"] = extract_image(sub)
+                            if it["image"]:
+                                break
+            # Fallback: first <img> in the description/content HTML
+            if not it["image"] and it["raw_html"]:
+                m = IMG_SRC_RE.search(it["raw_html"])
+                if m and m.group(1).startswith("http"):
+                    it["image"] = html.unescape(m.group(1))
             items.append(it)
     return items
 
@@ -194,9 +234,15 @@ def process_feed(feed):
             continue
         if it["date"] and it["date"] < cutoff:
             continue
+        # Titles can carry double-encoded entities (&#8217;) and stray tags.
+        title = strip_html(it["title"])
+        if not it.get("image") and it.get("raw_html"):
+            m = IMG_SRC_RE.search(it["raw_html"])
+            if m and m.group(1).startswith("http"):
+                it["image"] = html.unescape(m.group(1))
         summary = strip_html(it["summary"])[:400]
-        blob = (it["title"] + " " + summary).lower()
-        title_lower = it["title"].lower()
+        blob = (title + " " + summary).lower()
+        title_lower = title.lower()
         has_ai = mentions_ai(blob)
         if feed["category"] == "religion" and not has_ai and not feed.get("skip_ai_filter"):
             continue  # religion outlets: only their AI/tech coverage
@@ -206,7 +252,7 @@ def process_feed(feed):
         if feed.get("always_religion_hit"):
             r_score = max(r_score, 5)
         out.append({
-            "title": it["title"],
+            "title": title,
             "link": it["link"],
             "source": feed["name"],
             "category": feed["category"],
@@ -215,6 +261,7 @@ def process_feed(feed):
             "religionScore": r_score,
             "religionHits": sorted(set(r_hits))[:6],
             "audio": it.get("audio", ""),
+            "image": it.get("image", ""),
         })
         if len(out) >= MAX_PER_FEED:
             break
@@ -222,7 +269,26 @@ def process_feed(feed):
     return out
 
 
+def load_previous_enrichment():
+    """Map link -> {aiSummary, whyMatters} from the existing data.js, so a
+    refresh doesn't drop (or re-pay for) summaries already generated."""
+    path = HERE / "data.js"
+    if not path.exists():
+        return {}
+    try:
+        raw = path.read_text(encoding="utf-8")
+        data = json.loads(re.sub(r"^window\.NEWS_DATA = |;\s*$", "", raw.strip()))
+        return {
+            i["link"]: {"aiSummary": i["aiSummary"], "whyMatters": i["whyMatters"]}
+            for i in data.get("items", [])
+            if i.get("aiSummary")
+        }
+    except Exception:
+        return {}
+
+
 def main():
+    previous = load_previous_enrichment()
     all_items = []
     with ThreadPoolExecutor(max_workers=6) as pool:
         futures = [pool.submit(process_feed, f) for f in FEEDS]
@@ -238,6 +304,9 @@ def main():
             continue
         seen_links.add(link_key)
         seen_titles.add(title_key)
+        prev = previous.get(it["link"], {})
+        it["aiSummary"] = prev.get("aiSummary", "")
+        it["whyMatters"] = prev.get("whyMatters", [])
         deduped.append(it)
 
     data = {
