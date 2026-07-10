@@ -60,21 +60,36 @@ SCHEMA = {
     "additionalProperties": False,
 }
 
+BRIEF_SYSTEM = (
+    "You are the front-page editor of an AI-news dashboard read by a tech-savvy "
+    "rabbi and Jewish educator. From the items provided (all AI news of the last "
+    "few days — industry, research, policy, culture; NOT limited to religion), "
+    "pick the genuinely consequential developments and write the day's brief: "
+    "(1) bullets — 4-5 'what you need to know' takeaways, each one plain sentence "
+    "under ~35 words, concrete, no hype; group related items into one takeaway "
+    "(e.g. several model launches = one frontier-model bullet); order by importance. "
+    "(2) links — the 5-8 links (verbatim from the provided list) of the stories "
+    "behind those takeaways. Base everything only on the provided text."
+)
 
-def call_claude(api_key, batch):
+BRIEF_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "bullets": {"type": "array", "items": {"type": "string"}},
+        "links": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["bullets", "links"],
+    "additionalProperties": False,
+}
+
+
+def call_claude(api_key, system, schema, user_content):
     payload = {
         "model": MODEL,
         "max_tokens": 8000,
-        "system": SYSTEM,
-        "output_config": {"format": {"type": "json_schema", "schema": SCHEMA}},
-        "messages": [{
-            "role": "user",
-            "content": "Summarize each of these news items:\n\n" + json.dumps(
-                [{"link": i["link"], "title": i["title"], "source": i["source"],
-                  "blurb": i["summary"]} for i in batch],
-                ensure_ascii=False,
-            ),
-        }],
+        "system": system,
+        "output_config": {"format": {"type": "json_schema", "schema": schema}},
+        "messages": [{"role": "user", "content": user_content}],
     }
     req = Request(
         API_URL,
@@ -90,7 +105,7 @@ def call_claude(api_key, batch):
             with urlopen(req, timeout=300) as r:
                 body = json.loads(r.read())
             text = next(b["text"] for b in body["content"] if b["type"] == "text")
-            return json.loads(text)["items"]
+            return json.loads(text)
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 529) and attempt < 3:
                 wait = 15 * (attempt + 1)
@@ -98,8 +113,31 @@ def call_claude(api_key, batch):
                 time.sleep(wait)
                 continue
             print(f"  !! HTTP {e.code}: {e.read()[:300]}", file=sys.stderr)
-            return []
-    return []
+            return None
+    return None
+
+
+def build_brief(api_key, items):
+    """Regenerate the front-page Brief from the last ~72h of items."""
+    from datetime import datetime, timedelta, timezone
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=72)).isoformat()
+    recent = [i for i in items if i.get("date") and i["date"] >= cutoff]
+    if len(recent) < 10:  # thin news window — use the newest 40 instead
+        recent = sorted(items, key=lambda x: x.get("date") or "", reverse=True)[:40]
+    payload = [{"link": i["link"], "title": i["title"], "source": i["source"],
+                "blurb": (i.get("aiSummary") or i["summary"])[:250]} for i in recent]
+    res = call_claude(
+        api_key, BRIEF_SYSTEM, BRIEF_SCHEMA,
+        "Write today's brief from these items:\n\n" + json.dumps(payload, ensure_ascii=False),
+    )
+    if not res or not res.get("bullets"):
+        return None
+    valid = {i["link"] for i in recent}
+    return {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "bullets": [b.strip() for b in res["bullets"] if b.strip()][:5],
+        "links": [l for l in res.get("links", []) if l in valid][:8],
+    }
 
 
 def main():
@@ -113,22 +151,34 @@ def main():
     data = json.loads(re.sub(r"^window\.NEWS_DATA = |;\s*$", "", raw.strip()))
     items = data["items"]
     todo = [i for i in items if not i.get("aiSummary")]
-    if not todo:
-        print("All items already enriched.")
-        return
-    print(f"Enriching {len(todo)} of {len(items)} items with {MODEL}...")
-
     by_link = {i["link"]: i for i in items}
     done = 0
-    for start in range(0, len(todo), BATCH_SIZE):
-        batch = todo[start:start + BATCH_SIZE]
-        for res in call_claude(api_key, batch):
-            it = by_link.get(res.get("link"))
-            if it and res.get("summary"):
-                it["aiSummary"] = res["summary"].strip()
-                it["whyMatters"] = [w.strip() for w in res.get("why", []) if w.strip()][:3]
-                done += 1
-        print(f"  {min(start + BATCH_SIZE, len(todo))}/{len(todo)} processed")
+    if todo:
+        print(f"Enriching {len(todo)} of {len(items)} items with {MODEL}...")
+        for start in range(0, len(todo), BATCH_SIZE):
+            batch = todo[start:start + BATCH_SIZE]
+            user = "Summarize each of these news items:\n\n" + json.dumps(
+                [{"link": i["link"], "title": i["title"], "source": i["source"],
+                  "blurb": i["summary"]} for i in batch],
+                ensure_ascii=False,
+            )
+            res = call_claude(api_key, SYSTEM, SCHEMA, user)
+            for row in (res or {}).get("items", []):
+                it = by_link.get(row.get("link"))
+                if it and row.get("summary"):
+                    it["aiSummary"] = row["summary"].strip()
+                    it["whyMatters"] = [w.strip() for w in row.get("why", []) if w.strip()][:3]
+                    done += 1
+            print(f"  {min(start + BATCH_SIZE, len(todo))}/{len(todo)} processed")
+    else:
+        print("All items already enriched.")
+
+    brief = build_brief(api_key, items)
+    if brief:
+        data["highlights"] = brief
+        print(f"Brief regenerated: {len(brief['bullets'])} takeaways, {len(brief['links'])} stories.")
+    else:
+        print("Brief unchanged (generation failed or returned empty).")
 
     payload = "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"
     path.write_text(payload, encoding="utf-8")

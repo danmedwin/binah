@@ -118,6 +118,57 @@ select.src {
   background: var(--card); color: var(--ink-soft); cursor: pointer; max-width: 190px;
 }
 
+/* ============ The Brief (highlights) ============ */
+.brief {
+  max-width: 1180px; margin: 26px auto 6px; padding: 0 28px;
+  animation: settle .7s .14s ease both;
+}
+.brief-panel {
+  background: var(--ink); color: var(--paper);
+  border-radius: 14px; padding: 26px 30px 22px;
+  box-shadow: 0 10px 30px -12px rgba(30,42,58,.35);
+}
+.brief-kicker {
+  font-family: 'Instrument Sans', sans-serif; font-size: 11px; font-weight: 600;
+  letter-spacing: .22em; text-transform: uppercase; color: var(--gold);
+  display: flex; align-items: center; gap: 12px;
+}
+.brief-kicker::after { content: ""; flex: 1; height: 1px; background: color-mix(in srgb, var(--gold) 40%, transparent); }
+.brief h2 {
+  font-family: 'Fraunces', serif; font-weight: 600; font-size: 24px; margin: 6px 0 14px;
+}
+.brief h2 .heb { font-family: 'David Libre', serif; color: var(--gold); }
+.brief ol { list-style: none; margin: 0; padding: 0; counter-reset: brief; }
+.brief ol li {
+  counter-increment: brief; position: relative;
+  padding: 8px 0 8px 44px; font-size: 15.5px; line-height: 1.5;
+  border-top: 1px solid color-mix(in srgb, var(--paper) 14%, transparent);
+}
+.brief ol li::before {
+  content: counter(brief);
+  position: absolute; left: 4px; top: 7px;
+  font-family: 'Fraunces', serif; font-weight: 900; font-size: 24px;
+  color: var(--gold); opacity: .9;
+}
+.brief-stories {
+  margin-top: 14px; padding-top: 12px;
+  border-top: 1px solid color-mix(in srgb, var(--paper) 14%, transparent);
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline;
+}
+.brief-stories .lbl {
+  font-family: 'Instrument Sans', sans-serif; font-size: 10.5px; font-weight: 600;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-right: 4px;
+}
+.brief-stories a {
+  font-family: 'Instrument Sans', sans-serif; font-size: 12.5px; font-weight: 500;
+  color: var(--paper); text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--paper) 30%, transparent);
+  border-radius: 99px; padding: 4px 12px;
+  transition: border-color .15s, color .15s;
+}
+.brief-stories a:hover { border-color: var(--gold); color: var(--gold); }
+.brief-stories a .s { opacity: .55; font-weight: 400; }
+
 /* ============ Spotlight ============ */
 .spotlight {
   max-width: 1180px; margin: 26px auto 8px; padding: 0 28px;
@@ -251,6 +302,15 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
   <input class="search" id="search" type="search" placeholder="Search headlines…">
 </nav>
 
+<section class="brief" id="brief" hidden>
+  <div class="brief-panel">
+    <div class="brief-kicker">The Brief · <span id="briefDate"></span></div>
+    <h2><span class="heb">הָעִקָּר</span> HaIkar — What You Need to Know</h2>
+    <ol id="briefList"></ol>
+    <div class="brief-stories" id="briefStories"></div>
+  </div>
+</section>
+
 <section class="spotlight" id="spotlight" hidden>
   <div class="spot-head">
     <h2><span class="heb">בִּינָה וֶאֱמוּנָה</span> Binah Ve'emunah — AI &amp; Religion</h2>
@@ -267,7 +327,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <footer>
   <div><span class="heb">בִּינָה</span> Binah — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v2.0 · refresh with <code>python3 fetch_news.py</code> · summaries via <code>enrich_news.py</code></div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v3.0 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 
@@ -352,7 +412,35 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
       body + why + hits + listen + '</article>';
   }
 
+  function renderBrief() {
+    var briefEl = document.getElementById('brief');
+    var hl = DATA.highlights;
+    // The Brief shows only on the unfiltered Everything view.
+    if (!hl || !hl.bullets || !hl.bullets.length ||
+        state.tab !== 'all' || state.q || state.src) {
+      briefEl.hidden = true;
+      return;
+    }
+    briefEl.hidden = false;
+    document.getElementById('briefDate').textContent =
+      new Date(hl.generatedAt || Date.now()).toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
+    document.getElementById('briefList').innerHTML = hl.bullets.map(function (b) {
+      return '<li>' + esc(b) + '</li>';
+    }).join('');
+    var linked = (hl.links || []).map(function (l) {
+      return items.filter(function (i) { return i.link === l; })[0];
+    }).filter(Boolean);
+    document.getElementById('briefStories').innerHTML = linked.length
+      ? '<span class="lbl">The stories</span>' + linked.map(function (i) {
+          return '<a href="' + esc(i.link) + '" target="_blank" rel="noopener">' +
+            esc(i.title.length > 64 ? i.title.slice(0, 62) + '…' : i.title) +
+            ' <span class="s">· ' + esc(i.source) + '</span></a>';
+        }).join('')
+      : '';
+  }
+
   function render() {
+    renderBrief();
     var visible = items.filter(matches);
 
     // Spotlight: only on Everything tab, unfiltered by tab but respecting search/src

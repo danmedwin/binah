@@ -269,26 +269,28 @@ def process_feed(feed):
     return out
 
 
-def load_previous_enrichment():
-    """Map link -> {aiSummary, whyMatters} from the existing data.js, so a
-    refresh doesn't drop (or re-pay for) summaries already generated."""
+def load_previous():
+    """Carry enrichment (by link) and the last Brief over from the existing
+    data.js, so a refresh doesn't drop or re-pay for what's already generated.
+    enrich_news.py regenerates the Brief when a key is available."""
     path = HERE / "data.js"
     if not path.exists():
-        return {}
+        return {}, None
     try:
         raw = path.read_text(encoding="utf-8")
         data = json.loads(re.sub(r"^window\.NEWS_DATA = |;\s*$", "", raw.strip()))
-        return {
+        enrich = {
             i["link"]: {"aiSummary": i["aiSummary"], "whyMatters": i["whyMatters"]}
             for i in data.get("items", [])
             if i.get("aiSummary")
         }
+        return enrich, data.get("highlights")
     except Exception:
-        return {}
+        return {}, None
 
 
 def main():
-    previous = load_previous_enrichment()
+    previous, prev_highlights = load_previous()
     all_items = []
     with ThreadPoolExecutor(max_workers=6) as pool:
         futures = [pool.submit(process_feed, f) for f in FEEDS]
@@ -312,6 +314,7 @@ def main():
     data = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "feedCount": len(FEEDS),
+        "highlights": prev_highlights,
         "items": deduped,
     }
     payload = "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"
