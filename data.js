@@ -1,7 +1,224 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-10T14:35:57.873702+00:00",
+ "generatedAt": "2026-07-11T03:30:08.154921+00:00",
  "feedCount": 18,
+ "highlights": {
+  "generatedAt": "2026-07-11T03:30:28.219802+00:00",
+  "bullets": [
+   {
+    "text": "OpenAI released GPT-5.6 (Luna, Terra, Sol), ChatGPT Work for autonomous task completion, and GPT-Live voice mode; Apple sued OpenAI for allegedly stealing hardware secrets via former employees.",
+    "links": [
+     "https://openai.com/index/gpt-5-6",
+     "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+     "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets"
+    ]
+   },
+   {
+    "text": "OpenAI's head of safety Johannes Heidecke departed as the company restructured by merging research and safety teams amid leadership changes.",
+    "links": [
+     "https://www.wired.com/story/openai-head-of-safety-leaving/"
+    ]
+   },
+   {
+    "text": "Meta disabled its Instagram feature allowing AI deepfakes of public accounts without consent after backlash; meanwhile leadership insists AI content cannot be filtered, only labeled.",
+    "links": [
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+     "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
+    ]
+   },
+   {
+    "text": "Researchers found AI-generated fiction is readily detectable due to consistent stylistic patterns—ChatGPT overuses dream sequences, Gemini relies on character descriptions.",
+    "links": [
+     "https://www.404media.co/ai-fiction-is-easy-to-detect-because-its-stupid-and-bad-research-finds/"
+    ]
+   }
+  ]
+ },
  "items": [
+  {
+   "title": "[AINews] not much happened today",
+   "link": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-11T02:53:08+00:00",
+   "summary": "a quiet day after a week of nonstop model releases",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!7odD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa462b771-b4e5-4d7a-b815-ac4ca35903f4_1328x982.png",
+   "aiSummary": "Latent Space reports a quiet day in AI news after an intense week of model releases. No significant announcements or developments occurred.",
+   "whyMatters": [
+    "Signals a potential slowdown in the relentless pace of AI announcements, which is itself newsworthy in a fast-moving industry"
+   ]
+  },
+  {
+   "title": "OpenAI’s Head of Safety Is Leaving the Company",
+   "link": "https://www.wired.com/story/openai-head-of-safety-leaving/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-11T01:07:26+00:00",
+   "summary": "Johannes Heidecke’s departure comes as OpenAI tries to further integrate its research and safety teams.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "aiSummary": "Johannes Heidecke, OpenAI's Head of Safety, is departing the company as OpenAI restructures by merging its research and safety teams. No stated reason for his departure is provided.",
+   "whyMatters": [
+    "Safety leadership departures at major AI labs raise questions about organizational commitment to safety oversight",
+    "Integration of safety into general research teams could shift how safety concerns are prioritized versus speed of capability development"
+   ]
+  },
+  {
+   "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+   "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-10T23:56:48+00:00",
+   "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "aiSummary": "Meta disabled an Instagram feature it had just announced that allowed users to generate AI-generated images based on public accounts without the account owners' consent. The reversal came after public backlash.",
+   "whyMatters": [
+    "Demonstrates rapid course correction on controversial AI features in response to user and public concern",
+    "Highlights ongoing tension between AI content generation capabilities and creator consent and intellectual property rights"
+   ]
+  },
+  {
+   "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
+   "link": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-10T22:33:47+00:00",
+   "summary": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "aiSummary": "Apple sued OpenAI and Jony Ive's IO Products company, alleging that former Apple employees at OpenAI stole confidential hardware secrets, including presentations, prototypes, and supplier information. The lawsuit names a pattern of alleged trade secret theft.",
+   "whyMatters": [
+    "Major legal conflict between hardware and AI leaders signals escalating IP disputes in the sector",
+    "Raises questions about enforcement and consequences for talent mobility between tech giants in sensitive areas"
+   ]
+  },
+  {
+   "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
+   "link": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-10T20:44:05+00:00",
+   "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "aiSummary": "Apple is suing OpenAI, claiming the company encouraged former Apple employees to bring confidential presentations, prototypes, and supplier details to advance OpenAI's hardware ambitions. (Duplicate of previous item with additional detail.)",
+   "whyMatters": [
+    "Reinforces the Apple-OpenAI legal conflict as a serious IP matter involving hardware strategy",
+    "Underscores the value companies place on hardware roadmaps and supply chain intelligence in AI competition"
+   ]
+  },
+  {
+   "title": "ChatGPT Just Became a Work Agent",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-10T19:29:38+00:00",
+   "summary": "OpenAI’s new ChatGPT Work brings the agentic systems that transformed coding into the broader world of knowledge work, allowing AI to operate across apps, files, and long-running projects. NLW breaks down what the new harness means, how GPT-5.6 compares with Fable 5, and why efficiency has suddenly become the defining battleground in the model race. In the headlines: Cursor expands beyond coding, ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122668151/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-10%2F427735252-44100-2-49bb9c467bcfd.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "aiSummary": "OpenAI released ChatGPT Work, an agentic system that operates across applications, files, and long-running projects to expand AI capabilities beyond coding into general knowledge work. The release reflects a shift in model competition toward efficiency gains.",
+   "whyMatters": [
+    "Marks expansion of agentic AI from specialized coding tasks to broader enterprise workflows",
+    "Efficiency has become the primary competitive metric in the model race, potentially shifting focus from raw capability scaling"
+   ]
+  },
+  {
+   "title": "AI Fiction Is Easy to Detect Because It's Stupid and Bad, Research Finds",
+   "link": "https://www.404media.co/ai-fiction-is-easy-to-detect-because-its-stupid-and-bad-research-finds/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-10T18:32:21+00:00",
+   "summary": "ChatGPT uses too many dream sequences and Gemini won’t stop describing characters.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "aiSummary": "Research shows that AI-generated fiction is relatively easy to detect because it exhibits consistent patterns—ChatGPT overuses dream sequences and Gemini relies heavily on character descriptions—making it detectable through stylistic analysis.",
+   "whyMatters": [
+    "Suggests current AI limitations in creative writing are systemic rather than minor, which may constrain use in content creation",
+    "Points to detectability as a potential safeguard against AI-generated misinformation and plagiarism in written content"
+   ]
+  },
+  {
+   "title": "Can AI replace vocation?",
+   "link": "https://religionnews.com/2026/07/10/can-ai-replace-vocation/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-07-10T18:04:07+00:00",
+   "summary": "(RNS) — For many, the uncertainty is about more than employment — it's about meaning and purpose.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "aiSummary": "Religion News Service explores whether AI can replace vocation, framing the question not merely as job displacement but as a deeper concern about meaning and purpose in faith and calling. The article examines existential and vocational dimensions of AI impact.",
+   "whyMatters": [
+    "Addresses the intersection of AI and religious concepts of calling and purpose, not just economic employment",
+    "Relevant to educators and clergy discussing how communities understand meaning and work in light of AI capabilities"
+   ]
+  },
+  {
+   "title": "Quoting Nilay Patel",
+   "link": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-10T17:05:26+00:00",
+   "summary": "The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it. There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time. You have to send that d",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "aiSummary": "Nilay Patel argues that augmented reality glasses fundamentally require continuous-recording cameras and edge processing that cannot be miniaturized into a glasses frame with current technology; data processing must be offloaded to external systems.",
+   "whyMatters": [
+    "Clarifies technical constraints on AR hardware development, undermining assumptions that fully local processing is imminent",
+    "Has implications for privacy and surveillance concerns in ubiquitous computing that may interest communities and educators thinking about data ethics"
+   ]
+  },
+  {
+   "title": "Disable autoplay and infinite scroll or risk massive fines, EU tells Meta",
+   "link": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-10T15:46:18+00:00",
+   "summary": "Digital Services Act may force Meta to make big changes on its platforms.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "AI Governance and Vedānta",
+   "link": "https://aiandfaith.org/insights/ai-governance-and-vedanta/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-07-10T14:40:49+00:00",
+   "summary": "Directly or indirectly, today’s major faith traditions trace their origins to the Axial Age 2,500 years ago when people started to reflect on their inner selves and ask what it",
+   "religionScore": 5,
+   "religionHits": [
+    "faith"
+   ],
+   "audio": "",
+   "image": "",
+   "aiSummary": "AI and Faith publishes an article connecting AI governance to Vedānta philosophy, rooting the discussion in the Axial Age when major faith traditions emerged and people began reflecting on inner consciousness and selfhood.",
+   "whyMatters": [
+    "Bridges AI governance conversations with philosophical and theological frameworks, offering non-Western perspectives on consciousness and technology",
+    "Relevant to rabbis and religious educators seeking to ground AI ethics in deep theological and philosophical traditions"
+   ]
+  },
   {
    "title": "Instagram’s Adam Mosseri: If you don’t like AI, ‘then you shouldn’t have it in your feed’",
    "link": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
@@ -504,40 +721,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Meta says its new AI model is ready to compete on coding",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-09T14:05:59+00:00",
-   "summary": "After reentering the AI race with its first in-house Muse Spark model in April, Meta is now opening up the doors to developers with a new model that can plug into AI coding software with the new Meta Model API. Meta says that Muse Spark 1.1 is a \"step-change\" from the first generation, with improvements […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "aiSummary": "Meta released Muse Spark 1.1, an update to the in-house model it launched in April, and opened it to developers through a new Meta Model API. Meta claims the new version is a major improvement and is positioning it to compete in AI coding tools.",
-   "whyMatters": [
-    "Meta is moving from building models for its own apps to selling model access directly, putting it in head-to-head competition with OpenAI, Anthropic, and Google.",
-    "More credible competitors in AI coding tends to push prices down and capabilities up across the board."
-   ]
-  },
-  {
-   "title": "Say hello to Claude Wrapped",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-09T13:40:10+00:00",
-   "summary": "The popularity of Spotify Wrapped has kicked off a wide range of year-in-review features, on apps from YouTube to Uber - and now, the lookback trend has come to AI. Anthropic on Thursday announced a \"reflect\" feature for its Claude chatbot, allowing users to see an analysis of their usage data over the past month, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "aiSummary": "Anthropic added a Spotify Wrapped-style \"reflect\" feature to Claude that shows users an analysis of their own chatbot usage over the past month. It follows the year-in-review trend that has spread from Spotify to YouTube, Uber, and now AI.",
-   "whyMatters": [
-    "Seeing a summary of how you actually use AI is a rare moment of self-reflection about a tool most people use unthinkingly — potentially useful framing for teaching about healthy technology habits.",
-    "It signals AI companies now treat usage itself as something to celebrate and gamify, which encourages more engagement."
-   ]
-  },
-  {
    "title": "LinkedIn and X Are Flooded With AI Spam, Browsing Data Suggests",
    "link": "https://www.404media.co/linkedin-and-x-are-flooded-with-ai-spam-browsing-data-suggests/",
    "source": "404 Media",
@@ -930,23 +1113,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Pickup Artist Mystery Has an AI Girlfriend",
-   "link": "https://www.wired.com/story/pickup-artist-mystery-has-an-ai-girlfriend/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-08T11:00:00+00:00",
-   "summary": "A new book claims that Mystery, who teaches awkward men how to hit on women, had sex and smoked weed with an AI chatbot named Miss Shira Always.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "aiSummary": "A new book claims that Mystery, the famous pickup artist who coaches men on approaching women, has been in an intimate relationship with an AI chatbot called Miss Shira Always, reportedly including sex and smoking weed together.",
-   "whyMatters": [
-    "Even people whose whole brand is human seduction are turning to AI companions — a striking data point on how normalized these relationships are becoming.",
-    "AI companionship raises real pastoral and ethical questions about loneliness, intimacy, and what counts as a relationship."
-   ]
-  },
-  {
    "title": "Helping K–12 educators build practical AI skills",
    "link": "https://openai.com/index/k-12-educators-practical-skills",
    "source": "OpenAI News",
@@ -962,23 +1128,6 @@ window.NEWS_DATA = {
     "Directly relevant to education: a major AI lab is now doing structured teacher training, not just selling tools.",
     "The format (hands-on workshops) could be a model for AI training in supplementary and religious schools.",
     "OpenAI shaping how teachers learn AI also means OpenAI shaping which tools and norms classrooms adopt."
-   ]
-  },
-  {
-   "title": "This Former DeepMind Exec Thinks the AI Arms Race Could End in Disaster",
-   "link": "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-08T09:30:00+00:00",
-   "summary": "Verity Harding tells WIRED that the US government’s nationalistic attitude toward AI is evidence that a worst-case scenario is taking shape.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "aiSummary": "Verity Harding, a former DeepMind executive, argues in a WIRED interview that the US government's nationalistic framing of AI competition shows a worst-case arms-race scenario is already taking shape, and that this race could end in disaster.",
-   "whyMatters": [
-    "An insider from a top lab publicly warning that US AI policy itself is the risk, not just the technology.",
-    "Arms-race framing crowds out safety, ethics, and international cooperation — the moral stakes here are the story."
    ]
   },
   {
@@ -1657,23 +1806,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
-   "link": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-02T18:25:00+00:00",
-   "summary": "Research: Using DSPy to evaluate and improve Datasette Agent's SQL system prompts One of this morning's AIE keynotes covered dspy , which reminded me I've been meaning to see if it could help me improve the system prompt used by Datasette Agent - so I fired off an asynchronous research task in Claude Code for web using Claude Fable 5: Pip install the latest Datasette alpha and datasette-agent and ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "aiSummary": "Prompted by a conference keynote on DSPy, Willison ran an asynchronous research task in Claude Code using Fable 5 to test whether DSPy could evaluate and improve the SQL system prompt used by his Datasette Agent. It's an experiment in using one AI framework to optimize another AI tool's instructions.",
-   "whyMatters": [
-    "Prompt-writing is starting to be automated and measured rather than hand-crafted — a shift in how AI systems get built.",
-    "The 'fire off an async research task' workflow is itself a glimpse of delegating open-ended work to an agent."
-   ]
-  },
-  {
    "title": "Achieving operational excellence with AI",
    "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
    "source": "MIT Tech Review · AI",
@@ -1777,24 +1909,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Companies Are Throttling Employees’ AI Use Because It’s Too Expensive",
-   "link": "https://www.404media.co/companies-are-throttling-employees-ai-use-because-its-too-expensive/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-02T10:00:09+00:00",
-   "summary": "Sources and leaks from Amazon, Adobe, Atlassian, Citi, and more show what is really happening with AI right now: companies are trying to rein in AI use as costs spiral out of control.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "aiSummary": "Leaks and sources from Amazon, Adobe, Atlassian, Citi, and other large companies show employers throttling employees' AI use because costs are spiraling. After pushing adoption hard, companies are now imposing limits to rein in spending.",
-   "whyMatters": [
-    "Punctures the assumption that AI at scale is cheap — even giant companies are hitting real budget walls.",
-    "For small organizations and nonprofits, it's a caution to budget for AI as a recurring, growing cost, not a one-time tool.",
-    "Suggests the 'unlimited AI for everyone' era may be a subsidized phase rather than the steady state."
-   ]
-  },
-  {
    "title": "Image Generation and Visual Intelligence with Black Forest Labs",
    "link": "https://share.transistor.fm/s/6d8dad5f",
    "source": "Practical AI",
@@ -1809,23 +1923,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A technical insider's view of the image-generation stack behind tools many creators now use daily.",
     "Image editing (not just generation) is becoming the practical workhorse — relevant to anyone producing visual materials, from slides to worship media."
-   ]
-  },
-  {
-   "title": "[AINews] not much happened today",
-   "link": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-02T07:10:14+00:00",
-   "summary": "another quiet day.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/4sX_He5c4sI",
-   "aiSummary": "Latent Space's AINews roundup reports a quiet day in the AI industry, with no major model releases or announcements to cover.",
-   "whyMatters": [
-    "A slow news day is a useful signal in itself — the release cadence has been relentless, and pauses are rare.",
-    "Skippable unless you want the small-item roundup these digests still include."
    ]
   },
   {
@@ -1861,23 +1958,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Self-improving agent loops are the mechanism behind claims of accelerating AI progress — worth understanding the concrete version, not just the hype.",
     "The 'humans remain central' claim from someone building the automation is a notable counterweight to replacement narratives."
-   ]
-  },
-  {
-   "title": "Podcast: The AI Tokenpocalypse Is Here",
-   "link": "https://www.404media.co/podcast-the-ai-tokenpocalypse-is-here/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-01T20:40:59+00:00",
-   "summary": "How companies are burning through their AI tokens; and the fake AI-generated flowers all over Etsy, eBay, and Amazon.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "aiSummary": "A 404 Media podcast episode on two stories: companies burning through their AI token budgets faster than expected, and a flood of fake AI-generated flower listings on Etsy, eBay, and Amazon.",
-   "whyMatters": [
-    "Token overspending suggests real AI usage costs are biting businesses, complicating the 'AI is getting cheap' story.",
-    "The fake-flowers story is a concrete example of AI-generated deception in everyday commerce — a ready-made honesty and geneivat da'at teaching case."
    ]
   },
   {
@@ -2155,23 +2235,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Developer availability is what turns model announcements into tools people actually use in apps and workflows.",
     "Relevant if any of your own image-generation pipelines could switch to the cheaper Lite tier."
-   ]
-  },
-  {
-   "title": "Trump asked Musk for SpaceX stock to seed US kids’ savings accounts, report says",
-   "link": "https://arstechnica.com/tech-policy/2026/06/spacex-may-donate-stock-to-trumps-savings-accounts-for-kids-report-says/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-06-30T15:38:08+00:00",
-   "summary": "Sources suggest Musk may be mulling big donation to Trump Accounts.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "aiSummary": "According to a report cited by Ars Technica, President Trump asked Elon Musk for SpaceX stock to seed the government's new savings accounts for children ('Trump Accounts'), and sources suggest Musk may be considering a large donation.",
-   "whyMatters": [
-    "An unusual entanglement of a private space company, presidential politics, and children's savings — worth watching for the precedent it sets.",
-    "Only tangentially an AI story; it's here mainly as tech-policy context around Musk."
    ]
   },
   {
@@ -2959,24 +3022,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "This Week in AI in 5 Minutes: Fable Chaos Edition",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/This-Week-in-AI-in-5-Minutes-Fable-Chaos-Edition-e3kp7dn",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-14T15:02:29+00:00",
-   "summary": "This week in AI, Fable 5 dominated the conversation — first as the most powerful new model release, then as the center of a major access and governance controversy. Plus, SpaceX’s IPO, the rise of token panic, and what to watch next from OpenAI. This Week in AI in 5 Minutes is a fast catch-up version of The AI Daily Brief for extremely busy people. Check out the new ⁠⁠⁠https://aidailybrief.ai/⁠⁠ T",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121461623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-14%2F426117624-44100-2-4aafec7a23989.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "aiSummary": "A five-minute weekly recap dominated by Fable 5 — first celebrated as the most powerful new model release, then engulfed in a major access and governance controversy. Also covered: SpaceX's IPO, rising 'token panic' over AI costs, and what to watch next from OpenAI.",
-   "whyMatters": [
-    "The fastest way to catch up on the Fable 5 saga if you missed the week.",
-    "'Token panic' — anxiety over AI usage costs — is becoming its own story with real budget implications for AI users.",
-    "The release-then-controversy arc of Fable 5 captures how fast AI triumph can turn into governance crisis."
-   ]
-  },
-  {
    "title": "Zero Trust for AI Agents",
    "link": "https://share.transistor.fm/s/5c1a087d",
    "source": "Practical AI",
@@ -3194,44 +3239,5 @@ window.NEWS_DATA = {
     "McLuckie co-created Kubernetes, so his read on AI infrastructure carries weight about where enterprise deployment is going."
    ]
   }
- ],
- "highlights": {
-  "generatedAt": "2026-07-10T14:58:59.637966+00:00",
-  "bullets": [
-   {
-    "text": "A frontier-model week: OpenAI shipped the GPT-5.6 family (Sol, Terra, Luna) plus 'ChatGPT Work' after a government greenlight, and SpaceXAI answered with Grok 4.5 — its first Opus-class model.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-     "https://www.latent.space/p/ainews-spacexai-launches-grok-45"
-    ]
-   },
-   {
-    "text": "Anthropic launched Claude Fable 5 as a premium tier, and its researchers found a 'hidden space' where Claude puzzles over concepts — reading a model's mind is becoming a real research method.",
-    "links": [
-     "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
-     "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
-    ]
-   },
-   {
-    "text": "Leadership shake-up at OpenAI: Fidji Simo, CEO of AGI deployment, is stepping down due to illness.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
-    ]
-   },
-   {
-    "text": "The data walls are rising: OpenAI may have made a fatal misstep in its copyright fight with news organizations, and Patreon now blocks AI crawlers from creators' work.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-     "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/"
-    ]
-   },
-   {
-    "text": "For educators: an Ivy League professor's switch to an in-person final dropped scores 50% amid AI-cheating suspicions — the same week OpenAI launched an AI-skills program for K-12 teachers.",
-    "links": [
-     "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-     "https://openai.com/index/k-12-educators-practical-skills"
-    ]
-   }
-  ]
- }
+ ]
 };
