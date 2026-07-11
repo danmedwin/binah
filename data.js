@@ -1,42 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-11T10:44:30.462216+00:00",
+ "generatedAt": "2026-07-11T11:55:56.700940+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-11T10:44:37.939064+00:00",
+  "generatedAt": "2026-07-11T11:56:04.471383+00:00",
   "bullets": [
    {
-    "text": "OpenAI released GPT-5.6 (Sol, Terra, Luna) and ChatGPT Work, an agentic system that autonomously executes multi-hour workflows across applications—marking a shift from chatbot to autonomous worker.",
+    "text": "OpenAI released GPT-5.6 (Luna, Terra, Sol), ChatGPT Work agentic system, and GPT-Live voice model after government approval, marking major capability and pricing advances.",
     "links": [
-     "https://openai.com/index/gpt-5-6",
-     "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
+     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln",
+     "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"
     ]
    },
    {
-    "text": "Apple sued OpenAI alleging former Apple employees stole confidential hardware secrets including presentations, prototypes, and supplier information to advance OpenAI's hardware ambitions.",
+    "text": "Apple sued OpenAI and Jony Ive's IO Products for allegedly stealing confidential hardware secrets, presentations, prototypes, and supplier information from former Apple employees.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "OpenAI's head of safety Johannes Heidecke is departing as the company merges its research and safety teams; separately, Fidji Simo stepped down from leading AGI work due to a neuroimmune condition.",
+    "text": "OpenAI's Head of Safety Johannes Heidecke departed and CEO of AGI Deployment Fidji Simo stepped down to part-time advisor role due to illness, signaling leadership transitions.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/",
      "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
     ]
    },
    {
-    "text": "Meta disabled its Instagram feature enabling users to generate AI deepfakes of public accounts without consent after public backlash; Instagram head Mosseri rejected filtering AI content, favoring labeling instead.",
+    "text": "The New York Times alleges OpenAI faked inability to search training data and hid billions of ChatGPT logs, potentially exposing the company to sanctions in copyright litigation.",
     "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
+     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
     ]
    },
    {
-    "text": "The New York Times alleges OpenAI faked inability to search training data and hid billions of ChatGPT logs in copyright litigation, potentially exposing the company to court sanctions.",
+    "text": "Meta quickly disabled its Instagram deepfake-generation feature after public backlash, though executives continue pushing AI content integration without user filtering options.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+     "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center"
     ]
    }
   ]
