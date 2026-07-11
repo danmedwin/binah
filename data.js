@@ -1,34 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-11T03:49:09.933850+00:00",
+ "generatedAt": "2026-07-11T07:14:34.110551+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-11T03:30:28.219802+00:00",
+  "generatedAt": "2026-07-11T07:14:40.600265+00:00",
   "bullets": [
    {
-    "text": "OpenAI released GPT-5.6 (Luna, Terra, Sol), ChatGPT Work for autonomous task completion, and GPT-Live voice mode; Apple sued OpenAI for allegedly stealing hardware secrets via former employees.",
+    "text": "OpenAI released GPT-5.6 (Sol/Terra/Luna variants) and ChatGPT Work, an agentic system that operates autonomously across applications and files for hours-long tasks.",
     "links": [
      "https://openai.com/index/gpt-5-6",
      "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-     "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets"
+     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
     ]
    },
    {
-    "text": "OpenAI's head of safety Johannes Heidecke departed as the company restructured by merging research and safety teams amid leadership changes.",
+    "text": "Apple sued OpenAI and Jony Ive's IO Products, alleging former Apple employees stole confidential hardware secrets including prototypes and supplier information.",
     "links": [
-     "https://www.wired.com/story/openai-head-of-safety-leaving/"
+     "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+     "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "Meta disabled its Instagram feature allowing AI deepfakes of public accounts without consent after backlash; meanwhile leadership insists AI content cannot be filtered, only labeled.",
+    "text": "Key OpenAI leadership departed: Head of Safety Johannes Heidecke left as research and safety teams merged; Fidji Simo stepped down from AGI Deployment role due to neuroimmune illness.",
     "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
+     "https://www.wired.com/story/openai-head-of-safety-leaving/",
+     "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
     ]
    },
    {
-    "text": "Researchers found AI-generated fiction is readily detectable due to consistent stylistic patterns—ChatGPT overuses dream sequences, Gemini relies on character descriptions.",
+    "text": "Meta disabled its new Instagram feature allowing AI-generated deepfakes of public accounts without consent after public backlash, reversing the just-announced capability.",
     "links": [
-     "https://www.404media.co/ai-fiction-is-easy-to-detect-because-its-stupid-and-bad-research-finds/"
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
+    ]
+   },
+   {
+    "text": "Microsoft's carbon emissions rose 25 percent in 2025 to 34 million metric tons, primarily from AI expansion, moving further from climate targets.",
+    "links": [
+     "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026"
     ]
    }
   ]
