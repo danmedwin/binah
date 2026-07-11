@@ -83,6 +83,15 @@ a { color: inherit; }
 }
 .masthead .dateline b { color: var(--ink-soft); font-weight: 600; }
 .masthead .dateline span + span::before { content: "·"; margin-right: 10px; color: var(--rule); }
+.masthead .subscribe {
+  display: inline-block; margin-top: 12px;
+  font-family: 'Instrument Sans', sans-serif; font-size: 13px; font-weight: 600;
+  color: var(--gold); text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  border-radius: 99px; padding: 6px 16px;
+  transition: background .18s, color .18s;
+}
+.masthead .subscribe:hover { background: var(--gold); color: #fff; }
 
 /* ============ Controls ============ */
 .controls {
@@ -289,6 +298,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
   <h1><span class="heb">בִּינָה</span> Binah</h1>
   <div class="tagline">the news in machine intelligence — with an eye on faith, ethics, and Jewish life</div>
   <div class="dateline" id="dateline"></div>
+  <a class="subscribe" href="mailto:rabbi.dan@medw.in?subject=Subscribe%20to%20Binah&body=Please%20add%20me%20to%20the%20daily%20Binah%20digest.">📬 Get Binah as a daily email — Subscribe</a>
 </header>
 
 <nav class="controls" id="controls">
@@ -329,7 +339,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <footer>
   <div><span class="heb">בִּינָה</span> Binah — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.2 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.3 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 

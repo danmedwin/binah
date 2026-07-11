@@ -59,7 +59,11 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
    is just editing this secret (no extra Claude/API cost — the digest reuses the same
    daily summaries regardless of recipient count). Every email carries an Unsubscribe
    link + List-Unsubscribe header; requests arrive as a normal email in the sender's
-   inbox — honor them by removing that address from `DIGEST_TO`. Optional repo *variable*
+   inbox — honor them by removing that address from `DIGEST_TO`.
+5. Signups: the dashboard masthead has a Subscribe button that pre-fills a
+   "Subscribe to Binah" email to the sender address. A daily local Claude routine
+   (binah-subscriptions, noon) scans Gmail for subscribe/unsubscribe emails and
+   keeps `DIGEST_TO` in sync (manual additions: subscribers.txt, gitignored). Optional repo *variable*
    `DASHBOARD_URL` for the masthead link.
 4. The digest lands daily around 5:45am Atlanta (9:45 UTC — an hour earlier in winter).
    Sections: הָעִקָּר HaIkar takeaways with story links, הַאֲזָנָה Ha'azanah podcast picks,
@@ -75,4 +79,4 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 - Summary voice/model: `SYSTEM` and `MODEL` in `enrich_news.py`.
 
 ---
-v5.2 · built by Claude for Rabbi Dan Medwin
+v5.3 · built by Claude for Rabbi Dan Medwin
