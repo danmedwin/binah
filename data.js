@@ -1,42 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-11T11:55:56.700940+00:00",
+ "generatedAt": "2026-07-11T17:57:46.711053+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-11T11:56:04.471383+00:00",
+  "generatedAt": "2026-07-11T17:57:53.831143+00:00",
   "bullets": [
    {
-    "text": "OpenAI released GPT-5.6 (Luna, Terra, Sol), ChatGPT Work agentic system, and GPT-Live voice model after government approval, marking major capability and pricing advances.",
+    "text": "OpenAI released GPT-5.6 (Sol, Terra, Luna), ChatGPT Work agentic system, and GPT-Live voice model; GPT-5.6 is now Microsoft 365 Copilot's preferred model.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln",
+     "https://openai.com/index/gpt-5-6",
+     "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
      "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"
     ]
    },
    {
-    "text": "Apple sued OpenAI and Jony Ive's IO Products for allegedly stealing confidential hardware secrets, presentations, prototypes, and supplier information from former Apple employees.",
+    "text": "Apple sued OpenAI and Jony Ive's IO Products, alleging former Apple employees stole confidential hardware secrets including prototypes and supplier information.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "OpenAI's Head of Safety Johannes Heidecke departed and CEO of AGI Deployment Fidji Simo stepped down to part-time advisor role due to illness, signaling leadership transitions.",
+    "text": "OpenAI's Head of Safety Johannes Heidecke departed as the company restructures by merging research and safety teams; separately, Fidji Simo stepped down from leading AGI work due to illness.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/",
      "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
     ]
    },
    {
-    "text": "The New York Times alleges OpenAI faked inability to search training data and hid billions of ChatGPT logs, potentially exposing the company to sanctions in copyright litigation.",
+    "text": "New York Times alleges in copyright suit that OpenAI faked inability to search training data and hid or deleted billions of ChatGPT logs, potentially inviting court sanctions.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
     ]
    },
    {
-    "text": "Meta quickly disabled its Instagram deepfake-generation feature after public backlash, though executives continue pushing AI content integration without user filtering options.",
+    "text": "Meta disabled Instagram feature enabling AI deepfakes of public accounts without consent after backlash; separately, Patreon blocked AI crawlers from scraping creators' work for training data.",
     "links": [
      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center"
+     "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/"
     ]
    }
   ]
@@ -1842,24 +1842,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "An AI lab partnering with the studio behind acclaimed art-house films suggests AI is moving into serious creative production, not just tech demos.",
     "Worth watching for how artists and AI researchers negotiate creative control — a preview of debates every creative field will have."
-   ]
-  },
-  {
-   "title": "Behind the Blog: With Blogs Like These, Who Needs a Private Jet",
-   "link": "https://www.404media.co/behind-the-blog-with-blogs-like-these-who-needs-a-private-jet/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-03T10:00:02+00:00",
-   "summary": "This week, we discuss the Supreme Court, the private jet, and AI on the TV.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media's weekly behind-the-scenes discussion covers the Supreme Court, a private jet story, and AI showing up on television. It's the outlet's informal roundup rather than a single investigative piece.",
-   "whyMatters": [
-    "Light listening, but 404 Media's independent tech journalism often surfaces AI stories the bigger outlets miss.",
-    "The AI-on-TV thread tracks how AI is being framed for mainstream, non-technical audiences."
    ]
   },
   {
