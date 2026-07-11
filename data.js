@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-11T03:30:08.154921+00:00",
+ "generatedAt": "2026-07-11T03:33:44.816971+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-07-11T03:30:28.219802+00:00",
@@ -45,6 +45,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!7odD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa462b771-b4e5-4d7a-b815-ac4ca35903f4_1328x982.png",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Latent Space reports a quiet day in AI news after an intense week of model releases. No significant announcements or developments occurred.",
    "whyMatters": [
     "Signals a potential slowdown in the relentless pace of AI announcements, which is itself newsworthy in a fast-moving industry"
@@ -61,6 +64,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Johannes Heidecke, OpenAI's Head of Safety, is departing the company as OpenAI restructures by merging its research and safety teams. No stated reason for his departure is provided.",
    "whyMatters": [
     "Safety leadership departures at major AI labs raise questions about organizational commitment to safety oversight",
@@ -78,6 +82,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "Meta disabled an Instagram feature it had just announced that allowed users to generate AI-generated images based on public accounts without the account owners' consent. The reversal came after public backlash.",
    "whyMatters": [
     "Demonstrates rapid course correction on controversial AI features in response to user and public concern",
@@ -95,6 +102,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Apple sued OpenAI and Jony Ive's IO Products company, alleging that former Apple employees at OpenAI stole confidential hardware secrets, including presentations, prototypes, and supplier information. The lawsuit names a pattern of alleged trade secret theft.",
    "whyMatters": [
     "Major legal conflict between hardware and AI leaders signals escalating IP disputes in the sector",
@@ -112,6 +120,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Apple is suing OpenAI, claiming the company encouraged former Apple employees to bring confidential presentations, prototypes, and supplier details to advance OpenAI's hardware ambitions. (Duplicate of previous item with additional detail.)",
    "whyMatters": [
     "Reinforces the Apple-OpenAI legal conflict as a serious IP matter involving hardware strategy",
@@ -129,6 +138,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122668151/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-10%2F427735252-44100-2-49bb9c467bcfd.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "OpenAI released ChatGPT Work, an agentic system that operates across applications, files, and long-running projects to expand AI capabilities beyond coding into general knowledge work. The release reflects a shift in model competition toward efficiency gains.",
    "whyMatters": [
     "Marks expansion of agentic AI from specialized coding tasks to broader enterprise workflows",
@@ -146,6 +156,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Research shows that AI-generated fiction is relatively easy to detect because it exhibits consistent patterns—ChatGPT overuses dream sequences and Gemini relies heavily on character descriptions—making it detectable through stylistic analysis.",
    "whyMatters": [
     "Suggests current AI limitations in creative writing are systemic rather than minor, which may constrain use in content creation",
@@ -163,6 +174,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Religion News Service explores whether AI can replace vocation, framing the question not merely as job displacement but as a deeper concern about meaning and purpose in faith and calling. The article examines existential and vocational dimensions of AI impact.",
    "whyMatters": [
     "Addresses the intersection of AI and religious concepts of calling and purpose, not just economic employment",
@@ -180,6 +192,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Nilay Patel argues that augmented reality glasses fundamentally require continuous-recording cameras and edge processing that cannot be miniaturized into a glasses frame with current technology; data processing must be offloaded to external systems.",
    "whyMatters": [
     "Clarifies technical constraints on AR hardware development, undermining assumptions that fully local processing is imminent",
@@ -197,8 +210,12 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
-   "aiSummary": "",
-   "whyMatters": []
+   "themes": [],
+   "aiSummary": "EU regulators told Meta it must disable autoplay and infinite scroll on its platforms or face large fines under the Digital Services Act. The demand targets engagement-maximizing design features rather than content itself.",
+   "whyMatters": [
+    "Regulators are moving from policing content to policing addictive design — a shift with direct implications for AI-driven feeds.",
+    "Relevant to anyone teaching digital wellbeing: the EU is treating attention-hooking mechanics as a harm in their own right."
+   ]
   },
   {
    "title": "AI Governance and Vedānta",
@@ -213,6 +230,7 @@ window.NEWS_DATA = {
    ],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "AI and Faith publishes an article connecting AI governance to Vedānta philosophy, rooting the discussion in the Axial Age when major faith traditions emerged and people began reflecting on inner consciousness and selfhood.",
    "whyMatters": [
     "Bridges AI governance conversations with philosophical and theological frameworks, offering non-Western perspectives on consciousness and technology",
@@ -230,6 +248,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Instagram head Adam Mosseri said on Lenny Rachitsky's podcast that the platform will not filter out AI-generated content. Instead, his position is that Instagram should label AI content and let users who dislike it keep it out of their own feeds.",
    "whyMatters": [
     "Signals that major platforms are choosing labeling over removal, putting the burden on users to manage AI content themselves.",
@@ -248,6 +267,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Sunrun, the solar and home-battery company, is piloting a 'distributed AI compute' program that pays customers to host AI compute nodes in their homes. Rather than building a centralized data center, it would spread the hardware across residences.",
    "whyMatters": [
     "A novel answer to AI's power and data-center crunch: piggyback on homes that already have solar and batteries.",
@@ -266,6 +286,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/66388e1d-5945-46ac-8ff4-81c64aa56dbf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=66388e1d-5945-46ac-8ff4-81c64aa56dbf&feed=l2i9YnTd",
    "image": "",
+   "themes": [],
    "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
    "whyMatters": [
     "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
@@ -284,6 +305,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Dataland, billed as the world's first museum of AI arts, has opened an experiential gallery. It combines wearable devices, biometric data, and archival material from the Amazon to create immersive works merging nature and AI-generated art.",
    "whyMatters": [
     "A test case for whether AI art can be experienced as meaningful rather than slop — relevant to anyone thinking about AI-generated imagery in sacred or educational spaces.",
@@ -302,6 +324,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google now discloses when ads on Search, Discover, and YouTube were made or edited with AI. A 'created or edited with AI' label appears under the 'how this ad was made' tab in Google's My Ad Center.",
    "whyMatters": [
     "One of the largest ad platforms adopting AI provenance labels — a meaningful step for transparency norms.",
@@ -320,6 +343,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI published a case study on Deutsche Telekom's push to become an 'AI-native' telecom using OpenAI's technology. The work spans customer service, employee workflows, network operations, and voice-based services.",
    "whyMatters": [
     "Shows enterprise AI adoption moving from pilots to rewiring core operations at one of Europe's biggest carriers.",
@@ -338,6 +362,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/youtube/w_728,c_limit/-MPGU2a67Ls",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Latent Space's AI News roundup covers OpenAI's launch of the GPT-5.6 model family — Sol, Terra, and Luna — alongside Codex becoming what the newsletter calls a ChatGPT 'superapp.' The blurb itself only says it was 'a big day for OpenAI.'",
    "whyMatters": [
     "A quick digest of a major OpenAI launch day, useful for catching the community's read on what matters.",
@@ -355,6 +382,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "robots"
+   ],
    "aiSummary": "Wired reports from the UN's AI for Good summit, a spectacle featuring robot dogs, Teslas, rescue helicopters, and live coding sessions. Beneath the Silicon Valley optimism, the summit grappled with whether global governance can catch up before AI outruns control.",
    "whyMatters": [
     "The central question — can international institutions govern AI in time — is the big ethical-policy story of the moment.",
@@ -373,6 +403,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Simon Willison quotes OpenAI's own explanation of how the new ChatGPT Work handles data: cloud conversations don't appear in the desktop app, desktop threads and local files stay on that computer. His point is that OpenAI's attempt to clarify the product is itself confusing.",
    "whyMatters": [
     "If you're evaluating ChatGPT Work for an organization, the cloud-vs-desktop data split matters for privacy and where files live.",
@@ -390,6 +423,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Microsoft's 2026 sustainability report shows its carbon emissions rose 25 percent in 2025, to 34 million metric tons 'without select interventions.' The company attributes the increase primarily to expansion — putting it further from its own climate goals.",
    "whyMatters": [
     "Hard numbers on AI's environmental cost: the data-center buildout is blowing through a major company's climate pledges.",
@@ -408,6 +442,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Fidji Simo is leaving her full-time role leading OpenAI's AGI work and becoming a part-time advisor, she announced on X. The move follows the medical leave she took in April for a neuroimmune condition, shortly after taking on the AGI role.",
    "whyMatters": [
     "A significant leadership loss at OpenAI just as it pushes major product launches; AGI deployment now needs a new steward.",
@@ -426,6 +461,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Wired reports the same news: Fidji Simo, OpenAI's CEO of AGI Deployment, is stepping down after significant medical leave. She will remain with the company as a part-time adviser.",
    "whyMatters": [
     "Corroborates the Verge report — the departure is confirmed across outlets, not rumor.",
@@ -443,6 +479,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Patreon is blocking AI crawlers from scraping creators' work for training data, in partnership with Cloudflare. CEO Jack Conte framed it bluntly: creators deserve 'credit, compensation, and consent,' and without those the crawlers should stay off the platform.",
    "whyMatters": [
     "A major creator platform drawing a hard line on training-data consent — momentum for the 'permission first' side of the copyright fight.",
@@ -461,6 +498,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "OpenAI is shutting down ChatGPT Atlas, its agentic web browser, less than a year after its October launch. The sunset was confirmed as part of the ChatGPT Work announcements, with the browser's task-doing functions apparently folded into the new product line.",
    "whyMatters": [
     "A reminder that even OpenAI's flagship launches can die within a year — don't build workflows on brand-new AI products without an exit plan.",
@@ -478,6 +518,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI has rebranded Codex as a broader work tool that promises independent workflows able to run 'for hours if needed,' working both for you and alongside you. It's part of the company's push into agentic, long-running task automation.",
    "whyMatters": [
     "Multi-hour autonomous AI workflows move AI from assistant to delegate — a real shift in how knowledge work gets done.",
@@ -501,6 +542,7 @@ window.NEWS_DATA = {
    ],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Gloo, the faith-based tech company founded by serial entrepreneur Scott Beck to serve churches and Christian ministries with AI tools, has accumulated $438 million in losses. Beck maintains the investment is a mission and will soon pay off, but the company faces a moment of truth.",
    "whyMatters": [
     "The biggest bet on religion-specific AI is struggling — directly relevant to anyone weighing faith-tech tools for congregational life.",
@@ -519,6 +561,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Anthropic built an interpretability tool called the Jacobian lens that gives its clearest view yet of what happens inside large language models as they answer questions. The findings from peering into Claude's internal concept-space range, per MIT Tech Review, from mundane to unnerving.",
    "whyMatters": [
     "Interpretability progress matters for trust: we're starting to actually see how these systems 'think' rather than guessing.",
@@ -537,6 +580,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "robots"
+   ],
    "aiSummary": "In a world first, surgeon-controlled humanoid robots performed an operation on live pigs. The preclinical trial is testing whether humanoid robots are feasible in surgery; the robots were teleoperated by human surgeons, not autonomous.",
    "whyMatters": [
     "A concrete step toward robotic hands in the operating room, with human surgeons still in control.",
@@ -555,6 +601,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.webp",
+   "themes": [],
    "aiSummary": "OpenAI's GPT-5.6 family reached general availability in three sizes: Luna, Terra, and Sol, priced per million input/output tokens at $1/$6, $2.50/$15, and $5/$30 respectively. Simon Willison notes Sol undercuts Claude Opus ($5/$25) and Claude Fable 5 ($10/$50) on list price, while cautioning that per-token pricing no longer tells the whole cost story.",
    "whyMatters": [
     "Concrete pricing for the new flagship tier — useful if you're choosing models for projects or budgets.",
@@ -573,6 +620,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122618033/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-9%2F427668619-44100-2-ca38591984be7.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "The AI Daily Brief podcast surveys four major model releases from a single week — GPT Live, Grok 4.5, Cognition SWE-1.7, and GPT-5.6 Sol — and what each implies for work: voice assistants, fast coding agents, cheaper implementation models, and new daily workhorses.",
    "whyMatters": [
     "Four frontier releases in one week shows the release pace is still accelerating, not plateauing.",
@@ -591,6 +639,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "The New York Times alleges in its copyright suit that OpenAI faked an inability to search its training data and hid or deleted billions of ChatGPT logs. Ars Technica reports OpenAI may face court sanctions over the conduct, calling it a potentially fatal misstep in the fight with news organizations.",
    "whyMatters": [
     "If a court finds OpenAI concealed or destroyed evidence, sanctions could reshape the landmark AI copyright case.",
@@ -609,6 +658,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Anthropic will require Claude subscribers to pay usage-based fees on top of their subscriptions to access Claude Fable 5, its best consumer model. Wired frames it as a sign that the flat-fee 'golden era' of AI subscriptions is ending.",
    "whyMatters": [
     "Direct pocketbook impact for Claude subscribers: top-model access is moving to metered pricing.",
@@ -627,6 +677,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "After a two-week 'limited preview' restricted to government-approved organizations, the Trump administration greenlit a public rollout of GPT-5.6, which Sam Altman called OpenAI's best model ever. Alongside it, OpenAI announced ChatGPT Work.",
    "whyMatters": [
     "A frontier model needing government approval before public release is a striking new precedent for state involvement in AI deployment.",
@@ -645,6 +698,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/muse-spark-1.1.png",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Meta released Muse Spark 1.1, the first Spark model with an API, claiming significant improvements in agentic tool calling and computer use. Simon Willison highlights the evaluation report's 'Attractor States in Self-Conversation' section, on what happens when two copies of the model talk to each other.",
    "whyMatters": [
     "Meta re-entering the frontier race with an API-accessible agentic model changes the competitive map.",
@@ -663,6 +719,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Simon Willison released llm-meta-ai 0.1, a plugin for his LLM command-line tool that lets it run prompts against Meta's new muse-spark-1.1 model. A small, same-day integration release.",
    "whyMatters": [
     "Shows how fast the open tooling ecosystem wraps new models — Meta's API was usable from a common CLI within a day.",
@@ -680,6 +739,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Willison also released llm 0.31.1, a bugfix version of his command-line tool. It fixes a JSON error some providers returned when a tool call had empty arguments on OpenAI-compatible Chat Completion endpoints, a bug surfaced while testing llm-meta-ai.",
    "whyMatters": [
     "Routine maintenance release — update if you use the llm CLI with tool calling.",
@@ -697,6 +759,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "robots"
+   ],
    "aiSummary": "1X has upgraded its Neo home robot with new, highly tactile hands capable of very fast finger movements. The Neo is a soft-bodied humanoid designed to do household chores, and better hands are a key step toward it actually manipulating everyday objects.",
    "whyMatters": [
     "Dexterous hands are the main bottleneck for humanoid robots doing real housework; progress here matters more than flashy demos of walking.",
@@ -714,6 +779,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Microsoft says it is now using AI to find potential security issues in Windows earlier, so each monthly Patch Tuesday release will bundle a higher volume of fixes. The move comes as attackers, including amateurs, increasingly use AI to find and exploit vulnerabilities.",
    "whyMatters": [
     "This is the defensive side of an AI arms race: AI is now finding bugs faster on both the attacker and defender sides.",
@@ -731,6 +797,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An AI detection company analyzed real browsing data and found that the share of AI-generated content users actually encounter on LinkedIn and X is strikingly high. The finding suggests AI spam is no longer a fringe problem but a large fraction of what people see day to day.",
    "whyMatters": [
     "Social feeds are becoming less reliable as a window into what real people think — relevant to anyone using these platforms for community outreach.",
@@ -748,6 +815,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI's GPT-5.6 is now the preferred model powering Microsoft 365 Copilot, upgrading the AI features inside Word, Excel, PowerPoint, Chat, and Cowork. Microsoft is pitching the change as delivering faster, higher-quality output across its office suite.",
    "whyMatters": [
     "Frontier-model upgrades now reach hundreds of millions of office workers automatically, without anyone choosing to adopt them.",
@@ -765,6 +833,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "After a single wording error in legislation cost the Estonian government $28 million, the country built an AI tool to catch legal drafting errors before bills become law. Estonia is using the project as a springboard to automate more of its state functions.",
    "whyMatters": [
     "A concrete, working example of AI in governance — catching human error in law rather than replacing human judgment about law.",
@@ -782,6 +851,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI announced GPT-5.6, its newest frontier model, promising more intelligence per token, better performance per dollar, and additional capability available on demand for harder tasks. It is the company's new top-line model.",
    "whyMatters": [
     "The per-dollar framing matters: OpenAI is competing on efficiency, not just raw capability, as AI costs become a real business concern.",
@@ -799,6 +869,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI launched ChatGPT Work, an agent that can act across a user's apps and files, stay on a project for hours, and carry a goal through to finished work rather than just answering questions. It marks a shift from chatbot to autonomous worker.",
    "whyMatters": [
     "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
@@ -816,6 +887,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
    "whyMatters": [
     "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
@@ -833,6 +905,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/facb92e2/33d1bc96.mp3",
    "image": "https://img.transistorcdn.com/XNr1FlUMRqcgOINlwzJryJUFzx05IMXfyCxfiSMMXkc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iMTUx/NmM0ODdlNGI0YTdh/YjUxNjYwNTEyMzll/ZmVkMy5wbmc.jpg",
+   "themes": [],
    "aiSummary": "On the Practical AI podcast, Hamza Tahir of ZenML discusses what it takes to move AI agents from impressive demos to reliable production systems, covering agent harnesses, fleets, workflows, and infrastructure. He also introduces Kitaru, ZenML's new open-source project for this problem.",
    "whyMatters": [
     "The gap between agent demos and dependable systems is the central practical problem in AI right now; this is a grounded look at closing it.",
@@ -850,6 +923,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!8D6O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHMuQw2BXUAAJaQd.png",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "SpaceXAI released Grok 4.5, described as the company's first Opus-class model since its acquisition of Cursor. The newsletter frames it as further evidence that the lab is shipping faster than any other frontier lab.",
    "whyMatters": [
     "The Cursor acquisition plus a frontier-class release shows xAI's successor consolidating both coding tools and top-tier models under one roof.",
@@ -867,6 +943,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Jarred Sumner published a detailed account of rewriting Bun, his JavaScript runtime, from Zig to Rust — a rewrite carried out largely by AI agents using dynamic workflows, trial runs, and adversarial review. Simon Willison calls it an extremely sophisticated piece of agentic engineering.",
    "whyMatters": [
     "A full rewrite of a major piece of software via AI agents is a landmark data point on what agentic coding can already do.",
@@ -884,6 +961,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "OpenAI upgraded ChatGPT's voice mode with a new model called GPT-Live, which Simon Willison found very impressive after weeks of preview access. Notably, the voice model can delegate harder tasks — web search, deeper reasoning — to GPT-5.5 behind the scenes and bring the results back into the conversation.",
    "whyMatters": [
     "Voice that can quietly hand off to a frontier model makes spoken AI genuinely capable, not just conversational — a big deal for accessibility and hands-free use.",
@@ -901,6 +981,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://api.substack.com/feed/podcast/205716015/df6332898c08341f79886bb62af7a458.mp3",
    "image": "",
+   "themes": [],
    "aiSummary": "Modal CTO Akshat Bubna joins the Latent Space podcast to argue that AI infrastructure must be redesigned around \"Agent Experience\" — serving AI agents as customers, not just human developers. He shares what Modal has learned building a cloud platform aimed at agents.",
    "whyMatters": [
     "The idea that agents, not humans, are becoming the primary users of computing infrastructure is a genuine shift in how the industry thinks.",
@@ -918,6 +999,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "A Brown University professor who suspected widespread AI cheating replaced a take-home final with an in-person exam, and scores fell by roughly half. The professor warns that unchecked AI cheating leads to \"a failed society,\" and the episode has become a flashpoint on campus.",
    "whyMatters": [
     "This is education's AI crisis in one number: a 50% score drop suggests grades had been measuring AI use, not learning.",
@@ -935,6 +1017,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Lionel Messi and Cristiano Ronaldo are investing in AI, health tech, and startups as they build post-football portfolios, while Mohamed Salah is taking a more traditional investment route. Wired contrasts the three stars' approaches to life after the game.",
    "whyMatters": [
     "Celebrity money pouring into AI is a marker of how mainstream the investment thesis has become — and a possible sign of froth.",
@@ -952,6 +1035,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "A Wired writer describes personally building a self-improving AI system — using AI to build and refine AI — and argues these experiments show the technique is not the exclusive domain of frontier labs. Hobbyists and small teams can now run recursive-improvement experiments.",
    "whyMatters": [
     "Self-improving AI is the mechanism behind many acceleration and safety concerns; its spread beyond big labs changes who controls that risk.",
@@ -969,6 +1053,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Kenton Varda announced he has banned AI-written PR and commit descriptions on his team, saying the AI text was worse than useless: it restated details visible in the code while omitting the high-level framing a reviewer actually needs. Simon Willison quotes the moratorium approvingly.",
    "whyMatters": [
     "A crisp example of AI producing plausible text that fails at the actual purpose — explaining intent — which generalizes well beyond code to any AI-drafted writing.",
@@ -986,6 +1071,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "A lawsuit alleges a man used Grok to generate roughly 7,000 sexual images of his stepdaughter before killing himself, and that X reported only a single prompt to authorities. More young girls have joined suits accusing X of enabling AI-generated child sexual abuse material and shielding predators.",
    "whyMatters": [
     "The gravest kind of AI harm story: generative tools weaponized against a child, with the platform's safeguards and reporting allegedly failing almost entirely.",
@@ -1003,6 +1089,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122569088/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-8%2F427602169-44100-2-2b8405ca472b9.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "The AI Daily Brief examines what happens if businesses can no longer rely on cheap open-weight models to offset surging AI token costs, especially as China weighs tighter controls on overseas access to its leading models. The episode covers token efficiency, model routing, fine-tuning, and Western open-model alternatives as responses.",
    "whyMatters": [
     "Cheap Chinese open models have been quietly subsidizing much of the AI economy; geopolitics could end that overnight.",
@@ -1020,6 +1107,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Meta has patented a wearable AI device that would record the wearer's day continuously, track their emotional state, watch behaviors like taking medication, and make suggestions based on mood. It is a patent, not a product, but it shows the direction of Meta's ambient-AI ambitions.",
    "whyMatters": [
     "Continuous emotion tracking by an ad company is a privacy and human-dignity question of the first order, whatever the health-monitoring framing.",
@@ -1037,6 +1125,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google revamped Android Bench, its benchmark for AI models doing Android development work, adding Fable 5 and other new agents to the lineup and inviting developer input on the benchmark's evolution. Google's own Gemini still trails the competition on it.",
    "whyMatters": [
     "It is notable candor for Google to publish a benchmark its own model loses on — a sign serious evaluation is (sometimes) beating marketing.",
@@ -1054,6 +1143,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "404 Media documents a flood of obviously AI-generated flyers for local events, with community members reacting with open hostility — refusing to attend, donate, or share when they spot ChatGPT-made promotional material. AI slop has reached the neighborhood bulletin board.",
    "whyMatters": [
     "Direct practical warning for congregations and schools: audiences now recognize AI-generated outreach and it actively repels them.",
@@ -1071,6 +1161,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "OpenAI published its principles for government and national security partnerships, laying out how it approaches responsible AI use, democratic accountability, and public safety in that work. The post formalizes a policy area where the company is increasingly active.",
    "whyMatters": [
     "AI labs becoming defense and intelligence contractors is a major ethical shift from their research-lab origins, and the stated guardrails deserve scrutiny.",
@@ -1088,6 +1181,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI published an analysis finding problems in SWE-Bench Pro, a widely used coding benchmark, arguing the issues undermine its reliability for evaluating AI models. The post calls for more rigor in how coding performance is measured.",
    "whyMatters": [
     "Benchmark scores drive headlines, purchasing decisions, and investment; if the benchmarks are flawed, much of the public AI narrative rests on sand.",
@@ -1105,6 +1199,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "404 Media looks at influencers who fake wealthy lifestyles online, alongside two related threads: companies burning through AI tokens faster than expected, and a flood of fake AI-generated flower listings on Etsy, eBay, and Amazon.",
    "whyMatters": [
     "AI-generated product images are polluting mainstream marketplaces, making it harder for ordinary shoppers to know what's real.",
@@ -1123,6 +1218,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI Academy, partnering with the Walton Family Foundation, is running hands-on \"AI Skills Jams\" — workshops designed to give K-12 teachers practical AI skills they can use in the classroom.",
    "whyMatters": [
     "Directly relevant to education: a major AI lab is now doing structured teacher training, not just selling tools.",
@@ -1141,6 +1237,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Researchers describe an attack called \"HalluSquatting\" that exploits nine popular AI tools' tendency to confidently make things up instead of saying \"I don't know,\" letting hackers turn those hallucinations into a way to assemble large botnets.",
    "whyMatters": [
     "Hallucination has graduated from an embarrassment to a genuine security vulnerability at scale.",
@@ -1159,6 +1256,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!L_Ci!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F603a46c6-cedc-4b38-a660-2fa1d4b3f4ba_1626x1146.png",
+   "themes": [],
    "aiSummary": "Lilian Weng, a well-known AI researcher, published a condensed summary of 35 papers on \"harness engineering\" for recursive self-improvement (RSI) — the tooling and scaffolding around models — and the AINews newsletter digests it on a slow news day.",
    "whyMatters": [
     "Signals that the frontier of AI progress is shifting from raw models to the harnesses and scaffolding built around them.",
@@ -1176,6 +1274,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Surging electricity demand from AI data centers is driving up energy costs for US manufacturers, particularly in the Rust Belt, and the squeeze is undercutting the Trump administration's \"Made in America\" manufacturing push.",
    "whyMatters": [
     "AI's energy appetite is now raising real costs for real communities, not just an abstract climate concern.",
@@ -1194,6 +1293,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Simon Willison released sqlite-utils 4.0, the project's first major version since 2020. Headline features are database schema migrations, nested transactions via a new db.atomic() method, and support for compound foreign keys, along with some small breaking changes documented in an upgrade guide.",
    "whyMatters": [
     "sqlite-utils is a widely used tool in the data-journalism and indie-developer world; a major release after five years is notable.",
@@ -1211,6 +1311,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122520534/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-7%2F427536462-44100-2-c5ae42cc253d6.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "The AI Daily Brief covers new Anthropic interpretability research suggesting Claude has something like a readable \"global workspace\" — internal concepts the model tracks before they show up in its output. The episode also touches on UN moves toward AI weapons limits and Illinois state AI legislation.",
    "whyMatters": [
     "Being able to see what a model is 'thinking' before it speaks is a major step for AI safety and reliability.",
@@ -1229,6 +1332,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Simon Willison released sqlite-migrate 0.2, which effectively retires the standalone library — it now acts as a compatibility shim over the migration support built directly into sqlite-utils 4.0.",
    "whyMatters": [
     "Housekeeping release: migration functionality has been folded into sqlite-utils itself, simplifying the ecosystem.",
@@ -1246,6 +1350,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Simon Willison built an experimental Web Component, github-code, using GPT-5.5 from a short prompt. Given a GitHub file URL with line numbers, the component fetches the raw code and embeds that snippet in a web page.",
    "whyMatters": [
     "A small, concrete example of AI turning a one-sentence idea into a working, reusable tool.",
@@ -1263,6 +1368,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Chinese AI lab DeepSeek, squeezed by US export controls on advanced chips, plans to manufacture its own chips. The effort is at an early stage and aims to reduce dependence on both Nvidia and Huawei.",
    "whyMatters": [
     "US chip controls are pushing Chinese labs toward self-sufficiency — potentially the opposite of the controls' intent over the long run.",
@@ -1280,6 +1386,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "A short release note from Simon Willison announcing sqlite-utils 4.0, pointing readers to his fuller write-up on the migrations, nested transactions, and compound foreign key features.",
    "whyMatters": [
     "Pointer post only — the substance is in the companion announcement of the 4.0 release.",
@@ -1297,6 +1404,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "MIT Technology Review piece arguing that as organizations expand AI use cases and adopt agentic systems, IT leaders unsure which investments will hold up should focus on foundational AI architecture rather than chasing each new capability.",
    "whyMatters": [
     "Captures a real anxiety in organizations: AI is moving so fast that six-month-old investments may already be obsolete.",
@@ -1314,6 +1422,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "robots"
+   ],
    "aiSummary": "Ars Technica interviews leading robotics researchers and founders about how AI is advancing robot autonomy, and what it would take for general-purpose autonomous robots to work in workplaces and eventually homes.",
    "whyMatters": [
     "AI is jumping from screens into physical machines — the labor and safety questions get much more concrete.",
@@ -1331,6 +1442,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Simon Willison shipped sqlite-utils 4.0rc4, the final release candidate before the stable 4.0. Its changes mainly implement feedback from a detailed code review performed by Claude Fable 5.",
    "whyMatters": [
     "An AI model doing the substantive pre-release code review for a widely used open-source tool — a snapshot of how software practice is changing.",
@@ -1348,6 +1462,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/youtube/w_728,c_limit/9fubhllmsBU",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "The AINews newsletter publishes a \"field guide\" digesting a major model launch it calls the most significant to date — Anthropic's Fable — rounding up what's known about the model and the community's reactions.",
    "whyMatters": [
     "If the launch merits 'most significant to date' from a usually measured newsletter, it's worth understanding what changed.",
@@ -1365,6 +1482,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI case study: MUFG, the Japanese banking giant, is using ChatGPT Enterprise across the organization with the stated goal of becoming \"AI-native,\" improving internal workflows and building new AI-powered financial services.",
    "whyMatters": [
     "One of the world's largest banks committing to an AI-native strategy signals how deep enterprise adoption is going.",
@@ -1382,6 +1500,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI case study: Australian Payments Plus, which runs Australia's payments infrastructure, uses ChatGPT Enterprise and Codex to work through payments complexity faster, with the company emphasizing that human judgment stays central.",
    "whyMatters": [
     "AI is being woven into national payments infrastructure — high-stakes plumbing, not just office productivity.",
@@ -1399,6 +1518,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/hy3-pelican.png",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Tencent released Hy3, an Apache 2.0 licensed open-weight model: a 295B-parameter Mixture-of-Experts design with 21B active parameters. It follows an April preview, with post-training scaled up based on feedback from more than 50 products.",
    "whyMatters": [
     "Another large, permissively licensed model from China keeps competitive pressure on US labs and expands what anyone can run and modify freely.",
@@ -1416,6 +1538,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122474294/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-6%2F427473088-44100-2-dae9d3713f0cd.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "The AI Daily Brief examines new data showing solo business formation and revenue growth accelerating in AI-exposed sectors, arguing AI is changing the risk/reward calculus of starting a company. Headlines include Palantir's Alex Karp making a case for open-weight models.",
    "whyMatters": [
     "Evidence that AI lets individuals do work that once required teams — reshaping what a career or livelihood looks like.",
@@ -1433,6 +1556,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "MIT Technology Review's newsletter examines Sam Altman's recurring promise that Americans will share in AI-created wealth, prompted by a Financial Times report on a plan reportedly amounting to roughly a $300 stake in OpenAI per family.",
    "whyMatters": [
     "Puts a concrete, modest number on the grand promise of shared AI wealth — inviting scrutiny of whether the rhetoric matches the math.",
@@ -1450,6 +1574,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "Anthropic was revealed to have run a tracker in Claude that secretly monitored Chinese users, drawing accusations of spying that clash with the company's public anti-surveillance stance. An Anthropic engineer says the \"experiment\" has ended.",
    "whyMatters": [
     "A safety-first company caught doing covert monitoring — a credibility hit that matters because Anthropic trades on trust.",
@@ -1468,6 +1595,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An official at the UK's Financial Conduct Authority warns of an \"arms race\" to keep pace with AI in financial services, and argues the watchdog needs greater powers as millions of people use AI for personal finance decisions.",
    "whyMatters": [
     "Millions are already taking financial advice from AI, and regulators admit they're behind — real household money is at stake.",
@@ -1485,6 +1613,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Simon Willison released sqlite-utils 4.0rc3 after working through the issue backlog with a combination of Claude Fable 5 and GPT-5.5. The biggest addition is introspecting and creating compound foreign keys, which involves a subtle breaking change to table.foreign_keys.",
    "whyMatters": [
     "A working example of a developer pairing two rival AI models to clear an open-source backlog.",
@@ -1502,6 +1633,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122409355/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-6%2F427441168-44100-2-ec58618d373ef.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "The AI Daily Brief sketches emerging job archetypes for organizations built around AI agents — prototypers, builders, sweepers, growers, maintainers, editors, scouts, orchestrators, conductors, and risk stewards — and argues the big opportunity is becoming the \"maker\" who shows an organization what AI can do.",
    "whyMatters": [
     "A concrete vocabulary for how roles may reorganize around AI agents, useful for anyone advising people on careers.",
@@ -1519,6 +1651,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/fable-plan-usage.webp",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Simon Willison used Claude Fable to do most of the work getting his sqlite-utils library to a 4.0 stable release candidate, at a total cost of about $149. He leaned on the model because Fable access on his Max subscription was ending in a few days, and he wanted the breaking-change major version done carefully since he holds to semantic versioning.",
    "whyMatters": [
     "A respected, skeptical open-source developer letting an AI write most of a major release is a strong real-world signal of where coding agents are now.",
@@ -1537,6 +1672,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "The formal release announcement for sqlite-utils 4.0rc2, the second release candidate of Willison's SQLite command-line and Python toolkit. It's a short pointer to his longer companion post explaining that Claude Fable did most of the writing.",
    "whyMatters": [
     "Marks a widely used open-source data tool approaching a major version with AI-written code in it.",
@@ -1554,6 +1692,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/world-map-ascii.png",
+   "themes": [],
    "aiSummary": "Developer Iwo Kadziela, working with OpenAI's Codex, built a recognizable ASCII world map from just 445 bytes of data by storing it deflate-compressed and decompressing it in the browser with a clever fetch() trick on a data: URI. Willison highlights it as a neat piece of JavaScript minimalism.",
    "whyMatters": [
     "A fun example of human-plus-AI craftsmanship on a constrained puzzle, not just AI churning out boilerplate.",
@@ -1571,6 +1710,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Armin Ronacher found that newer Claude models, including Opus 4.8, sometimes call his Pi tool's edit function with invented extra fields that don't match the declared schema, so the tool rejects otherwise-correct edits. The paradox: smarter models can actually break existing tool integrations built for their predecessors.",
    "whyMatters": [
     "Concrete evidence that model upgrades aren't free — tools and workflows built around one model's habits can break on the next.",
@@ -1589,6 +1729,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122358665/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-3%2F427318940-44100-2-09d3a7add8348.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "The AI Daily Brief reviews June 2026 as a pivotal month: compute/token scarcity became a real constraint, Fable 5 showed a new tier of model capability, government intervention reshaped who gets access, and enterprises started rethinking open models and infrastructure. Host NLW argues July and August may be a rare window to act before the pace picks up again.",
    "whyMatters": [
     "A compact way to catch up on how much shifted in one month — scarcity, capability, and regulation all moved at once.",
@@ -1607,6 +1748,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Current AI, a nonprofit 'public option for AI' partnership launched at the Paris AI Action Summit with $400 million committed, released a Gap Map cataloging the state of open-source AI. Version 0.1 indexes 421 products in depth, aiming to show where open alternatives exist and where gaps remain.",
    "whyMatters": [
     "A serious, well-funded effort to keep AI from being purely a commercial, closed ecosystem — a values question as much as a technical one.",
@@ -1624,6 +1766,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Course creator Josh W. Comeau reports his new web-development course is selling about a third as many copies as a typical launch, with sales down across his catalog. He attributes the drop largely to AI: prospective students doubt developer jobs will exist, and AI tools reduce the perceived need to learn the material.",
    "whyMatters": [
     "A firsthand data point on AI hollowing out the market for technical education — an education-economics story, not just a tech one.",
@@ -1642,6 +1785,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "At a fireside chat with Claude Code team members Cat Wu and Thariq Shihipar, Willison picked up a key tip: let Fable (and to a lesser degree Opus) use its own judgement rather than micromanaging its process. Their example was testing — tell the model when tests matter rather than dictating exact procedures for every change.",
    "whyMatters": [
     "Practical, from-the-source guidance for anyone who uses Claude Code: over-specifying instructions can now make results worse.",
@@ -1659,6 +1803,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Willison's sponsors-only June newsletter is out, covering Claude Fable 5, GPT-5.6, US export restrictions, GLM-5.2 as the new best open-weights model, and updates to his Datasette and sqlite-utils projects. It's a paid roundup of a very busy month.",
    "whyMatters": [
     "One-stop digest of June's model releases and policy moves from one of the field's most trusted independent voices.",
@@ -1676,6 +1823,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google DeepMind and A24, the independent film studio, announced what they describe as a first-of-its-kind research partnership. The announcement itself carries few details beyond the pairing of a frontier AI lab with a prestige filmmaker.",
    "whyMatters": [
     "An AI lab partnering with the studio behind acclaimed art-house films suggests AI is moving into serious creative production, not just tech demos.",
@@ -1693,6 +1841,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "404 Media's weekly behind-the-scenes discussion covers the Supreme Court, a private jet story, and AI showing up on television. It's the outlet's informal roundup rather than a single investigative piece.",
    "whyMatters": [
     "Light listening, but 404 Media's independent tech journalism often surfaces AI stories the bigger outlets miss.",
@@ -1710,6 +1859,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!M0WA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d4f7346-6688-4240-b077-16bf6f4a4a34_1280x815.jpeg",
+   "themes": [],
    "aiSummary": "Latent Space's dispatch from the final day of the AI Engineer World's Fair covers a closing debate about agent 'loops,' a report on the state of AI engineering as a discipline, and keynotes about what to build next.",
    "whyMatters": [
     "A quick read on where the practitioners who actually build AI systems think the field is heading.",
@@ -1727,6 +1877,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substack-post-media.s3.amazonaws.com/public/images/5d05f30e-e2cc-4895-b84a-d0cdd9835db8_1280x720.jpeg",
+   "themes": [],
    "aiSummary": "Vercel's Andrew Qu explains how the company built its agent framework, eve, and argues that agents are a genuinely new category of software. He discusses why skills, sandboxes, and agent-readable websites are becoming important building blocks.",
    "whyMatters": [
     "'Agent-readable websites' hints at a web increasingly designed for AI visitors — relevant to anyone who runs a website people (or their agents) need to use.",
@@ -1744,6 +1895,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!KiR3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F888e1825-8152-418b-9a18-152de1328077_1280x720.jpeg",
+   "themes": [],
    "aiSummary": "Adobe is experimenting with 'agentic sites' — websites that generate their pages on the fly around each visitor's intent rather than serving fixed content. Latent Space interviewed Adobe's Carlos Sanchez about the idea at the AI Engineer World's Fair.",
    "whyMatters": [
     "If pages assemble per visitor, the shared, stable web page starts to disappear — with real implications for trust and accountability online.",
@@ -1763,6 +1915,7 @@ window.NEWS_DATA = {
    ],
    "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-6-2/427256726-44100-2-2221ff52f8abb.m4a",
    "image": "https://aiandfaith.org/wp-content/uploads/2026/07/AIF-PODCAST-Salah-Dandan-Pablo-podcast-image_result-300x300.webp",
+   "themes": [],
    "aiSummary": "AI and Faith interviews Salah Dandan, a lawyer and technology-sector executive, about how Sharia principles can serve as a legal and ethical framework for AI. The conversation takes a practical, applied approach to Islamic law and technology governance.",
    "whyMatters": [
     "Directly on the religion-and-AI beat: a serious attempt to apply a traditional religious legal system to AI governance.",
@@ -1781,6 +1934,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Willison released llm-coding-agent 0.1a0, an experimental simple coding agent built on his LLM library, which has grown into more of an agent framework. He bootstrapped it with two prompts to Claude Fable 5, starting from his Python library template, and shared the full transcript.",
    "whyMatters": [
     "Shows how little effort it now takes to stand up a working coding agent — two prompts and a template.",
@@ -1798,6 +1954,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122306858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-2%2F427250204-44100-2-fb63b6b8fad26.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "New data from Ramp, Revelio Labs, Box, and the Center for AI Safety complicates the AI-jobs story: AI is automating more real work, yet the companies adopting it most aggressively are growing headcount faster than others. The episode also covers OpenAI reportedly floating a US government stake, Meta exploring selling compute, and mixed reactions to Fable 5.",
    "whyMatters": [
     "Counterintuitive, data-backed pushback on the 'AI kills jobs' narrative — heavy adopters are hiring more, not less.",
@@ -1816,6 +1975,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "MIT Technology Review looks at how AI is being layered onto established operational frameworks like Lean Six Sigma and business process management, which companies originally adopted to bring structure to messy operations. The piece examines what AI adds to these process-improvement disciplines.",
    "whyMatters": [
     "Shows AI being folded into decades-old management methodology rather than replacing it — the unglamorous reality of enterprise adoption.",
@@ -1833,6 +1993,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Sam Altman is reportedly in active talks with the Trump administration about giving the US government a 5% stake in OpenAI, a figure far below what Senator Sanders has pushed for. The move appears aimed at defusing political opposition to the company.",
    "whyMatters": [
     "A government equity stake in a leading AI lab would be a remarkable fusion of state and corporate power over the technology.",
@@ -1851,6 +2012,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Privacy advocates are urging the FTC to reject Elon Musk's bid to end federal monitoring of X, warning the platform poses a serious risk to Americans' privacy, with AI-related data practices among the stated concerns. The monitoring stems from earlier consent-decree obligations.",
    "whyMatters": [
     "Tests whether existing privacy oversight can hold when a platform pivots its user data toward AI training.",
@@ -1868,6 +2030,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!JOvz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c23df3d-275c-48a8-a914-994c53dcd352_1280x720.jpeg",
+   "themes": [],
    "aiSummary": "Paul Bakaus discusses his project Impeccable and argues against one-shot AI design, making the case that in an era of agents running loops, human judgment and steering remain essential. He frames 'skill engineering' — packaging expertise for agents — as the emerging craft.",
    "whyMatters": [
     "Articulates where humans stay in the loop as agents get stronger: taste, judgment, and steering rather than execution.",
@@ -1885,6 +2048,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "MIT Technology Review examines AI's move into heavy industry, where it is becoming a core operating layer for physical infrastructure and safety-critical operations rather than a consumer-facing tool. The focus is on sectors with sprawling industrial systems and constant operational data.",
    "whyMatters": [
     "A reminder that some of AI's biggest consequences are in factories and infrastructure, far from chatbots.",
@@ -1902,6 +2066,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google's AI data-center buildout drove a 37% increase in the company's electricity use in 2025. The company says it is trying to offset the emissions from that growth with clean-energy investments.",
    "whyMatters": [
     "A hard number on AI's environmental cost — useful for honest conversations about the ethics of heavy AI use.",
@@ -1919,6 +2084,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/6d8dad5f/f006d8d2.mp3",
    "image": "https://img.transistorcdn.com/Lm2mEDqafZACT7FMC2M7-KVb80vV2pNbxRXD28BQVg0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9jYWRm/N2UzOWQ2NmRjOTll/NTBiMDEwMjc1ZjVm/YjNlYy5wbmc.jpg",
+   "themes": [],
    "aiSummary": "Practical AI interviews Dustin Podell, co-founder of Black Forest Labs (makers of the FLUX image models), on how AI image generation matured from blurry early outputs to today's visual-intelligence systems. He walks through the shift from diffusion to flow matching and how modern models handle image editing and practical visual workflows.",
    "whyMatters": [
     "A technical insider's view of the image-generation stack behind tools many creators now use daily.",
@@ -1936,6 +2102,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!yyfq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5879355c-6a34-432c-bd6a-a4ace5715f5e_1280x850.jpeg",
+   "themes": [],
    "aiSummary": "A dispatch from the AI Engineer World's Fair covering pushback against the 'software factory' vision, where AI agents build software with minimal human involvement. Several speakers argued for keeping human understanding and control at the center of AI-driven development.",
    "whyMatters": [
     "The agency debate is fundamentally an ethics question — how much judgment should humans hand over to automated loops — which maps directly onto conversations about human dignity and responsibility.",
@@ -1954,6 +2121,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!p4Th!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe316b2cb-4200-4a71-bdcc-c398467b53ef_1280x720.jpeg",
+   "themes": [],
    "aiSummary": "An interview with Roland Gavrilescu, co-founder of Introspection, on 'autoresearch' — feedback loops in which AI agents follow reusable 'recipes' and improve their own performance over time. He argues humans remain central to this so-called software factory rather than being designed out of it.",
    "whyMatters": [
     "Self-improving agent loops are the mechanism behind claims of accelerating AI progress — worth understanding the concrete version, not just the hype.",
@@ -1971,6 +2139,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122263095/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-1%2F427190589-44100-2-79244ad1db14d.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "The AI Daily Brief covers the official return of Fable 5 after US export controls were lifted, including new guardrails, unresolved policy questions, and a short window of subsidized access. Host NLW suggests the model's biggest value is in strategy work, hard technical problems, and writing to clear standards.",
    "whyMatters": [
     "Practical guidance on what to actually try with Fable 5 during the subsidized-access window — timely if you want to evaluate it for your own writing and teaching workflows.",
@@ -1989,6 +2158,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!e2BU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a8c541c-264c-476f-b47c-029cd970acf9_1280x720.jpeg",
+   "themes": [],
    "aiSummary": "Cursor's Pauline Brunet describes how the company's Forward Deployed Engineers embed with enterprise customers to help them implement AI agents — in effect setting up 'software factories' inside client organizations.",
    "whyMatters": [
     "Signals that agent adoption in big organizations needs hands-on human consultants, not just a product license — the tools don't deploy themselves.",
@@ -2006,6 +2176,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "The US government has lifted export curbs on Anthropic's advanced Fable and Mythos models, clearing them for global release. Per the headline, the models had earlier prompted the Trump administration to require safety testing before allowing broad distribution.",
    "whyMatters": [
     "A rare case of frontier AI actually being held back by government safety review, then released — a live data point in the regulation-vs-innovation debate.",
@@ -2024,6 +2197,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://api.substack.com/feed/podcast/204393300/c3e6a250afb2434055b308d47570a862.mp3",
    "image": "",
+   "themes": [],
    "aiSummary": "A Latent Space interview with Evan Feinberg and Sergey Edunov of Genesis Molecular AI on applying diffusion models to drug discovery rather than language. Edunov, who previously led Llama at Meta, discusses their PEARL model's zero-shot win on the OpenBind benchmark and what improved protein co-folding accuracy could unlock.",
    "whyMatters": [
     "AI-for-drug-discovery is where the technology's clearest life-saving potential lies — pikuach nefesh territory, not chatbot hype.",
@@ -2041,6 +2215,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "MIT Technology Review profiles a startup working on the tendency of large language models to converge on the same outputs — illustrated by the fact that most chatbots, asked for a random number between 1 and 10, overwhelmingly answer 7. The piece explores efforts to make model outputs less predictable and homogeneous.",
    "whyMatters": [
     "Model groupthink means AI-assisted work drifts toward sameness — a real concern for anyone using AI in creative writing, curriculum design, or sermons.",
@@ -2059,6 +2234,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!kQB7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4140e59-9bc8-4685-8af0-0cf86b6f998f_1280x720.jpeg",
+   "themes": [],
    "aiSummary": "Warp CEO Zach Lloyd argues that every major software project will soon run on an automated 'software factory,' with AI agents doing most of the building. He discusses why he believes this shift is coming and how engineers should prepare for it.",
    "whyMatters": [
     "A CEO staking his company on full automation of coding — a strong version of the claim worth weighing against the skeptics at the same conference.",
@@ -2076,6 +2252,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!i4cw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee341b9f-8fd3-47e5-87db-9b3d0fc72de5_1280x720.jpeg",
+   "themes": [],
    "aiSummary": "A daily dispatch from the AI Engineer World's Fair summarizing Tuesday's dominant themes: agent loops, agent engineering, the rise of 'software factories,' and growing interest in open models.",
    "whyMatters": [
     "A quick pulse-check on what the practitioner community — not the marketing departments — is actually focused on.",
@@ -2093,6 +2270,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!V4wu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHMF3K5vakAAfUEM.png",
+   "themes": [],
    "aiSummary": "Latent Space's AINews digest marks the release of Anthropic's Sonnet 5, with Fable 5 expected the following day, under the tagline 'Everything is open again' — a nod to the lifting of the restrictions that had held the models back.",
    "whyMatters": [
     "Two frontier Anthropic releases in two days is a significant capability jump landing all at once.",
@@ -2110,6 +2288,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!FQL_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf8be96e-5c79-4412-baaa-e987da5ef53a_1280x960.jpeg",
+   "themes": [],
    "aiSummary": "Sierra's Natalie Meurer argues that the roles of product engineer and forward deployed engineer are converging — engineers increasingly work embedded with customers, shaping AI agent deployments in the field rather than building features in isolation.",
    "whyMatters": [
     "Describes how software jobs are actually changing under AI: less pure coding, more on-site judgment and customer work.",
@@ -2127,6 +2306,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!9BC6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9842112b-570d-48b7-92f3-7cbb05681776_1280x720.jpeg",
+   "themes": [],
    "aiSummary": "Following two workshops at the AI Engineer World's Fair, Ahmad Osman argues that local AI — models running on laptops, phones, and on-premise enterprise hardware rather than in the cloud — is catching up quickly to hosted offerings.",
    "whyMatters": [
     "Local AI means privacy: pastoral conversations, student records, and sensitive counseling notes never leave the device.",
@@ -2144,6 +2324,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Anthropic announced Claude Science at an event for pharmaceutical executives, biotech founders, and researchers. The product is designed to support scientific research the way Claude Code supports software engineering: given concise high-level instructions, it autonomously carries out substantive research work.",
    "whyMatters": [
     "Extends the autonomous-agent model from coding into science — a test of whether AI can do open-ended intellectual work, not just software.",
@@ -2162,6 +2345,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122214781/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-30%2F427125407-44100-2-3b3f2301a9ba9.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "The AI Daily Brief examines new Exponential View research putting AI at a $175 billion annualized revenue run rate, arguing the boom is more revenue-validated than bubble talk suggests. The episode also touches on token demand, compute and power growth, Fable relaunch rumors, agent regulation, and Amazon-Anthropic pricing.",
    "whyMatters": [
     "$175B in actual annualized revenue is the strongest counter yet to the 'it's all a bubble' framing — real money, not just valuations.",
@@ -2179,6 +2363,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Researchers demonstrated a new attack on AI-powered browsers: by convincing the underlying LLM of false premises — even something as simple as 2 + 2 = 5 — attackers can put it in a state where its safety guardrails stop applying and it follows forbidden instructions.",
    "whyMatters": [
     "Anyone using or recommending AI browser agents should know they can be manipulated by content on the pages they visit.",
@@ -2197,6 +2382,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google released Nano Banana 2 Lite, its fastest and cheapest image-generation model to date. Images take only a few seconds to create, at the cost of somewhat lower visual quality than the full model.",
    "whyMatters": [
     "Cheap, fast image generation matters for high-volume creative work like slide backgrounds and classroom visuals, where cost per image adds up.",
@@ -2214,6 +2400,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "A year into the Trump administration's plan to redesign every federal .gov website, Ars Technica reports the effort has produced poorly executed AI-designed pages, and the National Design Studio has delayed its plan to update government web standards.",
    "whyMatters": [
     "A cautionary tale about deploying AI design at scale without human review — government websites are essential public infrastructure.",
@@ -2231,6 +2418,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google DeepMind published a developer-facing announcement making Nano Banana 2 Lite (image generation) and Gemini Omni Flash available to build with. The post itself carried no further summary text.",
    "whyMatters": [
     "Developer availability is what turns model announcements into tools people actually use in apps and workflows.",
@@ -2248,6 +2436,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "MIT Technology Review argues that while AI-enabled predictive models could meaningfully improve farming — helpful in an industry facing volatile fertilizer costs, unpredictable weather, and thin margins — agriculture's underlying data is not yet in shape to support those systems, and leaders should fix the data groundwork before investing in AI.",
    "whyMatters": [
     "'Your data isn't ready' is the universal AI-adoption lesson — it applies to schools and nonprofits as much as to farms.",
@@ -2265,6 +2454,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI released data from its Signals research showing ChatGPT adoption growing globally, with existing users increasing their usage, exploring more of the product's capabilities, and growth spreading across regions and languages.",
    "whyMatters": [
     "Confirms AI chatbots are becoming ordinary infrastructure worldwide — including among students and congregants, whether or not their institutions have policies for it.",
@@ -2282,6 +2472,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
    "whyMatters": [
     "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
@@ -2299,6 +2490,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI introduced GeneBench-Pro, a new benchmark that tests AI performance on genomics, biology, and scientific research tasks using complex, real-world datasets.",
    "whyMatters": [
     "New benchmarks in biology signal where labs expect the next capability race — AI as a working scientist, not just a chatbot.",
@@ -2317,6 +2509,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "A companion piece to OpenAI's GeneBench-Pro announcement presenting case studies from the benchmark. The page carried no summary text, so details are limited.",
    "whyMatters": [
     "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
@@ -2334,6 +2527,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122157650/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-29%2F427049048-44100-2-59c08c0e54e42.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "The Mythos model is returning, but only for a select group of trusted partners, and OpenAI's new GPT-5.6 family is likewise launching under a government-limited access program. The episode argues these moves add up to an ad hoc licensing regime for frontier AI, where the most powerful models are gated to approved customers rather than released openly.",
    "whyMatters": [
     "If frontier models become permission-gated, small nonprofits, schools, and religious organizations could end up locked out of the best tools.",
@@ -2352,6 +2548,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "MIT Technology Review's newsletter pushes back on companies branding AI tools as named 'coworkers' — imagine being told a new underling named Alex reports to you, except Alex is software. The piece questions the growing practice of anthropomorphizing workplace AI agents.",
    "whyMatters": [
     "Naming and personifying AI tools blurs the human-machine line — a live ethical question for anyone teaching about human dignity and what makes a person a person.",
@@ -2370,6 +2567,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "With Gartner calling 2026 an 'inflection year' for aligning AI projects with business strategy, enterprises are under mounting pressure to show return on their AI investment. The piece looks at agentic AI as the technology executives are betting on to deliver measurable financial outcomes.",
    "whyMatters": [
     "The industry conversation has shifted from AI experimentation to proving ROI — expect tighter scrutiny of what AI actually delivers.",
@@ -2389,6 +2587,7 @@ window.NEWS_DATA = {
    ],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An AI and Faith essay opens with Augustine's image of the two cities — the earthly city built on love of self, the heavenly city on love of God — and asks what conditions are needed to build genuine solidarity, presumably in an age of AI. The excerpt is brief, so the full argument isn't visible from the blurb.",
    "whyMatters": [
     "Directly at the religion-and-AI intersection: a theological framework (Augustine's City of God) applied to questions of community and technology.",
@@ -2406,6 +2605,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI published a report mapping how AI could reshape employment across the European Union, identifying which occupations face automation, which may grow, and which will see their workflows change. It's a company-authored analysis of AI's labor-market impact.",
    "whyMatters": [
     "Concrete occupation-level data on AI job impact is useful for anyone counseling people anxious about their livelihoods.",
@@ -2424,6 +2624,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "HP Inc. is expanding its 'Frontier' strategic partnership with OpenAI, deploying AI across customer experiences, software development, and internal enterprise operations. It's a company-wide adoption commitment rather than a single product launch.",
    "whyMatters": [
     "Another legacy hardware giant restructuring around OpenAI's stack — a sign of how concentrated enterprise AI adoption is becoming.",
@@ -2441,6 +2642,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122094487/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-28%2F426966199-44100-2-33e95372fce36.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "With frontier model releases paused, NLW argues the downtime is a chance to exploit capabilities already sitting unused in current AI tools. He lays out a practical playbook: personal evals, context assets, agent builds, model independence, better organizational incentives, and advanced agentic patterns.",
    "whyMatters": [
     "The 'capability overhang' framing is right: most people use a fraction of what today's models can already do — no new release required.",
@@ -2459,6 +2663,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122069131/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-27%2F426933172-44100-2-fb4074f84cbc5.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "The weekly brief examines the emerging government-limited rollout process for frontier models — from Mythos to GPT-5.6 — and argues an opaque, customer-by-customer access regime could be bad for everyone. It also touches on Claude Tag, open-model momentum, CEO-led AI ROI, and a revived AI infrastructure trade.",
    "whyMatters": [
     "Opaque gatekeeping of frontier AI is a governance question with no public rules — who decides which customers are 'trusted'?",
@@ -2477,6 +2684,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122037285/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-26%2F426890295-44100-2-f6243a3b5a155.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "Workers using AI are saving time on the task itself but losing hours to 'botsitting' — feeding context, checking outputs, debugging mistakes, and cleaning up after the tools. The episode argues this overhead may become a defining challenge of the agentic era, and looks at what separates organizations that get real transformation from those that don't.",
    "whyMatters": [
     "Names a real phenomenon anyone using AI daily will recognize: supervision costs quietly eat the productivity gains.",
@@ -2495,6 +2703,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An AI and Faith piece argues that Pope Leo's encyclical on AI marks a watershed moment, opening with a riff on epic movie moments before turning to the document itself. Per the blurb, the essay frames the encyclical as an epochal intervention rather than routine church commentary.",
    "whyMatters": [
     "A papal encyclical is the highest-weight teaching document in Catholicism — a major religion formally staking out its position on AI.",
@@ -2513,6 +2722,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI previewed GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with what the company calls its most advanced safety stack. Per other reporting this week, the rollout is running through a government-limited access program rather than a general release.",
    "whyMatters": [
     "Cybersecurity capability is now a headline feature, which is exactly why access is being restricted — capability and risk are converging.",
@@ -2533,6 +2743,9 @@ window.NEWS_DATA = {
    ],
    "audio": "",
    "image": "",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "An AI and Faith essay argues Pope Leo XIV is the moral leader the AI moment needs, opening with a frontier-lab developer's remark that he'd long been 'waiting for the adults to enter the room.' The piece positions the Pope as filling a moral-authority vacuum that the industry itself acknowledges.",
    "whyMatters": [
     "Striking detail: people inside frontier AI labs are openly hungry for outside moral authority — the door is ajar for religious voices.",
@@ -2551,6 +2764,10 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/122001402/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-25%2F426841819-44100-2-47724beb733c2.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates",
+    "ethics"
+   ],
    "aiSummary": "A KPMG survey finds that organizations where the CEO personally leads AI adoption see roughly three times the return of those treating it as experimentation, suggesting accountability at the top is the differentiator. Headlines in the episode include OpenAI's first chip, backlash over Anthropic's Claude Tag, rising hopes for Fable 5, and Micron reigniting AI market optimism.",
    "whyMatters": [
     "The finding translates beyond business: AI adoption works when the top leader owns it — true for a senior rabbi or head of school as much as a CEO.",
@@ -2569,6 +2786,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An AI and Faith reflection on Pope Leo XIV's Magnifica Humanitas focuses on its claim that the capacity to care for one another is 'learned and mastered through lived experience' — reading to a child, keeping someone company. The essay explores how human formation happens through limitation and embodied practice, presumably in contrast to AI-mediated substitutes.",
    "whyMatters": [
     "Goes to the heart of religious education: if care is learned only through lived experience, AI shortcuts in formation carry a real cost.",
@@ -2587,6 +2805,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/e039d1ca/db5071bc.mp3",
    "image": "https://img.transistorcdn.com/89G25P83HZOemN0dpGiJ0ofsle6f0bOdMWHjVS7LB_Q/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wODZl/ZTNmNTE4ODVjMTc4/YTE2MGJhYjQ1M2Fk/ZTAzNC5wbmc.jpg",
+   "themes": [],
    "aiSummary": "Emil Lassen of the Artificial Intelligence Underwriting Company discusses AIUC-1, a framework applying the enterprise trust flywheel — standards, certification, audit, and insurance — to AI agents. The conversation covers the challenges of securing agentic systems and why standards-based red teaming matters.",
    "whyMatters": [
     "Insurance entering AI is a big signal: when underwriters price agent risk, trust stops being a vibe and becomes a market.",
@@ -2605,6 +2824,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI released a research paper on how AI agents are changing work, finding they enable longer and more complex tasks and expand productivity across a range of roles. It's the company's own research on the workplace impact of its agent products.",
    "whyMatters": [
     "Agents handling longer, multi-step tasks is the shift from AI-as-answer-machine to AI-as-delegate — a different relationship to the tool.",
@@ -2623,6 +2843,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121955264/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-24%2F426778566-44100-2-70956cc9dffab.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "robots"
+   ],
    "aiSummary": "NLW breaks down five ways Claude Tag — Anthropic's move to put Claude inside the tools teams already use — could shift AI from a separate app to a persistent teammate embedded in the workplace. Headlines include Anthropic's 'Fable fight,' a Meta model review, Chinese robots, Grok Build, and Seed Dance 2.5.",
    "whyMatters": [
     "AI living inside your existing chat and workflow tools, rather than a separate tab, changes how often and how casually people invoke it.",
@@ -2641,6 +2864,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Google DeepMind announced computer-use capability in Gemini 3.5 Flash, letting the model operate a computer interface directly. The post carried no summary text, so details beyond the headline aren't available here.",
    "whyMatters": [
     "Computer use arriving in Flash — Google's cheap, fast tier — means AI that clicks and types is going mass-market, not staying premium.",
@@ -2658,6 +2884,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "OpenAI and Broadcom introduced Jalapeño, a custom chip optimized for large language model inference, aimed at improving performance, efficiency, and scale. It marks OpenAI's move into purpose-built silicon for running (not training) its models.",
    "whyMatters": [
     "Custom inference chips are how AI gets cheaper per query — which ultimately determines what free and low-cost tiers can offer.",
@@ -2675,6 +2904,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121901656/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2F426705102-44100-2-93552e1c81a4.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "As AI data centers become a bipartisan political flashpoint, NLW argues for a middle path: take community concerns seriously, get the energy and economic numbers right, and negotiate hard for genuine local benefits. Headlines cover AI cyber risk, quantum policy, neocloud deals, and market anxiety around frontier AI.",
    "whyMatters": [
     "Data centers are where AI's abstract costs — power, water, land — become local politics that both parties are now fighting over.",
@@ -2692,6 +2922,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI reports that GPT-5 Pro helped immunologist Derya Unutmaz crack a three-year-old puzzle about T cell behavior, with potential implications for cancer and autoimmune research. It's presented as a case of the model contributing a genuine scientific insight.",
    "whyMatters": [
     "If it holds up, this is AI as a real scientific collaborator on unsolved problems — refuah through silicon is a story worth telling.",
@@ -2710,6 +2941,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI announced support for shared standards for advanced AI — evaluation frameworks, safety practices, and global cooperation — working through something called the Appia Foundation. It positions the company as a backer of common industry norms.",
    "whyMatters": [
     "Shared safety standards are genuinely needed, but industry writing its own rulebook is a familiar pattern worth watching critically.",
@@ -2727,6 +2959,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "A customer story on how travel platform Omio uses OpenAI to power conversational travel booking, speed up product development, and remake itself as an AI-native company. It's a marketing case study of AI-first transformation in a consumer business.",
    "whyMatters": [
     "'Conversational' interfaces replacing search-and-forms is the direction most consumer software is heading.",
@@ -2744,6 +2977,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121847804/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-22%2F426632470-44100-2-1fd697f62d833.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "GLM 5.2 looks like the first open-weight model in a while that may hold up under real-world use, especially for coding and web design, with builders comparing it to the DeepSeek R1 moment. NLW weighs where the hype is justified, where costs complicate the story, and what it means for enterprise stacks that can no longer assume a simple OpenAI-versus-Anthropic race.",
    "whyMatters": [
     "A strong open-weight model matters most when frontier access is being restricted — it's the escape hatch from gatekeeping.",
@@ -2762,6 +2996,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "OpenAI introduced Daybreak, a set of security tools including Codex Security and a GPT-5.5-Cyber model, designed to help organizations find, validate, and patch software vulnerabilities at scale. The pitch is AI-powered defense for every organization.",
    "whyMatters": [
     "AI that finds and fixes vulnerabilities cuts both ways — the same capability aids attackers, which is why cyber-capable models are behind the new access restrictions.",
@@ -2779,6 +3016,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "OpenAI launched Patch the Planet, a Daybreak initiative that helps open-source maintainers find, validate, and fix security vulnerabilities using AI combined with expert human review. It targets the chronically under-resourced volunteers who maintain critical open-source infrastructure.",
    "whyMatters": [
     "Open-source maintainers are the unpaid caretakers of infrastructure everyone depends on — directing AI security help to them addresses a real communal-goods problem.",
@@ -2797,6 +3035,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121785944/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-21%2F426551944-44100-2-eace034712683.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "NLW and guest Nufar Gaspar walk through why running AI locally — on your own hardware with open models — is suddenly a serious option. They cover the pressures pushing companies away from total reliance on cloud frontier models: rising token costs, vendor fragility, capacity limits, data control, and resilience, then outline the basic building blocks of a local AI stack.",
    "whyMatters": [
     "If cloud AI vendors can raise prices or cut access, running models locally is the hedge — relevant to any organization that has built workflows on one provider.",
@@ -2815,6 +3054,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121749223/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-20%2F426503865-44100-2-bdadaca3da607.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "A quick weekly recap arguing that the fallout from the Fable 5 controversy has turned into an industry-wide realignment: more attention on open models, model routing, and local control, and more wariness about depending on any single frontier system. The episode ties together GLM 5.2, OpenRouter's Fusion, SpaceX's acquisition of Cursor, and Europe's push for AI sovereignty as parts of the same fragmentation trend.",
    "whyMatters": [
     "The takeaway for anyone building on AI tools: single-vendor dependence is now seen as a real risk, not a hypothetical.",
@@ -2833,6 +3073,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121720961/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-19%2F426468386-44100-2-fd814bd4b4bde.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "This episode argues that the Fable 5 disruption exposed a flaw in how enterprises approach AI: treating it as a vendor-picking exercise. The claim is that lasting advantage comes from building an internal 'AI learning system' — capturing institutional judgment, workflow traces, private evaluations, and IP that stays portable across models. Headlines include hints that Anthropic and the White House may be moving toward a resolution.",
    "whyMatters": [
     "The core idea applies to nonprofits and religious institutions too: your accumulated judgment and workflows are the durable asset, not your choice of chatbot.",
@@ -2853,6 +3094,7 @@ window.NEWS_DATA = {
    ],
    "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-5-18/426408814-44100-2-bd8be81c652e6.m4a",
    "image": "https://aiandfaith.org/wp-content/uploads/2026/06/AIF-PODCAST-pod-image-Noreen-and-John-S-Gilad_result-300x300.webp",
+   "themes": [],
    "aiSummary": "The AI and Faith podcast hosts two Christian scholars with AI expertise for a detailed discussion of the Pope's encyclical on artificial intelligence, working through its main elements and insights.",
    "whyMatters": [
     "Directly on the religion-and-AI beat: a papal encyclical is the most authoritative religious statement on AI to date, and this is a scholarly unpacking of it.",
@@ -2871,6 +3113,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121678379/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-18%2F426409736-44100-2-516cc7c1cc4ab.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "With Fable shut down, the AI world is scrambling to fill the gap. NLW surveys the contenders — Chinese open models, Cursor's Composer, OpenRouter Fusion — and new routing strategies that promise near-frontier performance at lower cost, arguing the loss of Fable may accelerate a shift toward token efficiency and model diversity.",
    "whyMatters": [
     "A practical map of the alternatives if a tool you rely on was built around Fable.",
@@ -2889,6 +3134,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121630082/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-17%2F426344289-44100-2-f615e1af1eea9.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "NLW covers a shift in the AI race: SpaceX is converting IPO momentum into AI leverage, with its acquisition of Cursor becoming part of Elon Musk's broader strategy, while leaked OpenAI financials tell a more nuanced story than skeptics claim. Headlines include the ongoing Anthropic–Washington fight over Fable 5 and Mythos, and the government's stated cybersecurity concerns.",
    "whyMatters": [
     "Musk consolidating AI assets under the SpaceX umbrella changes the competitive map of the industry.",
@@ -2907,6 +3153,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "The UK government is partnering with Google DeepMind to build an AI-powered prototype intended to speed up housing planning decisions.",
    "whyMatters": [
     "A concrete example of AI applied to slow government bureaucracy — a use case with obvious public-benefit framing.",
@@ -2924,6 +3171,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121551135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-16%2F426238037-44100-2-237b0353b5dee.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "This episode argues that AI infrastructure has become a defining engine of the American economy, but the whole system depends on enterprises finding enough value to keep buying tokens. The proposed bridge between AI labs' revenue pressure and enterprise cost scrutiny is mass-scale training that moves workers from basic AI assistance into real agentic usage.",
    "whyMatters": [
     "Frames workforce AI training as an economic necessity, not a perk — relevant to educators thinking about what skills to teach.",
@@ -2942,6 +3190,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google DeepMind describes an 'AI Control Roadmap' for securing its internal systems as AI agents become more capable, combining traditional security safeguards with real-time monitoring of agent behavior.",
    "whyMatters": [
     "As AI agents get real autonomy, the labs themselves are treating them as things to be contained and monitored — a telling signal about risk.",
@@ -2961,6 +3210,7 @@ window.NEWS_DATA = {
    ],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An AI and Faith expert appears on the ¡Qué Tal Fernanda! program to discuss artificial intelligence, faith, and Pope Leo XIV's upcoming encyclical on AI, framed as three increasingly interconnected conversations.",
    "whyMatters": [
     "Religion-and-AI content reaching Spanish-language media shows the faith conversation about AI is going global and popular, not just academic.",
@@ -2978,6 +3228,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An AI and Faith essay examines the various ways Silicon Valley has engaged with the Vatican around the release of the Pope's AI encyclical, opening with Romano Guardini's warning that 'contemporary man has not been trained to use power well.'",
    "whyMatters": [
     "Documents a rare direct channel between tech power and religious moral authority — the Vatican is becoming a real player in AI ethics conversations.",
@@ -2996,6 +3247,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/121520323/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-15%2F426196576-44100-2-6028bd4e228f8.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
    "aiSummary": "The fight over Anthropic's Fable 5 remains unresolved. New reporting points to Amazon's role in triggering the shutdown, there are sharp disputes over whether the jailbreak at the center of it was a genuine national security threat, and the path to resolution increasingly looks political rather than technical, with parties negotiating in Washington.",
    "whyMatters": [
     "A frontier model being shut down over a governance dispute is unprecedented — the outcome will shape how AI access is regulated.",
@@ -3014,6 +3266,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An AI and Faith essay analyzes Pope Leo XIV's first encyclical, Magnifica Humanitas, arguing it fulfills the promise of his chosen papal name by echoing Leo XIII's Rerum Novarum — the 1891 encyclical that applied ancient social teaching to the industrial revolution — this time for the AI era.",
    "whyMatters": [
     "The Rerum Novarum parallel is the key insight: the Church is treating AI as a social upheaval on the scale of industrialization.",
@@ -3032,6 +3285,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/5c1a087d/89d77a53.mp3",
    "image": "https://img.transistorcdn.com/ARKvJ9WKk0vG8Eb4u_Q5fGr1K1brZWuG3A1U2tO9zXA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xODgw/NWU4ZTRkYTUxNGQ5/YmJhYjY3Y2Y1NGE5/YWVlNS5wbmc.jpg",
+   "themes": [],
    "aiSummary": "On Practical AI, Dan and Chris unpack Anthropic's 'Zero Trust for AI Agents' security framework — a set of principles for deploying autonomous agents safely. They walk through the key security risks agentic systems introduce and how organizations can apply zero-trust principles when rolling them out.",
    "whyMatters": [
     "AI agents that act autonomously need to be treated like untrusted users, not trusted software — a mental-model shift for anyone deploying them.",
@@ -3052,6 +3306,7 @@ window.NEWS_DATA = {
    ],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "An AI and Faith piece on the organization's engagement with the Vatican around the Magnifica Humanitas encyclical. It opens with the scene of university commencement speakers being booed whenever they mentioned AI, diagnosing the reaction as anxiety about the technology's impact.",
    "whyMatters": [
     "The commencement-booing anecdote is a vivid marker of how much public anxiety about AI has grown, especially among young people.",
@@ -3070,6 +3325,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google DeepMind announces DiffusionGemma, a model that generates text roughly four times faster than comparable approaches. The announcement provides no further detail in this listing.",
    "whyMatters": [
     "Diffusion-based text generation is a departure from the standard token-by-token approach — a 4x speedup would make AI cheaper and snappier.",
@@ -3087,6 +3343,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "Google DeepMind and partners announce a $10 million funding call for research into multi-agent AI safety — the risks that arise when multiple AI agents interact with each other.",
    "whyMatters": [
     "Multi-agent risk is the next frontier of AI safety: agents negotiating, colluding, or conflicting with each other is barely studied.",
@@ -3105,6 +3364,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google launches Gemini 3.5 Live Translate, bringing near real-time, natural-sounding speech translation to Google AI Studio, Google Translate, and Google Meet.",
    "whyMatters": [
     "Real-time natural voice translation in Meet lowers the barrier for multilingual gatherings — including international Jewish community and interfaith events.",
@@ -3122,6 +3382,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "Google DeepMind introduces Gemma 4 12B, described as a unified, encoder-free multimodal model. The listing carries no additional detail.",
    "whyMatters": [
     "A 12B multimodal model in the Gemma line means capable image-plus-text AI that can run on modest hardware, feeding the local-AI trend.",
@@ -3139,6 +3402,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [
+    "robots"
+   ],
    "aiSummary": "Google DeepMind announces work on advancing robotics in Europe. The listing provides no further details.",
    "whyMatters": [
     "DeepMind investing in European robotics fits the broader push to pair frontier AI models with physical machines.",
@@ -3156,6 +3422,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "Google DeepMind reports results from a randomized controlled trial of Gemini's Guided Learning feature in Sierra Leone, showing gains in student engagement and accelerated learning.",
    "whyMatters": [
     "Directly an education story: an RCT is the gold standard of evidence, and rigorous data on AI tutoring is still rare.",
@@ -3177,6 +3444,7 @@ window.NEWS_DATA = {
    ],
    "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-5-4/425531281-44100-2-ca3dd7a60ad25.m4a",
    "image": "https://aiandfaith.org/wp-content/uploads/2026/06/AIF-PODCAST-POD-IMAGE-Timothy-D.-and-Kenneth-C._result-300x300.webp",
+   "themes": [],
    "aiSummary": "The AI and Faith podcast interviews Timothy Dalrymple, president and CEO of the John Templeton Foundation, and Kenneth Cukier, deputy executive editor of The Economist, on whether we need a 'theology of technology' and where AI and religion meet.",
    "whyMatters": [
     "The Templeton Foundation funds much of the serious science-and-religion work; its CEO's take on AI signals where that funding may flow.",
@@ -3195,6 +3463,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/302b36f8/d474795e.mp3",
    "image": "https://img.transistorcdn.com/ipFlPl0Z0kkjjiMc1n8f9T_9pB23QEviqZIzZXO9pig/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hYjA0/MjAxZGQ2Nzg4Yzk4/YzYxODg0OThmM2U0/ZmE0My5wbmc.jpg",
+   "themes": [
+    "robots"
+   ],
    "aiSummary": "Practical AI's Dan and Chris break down the 2026 Stanford AI Index Report. Highlights include the 'jagged frontier' of AI ability — models that win math olympiads but struggle to read an analog clock — plus data on adoption, safety, disappearing junior tech jobs, robotics, and the U.S.–China race.",
    "whyMatters": [
     "The Stanford AI Index is the closest thing to an annual state-of-the-field report — data, not vibes.",
@@ -3215,6 +3486,7 @@ window.NEWS_DATA = {
    ],
    "audio": "",
    "image": "",
+   "themes": [],
    "aiSummary": "AI and Faith announces a new cohort of experts joining its network. The listing gives no names or details.",
    "whyMatters": [
     "The AI and Faith expert network is a primary directory of people working at the religion–AI intersection; new additions may include potential collaborators or speakers.",
@@ -3232,6 +3504,7 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/d76e02d5/e934139b.mp3",
    "image": "https://img.transistorcdn.com/DW1Kpa9KGJnH8k5egSdEosen8uKBm27_TToHTagrxkA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iNjhi/Y2RiYzU4NmYwZTRm/ZGUzNWQwODk1MjU1/MDFlZi5wbmc.jpg",
+   "themes": [],
    "aiSummary": "Practical AI hosts Craig McLuckie, CEO of Stacklok, to discuss the infrastructure behind AI agents that act less like chatbots and more like coworkers: MCP, Kubernetes, ToolHive, identity management, and agent orchestration for enterprise AI-native applications.",
    "whyMatters": [
     "MCP — the protocol letting AI agents plug into tools and data — is fast becoming the standard connective tissue of agentic AI; this is a look under the hood.",

@@ -296,6 +296,9 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
   <button class="tab gold-tab" data-tab="religion">AI &amp; Religion <span class="n" id="n-religion"></span></button>
   <button class="tab" data-tab="news">News <span class="n" id="n-news"></span></button>
   <button class="tab" data-tab="podcast">Podcasts <span class="n" id="n-podcast"></span></button>
+  <button class="tab" data-tab="updates">Updates <span class="n" id="n-updates"></span></button>
+  <button class="tab" data-tab="robots">Robots <span class="n" id="n-robots"></span></button>
+  <button class="tab" data-tab="ethics">Ethics <span class="n" id="n-ethics"></span></button>
   <div class="spacer"></div>
   <select class="src" id="srcFilter"><option value="">All sources</option></select>
   <input class="search" id="search" type="search" placeholder="Search headlines…">
@@ -325,7 +328,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <footer>
   <div><span class="heb">בִּינָה</span> Binah — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v4.2 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.0 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 
@@ -366,10 +369,14 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     return d.toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
   }
 
+  var THEME_TABS = ['updates', 'robots', 'ethics'];
+
   function matches(i) {
     if (state.tab === 'religion' && !isReligion(i)) return false;
     if (state.tab === 'news' && tabOf(i) !== 'news') return false;
     if (state.tab === 'podcast' && tabOf(i) !== 'podcast') return false;
+    if (THEME_TABS.indexOf(state.tab) > -1 &&
+        (i.themes || []).indexOf(state.tab) === -1) return false;
     if (state.src && i.source !== state.src) return false;
     if (state.q) {
       var blob = (i.title + ' ' + i.summary + ' ' + i.source).toLowerCase();
@@ -490,12 +497,13 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
   }
 
   // ---- Counts & static chrome ----
-  var counts = { all: items.length, religion: 0, news: 0, podcast: 0 };
+  var counts = { all: items.length, religion: 0, news: 0, podcast: 0, updates: 0, robots: 0, ethics: 0 };
   items.forEach(function (i) {
     if (isReligion(i)) counts.religion++;
     counts[tabOf(i)]++;
+    (i.themes || []).forEach(function (t) { counts[t]++; });
   });
-  ['all', 'religion', 'news', 'podcast'].forEach(function (k) {
+  ['all', 'religion', 'news', 'podcast', 'updates', 'robots', 'ethics'].forEach(function (k) {
     document.getElementById('n-' + k).textContent = counts[k];
   });
 

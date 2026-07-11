@@ -61,6 +61,39 @@ AI_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Theme chips. "updates" needs BOTH an action and a model term, so ordinary
+# announcements don't flood it; the others are single-list word-boundary matches.
+UPDATE_ACTION_RE = re.compile(
+    r"\b(launch\w*|releas\w*|rolls? out|rolled out|rollout|unveil\w*|introduc\w*|"
+    r"announc\w*|debuts?|ships?|shipped|deprecat\w*|retir\w*|sunsets?\w*|"
+    r"shut(?:s|ting)? down|shutdown|discontinu\w*|kills? off|upgrad\w*|"
+    r"new version|now available)\b", re.IGNORECASE)
+UPDATE_MODEL_RE = re.compile(
+    r"\b(models?|gpt[-\s]?[\w.]+|chatgpt|claude|gemini|grok|llama|deepseek|qwen|"
+    r"mistral|copilot|sora|midjourney|stable diffusion|flux|llms?|"
+    r"frontier (?:model|intelligence))\b", re.IGNORECASE)
+ROBOTS_RE = re.compile(
+    r"\b(robots?|robotics?|humanoids?|robotaxis?|drones?|self[- ]driving|"
+    r"autonomous (?:vehicles?|cars?|trucks?|driving)|waymo|optimus|"
+    r"boston dynamics|embodied ai|exoskeletons?)\b", re.IGNORECASE)
+ETHICS_RE = re.compile(
+    r"\b(ethics?|ethical\w*|ethicists?|moral\w*|responsible ai|ai safety|"
+    r"alignment|misalign\w*|fairness|biased?|discriminat\w*|accountab\w*|"
+    r"surveillance|human rights|deepfakes?|misinformation|disinformation)\b",
+    re.IGNORECASE)
+
+
+def detect_themes(blob):
+    themes = []
+    if UPDATE_ACTION_RE.search(blob) and UPDATE_MODEL_RE.search(blob):
+        themes.append("updates")
+    if ROBOTS_RE.search(blob):
+        themes.append("robots")
+    if ETHICS_RE.search(blob):
+        themes.append("ethics")
+    return themes
+
+
 # Weighted religion terms. Jewish terms weighted highest (Dan's world),
 # general religion next, adjacent-spiritual last. Title hits count double.
 RELIGION_TERMS = {
@@ -262,6 +295,7 @@ def process_feed(feed):
             "religionHits": sorted(set(r_hits))[:6],
             "audio": it.get("audio", ""),
             "image": it.get("image", ""),
+            "themes": detect_themes(blob),
         })
         if len(out) >= MAX_PER_FEED:
             break
