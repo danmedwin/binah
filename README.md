@@ -57,7 +57,9 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 3. Optional secrets: `GMAIL_USER` (default rabbi.dan@medw.in), `DIGEST_TO` — a
    comma-separated list; extra addresses are delivered via BCC, so adding a subscriber
    is just editing this secret (no extra Claude/API cost — the digest reuses the same
-   daily summaries regardless of recipient count). Optional repo *variable*
+   daily summaries regardless of recipient count). Every email carries an Unsubscribe
+   link + List-Unsubscribe header; requests arrive as a normal email in the sender's
+   inbox — honor them by removing that address from `DIGEST_TO`. Optional repo *variable*
    `DASHBOARD_URL` for the masthead link.
 4. The digest lands daily around 5:45am Atlanta (9:45 UTC — an hour earlier in winter).
    Sections: הָעִקָּר HaIkar takeaways with story links, הַאֲזָנָה Ha'azanah podcast picks,
@@ -73,4 +75,4 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 - Summary voice/model: `SYSTEM` and `MODEL` in `enrich_news.py`.
 
 ---
-v5.1 · built by Claude for Rabbi Dan Medwin
+v5.2 · built by Claude for Rabbi Dan Medwin

@@ -167,11 +167,16 @@ def build_html(data):
         parts.extend(item_row(i) for i in stories[:8])
 
     from enrich_news import MODEL as ENRICH_MODEL
+    sender = os.environ.get("GMAIL_USER", "").strip() or "rabbi.dan@medw.in"
+    unsub = ("mailto:%s?subject=Unsubscribe%%20from%%20Binah&body=Please%%20remove%%20me%%20"
+             "from%%20the%%20Binah%%20digest." % sender)
     parts.append(
         "<div style='text-align:center;font-family:%s;font-size:11.5px;color:%s;"
         "border-top:3px double %s;margin-top:26px;padding:16px 0;'>"
-        "<span style='color:%s;'>בִּינָה</span> Binah · %d stories tracked · Curated by %s</div>"
-        % (SANS, FAINT, RULE, GOLD, len(items), esc(model_display(ENRICH_MODEL)))
+        "<span style='color:%s;'>בִּינָה</span> Binah · %d stories tracked · Curated by %s"
+        " · <a href='%s' style='color:%s;'>Unsubscribe</a></div>"
+        % (SANS, FAINT, RULE, GOLD, len(items), esc(model_display(ENRICH_MODEL)),
+           esc(unsub), FAINT)
     )
 
     return (
@@ -215,6 +220,9 @@ def main():
     msg["Subject"] = subject_line(data)
     msg["From"] = "בִּינָה Binah <%s>" % user
     msg["To"] = user
+    # Lets Gmail/clients surface their native "Unsubscribe" affordance;
+    # requests arrive in the sender's inbox — remove the address from DIGEST_TO.
+    msg["List-Unsubscribe"] = "<mailto:%s?subject=Unsubscribe%%20from%%20Binah>" % user
     msg.attach(MIMEText("Your daily Binah digest — view in an HTML mail client.", "plain", "utf-8"))
     msg.attach(MIMEText(body, "html", "utf-8"))
 
