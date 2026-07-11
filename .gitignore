@@ -2,3 +2,4 @@
 digest_preview.html
 subscribers.txt
 .digest_recipients
+__pycache__/
