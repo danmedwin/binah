@@ -8,7 +8,10 @@ built as a single static page — no build step, no framework, no server, no pip
 - **`fetch_news.py`** — pulls 18 RSS/Atom feeds and rewrites `data.js` (Python 3 stdlib only)
 - **`enrich_news.py`** — adds a 2-3 sentence Claude summary + "why this matters" bullets
   per article (stdlib HTTP; needs `ANTHROPIC_API_KEY`; skips gracefully without it)
+- **`send_digest.py`** — builds + sends the daily digest email (Gmail SMTP, stdlib;
+  `--preview out.html` renders without sending)
 - **`.github/workflows/refresh.yml`** — refreshes `data.js` every 6 hours once the repo is on GitHub
+- **`.github/workflows/digest.yml`** — daily ~6:45am Atlanta: fresh fetch + summaries, then emails the digest
 
 ## How it works
 
@@ -47,6 +50,18 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 4. Settings → Actions → General → Workflow permissions → **Read and write** (lets the refresh Action commit `data.js`).
 5. Settings → Secrets and variables → Actions → add **`ANTHROPIC_API_KEY`** (for the summary step; everything else works without it).
 
+### Daily digest email (optional)
+
+1. Google Account → Security → 2-Step Verification → **App passwords** → create one for "Binah".
+2. Add it as the Actions secret **`GMAIL_APP_PASSWORD`**.
+3. Optional secrets: `GMAIL_USER` (default rabbi.dan@medw.in), `DIGEST_TO` (default: same);
+   optional repo *variable* `DASHBOARD_URL` for the footer link.
+4. The digest lands daily around 6:45am Atlanta (10:45 UTC — shifts an hour in winter).
+   Sections: הָעִקָּר HaIkar takeaways with story links, new AI & Religion items, more
+   stories from the last 24h, and new podcast episodes. Without the secret, the send
+   step skips harmlessly. Test anytime: Actions → "Daily digest email" → Run workflow,
+   or locally `python3 send_digest.py --preview out.html`.
+
 ## Tuning
 
 - Add/remove feeds in `FEEDS` at the top of `fetch_news.py`.
@@ -55,4 +70,4 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 - Summary voice/model: `SYSTEM` and `MODEL` in `enrich_news.py`.
 
 ---
-v3.0 · built by Claude for Rabbi Dan Medwin
+v4.0 · built by Claude for Rabbi Dan Medwin

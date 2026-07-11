@@ -1,0 +1,45 @@
+name: Daily digest email
+
+on:
+  schedule:
+    # 10:45 UTC = 6:45am Atlanta in summer (7:45am in winter — fixed UTC cron).
+    - cron: "45 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch feeds
+        run: python3 fetch_news.py
+
+      - name: Summarize + rebuild the Brief
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 enrich_news.py
+
+      - name: Send digest email
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: python3 send_digest.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "binah-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.js
+          git diff --cached --quiet && echo "No changes." && exit 0
+          git commit -m "Refresh news data (digest run)"
+          git push
