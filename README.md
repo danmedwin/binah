@@ -11,7 +11,7 @@ built as a single static page — no build step, no framework, no server, no pip
 - **`send_digest.py`** — builds + sends the daily digest email (Gmail SMTP, stdlib;
   `--preview out.html` renders without sending)
 - **`.github/workflows/refresh.yml`** — refreshes `data.js` every 6 hours once the repo is on GitHub
-- **`.github/workflows/digest.yml`** — daily ~6:45am Atlanta: fresh fetch + summaries, then emails the digest
+- **`.github/workflows/digest.yml`** — daily ~5:45am Atlanta: fresh fetch + summaries, then emails the digest
 
 ## How it works
 
@@ -56,7 +56,7 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 2. Add it as the Actions secret **`GMAIL_APP_PASSWORD`**.
 3. Optional secrets: `GMAIL_USER` (default rabbi.dan@medw.in), `DIGEST_TO` (default: same);
    optional repo *variable* `DASHBOARD_URL` for the footer link.
-4. The digest lands daily around 6:45am Atlanta (10:45 UTC — shifts an hour in winter).
+4. The digest lands daily around 5:45am Atlanta (9:45 UTC — an hour earlier in winter).
    Sections: הָעִקָּר HaIkar takeaways with story links, new AI & Religion items, more
    stories from the last 24h, and new podcast episodes. Without the secret, the send
    step skips harmlessly. Test anytime: Actions → "Daily digest email" → Run workflow,
@@ -70,4 +70,4 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 - Summary voice/model: `SYSTEM` and `MODEL` in `enrich_news.py`.
 
 ---
-v4.0 · built by Claude for Rabbi Dan Medwin
+v4.1 · built by Claude for Rabbi Dan Medwin

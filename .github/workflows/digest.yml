@@ -2,8 +2,8 @@ name: Daily digest email
 
 on:
   schedule:
-    # 10:45 UTC = 6:45am Atlanta in summer (7:45am in winter — fixed UTC cron).
-    - cron: "45 10 * * *"
+    # 9:45 UTC = 5:45am Atlanta in summer (4:45am in winter — fixed UTC cron).
+    - cron: "45 9 * * *"
   workflow_dispatch: {}
 
 permissions:
