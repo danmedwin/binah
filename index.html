@@ -299,6 +299,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
   <button class="tab" data-tab="updates">Updates <span class="n" id="n-updates"></span></button>
   <button class="tab" data-tab="robots">Robots <span class="n" id="n-robots"></span></button>
   <button class="tab" data-tab="ethics">Ethics <span class="n" id="n-ethics"></span></button>
+  <button class="tab" data-tab="environment">Environment <span class="n" id="n-environment"></span></button>
   <div class="spacer"></div>
   <select class="src" id="srcFilter"><option value="">All sources</option></select>
   <input class="search" id="search" type="search" placeholder="Search headlines…">
@@ -328,7 +329,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <footer>
   <div><span class="heb">בִּינָה</span> Binah — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.0 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.1 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 
@@ -369,7 +370,7 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     return d.toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
   }
 
-  var THEME_TABS = ['updates', 'robots', 'ethics'];
+  var THEME_TABS = ['updates', 'robots', 'ethics', 'environment'];
 
   function matches(i) {
     if (state.tab === 'religion' && !isReligion(i)) return false;
@@ -497,13 +498,13 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
   }
 
   // ---- Counts & static chrome ----
-  var counts = { all: items.length, religion: 0, news: 0, podcast: 0, updates: 0, robots: 0, ethics: 0 };
+  var counts = { all: items.length, religion: 0, news: 0, podcast: 0, updates: 0, robots: 0, ethics: 0, environment: 0 };
   items.forEach(function (i) {
     if (isReligion(i)) counts.religion++;
     counts[tabOf(i)]++;
     (i.themes || []).forEach(function (t) { counts[t]++; });
   });
-  ['all', 'religion', 'news', 'podcast', 'updates', 'robots', 'ethics'].forEach(function (k) {
+  ['all', 'religion', 'news', 'podcast', 'updates', 'robots', 'ethics', 'environment'].forEach(function (k) {
     document.getElementById('n-' + k).textContent = counts[k];
   });
 

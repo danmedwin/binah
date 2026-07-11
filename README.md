@@ -54,11 +54,14 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 
 1. Google Account → Security → 2-Step Verification → **App passwords** → create one for "Binah".
 2. Add it as the Actions secret **`GMAIL_APP_PASSWORD`**.
-3. Optional secrets: `GMAIL_USER` (default rabbi.dan@medw.in), `DIGEST_TO` (default: same);
-   optional repo *variable* `DASHBOARD_URL` for the footer link.
+3. Optional secrets: `GMAIL_USER` (default rabbi.dan@medw.in), `DIGEST_TO` — a
+   comma-separated list; extra addresses are delivered via BCC, so adding a subscriber
+   is just editing this secret (no extra Claude/API cost — the digest reuses the same
+   daily summaries regardless of recipient count). Optional repo *variable*
+   `DASHBOARD_URL` for the masthead link.
 4. The digest lands daily around 5:45am Atlanta (9:45 UTC — an hour earlier in winter).
-   Sections: הָעִקָּר HaIkar takeaways with story links, new AI & Religion items, more
-   stories from the last 24h, and new podcast episodes. Without the secret, the send
+   Sections: הָעִקָּר HaIkar takeaways with story links, הַאֲזָנָה Ha'azanah podcast picks,
+   new AI & Religion items, and more stories from the last 24h. Without the secret, the send
    step skips harmlessly. Test anytime: Actions → "Daily digest email" → Run workflow,
    or locally `python3 send_digest.py --preview out.html`.
 
@@ -70,4 +73,4 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 - Summary voice/model: `SYSTEM` and `MODEL` in `enrich_news.py`.
 
 ---
-v5.0 · built by Claude for Rabbi Dan Medwin
+v5.1 · built by Claude for Rabbi Dan Medwin

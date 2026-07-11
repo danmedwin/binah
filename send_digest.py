@@ -85,22 +85,35 @@ def section_head(heb, latin):
     )
 
 
+def model_display(model_id):
+    """claude-haiku-4-5 -> 'Claude Haiku 4.5'"""
+    parts = model_id.replace("claude-", "").split("-")
+    name = parts[0].capitalize()
+    version = ".".join(p for p in parts[1:] if p.isdigit())
+    return ("Claude %s %s" % (name, version)).strip()
+
+
 def build_html(data):
     now = datetime.now(TZ)
     cutoff = (datetime.now(timezone.utc) - timedelta(hours=NEW_WINDOW_HOURS)).isoformat()
     items = data["items"]
     by_link = {i["link"]: i for i in items}
     fresh = [i for i in items if (i.get("date") or "") >= cutoff]
+    url = os.environ.get("DASHBOARD_URL", "").strip()
 
     parts = []
+    dash_link = (
+        "<div style='margin-top:8px;'><a href='%s' style='font-family:%s;font-size:12.5px;"
+        "color:%s;text-decoration:none;'>Open the full dashboard &rarr;</a></div>" % (esc(url), SANS, GOLD)
+    ) if url else ""
     parts.append(
         "<div style='text-align:center;padding:26px 0 14px;border-bottom:3px double %s;'>"
         "<div style='font-family:%s;font-size:11px;letter-spacing:3px;color:%s;'>A DAILY DIGEST OF ARTIFICIAL INTELLIGENCE</div>"
         "<div style='font-family:%s;font-size:40px;font-weight:bold;color:%s;margin:6px 0 2px;'>"
         "<span style='color:%s;'>בִּינָה</span> Binah</div>"
-        "<div style='font-family:%s;font-size:13px;color:%s;font-style:italic;'>%s</div></div>"
+        "<div style='font-family:%s;font-size:13px;color:%s;font-style:italic;'>%s</div>%s</div>"
         % (RULE, SANS, FAINT, SERIF, INK, GOLD, SERIF, SOFT,
-           esc(now.strftime("%A, %B %-d, %Y")))
+           esc(now.strftime("%A, %B %-d, %Y")), dash_link)
     )
 
     hl = data.get("highlights")
@@ -126,6 +139,17 @@ def build_html(data):
             )
         parts.append("<table cellpadding='0' cellspacing='0' style='width:100%%;font-family:%s;'>%s</table>" % (SERIF, "".join(rows)))
 
+    pods = [i for i in fresh if i["category"] == "podcast"]
+    if pods:
+        parts.append(section_head("הַאֲזָנָה", "Ha'azanah — Worth a Listen"))
+        parts.append("".join(
+            "<div style='font-family:%s;font-size:14px;line-height:1.7;color:%s;'>&#9654;&nbsp; "
+            "<a href='%s' style='color:%s;text-decoration:none;font-weight:bold;'>%s</a>"
+            " <span style='color:%s;font-size:12px;'>· %s</span></div>"
+            % (SERIF, INK, esc(i["link"]), INK, esc(i["title"]), FAINT, esc(i["source"]))
+            for i in pods[:6]
+        ))
+
     religion = [i for i in fresh if i.get("religionScore", 0) >= 3]
     if religion:
         parts.append(section_head("בִּינָה וֶאֱמוּנָה", "Binah Ve'emunah — AI & Religion"))
@@ -142,24 +166,12 @@ def build_html(data):
         parts.append(section_head("עוֹד חֲדָשׁוֹת", "Od Chadashot — More From the Last 24 Hours"))
         parts.extend(item_row(i) for i in stories[:8])
 
-    pods = [i for i in fresh if i["category"] == "podcast"]
-    if pods:
-        parts.append(section_head("לְהַאֲזָנָה", "L'ha'azanah — Worth a Listen"))
-        parts.append("".join(
-            "<div style='font-family:%s;font-size:14px;line-height:1.7;color:%s;'>&#9654;&nbsp; "
-            "<a href='%s' style='color:%s;text-decoration:none;font-weight:bold;'>%s</a>"
-            " <span style='color:%s;font-size:12px;'>· %s</span></div>"
-            % (SERIF, INK, esc(i["link"]), INK, esc(i["title"]), FAINT, esc(i["source"]))
-            for i in pods[:6]
-        ))
-
-    url = os.environ.get("DASHBOARD_URL", "").strip()
-    link_html = ("<a href='%s' style='color:%s;'>Open the full dashboard &rarr;</a>" % (esc(url), GOLD)) if url else ""
+    from enrich_news import MODEL as ENRICH_MODEL
     parts.append(
         "<div style='text-align:center;font-family:%s;font-size:11.5px;color:%s;"
         "border-top:3px double %s;margin-top:26px;padding:16px 0;'>"
-        "<span style='color:%s;'>בִּינָה</span> Binah · %d stories tracked · %s</div>"
-        % (SANS, FAINT, RULE, GOLD, len(items), link_html)
+        "<span style='color:%s;'>בִּינָה</span> Binah · %d stories tracked · Curated by %s</div>"
+        % (SANS, FAINT, RULE, GOLD, len(items), esc(model_display(ENRICH_MODEL)))
     )
 
     return (
@@ -194,19 +206,22 @@ def main():
         print("GMAIL_APP_PASSWORD not set — skipping digest send.")
         return
     user = os.environ.get("GMAIL_USER", "").strip() or "rabbi.dan@medw.in"
-    to = os.environ.get("DIGEST_TO", "").strip() or user
+    # DIGEST_TO accepts a comma-separated list; extra recipients ride as BCC
+    # so subscribers never see each other's addresses.
+    raw_to = os.environ.get("DIGEST_TO", "").strip() or user
+    recipients = [a.strip() for a in raw_to.split(",") if a.strip()]
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject_line(data)
     msg["From"] = "בִּינָה Binah <%s>" % user
-    msg["To"] = to
+    msg["To"] = user
     msg.attach(MIMEText("Your daily Binah digest — view in an HTML mail client.", "plain", "utf-8"))
     msg.attach(MIMEText(body, "html", "utf-8"))
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         s.login(user, password)
-        s.sendmail(user, [to], msg.as_string())
-    print("Digest sent to", to)
+        s.sendmail(user, recipients, msg.as_string())
+    print("Digest sent to %d recipient(s)." % len(recipients))
 
 
 if __name__ == "__main__":

@@ -81,6 +81,11 @@ ETHICS_RE = re.compile(
     r"alignment|misalign\w*|fairness|biased?|discriminat\w*|accountab\w*|"
     r"surveillance|human rights|deepfakes?|misinformation|disinformation)\b",
     re.IGNORECASE)
+ENVIRONMENT_RE = re.compile(
+    r"\b(climate|carbon|emissions?|sustainab\w*|renewables?|solar|nuclear|"
+    r"geothermal|megawatts?|gigawatts?|energy|electricity|environment\w*|"
+    r"power (?:grid|demand|consumption|plants?|usage)|"
+    r"water (?:use|usage|consumption|cooling))\b", re.IGNORECASE)
 
 
 def detect_themes(blob):
@@ -91,6 +96,8 @@ def detect_themes(blob):
         themes.append("robots")
     if ETHICS_RE.search(blob):
         themes.append("ethics")
+    if ENVIRONMENT_RE.search(blob):
+        themes.append("environment")
     return themes
 
 

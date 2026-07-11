@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-11T03:33:44.816971+00:00",
+ "generatedAt": "2026-07-11T03:49:09.933850+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-07-11T03:30:28.219802+00:00",
@@ -267,7 +267,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [],
+   "themes": [
+    "environment"
+   ],
    "aiSummary": "Sunrun, the solar and home-battery company, is piloting a 'distributed AI compute' program that pays customers to host AI compute nodes in their homes. Rather than building a centralized data center, it would spread the hardware across residences.",
    "whyMatters": [
     "A novel answer to AI's power and data-center crunch: piggyback on homes that already have solar and batteries.",
@@ -423,7 +425,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [],
+   "themes": [
+    "environment"
+   ],
    "aiSummary": "Microsoft's 2026 sustainability report shows its carbon emissions rose 25 percent in 2025, to 34 million metric tons 'without select interventions.' The company attributes the increase primarily to expansion — putting it further from its own climate goals.",
    "whyMatters": [
     "Hard numbers on AI's environmental cost: the data-center buildout is blowing through a major company's climate pledges.",
@@ -1274,7 +1278,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [],
+   "themes": [
+    "environment"
+   ],
    "aiSummary": "Surging electricity demand from AI data centers is driving up energy costs for US manufacturers, particularly in the Rust Belt, and the squeeze is undercutting the Trump administration's \"Made in America\" manufacturing push.",
    "whyMatters": [
     "AI's energy appetite is now raising real costs for real communities, not just an abstract climate concern.",
@@ -2066,7 +2072,9 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [],
+   "themes": [
+    "environment"
+   ],
    "aiSummary": "Google's AI data-center buildout drove a 37% increase in the company's electricity use in 2025. The company says it is trying to offset the emissions from that growth with clean-energy investments.",
    "whyMatters": [
     "A hard number on AI's environmental cost — useful for honest conversations about the ethics of heavy AI use.",
