@@ -5,7 +5,7 @@ Stdlib only. Sends via Gmail SMTP with an app password.
 
 Env vars:
   GMAIL_APP_PASSWORD  required to send (Google Account -> Security -> App passwords)
-  GMAIL_USER          sender account   (default rabbi.dan@medw.in)
+  GMAIL_USER          sender Gmail account (required to send)
   DIGEST_TO           recipient        (default: GMAIL_USER)
   DASHBOARD_URL       link in the footer (optional, e.g. GitHub Pages URL)
 
@@ -29,6 +29,11 @@ from zoneinfo import ZoneInfo
 HERE = Path(__file__).resolve().parent
 TZ = ZoneInfo("America/New_York")
 NEW_WINDOW_HOURS = 24
+
+# Public-facing contact (subscribe/unsubscribe target). Assembled from parts
+# so the address never appears whole in this public repo; a redirect delivers
+# it to the sending inbox. The actual SMTP account comes from GMAIL_USER.
+PUBLIC_EMAIL = ".".join(("rabbi", "dan")) + "@" + ".".join(("medw", "in"))
 
 # Gmail-safe styling: inline styles, web-safe fonts, light theme only.
 INK = "#1E2A3A"
@@ -167,9 +172,8 @@ def build_html(data):
         parts.extend(item_row(i) for i in stories[:8])
 
     from enrich_news import MODEL as ENRICH_MODEL
-    sender = os.environ.get("GMAIL_USER", "").strip() or "rabbi.dan@medw.in"
     unsub = ("mailto:%s?subject=Unsubscribe%%20from%%20Binah&body=Please%%20remove%%20me%%20"
-             "from%%20the%%20Binah%%20digest." % sender)
+             "from%%20the%%20Binah%%20digest." % PUBLIC_EMAIL)
     parts.append(
         "<div style='text-align:center;font-family:%s;font-size:11.5px;color:%s;"
         "border-top:3px double %s;margin-top:26px;padding:16px 0;'>"
@@ -210,7 +214,10 @@ def main():
     if not password:
         print("GMAIL_APP_PASSWORD not set — skipping digest send.")
         return
-    user = os.environ.get("GMAIL_USER", "").strip() or "rabbi.dan@medw.in"
+    user = os.environ.get("GMAIL_USER", "").strip()
+    if not user:
+        print("GMAIL_USER not set — skipping digest send.")
+        return
     # DIGEST_TO accepts a comma-separated list; extra recipients ride as BCC
     # so subscribers never see each other's addresses.
     raw_to = os.environ.get("DIGEST_TO", "").strip() or user
@@ -222,7 +229,7 @@ def main():
     msg["To"] = user
     # Lets Gmail/clients surface their native "Unsubscribe" affordance;
     # requests arrive in the sender's inbox — remove the address from DIGEST_TO.
-    msg["List-Unsubscribe"] = "<mailto:%s?subject=Unsubscribe%%20from%%20Binah>" % user
+    msg["List-Unsubscribe"] = "<mailto:%s?subject=Unsubscribe%%20from%%20Binah>" % PUBLIC_EMAIL
     msg.attach(MIMEText("Your daily Binah digest — view in an HTML mail client.", "plain", "utf-8"))
     msg.attach(MIMEText(body, "html", "utf-8"))
 

@@ -54,7 +54,7 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 
 1. Google Account → Security → 2-Step Verification → **App passwords** → create one for "Binah".
 2. Add it as the Actions secret **`GMAIL_APP_PASSWORD`**.
-3. Optional secrets: `GMAIL_USER` (default rabbi.dan@medw.in), `DIGEST_TO` — a
+3. Secrets: `GMAIL_USER` (the sending Gmail account — required), `DIGEST_TO` — a
    comma-separated list; extra addresses are delivered via BCC, so adding a subscriber
    is just editing this secret (no extra Claude/API cost — the digest reuses the same
    daily summaries regardless of recipient count). Every email carries an Unsubscribe
@@ -79,4 +79,4 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 - Summary voice/model: `SYSTEM` and `MODEL` in `enrich_news.py`.
 
 ---
-v5.3 · built by Claude for Rabbi Dan Medwin
+v5.4 · built by Claude for Rabbi Dan Medwin
