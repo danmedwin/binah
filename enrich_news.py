@@ -195,7 +195,8 @@ def main():
     brief = build_brief(api_key, items)
     if brief:
         data["highlights"] = brief
-        print(f"Brief regenerated: {len(brief['bullets'])} takeaways, {len(brief['links'])} stories.")
+        n_links = sum(len(b["links"]) for b in brief["bullets"])
+        print(f"Brief regenerated: {len(brief['bullets'])} takeaways, {n_links} story links.")
     else:
         print("Brief unchanged (generation failed or returned empty).")
 
