@@ -1,41 +1,66 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-12T07:30:50.085229+00:00",
+ "generatedAt": "2026-07-12T10:59:33.023777+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-12T07:31:03.906673+00:00",
+  "generatedAt": "2026-07-12T10:59:43.412689+00:00",
   "bullets": [
    {
-    "text": "OpenAI released GPT-5.6 (Sol, Terra, Luna) after government approval and launched ChatGPT Work, an autonomous agent operating across apps and files for extended tasks.",
-    "links": [
-     "https://openai.com/index/gpt-5-6",
-     "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
-    ]
-   },
-   {
-    "text": "Apple sued OpenAI and Jony Ive's IO Products for allegedly stealing confidential hardware secrets through former Apple employees.",
+    "text": "Apple sued OpenAI for allegedly stealing hardware secrets through former employees, claiming trade secret theft of presentations, prototypes, and supplier information.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "OpenAI's Head of Safety Johannes Heidecke departed as the company merged its research and safety teams; separately, Fidji Simo stepped down from leading AGI work due to illness.",
+    "text": "OpenAI released GPT-5.6 (Luna, Terra, Sol) and ChatGPT Work, an agentic system handling multi-application workflows; shuttered ChatGPT Atlas browser and faced legal allegations of hiding training data logs.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln",
+     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+    ]
+   },
+   {
+    "text": "Meta disabled its Instagram AI deepfake feature after backlash over generating non-consensual images of public accounts; leadership signaled AI content will stay in feeds with labeling only.",
+    "links": [
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+     "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
+    ]
+   },
+   {
+    "text": "OpenAI's head of safety Johannes Heidecke is leaving as the company merges research and safety teams; Fidji Simo stepped down from AGI deployment leadership due to neuroimmune illness.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/",
      "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
     ]
    },
    {
-    "text": "Meta disabled its Instagram deepfake feature after public backlash; meanwhile, the NY Times alleges OpenAI hid billions of ChatGPT logs in copyright litigation.",
+    "text": "Anthropic discovered interpretable internal concept-spaces in Claude; Patreon blocked AI crawlers from scraping creator work without credit or compensation.",
     "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+     "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+     "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/"
     ]
    }
   ]
  },
  "items": [
+  {
+   "title": "Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
+   "link": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-12T10:00:00+00:00",
+   "summary": "Researchers cobbled together funding and time to show how quantum computing could aid in the development of drugs to help underserved populations and combat rare diseases.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers have demonstrated that quantum computing combined with AI can generate new peptides for drug development, working on this project with limited funding and time. The approach aims to develop treatments for rare diseases and underserved populations.",
+   "whyMatters": [
+    "Shows practical progress in using quantum computing for biomedical applications rather than theoretical work alone",
+    "Addresses a real gap in drug development for rare and neglected diseases where commercial incentives are weak"
+   ]
+  },
   {
    "title": "sqlite-utils 4.1",
    "link": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
@@ -1046,24 +1071,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Celebrity money pouring into AI is a marker of how mainstream the investment thesis has become — and a possible sign of froth.",
     "Mostly a business-culture story; light reading rather than industry-shaping news."
-   ]
-  },
-  {
-   "title": "I Built a Self-Improving AI, and So Can You",
-   "link": "https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-08T20:09:21+00:00",
-   "summary": "Experiments in using AI to build AI show that the future doesn’t just belong to the frontier labs.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Wired writer describes personally building a self-improving AI system — using AI to build and refine AI — and argues these experiments show the technique is not the exclusive domain of frontier labs. Hobbyists and small teams can now run recursive-improvement experiments.",
-   "whyMatters": [
-    "Self-improving AI is the mechanism behind many acceleration and safety concerns; its spread beyond big labs changes who controls that risk.",
-    "When individuals can run experiments once reserved for billion-dollar labs, oversight and governance get much harder."
    ]
   },
   {
@@ -3481,25 +3488,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The AI and Faith expert network is a primary directory of people working at the religion–AI intersection; new additions may include potential collaborators or speakers.",
     "Growth of the network is itself a signal that the faith-and-AI field is expanding."
-   ]
-  },
-  {
-   "title": "Rebooting Enterprise AI with MCP and Kubernetes",
-   "link": "https://share.transistor.fm/s/d76e02d5",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-05-28T09:00:00+00:00",
-   "summary": "What happens when AI agents start acting less like chatbots and more like coworkers? In this episode, Dan and Chris sit down with Craig McLuckie, CEO of Stacklok to explore MCP, Kubernetes, ToolHive, enterprise AI, and the emerging infrastructure powering AI-native applications. From identity management to agent orchestration and system architecture, this conversation dives into how organizations ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/d76e02d5/e934139b.mp3",
-   "image": "https://img.transistorcdn.com/DW1Kpa9KGJnH8k5egSdEosen8uKBm27_TToHTagrxkA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iNjhi/Y2RiYzU4NmYwZTRm/ZGUzNWQwODk1MjU1/MDFlZi5wbmc.jpg",
-   "themes": [],
-   "aiSummary": "Practical AI hosts Craig McLuckie, CEO of Stacklok, to discuss the infrastructure behind AI agents that act less like chatbots and more like coworkers: MCP, Kubernetes, ToolHive, identity management, and agent orchestration for enterprise AI-native applications.",
-   "whyMatters": [
-    "MCP — the protocol letting AI agents plug into tools and data — is fast becoming the standard connective tissue of agentic AI; this is a look under the hood.",
-    "The 'agents as coworkers' framing raises real governance questions: identity, permissions, and accountability for non-human actors.",
-    "McLuckie co-created Kubernetes, so his read on AI infrastructure carries weight about where enterprise deployment is going."
    ]
   }
  ]
