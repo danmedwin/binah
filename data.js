@@ -1,15 +1,15 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-11T17:57:46.711053+00:00",
+ "generatedAt": "2026-07-12T00:02:13.451135+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-11T17:57:53.831143+00:00",
+  "generatedAt": "2026-07-12T00:02:20.715138+00:00",
   "bullets": [
    {
-    "text": "OpenAI released GPT-5.6 (Sol, Terra, Luna), ChatGPT Work agentic system, and GPT-Live voice model; GPT-5.6 is now Microsoft 365 Copilot's preferred model.",
+    "text": "OpenAI released GPT-5.6 (Luna, Terra, Sol) and ChatGPT Work, an autonomous agent spanning apps and files for multi-hour projects—marking a shift from chatbot to agentic worker.",
     "links": [
      "https://openai.com/index/gpt-5-6",
      "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-     "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
     ]
    },
    {
@@ -20,23 +20,23 @@ window.NEWS_DATA = {
     ]
    },
    {
-    "text": "OpenAI's Head of Safety Johannes Heidecke departed as the company restructures by merging research and safety teams; separately, Fidji Simo stepped down from leading AGI work due to illness.",
+    "text": "OpenAI's Head of Safety Johannes Heidecke departed as the company merged research and safety teams; Fidji Simo stepped down from leading AGI work due to neuroimmune illness.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/",
      "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
     ]
    },
    {
-    "text": "New York Times alleges in copyright suit that OpenAI faked inability to search training data and hid or deleted billions of ChatGPT logs, potentially inviting court sanctions.",
+    "text": "Meta disabled its Instagram AI-deepfake feature within days of launch after public backlash; CEO Adam Mosseri said the platform will label but not filter AI content from feeds.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+     "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
     ]
    },
    {
-    "text": "Meta disabled Instagram feature enabling AI deepfakes of public accounts without consent after backlash; separately, Patreon blocked AI crawlers from scraping creators' work for training data.",
+    "text": "New York Times alleged OpenAI faked inability to search training data and hid billions of ChatGPT logs in copyright suit; potential court sanctions may follow.",
     "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/"
+     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
     ]
    }
   ]
