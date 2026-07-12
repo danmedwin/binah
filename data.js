@@ -1,48 +1,64 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-12T10:59:33.023777+00:00",
+ "generatedAt": "2026-07-12T12:03:04.202031+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-12T10:59:43.412689+00:00",
+  "generatedAt": "2026-07-12T12:03:17.319510+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI for allegedly stealing hardware secrets through former employees, claiming trade secret theft of presentations, prototypes, and supplier information.",
+    "text": "OpenAI faces potential court sanctions after allegedly hiding billions of ChatGPT logs and faking inability to search training data in copyright litigation with the New York Times.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+    ]
+   },
+   {
+    "text": "Apple sued OpenAI and Jony Ive's IO Products, alleging former Apple employees stole confidential hardware secrets including prototypes and supplier information for OpenAI's hardware ambitions.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "OpenAI released GPT-5.6 (Luna, Terra, Sol) and ChatGPT Work, an agentic system handling multi-application workflows; shuttered ChatGPT Atlas browser and faced legal allegations of hiding training data logs.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln",
-     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
-    ]
-   },
-   {
-    "text": "Meta disabled its Instagram AI deepfake feature after backlash over generating non-consensual images of public accounts; leadership signaled AI content will stay in feeds with labeling only.",
-    "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
-    ]
-   },
-   {
-    "text": "OpenAI's head of safety Johannes Heidecke is leaving as the company merges research and safety teams; Fidji Simo stepped down from AGI deployment leadership due to neuroimmune illness.",
+    "text": "OpenAI restructured by merging research and safety teams; Head of Safety Johannes Heidecke departed and CEO of AGI Deployment Fidji Simo stepped down to part-time advisor role due to illness.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/",
      "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
     ]
    },
    {
-    "text": "Anthropic discovered interpretable internal concept-spaces in Claude; Patreon blocked AI crawlers from scraping creator work without credit or compensation.",
+    "text": "Meta rapidly disabled its Instagram AI deepfake feature after backlash and faces EU demands to disable autoplay and infinite scroll or risk massive fines under the Digital Services Act.",
     "links": [
-     "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-     "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/"
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+     "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/"
+    ]
+   },
+   {
+    "text": "Microsoft's carbon emissions rose 25 percent in 2025, and local opposition to massive AI data center expansion is intensifying as communities resist resource-intensive buildout.",
+    "links": [
+     "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+     "https://www.theverge.com/column/963346/ai-data-centers-fight"
     ]
    }
   ]
  },
  "items": [
+  {
+   "title": "How to Help People Thrive with AI",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Help-People-Thrive-with-AI-e3lvj3p",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-12T10:47:12+00:00",
+   "summary": "AI can eliminate tedious work, but its real promise is helping people stretch their capabilities and pursue things that weren’t possible before. From the risk of “AI brain fry” to Uber’s agentic pods, NLW explores how organizations can turn productivity gains into human growth and entirely new forms of work. Brought to you by: KPMG – Research from KPMG and the University of Texas at Austin shows t",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122718777/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-12%2F427802521-44100-2-51652db76c0c6.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "This podcast episode argues that AI's value extends beyond automating tedious tasks—it should help people develop new capabilities and pursue work that was previously impossible. It discusses risks like \"AI brain fry\" and explores how organizations like Uber are structuring \"agentic pods\" to convert productivity gains into genuine human growth.",
+   "whyMatters": [
+    "Frames AI adoption around human flourishing rather than job displacement—relevant for educators and community leaders thinking about how to present AI to their communities",
+    "Addresses a concrete organizational challenge: converting efficiency into expanded capacity rather than just cost-cutting, which affects how institutions (including schools and nonprofits) should approach AI implementation"
+   ]
+  },
   {
    "title": "Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
    "link": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
@@ -242,6 +258,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Clarifies technical constraints on AR hardware development, undermining assumptions that fully local processing is imminent",
     "Has implications for privacy and surveillance concerns in ubiquitous computing that may interest communities and educators thinking about data ethics"
+   ]
+  },
+  {
+   "title": "The fight against AI data centers is just beginning",
+   "link": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-10T16:18:14+00:00",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "This Verge column reports on emerging local and regional opposition to the massive expansion of AI data centers, which consume enormous amounts of power and resources. The story signals that community resistance to data center buildout is growing and becoming a significant flashpoint.",
+   "whyMatters": [
+    "Data center construction has direct local impacts (power grid strain, land use, environmental effects) that will increasingly shape where AI infrastructure can be built and thus the pace of AI development",
+    "Relevant to understanding the material and geographic constraints on AI deployment, and how local stakeholder concerns—including from religious and civic institutions—may influence AI's trajectory"
    ]
   },
   {
@@ -713,27 +747,6 @@ window.NEWS_DATA = {
     "Direct pocketbook impact for Claude subscribers: top-model access is moving to metered pricing.",
     "Signals an industry-wide shift from all-you-can-eat subscriptions to usage-based billing as frontier models get expensive to run.",
     "Worth factoring into which plans and models you standardize on for your own projects."
-   ]
-  },
-  {
-   "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-09T17:32:30+00:00",
-   "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's greenlight for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To celebrate, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "After a two-week 'limited preview' restricted to government-approved organizations, the Trump administration greenlit a public rollout of GPT-5.6, which Sam Altman called OpenAI's best model ever. Alongside it, OpenAI announced ChatGPT Work.",
-   "whyMatters": [
-    "A frontier model needing government approval before public release is a striking new precedent for state involvement in AI deployment.",
-    "GPT-5.6 plus ChatGPT Work is OpenAI's biggest combined model-and-product push in months.",
-    "The politics of which administration approves which model raises questions about AI access becoming politically mediated."
    ]
   },
   {
@@ -3231,25 +3244,6 @@ window.NEWS_DATA = {
     "Documents a rare direct channel between tech power and religious moral authority — the Vatican is becoming a real player in AI ethics conversations.",
     "The Guardini framing — power without formation — is a rich theme for Jewish teaching on technology and ethics as well.",
     "Useful case study of how a faith institution gets a seat at the tech table, relevant to anyone wanting Jewish voices in those rooms."
-   ]
-  },
-  {
-   "title": "The Fable 5 Crisis Continues",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Fable-5-Crisis-Continues-e3kr0o3",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-15T18:58:57+00:00",
-   "summary": "The fight over Anthropic’s Fable 5 is still unresolved, with new reporting pointing to Amazon’s role in triggering the shutdown, sharp disputes over whether the jailbreak was a real national security threat, and growing signs that the path out may be more political than technical. As parties try to resolve the issue in D.C. NLW covers the latest. Check out the new ⁠⁠⁠https://aidailybrief.ai/⁠⁠⁠ Br",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121520323/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-15%2F426196576-44100-2-6028bd4e228f8.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "The fight over Anthropic's Fable 5 remains unresolved. New reporting points to Amazon's role in triggering the shutdown, there are sharp disputes over whether the jailbreak at the center of it was a genuine national security threat, and the path to resolution increasingly looks political rather than technical, with parties negotiating in Washington.",
-   "whyMatters": [
-    "A frontier model being shut down over a governance dispute is unprecedented — the outcome will shape how AI access is regulated.",
-    "Amazon's reported role highlights how much cloud providers, not just labs, control what AI the public can use.",
-    "The 'real threat or overreaction?' jailbreak debate is a preview of every future AI-safety-versus-access fight."
    ]
   },
   {
