@@ -1,47 +1,59 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-12T00:02:13.451135+00:00",
+ "generatedAt": "2026-07-12T07:30:50.085229+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-12T00:02:20.715138+00:00",
+  "generatedAt": "2026-07-12T07:31:03.906673+00:00",
   "bullets": [
    {
-    "text": "OpenAI released GPT-5.6 (Luna, Terra, Sol) and ChatGPT Work, an autonomous agent spanning apps and files for multi-hour projects—marking a shift from chatbot to agentic worker.",
+    "text": "OpenAI released GPT-5.6 (Sol, Terra, Luna) after government approval and launched ChatGPT Work, an autonomous agent operating across apps and files for extended tasks.",
     "links": [
      "https://openai.com/index/gpt-5-6",
      "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
+     "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
     ]
    },
    {
-    "text": "Apple sued OpenAI and Jony Ive's IO Products, alleging former Apple employees stole confidential hardware secrets including prototypes and supplier information.",
+    "text": "Apple sued OpenAI and Jony Ive's IO Products for allegedly stealing confidential hardware secrets through former Apple employees.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "OpenAI's Head of Safety Johannes Heidecke departed as the company merged research and safety teams; Fidji Simo stepped down from leading AGI work due to neuroimmune illness.",
+    "text": "OpenAI's Head of Safety Johannes Heidecke departed as the company merged its research and safety teams; separately, Fidji Simo stepped down from leading AGI work due to illness.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/",
      "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
     ]
    },
    {
-    "text": "Meta disabled its Instagram AI-deepfake feature within days of launch after public backlash; CEO Adam Mosseri said the platform will label but not filter AI content from feeds.",
+    "text": "Meta disabled its Instagram deepfake feature after public backlash; meanwhile, the NY Times alleges OpenAI hid billions of ChatGPT logs in copyright litigation.",
     "links": [
      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters"
-    ]
-   },
-   {
-    "text": "New York Times alleged OpenAI faked inability to search training data and hid billions of ChatGPT logs in copyright suit; potential court sanctions may follow.",
-    "links": [
      "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
     ]
    }
   ]
  },
  "items": [
+  {
+   "title": "sqlite-utils 4.1",
+   "link": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-11T23:50:20+00:00",
+   "summary": "Release: sqlite-utils 4.1 The first dot-release since 4.0 a few days ago , introducing a number of minor new features. sqlite-utils insert and sqlite-utils upsert now accept a --code option for providing a block of Python code (or a path to a .py file) that defines a rows() function or rows iterable of rows to insert, as an alternative to importing from a file. ( #684 ) sqlite-utils already had fe",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "sqlite-utils 4.1 adds a --code option to the insert and upsert commands, allowing users to provide Python code directly or reference a .py file that defines a rows() function instead of importing data from a file.",
+   "whyMatters": [
+    "Reduces friction for programmatic data insertion workflows by eliminating the need for intermediate file creation",
+    "Expands flexibility for developers integrating sqlite-utils into larger data pipelines"
+   ]
+  },
   {
    "title": "[AINews] not much happened today",
    "link": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
@@ -1917,26 +1929,6 @@ window.NEWS_DATA = {
     "Directly on the religion-and-AI beat: a serious attempt to apply a traditional religious legal system to AI governance.",
     "A natural comparison point for parallel work in halachah — how does another tradition's jurisprudence handle the same questions?",
     "Useful source material for interfaith conversations or teaching on religious ethics and technology."
-   ]
-  },
-  {
-   "title": "llm-coding-agent 0.1a0",
-   "link": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-02T19:33:12+00:00",
-   "summary": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here's the Claude Code for web transcript ): Write a spec.md for this pr",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Willison released llm-coding-agent 0.1a0, an experimental simple coding agent built on his LLM library, which has grown into more of an agent framework. He bootstrapped it with two prompts to Claude Fable 5, starting from his Python library template, and shared the full transcript.",
-   "whyMatters": [
-    "Shows how little effort it now takes to stand up a working coding agent — two prompts and a template.",
-    "The published transcript is a transparent, learnable example of AI-assisted development from start to finish."
    ]
   },
   {
