@@ -1,46 +1,67 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-12T12:03:04.202031+00:00",
+ "generatedAt": "2026-07-12T18:01:51.132648+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-12T12:03:17.319510+00:00",
+  "generatedAt": "2026-07-12T18:02:01.063015+00:00",
   "bullets": [
    {
-    "text": "OpenAI faces potential court sanctions after allegedly hiding billions of ChatGPT logs and faking inability to search training data in copyright litigation with the New York Times.",
+    "text": "OpenAI released GPT-5.6 model family (Luna, Terra, Sol) and transformed Codex into ChatGPT Work, an agentic system handling multi-step workflows across applications and files.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+     "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln",
+     "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/"
     ]
    },
    {
-    "text": "Apple sued OpenAI and Jony Ive's IO Products, alleging former Apple employees stole confidential hardware secrets including prototypes and supplier information for OpenAI's hardware ambitions.",
+    "text": "Apple sued OpenAI and Jony Ive's IO Products, alleging former Apple employees stole confidential hardware secrets including prototypes and supplier information.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "OpenAI restructured by merging research and safety teams; Head of Safety Johannes Heidecke departed and CEO of AGI Deployment Fidji Simo stepped down to part-time advisor role due to illness.",
+    "text": "OpenAI's head of safety Johannes Heidecke and AGI CEO Fidji Simo both departed as company restructures research and safety teams.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/",
      "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
     ]
    },
    {
-    "text": "Meta rapidly disabled its Instagram AI deepfake feature after backlash and faces EU demands to disable autoplay and infinite scroll or risk massive fines under the Digital Services Act.",
+    "text": "Meta disabled an Instagram feature enabling AI-generated deepfakes of public accounts without consent after public backlash, reversing a recent announcement.",
     "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/"
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
     ]
    },
    {
-    "text": "Microsoft's carbon emissions rose 25 percent in 2025, and local opposition to massive AI data center expansion is intensifying as communities resist resource-intensive buildout.",
+    "text": "Communities are increasingly resisting AI data center expansion due to massive power consumption; simultaneously, Microsoft's carbon emissions rose 25 percent last year.",
     "links": [
-     "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
-     "https://www.theverge.com/column/963346/ai-data-centers-fight"
+     "https://www.theverge.com/column/963346/ai-data-centers-fight",
+     "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026"
     ]
    }
   ]
  },
  "items": [
+  {
+   "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+   "link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-12T16:27:06+00:00",
+   "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor was never finished, as Mark Gurman details […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Apple's abandoned self-driving car project drove the company to develop powerful on-device AI processing capabilities. Though the car itself never materialized, the technical work Apple invested in that effort became foundational to the AI performance now embedded in its chip designs.",
+   "whyMatters": [
+    "Demonstrates how failed projects can yield indirect but significant technological spillovers across an entire product line",
+    "Illustrates the business reality that large AI infrastructure investments often justify themselves through multiple applications beyond the original intended use"
+   ]
+  },
   {
    "title": "How to Help People Thrive with AI",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Help-People-Thrive-with-AI-e3lvj3p",
@@ -828,24 +849,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Dexterous hands are the main bottleneck for humanoid robots doing real housework; progress here matters more than flashy demos of walking.",
     "Home robots raise fresh questions about privacy and household labor that will land in family life sooner than most people expect."
-   ]
-  },
-  {
-   "title": "Microsoft’s patch Tuesdays are about to get bigger",
-   "link": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-09T14:55:37+00:00",
-   "summary": "Windows 11 updates could soon include fixes for more security issues at once. Microsoft said in a blog post on Thursday that it's now using AI to \"identify potential issues earlier,\" which means \"customers will see a higher volume of security updates included in each security release.\" Hackers, even amateurs, have increasingly been using AI […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Microsoft says it is now using AI to find potential security issues in Windows earlier, so each monthly Patch Tuesday release will bundle a higher volume of fixes. The move comes as attackers, including amateurs, increasingly use AI to find and exploit vulnerabilities.",
-   "whyMatters": [
-    "This is the defensive side of an AI arms race: AI is now finding bugs faster on both the attacker and defender sides.",
-    "For anyone managing computers for a synagogue, school, or nonprofit, expect larger monthly Windows updates that are more important to install promptly."
    ]
   },
   {
@@ -3462,26 +3465,6 @@ window.NEWS_DATA = {
     "The Stanford AI Index is the closest thing to an annual state-of-the-field report — data, not vibes.",
     "Disappearing junior tech jobs is a concrete, documented labor effect with implications for how educators advise students.",
     "The 'jagged frontier' — brilliant here, inept there — is the single most useful concept for setting realistic expectations of AI."
-   ]
-  },
-  {
-   "title": "AI and Faith Welcomes New Experts",
-   "link": "https://aiandfaith.org/news/new-experts-may26/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-05-28T16:26:30+00:00",
-   "summary": "",
-   "religionScore": 5,
-   "religionHits": [
-    "faith"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI and Faith announces a new cohort of experts joining its network. The listing gives no names or details.",
-   "whyMatters": [
-    "The AI and Faith expert network is a primary directory of people working at the religion–AI intersection; new additions may include potential collaborators or speakers.",
-    "Growth of the network is itself a signal that the faith-and-AI field is expanding."
    ]
   }
  ]
