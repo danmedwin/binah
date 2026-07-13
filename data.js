@@ -1,37 +1,81 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-12T23:59:58.267807+00:00",
+ "generatedAt": "2026-07-13T08:20:03.657068+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-13T00:00:06.821717+00:00",
+  "generatedAt": "2026-07-13T08:20:16.141582+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI for allegedly recruiting former employees to steal confidential hardware secrets, including prototypes and supplier information for AI devices.",
+    "text": "Apple sued OpenAI for allegedly stealing hardware secrets through former employees, claiming the company acquired confidential presentations, prototypes, and supplier information.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "OpenAI's Head of Safety departed as the company restructures by merging research and safety teams, raising questions about the organization's governance priorities.",
-    "links": [
-     "https://www.wired.com/story/openai-head-of-safety-leaving/"
-    ]
-   },
-   {
-    "text": "Meta disabled an Instagram feature allowing AI-generated deepfakes of public accounts without consent after public backlash, reversing course days after launch.",
+    "text": "Meta disabled its newly announced Instagram feature allowing users to generate AI deepfakes of public accounts without consent following immediate public backlash.",
     "links": [
      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
     ]
    },
    {
-    "text": "Microsoft's carbon emissions rose 25 percent in 2025, driven primarily by AI infrastructure expansion, moving further from its climate commitments.",
+    "text": "OpenAI's Head of Safety Johannes Heidecke is leaving as the company merges its research and safety teams into a single unit.",
     "links": [
-     "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026"
+     "https://www.wired.com/story/openai-head-of-safety-leaving/"
+    ]
+   },
+   {
+    "text": "OpenAI released ChatGPT Work, an agentic system that automates tasks across applications and files, signaling industry shift toward AI agents for knowledge work.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
+    ]
+   },
+   {
+    "text": "Local and regional opposition to massive AI data center expansion is growing due to power consumption and resource demands, posing regulatory challenges ahead.",
+    "links": [
+     "https://www.theverge.com/column/963346/ai-data-centers-fight"
     ]
    }
   ]
  },
  "items": [
+  {
+   "title": "Directly Responsible Individuals (DRI)",
+   "link": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-12T23:57:14+00:00",
+   "summary": "Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a specific project, initiative, or activity\". I've been thinking about this term recently in the cont",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Simon Willison explores the term \"Directly Responsible Individuals\" (DRI), a concept originating at Apple that designates one person as ultimately accountable for the success or failure of a specific project or initiative. The term is documented in GitLab's handbook and has become part of organizational practice.",
+   "whyMatters": [
+    "Clarifies a management pattern used in tech companies that affects how project accountability and decision-making are structured",
+    "Relevant to educators and organizational leaders thinking about how to assign responsibility in collaborative environments like schools or institutions"
+   ]
+  },
+  {
+   "title": "shot-scraper 1.11",
+   "link": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-12T23:46:52+00:00",
+   "summary": "Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a second to start serving traffic. server: processes used by shot-scraper multi and shot-scraper video now wait up to 30 seconds for the target URL to accept connections, polling for",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "shot-scraper, a web automation tool, released version 1.11 with minor improvements focused on command consistency and improved server startup handling. The update extends timeout windows for servers taking longer to start and improves reliability for the video and multi-server modes.",
+   "whyMatters": [
+    "Technical maintenance update for developers using web automation and screenshot tools",
+    "No direct relevance to education, religion, or broader AI policy"
+   ]
+  },
   {
    "title": "Fable gets another bump",
    "link": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
@@ -56,16 +100,36 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-07-12T20:55:30+00:00",
-   "summary": "Release: sqlite-utils 4.1.1 table.transform() now raises a TransactionError if called while a transaction is open with PRAGMAforeign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE , SET NULL or SET DEFAULT . The pragma cannot be changed inside a transaction, so previously dropping the old table as part of the transform could fire those actions",
+   "summary": "Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE , SET NULL or SET DEFA",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "sqlite-utils 4.1.1 adds a safety check that raises a TransactionError when table.transform() is called during an active transaction if the table has foreign key constraints with destructive delete actions, preventing data loss from unintended cascade operations.",
+   "whyMatters": [
+    "Prevents a class of data corruption bugs where dropping old tables during transforms could trigger unintended CASCADE, SET NULL, or SET DEFAULT actions that cannot be safely controlled within transactions",
+    "Improves reliability for developers working with relational databases that enforce referential integrity constraints"
+   ]
+  },
+  {
+   "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-12T20:10:32+00:00",
+   "summary": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "sqlite-utils 4.1.1 adds a safety check that raises a TransactionError when table.transform() is called during an active transaction if the table has foreign key constraints with destructive delete actions, preventing data loss from unintended cascade operations.",
+   "aiSummary": "During a performance at Madrid's Real Cool Festival, musician Lorde publicly criticized AI glasses (appearing to reference Ray-Ban Meta's AI smartglasses, a festival sponsor) as aesthetically unappealing. She did not name the product explicitly but spoke against AI glasses during her set.",
    "whyMatters": [
-    "Prevents a class of data corruption bugs where dropping old tables during transforms could trigger unintended CASCADE, SET NULL, or SET DEFAULT actions that cannot be safely controlled within transactions",
-    "Improves reliability for developers working with relational databases that enforce referential integrity constraints"
+    "Reflects cultural pushback against AI-integrated wearables as a consumer product category",
+    "Highlights public skepticism about the desirability of AI hardware, even from mainstream cultural figures, which may influence adoption rates and brand perception"
    ]
   },
   {
@@ -439,25 +503,6 @@ window.NEWS_DATA = {
     "A test case for whether AI art can be experienced as meaningful rather than slop — relevant to anyone thinking about AI-generated imagery in sacred or educational spaces.",
     "The biometric/wearable angle previews art that responds to the viewer's body, a new kind of immersive experience.",
     "Useful reference point in debates about AI and human creativity."
-   ]
-  },
-  {
-   "title": "Google will now tell you if an ad was made with AI",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-10T09:50:42+00:00",
-   "summary": "You can see if ads on Google Search, Google Discover, and YouTube were made or edited using AI from a new section in Google's \"My Ad Center,\" as reported earlier by TechCrunch. The update, announced on Thursday, adds a \"created or edited with AI\" label under the \"how this ad was made\" tab. Users can […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google now discloses when ads on Search, Discover, and YouTube were made or edited with AI. A 'created or edited with AI' label appears under the 'how this ad was made' tab in Google's My Ad Center.",
-   "whyMatters": [
-    "One of the largest ad platforms adopting AI provenance labels — a meaningful step for transparency norms.",
-    "The disclosure is buried in a settings tab rather than shown on the ad itself, so its practical impact on viewers is limited.",
-    "Useful concrete example when teaching students or congregants how to evaluate what they see online."
    ]
   },
   {
@@ -1810,43 +1855,6 @@ window.NEWS_DATA = {
     "A compact way to catch up on how much shifted in one month — scarcity, capability, and regulation all moved at once.",
     "The 'summer window' framing is practical advice for anyone deciding when to invest time in new AI workflows.",
     "Token scarcity becoming real affects pricing and access for small organizations, including nonprofits and congregations."
-   ]
-  },
-  {
-   "title": "Open Source AI Gap Map",
-   "link": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-03T22:04:31+00:00",
-   "summary": "Open Source AI Gap Map Current AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committed). They launched their Gap Map a couple of days ago - an attempt at indexing the current state of open source AI: The Gap Map v0.1 details 421 products in depth: 266 software tool",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Current AI, a nonprofit 'public option for AI' partnership launched at the Paris AI Action Summit with $400 million committed, released a Gap Map cataloging the state of open-source AI. Version 0.1 indexes 421 products in depth, aiming to show where open alternatives exist and where gaps remain.",
-   "whyMatters": [
-    "A serious, well-funded effort to keep AI from being purely a commercial, closed ecosystem — a values question as much as a technical one.",
-    "The map itself is a practical directory for anyone seeking open, lower-cost, or self-hostable alternatives to proprietary tools."
-   ]
-  },
-  {
-   "title": "Quoting Josh W. Comeau",
-   "link": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-03T21:25:52+00:00",
-   "summary": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch. It’s a similar story with my two existing courses. Sales are down significantly from last year. There are likely a lot of reasons for this, but I think the biggest is AI. There’s sort of a double whammy with AI: Many people are wondering whether developer jo",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Course creator Josh W. Comeau reports his new web-development course is selling about a third as many copies as a typical launch, with sales down across his catalog. He attributes the drop largely to AI: prospective students doubt developer jobs will exist, and AI tools reduce the perceived need to learn the material.",
-   "whyMatters": [
-    "A firsthand data point on AI hollowing out the market for technical education — an education-economics story, not just a tech one.",
-    "The 'why learn it if AI does it' dynamic is the same question educators in every field, including Jewish education, will increasingly face.",
-    "Shows AI's economic disruption hitting independent creators well before it shows up in aggregate job statistics."
    ]
   },
   {
