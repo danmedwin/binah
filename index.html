@@ -14,8 +14,12 @@
   --paper-deep: #F3EBDA;
   --ink: #1E2A3A;
   --ink-soft: #4A5568;
-  --ink-faint: #8B93A1;
+  --ink-faint: #5F6773;
   --gold: #B07A1E;
+  --gold-text: #916315;
+  --gold-panel: #D9A94E;
+  --gold-fill-bg: #BC8E40;
+  --gold-fill-text: #1E2A3A;
   --gold-soft: #E7D3AC;
   --spotlight-bg: #F6EDD9;
   --rule: #D8CDB6;
@@ -30,8 +34,12 @@
     --paper-deep: #121822;
     --ink: #EDE6D6;
     --ink-soft: #B6BDC9;
-    --ink-faint: #75808F;
+    --ink-faint: #7C879B;
     --gold: #D9A94E;
+    --gold-text: var(--gold);
+    --gold-panel: #7A5210;
+    --gold-fill-bg: var(--gold);
+    --gold-fill-text: #1E2A3A;
     --gold-soft: #4A3B1D;
     --spotlight-bg: #1F2634;
     --rule: #333E4F;
@@ -39,6 +47,14 @@
     --pod: #8DC3AE;
     --pod-soft: #23392F;
     --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 18px -8px rgba(0,0,0,.5);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -86,12 +102,14 @@ a { color: inherit; }
 .masthead .subscribe {
   display: inline-block; margin-top: 12px;
   font-family: 'Instrument Sans', sans-serif; font-size: 13px; font-weight: 600;
-  color: var(--gold); text-decoration: none;
+  color: var(--gold-text); text-decoration: none;
   border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
   border-radius: 99px; padding: 6px 16px;
-  transition: background .18s, color .18s;
+  transition: background .2s ease, color .2s ease, transform .15s ease;
 }
-.masthead .subscribe:hover { background: var(--gold); color: #fff; }
+.masthead .subscribe:hover { background: var(--gold-fill-bg); color: var(--gold-fill-text); }
+.masthead .subscribe:active { transform: scale(.97); }
+.masthead .subscribe:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
 
 /* ============ Controls ============ */
 .controls {
@@ -107,25 +125,31 @@ a { color: inherit; }
   font-family: 'Instrument Sans', sans-serif; font-size: 13.5px; font-weight: 600;
   padding: 7px 15px; border-radius: 99px; border: 1px solid var(--rule);
   background: transparent; color: var(--ink-soft); cursor: pointer;
-  transition: all .18s ease;
+  transition: background .2s ease, color .2s ease, border-color .2s ease, transform .15s ease;
 }
-.tab:hover { border-color: var(--gold); color: var(--gold); }
+.tab:hover { border-color: var(--gold-text); color: var(--gold-text); }
+.tab:active { transform: scale(.96); }
+.tab:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
 .tab.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-.tab.active.gold-tab { background: var(--gold); border-color: var(--gold); color: #fff; }
-.tab .n { opacity: .55; font-weight: 400; margin-left: 4px; }
+.tab.active.gold-tab { background: var(--gold-fill-bg); border-color: var(--gold-fill-bg); color: var(--gold-fill-text); }
+.tab .n { opacity: .78; font-weight: 400; margin-left: 4px; }
 .spacer { flex: 1; }
 .search {
   font-family: 'Instrument Sans', sans-serif; font-size: 14px;
-  padding: 8px 14px; border-radius: 99px; border: 1px solid var(--rule);
+  padding: 8px 14px; border-radius: 99px; border: 1px solid var(--ink-faint);
   background: var(--card); color: var(--ink); width: 200px;
-  transition: width .25s ease, border-color .18s;
+  transition: width .25s ease, border-color .2s ease;
 }
-.search:focus { outline: none; border-color: var(--gold); width: 260px; }
+.search:focus { outline: none; border-color: var(--gold-text); width: 260px; }
+.search:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
 select.src {
   font-family: 'Instrument Sans', sans-serif; font-size: 13.5px;
-  padding: 8px 12px; border-radius: 99px; border: 1px solid var(--rule);
+  padding: 8px 12px; border-radius: 99px; border: 1px solid var(--ink-faint);
   background: var(--card); color: var(--ink-soft); cursor: pointer; max-width: 190px;
+  transition: border-color .2s ease, color .2s ease;
 }
+select.src:hover { border-color: var(--gold-text); color: var(--ink); }
+select.src:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
 
 /* ============ The Brief (highlights) ============ */
 .brief {
@@ -139,14 +163,15 @@ select.src {
 }
 .brief-kicker {
   font-family: 'Instrument Sans', sans-serif; font-size: 11px; font-weight: 600;
-  letter-spacing: .22em; text-transform: uppercase; color: var(--gold);
+  letter-spacing: .22em; text-transform: uppercase; color: var(--gold-panel);
   display: flex; align-items: center; gap: 12px;
 }
-.brief-kicker::after { content: ""; flex: 1; height: 1px; background: color-mix(in srgb, var(--gold) 40%, transparent); }
+.brief-kicker::after { content: ""; flex: 1; height: 1px; background: color-mix(in srgb, var(--gold-panel) 40%, transparent); }
 .brief h2 {
   font-family: 'Fraunces', serif; font-weight: 600; font-size: 24px; margin: 6px 0 14px;
+  display: flex; justify-content: space-between; align-items: baseline; gap: 14px; flex-wrap: wrap;
 }
-.brief h2 .heb { font-family: 'David Libre', serif; color: var(--gold); }
+.brief h2 .heb { font-family: 'David Libre', serif; color: var(--gold-panel); }
 .brief ol { list-style: none; margin: 0; padding: 0; counter-reset: brief; }
 .brief ol li {
   counter-increment: brief; position: relative;
@@ -157,7 +182,7 @@ select.src {
   content: counter(brief);
   position: absolute; left: 4px; top: 7px;
   font-family: 'Fraunces', serif; font-weight: 900; font-size: 24px;
-  color: var(--gold); opacity: .9;
+  color: var(--gold-panel); opacity: .9;
 }
 .b-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
 .b-links a {
@@ -165,10 +190,11 @@ select.src {
   color: var(--paper); text-decoration: none;
   border: 1px solid color-mix(in srgb, var(--paper) 30%, transparent);
   border-radius: 99px; padding: 3px 11px;
-  transition: border-color .15s, color .15s;
+  transition: border-color .2s ease, color .2s ease;
 }
-.b-links a:hover { border-color: var(--gold); color: var(--gold); }
-.b-links a .s { opacity: .55; font-weight: 400; }
+.b-links a:hover { border-color: var(--gold-panel); color: var(--gold-panel); }
+.b-links a:focus-visible { outline: 2px solid var(--gold-panel); outline-offset: 2px; }
+.b-links a .s { opacity: .78; font-weight: 400; }
 
 /* ============ Spotlight ============ */
 .spotlight {
@@ -180,7 +206,10 @@ select.src {
   font-family: 'Fraunces', serif; font-weight: 600; font-size: 26px;
   color: var(--gold);
 }
-.spot-head h2 .heb { font-family: 'David Libre', serif; }
+.spot-head .heb {
+  font-family: 'David Libre', serif; font-weight: 600; font-size: 26px;
+  color: var(--gold); line-height: 1;
+}
 .spot-head .rule { flex: 1; height: 1px; background: linear-gradient(90deg, var(--gold-soft), transparent); }
 .spot-head .sub { font-family: 'Instrument Sans', sans-serif; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
 .spot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
@@ -193,13 +222,14 @@ select.src {
 }
 .spot-card:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(30,42,58,.08), 0 14px 28px -10px rgba(30,42,58,.22); }
 .spot-card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 18.5px; line-height: 1.3; }
-.spot-card h3 a { text-decoration: none; }
-.spot-card h3 a:hover { color: var(--gold); }
+.spot-card h3 a { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--ink) 18%, transparent); text-underline-offset: 2px; }
+.spot-card h3 a:hover, .spot-card h3 a:focus-visible { color: var(--gold-text); text-decoration-color: var(--gold-text); }
+.spot-card h3 a:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
 .spot-card p { font-size: 14.5px; color: var(--ink-soft); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .hit-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; }
 .hit {
   font-family: 'Instrument Sans', sans-serif; font-size: 10.5px; letter-spacing: .08em;
-  text-transform: uppercase; color: var(--gold); border: 1px solid var(--gold-soft);
+  text-transform: uppercase; color: var(--gold-text); border: 1px solid var(--gold-soft);
   padding: 2px 8px; border-radius: 99px; background: color-mix(in srgb, var(--gold) 7%, transparent);
 }
 
@@ -230,7 +260,7 @@ select.src {
 }
 .badge-rel {
   font-weight: 600; font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
-  color: var(--gold); background: color-mix(in srgb, var(--gold) 10%, transparent);
+  color: var(--gold-text); background: color-mix(in srgb, var(--gold) 10%, transparent);
   padding: 2px 8px; border-radius: 99px;
 }
 .thumb {
@@ -245,29 +275,35 @@ select.src {
   font-size: 13px; color: var(--ink-soft); line-height: 1.45;
 }
 .why li { padding-left: 16px; position: relative; margin-top: 3px; }
-.why li::before { content: "▸"; position: absolute; left: 2px; color: var(--gold); }
+.why li::before { content: "▸"; position: absolute; left: 2px; color: var(--gold-text); }
 .why-label {
   font-family: 'Instrument Sans', sans-serif; font-size: 10.5px; font-weight: 600;
-  letter-spacing: .14em; text-transform: uppercase; color: var(--gold);
+  letter-spacing: .14em; text-transform: uppercase; color: var(--gold-text);
   margin-top: 6px;
 }
 p.sum.expanded { -webkit-line-clamp: unset; display: block; }
 .more-btn {
-  background: none; border: none; padding: 0; margin-top: -2px;
+  background: none; border: none; padding: 2px 0; margin-top: -2px;
   font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 600;
-  color: var(--gold); cursor: pointer; text-align: left; align-self: flex-start;
+  color: var(--gold-text); cursor: pointer; text-align: left; align-self: flex-start;
+  transition: opacity .2s ease;
 }
 .more-btn:hover { text-decoration: underline; }
+.more-btn:active { opacity: .7; }
+.more-btn:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
 .card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 17px; line-height: 1.32; }
-.card h3 a { text-decoration: none; }
-.card h3 a:hover { color: var(--gold); }
+.card h3 a { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--ink) 18%, transparent); text-underline-offset: 2px; }
+.card h3 a:hover, .card h3 a:focus-visible { color: var(--gold-text); text-decoration-color: var(--gold-text); }
+.card h3 a:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
 .card p { font-size: 14px; color: var(--ink-soft); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .listen {
   font-family: 'Instrument Sans', sans-serif; font-size: 12.5px; font-weight: 600;
-  color: var(--pod); cursor: pointer; background: none; border: none; padding: 0;
-  text-align: left; margin-top: 2px;
+  color: var(--pod); cursor: pointer; background: none; border: none; padding: 2px 0;
+  text-align: left; margin-top: 2px; transition: opacity .2s ease;
 }
 .listen:hover { text-decoration: underline; }
+.listen:active { opacity: .7; }
+.listen:focus-visible { outline: 2px solid var(--pod); outline-offset: 2px; }
 .card audio { width: 100%; margin-top: 6px; height: 34px; }
 .empty {
   text-align: center; padding: 70px 20px; color: var(--ink-faint); font-style: italic; font-size: 17px;
@@ -279,7 +315,8 @@ footer {
   padding: 26px 28px 46px; text-align: center;
   font-family: 'Instrument Sans', sans-serif; font-size: 12.5px; color: var(--ink-faint);
 }
-footer .heb { font-family: 'David Libre', serif; color: var(--gold); font-size: 15px; }
+footer > * { max-width: 1180px; margin-left: auto; margin-right: auto; }
+footer .heb { font-family: 'David Libre', serif; color: var(--gold-text); font-size: 15px; }
 footer .row { margin-top: 6px; }
 footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
@@ -295,40 +332,41 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <header class="masthead">
   <div class="kicker">A Daily Digest of Artificial Intelligence</div>
-  <h1><span class="heb">בִּינָה</span> Binah</h1>
+  <h1>Binah <span class="heb" lang="he" dir="rtl">בִּינָה</span></h1>
   <div class="tagline">the news in machine intelligence — with an eye on faith, ethics, and Jewish life</div>
   <div class="dateline" id="dateline"></div>
   <!-- href assembled in JS from parts so the address never appears in static markup -->
-  <a class="subscribe" id="subscribeLink" href="#" rel="nofollow">📬 Get Binah as a daily email — Subscribe</a>
+  <a class="subscribe" id="subscribeLink" href="#" rel="nofollow">Get Binah as a daily email — Subscribe</a>
 </header>
 
 <nav class="controls" id="controls">
-  <button class="tab active" data-tab="all">Everything <span class="n" id="n-all"></span></button>
-  <button class="tab gold-tab" data-tab="religion">AI &amp; Religion <span class="n" id="n-religion"></span></button>
-  <button class="tab" data-tab="news">News <span class="n" id="n-news"></span></button>
-  <button class="tab" data-tab="podcast">Podcasts <span class="n" id="n-podcast"></span></button>
-  <button class="tab" data-tab="updates">Updates <span class="n" id="n-updates"></span></button>
-  <button class="tab" data-tab="robots">Robots <span class="n" id="n-robots"></span></button>
-  <button class="tab" data-tab="ethics">Ethics <span class="n" id="n-ethics"></span></button>
-  <button class="tab" data-tab="environment">Environment <span class="n" id="n-environment"></span></button>
+  <button class="tab active" data-tab="all" aria-pressed="true">Everything <span class="n" id="n-all"></span></button>
+  <button class="tab gold-tab" data-tab="religion" aria-pressed="false">AI &amp; Religion <span class="n" id="n-religion"></span></button>
+  <button class="tab" data-tab="news" aria-pressed="false">News <span class="n" id="n-news"></span></button>
+  <button class="tab" data-tab="podcast" aria-pressed="false">Podcasts <span class="n" id="n-podcast"></span></button>
+  <button class="tab" data-tab="updates" aria-pressed="false">Updates <span class="n" id="n-updates"></span></button>
+  <button class="tab" data-tab="robots" aria-pressed="false">Robots <span class="n" id="n-robots"></span></button>
+  <button class="tab" data-tab="ethics" aria-pressed="false">Ethics <span class="n" id="n-ethics"></span></button>
+  <button class="tab" data-tab="environment" aria-pressed="false">Environment <span class="n" id="n-environment"></span></button>
   <div class="spacer"></div>
-  <select class="src" id="srcFilter"><option value="">All sources</option></select>
-  <input class="search" id="search" type="search" placeholder="Search headlines…">
+  <select class="src" id="srcFilter" aria-label="Filter by source"><option value="">All sources</option></select>
+  <input class="search" id="search" type="search" placeholder="Search headlines…" aria-label="Search headlines">
 </nav>
 
 <section class="brief" id="brief" hidden>
   <div class="brief-panel">
     <div class="brief-kicker">The Brief · <span id="briefDate"></span></div>
-    <h2><span class="heb">הָעִקָּר</span> HaIkar — What You Need to Know</h2>
+    <h2><span>HaIkar — What You Need to Know</span> <span class="heb" lang="he" dir="rtl">הָעִקָּר</span></h2>
     <ol id="briefList"></ol>
   </div>
 </section>
 
 <section class="spotlight" id="spotlight" hidden>
   <div class="spot-head">
-    <h2><span class="heb">בִּינָה וֶאֱמוּנָה</span> Binah Ve'emunah — AI &amp; Religion</h2>
+    <h2>Binah Ve'emunah — AI &amp; Religion</h2>
     <div class="rule"></div>
     <div class="sub" id="spotCount"></div>
+    <div class="heb" lang="he" dir="rtl">בִּינָה וֶאֱמוּנָה</div>
   </div>
   <div class="spot-grid" id="spotGrid"></div>
 </section>
@@ -339,8 +377,8 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 </main>
 
 <footer>
-  <div><span class="heb">בִּינָה</span> Binah — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.4 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
+  <div>Binah <span class="heb" lang="he" dir="rtl">בִּינָה</span> — AI News Daily</div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.6 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 
@@ -540,8 +578,12 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
   document.getElementById('controls').addEventListener('click', function (e) {
     var t = e.target.closest('.tab');
     if (!t) return;
-    document.querySelectorAll('.tab').forEach(function (b) { b.classList.remove('active'); });
+    document.querySelectorAll('.tab').forEach(function (b) {
+      b.classList.remove('active');
+      b.setAttribute('aria-pressed', 'false');
+    });
     t.classList.add('active');
+    t.setAttribute('aria-pressed', 'true');
     state.tab = t.getAttribute('data-tab');
     render();
   });
@@ -563,6 +605,13 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     var card = b.closest('article');
     var existing = card.querySelector('audio');
     if (existing) { existing.remove(); b.textContent = '▶ Listen here'; return; }
+    // Only one podcast plays at a time — close any other open player first.
+    document.querySelectorAll('.listen').forEach(function (other) {
+      if (other === b) return;
+      var otherCard = other.closest('article');
+      var otherAudio = otherCard && otherCard.querySelector('audio');
+      if (otherAudio) { otherAudio.remove(); other.textContent = '▶ Listen here'; }
+    });
     var a = document.createElement('audio');
     a.controls = true; a.src = b.getAttribute('data-audio');
     card.appendChild(a); a.play();

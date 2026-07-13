@@ -311,12 +311,13 @@ def process_feed(feed):
 
 
 def load_previous():
-    """Carry enrichment (by link) and the last Brief over from the existing
-    data.js, so a refresh doesn't drop or re-pay for what's already generated.
-    enrich_news.py regenerates the Brief when a key is available."""
+    """Carry enrichment (by link), the last Brief, and the last emailed
+    digest brief over from the existing data.js, so a refresh doesn't drop
+    or re-pay for what's already generated. enrich_news.py regenerates the
+    Brief when a key is available."""
     path = HERE / "data.js"
     if not path.exists():
-        return {}, None
+        return {}, None, None
     try:
         raw = path.read_text(encoding="utf-8")
         data = json.loads(re.sub(r"^window\.NEWS_DATA = |;\s*$", "", raw.strip()))
@@ -325,13 +326,13 @@ def load_previous():
             for i in data.get("items", [])
             if i.get("aiSummary")
         }
-        return enrich, data.get("highlights")
+        return enrich, data.get("highlights"), data.get("lastDigestBrief")
     except Exception:
-        return {}, None
+        return {}, None, None
 
 
 def main():
-    previous, prev_highlights = load_previous()
+    previous, prev_highlights, prev_digest_brief = load_previous()
     all_items = []
     with ThreadPoolExecutor(max_workers=6) as pool:
         futures = [pool.submit(process_feed, f) for f in FEEDS]
@@ -356,6 +357,7 @@ def main():
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "feedCount": len(FEEDS),
         "highlights": prev_highlights,
+        "lastDigestBrief": prev_digest_brief,
         "items": deduped,
     }
     payload = "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"

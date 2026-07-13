@@ -128,7 +128,7 @@ def call_claude(api_key, system, schema, user_content):
     return None
 
 
-def build_brief(api_key, items):
+def build_brief(api_key, items, previous=None):
     """Regenerate the front-page Brief from the last ~72h of items."""
     from datetime import datetime, timedelta, timezone
     cutoff = (datetime.now(timezone.utc) - timedelta(hours=72)).isoformat()
@@ -137,9 +137,26 @@ def build_brief(api_key, items):
         recent = sorted(items, key=lambda x: x.get("date") or "", reverse=True)[:40]
     payload = [{"link": i["link"], "title": i["title"], "source": i["source"],
                 "blurb": (i.get("aiSummary") or i["summary"])[:250]} for i in recent]
+    # Anti-repetition: show the model the brief the reader already received
+    # (yesterday's emailed digest) so consecutive digests don't re-cover the
+    # same stories — slow news days made back-to-back emails nearly identical.
+    prev_note = ""
+    prev_bullets = (previous or {}).get("bullets") or []
+    if prev_bullets:
+        prev_texts = [b["text"] if isinstance(b, dict) else str(b) for b in prev_bullets]
+        prev_note = (
+            "\n\nYesterday's brief already told the reader:\n- "
+            + "\n- ".join(prev_texts)
+            + "\n\nDo not repeat those takeaways. Cover a story again only if "
+            "there is a genuinely NEW development since, and lead with what "
+            "changed. Prefer stories not covered above; if the news window is "
+            "so thin that some repetition is unavoidable, reframe rather than "
+            "restate, and fewer fresh takeaways beat five stale ones."
+        )
     res = call_claude(
         api_key, BRIEF_SYSTEM, BRIEF_SCHEMA,
-        "Write today's brief from these items:\n\n" + json.dumps(payload, ensure_ascii=False),
+        "Write today's brief from these items:\n\n"
+        + json.dumps(payload, ensure_ascii=False) + prev_note,
     )
     if not res or not res.get("bullets"):
         return None
@@ -192,7 +209,12 @@ def main():
     else:
         print("All items already enriched.")
 
-    brief = build_brief(api_key, items)
+    # Digest runs (DIGEST_RUN=1) dedupe against the brief last EMAILED, so
+    # the morning email always leads with what's new since yesterday's email.
+    # Dashboard refreshes (no flag) keep the day's top stories regardless —
+    # a dashboard visitor never saw the "previous" brief.
+    prev_digest = data.get("lastDigestBrief") if os.environ.get("DIGEST_RUN") else None
+    brief = build_brief(api_key, items, previous=prev_digest)
     if brief:
         data["highlights"] = brief
         n_links = sum(len(b["links"]) for b in brief["bullets"])

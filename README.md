@@ -79,4 +79,4 @@ ANTHROPIC_API_KEY=sk-ant-... python3 enrich_news.py    # summarize new items
 - Summary voice/model: `SYSTEM` and `MODEL` in `enrich_news.py`.
 
 ---
-v5.4 · built by Claude for Rabbi Dan Medwin
+v5.6 · built by Claude for Rabbi Dan Medwin
