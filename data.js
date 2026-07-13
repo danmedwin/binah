@@ -1,40 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-13T18:46:29.780180+00:00",
+ "generatedAt": "2026-07-13T23:57:45.154045+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-13T18:46:43.203357+00:00",
+  "generatedAt": "2026-07-13T23:57:58.808498+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI for allegedly stealing confidential hardware secrets through former employees, including prototypes, presentations, and supplier information.",
+    "text": "Apple sued OpenAI alleging a former engineer exploited a software bug to steal trade secrets, signaling escalating corporate conflict in AI competition.",
     "links": [
-     "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-     "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
+     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
      "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
     ]
    },
    {
-    "text": "OpenAI's Head of Safety is departing as the company merges its research and safety teams, amid broader industry competition intensifying over hardware and system control.",
+    "text": "Apple redesigned Siri as a core AI assistant for iPhones in iOS 27, moving from voice commands to central interaction hub, already changing user behavior.",
     "links": [
-     "https://www.wired.com/story/openai-head-of-safety-leaving/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Escalating-AI-Wars-Benefit-You-e3m1j2i"
+     "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
+     "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
     ]
    },
    {
-    "text": "ChatGPT now operates as a work agent across applications and files, advancing AI from task automation toward autonomous execution of general knowledge work.",
+    "text": "Advanced AI coding models (Opus 4.8, GPT-5.5, GPT-5.6 Sol) correlate with measurable spikes in developer productivity on open-source projects like Datasette.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
+     "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything"
     ]
    },
    {
-    "text": "Meta disabled an Instagram feature allowing AI-generated images of public accounts without consent, reversing the announcement after public backlash.",
+    "text": "Meta disabled an Instagram feature allowing AI-generated deepfakes of public accounts without consent after backlash, reflecting ongoing tensions over AI-generated synthetic content.",
     "links": [
      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
     ]
    },
    {
-    "text": "Communities are organizing resistance to AI data center expansion due to enormous power consumption and resource demands.",
+    "text": "Security researchers are weaponizing prompt injection as a defensive tactic to shut down AI-powered hacking agents before they cause damage.",
     "links": [
-     "https://www.theverge.com/column/963346/ai-data-centers-fight"
+     "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/"
     ]
    }
   ]
@@ -42,6 +41,96 @@ window.NEWS_DATA = {
  "lastDigestBrief": null,
  "tasteProfile": null,
  "items": [
+  {
+   "title": "DOOMQL",
+   "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-13T22:34:41+00:00",
+   "summary": "DOOMQL Peter Gostev built this using GPT-5.6 Sol. This is a lot of fun: DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data? The result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen. It's implemented as a Python terminal sc",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/doomql-window.png",
+   "themes": [],
+   "aiSummary": "Peter Gostev built DOOMQL, a playable Doom-like game where SQLite is the actual game engine, handling movement, collision, enemies, combat, and rendering—not just data storage. The entire game logic runs through SQL queries executed in a Python terminal.",
+   "whyMatters": [
+    "Demonstrates creative application of AI tools (GPT-5.6 Sol) to solve unconventional problems",
+    "Shows how current LLMs can assist in building novel systems that combine unexpected technologies"
+   ]
+  },
+  {
+   "title": "datasette code-frequency chart on GitHub",
+   "link": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-13T21:45:27+00:00",
+   "summary": "datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags:",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/datasette-code-frequency.png",
+   "themes": [],
+   "aiSummary": "Simon Willison analyzed his own GitHub activity on the Datasette open-source project and found a significant spike in code contributions correlating with releases of advanced AI coding models (Opus 4.8, GPT-5.5, Fable 5, GPT-5.6 Sol).",
+   "whyMatters": [
+    "Provides concrete evidence of how advanced AI models are accelerating developer productivity",
+    "Suggests AI coding agents are materially changing the pace of open-source development"
+   ]
+  },
+  {
+   "title": "Siri AI Is Becoming Apple’s Everything Tool",
+   "link": "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-13T21:39:09+00:00",
+   "summary": "Apple’s revamped Siri is more than a voice assistant; it’s now the backbone of the iPhone user experience. You can try it now through the iOS 27 public beta.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple has redesigned Siri as a central AI assistant powering the iPhone experience, moving beyond voice-command utility to become the core of user interaction. The updated Siri is available in the iOS 27 public beta.",
+   "whyMatters": [
+    "Represents major platform shift: AI moving from peripheral tool to central OS architecture",
+    "Consumer AI now deeply integrated into everyday device ecosystems used by billions"
+   ]
+  },
+  {
+   "title": "Siri AI is already changing how I use my iPhone",
+   "link": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T20:43:20+00:00",
+   "summary": "iOS 27 escaped the developer world today with the launch of the first public beta. I've been testing the new operating system since early June, looking for quirks and seeing if it can live up to the hype Apple promised in the keynote. This year's iOS upgrades are what one might call a Snow Leopard […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Verge tested the new iOS 27 public beta featuring Apple's redesigned AI-driven Siri, finding it substantially changes how users interact with iPhones. The tester has been evaluating it since June and comparing it to Apple's keynote promises.",
+   "whyMatters": [
+    "iOS 27 represents significant generational shift in Apple's AI integration strategy",
+    "Hands-on review provides practical assessment of whether AI assistants can deliver on commercial promises"
+   ]
+  },
+  {
+   "title": "Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
+   "link": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-13T19:17:51+00:00",
+   "summary": "OpenAI accused of conspiring with former Apple employees to steal trade secrets.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple filed a lawsuit against OpenAI alleging that a former Apple engineer exploited a software bug to steal proprietary trade secrets and that OpenAI conspired in the theft.",
+   "whyMatters": [
+    "Highlights growing legal and IP disputes as AI companies compete for talent and technology",
+    "Signals potential risk of industrial espionage as AI engineering becomes strategically valuable"
+   ]
+  },
   {
    "title": "How the Escalating AI Wars Benefit You",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Escalating-AI-Wars-Benefit-You-e3m1j2i",
@@ -487,24 +576,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Can AI replace vocation?",
-   "link": "https://religionnews.com/2026/07/10/can-ai-replace-vocation/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-07-10T18:04:07+00:00",
-   "summary": "(RNS) — For many, the uncertainty is about more than employment — it's about meaning and purpose.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Religion News Service explores whether AI can replace vocation, framing the question not merely as job displacement but as a deeper concern about meaning and purpose in faith and calling. The article examines existential and vocational dimensions of AI impact.",
-   "whyMatters": [
-    "Addresses the intersection of AI and religious concepts of calling and purpose, not just economic employment",
-    "Relevant to educators and clergy discussing how communities understand meaning and work in light of AI capabilities"
-   ]
-  },
-  {
    "title": "Quoting Nilay Patel",
    "link": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
    "source": "Simon Willison",
@@ -716,27 +787,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "If you're evaluating ChatGPT Work for an organization, the cloud-vs-desktop data split matters for privacy and where files live.",
     "The muddled messaging is a caution: even OpenAI struggles to explain its own product boundaries."
-   ]
-  },
-  {
-   "title": "Microsoft’s carbon emissions went up 25 percent last year",
-   "link": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-10T00:04:13+00:00",
-   "summary": "Microsoft may once again be struggling to keep up with its own climate goals, according to its 2026 sustainability report. As reported by GeekWire, the report states that Microsoft's carbon emissions increased 25 percent in 2025, totalling 34 million metric tons \"without select interventions.\" Microsoft says this was \"driven primarily by the expansion of our […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Microsoft's 2026 sustainability report shows its carbon emissions rose 25 percent in 2025, to 34 million metric tons 'without select interventions.' The company attributes the increase primarily to expansion — putting it further from its own climate goals.",
-   "whyMatters": [
-    "Hard numbers on AI's environmental cost: the data-center buildout is blowing through a major company's climate pledges.",
-    "Sharpens the ethical tension between AI progress and environmental stewardship — a live question for anyone teaching about bal tashchit and responsibility for creation.",
-    "Expect similar reports from Google and Amazon; this is an industry-wide pattern, not a Microsoft quirk."
    ]
   },
   {
@@ -1228,24 +1278,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "This is education's AI crisis in one number: a 50% score drop suggests grades had been measuring AI use, not learning.",
     "Directly relevant to Jewish education: assessment design — in-person, oral, discussion-based — may matter more than detection tools, and the beit midrash model of face-to-face learning looks newly durable."
-   ]
-  },
-  {
-   "title": "Messi and Ronaldo Are Building Tech Portfolios. Mo Salah Is Playing a Different Game",
-   "link": "https://www.wired.com/story/messi-ronaldo-tech-portfolios-salah-playing-a-different-game/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-08T21:08:26+00:00",
-   "summary": "Lionel Messi and Cristiano Ronaldo are betting on AI, health tech, and startups. Mohamed Salah is taking a more traditional route beyond football.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Lionel Messi and Cristiano Ronaldo are investing in AI, health tech, and startups as they build post-football portfolios, while Mohamed Salah is taking a more traditional investment route. Wired contrasts the three stars' approaches to life after the game.",
-   "whyMatters": [
-    "Celebrity money pouring into AI is a marker of how mainstream the investment thesis has become — and a possible sign of froth.",
-    "Mostly a business-culture story; light reading rather than industry-shaping news."
    ]
   },
   {
@@ -1890,43 +1922,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Building a World Map with only 500 bytes",
-   "link": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-04T23:09:02+00:00",
-   "summary": "Building a World Map with only 500 bytes Iwo Kadziela (assisted by Codex) figured out a way to generate a credible ASCII world map using 445 bytes of data: The key trick is to use deflate compression, which is then wired together using this neat snippet of JavaScript. I didn't know you could use fetch() with data: URIs like this: fetch('data:;base64,1ZpLsgIxCEXnrM...==').then( r => r.body.pipeThro",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/world-map-ascii.png",
-   "themes": [],
-   "aiSummary": "Developer Iwo Kadziela, working with OpenAI's Codex, built a recognizable ASCII world map from just 445 bytes of data by storing it deflate-compressed and decompressing it in the browser with a clever fetch() trick on a data: URI. Willison highlights it as a neat piece of JavaScript minimalism.",
-   "whyMatters": [
-    "A fun example of human-plus-AI craftsmanship on a constrained puzzle, not just AI churning out boilerplate.",
-    "The compression-in-a-data-URI trick is a genuinely reusable web technique for anyone building tiny self-contained pages."
-   ]
-  },
-  {
-   "title": "Better Models: Worse Tools",
-   "link": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-04T22:53:52+00:00",
-   "summary": "Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] array. And not Haiku or some small model: Opus 4.8. The edit itself is usually correct but the arguments do not match the schema as the model invents made-up keys and Pi thus reject",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Armin Ronacher found that newer Claude models, including Opus 4.8, sometimes call his Pi tool's edit function with invented extra fields that don't match the declared schema, so the tool rejects otherwise-correct edits. The paradox: smarter models can actually break existing tool integrations built for their predecessors.",
-   "whyMatters": [
-    "Concrete evidence that model upgrades aren't free — tools and workflows built around one model's habits can break on the next.",
-    "Relevant to anyone maintaining AI-powered tools or scripts: schema-conformance can't be assumed even from frontier models.",
-    "A useful counterpoint when people equate 'newer model' with 'strictly better' in every dimension."
-   ]
-  },
-  {
    "title": "The Big Ways AI Just Changed",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Big-Ways-AI-Just-Changed-e3lkje9",
    "source": "The AI Daily Brief",
@@ -2447,25 +2442,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "$175B in actual annualized revenue is the strongest counter yet to the 'it's all a bubble' framing — real money, not just valuations.",
     "The compute-and-power angle connects AI growth to energy and infrastructure questions that affect everyone."
-   ]
-  },
-  {
-   "title": "New attack provides one more reason why AI browsers are a bad idea",
-   "link": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-06-30T20:03:14+00:00",
-   "summary": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers demonstrated a new attack on AI-powered browsers: by convincing the underlying LLM of false premises — even something as simple as 2 + 2 = 5 — attackers can put it in a state where its safety guardrails stop applying and it follows forbidden instructions.",
-   "whyMatters": [
-    "Anyone using or recommending AI browser agents should know they can be manipulated by content on the pages they visit.",
-    "The 2+2=5 mechanism shows guardrails rest on the model's grasp of reality — destabilize that, and the ethics layer collapses with it.",
-    "A concrete case for teaching about the gap between AI that follows rules and AI that understands why the rules exist."
    ]
   },
   {
