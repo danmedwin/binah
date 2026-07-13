@@ -1,47 +1,73 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-12T18:01:51.132648+00:00",
+ "generatedAt": "2026-07-12T23:59:58.267807+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-12T18:02:01.063015+00:00",
+  "generatedAt": "2026-07-13T00:00:06.821717+00:00",
   "bullets": [
    {
-    "text": "OpenAI released GPT-5.6 model family (Luna, Terra, Sol) and transformed Codex into ChatGPT Work, an agentic system handling multi-step workflows across applications and files.",
-    "links": [
-     "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln",
-     "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/"
-    ]
-   },
-   {
-    "text": "Apple sued OpenAI and Jony Ive's IO Products, alleging former Apple employees stole confidential hardware secrets including prototypes and supplier information.",
+    "text": "Apple sued OpenAI for allegedly recruiting former employees to steal confidential hardware secrets, including prototypes and supplier information for AI devices.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "OpenAI's head of safety Johannes Heidecke and AGI CEO Fidji Simo both departed as company restructures research and safety teams.",
+    "text": "OpenAI's Head of Safety departed as the company restructures by merging research and safety teams, raising questions about the organization's governance priorities.",
     "links": [
-     "https://www.wired.com/story/openai-head-of-safety-leaving/",
-     "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
+     "https://www.wired.com/story/openai-head-of-safety-leaving/"
     ]
    },
    {
-    "text": "Meta disabled an Instagram feature enabling AI-generated deepfakes of public accounts without consent after public backlash, reversing a recent announcement.",
+    "text": "Meta disabled an Instagram feature allowing AI-generated deepfakes of public accounts without consent after public backlash, reversing course days after launch.",
     "links": [
      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
     ]
    },
    {
-    "text": "Communities are increasingly resisting AI data center expansion due to massive power consumption; simultaneously, Microsoft's carbon emissions rose 25 percent last year.",
+    "text": "Microsoft's carbon emissions rose 25 percent in 2025, driven primarily by AI infrastructure expansion, moving further from its climate commitments.",
     "links": [
-     "https://www.theverge.com/column/963346/ai-data-centers-fight",
      "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026"
     ]
    }
   ]
  },
  "items": [
+  {
+   "title": "Fable gets another bump",
+   "link": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-12T21:20:07+00:00",
+   "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19. As before, you can use up to half of your weekly usage limit on Fable ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic has extended the availability of Claude Fable 5 on its paid plans through July 19, maintaining its earlier decision to keep the model available longer than originally planned. The extension also keeps Claude Code's weekly rate limits 50% higher during this period.",
+   "whyMatters": [
+    "Signals ongoing demand for or strategic value of the Fable model class, prompting Anthropic to reverse earlier sunset timelines",
+    "Affects users relying on Fable for specific tasks who would otherwise lose access to the capability"
+   ]
+  },
+  {
+   "title": "sqlite-utils 4.1.1",
+   "link": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-12T20:55:30+00:00",
+   "summary": "Release: sqlite-utils 4.1.1 table.transform() now raises a TransactionError if called while a transaction is open with PRAGMAforeign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE , SET NULL or SET DEFAULT . The pragma cannot be changed inside a transaction, so previously dropping the old table as part of the transform could fire those actions",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "sqlite-utils 4.1.1 adds a safety check that raises a TransactionError when table.transform() is called during an active transaction if the table has foreign key constraints with destructive delete actions, preventing data loss from unintended cascade operations.",
+   "whyMatters": [
+    "Prevents a class of data corruption bugs where dropping old tables during transforms could trigger unintended CASCADE, SET NULL, or SET DEFAULT actions that cannot be safely controlled within transactions",
+    "Improves reliability for developers working with relational databases that enforce referential integrity constraints"
+   ]
+  },
   {
    "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
    "link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
@@ -1821,44 +1847,6 @@ window.NEWS_DATA = {
     "A firsthand data point on AI hollowing out the market for technical education — an education-economics story, not just a tech one.",
     "The 'why learn it if AI does it' dynamic is the same question educators in every field, including Jewish education, will increasingly face.",
     "Shows AI's economic disruption hitting independent creators well before it shows up in aggregate job statistics."
-   ]
-  },
-  {
-   "title": "Fable's judgement",
-   "link": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-03T18:51:06+00:00",
-   "summary": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for s",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "At a fireside chat with Claude Code team members Cat Wu and Thariq Shihipar, Willison picked up a key tip: let Fable (and to a lesser degree Opus) use its own judgement rather than micromanaging its process. Their example was testing — tell the model when tests matter rather than dictating exact procedures for every change.",
-   "whyMatters": [
-    "Practical, from-the-source guidance for anyone who uses Claude Code: over-specifying instructions can now make results worse.",
-    "Signals a shift in how we relate to these tools — from scripting them to delegating to them, which changes what 'prompting skill' means."
-   ]
-  },
-  {
-   "title": "June 2026 newsletter",
-   "link": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-03T14:50:50+00:00",
-   "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Claude Fable 5, GPT-5.6, and US export restrictions GLM-5.2 is the new best open weights model Tokenmaxxing is so over Datasette Apps sqlite-utils and shot-scraper and Datasette Miscellaneous WASM projects Other model releases What I'm using ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Willison's sponsors-only June newsletter is out, covering Claude Fable 5, GPT-5.6, US export restrictions, GLM-5.2 as the new best open-weights model, and updates to his Datasette and sqlite-utils projects. It's a paid roundup of a very busy month.",
-   "whyMatters": [
-    "One-stop digest of June's model releases and policy moves from one of the field's most trusted independent voices.",
-    "GLM-5.2 claiming the open-weights crown matters for anyone tracking free and self-hostable alternatives to the big labs."
    ]
   },
   {
