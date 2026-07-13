@@ -1,43 +1,121 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-13T08:20:03.657068+00:00",
+ "generatedAt": "2026-07-13T12:21:43.489386+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-13T08:20:16.141582+00:00",
+  "generatedAt": "2026-07-13T12:21:54.412829+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI for allegedly stealing hardware secrets through former employees, claiming the company acquired confidential presentations, prototypes, and supplier information.",
+    "text": "Apple sued OpenAI for allegedly stealing hardware secrets through former employees, including confidential presentations and supplier information for hardware projects.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "Meta disabled its newly announced Instagram feature allowing users to generate AI deepfakes of public accounts without consent following immediate public backlash.",
+    "text": "Meta disabled its new Instagram feature enabling AI deepfakes of public figures without consent after backlash, reversing course weeks after launch.",
     "links": [
      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
     ]
    },
    {
-    "text": "OpenAI's Head of Safety Johannes Heidecke is leaving as the company merges its research and safety teams into a single unit.",
+    "text": "OpenAI's Head of Safety departed as the company merged its research and safety teams, marking a structural shift in how it approaches safety governance.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/"
     ]
    },
    {
-    "text": "OpenAI released ChatGPT Work, an agentic system that automates tasks across applications and files, signaling industry shift toward AI agents for knowledge work.",
+    "text": "EU regulators demanded Meta disable autoplay and infinite scroll or face significant fines under the Digital Services Act, targeting engagement-maximizing design features.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
+     "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/"
     ]
    },
    {
-    "text": "Local and regional opposition to massive AI data center expansion is growing due to power consumption and resource demands, posing regulatory challenges ahead.",
+    "text": "OpenAI released ChatGPT Work, an agentic system operating across applications and projects to expand AI capabilities beyond coding into general knowledge work.",
     "links": [
-     "https://www.theverge.com/column/963346/ai-data-centers-fight"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
     ]
    }
   ]
  },
  "items": [
+  {
+   "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+   "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T09:56:25+00:00",
+   "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Meta disabled an Instagram feature it had just announced that allowed users to generate AI-generated images based on public accounts without the account owners' consent. The reversal came after public backlash.",
+   "whyMatters": [
+    "Demonstrates rapid course correction on controversial AI features in response to user and public concern",
+    "Highlights ongoing tension between AI content generation capabilities and creator consent and intellectual property rights"
+   ]
+  },
+  {
+   "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+   "link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T09:24:23+00:00",
+   "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor was never finished, as Mark Gurman details […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Apple's abandoned self-driving car project drove the company to develop powerful on-device AI processing capabilities. Though the car itself never materialized, the technical work Apple invested in that effort became foundational to the AI performance now embedded in its chip designs.",
+   "whyMatters": [
+    "Demonstrates how failed projects can yield indirect but significant technological spillovers across an entire product line",
+    "Illustrates the business reality that large AI infrastructure investments often justify themselves through multiple applications beyond the original intended use"
+   ]
+  },
+  {
+   "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T09:10:12+00:00",
+   "summary": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "During a performance at Madrid's Real Cool Festival, musician Lorde publicly criticized AI glasses (appearing to reference Ray-Ban Meta's AI smartglasses, a festival sponsor) as aesthetically unappealing. She did not name the product explicitly but spoke against AI glasses during her set.",
+   "whyMatters": [
+    "Reflects cultural pushback against AI-integrated wearables as a consumer product category",
+    "Highlights public skepticism about the desirability of AI hardware, even from mainstream cultural figures, which may influence adoption rates and brand perception"
+   ]
+  },
+  {
+   "title": "Waze is getting a bunch of new AI-powered features",
+   "link": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T09:07:04+00:00",
+   "summary": "Waze is getting an AI makeover. Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini. Waze says its updating its conversation reporting feature, first introduced in 2024, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google is integrating Gemini into the Waze navigation app to enable new AI-powered features that let users personalize their trips. The update includes improvements to conversation reporting (a feature introduced in 2024) and two features explicitly using Gemini, though the article does not detail all four announced updates.",
+   "whyMatters": [
+    "Demonstrates how major AI assistants are being embedded into everyday consumer applications beyond search and chat interfaces",
+    "Shows the practical scaling of generative AI into driving contexts where voice interaction and personalization could improve user experience"
+   ]
+  },
   {
    "title": "Directly Responsible Individuals (DRI)",
    "link": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
@@ -112,44 +190,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Prevents a class of data corruption bugs where dropping old tables during transforms could trigger unintended CASCADE, SET NULL, or SET DEFAULT actions that cannot be safely controlled within transactions",
     "Improves reliability for developers working with relational databases that enforce referential integrity constraints"
-   ]
-  },
-  {
-   "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-12T20:10:32+00:00",
-   "summary": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "During a performance at Madrid's Real Cool Festival, musician Lorde publicly criticized AI glasses (appearing to reference Ray-Ban Meta's AI smartglasses, a festival sponsor) as aesthetically unappealing. She did not name the product explicitly but spoke against AI glasses during her set.",
-   "whyMatters": [
-    "Reflects cultural pushback against AI-integrated wearables as a consumer product category",
-    "Highlights public skepticism about the desirability of AI hardware, even from mainstream cultural figures, which may influence adoption rates and brand perception"
-   ]
-  },
-  {
-   "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
-   "link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-12T16:27:06+00:00",
-   "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor was never finished, as Mark Gurman details […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Apple's abandoned self-driving car project drove the company to develop powerful on-device AI processing capabilities. Though the car itself never materialized, the technical work Apple invested in that effort became foundational to the AI performance now embedded in its chip designs.",
-   "whyMatters": [
-    "Demonstrates how failed projects can yield indirect but significant technological spillovers across an entire product line",
-    "Illustrates the business reality that large AI infrastructure investments often justify themselves through multiple applications beyond the original intended use"
    ]
   },
   {
@@ -241,26 +281,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Safety leadership departures at major AI labs raise questions about organizational commitment to safety oversight",
     "Integration of safety into general research teams could shift how safety concerns are prioritized versus speed of capability development"
-   ]
-  },
-  {
-   "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-   "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-10T23:56:48+00:00",
-   "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Meta disabled an Instagram feature it had just announced that allowed users to generate AI-generated images based on public accounts without the account owners' consent. The reversal came after public backlash.",
-   "whyMatters": [
-    "Demonstrates rapid course correction on controversial AI features in response to user and public concern",
-    "Highlights ongoing tension between AI content generation capabilities and creator consent and intellectual property rights"
    ]
   },
   {
@@ -660,26 +680,6 @@ window.NEWS_DATA = {
     "A major creator platform drawing a hard line on training-data consent — momentum for the 'permission first' side of the copyright fight.",
     "Cloudflare's involvement means blocking AI crawlers is becoming infrastructure-level and easy to adopt.",
     "The credit/compensation/consent framing is a clean ethical rubric worth borrowing for teaching about intellectual property and AI."
-   ]
-  },
-  {
-   "title": "The ChatGPT browser is already dead",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-09T21:49:26+00:00",
-   "summary": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October, but as part of its wave of news about ChatGPT Work today, the company confirmed that it will be \"sunsetting\" Atlas and is targeting an […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI is shutting down ChatGPT Atlas, its agentic web browser, less than a year after its October launch. The sunset was confirmed as part of the ChatGPT Work announcements, with the browser's task-doing functions apparently folded into the new product line.",
-   "whyMatters": [
-    "A reminder that even OpenAI's flagship launches can die within a year — don't build workflows on brand-new AI products without an exit plan.",
-    "Suggests OpenAI is consolidating its agent ambitions into ChatGPT Work rather than a standalone browser."
    ]
   },
   {
