@@ -58,7 +58,7 @@
   }
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body {
   background: var(--paper);
   color: var(--ink);
@@ -212,7 +212,7 @@ select.src:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 
 }
 .spot-head .rule { flex: 1; height: 1px; background: linear-gradient(90deg, var(--gold-soft), transparent); }
 .spot-head .sub { font-family: 'Instrument Sans', sans-serif; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
-.spot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.spot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 16px; }
 .spot-card {
   background: var(--spotlight-bg); border: 1px solid var(--gold-soft);
   border-top: 3px solid var(--gold);
@@ -241,7 +241,7 @@ select.src:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 
   margin: 30px 0 12px; display: flex; align-items: center; gap: 14px;
 }
 .day-head::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(330px, 100%), 1fr)); gap: 14px; }
 .card {
   background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
   padding: 16px 18px 14px; box-shadow: var(--shadow);
@@ -346,11 +346,38 @@ footer .heb { font-family: 'David Libre', serif; color: var(--gold-text); font-s
 footer .row { margin-top: 6px; }
 footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
+/* Filters toggle: desktop never sees it; mobile collapses the bar to
+   [active tab · Filters ▾] and expands on tap. */
+.filters-toggle {
+  display: none;
+  font-family: 'Instrument Sans', sans-serif; font-size: 13.5px; font-weight: 600;
+  padding: 7px 15px; border-radius: 99px; border: 1px solid var(--rule);
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+  transition: border-color .2s ease, color .2s ease;
+}
+.filters-toggle:hover { border-color: var(--gold-text); color: var(--gold-text); }
+.filters-toggle:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
+
 @keyframes settle { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 @media (max-width: 640px) {
   .masthead { padding: 26px 18px 16px; }
   .controls, .spotlight, .feed { padding-left: 18px; padding-right: 18px; }
   .search, .search:focus { width: 100%; }
+  .filters-toggle { display: inline-block; margin-left: auto; }
+  .controls.collapsed .tab:not(.active),
+  .controls.collapsed select.src,
+  .controls.collapsed .search,
+  .controls.collapsed .spacer { display: none; }
+  /* Slightly larger reading sizes on small screens */
+  .card p { font-size: 15px; }
+  .spot-card p { font-size: 15.5px; }
+  .card h3 { font-size: 18px; }
+  .spot-card h3 { font-size: 19.5px; }
+  .brief ol li { font-size: 16.5px; }
+  .why { font-size: 14px; }
+  .meta { font-size: 12.5px; }
+  .day-head { font-size: 13px; }
+  .b-links a { font-size: 13px; padding: 4px 12px; }
 }
 </style>
 </head>
@@ -365,7 +392,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
   <a class="subscribe" id="subscribeLink" href="#" rel="nofollow">Get Binah as a daily email — Subscribe</a>
 </header>
 
-<nav class="controls" id="controls">
+<nav class="controls collapsed" id="controls">
   <button class="tab active" data-tab="all" aria-pressed="true">Everything <span class="n" id="n-all"></span></button>
   <button class="tab gold-tab" data-tab="religion" aria-pressed="false">AI &amp; Religion <span class="n" id="n-religion"></span></button>
   <button class="tab" data-tab="news" aria-pressed="false">News <span class="n" id="n-news"></span></button>
@@ -377,6 +404,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
   <div class="spacer"></div>
   <select class="src" id="srcFilter" aria-label="Filter by source"><option value="">All sources</option></select>
   <input class="search" id="search" type="search" placeholder="Search headlines…" aria-label="Search headlines">
+  <button class="filters-toggle" id="filtersToggle" aria-expanded="false">Filters ▾</button>
 </nav>
 
 <section class="brief" id="brief" hidden>
@@ -404,7 +432,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <footer>
   <div>Binah <span class="heb" lang="he" dir="rtl">בִּינָה</span> — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.7 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.8 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 
@@ -640,7 +668,19 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
   document.getElementById('srcList').textContent = 'Sources: ' + srcNames.join(' · ');
 
   // ---- Events ----
-  document.getElementById('controls').addEventListener('click', function (e) {
+  var controlsEl = document.getElementById('controls');
+  var toggleEl = document.getElementById('filtersToggle');
+  function setCollapsed(on) {
+    controlsEl.classList.toggle('collapsed', on);
+    toggleEl.setAttribute('aria-expanded', String(!on));
+    toggleEl.textContent = on ? 'Filters ▾' : 'Close ▴';
+  }
+  toggleEl.addEventListener('click', function () {
+    setCollapsed(!controlsEl.classList.contains('collapsed'));
+  });
+  var isMobile = window.matchMedia('(max-width: 640px)');
+
+  controlsEl.addEventListener('click', function (e) {
     var t = e.target.closest('.tab');
     if (!t) return;
     document.querySelectorAll('.tab').forEach(function (b) {
@@ -650,6 +690,7 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     t.classList.add('active');
     t.setAttribute('aria-pressed', 'true');
     state.tab = t.getAttribute('data-tab');
+    if (isMobile.matches) setCollapsed(true); // picked a filter — tuck the bar away
     render();
   });
   sel.addEventListener('change', function () { state.src = sel.value; render(); });
