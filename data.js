@@ -1,43 +1,55 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-13T12:21:43.489386+00:00",
+ "generatedAt": "2026-07-13T13:27:32.928920+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-13T12:21:54.412829+00:00",
+  "generatedAt": "2026-07-13T13:27:46.037832+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI for allegedly stealing hardware secrets through former employees, including confidential presentations and supplier information for hardware projects.",
+    "text": "Apple sued OpenAI for allegedly stealing hardware secrets through former employees, targeting confidential prototypes and supplier information for AI hardware development.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
      "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     ]
    },
    {
-    "text": "Meta disabled its new Instagram feature enabling AI deepfakes of public figures without consent after backlash, reversing course weeks after launch.",
-    "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
-    ]
-   },
-   {
-    "text": "OpenAI's Head of Safety departed as the company merged its research and safety teams, marking a structural shift in how it approaches safety governance.",
+    "text": "OpenAI's Head of Safety departed as the company merges research and safety teams, signaling organizational restructuring amid growing competitive pressure.",
     "links": [
      "https://www.wired.com/story/openai-head-of-safety-leaving/"
     ]
    },
    {
-    "text": "EU regulators demanded Meta disable autoplay and infinite scroll or face significant fines under the Digital Services Act, targeting engagement-maximizing design features.",
+    "text": "Meta disabled its Instagram AI deepfake feature within days of launch after public backlash over generating images of public accounts without consent.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/"
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
     ]
    },
    {
-    "text": "OpenAI released ChatGPT Work, an agentic system operating across applications and projects to expand AI capabilities beyond coding into general knowledge work.",
+    "text": "Community resistance to AI data center expansion is intensifying over power consumption and resource demands, signaling emerging regulatory and political headwinds.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
+     "https://www.theverge.com/column/963346/ai-data-centers-fight"
     ]
    }
   ]
  },
  "items": [
+  {
+   "title": "The fight against AI data centers is just beginning",
+   "link": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T12:35:37+00:00",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "This Verge column reports on emerging local and regional opposition to the massive expansion of AI data centers, which consume enormous amounts of power and resources. The story signals that community resistance to data center buildout is growing and becoming a significant flashpoint.",
+   "whyMatters": [
+    "Data center construction has direct local impacts (power grid strain, land use, environmental effects) that will increasingly shape where AI infrastructure can be built and thus the pace of AI development",
+    "Relevant to understanding the material and geographic constraints on AI deployment, and how local stakeholder concerns—including from religious and civic institutions—may influence AI's trajectory"
+   ]
+  },
   {
    "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
    "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
@@ -392,24 +404,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The fight against AI data centers is just beginning",
-   "link": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-10T16:18:14+00:00",
-   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "This Verge column reports on emerging local and regional opposition to the massive expansion of AI data centers, which consume enormous amounts of power and resources. The story signals that community resistance to data center buildout is growing and becoming a significant flashpoint.",
-   "whyMatters": [
-    "Data center construction has direct local impacts (power grid strain, land use, environmental effects) that will increasingly shape where AI infrastructure can be built and thus the pace of AI development",
-    "Relevant to understanding the material and geographic constraints on AI deployment, and how local stakeholder concerns—including from religious and civic institutions—may influence AI's trajectory"
-   ]
-  },
-  {
    "title": "Disable autoplay and infinite scroll or risk massive fines, EU tells Meta",
    "link": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
    "source": "Ars Technica · AI",
@@ -624,6 +618,24 @@ window.NEWS_DATA = {
     "Hard numbers on AI's environmental cost: the data-center buildout is blowing through a major company's climate pledges.",
     "Sharpens the ethical tension between AI progress and environmental stewardship — a live question for anyone teaching about bal tashchit and responsibility for creation.",
     "Expect similar reports from Google and Amazon; this is an industry-wide pattern, not a Microsoft quirk."
+   ]
+  },
+  {
+   "title": "Getting started with ChatGPT",
+   "link": "https://openai.com/academy/getting-started",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-10T00:00:00+00:00",
+   "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI has published a Getting Started guide for ChatGPT that covers basic usage, initiating conversations, and foundational tasks like writing, brainstorming, and problem-solving with the tool.",
+   "whyMatters": [
+    "Relevant to educators and clergy seeking practical instruction on integrating ChatGPT into their work—teaching, sermon preparation, curriculum design",
+    "OpenAI's official onboarding content helps establish baseline competency and responsible use patterns among new users in religious and educational communities"
    ]
   },
   {
@@ -977,6 +989,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "GPT-5.5 Bio Bug Bounty",
+   "link": "https://openai.com/index/bio-bug-bounty",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "Details about the OpenAI Bio Bounty program",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
+   "whyMatters": [
+    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
+    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
+   ]
+  },
+  {
    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
    "link": "https://openai.com/index/gpt-5-6",
    "source": "OpenAI News",
@@ -1010,24 +1040,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
     "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
-   ]
-  },
-  {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "Details about the OpenAI Bio Bounty program",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
-   "whyMatters": [
-    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
-    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
    ]
   },
   {
@@ -2471,24 +2483,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Core dump epidemiology: fixing an 18-year-old bug",
-   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
-   "whyMatters": [
-    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
-    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
-   ]
-  },
-  {
    "title": "Introducing GeneBench-Pro",
    "link": "https://openai.com/index/introducing-genebench-pro",
    "source": "OpenAI News",
@@ -2523,6 +2517,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
     "Thin source material; read alongside the main announcement rather than on its own."
+   ]
+  },
+  {
+   "title": "Core dump epidemiology: fixing an 18-year-old bug",
+   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
+   "whyMatters": [
+    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
+    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
    ]
   },
   {
@@ -2992,26 +3004,6 @@ window.NEWS_DATA = {
     "A strong open-weight model matters most when frontier access is being restricted — it's the escape hatch from gatekeeping.",
     "Another top-tier model from China underscores that AI leadership is genuinely contested, with geopolitical stakes.",
     "For budget-constrained organizations, capable open models could mean serious AI without enterprise pricing."
-   ]
-  },
-  {
-   "title": "Daybreak: Tools for securing every organization in the world",
-   "link": "https://openai.com/index/daybreak-securing-the-world",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-22T10:00:00+00:00",
-   "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI introduced Daybreak, a set of security tools including Codex Security and a GPT-5.5-Cyber model, designed to help organizations find, validate, and patch software vulnerabilities at scale. The pitch is AI-powered defense for every organization.",
-   "whyMatters": [
-    "AI that finds and fixes vulnerabilities cuts both ways — the same capability aids attackers, which is why cyber-capable models are behind the new access restrictions.",
-    "Small nonprofits and synagogues with no security staff are exactly who could benefit from automated patching, if it's affordable."
    ]
   },
   {
