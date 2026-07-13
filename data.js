@@ -1,37 +1,156 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-13T13:27:32.928920+00:00",
+ "generatedAt": "2026-07-13T18:46:29.780180+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-13T13:27:46.037832+00:00",
+  "generatedAt": "2026-07-13T18:46:43.203357+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI for allegedly stealing hardware secrets through former employees, targeting confidential prototypes and supplier information for AI hardware development.",
+    "text": "Apple sued OpenAI for allegedly stealing confidential hardware secrets through former employees, including prototypes, presentations, and supplier information.",
     "links": [
      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-     "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
+     "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
+     "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
     ]
    },
    {
-    "text": "OpenAI's Head of Safety departed as the company merges research and safety teams, signaling organizational restructuring amid growing competitive pressure.",
+    "text": "OpenAI's Head of Safety is departing as the company merges its research and safety teams, amid broader industry competition intensifying over hardware and system control.",
     "links": [
-     "https://www.wired.com/story/openai-head-of-safety-leaving/"
+     "https://www.wired.com/story/openai-head-of-safety-leaving/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Escalating-AI-Wars-Benefit-You-e3m1j2i"
     ]
    },
    {
-    "text": "Meta disabled its Instagram AI deepfake feature within days of launch after public backlash over generating images of public accounts without consent.",
+    "text": "ChatGPT now operates as a work agent across applications and files, advancing AI from task automation toward autonomous execution of general knowledge work.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/ChatGPT-Just-Became-a-Work-Agent-e3lu1ln"
+    ]
+   },
+   {
+    "text": "Meta disabled an Instagram feature allowing AI-generated images of public accounts without consent, reversing the announcement after public backlash.",
     "links": [
      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
     ]
    },
    {
-    "text": "Community resistance to AI data center expansion is intensifying over power consumption and resource demands, signaling emerging regulatory and political headwinds.",
+    "text": "Communities are organizing resistance to AI data center expansion due to enormous power consumption and resource demands.",
     "links": [
      "https://www.theverge.com/column/963346/ai-data-centers-fight"
     ]
    }
   ]
  },
+ "lastDigestBrief": null,
+ "tasteProfile": null,
  "items": [
+  {
+   "title": "How the Escalating AI Wars Benefit You",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Escalating-AI-Wars-Benefit-You-e3m1j2i",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-13T18:23:13+00:00",
+   "summary": "Apple’s lawsuit against OpenAI signals an AI race expanding beyond models into hardware, efficiency and control. NLW explains how the escalating competition is producing better models, higher usage limits and lower costs for users—and why the opportunity may not last. In the headlines: the White House weighs action on Chinese open-source AI and the UAE gains greater access to advanced US chips. Br",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122784274/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-13%2F427889049-44100-2-e281d18f45f4b.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Competition among AI companies is intensifying across hardware, efficiency, and system control, with Apple's lawsuit against OpenAI exemplifying the expanding battleground. This competition is driving better models, higher usage allowances, and lower costs for end users, though the window of opportunity may be temporary.",
+   "whyMatters": [
+    "Direct consumer benefit: improved model quality and cheaper access during this competitive phase",
+    "Broader AI landscape shift: the race now extends beyond language models into specialized hardware and inference optimization",
+    "Geopolitical dimension: regulatory moves on Chinese AI and US chip export controls are reshaping competitive boundaries"
+   ]
+  },
+  {
+   "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+   "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-13T18:00:00+00:00",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s looking into whether AI models can feel pain, for example,…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic, valued at nearly $1 trillion, has published research exploring whether AI models can experience pain, continuing its pattern of publishing novel and philosophical AI research.",
+   "whyMatters": [
+    "Questions the metaphysical and ethical assumptions we make about AI systems—relevant to how we should treat and regulate them",
+    "Anthropic's research priorities suggest a company interested in AI safety and interpretability beyond commercial applications"
+   ]
+  },
+  {
+   "title": "The 6 wildest claims in Apple’s lawsuit against OpenAI",
+   "link": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T17:42:16+00:00",
+   "summary": "When Apple employees interviewed for jobs at OpenAI, the AI startup's hardware head allegedly asked them to show up with something unusual: components they were working on and unreleased product samples. That's according to a blockbuster lawsuit filed by Apple, which accuses OpenAI of stealing confidential documents, spying on hardware prototypes, and tricking one of […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple has filed a major lawsuit against OpenAI alleging theft of confidential documents, surveillance of hardware prototypes, and recruiting tactics involving requests for unreleased product samples.",
+   "whyMatters": [
+    "Signals escalating tension between hardware and AI companies over proprietary design and competitive advantage",
+    "Raises questions about hiring practices and intellectual property boundaries in a competitive AI industry"
+   ]
+  },
+  {
+   "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T17:22:33+00:00",
+   "summary": "Lorde was performing at the Mad Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smart […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "During a performance at Madrid's Real Cool Festival, musician Lorde publicly criticized AI glasses (appearing to reference Ray-Ban Meta's AI smartglasses, a festival sponsor) as aesthetically unappealing. She did not name the product explicitly but spoke against AI glasses during her set.",
+   "whyMatters": [
+    "Reflects cultural pushback against AI-integrated wearables as a consumer product category",
+    "Highlights public skepticism about the desirability of AI hardware, even from mainstream cultural figures, which may influence adoption rates and brand perception"
+   ]
+  },
+  {
+   "title": "Now, defenders are embracing the prompt injection, too",
+   "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-13T15:06:34+00:00",
+   "summary": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Security researchers are now using \"context bombing\"—a form of prompt injection—as a defensive technique to trick AI-powered hacking agents into shutting down before they can cause damage.",
+   "whyMatters": [
+    "Represents a shift from prompt injection as purely an attack vector to a defensive security tool",
+    "Shows the arms race between adversarial AI agents and their defenses is becoming more sophisticated"
+   ]
+  },
+  {
+   "title": "These Are the Worst ChatGPT Flyers You've Sent Us",
+   "link": "https://www.404media.co/these-are-the-worst-chatgpt-flyers-youve-sent-us/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-13T14:01:35+00:00",
+   "summary": "Welcome to the AI-generated poster hall of shame.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "404 Media has collected examples of poorly designed AI-generated flyers submitted by readers, creating a humorous catalog of substandard outputs.",
+   "whyMatters": [
+    "Highlights persistent quality and design sense limitations in current generative AI, especially for visual composition",
+    "Reflects user frustration with AI outputs that lack contextual judgment and aesthetic coherence"
+   ]
+  },
   {
    "title": "The fight against AI data centers is just beginning",
    "link": "https://www.theverge.com/column/963346/ai-data-centers-fight",
@@ -48,6 +167,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Data center construction has direct local impacts (power grid strain, land use, environmental effects) that will increasingly shape where AI infrastructure can be built and thus the pace of AI development",
     "Relevant to understanding the material and geographic constraints on AI deployment, and how local stakeholder concerns—including from religious and civic institutions—may influence AI's trajectory"
+   ]
+  },
+  {
+   "title": "Simulating everything, sort of: The promise and limits of world models",
+   "link": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-13T11:00:51+00:00",
+   "summary": "Experts explain how they work, what they can do, and what's still unsettled.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Experts discuss world models—AI systems trained to simulate real-world environments and physics—explaining their capabilities, applications, and current limitations.",
+   "whyMatters": [
+    "World models represent a foundational capability gap: models that reason about causality and physical consequences rather than pattern-matching",
+    "Clarifying what world models can and cannot do is essential for assessing their role in embodied AI and robotics"
    ]
   },
   {
@@ -88,24 +225,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates how failed projects can yield indirect but significant technological spillovers across an entire product line",
     "Illustrates the business reality that large AI infrastructure investments often justify themselves through multiple applications beyond the original intended use"
-   ]
-  },
-  {
-   "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T09:10:12+00:00",
-   "summary": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "During a performance at Madrid's Real Cool Festival, musician Lorde publicly criticized AI glasses (appearing to reference Ray-Ban Meta's AI smartglasses, a festival sponsor) as aesthetically unappealing. She did not name the product explicitly but spoke against AI glasses during her set.",
-   "whyMatters": [
-    "Reflects cultural pushback against AI-integrated wearables as a consumer product category",
-    "Highlights public skepticism about the desirability of AI hardware, even from mainstream cultural figures, which may influence adoption rates and brand perception"
    ]
   },
   {
@@ -639,25 +758,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Fidji Simo steps down from leading OpenAI’s AGI work due to illness",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-09T23:24:04+00:00",
-   "summary": "OpenAI's Fidji Simo is departing her full-time role as the company's AGI chief and is transitioning to being a \"part-time advisor,\" she said on X. The news follows Simo's original announcement in April that she would take a few weeks of medical leave due to a neuroimmune condition, shortly after she had taken on the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Fidji Simo is leaving her full-time role leading OpenAI's AGI work and becoming a part-time advisor, she announced on X. The move follows the medical leave she took in April for a neuroimmune condition, shortly after taking on the AGI role.",
-   "whyMatters": [
-    "A significant leadership loss at OpenAI just as it pushes major product launches; AGI deployment now needs a new steward.",
-    "Simo was one of the most senior women in AI leadership, and her departure was health-driven rather than a power struggle.",
-    "Executive churn at OpenAI has repeatedly signaled deeper organizational strain — worth watching what follows."
-   ]
-  },
-  {
    "title": "OpenAI’s CEO of AGI Deployment, Fidji Simo, Is Stepping Down",
    "link": "https://www.wired.com/story/fidji-simo-ceo-agi-deployment-openai/",
    "source": "Wired · AI",
@@ -711,30 +811,6 @@ window.NEWS_DATA = {
     "Multi-hour autonomous AI workflows move AI from assistant to delegate — a real shift in how knowledge work gets done.",
     "Raises practical questions about oversight: who checks work an agent did unsupervised for hours?",
     "For educators and nonprofit staff, this class of tool could absorb substantial administrative work."
-   ]
-  },
-  {
-   "title": "Faith-based AI company Gloo faces moment of truth after $438M in losses",
-   "link": "https://religionnews.com/2026/07/09/faith-based-ai-company-gloo-faces-moment-of-truth-after-438m-in-losses/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-07-09T20:57:31+00:00",
-   "summary": "(RNS) — Serial entrepreneur Scott Beck believes he has a mission to help churches and Christian ministries spread God's work and help others. After years of financial losses, he believes his investment in building a faith-based tech company will soon pay off.",
-   "religionScore": 9,
-   "religionHits": [
-    "christian",
-    "church",
-    "faith",
-    "god"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Gloo, the faith-based tech company founded by serial entrepreneur Scott Beck to serve churches and Christian ministries with AI tools, has accumulated $438 million in losses. Beck maintains the investment is a mission and will soon pay off, but the company faces a moment of truth.",
-   "whyMatters": [
-    "The biggest bet on religion-specific AI is struggling — directly relevant to anyone weighing faith-tech tools for congregational life.",
-    "The scale of losses shows how hard it is to make religious-market AI financially sustainable, a cautionary tale for Jewish organizations eyeing similar ventures.",
-    "How Gloo resolves the tension between mission and money will shape the whole faith-tech sector."
    ]
   },
   {
@@ -2393,42 +2469,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google's new Nano Banana 2 Lite image model is its fastest and cheapest yet",
-   "link": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-06-30T18:36:10+00:00",
-   "summary": "They may not look as good, but Nano Banana 2 Lite images only take a few seconds to create.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google released Nano Banana 2 Lite, its fastest and cheapest image-generation model to date. Images take only a few seconds to create, at the cost of somewhat lower visual quality than the full model.",
-   "whyMatters": [
-    "Cheap, fast image generation matters for high-volume creative work like slide backgrounds and classroom visuals, where cost per image adds up.",
-    "The speed/quality/price race among image models keeps lowering the bar for who can produce visual content."
-   ]
-  },
-  {
-   "title": "Trump's plan to redesign every .gov website leads to AI-designed horrors",
-   "link": "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-06-30T16:59:02+00:00",
-   "summary": "A year in, National Design Studio delays plan to update government web standards.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A year into the Trump administration's plan to redesign every federal .gov website, Ars Technica reports the effort has produced poorly executed AI-designed pages, and the National Design Studio has delayed its plan to update government web standards.",
-   "whyMatters": [
-    "A cautionary tale about deploying AI design at scale without human review — government websites are essential public infrastructure.",
-    "Illustrates the gap between AI generating a design and AI producing something usable and trustworthy."
-   ]
-  },
-  {
    "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
    "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
    "source": "Google DeepMind",
@@ -2578,25 +2618,7 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Agent confidence on the technical frontier",
-   "link": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-06-29T14:44:01+00:00",
-   "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial outcomes their businesses seek. A prime opportunity for AI agents…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "With Gartner calling 2026 an 'inflection year' for aligning AI projects with business strategy, enterprises are under mounting pressure to show return on their AI investment. The piece looks at agentic AI as the technology executives are betting on to deliver measurable financial outcomes.",
-   "whyMatters": [
-    "The industry conversation has shifted from AI experimentation to proving ROI — expect tighter scrutiny of what AI actually delivers.",
-    "Agentic AI (systems that act, not just answer) is where enterprise money is heading, which will shape the tools everyone else gets."
-   ]
-  },
-  {
-   "title": "Whither Solidarity: On the Conditions for Building Jerusalem",
+   "title": "Whither Solidarity? On the Conditions for Building Jerusalem",
    "link": "https://aiandfaith.org/insights/whither-solidarity/",
    "source": "AI and Faith",
    "category": "religion",
@@ -3159,25 +3181,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A concrete example of AI applied to slow government bureaucracy — a use case with obvious public-benefit framing.",
     "Government–Big Tech partnerships on civic decisions raise accountability questions: who audits an AI that helps decide what gets built?"
-   ]
-  },
-  {
-   "title": "Why Only AI Training Can Save the Economy",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Only-AI-Training-Can-Save-the-Economy-e3kruqv",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-16T19:00:00+00:00",
-   "summary": "AI infrastructure has become one of the defining growth engines of the American economy, but the entire system depends on enterprises finding enough value to keep consuming more tokens. Today’s episode argues that the only bridge between lab revenue pressure and enterprise cost scrutiny is mass-scale AI training that moves workers from basic assisted AI into real agentic usage. Check out the new ⁠",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121551135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-16%2F426238037-44100-2-237b0353b5dee.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "This episode argues that AI infrastructure has become a defining engine of the American economy, but the whole system depends on enterprises finding enough value to keep buying tokens. The proposed bridge between AI labs' revenue pressure and enterprise cost scrutiny is mass-scale training that moves workers from basic AI assistance into real agentic usage.",
-   "whyMatters": [
-    "Frames workforce AI training as an economic necessity, not a perk — relevant to educators thinking about what skills to teach.",
-    "If the AI economy really hinges on enterprise adoption, the current infrastructure buildout is riskier than it looks.",
-    "The assisted-to-agentic shift described here is the same transition facing anyone integrating AI into daily work."
    ]
   },
   {
