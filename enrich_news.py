@@ -93,6 +93,61 @@ BRIEF_SCHEMA = {
     "additionalProperties": False,
 }
 
+# ---- Reader taste profile (from dashboard thumbs votes) ----
+
+VOTES_URL = "https://vt-image-helper-default-rtdb.firebaseio.com/binahVotes.json"
+
+TASTE_SYSTEM = (
+    "You maintain a reader-taste profile for a news brief. The reader (a "
+    "tech-savvy rabbi and Jewish educator) votes stories up or down on his "
+    "dashboard, sometimes with a one-line reason. From the votes provided, "
+    "write a compact profile: 3-6 plain bullets describing what he wants more "
+    "of and less of, generalizing from patterns (topics, angles, story types) "
+    "— not a list of individual articles. Reasons outweigh bare votes. If the "
+    "votes are too few or contradictory to support a generalization, say less "
+    "rather than inventing preferences."
+)
+
+TASTE_SCHEMA = {
+    "type": "object",
+    "properties": {"profile": {"type": "array", "items": {"type": "string"}}},
+    "required": ["profile"],
+    "additionalProperties": False,
+}
+
+
+def fetch_votes(db_secret):
+    """Pull thumbs votes from Firebase; newest 100. Returns [] on any failure."""
+    try:
+        with urlopen(VOTES_URL + "?auth=" + db_secret, timeout=30) as r:
+            raw = json.loads(r.read()) or {}
+    except Exception as e:
+        print(f"  votes fetch failed ({e}) — keeping existing taste profile.", file=sys.stderr)
+        return None
+    real = [v for v in raw.values() if not str(v.get("link", "")).startswith("test://")]
+    votes = sorted(real, key=lambda v: v.get("ts", 0))[-100:]
+    return [{k: v[k] for k in ("title", "source", "vote", "reason") if k in v} for v in votes]
+
+
+def build_taste_profile(api_key, votes, previous):
+    """Distill votes into a few preference bullets; None keeps the old profile."""
+    if votes is None:
+        return previous
+    if len(votes) < 5:
+        print(f"  {len(votes)} vote(s) so far — waiting for 5+ before profiling.")
+        return previous
+    res = call_claude(
+        api_key, TASTE_SYSTEM, TASTE_SCHEMA,
+        "Build the reader-taste profile from these votes (oldest first):\n\n"
+        + json.dumps(votes, ensure_ascii=False),
+    )
+    bullets = [b.strip() for b in (res or {}).get("profile", []) if b.strip()]
+    if not bullets:
+        return previous
+    from datetime import datetime, timezone
+    return {"updatedAt": datetime.now(timezone.utc).isoformat(),
+            "voteCount": len(votes), "bullets": bullets[:6]}
+
 
 def call_claude(api_key, system, schema, user_content):
     payload = {
@@ -128,7 +183,7 @@ def call_claude(api_key, system, schema, user_content):
     return None
 
 
-def build_brief(api_key, items, previous=None):
+def build_brief(api_key, items, previous=None, taste=None):
     """Regenerate the front-page Brief from the last ~72h of items."""
     from datetime import datetime, timedelta, timezone
     cutoff = (datetime.now(timezone.utc) - timedelta(hours=72)).isoformat()
@@ -153,10 +208,19 @@ def build_brief(api_key, items, previous=None):
             "so thin that some repetition is unavoidable, reframe rather than "
             "restate, and fewer fresh takeaways beat five stale ones."
         )
+    taste_note = ""
+    taste_bullets = (taste or {}).get("bullets") or []
+    if taste_bullets:
+        taste_note = (
+            "\n\nReader taste profile, learned from his votes — let it tilt "
+            "close calls in story selection and framing, but never drop a "
+            "genuinely major development because it matches a 'less of' "
+            "preference:\n- " + "\n- ".join(taste_bullets)
+        )
     res = call_claude(
         api_key, BRIEF_SYSTEM, BRIEF_SCHEMA,
         "Write today's brief from these items:\n\n"
-        + json.dumps(payload, ensure_ascii=False) + prev_note,
+        + json.dumps(payload, ensure_ascii=False) + taste_note + prev_note,
     )
     if not res or not res.get("bullets"):
         return None
@@ -209,12 +273,21 @@ def main():
     else:
         print("All items already enriched.")
 
+    # Refresh the taste profile from dashboard votes when we can reach the
+    # DB (needs FIREBASE_DB_SECRET); otherwise the stored profile carries on.
+    db_secret = os.environ.get("FIREBASE_DB_SECRET", "").strip()
+    if db_secret:
+        profile = build_taste_profile(api_key, fetch_votes(db_secret), data.get("tasteProfile"))
+        if profile:
+            data["tasteProfile"] = profile
+            print(f"Taste profile: {len(profile['bullets'])} bullets from {profile.get('voteCount', '?')} votes.")
+
     # Digest runs (DIGEST_RUN=1) dedupe against the brief last EMAILED, so
     # the morning email always leads with what's new since yesterday's email.
     # Dashboard refreshes (no flag) keep the day's top stories regardless —
     # a dashboard visitor never saw the "previous" brief.
     prev_digest = data.get("lastDigestBrief") if os.environ.get("DIGEST_RUN") else None
-    brief = build_brief(api_key, items, previous=prev_digest)
+    brief = build_brief(api_key, items, previous=prev_digest, taste=data.get("tasteProfile"))
     if brief:
         data["highlights"] = brief
         n_links = sum(len(b["links"]) for b in brief["bullets"])

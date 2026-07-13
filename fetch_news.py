@@ -317,7 +317,7 @@ def load_previous():
     Brief when a key is available."""
     path = HERE / "data.js"
     if not path.exists():
-        return {}, None, None
+        return {}, {}
     try:
         raw = path.read_text(encoding="utf-8")
         data = json.loads(re.sub(r"^window\.NEWS_DATA = |;\s*$", "", raw.strip()))
@@ -326,13 +326,13 @@ def load_previous():
             for i in data.get("items", [])
             if i.get("aiSummary")
         }
-        return enrich, data.get("highlights"), data.get("lastDigestBrief")
+        return enrich, {k: data.get(k) for k in ("highlights", "lastDigestBrief", "tasteProfile")}
     except Exception:
-        return {}, None, None
+        return {}, {}
 
 
 def main():
-    previous, prev_highlights, prev_digest_brief = load_previous()
+    previous, carry = load_previous()
     all_items = []
     with ThreadPoolExecutor(max_workers=6) as pool:
         futures = [pool.submit(process_feed, f) for f in FEEDS]
@@ -356,8 +356,9 @@ def main():
     data = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "feedCount": len(FEEDS),
-        "highlights": prev_highlights,
-        "lastDigestBrief": prev_digest_brief,
+        "highlights": carry.get("highlights"),
+        "lastDigestBrief": carry.get("lastDigestBrief"),
+        "tasteProfile": carry.get("tasteProfile"),
         "items": deduped,
     }
     payload = "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"

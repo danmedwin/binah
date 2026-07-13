@@ -309,6 +309,32 @@ p.sum.expanded { -webkit-line-clamp: unset; display: block; }
   text-align: center; padding: 70px 20px; color: var(--ink-faint); font-style: italic; font-size: 17px;
 }
 
+/* ============ Curator votes (only rendered in curator mode) ============ */
+.vote-row { display: flex; gap: 6px; align-items: center; margin-top: 2px; }
+.vote-btn {
+  font-family: 'Instrument Sans', sans-serif; font-size: 13px; line-height: 1;
+  background: none; border: 1px solid var(--rule); border-radius: 99px;
+  padding: 4px 10px; cursor: pointer; color: var(--ink-faint);
+  transition: border-color .2s ease, color .2s ease, background .2s ease, transform .15s ease;
+}
+.vote-btn:hover { border-color: var(--gold-text); color: var(--gold-text); }
+.vote-btn:active { transform: scale(.94); }
+.vote-btn:focus-visible { outline: 2px solid var(--gold-text); outline-offset: 2px; }
+.vote-btn.sel { background: var(--gold-fill-bg); border-color: var(--gold-fill-bg); color: var(--gold-fill-text); }
+.vote-btn.sel.down { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.vote-why {
+  flex: 1; min-width: 0;
+  font-family: 'Instrument Sans', sans-serif; font-size: 12px;
+  border: none; border-bottom: 1px solid var(--rule); border-radius: 0;
+  background: transparent; color: var(--ink); padding: 3px 2px;
+  transition: border-color .2s ease;
+}
+.vote-why::placeholder { color: var(--ink-faint); }
+.vote-why:focus { outline: none; border-bottom-color: var(--gold-text); }
+.vote-noted {
+  font-family: 'Instrument Sans', sans-serif; font-size: 11px; color: var(--gold-text);
+}
+
 /* ============ Footer ============ */
 footer {
   border-top: 3px double var(--rule); margin-top: 30px;
@@ -378,7 +404,7 @@ footer .srcs { max-width: 760px; margin: 10px auto 0; line-height: 1.9; }
 
 <footer>
   <div>Binah <span class="heb" lang="he" dir="rtl">בִּינָה</span> — AI News Daily</div>
-  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.6 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
+  <div class="row">Built by Claude for Rabbi Dan Medwin · v5.7 · refresh with <code>python3 fetch_news.py</code> · summaries &amp; brief via <code>enrich_news.py</code></div>
   <div class="srcs" id="srcList"></div>
 </footer>
 
@@ -394,6 +420,45 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
   var SPOT_MIN = 3; // religionScore threshold for the spotlight & religion tab
 
   var state = { tab: 'all', q: '', src: '' };
+
+  // ---- Curator mode (thumbs feedback -> Firebase -> taste profile) ----
+  // Activate once per browser via ?curator=<token>; the token gates writes
+  // server-side (Firebase rules), so the buttons are useless without it.
+  var VOTES_URL = 'https://vt-image-helper-default-rtdb.firebaseio.com/binahVotes.json';
+  try {
+    var qs = new URLSearchParams(location.search);
+    if (qs.get('curator')) {
+      localStorage.setItem('binahCurator', qs.get('curator'));
+      history.replaceState(null, '', location.pathname); // keep the token out of the address bar
+    }
+  } catch (e) {}
+  var CURATOR = (function () {
+    try { return localStorage.getItem('binahCurator') || ''; } catch (e) { return ''; }
+  })();
+  var myVotes = (function () {
+    try { return JSON.parse(localStorage.getItem('binahMyVotes') || '{}'); } catch (e) { return {}; }
+  })();
+  function saveMyVotes() {
+    try { localStorage.setItem('binahMyVotes', JSON.stringify(myVotes)); } catch (e) {}
+  }
+  function postVote(item, vote, reason) {
+    var rec = { link: item.link, title: String(item.title).slice(0, 300),
+                source: item.source, vote: vote, ts: Date.now(), t: CURATOR };
+    if (reason) rec.reason = String(reason).slice(0, 500);
+    fetch(VOTES_URL, { method: 'POST', body: JSON.stringify(rec) })
+      .then(function (r) { if (!r.ok) console.warn('vote rejected (HTTP ' + r.status + ') — rules published & token set?'); })
+      .catch(function (e) { console.warn('vote not saved:', e); });
+  }
+  function voteHTML(i) {
+    if (!CURATOR) return '';
+    var v = myVotes[i.link] || {};
+    return '<div class="vote-row" data-link="' + esc(i.link) + '">' +
+      '<button class="vote-btn up' + (v.vote === 'up' ? ' sel' : '') + '" data-vote="up" aria-label="More like this" aria-pressed="' + (v.vote === 'up') + '">👍</button>' +
+      '<button class="vote-btn down' + (v.vote === 'down' ? ' sel' : '') + '" data-vote="down" aria-label="Less like this" aria-pressed="' + (v.vote === 'down') + '">👎</button>' +
+      (v.vote && !v.reason ? '<input class="vote-why" placeholder="why? (optional, Enter to send)" aria-label="Why did you vote this way?">' : '') +
+      (v.reason ? '<span class="vote-noted">noted</span>' : '') +
+      '</div>';
+  }
 
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
@@ -464,7 +529,7 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
       '<div class="meta"><span class="src">' + esc(i.source) + '</span>' + badges +
       '<span>' + relTime(i.date) + '</span></div>' +
       '<h3><a href="' + esc(i.link) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a></h3>' +
-      body + why + hits + listen + '</article>';
+      body + why + hits + listen + voteHTML(i) + '</article>';
   }
 
   function renderBrief() {
@@ -593,6 +658,22 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     render();
   });
   document.body.addEventListener('click', function (e) {
+    var vb = e.target.closest('.vote-btn');
+    if (vb) {
+      var row = vb.closest('.vote-row');
+      var link = row.getAttribute('data-link');
+      var item = items.filter(function (i) { return i.link === link; })[0];
+      if (!item) return;
+      var vote = vb.getAttribute('data-vote');
+      if ((myVotes[link] || {}).vote === vote) return; // already voted this way
+      myVotes[link] = { vote: vote };
+      saveMyVotes();
+      postVote(item, vote);
+      row.outerHTML = voteHTML(item);
+      var why = document.querySelector('.vote-row[data-link="' + CSS.escape(link) + '"] .vote-why');
+      if (why) why.focus();
+      return;
+    }
     var m = e.target.closest('.more-btn');
     if (m) {
       var p = m.previousElementSibling;
@@ -616,6 +697,22 @@ document.write('<script src="data.js?t=' + Date.now() + '"><\/script>');
     a.controls = true; a.src = b.getAttribute('data-audio');
     card.appendChild(a); a.play();
     b.textContent = '✕ Close player';
+  });
+
+  // Curator "why" box: Enter sends the reason as a follow-up vote record.
+  document.body.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter') return;
+    var inp = e.target.closest('.vote-why');
+    if (!inp || !inp.value.trim()) return;
+    var row = inp.closest('.vote-row');
+    var link = row.getAttribute('data-link');
+    var item = items.filter(function (i) { return i.link === link; })[0];
+    var v = myVotes[link];
+    if (!item || !v) return;
+    v.reason = inp.value.trim();
+    saveMyVotes();
+    postVote(item, v.vote, v.reason);
+    row.outerHTML = voteHTML(item);
   });
 
   // Assemble the subscribe address at runtime (anti-scraper: no complete

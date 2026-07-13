@@ -25,6 +25,7 @@ jobs:
       - name: Summarize + rebuild the Brief
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FIREBASE_DB_SECRET: ${{ secrets.FIREBASE_DB_SECRET }}  # thumbs votes -> taste profile
           DIGEST_RUN: "1"  # dedupe the Brief against yesterday's emailed digest
         run: python3 enrich_news.py
 
