@@ -1,40 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-14T11:11:09.663770+00:00",
+ "generatedAt": "2026-07-14T12:18:11.277118+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-14T11:11:32.870425+00:00",
+  "generatedAt": "2026-07-14T12:18:22.853696+00:00",
   "bullets": [
    {
-    "text": "New York becomes the first state to ban new hyperscale AI data centers for one year, signaling growing public resistance to power-hungry infrastructure expansion.",
+    "text": "Google's DeepMind chief calls for global AI watchdog led by the US to regulate frontier models—a major governance proposal from industry leadership amid regulatory uncertainty.",
+    "links": [
+     "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
+    ]
+   },
+   {
+    "text": "New York becomes first state to enact AI data center moratorium as local opposition to power-hungry infrastructure grows nationwide.",
     "links": [
      "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
      "https://www.theverge.com/column/963346/ai-data-centers-fight"
     ]
    },
    {
-    "text": "Apple sued OpenAI over alleged theft of trade secrets by a former engineer, exemplifying intensifying competition between tech giants reshaping the AI industry.",
+    "text": "Apple sues OpenAI alleging former engineer stole trade secrets through exploited bugs, escalating corporate AI competition into legal warfare.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
      "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
     ]
    },
    {
-    "text": "Apple redesigned Siri as a central AI assistant for iOS 27, moving from voice utility to core interaction tool that fundamentally changes how users navigate their phones.",
+    "text": "Apple redesigns Siri as central AI assistant in iOS 27 beta; OpenAI's Codex user base grows 10x in six months to 7 million.",
     "links": [
-     "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
      "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
     ]
    },
    {
-    "text": "ELIZA, a 1960s chatbot, demonstrates how humans project empathy onto machines—explaining modern behavior like sharing secrets with ChatGPT based on decades-old design patterns.",
+    "text": "Meta quickly disabled Instagram's AI deepfake feature after backlash; security researchers now use prompt injection techniques defensively against AI hacking agents.",
     "links": [
-     "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/"
-    ]
-   },
-   {
-    "text": "Trump administration's DOGE used AI to shape housing policy but withheld records from FOIA requests, raising accountability concerns over opaque algorithmic government decisions.",
-    "links": [
-     "https://www.wired.com/story/doge-deployed-ai-housing-policy/"
+     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+     "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/"
     ]
    }
   ]
@@ -88,6 +88,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
+   "link": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-14T11:56:44+00:00",
+   "summary": "Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous. Writing in a blog post, the Google DeepMind CEO and cofounder said the US should lead the initiative, arguing that the country is the best place to set global standards \"given its economic […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Demis Hassabis, CEO of Google DeepMind, has called for the creation of a global AI watchdog organization with authority to regulate frontier AI models and intervene if they pose safety risks. He argues the United States should lead this initiative, positioning it as the appropriate country to establish global AI standards.",
+   "whyMatters": [
+    "Represents a major AI industry leader advocating for international governance structures and safety oversight—a shift from earlier industry resistance to regulation",
+    "Raises questions about who sets global norms for AI development and whether US-led frameworks will address concerns from other nations, including how different cultural and religious communities view AI ethics"
+   ]
+  },
   {
    "title": "This Luddite Puppet Hopes You’re Not Reading This on Your Smartphone",
    "link": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus/",
@@ -845,25 +863,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Bridges AI governance conversations with philosophical and theological frameworks, offering non-Western perspectives on consciousness and technology",
     "Relevant to rabbis and religious educators seeking to ground AI ethics in deep theological and philosophical traditions"
-   ]
-  },
-  {
-   "title": "Instagram’s Adam Mosseri: If you don’t like AI, ‘then you shouldn’t have it in your feed’",
-   "link": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-10T13:59:07+00:00",
-   "summary": "Though Instagram head Adam Mosseri doesn't want to filter out AI content on the platform, he argues that you \"shouldn't have it in your feed\" if you don't like it. \"I don't think we should filter out AI content,\" Mosseri said during an interview on Lenny Rachitsky's podcast. \"I think we should let you know […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Instagram head Adam Mosseri said on Lenny Rachitsky's podcast that the platform will not filter out AI-generated content. Instead, his position is that Instagram should label AI content and let users who dislike it keep it out of their own feeds.",
-   "whyMatters": [
-    "Signals that major platforms are choosing labeling over removal, putting the burden on users to manage AI content themselves.",
-    "Congregants and students increasingly encounter AI-generated images and video on Instagram; knowing the platform won't screen it matters for media-literacy conversations.",
-    "Sets a precedent other social networks will likely follow on synthetic-content policy."
    ]
   },
   {
