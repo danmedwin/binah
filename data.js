@@ -1,40 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-14T12:18:11.277118+00:00",
+ "generatedAt": "2026-07-14T18:08:10.964945+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-14T12:18:22.853696+00:00",
+  "generatedAt": "2026-07-14T18:08:35.640595+00:00",
   "bullets": [
    {
-    "text": "Google's DeepMind chief calls for global AI watchdog led by the US to regulate frontier models—a major governance proposal from industry leadership amid regulatory uncertainty.",
+    "text": "US military deployed autonomous explosive drone boats in combat for the first time, striking Iranian targets in escalating regional conflict.",
     "links": [
-     "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
+     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
     ]
    },
    {
-    "text": "New York becomes first state to enact AI data center moratorium as local opposition to power-hungry infrastructure grows nationwide.",
+    "text": "New York enacted the first statewide data center moratorium, pausing AI infrastructure expansion and signaling potential broader regulatory crackdowns on the industry.",
     "links": [
-     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-     "https://www.theverge.com/column/963346/ai-data-centers-fight"
+     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium"
     ]
    },
    {
-    "text": "Apple sues OpenAI alleging former engineer stole trade secrets through exploited bugs, escalating corporate AI competition into legal warfare.",
+    "text": "Meta faces lawsuit from 26 former employees alleging it used biased AI tools to systematically target workers on leave for mass layoffs.",
+    "links": [
+     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs"
+    ]
+   },
+   {
+    "text": "YouTube and X function as referral gateways to nonconsensual deepfake services, directing users toward tools generating sexually explicit fake images for minimal cost.",
+    "links": [
+     "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
+    ]
+   },
+   {
+    "text": "Apple sued OpenAI alleging a former engineer exploited a software bug to steal trade secrets, exemplifying intensifying corporate AI wars.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
-     "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
-    ]
-   },
-   {
-    "text": "Apple redesigns Siri as central AI assistant in iOS 27 beta; OpenAI's Codex user base grows 10x in six months to 7 million.",
-    "links": [
-     "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
-    ]
-   },
-   {
-    "text": "Meta quickly disabled Instagram's AI deepfake feature after backlash; security researchers now use prompt injection techniques defensively against AI hacking agents.",
-    "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-     "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/"
+     "https://www.theverge.com/tech/965138/google-images-homepage-ai-overviews-search-nano-banana"
     ]
    }
   ]
@@ -89,6 +88,176 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "US military sent explosive drone boats into combat for the first time",
+   "link": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-14T18:00:01+00:00",
+   "summary": "US military’s drone boats struck an Iranian naval port as war heats up again.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "The U.S. military deployed autonomous explosive drone boats in combat for the first time, striking an Iranian naval port during escalating regional conflict. These unmanned vessels represent a new category of weaponized AI systems deployed in active combat.",
+   "whyMatters": [
+    "Marks the first documented combat use of fully autonomous weaponized systems at scale, raising urgent questions about AI deployment in warfare and accountability",
+    "Has implications for international norms around autonomous weapons and AI ethics in military contexts"
+   ]
+  },
+  {
+   "title": "Meta accused of using biased AI targeting for mass layoffs",
+   "link": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-14T17:18:11+00:00",
+   "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as reported earlier by Reuters. In the lawsuit, the employees allege Meta determined which workers to dismiss based on performance data collected by a \"constellation\" of internal AI tools, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Twenty-six former Meta employees are suing the company, alleging it used biased AI tools to systematically identify and target workers on leave for mass layoffs. The lawsuit claims Meta's internal AI constellation determined dismissals based on performance data collected unfairly.",
+   "whyMatters": [
+    "Demonstrates potential for AI systems to amplify discrimination in employment decisions, particularly affecting protected workers",
+    "Raises questions about transparency and fairness in using AI for workforce decisions—relevant to all organizations deploying HR AI tools"
+   ]
+  },
+  {
+   "title": "Google revamps image search for its 25th anniversary with more images and more AI",
+   "link": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-14T16:28:14+00:00",
+   "summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is redesigning its image search engine for its 25th anniversary by integrating more AI-driven personalization that creates dynamically updated galleries based on each user's individual interests. The new system expands available images and relies heavily on AI curation.",
+   "whyMatters": [
+    "Deepens Google's personalization infrastructure, raising questions about algorithmic curation and filter bubbles in visual media discovery",
+    "Continues trend of major platforms becoming increasingly AI-driven intermediaries between users and content"
+   ]
+  },
+  {
+   "title": "YouTube and X Have Become ‘Gateways’ to Nudify Apps",
+   "link": "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-14T16:05:18+00:00",
+   "summary": "A new study found that social media platforms are referring people to sites where they can create nonconsensual, sexually explicit deepfakes for as little as $1 an image.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Research shows that YouTube and X (formerly Twitter) are directing users toward services that generate nonconsensual sexually explicit deepfakes, available for as little as $1 per image. These platforms are functioning as referral gateways to tools for creating abusive synthetic media.",
+   "whyMatters": [
+    "Demonstrates how major platforms enable access to tools for creating non-consensual sexual imagery, a serious harm disproportionately affecting women",
+    "Raises urgent questions about platform responsibility, content moderation, and the need for AI safety guardrails around synthetic media abuse"
+   ]
+  },
+  {
+   "title": "Spotify is now an AI chatbot, too",
+   "link": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-14T15:47:36+00:00",
+   "summary": "Spotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app. You can interact with the chatbot by typing your request in the […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Spotify is testing an AI chatbot feature called \"Talk to Spotify\" that allows Premium users to discover and play music, audiobooks, and podcasts through conversational interaction. The feature is being rolled out across mobile app home and playback screens.",
+   "whyMatters": [
+    "Represents consumer-facing AI becoming a standard interface layer for content discovery in major platforms",
+    "May reshape how users interact with and discover media, shifting from search-based to conversation-based consumption patterns"
+   ]
+  },
+  {
+   "title": "New York bans data center construction for a year, rattling AI industry",
+   "link": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-14T15:06:28+00:00",
+   "summary": "New York’s data center moratorium may become the blueprint for anti-AI movement.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "New York has imposed a one-year moratorium on new data center construction, becoming the first state to take this action. The move is generating alarm within the AI industry and may signal the beginning of a broader anti-AI regulatory movement.",
+   "whyMatters": [
+    "Represents first major state-level infrastructure policy targeting AI expansion, potentially constraining compute availability and AI development",
+    "Could serve as a template for other jurisdictions considering similar restrictions, affecting where and how AI companies build infrastructure"
+   ]
+  },
+  {
+   "title": "Sam Altman didn’t need another lawsuit",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-14T14:03:06+00:00",
+   "summary": "OpenAI has spent the better part of the year involved in lawsuit after lawsuit, including one from the world's richest man. But last Friday, the company was hit with one of the highest-profile legal actions yet - from Apple. OpenAI's expensive hardware bet is what's on the line. Apple's lawsuit against OpenAI, filed in Northern […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple has filed a major lawsuit against OpenAI, marking one of the highest-profile legal actions against the company this year. The lawsuit centers on OpenAI's hardware investment strategy and alleged misappropriation of Apple's trade secrets.",
+   "whyMatters": [
+    "Adds to mounting legal pressure on OpenAI alongside lawsuits from Elon Musk and others, creating financial and operational headwinds",
+    "Focuses on hardware strategy, suggesting competition and disputes over proprietary technology in the AI development pipeline"
+   ]
+  },
+  {
+   "title": "New York becomes the first state to enact a data center moratorium",
+   "link": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-14T13:48:21+00:00",
+   "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new environmental permits for data […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "New York Governor Kathy Hochul signed a one-year moratorium on new hyperscale AI data center permits, making the state the first to enact a statewide moratorium. A second bill restricting further developments remains pending her signature.",
+   "whyMatters": [
+    "Significant policy shift: state-level action to slow AI infrastructure expansion, citing environmental and grid concerns",
+    "Reflects growing political momentum to regulate AI at the state level before federal action; educators and communities should track how data center policy affects regional energy and environmental outcomes"
+   ]
+  },
+  {
+   "title": "AI Made Cloning Games Easier Than Ever",
+   "link": "https://www.404media.co/ai-made-cloning-games-easier-than-ever/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-14T13:20:54+00:00",
+   "summary": "Vibecoding has made it possible to create a cheap rip off of a video game in just a few hours.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A technique called \"vibecoding\" using AI has dramatically lowered the barrier to cloning video games, allowing developers to create game copies in just a few hours. This AI-enabled workflow makes it economically feasible to rapidly produce low-cost game knockoffs.",
+   "whyMatters": [
+    "Demonstrates how AI can enable intellectual property infringement at scale, threatening original game developers' revenues and incentives",
+    "Raises questions about IP protection in an AI-assisted development world and the sustainability of original creative work"
+   ]
+  },
+  {
    "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
    "link": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
    "source": "The Verge · AI",
@@ -140,6 +309,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Historical context for understanding current AI interaction patterns; shows 60-year-old roots of why users anthropomorphize chatbots and disclose personal information",
     "Relevant to educators and clergy working with communities; highlights how AI design patterns exploit human psychology, important for digital literacy and AI ethics teaching"
+   ]
+  },
+  {
+   "title": "How to manage AI investments in the agentic era",
+   "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-14T10:00:00+00:00",
+   "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI published guidance on managing enterprise AI investments in the \"agentic era,\" advising organizations to measure return on investment through metrics like useful work per dollar, efficiency improvements, and scaling of high-value workflows. The article provides a framework for corporate AI deployment strategy.",
+   "whyMatters": [
+    "Signals shift from general-purpose AI to task-specific agent systems in enterprise settings, changing how organizations should evaluate AI ROI",
+    "Reflects OpenAI's positioning of autonomous agents as the next major commercial frontier for AI deployment"
    ]
   },
   {
@@ -199,21 +386,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How data science teams use ChatGPT Work",
-   "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-   "source": "OpenAI News",
+   "title": "The Google Images homepage will recommend photos even before you search",
+   "link": "https://www.theverge.com/tech/965138/google-images-homepage-ai-overviews-search-nano-banana",
+   "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-07-14T00:00:00+00:00",
-   "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+   "date": "2026-07-14T00:04:45+00:00",
+   "summary": "Google is announcing a big change to the Google Images homepage in honor of the platform's 25th anniversary this week. Instead of a mostly blank page with a search bar, the homepage will soon show you a bunch of images that it thinks you might like before you even start searching. The company says the […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "OpenAI published guidance on how data science teams use ChatGPT Work to automate writing briefs, analyses, and metrics documentation from raw work inputs.",
+   "aiSummary": "Google is redesigning the Google Images homepage to display personalized photo recommendations before users begin searching, replacing the traditional mostly-blank search page with AI-curated image galleries. The change marks the platform's 25th anniversary refresh.",
    "whyMatters": [
-    "Shows practical enterprise adoption of ChatGPT for knowledge work; productivity gains for teams using structured prompting",
-    "Example of AI reshaping workflows in analytical roles; relevant to educators preparing students for labor markets where AI collaboration is standard"
+    "Extends AI-driven algorithmic curation into a previously passive interface, making recommendations the default rather than search-driven discovery",
+    "Amplifies personalization at Google Images, potentially narrowing the diversity of images users encounter or increasing filter bubble effects"
    ]
   },
   {
@@ -235,6 +422,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "How data science teams use ChatGPT Work",
+   "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-14T00:00:00+00:00",
+   "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI published guidance on how data science teams use ChatGPT Work to automate writing briefs, analyses, and metrics documentation from raw work inputs.",
+   "whyMatters": [
+    "Shows practical enterprise adoption of ChatGPT for knowledge work; productivity gains for teams using structured prompting",
+    "Example of AI reshaping workflows in analytical roles; relevant to educators preparing students for labor markets where AI collaboration is standard"
+   ]
+  },
+  {
    "title": "DOOMQL",
    "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
    "source": "Simon Willison",
@@ -250,26 +455,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates creative application of AI tools (GPT-5.6 Sol) to solve unconventional problems",
     "Shows how current LLMs can assist in building novel systems that combine unexpected technologies"
-   ]
-  },
-  {
-   "title": "New York becomes the first state to enact a data center moratorium",
-   "link": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T22:23:04+00:00",
-   "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new environmental permits for data […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "New York Governor Kathy Hochul signed a one-year moratorium on new hyperscale AI data center permits, making the state the first to enact a statewide moratorium. A second bill restricting further developments remains pending her signature.",
-   "whyMatters": [
-    "Significant policy shift: state-level action to slow AI infrastructure expansion, citing environmental and grid concerns",
-    "Reflects growing political momentum to regulate AI at the state level before federal action; educators and communities should track how data center policy affects regional energy and environmental outcomes"
    ]
   },
   {
@@ -475,24 +660,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The fight against AI data centers is just beginning",
-   "link": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T12:35:37+00:00",
-   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the data center buildout, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Years before the AI boom threatened local power […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "This Verge column reports on emerging local and regional opposition to the massive expansion of AI data centers, which consume enormous amounts of power and resources. The story signals that community resistance to data center buildout is growing and becoming a significant flashpoint.",
-   "whyMatters": [
-    "Data center construction has direct local impacts (power grid strain, land use, environmental effects) that will increasingly shape where AI infrastructure can be built and thus the pace of AI development",
-    "Relevant to understanding the material and geographic constraints on AI deployment, and how local stakeholder concerns—including from religious and civic institutions—may influence AI's trajectory"
-   ]
-  },
-  {
    "title": "Simulating everything, sort of: The promise and limits of world models",
    "link": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/",
    "source": "Ars Technica · AI",
@@ -508,46 +675,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "World models represent a foundational capability gap: models that reason about causality and physical consequences rather than pattern-matching",
     "Clarifying what world models can and cannot do is essential for assessing their role in embodied AI and robotics"
-   ]
-  },
-  {
-   "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-   "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T09:56:25+00:00",
-   "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Meta disabled an Instagram feature it had just announced that allowed users to generate AI-generated images based on public accounts without the account owners' consent. The reversal came after public backlash.",
-   "whyMatters": [
-    "Demonstrates rapid course correction on controversial AI features in response to user and public concern",
-    "Highlights ongoing tension between AI content generation capabilities and creator consent and intellectual property rights"
-   ]
-  },
-  {
-   "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
-   "link": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T09:24:23+00:00",
-   "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. While the car processor was never finished, as Mark Gurman details […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Apple's abandoned self-driving car project drove the company to develop powerful on-device AI processing capabilities. Though the car itself never materialized, the technical work Apple invested in that effort became foundational to the AI performance now embedded in its chip designs.",
-   "whyMatters": [
-    "Demonstrates how failed projects can yield indirect but significant technological spillovers across an entire product line",
-    "Illustrates the business reality that large AI infrastructure investments often justify themselves through multiple applications beyond the original intended use"
    ]
   },
   {
@@ -735,24 +862,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Safety leadership departures at major AI labs raise questions about organizational commitment to safety oversight",
     "Integration of safety into general research teams could shift how safety concerns are prioritized versus speed of capability development"
-   ]
-  },
-  {
-   "title": "Apple sues OpenAI for allegedly stealing hardware secrets",
-   "link": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-10T22:33:47+00:00",
-   "summary": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple sued OpenAI and Jony Ive's IO Products company, alleging that former Apple employees at OpenAI stole confidential hardware secrets, including presentations, prototypes, and supplier information. The lawsuit names a pattern of alleged trade secret theft.",
-   "whyMatters": [
-    "Major legal conflict between hardware and AI leaders signals escalating IP disputes in the sector",
-    "Raises questions about enforcement and consequences for talent mobility between tech giants in sensitive areas"
    ]
   },
   {
@@ -1002,24 +1111,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI’s CEO of AGI Deployment, Fidji Simo, Is Stepping Down",
-   "link": "https://www.wired.com/story/fidji-simo-ceo-agi-deployment-openai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-09T23:13:18+00:00",
-   "summary": "The move comes after Simo took significant medical leave. She will stay on as a part-time adviser.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Wired reports the same news: Fidji Simo, OpenAI's CEO of AGI Deployment, is stepping down after significant medical leave. She will remain with the company as a part-time adviser.",
-   "whyMatters": [
-    "Corroborates the Verge report — the departure is confirmed across outlets, not rumor.",
-    "Who replaces her will shape how OpenAI rolls out its most consequential systems."
-   ]
-  },
-  {
    "title": "Patreon Blocks Crawlers From Stealing Creators' Work for AI Training",
    "link": "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/",
    "source": "404 Media",
@@ -1252,6 +1343,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "GPT-5.5 Bio Bug Bounty",
+   "link": "https://openai.com/index/bio-bug-bounty",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "Details about the OpenAI Bio Bounty program",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
+   "whyMatters": [
+    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
+    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
+   ]
+  },
+  {
    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
    "link": "https://openai.com/index/gpt-5-6",
    "source": "OpenAI News",
@@ -1285,24 +1394,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
     "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
-   ]
-  },
-  {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "Details about the OpenAI Bio Bounty program",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
-   "whyMatters": [
-    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
-    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
    ]
   },
   {
@@ -1561,25 +1652,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Benchmark scores drive headlines, purchasing decisions, and investment; if the benchmarks are flawed, much of the public AI narrative rests on sand.",
     "There is an obvious self-interest angle — a lab critiquing a benchmark it is graded on — which makes independent evaluation even more important."
-   ]
-  },
-  {
-   "title": "LARPING: How Influencers Fake Being Rich",
-   "link": "https://www.404media.co/larping-how-influencers-fake-being-rich/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-08T11:11:45+00:00",
-   "summary": "How companies are burning through their AI tokens; and the fake AI-generated flowers all over Etsy, eBay, and Amazon.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media looks at influencers who fake wealthy lifestyles online, alongside two related threads: companies burning through AI tokens faster than expected, and a flood of fake AI-generated flower listings on Etsy, eBay, and Amazon.",
-   "whyMatters": [
-    "AI-generated product images are polluting mainstream marketplaces, making it harder for ordinary shoppers to know what's real.",
-    "The token-burn detail hints that many companies' AI costs are running ahead of their plans.",
-    "Useful case material for teaching digital honesty and discernment — the fakery is now cheap and everywhere."
    ]
   },
   {
@@ -2209,24 +2281,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Musk’s X poses “serious risk to Americans’ privacy,” advocates warn FTC",
-   "link": "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-02T14:39:17+00:00",
-   "summary": "FTC urged to reject Elon Musk’s bid to end X monitoring amid AI concerns.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Privacy advocates are urging the FTC to reject Elon Musk's bid to end federal monitoring of X, warning the platform poses a serious risk to Americans' privacy, with AI-related data practices among the stated concerns. The monitoring stems from earlier consent-decree obligations.",
-   "whyMatters": [
-    "Tests whether existing privacy oversight can hold when a platform pivots its user data toward AI training.",
-    "Relevant to anyone advising communities about what happens to their data on social platforms."
-   ]
-  },
-  {
    "title": "Skill engineering and the case against one-shot AI design",
    "link": "https://www.latent.space/p/skill-engineering-design",
    "source": "Latent Space",
@@ -2260,26 +2314,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A reminder that some of AI's biggest consequences are in factories and infrastructure, far from chatbots.",
     "Safety-critical autonomy raises accountability questions that will outlast any single product cycle."
-   ]
-  },
-  {
-   "title": "Google’s AI buildout drove 37% increase in electricity use in 2025",
-   "link": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-02T11:15:49+00:00",
-   "summary": "Google tries balancing AI data center emissions with clean energy efforts.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Google's AI data-center buildout drove a 37% increase in the company's electricity use in 2025. The company says it is trying to offset the emissions from that growth with clean-energy investments.",
-   "whyMatters": [
-    "A hard number on AI's environmental cost — useful for honest conversations about the ethics of heavy AI use.",
-    "Directly relevant to environmental-stewardship framing: every query and generated image draws on this growing energy footprint."
    ]
   },
   {
@@ -2372,27 +2406,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals that agent adoption in big organizations needs hands-on human consultants, not just a product license — the tools don't deploy themselves.",
     "The forward-deployed model is a template any institution, including nonprofits and religious movements, might eventually encounter when adopting AI."
-   ]
-  },
-  {
-   "title": "After spooking Trump into safety testing, Anthropic AI models get global release",
-   "link": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-01T16:44:18+00:00",
-   "summary": "US lifts curbs on Anthropic’s advanced Fable and Mythos models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The US government has lifted export curbs on Anthropic's advanced Fable and Mythos models, clearing them for global release. Per the headline, the models had earlier prompted the Trump administration to require safety testing before allowing broad distribution.",
-   "whyMatters": [
-    "A rare case of frontier AI actually being held back by government safety review, then released — a live data point in the regulation-vs-innovation debate.",
-    "Global availability means these models reach communities and institutions worldwide, not just US users.",
-    "Worth following as a governance precedent: safety testing as a condition of release could become the norm."
    ]
   },
   {
@@ -2598,24 +2611,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Core dump epidemiology: fixing an 18-year-old bug",
-   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
-   "whyMatters": [
-    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
-    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
-   ]
-  },
-  {
    "title": "Inside Genebench-Pro",
    "link": "https://openai.com/index/genebench-pro/case-studies",
    "source": "OpenAI News",
@@ -2631,6 +2626,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
     "Thin source material; read alongside the main announcement rather than on its own."
+   ]
+  },
+  {
+   "title": "Core dump epidemiology: fixing an 18-year-old bug",
+   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
+   "whyMatters": [
+    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
+    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
    ]
   },
   {
@@ -3027,25 +3040,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Data centers are where AI's abstract costs — power, water, land — become local politics that both parties are now fighting over.",
     "The 'negotiate for real local benefits' frame is a practical ethics of communal fairness, not just NIMBY versus boosterism."
-   ]
-  },
-  {
-   "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-   "link": "https://openai.com/index/gpt-5-immunology-mystery",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-23T17:00:00+00:00",
-   "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI reports that GPT-5 Pro helped immunologist Derya Unutmaz crack a three-year-old puzzle about T cell behavior, with potential implications for cancer and autoimmune research. It's presented as a case of the model contributing a genuine scientific insight.",
-   "whyMatters": [
-    "If it holds up, this is AI as a real scientific collaborator on unsolved problems — refuah through silicon is a story worth telling.",
-    "A concrete, positive counterexample for balanced teaching about AI, against the hype-and-doom extremes.",
-    "Caveat: it's the vendor's own account of its model's success — independent confirmation matters."
    ]
   },
   {
