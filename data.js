@@ -1,39 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-14T18:08:10.964945+00:00",
+ "generatedAt": "2026-07-14T23:56:32.534260+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-14T18:08:35.640595+00:00",
+  "generatedAt": "2026-07-14T23:56:52.947078+00:00",
   "bullets": [
    {
-    "text": "US military deployed autonomous explosive drone boats in combat for the first time, striking Iranian targets in escalating regional conflict.",
+    "text": "New York became the first state to impose a one-year moratorium on new AI data center construction, signaling potential regulatory backlash against the infrastructure demands of frontier AI development.",
+    "links": [
+     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
+    ]
+   },
+   {
+    "text": "U.S. military deployed autonomous explosive drone boats in combat for the first time, representing a watershed moment for weaponized AI systems in active conflict.",
     "links": [
      "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
     ]
    },
    {
-    "text": "New York enacted the first statewide data center moratorium, pausing AI infrastructure expansion and signaling potential broader regulatory crackdowns on the industry.",
+    "text": "Apple sued OpenAI over alleged theft of trade secrets by a former engineer and unauthorized use of hardware prototypes, escalating competition between tech giants into major litigation.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
-     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium"
+     "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
     ]
    },
    {
-    "text": "Meta faces lawsuit from 26 former employees alleging it used biased AI tools to systematically target workers on leave for mass layoffs.",
+    "text": "Meta faces a lawsuit claiming it used biased AI systems to identify and target workers on medical leave for mass layoffs, raising accountability questions about automated employment decisions.",
     "links": [
-     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs"
+     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
     ]
    },
    {
-    "text": "YouTube and X function as referral gateways to nonconsensual deepfake services, directing users toward tools generating sexually explicit fake images for minimal cost.",
+    "text": "YouTube and X function as referral gateways to nonconsensual deepfake pornography services, revealing how major platforms enable harms despite their content policies.",
     "links": [
      "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
-    ]
-   },
-   {
-    "text": "Apple sued OpenAI alleging a former engineer exploited a software bug to steal trade secrets, exemplifying intensifying corporate AI wars.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
-     "https://www.theverge.com/tech/965138/google-images-homepage-ai-overviews-search-nano-banana"
     ]
    }
   ]
@@ -88,6 +89,211 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "[AINews] not much happened today",
+   "link": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-14T23:54:07+00:00",
+   "summary": "a continuation: Codex adding 1M users a day now.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!uoZg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNOP2m2bAAAC2k7.jpg",
+   "themes": [],
+   "aiSummary": "Codex is adding 1 million users per day. This single data point is offered as the noteworthy development despite the post's self-deprecating title suggesting little occurred.",
+   "whyMatters": [
+    "Indicates massive adoption velocity for Codex, suggesting a major AI product is crossing significant user-growth milestones",
+    "Signals market consolidation around a few dominant platforms in the AI tooling space"
+   ]
+  },
+  {
+   "title": "5 Trends That Defined AI Engineering at World’s Fair 2026",
+   "link": "https://www.latent.space/p/aiewf26trends",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-14T23:21:21+00:00",
+   "summary": "At this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!3Be9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4e070d1-3be3-48a9-a86b-ceaf34f4577b_1672x941.png",
+   "themes": [],
+   "aiSummary": "At the 2026 AI Engineering World's Fair, a key trend emerged: builders are shifting from constructing applications with agents to building entire systems architected around agent-based approaches.",
+   "whyMatters": [
+    "Represents a maturation of AI engineering practice—agents moving from feature to foundational architecture",
+    "Will influence how educators and practitioners teach AI systems design going forward"
+   ]
+  },
+  {
+   "title": "Quoting GitHub Changeling",
+   "link": "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-14T22:43:35+00:00",
+   "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. — GitHub Changeling , embracing dependency cooldowns Tags: dependency-cooldowns , packaging , security , github",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "GitHub's Dependabot now enforces a three-day cooldown by default before opening version update pull requests for new releases, reducing unnecessary early updates.",
+   "whyMatters": [
+    "Improves software supply-chain security by reducing exposure to zero-day vulnerabilities in freshly released dependencies",
+    "Shifts industry practice toward more cautious dependency management without requiring manual configuration"
+   ]
+  },
+  {
+   "title": "simonw/pedalican",
+   "link": "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-14T22:29:45+00:00",
+   "summary": "simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then learned you can create your own. So I did, and now I have a cute little pelican on a bicycle bouncing around my desktop giving me updates on my Codex tasks. Your browser does not suppo",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/waving.gif",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Codex Desktop includes \"pets\"—small animated companion characters like a pelican on a bicycle that provide task updates. Users can create custom pets.",
+   "whyMatters": [
+    "Reflects consumer-facing AI product design moving toward personality and engagement rather than pure utility",
+    "Example of anthropomorphic interfaces becoming standard in mainstream AI tools"
+   ]
+  },
+  {
+   "title": "New York becomes the first state to enact a data center moratorium",
+   "link": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-14T21:45:11+00:00",
+   "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new environmental permits for data […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "New York Governor Kathy Hochul signed a one-year moratorium on new hyperscale AI data center permits, making the state the first to enact a statewide moratorium. A second bill restricting further developments remains pending her signature.",
+   "whyMatters": [
+    "Significant policy shift: state-level action to slow AI infrastructure expansion, citing environmental and grid concerns",
+    "Reflects growing political momentum to regulate AI at the state level before federal action; educators and communities should track how data center policy affects regional energy and environmental outcomes"
+   ]
+  },
+  {
+   "title": "OpenAI may announce a ChatGPT smart speaker this year",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-14T21:26:32+00:00",
+   "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit against OpenAI that accused […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates",
+    "environment"
+   ],
+   "aiSummary": "OpenAI is reportedly planning to release a smart speaker hardware device running ChatGPT, equipped with a camera and sensors but no screen, to compete in the smart home market.",
+   "whyMatters": [
+    "Signals OpenAI's expansion beyond software into consumer hardware and physical spaces",
+    "Stakes out OpenAI's position in a category dominated by Apple and Amazon, expanding the reach of conversational AI interfaces"
+   ]
+  },
+  {
+   "title": "AI Optimism vs. AI Pessimism",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Optimism-vs--AI-Pessimism-e3m3a74",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-14T20:15:20+00:00",
+   "summary": "From Anthropic’s grim new ad to Demis Hassabis’s call for frontier AI standards, the debate over AI’s societal risks is changing. NLW argues that the conversation is becoming more grounded, nuanced and useful—even as deep disagreements remain over jobs, superintelligence and government control. Brought to you by: KPMG – Research from KPMG and the University of Texas at Austin shows the highest-imp",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122840740/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-14%2F427965424-44100-2-da7d17c690cd9.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "A podcast discusses the shift in AI risk debate, from Anthropic's cautionary messaging to Demis Hassabis advocating for frontier AI standards, noting the conversation is becoming more grounded despite persistent disagreements on jobs, superintelligence, and regulation.",
+   "whyMatters": [
+    "Shows increasing differentiation in AI industry narratives and policy positions across major companies",
+    "Highlights ongoing substantive disagreement on governance—relevant to educators, policy advocates, and clergy following AI ethics"
+   ]
+  },
+  {
+   "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
+   "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-14T20:05:53+00:00",
+   "summary": "Meta denies using AI to terminate workers with disabilities and medical problems.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A lawsuit claims Meta used AI systems to make layoff decisions affecting workers with disabilities and medical conditions. Meta denies the allegation.",
+   "whyMatters": [
+    "Raises urgent questions about AI accountability in high-stakes employment decisions with discriminatory consequences",
+    "Tests whether labor law and disability protections can hold AI systems accountable—directly relevant to policy and organizational ethics"
+   ]
+  },
+  {
+   "title": "lobste.rs is now running on SQLite",
+   "link": "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-14T19:44:11+00:00",
+   "summary": "lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration, and now consider it stable enough that it looks like this is the permanent architecture for the site going forward: SQLite seems to have pa",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Lobsters community site completed a migration from MariaDB to SQLite after planning it since 2018, with the change now deemed stable and permanent.",
+   "whyMatters": [
+    "Demonstrates a successful large-scale technical migration in open-source infrastructure",
+    "Not directly AI-related; included in feed likely for technical audience interest"
+   ]
+  },
+  {
+   "title": "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-14T19:25:00+00:00",
+   "summary": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositories, \"including files it was told not to open […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "SpaceXAI's Grok Build coding tool was discovered automatically uploading entire user codebases to Google Cloud storage, including files users instructed it not to access. The company disabled the feature after the issue was reported.",
+   "whyMatters": [
+    "Exposes data-handling risks in AI coding assistants—critical concern for software developers and security practitioners",
+    "Illustrates governance gap: AI tools with broad system access can violate user intent without transparency, even before disclosure"
+   ]
+  },
+  {
+   "title": "Quoting Armin Ronacher",
+   "link": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-14T18:04:23+00:00",
+   "summary": "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A quote reflects that software projects have an unwritten shared language embedded in documentation, code review, conversations, and culture that communicates design intent and ownership—knowledge rarely codified in one place.",
+   "whyMatters": [
+    "Relevant to AI-in-education contexts: highlights why tacit knowledge in human communities resists easy formalization or automation",
+    "Suggests limits to what AI systems can extract or replicate from human-built systems"
+   ]
+  },
+  {
    "title": "US military sent explosive drone boats into combat for the first time",
    "link": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
    "source": "Ars Technica · AI",
@@ -126,6 +332,21 @@ window.NEWS_DATA = {
     "Demonstrates potential for AI systems to amplify discrimination in employment decisions, particularly affecting protected workers",
     "Raises questions about transparency and fairness in using AI for workforce decisions—relevant to all organizations deploying HR AI tools"
    ]
+  },
+  {
+   "title": "datasette 1.0a37",
+   "link": "https://simonwillison.net/2026/Jul/14/datasette/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-14T16:31:41+00:00",
+   "summary": "Release: datasette 1.0a37 A minor release. Performance and documentation improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break. Tags: datasette",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
   },
   {
    "title": "Google revamps image search for its 25th anniversary with more images and more AI",
@@ -217,26 +438,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Adds to mounting legal pressure on OpenAI alongside lawsuits from Elon Musk and others, creating financial and operational headwinds",
     "Focuses on hardware strategy, suggesting competition and disputes over proprietary technology in the AI development pipeline"
-   ]
-  },
-  {
-   "title": "New York becomes the first state to enact a data center moratorium",
-   "link": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T13:48:21+00:00",
-   "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new environmental permits for data […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "New York Governor Kathy Hochul signed a one-year moratorium on new hyperscale AI data center permits, making the state the first to enact a statewide moratorium. A second bill restricting further developments remains pending her signature.",
-   "whyMatters": [
-    "Significant policy shift: state-level action to slow AI infrastructure expansion, citing environmental and grid concerns",
-    "Reflects growing political momentum to regulate AI at the state level before federal action; educators and communities should track how data center policy affects regional energy and environmental outcomes"
    ]
   },
   {
@@ -404,24 +605,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How sales teams use ChatGPT Work",
-   "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-14T00:00:00+00:00",
-   "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published guidance on how sales teams use ChatGPT Work to generate forecasts, account plans, meeting prep, and pipeline summaries from real work data.",
-   "whyMatters": [
-    "Demonstrates AI adoption for sales operations and deal management; shows efficiency gains in high-velocity business functions",
-    "Relevant to educators tracking which white-collar jobs are being augmented or displaced by AI tools"
-   ]
-  },
-  {
    "title": "How data science teams use ChatGPT Work",
    "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
    "source": "OpenAI News",
@@ -437,6 +620,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows practical enterprise adoption of ChatGPT for knowledge work; productivity gains for teams using structured prompting",
     "Example of AI reshaping workflows in analytical roles; relevant to educators preparing students for labor markets where AI collaboration is standard"
+   ]
+  },
+  {
+   "title": "How sales teams use ChatGPT Work",
+   "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-14T00:00:00+00:00",
+   "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI published guidance on how sales teams use ChatGPT Work to generate forecasts, account plans, meeting prep, and pipeline summaries from real work data.",
+   "whyMatters": [
+    "Demonstrates AI adoption for sales operations and deal management; shows efficiency gains in high-velocity business functions",
+    "Relevant to educators tracking which white-collar jobs are being augmented or displaced by AI tools"
    ]
   },
   {
@@ -585,24 +786,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T17:22:33+00:00",
-   "summary": "Lorde was performing at the Mad Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smart […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "During a performance at Madrid's Real Cool Festival, musician Lorde publicly criticized AI glasses (appearing to reference Ray-Ban Meta's AI smartglasses, a festival sponsor) as aesthetically unappealing. She did not name the product explicitly but spoke against AI glasses during her set.",
-   "whyMatters": [
-    "Reflects cultural pushback against AI-integrated wearables as a consumer product category",
-    "Highlights public skepticism about the desirability of AI hardware, even from mainstream cultural figures, which may influence adoption rates and brand perception"
-   ]
-  },
-  {
    "title": "Now, defenders are embracing the prompt injection, too",
    "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
    "source": "Ars Technica · AI",
@@ -675,26 +858,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "World models represent a foundational capability gap: models that reason about causality and physical consequences rather than pattern-matching",
     "Clarifying what world models can and cannot do is essential for assessing their role in embodied AI and robotics"
-   ]
-  },
-  {
-   "title": "Waze is getting a bunch of new AI-powered features",
-   "link": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T09:07:04+00:00",
-   "summary": "Waze is getting an AI makeover. Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini. Waze says its updating its conversation reporting feature, first introduced in 2024, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google is integrating Gemini into the Waze navigation app to enable new AI-powered features that let users personalize their trips. The update includes improvements to conversation reporting (a feature introduced in 2024) and two features explicitly using Gemini, though the article does not detail all four announced updates.",
-   "whyMatters": [
-    "Demonstrates how major AI assistants are being embedded into everyday consumer applications beyond search and chat interfaces",
-    "Shows the practical scaling of generative AI into driving contexts where voice interaction and personalization could improve user experience"
    ]
   },
   {
@@ -825,25 +988,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reduces friction for programmatic data insertion workflows by eliminating the need for intermediate file creation",
     "Expands flexibility for developers integrating sqlite-utils into larger data pipelines"
-   ]
-  },
-  {
-   "title": "[AINews] not much happened today",
-   "link": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-11T02:53:08+00:00",
-   "summary": "a quiet day after a week of nonstop model releases",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!7odD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa462b771-b4e5-4d7a-b815-ac4ca35903f4_1328x982.png",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Latent Space reports a quiet day in AI news after an intense week of model releases. No significant announcements or developments occurred.",
-   "whyMatters": [
-    "Signals a potential slowdown in the relentless pace of AI announcements, which is itself newsworthy in a fast-moving industry"
    ]
   },
   {
@@ -1343,24 +1487,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "Details about the OpenAI Bio Bounty program",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
-   "whyMatters": [
-    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
-    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
-   ]
-  },
-  {
    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
    "link": "https://openai.com/index/gpt-5-6",
    "source": "OpenAI News",
@@ -1394,6 +1520,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
     "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
+   ]
+  },
+  {
+   "title": "GPT-5.5 Bio Bug Bounty",
+   "link": "https://openai.com/index/bio-bug-bounty",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "Details about the OpenAI Bio Bounty program",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
+   "whyMatters": [
+    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
+    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
    ]
   },
   {
@@ -1825,24 +1969,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-utils 4.0",
-   "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-07T15:42:43+00:00",
-   "summary": "Release: sqlite-utils 4.0 See sqlite-utils 4.0, now with database schema migrations for details. Tags: sqlite-utils",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A short release note from Simon Willison announcing sqlite-utils 4.0, pointing readers to his fuller write-up on the migrations, nested transactions, and compound foreign key features.",
-   "whyMatters": [
-    "Pointer post only — the substance is in the companion announcement of the 4.0 release.",
-    "Marks the formal stable release after a string of release candidates."
-   ]
-  },
-  {
    "title": "The foundational elements of AI architecture that IT leaders need to scale",
    "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
    "source": "MIT Tech Review · AI",
@@ -1881,26 +2007,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-utils 4.0rc4",
-   "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-07T05:36:15+00:00",
-   "summary": "Release: sqlite-utils 4.0rc4 The last RC before the 4.0 stable release. Mainly implements feedback from a detailed review by Claude Fable 5. Tags: sqlite-utils , claude-mythos-fable",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison shipped sqlite-utils 4.0rc4, the final release candidate before the stable 4.0. Its changes mainly implement feedback from a detailed code review performed by Claude Fable 5.",
-   "whyMatters": [
-    "An AI model doing the substantive pre-release code review for a widely used open-source tool — a snapshot of how software practice is changing.",
-    "Minor on its own; the stable 4.0 release is the real news."
-   ]
-  },
-  {
    "title": "[AINews] The Field Guide to Fable",
    "link": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
    "source": "Latent Space",
@@ -1918,24 +2024,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "If the launch merits 'most significant to date' from a usually measured newsletter, it's worth understanding what changed.",
     "A digest format is an efficient way to catch up on a big launch without wading through scattered hot takes."
-   ]
-  },
-  {
-   "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-   "link": "https://openai.com/index/australian-payments-plus",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-07T00:00:00+00:00",
-   "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI case study: Australian Payments Plus, which runs Australia's payments infrastructure, uses ChatGPT Enterprise and Codex to work through payments complexity faster, with the company emphasizing that human judgment stays central.",
-   "whyMatters": [
-    "AI is being woven into national payments infrastructure — high-stakes plumbing, not just office productivity.",
-    "The 'human judgment stays central' framing is becoming the standard reassurance in enterprise AI stories; worth watching whether practice matches it."
    ]
   },
   {
@@ -1957,23 +2045,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "tencent/Hy3",
-   "link": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-   "source": "Simon Willison",
+   "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+   "link": "https://openai.com/index/australian-payments-plus",
+   "source": "OpenAI News",
    "category": "ai",
-   "date": "2026-07-06T23:57:35+00:00",
-   "summary": "tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms simi",
+   "date": "2026-07-07T00:00:00+00:00",
+   "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/hy3-pelican.png",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Tencent released Hy3, an Apache 2.0 licensed open-weight model: a 295B-parameter Mixture-of-Experts design with 21B active parameters. It follows an April preview, with post-training scaled up based on feedback from more than 50 products.",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI case study: Australian Payments Plus, which runs Australia's payments infrastructure, uses ChatGPT Enterprise and Codex to work through payments complexity faster, with the company emphasizing that human judgment stays central.",
    "whyMatters": [
-    "Another large, permissively licensed model from China keeps competitive pressure on US labs and expands what anyone can run and modify freely.",
-    "The MoE design (only 21B of 295B parameters active) shows how labs get big-model quality at lower running cost."
+    "AI is being woven into national payments infrastructure — high-stakes plumbing, not just office productivity.",
+    "The 'human judgment stays central' framing is becoming the standard reassurance in enterprise AI stories; worth watching whether practice matches it."
    ]
   },
   {
@@ -2052,26 +2138,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-utils 4.0rc3",
-   "link": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-06T05:40:08+00:00",
-   "summary": "Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger . The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to table.foreign_keys and ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison released sqlite-utils 4.0rc3 after working through the issue backlog with a combination of Claude Fable 5 and GPT-5.5. The biggest addition is introspecting and creating compound foreign keys, which involves a subtle breaking change to table.foreign_keys.",
-   "whyMatters": [
-    "A working example of a developer pairing two rival AI models to clear an open-source backlog.",
-    "Mostly of interest to sqlite-utils users preparing for the 4.0 breaking changes."
-   ]
-  },
-  {
    "title": "The Job Positions of the AI Future",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Job-Positions-of-the-AI-Future-e3lm4ub",
    "source": "The AI Daily Brief",
@@ -2087,27 +2153,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A concrete vocabulary for how roles may reorganize around AI agents, useful for anyone advising people on careers.",
     "The 'maker in every function' idea maps well onto educators and clergy who can model AI use for their institutions."
-   ]
-  },
-  {
-   "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-   "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-05T01:00:48+00:00",
-   "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions to be as rare as possible. I started with this prompt, in Claude Code for web on ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/fable-plan-usage.webp",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison used Claude Fable to do most of the work getting his sqlite-utils library to a 4.0 stable release candidate, at a total cost of about $149. He leaned on the model because Fable access on his Max subscription was ending in a few days, and he wanted the breaking-change major version done carefully since he holds to semantic versioning.",
-   "whyMatters": [
-    "A respected, skeptical open-source developer letting an AI write most of a major release is a strong real-world signal of where coding agents are now.",
-    "The ~$149 price tag gives a rare concrete number for what serious AI-assisted development actually costs.",
-    "Useful case study if you're explaining to lay audiences what 'AI writes software' means in practice, beyond the hype."
    ]
   },
   {
@@ -2259,25 +2304,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows AI being folded into decades-old management methodology rather than replacing it — the unglamorous reality of enterprise adoption.",
     "Mainly relevant if you follow how large organizations operationalize AI beyond chatbots."
-   ]
-  },
-  {
-   "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target",
-   "link": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-02T15:12:25+00:00",
-   "summary": "Insiders say Sam Altman is in active talks with the Trump administration.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sam Altman is reportedly in active talks with the Trump administration about giving the US government a 5% stake in OpenAI, a figure far below what Senator Sanders has pushed for. The move appears aimed at defusing political opposition to the company.",
-   "whyMatters": [
-    "A government equity stake in a leading AI lab would be a remarkable fusion of state and corporate power over the technology.",
-    "Raises real ethical questions about independence: who does OpenAI answer to if Washington is a shareholder?",
-    "The Sanders-versus-Altman gap shows how contested the terms of public benefit from AI have become."
    ]
   },
   {
@@ -2479,42 +2505,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A quick pulse-check on what the practitioner community — not the marketing departments — is actually focused on.",
     "The open-models emphasis matters for anyone who wants AI that runs locally, without sending data to a vendor."
-   ]
-  },
-  {
-   "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
-   "link": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-01T03:01:09+00:00",
-   "summary": "Everything is open again!",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!V4wu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHMF3K5vakAAfUEM.png",
-   "themes": [],
-   "aiSummary": "Latent Space's AINews digest marks the release of Anthropic's Sonnet 5, with Fable 5 expected the following day, under the tagline 'Everything is open again' — a nod to the lifting of the restrictions that had held the models back.",
-   "whyMatters": [
-    "Two frontier Anthropic releases in two days is a significant capability jump landing all at once.",
-    "'Open again' underscores how unusual the preceding lockdown period was — access to top models is no longer something to take for granted."
-   ]
-  },
-  {
-   "title": "Forward Deployed Engineers and the future of software engineering",
-   "link": "https://www.latent.space/p/forward-deployed-engineers-aiewf",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-01T00:20:18+00:00",
-   "summary": "Sierra's Natalie Meurer on why product engineers and forward deployed engineers are starting to converge.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!FQL_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf8be96e-5c79-4412-baaa-e987da5ef53a_1280x960.jpeg",
-   "themes": [],
-   "aiSummary": "Sierra's Natalie Meurer argues that the roles of product engineer and forward deployed engineer are converging — engineers increasingly work embedded with customers, shaping AI agent deployments in the field rather than building features in isolation.",
-   "whyMatters": [
-    "Describes how software jobs are actually changing under AI: less pure coding, more on-site judgment and customer work.",
-    "Relevant career-landscape context for anyone advising students or congregants heading into tech."
    ]
   },
   {
@@ -3176,25 +3166,6 @@ window.NEWS_DATA = {
     "A practical map of the alternatives if a tool you rely on was built around Fable.",
     "Chinese open models moving into frontier gaps has real geopolitical and safety implications worth watching.",
     "The token-efficiency trend could lower costs for small organizations using AI."
-   ]
-  },
-  {
-   "title": "A Big Shift in the AI Race",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/A-Big-Shift-in-the-AI-Race-e3kubu2",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-17T20:10:46+00:00",
-   "summary": "The AI race is entering a new phase as SpaceX turns its IPO momentum into AI leverage, Cursor becomes part of Elon Musk’s broader strategy, and OpenAI’s leaked financials tell a more complicated story than the skeptics suggest. In the headlines: the latest in the Anthropic-Washington fight over Fable 5, Mythos, and what's really behind the government’s cybersecurity concerns. Check out the new ⁠⁠⁠",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121630082/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-17%2F426344289-44100-2-f615e1af1eea9.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "NLW covers a shift in the AI race: SpaceX is converting IPO momentum into AI leverage, with its acquisition of Cursor becoming part of Elon Musk's broader strategy, while leaked OpenAI financials tell a more nuanced story than skeptics claim. Headlines include the ongoing Anthropic–Washington fight over Fable 5 and Mythos, and the government's stated cybersecurity concerns.",
-   "whyMatters": [
-    "Musk consolidating AI assets under the SpaceX umbrella changes the competitive map of the industry.",
-    "The Anthropic–Washington dispute is a live test of how governments will handle powerful models — precedent-setting for AI governance.",
-    "Leaked OpenAI financials matter for judging whether the AI boom is economically sustainable."
    ]
   },
   {
