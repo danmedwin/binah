@@ -1,39 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-13T23:57:45.154045+00:00",
+ "generatedAt": "2026-07-14T07:12:18.210270+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-13T23:57:58.808498+00:00",
+  "generatedAt": "2026-07-14T07:12:29.234766+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI alleging a former engineer exploited a software bug to steal trade secrets, signaling escalating corporate conflict in AI competition.",
+    "text": "Apple sued OpenAI alleging a former engineer exploited a software bug to steal trade secrets, escalating competition in AI between major tech companies.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
      "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
     ]
    },
    {
-    "text": "Apple redesigned Siri as a core AI assistant for iPhones in iOS 27, moving from voice commands to central interaction hub, already changing user behavior.",
+    "text": "OpenAI's Codex reached 7 million users with 10x growth in six months, potentially surpassing Claude Code in adoption.",
+    "links": [
+     "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
+    ]
+   },
+   {
+    "text": "Apple redesigned Siri as a central AI assistant in iOS 27, fundamentally changing how users interact with iPhones beyond voice commands.",
     "links": [
      "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
      "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
     ]
    },
    {
-    "text": "Advanced AI coding models (Opus 4.8, GPT-5.5, GPT-5.6 Sol) correlate with measurable spikes in developer productivity on open-source projects like Datasette.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything"
-    ]
-   },
-   {
-    "text": "Meta disabled an Instagram feature allowing AI-generated deepfakes of public accounts without consent after backlash, reflecting ongoing tensions over AI-generated synthetic content.",
+    "text": "Meta disabled an Instagram feature allowing users to generate AI deepfakes of public accounts without consent, citing public backlash.",
     "links": [
      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
     ]
    },
    {
-    "text": "Security researchers are weaponizing prompt injection as a defensive tactic to shut down AI-powered hacking agents before they cause damage.",
+    "text": "Growing local opposition to AI data center expansion threatens to slow buildout due to enormous power and resource consumption.",
     "links": [
-     "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/"
+     "https://www.theverge.com/column/963346/ai-data-centers-fight"
     ]
    }
   ]
@@ -41,6 +41,44 @@ window.NEWS_DATA = {
  "lastDigestBrief": null,
  "tasteProfile": null,
  "items": [
+  {
+   "title": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+   "link": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-14T01:22:27+00:00",
+   "summary": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!cqvt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09c078c3-d47d-4ab1-91e5-b09ad5d082dd_1388x902.png",
+   "themes": [],
+   "aiSummary": "OpenAI's Codex has grown to 7 million users with a 10x increase over six months, adding roughly 1 million users in the past day. The spike raises questions about whether Codex has surpassed Claude Code in user adoption.",
+   "whyMatters": [
+    "Signals major shift in coding AI adoption patterns and competitive positioning between OpenAI and Anthropic",
+    "Indicates developer preference signals and market concentration in the AI coding tools space"
+   ]
+  },
+  {
+   "title": "Using uvx in GitHub Actions in a cache-friendly way",
+   "link": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-14T00:56:20+00:00",
+   "summary": "TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like. The trick is setting a UV_EXCLUDE_NEWER: \"2026-07-12\" environment variable at the start of the workflow and then using that as part of the GitHub Actions cache key. This means any uvx tool-name commands will resolve to the most recent ver",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Simon Willison documented a cache-friendly approach for using uvx (a Python tool runner) in GitHub Actions by setting a UV_EXCLUDE_NEWER environment variable and incorporating it into the cache key. This solves performance issues when running tools through CI/CD pipelines.",
+   "whyMatters": [
+    "Practical improvement for developers using modern Python tooling in automated workflows",
+    "Reduces build time and infrastructure costs for teams adopting uvx-based development practices"
+   ]
+  },
   {
    "title": "DOOMQL",
    "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
@@ -238,6 +276,27 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights persistent quality and design sense limitations in current generative AI, especially for visual composition",
     "Reflects user frustration with AI outputs that lack contextual judgment and aesthetic coherence"
+   ]
+  },
+  {
+   "title": "Empowering India’s next generation of innovators with ATL Saathi",
+   "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-07-13T12:37:28+00:00",
+   "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates",
+    "robots"
+   ],
+   "aiSummary": "Google and AIM (Atal Innovation Mission) launched ATL Saathi, a Gemini-powered AI tool designed to help Indian educators teach robotics in Atal Tinkering Labs. The tool supports teachers with lesson planning and student guidance in robotics education.",
+   "whyMatters": [
+    "Directly targets AI-in-education at scale, bringing generative AI support to underserved educator populations in India",
+    "Demonstrates how large AI models can be localized for specific pedagogical contexts (robotics labs) and teacher needs"
    ]
   },
   {
@@ -1902,26 +1961,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-utils 4.0rc2",
-   "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-05T00:47:38+00:00",
-   "summary": "Release: sqlite-utils 4.0rc2 See sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25) .",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The formal release announcement for sqlite-utils 4.0rc2, the second release candidate of Willison's SQLite command-line and Python toolkit. It's a short pointer to his longer companion post explaining that Claude Fable did most of the writing.",
-   "whyMatters": [
-    "Marks a widely used open-source data tool approaching a major version with AI-written code in it.",
-    "Mostly of interest as the artifact behind the more detailed 'written by Claude Fable' post."
-   ]
-  },
-  {
    "title": "The Big Ways AI Just Changed",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Big-Ways-AI-Just-Changed-e3lkje9",
    "source": "The AI Daily Brief",
@@ -2388,24 +2427,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Ahmad Osman on why local AI is catching up",
-   "link": "https://www.latent.space/p/ahmad-osman-local-ai",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-06-30T23:39:29+00:00",
-   "summary": "After two packed AIEWF workshops, Ahmad Osman makes the case that local AI is catching up fast — from laptops and phones to enterprise-grade infrastructure.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!9BC6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9842112b-570d-48b7-92f3-7cbb05681776_1280x720.jpeg",
-   "themes": [],
-   "aiSummary": "Following two workshops at the AI Engineer World's Fair, Ahmad Osman argues that local AI — models running on laptops, phones, and on-premise enterprise hardware rather than in the cloud — is catching up quickly to hosted offerings.",
-   "whyMatters": [
-    "Local AI means privacy: pastoral conversations, student records, and sensitive counseling notes never leave the device.",
-    "If capable models run on a laptop, institutions with small budgets — synagogues, schools — can use AI without per-token cloud costs."
-   ]
-  },
-  {
    "title": "Claude Science is Anthropic’s newest flagship product",
    "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
    "source": "MIT Tech Review · AI",
@@ -2499,6 +2520,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Core dump epidemiology: fixing an 18-year-old bug",
+   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
+   "whyMatters": [
+    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
+    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
+   ]
+  },
+  {
    "title": "Introducing GeneBench-Pro",
    "link": "https://openai.com/index/introducing-genebench-pro",
    "source": "OpenAI News",
@@ -2533,24 +2572,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
     "Thin source material; read alongside the main announcement rather than on its own."
-   ]
-  },
-  {
-   "title": "Core dump epidemiology: fixing an 18-year-old bug",
-   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
-   "whyMatters": [
-    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
-    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
    ]
   },
   {
@@ -3005,22 +3026,23 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-   "link": "https://openai.com/index/patch-the-planet",
+   "title": "Daybreak: Tools for securing every organization in the world",
+   "link": "https://openai.com/index/daybreak-securing-the-world",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-06-22T10:00:00+00:00",
-   "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+   "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI launched Patch the Planet, a Daybreak initiative that helps open-source maintainers find, validate, and fix security vulnerabilities using AI combined with expert human review. It targets the chronically under-resourced volunteers who maintain critical open-source infrastructure.",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI announced Daybreak, a suite of security tools including Codex Security and GPT-5.5-Cyber designed to help organizations identify, validate, and patch security vulnerabilities across their systems. These tools aim to democratize vulnerability discovery and remediation at enterprise scale.",
    "whyMatters": [
-    "Open-source maintainers are the unpaid caretakers of infrastructure everyone depends on — directing AI security help to them addresses a real communal-goods problem.",
-    "The AI-plus-expert-review model is a sensible template for high-stakes AI assistance generally.",
-    "Goodwill gesture or not, more secure open source benefits every organization downstream."
+    "Extends AI model capabilities into security operations, addressing a critical enterprise need",
+    "Positions OpenAI's models as infrastructure for organizational risk management and compliance workflows"
    ]
   },
   {
