@@ -1,46 +1,147 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-14T07:12:18.210270+00:00",
+ "generatedAt": "2026-07-14T11:11:09.663770+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-14T07:12:29.234766+00:00",
+  "generatedAt": "2026-07-14T11:11:32.870425+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI alleging a former engineer exploited a software bug to steal trade secrets, escalating competition in AI between major tech companies.",
+    "text": "New York becomes the first state to ban new hyperscale AI data centers for one year, signaling growing public resistance to power-hungry infrastructure expansion.",
+    "links": [
+     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+     "https://www.theverge.com/column/963346/ai-data-centers-fight"
+    ]
+   },
+   {
+    "text": "Apple sued OpenAI over alleged theft of trade secrets by a former engineer, exemplifying intensifying competition between tech giants reshaping the AI industry.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
      "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
     ]
    },
    {
-    "text": "OpenAI's Codex reached 7 million users with 10x growth in six months, potentially surpassing Claude Code in adoption.",
-    "links": [
-     "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
-    ]
-   },
-   {
-    "text": "Apple redesigned Siri as a central AI assistant in iOS 27, fundamentally changing how users interact with iPhones beyond voice commands.",
+    "text": "Apple redesigned Siri as a central AI assistant for iOS 27, moving from voice utility to core interaction tool that fundamentally changes how users navigate their phones.",
     "links": [
      "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
      "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
     ]
    },
    {
-    "text": "Meta disabled an Instagram feature allowing users to generate AI deepfakes of public accounts without consent, citing public backlash.",
+    "text": "ELIZA, a 1960s chatbot, demonstrates how humans project empathy onto machines—explaining modern behavior like sharing secrets with ChatGPT based on decades-old design patterns.",
     "links": [
-     "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
+     "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/"
     ]
    },
    {
-    "text": "Growing local opposition to AI data center expansion threatens to slow buildout due to enormous power and resource consumption.",
+    "text": "Trump administration's DOGE used AI to shape housing policy but withheld records from FOIA requests, raising accountability concerns over opaque algorithmic government decisions.",
     "links": [
-     "https://www.theverge.com/column/963346/ai-data-centers-fight"
+     "https://www.wired.com/story/doge-deployed-ai-housing-policy/"
     ]
    }
   ]
  },
- "lastDigestBrief": null,
- "tasteProfile": null,
+ "lastDigestBrief": {
+  "generatedAt": "2026-07-14T11:11:32.870425+00:00",
+  "bullets": [
+   {
+    "text": "New York becomes the first state to ban new hyperscale AI data centers for one year, signaling growing public resistance to power-hungry infrastructure expansion.",
+    "links": [
+     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+     "https://www.theverge.com/column/963346/ai-data-centers-fight"
+    ]
+   },
+   {
+    "text": "Apple sued OpenAI over alleged theft of trade secrets by a former engineer, exemplifying intensifying competition between tech giants reshaping the AI industry.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
+     "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
+    ]
+   },
+   {
+    "text": "Apple redesigned Siri as a central AI assistant for iOS 27, moving from voice utility to core interaction tool that fundamentally changes how users navigate their phones.",
+    "links": [
+     "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
+     "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
+    ]
+   },
+   {
+    "text": "ELIZA, a 1960s chatbot, demonstrates how humans project empathy onto machines—explaining modern behavior like sharing secrets with ChatGPT based on decades-old design patterns.",
+    "links": [
+     "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/"
+    ]
+   },
+   {
+    "text": "Trump administration's DOGE used AI to shape housing policy but withheld records from FOIA requests, raising accountability concerns over opaque algorithmic government decisions.",
+    "links": [
+     "https://www.wired.com/story/doge-deployed-ai-housing-policy/"
+    ]
+   }
+  ]
+ },
+ "tasteProfile": {
+  "updatedAt": "2026-07-14T11:11:26.132012+00:00",
+  "voteCount": 7,
+  "bullets": [
+   "Interested in AI ethics and religious/moral perspectives on technology",
+   "Appreciates product stories that reveal broader innovation patterns (e.g., spinoff technologies from failed projects)",
+   "Prefers consumer-facing AI applications over developer tools and technical release notes",
+   "Less interested in technical updates with limited practical context or broader significance"
+  ]
+ },
  "items": [
+  {
+   "title": "This Luddite Puppet Hopes You’re Not Reading This on Your Smartphone",
+   "link": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-14T10:30:00+00:00",
+   "summary": "On this week’s episode of The Big Interview podcast, WIRED’s senior culture editor Manisha Krishnan talks to Gowanus about eschewing Big Tech, going outside, and rejection in the age of dating apps.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A podcast episode features Gowanus, a figure promoting Luddite ideas and skepticism toward Big Tech, discussing the rejection of smartphones and technology in favor of offline life and going outside.",
+   "whyMatters": [
+    "Reflects growing cultural pushback against tech dependence and algorithmic mediation, relevant to educators considering tech's role in learning environments",
+    "Represents counternarrative to AI/tech adoption that some communities and educators may find worth examining alongside AI integration strategies"
+   ]
+  },
+  {
+   "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT",
+   "link": "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-14T10:00:00+00:00",
+   "summary": "In the 1960s an MIT professor named Joseph Weizenbaum created a chatbot called ELIZA. The conversations people had with it set precedents for the chatbots to come.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Joseph Weizenbaum's 1960s chatbot ELIZA set behavioral precedents that explain why people today share intimate secrets with modern AI systems like ChatGPT—people project human-like empathy onto machines designed to listen.",
+   "whyMatters": [
+    "Historical context for understanding current AI interaction patterns; shows 60-year-old roots of why users anthropomorphize chatbots and disclose personal information",
+    "Relevant to educators and clergy working with communities; highlights how AI design patterns exploit human psychology, important for digital literacy and AI ethics teaching"
+   ]
+  },
+  {
+   "title": "DOGE Used AI for Housing Policy. The Government Won’t Say How",
+   "link": "https://www.wired.com/story/doge-deployed-ai-housing-policy/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-14T09:00:00+00:00",
+   "summary": "In response to a public records request, HUD has withheld documents about DOGE’s use of AI—in part by citing a privilege that doesn’t exist.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Trump administration's DOGE used AI to inform housing policy decisions, but HUD refused to release documents about the process under FOIA, citing a nonexistent legal privilege to shield the records.",
+   "whyMatters": [
+    "Government opacity around AI-driven policy decisions undermines democratic oversight and transparency",
+    "Raises urgent concerns about AI use in consequential policy areas without public scrutiny; educators and community leaders need to understand how AI is shaping policy that affects their constituents"
+   ]
+  },
   {
    "title": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
    "link": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
@@ -80,6 +181,42 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "How data science teams use ChatGPT Work",
+   "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-14T00:00:00+00:00",
+   "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI published guidance on how data science teams use ChatGPT Work to automate writing briefs, analyses, and metrics documentation from raw work inputs.",
+   "whyMatters": [
+    "Shows practical enterprise adoption of ChatGPT for knowledge work; productivity gains for teams using structured prompting",
+    "Example of AI reshaping workflows in analytical roles; relevant to educators preparing students for labor markets where AI collaboration is standard"
+   ]
+  },
+  {
+   "title": "How sales teams use ChatGPT Work",
+   "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-14T00:00:00+00:00",
+   "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI published guidance on how sales teams use ChatGPT Work to generate forecasts, account plans, meeting prep, and pipeline summaries from real work data.",
+   "whyMatters": [
+    "Demonstrates AI adoption for sales operations and deal management; shows efficiency gains in high-velocity business functions",
+    "Relevant to educators tracking which white-collar jobs are being augmented or displaced by AI tools"
+   ]
+  },
+  {
    "title": "DOOMQL",
    "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
    "source": "Simon Willison",
@@ -95,6 +232,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates creative application of AI tools (GPT-5.6 Sol) to solve unconventional problems",
     "Shows how current LLMs can assist in building novel systems that combine unexpected technologies"
+   ]
+  },
+  {
+   "title": "New York becomes the first state to enact a data center moratorium",
+   "link": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-13T22:23:04+00:00",
+   "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new environmental permits for data […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "New York Governor Kathy Hochul signed a one-year moratorium on new hyperscale AI data center permits, making the state the first to enact a statewide moratorium. A second bill restricting further developments remains pending her signature.",
+   "whyMatters": [
+    "Significant policy shift: state-level action to slow AI infrastructure expansion, citing environmental and grid concerns",
+    "Reflects growing political momentum to regulate AI at the state level before federal action; educators and communities should track how data center policy affects regional energy and environmental outcomes"
    ]
   },
   {
@@ -710,27 +867,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Would you host part of an AI data center in your home?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-10T13:26:58+00:00",
-   "summary": "A solar and home energy storage company is expanding into AI data centers, but not by building one - instead, it's offering to pay its customers to put its compute units in their homes. Sunrun is launching a pilot program for a new \"distributed AI compute\" program that will \"place numerous compute nodes in homes […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Sunrun, the solar and home-battery company, is piloting a 'distributed AI compute' program that pays customers to host AI compute nodes in their homes. Rather than building a centralized data center, it would spread the hardware across residences.",
-   "whyMatters": [
-    "A novel answer to AI's power and data-center crunch: piggyback on homes that already have solar and batteries.",
-    "If it works, ordinary households become part of AI infrastructure, raising questions about noise, heat, and who profits.",
-    "Shows how far the industry is stretching to find electricity and space for AI workloads."
-   ]
-  },
-  {
    "title": "Do Social Media Bans Work? + A Conversation About A.I. Consciousness + Tool Time",
    "link": "https://www.nytimes.com/column/hard-fork",
    "source": "Hard Fork",
@@ -1020,25 +1156,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Anthropic Wants You to Pay Up for Claude Fable 5",
-   "link": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-09T18:30:00+00:00",
-   "summary": "Claude subscribers must soon pay usage-based fees to access Anthropic’s best consumer AI model—a sign that the golden era of AI subscriptions is ending.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic will require Claude subscribers to pay usage-based fees on top of their subscriptions to access Claude Fable 5, its best consumer model. Wired frames it as a sign that the flat-fee 'golden era' of AI subscriptions is ending.",
-   "whyMatters": [
-    "Direct pocketbook impact for Claude subscribers: top-model access is moving to metered pricing.",
-    "Signals an industry-wide shift from all-you-can-eat subscriptions to usage-based billing as frontier models get expensive to run.",
-    "Worth factoring into which plans and models you standardize on for your own projects."
-   ]
-  },
-  {
    "title": "Introducing Muse Spark 1.1",
    "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
    "source": "Simon Willison",
@@ -1100,26 +1217,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The 1X Neo Robot Has Freaky Fast Fingers",
-   "link": "https://www.wired.com/story/the-1x-neo-robot-has-freaky-fast-fingers/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-09T16:01:22+00:00",
-   "summary": "The soft, oddly intimate home-chore robot has been given some very tactile hands.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "1X has upgraded its Neo home robot with new, highly tactile hands capable of very fast finger movements. The Neo is a soft-bodied humanoid designed to do household chores, and better hands are a key step toward it actually manipulating everyday objects.",
-   "whyMatters": [
-    "Dexterous hands are the main bottleneck for humanoid robots doing real housework; progress here matters more than flashy demos of walking.",
-    "Home robots raise fresh questions about privacy and household labor that will land in family life sooner than most people expect."
-   ]
-  },
-  {
    "title": "LinkedIn and X Are Flooded With AI Spam, Browsing Data Suggests",
    "link": "https://www.404media.co/linkedin-and-x-are-flooded-with-ai-spam-browsing-data-suggests/",
    "source": "404 Media",
@@ -1156,42 +1253,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The $28 Million Mistake That Inspired Estonia’s AI ‘Fuckup Finder’",
-   "link": "https://www.wired.com/story/the-28-million-dollar-mistake-that-inspired-estonias-ai-fuckup-finder/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-09T10:01:30+00:00",
-   "summary": "A single wording mistake cost the government millions. Now Estonia is using AI to spot legal errors before they become law—and to automate more of the state.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "After a single wording error in legislation cost the Estonian government $28 million, the country built an AI tool to catch legal drafting errors before bills become law. Estonia is using the project as a springboard to automate more of its state functions.",
-   "whyMatters": [
-    "A concrete, working example of AI in governance — catching human error in law rather than replacing human judgment about law.",
-    "Estonia often previews where digital government goes next; other states will study whether AI review of legal text can be trusted."
-   ]
-  },
-  {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "Details about the OpenAI Bio Bounty program",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
-   "whyMatters": [
-    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
-    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
-   ]
-  },
-  {
    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
    "link": "https://openai.com/index/gpt-5-6",
    "source": "OpenAI News",
@@ -1225,6 +1286,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
     "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
+   ]
+  },
+  {
+   "title": "GPT-5.5 Bio Bug Bounty",
+   "link": "https://openai.com/index/bio-bug-bounty",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "Details about the OpenAI Bio Bounty program",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
+   "whyMatters": [
+    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
+    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
    ]
   },
   {
@@ -1771,24 +1850,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "MUFG aims to become AI-native with OpenAI",
-   "link": "https://openai.com/index/mufg",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-07T00:00:00+00:00",
-   "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI case study: MUFG, the Japanese banking giant, is using ChatGPT Enterprise across the organization with the stated goal of becoming \"AI-native,\" improving internal workflows and building new AI-powered financial services.",
-   "whyMatters": [
-    "One of the world's largest banks committing to an AI-native strategy signals how deep enterprise adoption is going.",
-    "It's OpenAI's own marketing, so the claims of impact should be read with that in mind."
-   ]
-  },
-  {
    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
    "link": "https://openai.com/index/australian-payments-plus",
    "source": "OpenAI News",
@@ -1804,6 +1865,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI is being woven into national payments infrastructure — high-stakes plumbing, not just office productivity.",
     "The 'human judgment stays central' framing is becoming the standard reassurance in enterprise AI stories; worth watching whether practice matches it."
+   ]
+  },
+  {
+   "title": "MUFG aims to become AI-native with OpenAI",
+   "link": "https://openai.com/index/mufg",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-07T00:00:00+00:00",
+   "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI case study: MUFG, the Japanese banking giant, is using ChatGPT Enterprise across the organization with the stated goal of becoming \"AI-native,\" improving internal workflows and building new AI-powered financial services.",
+   "whyMatters": [
+    "One of the world's largest banks committing to an AI-native strategy signals how deep enterprise adoption is going.",
+    "It's OpenAI's own marketing, so the claims of impact should be read with that in mind."
    ]
   },
   {
@@ -2538,6 +2617,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Inside Genebench-Pro",
+   "link": "https://openai.com/index/genebench-pro/case-studies",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A companion piece to OpenAI's GeneBench-Pro announcement presenting case studies from the benchmark. The page carried no summary text, so details are limited.",
+   "whyMatters": [
+    "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
+    "Thin source material; read alongside the main announcement rather than on its own."
+   ]
+  },
+  {
    "title": "Introducing GeneBench-Pro",
    "link": "https://openai.com/index/introducing-genebench-pro",
    "source": "OpenAI News",
@@ -2554,24 +2651,6 @@ window.NEWS_DATA = {
     "New benchmarks in biology signal where labs expect the next capability race — AI as a working scientist, not just a chatbot.",
     "Real-world datasets make this a more honest test than the toy benchmarks models have already saturated.",
     "Pairs directly with Anthropic's Claude Science launch — the AI-for-science push is industry-wide this week."
-   ]
-  },
-  {
-   "title": "Inside Genebench-Pro",
-   "link": "https://openai.com/index/genebench-pro/case-studies",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A companion piece to OpenAI's GeneBench-Pro announcement presenting case studies from the benchmark. The page carried no summary text, so details are limited.",
-   "whyMatters": [
-    "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
-    "Thin source material; read alongside the main announcement rather than on its own."
    ]
   },
   {
@@ -2989,24 +3068,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How Omio is building the future of conversational travel",
-   "link": "https://openai.com/index/omio",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-23T00:00:00+00:00",
-   "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A customer story on how travel platform Omio uses OpenAI to power conversational travel booking, speed up product development, and remake itself as an AI-native company. It's a marketing case study of AI-first transformation in a consumer business.",
-   "whyMatters": [
-    "'Conversational' interfaces replacing search-and-forms is the direction most consumer software is heading.",
-    "The 'AI-native company' framing shows how thoroughly some businesses are rebuilding around these tools — a preview of pressure other sectors will feel."
-   ]
-  },
-  {
    "title": "Why AI Users Are Raving About GLM 5.2",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Users-Are-Raving-About-GLM-5-2-e3l50hs",
    "source": "The AI Daily Brief",
@@ -3023,26 +3084,6 @@ window.NEWS_DATA = {
     "A strong open-weight model matters most when frontier access is being restricted — it's the escape hatch from gatekeeping.",
     "Another top-tier model from China underscores that AI leadership is genuinely contested, with geopolitical stakes.",
     "For budget-constrained organizations, capable open models could mean serious AI without enterprise pricing."
-   ]
-  },
-  {
-   "title": "Daybreak: Tools for securing every organization in the world",
-   "link": "https://openai.com/index/daybreak-securing-the-world",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-22T10:00:00+00:00",
-   "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI announced Daybreak, a suite of security tools including Codex Security and GPT-5.5-Cyber designed to help organizations identify, validate, and patch security vulnerabilities across their systems. These tools aim to democratize vulnerability discovery and remediation at enterprise scale.",
-   "whyMatters": [
-    "Extends AI model capabilities into security operations, addressing a critical enterprise need",
-    "Positions OpenAI's models as infrastructure for organizational risk management and compliance workflows"
    ]
   },
   {
