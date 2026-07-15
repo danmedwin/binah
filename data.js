@@ -1,40 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-14T23:56:32.534260+00:00",
+ "generatedAt": "2026-07-15T07:18:40.379832+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-14T23:56:52.947078+00:00",
+  "generatedAt": "2026-07-15T07:18:50.490003+00:00",
   "bullets": [
    {
-    "text": "New York became the first state to impose a one-year moratorium on new AI data center construction, signaling potential regulatory backlash against the infrastructure demands of frontier AI development.",
+    "text": "New York enacted the first statewide AI data center moratorium, signaling potential broader regulatory backlash against the infrastructure demands of frontier AI development.",
     "links": [
      "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
      "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
     ]
    },
    {
-    "text": "U.S. military deployed autonomous explosive drone boats in combat for the first time, representing a watershed moment for weaponized AI systems in active conflict.",
+    "text": "Apple sued OpenAI over alleged trade secret theft by a former engineer, marking major tech-company conflict over AI hardware strategy and competitive advantage.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
-    ]
-   },
-   {
-    "text": "Apple sued OpenAI over alleged theft of trade secrets by a former engineer and unauthorized use of hardware prototypes, escalating competition between tech giants into major litigation.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+     "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
      "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
     ]
    },
    {
-    "text": "Meta faces a lawsuit claiming it used biased AI systems to identify and target workers on medical leave for mass layoffs, raising accountability questions about automated employment decisions.",
+    "text": "Meta faces lawsuit from 26 former employees alleging biased AI systems were used to systematically target workers on disability leave for mass layoffs.",
     "links": [
-     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
+     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs"
     ]
    },
    {
-    "text": "YouTube and X function as referral gateways to nonconsensual deepfake pornography services, revealing how major platforms enable harms despite their content policies.",
+    "text": "YouTube and X drive users toward nonconsensual deepfake pornography services, raising urgent questions about platform responsibility for harms enabled by AI.",
     "links": [
      "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
+    ]
+   },
+   {
+    "text": "Codex exploded to 7 million users with 1 million added in one day, potentially surpassing Claude Code and signaling major shifts in coding AI adoption patterns.",
+    "links": [
+     "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+     "https://www.latent.space/p/aiewf26trends"
     ]
    }
   ]
@@ -125,12 +126,12 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting GitHub Changeling",
+   "title": "Quoting GitHub Changelog",
    "link": "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything",
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-07-14T22:43:35+00:00",
-   "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. — GitHub Changeling , embracing dependency cooldowns Tags: dependency-cooldowns , packaging , security , github",
+   "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. — GitHub Changelog , embracing dependency cooldowns Tags: dependency-cooldowns , packaging , security , github",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -345,8 +346,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Datasette released version 1.0a37, a minor update focusing on performance and documentation improvements to its permissions system. The release also reverted a recent cosmetic API change that had broken plugin test suites.",
+   "whyMatters": [
+    "Performance improvements to permissions could matter for educators and organizations managing access to sensitive educational datasets or community records",
+    "Reverting a breaking change shows attention to developer experience, relevant for the small but growing ecosystem of people building tools on datasette for data transparency in institutions"
+   ]
   },
   {
    "title": "Google revamps image search for its 25th anniversary with more images and more AI",
@@ -1505,24 +1509,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ChatGPT is now a partner for your most ambitious work",
-   "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI launched ChatGPT Work, an agent that can act across a user's apps and files, stay on a project for hours, and carry a goal through to finished work rather than just answering questions. It marks a shift from chatbot to autonomous worker.",
-   "whyMatters": [
-    "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
-    "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
-   ]
-  },
-  {
    "title": "GPT-5.5 Bio Bug Bounty",
    "link": "https://openai.com/index/bio-bug-bounty",
    "source": "OpenAI News",
@@ -1538,6 +1524,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
     "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
+   ]
+  },
+  {
+   "title": "ChatGPT is now a partner for your most ambitious work",
+   "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI launched ChatGPT Work, an agent that can act across a user's apps and files, stay on a project for hours, and carry a goal through to finished work rather than just answering questions. It marks a shift from chatbot to autonomous worker.",
+   "whyMatters": [
+    "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
+    "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
    ]
   },
   {
@@ -2619,24 +2623,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Core dump epidemiology: fixing an 18-year-old bug",
-   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
-   "whyMatters": [
-    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
-    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
-   ]
-  },
-  {
    "title": "Introducing GeneBench-Pro",
    "link": "https://openai.com/index/introducing-genebench-pro",
    "source": "OpenAI News",
@@ -2653,6 +2639,24 @@ window.NEWS_DATA = {
     "New benchmarks in biology signal where labs expect the next capability race — AI as a working scientist, not just a chatbot.",
     "Real-world datasets make this a more honest test than the toy benchmarks models have already saturated.",
     "Pairs directly with Anthropic's Claude Science launch — the AI-for-science push is industry-wide this week."
+   ]
+  },
+  {
+   "title": "Core dump epidemiology: fixing an 18-year-old bug",
+   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
+   "whyMatters": [
+    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
+    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
    ]
   },
   {
