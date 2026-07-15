@@ -1,38 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-15T11:14:23.243969+00:00",
+ "generatedAt": "2026-07-15T12:19:42.365512+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-15T11:14:36.907627+00:00",
+  "generatedAt": "2026-07-15T12:19:51.906253+00:00",
   "bullets": [
    {
-    "text": "Meta faces lawsuit from 26 former employees alleging biased AI tools systematically identified and targeted workers on medical/parental leave for mass layoffs, raising liability risks around algorithmic employment decisions.",
+    "text": "Apple sued OpenAI for alleged theft of trade secrets by a former employee and conspiracy in hardware development, escalating competitive AI wars between major tech firms.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
+     "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
+    ]
+   },
+   {
+    "text": "New York became the first state to impose a one-year moratorium on new AI data center construction, signaling potential regulatory backlash against the industry's infrastructure demands.",
+    "links": [
+     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
+    ]
+   },
+   {
+    "text": "Meta faces lawsuit from 26 former employees alleging the company used biased AI tools to systematically target workers on medical leave for mass layoffs.",
     "links": [
      "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
      "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
     ]
    },
    {
-    "text": "U.S. military deployed autonomous explosive drone boats in combat for the first time, striking an Iranian naval port—establishing weaponized AI as active battlefield reality.",
+    "text": "OpenAI's Codex code-generation tool surged to 7 million users with 1 million added in a single day, potentially surpassing competitors like Claude Code in adoption.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
+     "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
     ]
    },
    {
-    "text": "Demis Hassabis calls for global AI watchdog led by the U.S. with regulatory authority over frontier models and intervention power for safety risks, signaling industry shift toward governance frameworks.",
+    "text": "Google DeepMind's Demis Hassabis called for a global AI watchdog led by the US to regulate frontier models and intervene on safety risks, advancing governance proposals.",
     "links": [
      "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
-    ]
-   },
-   {
-    "text": "SpaceXAI's Grok coding tool was automatically uploading entire user codebases to Google Cloud storage without permission, exposing data governance vulnerabilities in developer-facing AI products.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
-    ]
-   },
-   {
-    "text": "YouTube and X function as referral gateways directing users to nonconsensual deepfake services available for $1 per image, highlighting platform responsibility for enabling sexual abuse tools.",
-    "links": [
-     "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
     ]
    }
   ]
@@ -83,6 +85,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain",
+   "link": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-15T12:00:00+00:00",
+   "summary": "Gidi Littwin's new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as a blood test.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Gidi Littwin, who worked on Apple's FaceID technology, has founded Hemispheric, a startup using AI to create diagnostic brain scans for neurological and psychiatric conditions including depression, PTSD, and Parkinson's disease. The company aims to make these diagnostics as affordable and accessible as a standard blood test.",
+   "whyMatters": [
+    "Represents a significant shift of AI talent from consumer tech to medical diagnostics with potential clinical impact on mental health and neurological disease detection",
+    "If successful, could democratize brain imaging and diagnosis, addressing a major gap in accessible screening for conditions traditionally requiring expensive specialist imaging"
+   ]
+  },
   {
    "title": "My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell",
    "link": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/",
@@ -1040,24 +1060,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Safety leadership departures at major AI labs raise questions about organizational commitment to safety oversight",
     "Integration of safety into general research teams could shift how safety concerns are prioritized versus speed of capability development"
-   ]
-  },
-  {
-   "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
-   "link": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-10T20:44:05+00:00",
-   "summary": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple is suing OpenAI, claiming the company encouraged former Apple employees to bring confidential presentations, prototypes, and supplier details to advance OpenAI's hardware ambitions. (Duplicate of previous item with additional detail.)",
-   "whyMatters": [
-    "Reinforces the Apple-OpenAI legal conflict as a serious IP matter involving hardware strategy",
-    "Underscores the value companies place on hardware roadmaps and supply chain intelligence in AI competition"
    ]
   },
   {
