@@ -1,94 +1,124 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-15T07:18:40.379832+00:00",
+ "generatedAt": "2026-07-15T11:14:23.243969+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-15T07:18:50.490003+00:00",
+  "generatedAt": "2026-07-15T11:14:36.907627+00:00",
   "bullets": [
    {
-    "text": "New York enacted the first statewide AI data center moratorium, signaling potential broader regulatory backlash against the infrastructure demands of frontier AI development.",
+    "text": "Meta faces lawsuit from 26 former employees alleging biased AI tools systematically identified and targeted workers on medical/parental leave for mass layoffs, raising liability risks around algorithmic employment decisions.",
     "links": [
-     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
+     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
     ]
    },
    {
-    "text": "Apple sued OpenAI over alleged trade secret theft by a former engineer, marking major tech-company conflict over AI hardware strategy and competitive advantage.",
+    "text": "U.S. military deployed autonomous explosive drone boats in combat for the first time, striking an Iranian naval port—establishing weaponized AI as active battlefield reality.",
     "links": [
-     "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
-     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
+     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
     ]
    },
    {
-    "text": "Meta faces lawsuit from 26 former employees alleging biased AI systems were used to systematically target workers on disability leave for mass layoffs.",
+    "text": "Demis Hassabis calls for global AI watchdog led by the U.S. with regulatory authority over frontier models and intervention power for safety risks, signaling industry shift toward governance frameworks.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
-     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs"
+     "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
     ]
    },
    {
-    "text": "YouTube and X drive users toward nonconsensual deepfake pornography services, raising urgent questions about platform responsibility for harms enabled by AI.",
+    "text": "SpaceXAI's Grok coding tool was automatically uploading entire user codebases to Google Cloud storage without permission, exposing data governance vulnerabilities in developer-facing AI products.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
+    ]
+   },
+   {
+    "text": "YouTube and X function as referral gateways directing users to nonconsensual deepfake services available for $1 per image, highlighting platform responsibility for enabling sexual abuse tools.",
     "links": [
      "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
-    ]
-   },
-   {
-    "text": "Codex exploded to 7 million users with 1 million added in one day, potentially surpassing Claude Code and signaling major shifts in coding AI adoption patterns.",
-    "links": [
-     "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
-     "https://www.latent.space/p/aiewf26trends"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-14T11:11:32.870425+00:00",
+  "generatedAt": "2026-07-15T11:14:36.907627+00:00",
   "bullets": [
    {
-    "text": "New York becomes the first state to ban new hyperscale AI data centers for one year, signaling growing public resistance to power-hungry infrastructure expansion.",
+    "text": "Meta faces lawsuit from 26 former employees alleging biased AI tools systematically identified and targeted workers on medical/parental leave for mass layoffs, raising liability risks around algorithmic employment decisions.",
     "links": [
-     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-     "https://www.theverge.com/column/963346/ai-data-centers-fight"
+     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
     ]
    },
    {
-    "text": "Apple sued OpenAI over alleged theft of trade secrets by a former engineer, exemplifying intensifying competition between tech giants reshaping the AI industry.",
+    "text": "U.S. military deployed autonomous explosive drone boats in combat for the first time, striking an Iranian naval port—establishing weaponized AI as active battlefield reality.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
-     "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
+     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
     ]
    },
    {
-    "text": "Apple redesigned Siri as a central AI assistant for iOS 27, moving from voice utility to core interaction tool that fundamentally changes how users navigate their phones.",
+    "text": "Demis Hassabis calls for global AI watchdog led by the U.S. with regulatory authority over frontier models and intervention power for safety risks, signaling industry shift toward governance frameworks.",
     "links": [
-     "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
-     "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on"
+     "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
     ]
    },
    {
-    "text": "ELIZA, a 1960s chatbot, demonstrates how humans project empathy onto machines—explaining modern behavior like sharing secrets with ChatGPT based on decades-old design patterns.",
+    "text": "SpaceXAI's Grok coding tool was automatically uploading entire user codebases to Google Cloud storage without permission, exposing data governance vulnerabilities in developer-facing AI products.",
     "links": [
-     "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/"
+     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
     ]
    },
    {
-    "text": "Trump administration's DOGE used AI to shape housing policy but withheld records from FOIA requests, raising accountability concerns over opaque algorithmic government decisions.",
+    "text": "YouTube and X function as referral gateways directing users to nonconsensual deepfake services available for $1 per image, highlighting platform responsibility for enabling sexual abuse tools.",
     "links": [
-     "https://www.wired.com/story/doge-deployed-ai-housing-policy/"
+     "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-14T11:11:26.132012+00:00",
+  "updatedAt": "2026-07-15T11:14:30.488519+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and religious/moral perspectives on technology",
-   "Appreciates product stories that reveal broader innovation patterns (e.g., spinoff technologies from failed projects)",
-   "Prefers consumer-facing AI applications over developer tools and technical release notes",
-   "Less interested in technical updates with limited practical context or broader significance"
+   "Interested in AI ethics and governance, especially from religious or moral leadership perspectives",
+   "Prefers substantial tech stories (product developments, corporate initiatives) over incremental software updates or tooling announcements",
+   "Values practical applications and business impact of AI over low-level technical specs or changelog items"
   ]
  },
  "items": [
+  {
+   "title": "My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell",
+   "link": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-15T10:00:00+00:00",
+   "summary": "Companies’ increasing reliance on AI chatbots isn’t making the customer service experience smarter. It’s just making it more infuriating.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A customer whose ebike delivery went missing attempted to resolve the issue through company chatbots but found the AI-powered support system unable to address their problem, leaving them stuck in unproductive loops. The article documents the frustration of relying on chatbots that lack the judgment and authority to handle real customer service failures.",
+   "whyMatters": [
+    "AI customer service systems are being deployed without adequate guardrails or escalation paths, degrading service quality for real problems",
+    "Raises questions about companies prioritizing cost-cutting over customer experience and trust—relevant to broader debates about responsible AI deployment"
+   ]
+  },
+  {
+   "title": "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss",
+   "link": "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-15T09:00:00+00:00",
+   "summary": "OpenAI employees have donated more than $215,000 to a political effort opposing Leading the Future, a group backed by the company’s president, Greg Brockman.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI employees have collectively donated over $215,000 to a Super PAC opposing Leading the Future, a political organization backed by OpenAI president Greg Brockman. The donations signal internal disagreement over the company's political advocacy direction.",
+   "whyMatters": [
+    "Reveals internal tension at a major AI company over governance and political influence strategy",
+    "Demonstrates employee activism around corporate power and policy—a potential model for how AI workers are engaging with questions of organizational ethics and accountability"
+   ]
+  },
   {
    "title": "[AINews] not much happened today",
    "link": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
@@ -1142,25 +1172,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "A New Experiential Gallery Just Might Change Your Mind About AI Art",
-   "link": "https://www.wired.com/story/a-new-experiential-gallery-just-might-change-your-mind-about-ai-art/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-10T10:30:00+00:00",
-   "summary": "Billed as the “world’s first museum of AI arts,” Dataland uses wearables and troves of material from the Amazon to merge nature, biometrics, and art.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Dataland, billed as the world's first museum of AI arts, has opened an experiential gallery. It combines wearable devices, biometric data, and archival material from the Amazon to create immersive works merging nature and AI-generated art.",
-   "whyMatters": [
-    "A test case for whether AI art can be experienced as meaningful rather than slop — relevant to anyone thinking about AI-generated imagery in sacred or educational spaces.",
-    "The biometric/wearable angle previews art that responds to the viewer's body, a new kind of immersive experience.",
-    "Useful reference point in debates about AI and human creativity."
-   ]
-  },
-  {
    "title": "How Deutsche Telekom is rewiring telecommunications with AI",
    "link": "https://openai.com/index/deutsche-telekom",
    "source": "OpenAI News",
@@ -1197,27 +1208,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A quick digest of a major OpenAI launch day, useful for catching the community's read on what matters.",
     "The three-tier model family and Codex expansion reshape which tools are worth using for everyday and coding work."
-   ]
-  },
-  {
-   "title": "Robot Dogs, Teslas, and Rescue Helicopters: The UN AI Summit Was a Lot",
-   "link": "https://www.wired.com/story/robot-dogs-teslas-and-rescue-helicopters-the-un-ai-summit-was-alot/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-10T06:00:00+00:00",
-   "summary": "Amid live coding sessions and Silicon Valley optimism, the UN’s AI for Good summit wrestled with an urgent question: Can global governance catch up before the technology races beyond its control?",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Wired reports from the UN's AI for Good summit, a spectacle featuring robot dogs, Teslas, rescue helicopters, and live coding sessions. Beneath the Silicon Valley optimism, the summit grappled with whether global governance can catch up before AI outruns control.",
-   "whyMatters": [
-    "The central question — can international institutions govern AI in time — is the big ethical-policy story of the moment.",
-    "The gap between tech-demo spectacle and substantive governance is itself telling about where power sits.",
-    "Relevant framing for ethics discussions about collective responsibility for powerful technology."
    ]
   },
   {
