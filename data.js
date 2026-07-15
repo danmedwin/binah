@@ -1,40 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-15T12:19:42.365512+00:00",
+ "generatedAt": "2026-07-15T18:12:23.326873+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-15T12:19:51.906253+00:00",
+  "generatedAt": "2026-07-15T18:12:41.239753+00:00",
   "bullets": [
    {
-    "text": "Apple sued OpenAI for alleged theft of trade secrets by a former employee and conspiracy in hardware development, escalating competitive AI wars between major tech firms.",
+    "text": "Suno scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting the company's opacity about training data sources.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
-     "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
     ]
    },
    {
-    "text": "New York became the first state to impose a one-year moratorium on new AI data center construction, signaling potential regulatory backlash against the industry's infrastructure demands.",
+    "text": "New York enacted the first statewide moratorium on hyperscale AI data center permits, signaling potential regulatory backlash against AI infrastructure expansion.",
     "links": [
      "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
      "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
     ]
    },
    {
-    "text": "Meta faces lawsuit from 26 former employees alleging the company used biased AI tools to systematically target workers on medical leave for mass layoffs.",
+    "text": "Critical vulnerabilities exposed in Claude and Grok: Claude's web fetch tool exfiltrates user data; Grok automatically uploaded entire user codebases to cloud storage.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
+    ]
+   },
+   {
+    "text": "Apple sued OpenAI over alleged trade secret theft by a former engineer and conspiracy, escalating corporate AI litigation and competition.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
+    ]
+   },
+   {
+    "text": "Meta faces lawsuit alleging biased AI systems targeted workers on medical leave for mass layoffs, raising accountability questions for algorithmic employment decisions.",
     "links": [
      "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
      "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
-    ]
-   },
-   {
-    "text": "OpenAI's Codex code-generation tool surged to 7 million users with 1 million added in a single day, potentially surpassing competitors like Claude Code in adoption.",
-    "links": [
-     "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
-    ]
-   },
-   {
-    "text": "Google DeepMind's Demis Hassabis called for a global AI watchdog led by the US to regulate frontier models and intervene on safety risks, advancing governance proposals.",
-    "links": [
-     "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
     ]
    }
   ]
@@ -86,12 +88,160 @@ window.NEWS_DATA = {
  },
  "items": [
   {
-   "title": "The Apple FaceID Co-Inventor Building a Frontier AI Model for the Human Brain",
+   "title": "Thinking Machines Lab Drops Its First Model",
+   "link": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-15T18:05:00+00:00",
+   "summary": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Thinking Machines Lab released Inkling, a 975-billion-parameter open source model trained on video and audio data. The release positions the lab as a competitor to established players like Anthropic and OpenAI.",
+   "whyMatters": [
+    "Expands the open-source LLM landscape with a multimodal model",
+    "Signals another entrant entering the crowded foundation model market"
+   ]
+  },
+  {
+   "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-15T17:54:54+00:00",
+   "summary": "Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and how they were acquired, this a rare […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A hacking incident exposed that Suno, an AI music generator, scraped millions of songs and lyrics from YouTube Music, Deezer, Genius, and other platforms without disclosure. The company had previously avoided revealing details about its training data sources.",
+   "whyMatters": [
+    "Raises copyright and fair-use questions in generative AI training that regulators and courts are actively debating",
+    "Reveals the gap between corporate claims about data sourcing and actual practices"
+   ]
+  },
+  {
+   "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+   "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-15T17:09:37+00:00",
+   "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI developed GPT-Red, an LLM trained to act as a 'super-hacker' that tests other models for security vulnerabilities. GPT-5.6, trained against GPT-Red through self-play, is described as OpenAI's most robust model release yet.",
+   "whyMatters": [
+    "Demonstrates automated red-teaming as a practical method to improve AI robustness against cyberattacks",
+    "Reflects the industry shift toward continuous security testing during model development"
+   ]
+  },
+  {
+   "title": "OpenAI's first branded hardware is... a light-up keyboard?",
+   "link": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-15T16:00:33+00:00",
+   "summary": "The Codex Micro is designed to monitor multiple agentic threads at a glance.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released the Codex Micro, a light-up keyboard designed to monitor multiple agentic threads simultaneously. It is the company's first branded hardware product.",
+   "whyMatters": [
+    "Shows OpenAI expanding into hardware to support developer tools, not consumer devices",
+    "Indicates growing emphasis on agentic AI systems that require new interfaces for visibility"
+   ]
+  },
+  {
+   "title": "Podcast: We Are Living in a ‘ChatGPT Flyer Pandemic’",
+   "link": "https://www.404media.co/podcast-we-are-living-in-a-chatgpt-flyer-pandemic/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-15T15:58:34+00:00",
+   "summary": "ChatGPT flyers are everywhere; how Waymo drove some kids to the cops; and a $3,000 suit that electrocutes your muscles.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "A podcast episode discusses a \"ChatGPT flyer pandemic,\" along with unrelated stories about Waymo and consumer technology.",
+   "whyMatters": [
+    "Highlights how AI-generated content is flooding physical and digital spaces",
+    "Suggests growing public awareness and concern about AI-generated spam"
+   ]
+  },
+  {
+   "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+   "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-15T14:21:54+00:00",
+   "summary": "How I tricked Claude into leaking your deepest, darkest secrets I've been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design. To recap: regular Claude chat is at risk of lethal trifecta attacks, because it has access to private data (in the form of memories of your past interactions) and has a tool for accessing onl",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researcher Ayush Paul identified a vulnerability in Claude's web_fetch tool that can be exploited to exfiltrate private data, such as user memories and interaction history. The attack exploits a gap in the tool's defenses against data exfiltration.",
+   "whyMatters": [
+    "Reveals a practical attack vector against AI assistants with access to sensitive user data",
+    "Underscores the ongoing cat-and-mouse game between safety measures and adversarial techniques"
+   ]
+  },
+  {
+   "title": "Hack Reveals Suno AI Music Generator Scraped YouTube, Deezer, and Genius",
+   "link": "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-15T13:59:38+00:00",
+   "summary": "Hacked source code reveals how Suno scraped decades worth of music and podcasts from the internet to train its AI tool.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Hacked source code disclosed that Suno scraped decades of music and podcasts from YouTube, Deezer, and other platforms to train its AI music generator. This contradicted the company's lack of transparency about training data sources.",
+   "whyMatters": [
+    "Raises legal questions about whether Suno's scraping violates platform terms of service or copyright law",
+    "Demonstrates the tension between AI training data needs and content creator rights"
+   ]
+  },
+  {
+   "title": "OpenAI finally launches hardware… for Codex",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-15T13:30:33+00:00",
+   "summary": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-shaped block of buttons called Codex Micro, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI launched the Codex Micro, a square button-based hardware device for use with its Codex coding platform. This is separate from the rumored consumer AI device being developed with Jony Ive.",
+   "whyMatters": [
+    "Signals OpenAI's focus on developer tools and infrastructure over consumer hardware",
+    "Positions the company as building the foundation layer for AI-assisted coding workflows"
+   ]
+  },
+  {
+   "title": "An Inventor of Apple’s FaceID Wants to Analyze Your Brain’s Health With AI",
    "link": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
    "source": "Wired · AI",
    "category": "ai",
    "date": "2026-07-15T12:00:00+00:00",
-   "summary": "Gidi Littwin's new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as a blood test.",
+   "summary": "Gidi Littwin’s new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as for a blood test.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -101,6 +251,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents a significant shift of AI talent from consumer tech to medical diagnostics with potential clinical impact on mental health and neurological disease detection",
     "If successful, could democratize brain imaging and diagnosis, addressing a major gap in accessible screening for conditions traditionally requiring expensive specialist imaging"
+   ]
+  },
+  {
+   "title": "The US is advancing AI safety through state and federal action",
+   "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-15T12:00:00+00:00",
+   "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenAI outlined a \"reverse federalism\" approach to AI governance, where state-level laws help establish a national framework for safe and democratic AI. The company advocates for coordinated state and federal action.",
+   "whyMatters": [
+    "Proposes a governance model that balances local policy experimentation with national consistency",
+    "Reflects industry input into how regulation of AI safety might actually be structured"
    ]
   },
   {
@@ -119,6 +289,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI customer service systems are being deployed without adequate guardrails or escalation paths, degrading service quality for real problems",
     "Raises questions about companies prioritizing cost-cutting over customer experience and trust—relevant to broader debates about responsible AI deployment"
+   ]
+  },
+  {
+   "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+   "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-15T10:00:00+00:00",
+   "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenAI published details on GPT-Red, an automated red-teaming system that uses self-play to identify vulnerabilities in AI systems and improve robustness against prompt injection attacks. The system helps strengthen alignment and safety.",
+   "whyMatters": [
+    "Documents a scalable, automated approach to adversarial testing that other labs may adopt",
+    "Shows how self-play mechanisms can be applied to AI safety beyond game-playing domains"
    ]
   },
   {
@@ -749,24 +939,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Siri AI is already changing how I use my iPhone",
-   "link": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T20:43:20+00:00",
-   "summary": "iOS 27 escaped the developer world today with the launch of the first public beta. I've been testing the new operating system since early June, looking for quirks and seeing if it can live up to the hype Apple promised in the keynote. This year's iOS upgrades are what one might call a Snow Leopard […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge tested the new iOS 27 public beta featuring Apple's redesigned AI-driven Siri, finding it substantially changes how users interact with iPhones. The tester has been evaluating it since June and comparing it to Apple's keynote promises.",
-   "whyMatters": [
-    "iOS 27 represents significant generational shift in Apple's AI integration strategy",
-    "Hands-on review provides practical assessment of whether AI assistants can deliver on commercial promises"
-   ]
-  },
-  {
    "title": "Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
    "link": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
    "source": "Ars Technica · AI",
@@ -819,24 +991,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Questions the metaphysical and ethical assumptions we make about AI systems—relevant to how we should treat and regulate them",
     "Anthropic's research priorities suggest a company interested in AI safety and interpretability beyond commercial applications"
-   ]
-  },
-  {
-   "title": "The 6 wildest claims in Apple’s lawsuit against OpenAI",
-   "link": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-13T17:42:16+00:00",
-   "summary": "When Apple employees interviewed for jobs at OpenAI, the AI startup's hardware head allegedly asked them to show up with something unusual: components they were working on and unreleased product samples. That's according to a blockbuster lawsuit filed by Apple, which accuses OpenAI of stealing confidential documents, spying on hardware prototypes, and tricking one of […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple has filed a major lawsuit against OpenAI alleging theft of confidential documents, surveillance of hardware prototypes, and recruiting tactics involving requests for unreleased product samples.",
-   "whyMatters": [
-    "Signals escalating tension between hardware and AI companies over proprietary design and competitive advantage",
-    "Raises questions about hiring practices and intellectual property boundaries in a competitive AI industry"
    ]
   },
   {
@@ -1042,24 +1196,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reduces friction for programmatic data insertion workflows by eliminating the need for intermediate file creation",
     "Expands flexibility for developers integrating sqlite-utils into larger data pipelines"
-   ]
-  },
-  {
-   "title": "OpenAI’s Head of Safety Is Leaving the Company",
-   "link": "https://www.wired.com/story/openai-head-of-safety-leaving/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-11T01:07:26+00:00",
-   "summary": "Johannes Heidecke’s departure comes as OpenAI tries to further integrate its research and safety teams.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Johannes Heidecke, OpenAI's Head of Safety, is departing the company as OpenAI restructures by merging its research and safety teams. No stated reason for his departure is provided.",
-   "whyMatters": [
-    "Safety leadership departures at major AI labs raise questions about organizational commitment to safety oversight",
-    "Integration of safety into general research teams could shift how safety concerns are prioritized versus speed of capability development"
    ]
   },
   {
@@ -1483,6 +1619,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "ChatGPT is now a partner for your most ambitious work",
+   "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI launched ChatGPT Work, an agent that can act across a user's apps and files, stay on a project for hours, and carry a goal through to finished work rather than just answering questions. It marks a shift from chatbot to autonomous worker.",
+   "whyMatters": [
+    "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
+    "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
+   ]
+  },
+  {
    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
    "link": "https://openai.com/index/gpt-5-6",
    "source": "OpenAI News",
@@ -1516,24 +1670,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
     "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
-   ]
-  },
-  {
-   "title": "ChatGPT is now a partner for your most ambitious work",
-   "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI launched ChatGPT Work, an agent that can act across a user's apps and files, stay on a project for hours, and carry a goal through to finished work rather than just answering questions. It marks a shift from chatbot to autonomous worker.",
-   "whyMatters": [
-    "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
-    "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
    ]
   },
   {
@@ -1739,24 +1875,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "We Are Living in a ‘ChatGPT Flyer Pandemic’",
-   "link": "https://www.404media.co/we-are-living-in-a-chatgpt-flyer-pandemic/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-08T14:05:42+00:00",
-   "summary": "\"Hey if this is your flyer, I’m not going, I’m not donating, I’m not sharing. Don’t ask me.\"",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media documents a flood of obviously AI-generated flyers for local events, with community members reacting with open hostility — refusing to attend, donate, or share when they spot ChatGPT-made promotional material. AI slop has reached the neighborhood bulletin board.",
-   "whyMatters": [
-    "Direct practical warning for congregations and schools: audiences now recognize AI-generated outreach and it actively repels them.",
-    "Evidence that visible AI use signals low effort and low care — the opposite of what community institutions want their communications to say."
-   ]
-  },
-  {
    "title": "Our approach to government and national security partnerships",
    "link": "https://openai.com/index/government-national-security-partnerships",
    "source": "OpenAI News",
@@ -1929,24 +2047,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "github-code Web Component",
-   "link": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-07T16:18:16+00:00",
-   "summary": "Tool: github-code Web Component An experimental Web Component built using GPT-5.5 and the following prompt : let's build a Web Component for embedding code from GitHub <github-code href=\"https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18\"></github-code> It takes URLs like that, converts them to https://raw.githubusercontent.com/simonw/sql",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison built an experimental Web Component, github-code, using GPT-5.5 from a short prompt. Given a GitHub file URL with line numbers, the component fetches the raw code and embeds that snippet in a web page.",
-   "whyMatters": [
-    "A small, concrete example of AI turning a one-sentence idea into a working, reusable tool.",
-    "Handy pattern for anyone who writes technical tutorials or documentation and wants live code embeds."
-   ]
-  },
-  {
    "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
    "link": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
    "source": "Ars Technica · AI",
@@ -2113,24 +2213,6 @@ window.NEWS_DATA = {
     "A safety-first company caught doing covert monitoring — a credibility hit that matters because Anthropic trades on trust.",
     "Calling it an 'experiment' after being caught echoes a familiar and troubling pattern of ethics-by-apology in tech.",
     "Sharpens the question of what AI companies quietly collect about all users, not just those in China."
-   ]
-  },
-  {
-   "title": "UK regulator warns of \"arms race\" to keep up with AI use in financial services",
-   "link": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-06T14:17:42+00:00",
-   "summary": "FCA official makes case for greater powers for watchdog as millions use technology for personal finance decisions.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An official at the UK's Financial Conduct Authority warns of an \"arms race\" to keep pace with AI in financial services, and argues the watchdog needs greater powers as millions of people use AI for personal finance decisions.",
-   "whyMatters": [
-    "Millions are already taking financial advice from AI, and regulators admit they're behind — real household money is at stake.",
-    "A regulator openly asking for more power over AI is a preview of fights coming in other sectors."
    ]
   },
   {
@@ -2597,24 +2679,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Inside Genebench-Pro",
-   "link": "https://openai.com/index/genebench-pro/case-studies",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A companion piece to OpenAI's GeneBench-Pro announcement presenting case studies from the benchmark. The page carried no summary text, so details are limited.",
-   "whyMatters": [
-    "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
-    "Thin source material; read alongside the main announcement rather than on its own."
-   ]
-  },
-  {
    "title": "Introducing GeneBench-Pro",
    "link": "https://openai.com/index/introducing-genebench-pro",
    "source": "OpenAI News",
@@ -2652,6 +2716,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Inside Genebench-Pro",
+   "link": "https://openai.com/index/genebench-pro/case-studies",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A companion piece to OpenAI's GeneBench-Pro announcement presenting case studies from the benchmark. The page carried no summary text, so details are limited.",
+   "whyMatters": [
+    "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
+    "Thin source material; read alongside the main announcement rather than on its own."
+   ]
+  },
+  {
    "title": "Mythos Comes Back But Not for Everyone",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Mythos-Comes-Back-But-Not-for-Everyone-e3lef4i",
    "source": "The AI Daily Brief",
@@ -2670,25 +2752,6 @@ window.NEWS_DATA = {
     "If frontier models become permission-gated, small nonprofits, schools, and religious organizations could end up locked out of the best tools.",
     "A customer-by-customer access regime shifts power to governments and big enterprises without any transparent rules for who qualifies.",
     "This may be the moment the era of everyone getting the same model at the same time ends."
-   ]
-  },
-  {
-   "title": "AI agents are not your “coworkers”",
-   "link": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-06-29T18:00:00+00:00",
-   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex, an…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Technology Review's newsletter pushes back on companies branding AI tools as named 'coworkers' — imagine being told a new underling named Alex reports to you, except Alex is software. The piece questions the growing practice of anthropomorphizing workplace AI agents.",
-   "whyMatters": [
-    "Naming and personifying AI tools blurs the human-machine line — a live ethical question for anyone teaching about human dignity and what makes a person a person.",
-    "How workplaces frame these tools shapes whether people over-trust them or manage them realistically.",
-    "Useful counterweight to vendor marketing when advising organizations on adopting AI."
    ]
   },
   {
@@ -2991,26 +3054,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-   "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-24T06:00:00+00:00",
-   "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI and Broadcom introduced Jalapeño, a custom chip optimized for large language model inference, aimed at improving performance, efficiency, and scale. It marks OpenAI's move into purpose-built silicon for running (not training) its models.",
-   "whyMatters": [
-    "Custom inference chips are how AI gets cheaper per query — which ultimately determines what free and low-cost tiers can offer.",
-    "OpenAI designing its own silicon deepens vertical integration and loosens Nvidia's grip on the industry."
-   ]
-  },
-  {
    "title": "The Right Way to Deal With AI Data Centers",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Right-Way-to-Deal-With-AI-Data-Centers-e3l6l4o",
    "source": "The AI Daily Brief",
@@ -3026,24 +3069,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Data centers are where AI's abstract costs — power, water, land — become local politics that both parties are now fighting over.",
     "The 'negotiate for real local benefits' frame is a practical ethics of communal fairness, not just NIMBY versus boosterism."
-   ]
-  },
-  {
-   "title": "Helping build shared standards for advanced AI",
-   "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-23T13:00:00+00:00",
-   "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced support for shared standards for advanced AI — evaluation frameworks, safety practices, and global cooperation — working through something called the Appia Foundation. It positions the company as a backer of common industry norms.",
-   "whyMatters": [
-    "Shared safety standards are genuinely needed, but industry writing its own rulebook is a familiar pattern worth watching critically.",
-    "Evaluation frameworks will define what 'safe enough' means for the tools schools and communities eventually adopt."
    ]
   },
   {
