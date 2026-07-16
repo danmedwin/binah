@@ -1,91 +1,128 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-16T07:25:32.715483+00:00",
+ "generatedAt": "2026-07-16T11:20:55.055263+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-16T07:25:43.762857+00:00",
+  "generatedAt": "2026-07-16T11:21:11.215393+00:00",
   "bullets": [
    {
-    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting prior claims about training data transparency.",
+    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting prior opacity about training data sources and raising fresh copyright liability concerns.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
      "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
     ]
    },
    {
-    "text": "xAI's Grok Build tool automatically uploaded users' entire codebases to cloud storage without consent, exposing SSH keys and passwords; SpaceX later disabled the feature.",
+    "text": "Claude's web_fetch tool can be exploited to exfiltrate private user data like interaction memories, exposing a vulnerability in AI assistant security when tasked with external data retrieval.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
-     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
     ]
    },
    {
-    "text": "Apple sued OpenAI for allegedly conspiring with a former engineer to steal proprietary trade secrets via a software exploit.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
-     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
-    ]
-   },
-   {
-    "text": "Meta faces lawsuit from 26 former employees alleging biased AI systems targeted workers on leave for mass layoffs, raising accountability questions around automated HR decisions.",
-    "links": [
-     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
-    ]
-   },
-   {
-    "text": "New York imposed first-state data center moratorium, signaling potential broader regulatory pushback against AI infrastructure expansion.",
+    "text": "New York imposed the first state data center construction moratorium, signaling potential broader regulatory backlash against AI infrastructure expansion and alarming the industry.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
+    ]
+   },
+   {
+    "text": "OpenAI developed GPT-Red, an LLM trained to identify security vulnerabilities through adversarial testing; GPT-5.6 trained against it shows improved robustness against prompt injection attacks.",
+    "links": [
+     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+     "https://openai.com/index/unlocking-self-improvement-gpt-red"
+    ]
+   },
+   {
+    "text": "Thinking Machines Lab released Inkling, a 975-billion-parameter open-source multimodal model trained on video and audio, positioning itself as a competitor to Anthropic and OpenAI in frontier AI development.",
+    "links": [
+     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+     "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-15T11:14:36.907627+00:00",
+  "generatedAt": "2026-07-16T11:21:11.215393+00:00",
   "bullets": [
    {
-    "text": "Meta faces lawsuit from 26 former employees alleging biased AI tools systematically identified and targeted workers on medical/parental leave for mass layoffs, raising liability risks around algorithmic employment decisions.",
+    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting prior opacity about training data sources and raising fresh copyright liability concerns.",
     "links": [
-     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
     ]
    },
    {
-    "text": "U.S. military deployed autonomous explosive drone boats in combat for the first time, striking an Iranian naval port—establishing weaponized AI as active battlefield reality.",
+    "text": "Claude's web_fetch tool can be exploited to exfiltrate private user data like interaction memories, exposing a vulnerability in AI assistant security when tasked with external data retrieval.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
     ]
    },
    {
-    "text": "Demis Hassabis calls for global AI watchdog led by the U.S. with regulatory authority over frontier models and intervention power for safety risks, signaling industry shift toward governance frameworks.",
+    "text": "New York imposed the first state data center construction moratorium, signaling potential broader regulatory backlash against AI infrastructure expansion and alarming the industry.",
     "links": [
-     "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog"
+     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
     ]
    },
    {
-    "text": "SpaceXAI's Grok coding tool was automatically uploading entire user codebases to Google Cloud storage without permission, exposing data governance vulnerabilities in developer-facing AI products.",
+    "text": "OpenAI developed GPT-Red, an LLM trained to identify security vulnerabilities through adversarial testing; GPT-5.6 trained against it shows improved robustness against prompt injection attacks.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
+     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+     "https://openai.com/index/unlocking-self-improvement-gpt-red"
     ]
    },
    {
-    "text": "YouTube and X function as referral gateways directing users to nonconsensual deepfake services available for $1 per image, highlighting platform responsibility for enabling sexual abuse tools.",
+    "text": "Thinking Machines Lab released Inkling, a 975-billion-parameter open-source multimodal model trained on video and audio, positioning itself as a competitor to Anthropic and OpenAI in frontier AI development.",
     "links": [
-     "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
+     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+     "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-15T11:14:30.488519+00:00",
+  "updatedAt": "2026-07-16T11:21:04.858955+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and governance, especially from religious or moral leadership perspectives",
-   "Prefers substantial tech stories (product developments, corporate initiatives) over incremental software updates or tooling announcements",
-   "Values practical applications and business impact of AI over low-level technical specs or changelog items"
+   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
+   "Drawn to stories about major tech companies' AI initiatives and their business impacts",
+   "Prefers substantive reporting over technical release notes and developer tool updates"
   ]
  },
  "items": [
+  {
+   "title": "Please Stop Making Me Opt Out of AI",
+   "link": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-16T10:00:00+00:00",
+   "summary": "I’m sick of “opt-out” toggles for automatically enabled generative AI features. It’s past time to make “opt in” the default setting for sensitive features.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Wired columnist argues that generative AI features should require explicit opt-in rather than being enabled by default with opt-out options. The piece critiques the current practice where users must actively disable features they never requested.",
+   "whyMatters": [
+    "Sets default terms that shape user behavior and consent—opt-out architectures rely on user inaction, making them ethically weaker than opt-in defaults",
+    "Affects how ordinary people interact with AI tools in everyday software; relevant to broader conversations about informed consent and user autonomy in tech"
+   ]
+  },
+  {
+   "title": "Our approach to bioresilience",
+   "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-07-16T09:30:42+00:00",
+   "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind and Isomorphic Labs are announcing a joint approach to using AI models for bioresilience—the capacity of biological systems to withstand threats. The announcement signals coordination between the two labs on this research direction.",
+   "whyMatters": [
+    "Represents AI applied to pandemic preparedness and biosecurity; directly impacts public health policy and disease response infrastructure",
+    "DeepMind's involvement signals that major AI labs are investing computational resources in biological risk mitigation rather than only commercial applications"
+   ]
+  },
   {
    "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
    "link": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
@@ -218,6 +255,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a shift in entertainment production economics as AI-generated content displaces traditional low-budget filmmaking",
     "Raises questions about cultural production, artistic labor, and the downstream effects on creative industries and education in media studies"
+   ]
+  },
+  {
+   "title": "COMPUTER COPS: Inside the big business of selling AI to the police",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-15T19:15:56+00:00",
+   "summary": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digital age.\" As press, I was prohibited from entering, but from a number of nearby locations, I met with attendees who told me […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Verge reports on the growing industry of AI companies selling tools to police departments, using a Texas law enforcement conference as a case study. The press was restricted from attending but the reporter spoke with attendees about AI adoption in policing.",
+   "whyMatters": [
+    "Documents actual deployment of AI in criminal justice systems with limited public transparency (press exclusion); raises accountability questions about surveillance and bias in high-stakes decisions",
+    "Shows the business momentum behind police AI tools, which affects marginalized communities directly and raises concerns about algorithmic bias in law enforcement"
    ]
   },
   {
@@ -815,24 +870,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Sam Altman didn’t need another lawsuit",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T14:03:06+00:00",
-   "summary": "OpenAI has spent the better part of the year involved in lawsuit after lawsuit, including one from the world's richest man. But last Friday, the company was hit with one of the highest-profile legal actions yet - from Apple. OpenAI's expensive hardware bet is what's on the line. Apple's lawsuit against OpenAI, filed in Northern […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple has filed a major lawsuit against OpenAI, marking one of the highest-profile legal actions against the company this year. The lawsuit centers on OpenAI's hardware investment strategy and alleged misappropriation of Apple's trade secrets.",
-   "whyMatters": [
-    "Adds to mounting legal pressure on OpenAI alongside lawsuits from Elon Musk and others, creating financial and operational headwinds",
-    "Focuses on hardware strategy, suggesting competition and disputes over proprietary technology in the AI development pipeline"
-   ]
-  },
-  {
    "title": "AI Made Cloning Games Easier Than Ever",
    "link": "https://www.404media.co/ai-made-cloning-games-easier-than-ever/",
    "source": "404 Media",
@@ -1048,24 +1085,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides concrete evidence of how advanced AI models are accelerating developer productivity",
     "Suggests AI coding agents are materially changing the pace of open-source development"
-   ]
-  },
-  {
-   "title": "Siri AI Is Becoming Apple’s Everything Tool",
-   "link": "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-13T21:39:09+00:00",
-   "summary": "Apple’s revamped Siri is more than a voice assistant; it’s now the backbone of the iPhone user experience. You can try it now through the iOS 27 public beta.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple has redesigned Siri as a central AI assistant powering the iPhone experience, moving beyond voice-command utility to become the core of user interaction. The updated Siri is available in the iOS 27 public beta.",
-   "whyMatters": [
-    "Represents major platform shift: AI moving from peripheral tool to central OS architecture",
-    "Consumer AI now deeply integrated into everyday device ecosystems used by billions"
    ]
   },
   {
