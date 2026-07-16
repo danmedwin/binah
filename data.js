@@ -1,39 +1,43 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-16T12:23:30.783929+00:00",
+ "generatedAt": "2026-07-16T18:09:30.741615+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-16T12:23:40.787073+00:00",
+  "generatedAt": "2026-07-16T18:09:54.289006+00:00",
   "bullets": [
    {
-    "text": "EU orders Google to open Android and Search to rival AI assistants, requiring major platforms to grant competitors access under digital antitrust rules.",
+    "text": "EU orders Google to open Android and Search to competing AI assistants, escalating antitrust enforcement while New York bans new data centers—major regulatory headwinds for the AI industry.",
     "links": [
-     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
-    ]
-   },
-   {
-    "text": "New York imposes first-in-nation data center moratorium, signaling potential broader regulatory backlash against AI infrastructure expansion.",
-    "links": [
+     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
      "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
     ]
    },
    {
-    "text": "Suno scraped millions of songs from YouTube, Deezer, and Genius without disclosure; xAI's Grok tool automatically uploaded user codebases to cloud storage—both flagrant data practices exposed.",
+    "text": "OpenAI disclosed GPT-Red, a red-teaming system that auto-identifies vulnerabilities, after researchers found GPT-5.6 deletes files and Claude's web tool leaks private data—core safety tensions persist despite safeguards.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
+     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+     "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
     ]
    },
    {
-    "text": "Meta faces lawsuit alleging AI systems made biased layoff decisions targeting workers with disabilities; Apple sues OpenAI over alleged trade secret theft by ex-engineer.",
+    "text": "Suno scraped millions of songs from YouTube, Deezer, and Genius without disclosure; xAI's open-source Grok uploaded user directories to cloud without consent—training data opacity and consent remain unresolved.",
     "links": [
-     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
     ]
    },
    {
-    "text": "Claude's web_fetch tool contains vulnerability allowing data exfiltration; YouTube and X function as gateways to nonconsensual deepfake services.",
+    "text": "Thinking Machines Lab released 975-billion-parameter Inkling, an open-weights multimodal model competing with Anthropic and OpenAI; Codex surged to 7 million users in six months.",
     "links": [
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-     "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
+     "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+     "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
+    ]
+   },
+   {
+    "text": "OpenAI announced safety protections and parental controls for teen ChatGPT users; xAI sued a man for using Grok to generate child sexual abuse material—companies grapple with protecting minors from AI harms.",
+    "links": [
+     "https://openai.com/index/why-teens-deserve-access-safe-ai",
+     "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
     ]
    }
   ]
@@ -87,11 +91,201 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "New York governor says she’s using AI to analyze ‘every single rule’ in the state",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-16T17:58:37+00:00",
+   "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "New York Governor Kathy Hochul announced her administration is using AI to analyze every rule, regulation, and policy in the state to identify outdated provisions. This comes despite Hochul having signed a moratorium on new AI data centers in the state.",
+   "whyMatters": [
+    "Demonstrates internal government adoption of AI for policy review, independent of regulatory restrictions on AI infrastructure",
+    "Raises questions about governance consistency when officials restrict AI expansion while relying on AI tools themselves"
+   ]
+  },
+  {
+   "title": "Quoting Thibault Sottiaux",
+   "link": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-16T17:45:59+00:00",
+   "summary": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. What we have found is that this most commonly occurs when: Full access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled The model attempts to override the $HOME env var to define a temporary directory. The model makes an honest mistake and",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "GPT-5.6 has been found to unexpectedly delete files in certain conditions—specifically when full access mode is enabled, sandboxing protections are disabled, and the model attempts to override environment variables.",
+   "whyMatters": [
+    "Illustrates serious safety risks when large language models have unfettered system access",
+    "Relevant to educators and institutions considering deploying AI tools with elevated permissions in sensitive environments"
+   ]
+  },
+  {
+   "title": "Google is renaming NotebookLM to Gemini Notebook",
+   "link": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-16T16:11:20+00:00",
+   "summary": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google is renaming its AI note-taking app NotebookLM to Gemini Notebook while keeping it as a standalone application, even as it deepens integration with the broader Gemini ecosystem and Google Search.",
+   "whyMatters": [
+    "Part of Google's consolidation strategy around the Gemini brand across multiple AI products",
+    "Affects educators and students using this tool for learning and note-taking workflows"
+   ]
+  },
+  {
+   "title": "Computer cops",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-16T16:06:48+00:00",
+   "summary": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digital age.\" As press, I was prohibited from entering, but from a number of nearby locations, I met with attendees who told me […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Verge reports on the growing industry of AI companies selling tools to police departments, using a Texas law enforcement conference as a case study. The press was restricted from attending but the reporter spoke with attendees about AI adoption in policing.",
+   "whyMatters": [
+    "Documents actual deployment of AI in criminal justice systems with limited public transparency (press exclusion); raises accountability questions about surveillance and bias in high-stakes decisions",
+    "Shows the business momentum behind police AI tools, which affects marginalized communities directly and raises concerns about algorithmic bias in law enforcement"
+   ]
+  },
+  {
+   "title": "Why teens deserve access to safe AI",
+   "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-16T16:00:00+00:00",
+   "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced age-appropriate protections for ChatGPT including safety features, learning tools, and parental controls designed specifically for teenage users.",
+   "whyMatters": [
+    "Directly addresses education use cases and student safety in AI adoption",
+    "Signals a major AI company's commitment to making tools suitable for younger users in school and learning contexts"
+   ]
+  },
+  {
+   "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+   "link": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-16T15:48:21+00:00",
+   "summary": "Companies coming to market are raising money at fastest pace this century.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Energy companies are going public at the fastest pace this century as investors seek exposure to the AI boom, driven by demand for power infrastructure to support AI data centers.",
+   "whyMatters": [
+    "Reflects structural impact of AI expansion on energy markets and infrastructure investment",
+    "Creates long-term dependencies between AI development and energy supply chains"
+   ]
+  },
+  {
+   "title": "Inkling: Our open-weights model",
+   "link": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-16T15:35:25+00:00",
+   "summary": "Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video. They're also promising Inkling-Small, a 276B (12B active) model, but that's still being tested ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/inkling-pelican.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Mira Murati's Thinking Machines Lab released Inkling, an open-weights multimodal transformer model with 975 billion total parameters trained on 45 trillion tokens of text, images, audio, and video. A smaller variant is in testing.",
+   "whyMatters": [
+    "Open-weights model release gives researchers and organizations direct access to frontier-scale AI architecture",
+    "Potentially significant for academic institutions and non-commercial applications building on large multimodal models"
+   ]
+  },
+  {
+   "title": "Claude can now use your 1Password credentials for you",
+   "link": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-16T14:08:12+00:00",
+   "summary": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing online accounts on their behalf without having to manually input their login […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "1Password integrated Claude with the ability to access stored credentials, allowing the AI to complete multi-step tasks like booking travel and managing accounts on behalf of users without manual login input.",
+   "whyMatters": [
+    "Substantially increases the scope of actions AI agents can take on users' behalf, creating new security and trust considerations",
+    "Raises practical questions about delegation of sensitive tasks to AI systems in everyday workflows"
+   ]
+  },
+  {
+   "title": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
+   "link": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-16T13:30:44+00:00",
+   "summary": "Lila is betting that science, not the internet, is the last untapped source of training data. We went to find out what that actually looks like in a room full of robots.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/207109360/88d62fa51249974837587c8b14999c5d.mp3",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Lila Sciences is using scientific research as a training data source for AI models, positioning laboratories and robotics-driven experiments as the foundation for future model development rather than internet data.",
+   "whyMatters": [
+    "Represents a shift in how frontier AI models are trained—moving from internet-scale text to structured experimental data",
+    "Could impact how scientific institutions approach data governance and collaboration with AI companies"
+   ]
+  },
+  {
+   "title": "Quoting Linus Torvalds",
+   "link": "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-16T13:26:10+00:00",
+   "summary": "I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just walk away. AI is a tool, just like other tools we use. And it's clearly a useful one. It may not have been that \"clearl",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Linus Torvalds stated that Linux will not adopt an anti-AI stance and that he considers AI a useful tool; he indicated those who disagree can fork the project or leave.",
+   "whyMatters": [
+    "Signals adoption of AI in core open-source infrastructure development despite vocal skepticism in some communities",
+    "Establishes direction for one of the world's most widely used software projects regarding AI tooling integration"
+   ]
+  },
+  {
    "title": "Google ordered to open Android and Search to rivals in Europe",
    "link": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-07-16T12:15:36+00:00",
+   "date": "2026-07-16T12:42:27+00:00",
    "summary": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bloc's digital antitrust rules. The two decisions, handed down Thursday, could weaken Google's control over two of the tech industry's most important platforms and have […]",
    "religionScore": 0,
    "religionHits": [],
@@ -177,6 +371,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical utility of open-source tooling for developers working with AI coding assistants",
     "Shows how modular components from larger AI systems can be repurposed and adapted for different use cases"
+   ]
+  },
+  {
+   "title": "How Cars24 scales conversations and builds faster with OpenAI",
+   "link": "https://openai.com/index/cars24",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-16T00:00:00+00:00",
+   "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Cars24, an automotive platform, deployed OpenAI-powered voice and chat agents handling over 1 million monthly conversation minutes, recovering 12% of previously lost leads.",
+   "whyMatters": [
+    "Demonstrates commercial ROI of conversational AI agents for customer engagement and sales recovery",
+    "Shows practical application of agentic workflows across business operations"
    ]
   },
   {
@@ -273,24 +485,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a shift in entertainment production economics as AI-generated content displaces traditional low-budget filmmaking",
     "Raises questions about cultural production, artistic labor, and the downstream effects on creative industries and education in media studies"
-   ]
-  },
-  {
-   "title": "COMPUTER COPS: Inside the big business of selling AI to the police",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-15T19:15:56+00:00",
-   "summary": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digital age.\" As press, I was prohibited from entering, but from a number of nearby locations, I met with attendees who told me […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge reports on the growing industry of AI companies selling tools to police departments, using a Texas law enforcement conference as a case study. The press was restricted from attending but the reporter spoke with attendees about AI adoption in policing.",
-   "whyMatters": [
-    "Documents actual deployment of AI in criminal justice systems with limited public transparency (press exclusion); raises accountability questions about surveillance and bias in high-stakes decisions",
-    "Shows the business momentum behind police AI tools, which affects marginalized communities directly and raises concerns about algorithmic bias in law enforcement"
    ]
   },
   {
@@ -720,24 +914,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T19:25:00+00:00",
-   "summary": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositories, \"including files it was told not to open […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "SpaceXAI's Grok Build coding tool was discovered automatically uploading entire user codebases to Google Cloud storage, including files users instructed it not to access. The company disabled the feature after the issue was reported.",
-   "whyMatters": [
-    "Exposes data-handling risks in AI coding assistants—critical concern for software developers and security practitioners",
-    "Illustrates governance gap: AI tools with broad system access can violate user intent without transparency, even before disclosure"
-   ]
-  },
-  {
    "title": "Quoting Armin Ronacher",
    "link": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
    "source": "Simon Willison",
@@ -773,26 +949,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks the first documented combat use of fully autonomous weaponized systems at scale, raising urgent questions about AI deployment in warfare and accountability",
     "Has implications for international norms around autonomous weapons and AI ethics in military contexts"
-   ]
-  },
-  {
-   "title": "Meta accused of using biased AI targeting for mass layoffs",
-   "link": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T17:18:11+00:00",
-   "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as reported earlier by Reuters. In the lawsuit, the employees allege Meta determined which workers to dismiss based on performance data collected by a \"constellation\" of internal AI tools, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Twenty-six former Meta employees are suing the company, alleging it used biased AI tools to systematically identify and target workers on leave for mass layoffs. The lawsuit claims Meta's internal AI constellation determined dismissals based on performance data collected unfairly.",
-   "whyMatters": [
-    "Demonstrates potential for AI systems to amplify discrimination in employment decisions, particularly affecting protected workers",
-    "Raises questions about transparency and fairness in using AI for workforce decisions—relevant to all organizations deploying HR AI tools"
    ]
   },
   {
@@ -995,24 +1151,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Practical improvement for developers using modern Python tooling in automated workflows",
     "Reduces build time and infrastructure costs for teams adopting uvx-based development practices"
-   ]
-  },
-  {
-   "title": "The Google Images homepage will recommend photos even before you search",
-   "link": "https://www.theverge.com/tech/965138/google-images-homepage-ai-overviews-search-nano-banana",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T00:04:45+00:00",
-   "summary": "Google is announcing a big change to the Google Images homepage in honor of the platform's 25th anniversary this week. Instead of a mostly blank page with a search bar, the homepage will soon show you a bunch of images that it thinks you might like before you even start searching. The company says the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google is redesigning the Google Images homepage to display personalized photo recommendations before users begin searching, replacing the traditional mostly-blank search page with AI-curated image galleries. The change marks the platform's 25th anniversary refresh.",
-   "whyMatters": [
-    "Extends AI-driven algorithmic curation into a previously passive interface, making recommendations the default rather than search-driven discovery",
-    "Amplifies personalization at Google Images, potentially narrowing the diversity of images users encounter or increasing filter bubble effects"
    ]
   },
   {
@@ -1714,24 +1852,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "LinkedIn and X Are Flooded With AI Spam, Browsing Data Suggests",
-   "link": "https://www.404media.co/linkedin-and-x-are-flooded-with-ai-spam-browsing-data-suggests/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-09T13:22:11+00:00",
-   "summary": "An AI detection company found that amount of AI content that users actually see in their day-to-day browsing is shockingly high.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An AI detection company analyzed real browsing data and found that the share of AI-generated content users actually encounter on LinkedIn and X is strikingly high. The finding suggests AI spam is no longer a fringe problem but a large fraction of what people see day to day.",
-   "whyMatters": [
-    "Social feeds are becoming less reliable as a window into what real people think — relevant to anyone using these platforms for community outreach.",
-    "It sharpens the media-literacy challenge for educators: students increasingly cannot assume a human wrote what they are reading."
-   ]
-  },
-  {
    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
    "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
    "source": "OpenAI News",
@@ -1747,6 +1867,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Frontier-model upgrades now reach hundreds of millions of office workers automatically, without anyone choosing to adopt them.",
     "Anyone producing documents and slides in Microsoft 365 — including congregational and educational staff — just got a quietly more capable assistant."
+   ]
+  },
+  {
+   "title": "GPT-5.5 Bio Bug Bounty",
+   "link": "https://openai.com/index/bio-bug-bounty",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "Details about the OpenAI Bio Bounty program",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
+   "whyMatters": [
+    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
+    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
    ]
   },
   {
@@ -1783,24 +1921,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The per-dollar framing matters: OpenAI is competing on efficiency, not just raw capability, as AI costs become a real business concern.",
     "Each frontier release resets what students, congregants, and colleagues can do with a chatbot — worth a hands-on look to recalibrate."
-   ]
-  },
-  {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "Details about the OpenAI Bio Bounty program",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
-   "whyMatters": [
-    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
-    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
    ]
   },
   {
@@ -1842,44 +1962,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Rewriting Bun in Rust",
-   "link": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-08T23:57:21+00:00",
-   "summary": "Rewriting Bun in Rust Jarred Sumner has been promising this blog post ( since May 9th ) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other int",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jarred Sumner published a detailed account of rewriting Bun, his JavaScript runtime, from Zig to Rust — a rewrite carried out largely by AI agents using dynamic workflows, trial runs, and adversarial review. Simon Willison calls it an extremely sophisticated piece of agentic engineering.",
-   "whyMatters": [
-    "A full rewrite of a major piece of software via AI agents is a landmark data point on what agentic coding can already do.",
-    "The techniques described — trial runs, adversarial review between agents — preview how serious AI-assisted work gets quality-controlled."
-   ]
-  },
-  {
-   "title": "Introducing GPT‑Live",
-   "link": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-08T23:20:48+00:00",
-   "summary": "Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5: For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the resul",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI upgraded ChatGPT's voice mode with a new model called GPT-Live, which Simon Willison found very impressive after weeks of preview access. Notably, the voice model can delegate harder tasks — web search, deeper reasoning — to GPT-5.5 behind the scenes and bring the results back into the conversation.",
-   "whyMatters": [
-    "Voice that can quietly hand off to a frontier model makes spoken AI genuinely capable, not just conversational — a big deal for accessibility and hands-free use.",
-    "Natural voice AI lowers the barrier for less technical people, including older congregants, to use these tools at all."
-   ]
-  },
-  {
    "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
    "link": "https://www.latent.space/p/modal2026",
    "source": "Latent Space",
@@ -1916,24 +1998,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Kenton Varda",
-   "link": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-08T20:03:34+00:00",
-   "summary": "I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omitting the higher-level framing needed to understand broadly what the code is doing. ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Kenton Varda announced he has banned AI-written PR and commit descriptions on his team, saying the AI text was worse than useless: it restated details visible in the code while omitting the high-level framing a reviewer actually needs. Simon Willison quotes the moratorium approvingly.",
-   "whyMatters": [
-    "A crisp example of AI producing plausible text that fails at the actual purpose — explaining intent — which generalizes well beyond code to any AI-drafted writing.",
-    "A useful teaching illustration: the human contribution that matters is the 'why,' and that is exactly what AI tends to leave out."
-   ]
-  },
-  {
    "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
    "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
    "source": "Ars Technica · AI",
@@ -1967,24 +2031,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Cheap Chinese open models have been quietly subsidizing much of the AI economy; geopolitics could end that overnight.",
     "Rising AI costs would hit small organizations and nonprofits — the kind running on free and cheap tiers — first and hardest."
-   ]
-  },
-  {
-   "title": "Meta Patents AI Device That Tracks Your Emotions, Watches You Take Your Meds",
-   "link": "https://www.404media.co/meta-patents-ai-device-that-tracks-your-emotions-watches-you-take-your-meds/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-08T17:26:42+00:00",
-   "summary": "Imagine a wearable device that records every moment of your day and makes suggestions based on your mood.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta has patented a wearable AI device that would record the wearer's day continuously, track their emotional state, watch behaviors like taking medication, and make suggestions based on mood. It is a patent, not a product, but it shows the direction of Meta's ambient-AI ambitions.",
-   "whyMatters": [
-    "Continuous emotion tracking by an ad company is a privacy and human-dignity question of the first order, whatever the health-monitoring framing.",
-    "Patents signal intent: always-on wearable surveillance is where the big platforms are pointed, and the ethical debate should start before the products ship."
    ]
   },
   {
@@ -2097,6 +2143,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals that the frontier of AI progress is shifting from raw models to the harnesses and scaffolding built around them.",
     "A rare curated map of the research on self-improving AI systems, a topic with big long-term safety implications."
+   ]
+  },
+  {
+   "title": "Introducing GPT-Live",
+   "link": "https://openai.com/index/introducing-gpt-live",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-08T00:00:00+00:00",
+   "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI introduced GPT-Live, a new generation of voice models enabling natural human-AI voice interaction, now powering ChatGPT Voice.",
+   "whyMatters": [
+    "Advances conversational AI quality and accessibility through improved speech synthesis and understanding",
+    "Could affect adoption of AI tools in education and accessible communication scenarios"
    ]
   },
   {
@@ -2218,24 +2284,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "MUFG aims to become AI-native with OpenAI",
-   "link": "https://openai.com/index/mufg",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-07T00:00:00+00:00",
-   "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI case study: MUFG, the Japanese banking giant, is using ChatGPT Enterprise across the organization with the stated goal of becoming \"AI-native,\" improving internal workflows and building new AI-powered financial services.",
-   "whyMatters": [
-    "One of the world's largest banks committing to an AI-native strategy signals how deep enterprise adoption is going.",
-    "It's OpenAI's own marketing, so the claims of impact should be read with that in mind."
-   ]
-  },
-  {
    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
    "link": "https://openai.com/index/australian-payments-plus",
    "source": "OpenAI News",
@@ -2251,6 +2299,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI is being woven into national payments infrastructure — high-stakes plumbing, not just office productivity.",
     "The 'human judgment stays central' framing is becoming the standard reassurance in enterprise AI stories; worth watching whether practice matches it."
+   ]
+  },
+  {
+   "title": "MUFG aims to become AI-native with OpenAI",
+   "link": "https://openai.com/index/mufg",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-07T00:00:00+00:00",
+   "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI case study: MUFG, the Japanese banking giant, is using ChatGPT Enterprise across the organization with the stated goal of becoming \"AI-native,\" improving internal workflows and building new AI-powered financial services.",
+   "whyMatters": [
+    "One of the world's largest banks committing to an AI-native strategy signals how deep enterprise adoption is going.",
+    "It's OpenAI's own marketing, so the claims of impact should be read with that in mind."
    ]
   },
   {
@@ -2287,27 +2353,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Puts a concrete, modest number on the grand promise of shared AI wealth — inviting scrutiny of whether the rhetoric matches the math.",
     "The question of who benefits from AI's gains is a core economic-justice issue, and this is a rare specific proposal to evaluate."
-   ]
-  },
-  {
-   "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
-   "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-06T16:44:18+00:00",
-   "summary": "Anthropic accused of spying on users; engineer says “experiment” is over.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Anthropic was revealed to have run a tracker in Claude that secretly monitored Chinese users, drawing accusations of spying that clash with the company's public anti-surveillance stance. An Anthropic engineer says the \"experiment\" has ended.",
-   "whyMatters": [
-    "A safety-first company caught doing covert monitoring — a credibility hit that matters because Anthropic trades on trust.",
-    "Calling it an 'experiment' after being caught echoes a familiar and troubling pattern of ethics-by-apology in tech.",
-    "Sharpens the question of what AI companies quietly collect about all users, not just those in China."
    ]
   },
   {
@@ -2645,24 +2690,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Warp CEO Zach Lloyd on why software factories are the next phase of coding",
-   "link": "https://www.latent.space/p/software-factories",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-01T14:28:23+00:00",
-   "summary": "Warp's founder thinks every major software project will soon run on an automated factory. He discusses why and how engineers should prepare for this shift.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!kQB7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4140e59-9bc8-4685-8af0-0cf86b6f998f_1280x720.jpeg",
-   "themes": [],
-   "aiSummary": "Warp CEO Zach Lloyd argues that every major software project will soon run on an automated 'software factory,' with AI agents doing most of the building. He discusses why he believes this shift is coming and how engineers should prepare for it.",
-   "whyMatters": [
-    "A CEO staking his company on full automation of coding — a strong version of the claim worth weighing against the skeptics at the same conference.",
-    "The 'how engineers should prepare' framing previews the retraining question every profession will face."
-   ]
-  },
-  {
    "title": "Claude Science is Anthropic’s newest flagship product",
    "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
    "source": "MIT Tech Review · AI",
@@ -2756,25 +2783,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing GeneBench-Pro",
-   "link": "https://openai.com/index/introducing-genebench-pro",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI introduced GeneBench-Pro, a new benchmark that tests AI performance on genomics, biology, and scientific research tasks using complex, real-world datasets.",
-   "whyMatters": [
-    "New benchmarks in biology signal where labs expect the next capability race — AI as a working scientist, not just a chatbot.",
-    "Real-world datasets make this a more honest test than the toy benchmarks models have already saturated.",
-    "Pairs directly with Anthropic's Claude Science launch — the AI-for-science push is industry-wide this week."
-   ]
-  },
-  {
    "title": "Inside Genebench-Pro",
    "link": "https://openai.com/index/genebench-pro/case-studies",
    "source": "OpenAI News",
@@ -2808,6 +2816,25 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
     "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
+   ]
+  },
+  {
+   "title": "Introducing GeneBench-Pro",
+   "link": "https://openai.com/index/introducing-genebench-pro",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI introduced GeneBench-Pro, a new benchmark that tests AI performance on genomics, biology, and scientific research tasks using complex, real-world datasets.",
+   "whyMatters": [
+    "New benchmarks in biology signal where labs expect the next capability race — AI as a working scientist, not just a chatbot.",
+    "Real-world datasets make this a more honest test than the toy benchmarks models have already saturated.",
+    "Pairs directly with Anthropic's Claude Science launch — the AI-for-science push is industry-wide this week."
    ]
   },
   {
@@ -2969,25 +2996,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Previewing GPT-5.6 Sol: a next-generation model",
-   "link": "https://openai.com/index/previewing-gpt-5-6-sol",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-26T10:00:00+00:00",
-   "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI previewed GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with what the company calls its most advanced safety stack. Per other reporting this week, the rollout is running through a government-limited access program rather than a general release.",
-   "whyMatters": [
-    "Cybersecurity capability is now a headline feature, which is exactly why access is being restricted — capability and risk are converging.",
-    "The 'preview under limited access' pattern may be the new normal for frontier releases.",
-    "Worth watching when (and whether) it reaches ordinary users and educators."
-   ]
-  },
-  {
    "title": "Pope Leo XIV Is the Moral Leader We Need on AI",
    "link": "https://aiandfaith.org/insights/pope-leo-xiv-moral-leader/",
    "source": "AI and Faith",
@@ -3068,25 +3076,6 @@ window.NEWS_DATA = {
     "Insurance entering AI is a big signal: when underwriters price agent risk, trust stops being a vibe and becomes a market.",
     "Certification and audit regimes could eventually tell nonprofits which AI tools are safe enough to deploy — like a kashrut supervision model for software.",
     "Agent security is the practical bottleneck for anyone considering giving AI real authority over tasks."
-   ]
-  },
-  {
-   "title": "How agents are transforming work",
-   "link": "https://openai.com/index/how-agents-are-transforming-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-25T02:00:00+00:00",
-   "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a research paper on how AI agents are changing work, finding they enable longer and more complex tasks and expand productivity across a range of roles. It's the company's own research on the workplace impact of its agent products.",
-   "whyMatters": [
-    "Agents handling longer, multi-step tasks is the shift from AI-as-answer-machine to AI-as-delegate — a different relationship to the tool.",
-    "Company-authored research on the company's own products warrants a skeptical read, especially alongside independent 'botsitting' findings.",
-    "Role-by-role productivity claims will drive how employers restructure jobs."
    ]
   },
   {
