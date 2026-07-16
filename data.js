@@ -1,40 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-16T11:20:55.055263+00:00",
+ "generatedAt": "2026-07-16T12:23:30.783929+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-16T11:21:11.215393+00:00",
+  "generatedAt": "2026-07-16T12:23:40.787073+00:00",
   "bullets": [
    {
-    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting prior opacity about training data sources and raising fresh copyright liability concerns.",
+    "text": "EU orders Google to open Android and Search to rival AI assistants, requiring major platforms to grant competitors access under digital antitrust rules.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
+     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "Claude's web_fetch tool can be exploited to exfiltrate private user data like interaction memories, exposing a vulnerability in AI assistant security when tasked with external data retrieval.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
-    ]
-   },
-   {
-    "text": "New York imposed the first state data center construction moratorium, signaling potential broader regulatory backlash against AI infrastructure expansion and alarming the industry.",
+    "text": "New York imposes first-in-nation data center moratorium, signaling potential broader regulatory backlash against AI infrastructure expansion.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
     ]
    },
    {
-    "text": "OpenAI developed GPT-Red, an LLM trained to identify security vulnerabilities through adversarial testing; GPT-5.6 trained against it shows improved robustness against prompt injection attacks.",
+    "text": "Suno scraped millions of songs from YouTube, Deezer, and Genius without disclosure; xAI's Grok tool automatically uploaded user codebases to cloud storage—both flagrant data practices exposed.",
     "links": [
-     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-     "https://openai.com/index/unlocking-self-improvement-gpt-red"
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
     ]
    },
    {
-    "text": "Thinking Machines Lab released Inkling, a 975-billion-parameter open-source multimodal model trained on video and audio, positioning itself as a competitor to Anthropic and OpenAI in frontier AI development.",
+    "text": "Meta faces lawsuit alleging AI systems made biased layoff decisions targeting workers with disabilities; Apple sues OpenAI over alleged trade secret theft by ex-engineer.",
     "links": [
-     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
-     "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b"
+     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
+    ]
+   },
+   {
+    "text": "Claude's web_fetch tool contains vulnerability allowing data exfiltration; YouTube and X function as gateways to nonconsensual deepfake services.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+     "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/"
     ]
    }
   ]
@@ -87,6 +86,25 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Google ordered to open Android and Search to rivals in Europe",
+   "link": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-16T12:15:36+00:00",
+   "summary": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bloc's digital antitrust rules. The two decisions, handed down Thursday, could weaken Google's control over two of the tech industry's most important platforms and have […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The European Union ordered Google to open Android and Google Search to rival AI assistants and search engines under the bloc's digital antitrust rules. The rulings require Google to grant competitors greater access to these core platforms, potentially reducing Google's control over both operating systems and search.",
+   "whyMatters": [
+    "Establishes precedent for interoperability requirements in AI regulation—forces tech giants to share platform access rather than maintain closed ecosystems",
+    "Affects the AI industry structure by enabling alternative AI assistants to compete more directly with Google's offerings",
+    "Signals that EU is willing to enforce antitrust against dominant platforms that gate-keep AI capabilities and data access"
+   ]
+  },
   {
    "title": "Please Stop Making Me Opt Out of AI",
    "link": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
@@ -831,24 +849,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates how major platforms enable access to tools for creating non-consensual sexual imagery, a serious harm disproportionately affecting women",
     "Raises urgent questions about platform responsibility, content moderation, and the need for AI safety guardrails around synthetic media abuse"
-   ]
-  },
-  {
-   "title": "Spotify is now an AI chatbot, too",
-   "link": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T15:47:36+00:00",
-   "summary": "Spotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"Talk to Spotify\" feature appears across the Home and Now Playing view on Spotify's mobile app. You can interact with the chatbot by typing your request in the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Spotify is testing an AI chatbot feature called \"Talk to Spotify\" that allows Premium users to discover and play music, audiobooks, and podcasts through conversational interaction. The feature is being rolled out across mobile app home and playback screens.",
-   "whyMatters": [
-    "Represents consumer-facing AI becoming a standard interface layer for content discovery in major platforms",
-    "May reshape how users interact with and discover media, shifting from search-based to conversation-based consumption patterns"
    ]
   },
   {
