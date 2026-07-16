@@ -1,37 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-16T00:03:01.798123+00:00",
+ "generatedAt": "2026-07-16T07:25:32.715483+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-16T00:03:21.519595+00:00",
+  "generatedAt": "2026-07-16T07:25:43.762857+00:00",
   "bullets": [
    {
-    "text": "xAI's Grok tool and Suno's music AI both had critical data-exfiltration flaws exposed—the first uploaded entire codebases without consent, the second scraped millions of copyrighted songs undisclosed.",
+    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting prior claims about training data transparency.",
     "links": [
-     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
     ]
    },
    {
-    "text": "Claude's web_fetch tool contains a vulnerability allowing private user data exfiltration; OpenAI's GPT-Red red-teaming system aims to catch such vulnerabilities before deployment.",
+    "text": "xAI's Grok Build tool automatically uploaded users' entire codebases to cloud storage without consent, exposing SSH keys and passwords; SpaceX later disabled the feature.",
     "links": [
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
+     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
     ]
    },
    {
-    "text": "Apple sued OpenAI alleging trade-secret theft by a former engineer, marking a major escalation in tech industry AI competition and patent disputes.",
+    "text": "Apple sued OpenAI for allegedly conspiring with a former engineer to steal proprietary trade secrets via a software exploit.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo"
+     "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
     ]
    },
    {
-    "text": "Meta faces a lawsuit claiming it used biased AI to identify and target workers on medical leave for mass layoffs, raising questions about algorithmic discrimination in employment.",
+    "text": "Meta faces lawsuit from 26 former employees alleging biased AI systems targeted workers on leave for mass layoffs, raising accountability questions around automated HR decisions.",
     "links": [
-     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs"
+     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
     ]
    },
    {
-    "text": "New York imposed the first state data-center moratorium, signaling potential regulatory resistance to AI infrastructure expansion that could reshape the industry's growth trajectory.",
+    "text": "New York imposed first-state data center moratorium, signaling potential broader regulatory pushback against AI infrastructure expansion.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
     ]
@@ -85,12 +87,50 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+   "link": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-16T06:18:05+00:00",
+   "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!AvrX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90048da3-a87f-44d8-8ad4-e954031d2721_2540x1692.png",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Thinky released its first full large language model, Inkling 975B-A41B, a multimodal model with open weights, alongside a smaller 276B variant. The release marks a significant open-source contribution to the AI landscape with Apache 2.0 licensing.",
+   "whyMatters": [
+    "Expands the ecosystem of openly available large models that researchers and developers can build on without proprietary restrictions",
+    "Demonstrates continued momentum in open-weight model development as an alternative to closed commercial models"
+   ]
+  },
+  {
+   "title": "Mermaid to Unicode box art (grok-mermaid)",
+   "link": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-16T00:33:18+00:00",
+   "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust. I figured it would be fun to try that out in a browser via WebAssembly. Here's the prompt I ran in Claude Code for web (Fable 5), and this is what the",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/grok-mermaid-wasm.png",
+   "themes": [],
+   "aiSummary": "A developer discovered and adapted a Rust-based terminal renderer for Mermaid diagrams within the newly open-sourced Grok CLI coding agent, compiling it to WebAssembly for browser use. This makes diagram generation accessible directly in web environments without external services.",
+   "whyMatters": [
+    "Demonstrates practical utility of open-source tooling for developers working with AI coding assistants",
+    "Shows how modular components from larger AI systems can be repurposed and adapted for different use cases"
+   ]
+  },
+  {
    "title": "xai-org/grok-build, now open source",
    "link": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-07-15T23:59:30+00:00",
-   "summary": "xai-org/grok-build, now open source xAI's grok CLI tool had severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\". I've not seen",
+   "summary": "xai-org/grok-build, now open source xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\". I've not se",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -138,6 +178,28 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides practical insight into near-term shifts in AI deployment and workflow—useful for educators preparing students for evolving AI-integrated work environments",
     "Frames the trajectory away from autonomous systems toward human-centered control, informing expectations about AI's actual role in professional contexts"
+   ]
+  },
+  {
+   "title": "The AI ethics debate looks different from Manila",
+   "link": "https://religionnews.com/2026/07/15/the-ai-ethics-debate-looks-different-from-manila/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-07-15T20:17:24+00:00",
+   "summary": "(RNS) — North Atlantic fears about AI are justified. But institutions with fewer inherited resources are showing why resistance can also be a luxury.",
+   "religionScore": 2,
+   "religionHits": [
+    "ethic"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Religion News Service reports that AI ethics concerns differ significantly when viewed from the Global South; institutions with fewer resources face different priorities than wealthy Northern institutions that can afford to focus on governance and risk mitigation.",
+   "whyMatters": [
+    "Highlights that AI ethics frameworks developed in North Atlantic contexts may not address the material constraints and urgent needs of faith communities and institutions in resource-limited settings",
+    "Suggests that clergy, educators, and faith leaders in developing regions must navigate AI deployment with different practical considerations than their wealthy counterparts"
    ]
   },
   {
@@ -2040,24 +2102,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-utils 4.0, now with database schema migrations",
-   "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-07T19:32:57+00:00",
-   "summary": "This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations , nested transactions (via a new db.atomic() method), and support for compound foreign keys . Databas",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison released sqlite-utils 4.0, the project's first major version since 2020. Headline features are database schema migrations, nested transactions via a new db.atomic() method, and support for compound foreign keys, along with some small breaking changes documented in an upgrade guide.",
-   "whyMatters": [
-    "sqlite-utils is a widely used tool in the data-journalism and indie-developer world; a major release after five years is notable.",
-    "Built-in migrations remove a long-standing pain point for anyone managing evolving SQLite databases."
-   ]
-  },
-  {
    "title": "Anthropic Can Now Read Claude’s Mind",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Anthropic-Can-Now-Read-Claudes-Mind-e3lphgm",
    "source": "The AI Daily Brief",
@@ -2597,24 +2641,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A CEO staking his company on full automation of coding — a strong version of the claim worth weighing against the skeptics at the same conference.",
     "The 'how engineers should prepare' framing previews the retraining question every profession will face."
-   ]
-  },
-  {
-   "title": "AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers",
-   "link": "https://www.latent.space/p/aiewf-daily-dispatch-loops",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-01T04:46:21+00:00",
-   "summary": "On Tuesday at the AI Engineer World's Fair, there was a lot of talk about loops, agent engineering, and the emergence of software factories. Also a hot topic: open models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!i4cw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee341b9f-8fd3-47e5-87db-9b3d0fc72de5_1280x720.jpeg",
-   "themes": [],
-   "aiSummary": "A daily dispatch from the AI Engineer World's Fair summarizing Tuesday's dominant themes: agent loops, agent engineering, the rise of 'software factories,' and growing interest in open models.",
-   "whyMatters": [
-    "A quick pulse-check on what the practitioner community — not the marketing departments — is actually focused on.",
-    "The open-models emphasis matters for anyone who wants AI that runs locally, without sending data to a vendor."
    ]
   },
   {
