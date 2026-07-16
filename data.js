@@ -1,42 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-15T18:12:23.326873+00:00",
+ "generatedAt": "2026-07-16T00:03:01.798123+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-15T18:12:41.239753+00:00",
+  "generatedAt": "2026-07-16T00:03:21.519595+00:00",
   "bullets": [
    {
-    "text": "Suno scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting the company's opacity about training data sources.",
+    "text": "xAI's Grok tool and Suno's music AI both had critical data-exfiltration flaws exposed—the first uploaded entire codebases without consent, the second scraped millions of copyrighted songs undisclosed.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
+     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
     ]
    },
    {
-    "text": "New York enacted the first statewide moratorium on hyperscale AI data center permits, signaling potential regulatory backlash against AI infrastructure expansion.",
-    "links": [
-     "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
-    ]
-   },
-   {
-    "text": "Critical vulnerabilities exposed in Claude and Grok: Claude's web fetch tool exfiltrates user data; Grok automatically uploaded entire user codebases to cloud storage.",
+    "text": "Claude's web_fetch tool contains a vulnerability allowing private user data exfiltration; OpenAI's GPT-Red red-teaming system aims to catch such vulnerabilities before deployment.",
     "links": [
      "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-     "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
+     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
     ]
    },
    {
-    "text": "Apple sued OpenAI over alleged trade secret theft by a former engineer and conspiracy, escalating corporate AI litigation and competition.",
+    "text": "Apple sued OpenAI alleging trade-secret theft by a former engineer, marking a major escalation in tech industry AI competition and patent disputes.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
-     "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
+     "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo"
     ]
    },
    {
-    "text": "Meta faces lawsuit alleging biased AI systems targeted workers on medical leave for mass layoffs, raising accountability questions for algorithmic employment decisions.",
+    "text": "Meta faces a lawsuit claiming it used biased AI to identify and target workers on medical leave for mass layoffs, raising questions about algorithmic discrimination in employment.",
     "links": [
-     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-     "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/"
+     "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs"
+    ]
+   },
+   {
+    "text": "New York imposed the first state data-center moratorium, signaling potential regulatory resistance to AI infrastructure expansion that could reshape the industry's growth trajectory.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
     ]
    }
   ]
@@ -87,6 +84,115 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "xai-org/grok-build, now open source",
+   "link": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-15T23:59:30+00:00",
+   "summary": "xai-org/grok-build, now open source xAI's grok CLI tool had severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\". I've not seen",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "xAI's grok CLI tool was released open source, but had a critical security flaw: running the command in a directory would upload that entire directory to xAI's cloud storage without explicit user consent, potentially exposing SSH keys, password databases, documents, and personal files.",
+   "whyMatters": [
+    "Serious privacy and security vulnerability in widely-used developer tools erodes trust in open-source AI projects",
+    "Highlights the importance of transparent data practices in AI infrastructure—relevant to educators teaching AI safety and technical ethics"
+   ]
+  },
+  {
+   "title": "xAI sues a man for using Grok to generate CSAM ‘deepfakes’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-15T21:33:20+00:00",
+   "summary": "The Elon Musk-owned xAI is suing a South Carolina man who allegedly used the company's Grok AI chatbot to generate child sexual abuse material (CSAM). In a lawsuit reported earlier by Reuters, xAI claims Terry Wayne Harwood \"knowingly and intentionally used Grok to circumvent safeguards, alter nonconsensual images, and generate and distribute CSAM,\" breaching the […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "xAI has filed a lawsuit against a South Carolina man for allegedly using Grok to generate child sexual abuse material by circumventing the chatbot's safeguards and creating nonconsensual deepfakes.",
+   "whyMatters": [
+    "Exposes real-world failure of content safeguards in deployed AI systems",
+    "Raises critical questions about platform liability and the adequacy of AI safety measures—central concerns for educators and clergy discussing AI ethics and harm"
+   ]
+  },
+  {
+   "title": "5 AI Engineering Trends for Non-Engineers",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/5-AI-Engineering-Trends-for-Non-Engineers-e3m4p53",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-15T20:30:50+00:00",
+   "summary": "AI engineers are often six months ahead of how everyone else will work. NLW breaks down five trends—from harnesses and loops to skills and software factories—and why the future of AI is less about unchecked autonomy than better human control. In the headlines: OpenAI’s first device and growing concerns over enterprise AI data. Source : https://www.latent.space/p/aiewf26trends Brought to you by: KP",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122888803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-15%2F428030680-44100-2-dfa8dbcdf41bc.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "A podcast episode discusses emerging AI engineering trends that will shape how non-engineers work, including harnesses, loops, skills development, and software factories, emphasizing human control over unchecked AI autonomy.",
+   "whyMatters": [
+    "Provides practical insight into near-term shifts in AI deployment and workflow—useful for educators preparing students for evolving AI-integrated work environments",
+    "Frames the trajectory away from autonomous systems toward human-centered control, informing expectations about AI's actual role in professional contexts"
+   ]
+  },
+  {
+   "title": "AI slop movies are the new direct-to-video cash grabs",
+   "link": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-15T19:55:15+00:00",
+   "summary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The article discusses the trend of low-quality, AI-generated movies replacing traditional direct-to-video content as a new form of quick, low-cost film production.",
+   "whyMatters": [
+    "Marks a shift in entertainment production economics as AI-generated content displaces traditional low-budget filmmaking",
+    "Raises questions about cultural production, artistic labor, and the downstream effects on creative industries and education in media studies"
+   ]
+  },
+  {
+   "title": "Bagels are hanging from the trees in Beijing. Is China bagelmaxxing?",
+   "link": "https://forward.com/food/838169/is-china-bagelmaxxing/",
+   "source": "The Forward",
+   "category": "religion",
+   "date": "2026-07-15T18:50:49+00:00",
+   "summary": "I was strolling through a gleaming new mall complex in Beijing beside a couple walking their robot dog when I stumbled upon the bagel tree. Its branches, though bare of leaves, bore giant bagel sculptures, hanging from its boughs on translucent string. In front was a sign proclaiming, “Beigel Tree by New York Bagelous Museum.”...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "A bagel-themed installation appeared in a Beijing mall, featuring a 'Beigel Tree' sculpture as part of what appears to be a New York Bagel Museum exhibit.",
+   "whyMatters": []
+  },
+  {
+   "title": "AI Isn’t Smarter Than a Baby—Yet",
+   "link": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-15T18:30:00+00:00",
+   "summary": "Babies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An article explores how infant learning mechanisms and brain architecture may offer valuable insights for advancing AI capabilities, framing babies as powerful learning systems that AI has not yet matched.",
+   "whyMatters": [
+    "Suggests a new research direction for AI development rooted in cognitive science rather than scaling alone",
+    "Relevant to educators discussing AI capabilities, limitations, and what we can learn from human development about learning"
+   ]
+  },
   {
    "title": "Thinking Machines Lab Drops Its First Model",
    "link": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
@@ -404,26 +510,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "New York becomes the first state to enact a data center moratorium",
-   "link": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T21:45:11+00:00",
-   "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature. The order blocks new environmental permits for data […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "New York Governor Kathy Hochul signed a one-year moratorium on new hyperscale AI data center permits, making the state the first to enact a statewide moratorium. A second bill restricting further developments remains pending her signature.",
-   "whyMatters": [
-    "Significant policy shift: state-level action to slow AI infrastructure expansion, citing environmental and grid concerns",
-    "Reflects growing political momentum to regulate AI at the state level before federal action; educators and communities should track how data center policy affects regional energy and environmental outcomes"
-   ]
-  },
-  {
    "title": "OpenAI may announce a ChatGPT smart speaker this year",
    "link": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
    "source": "The Verge · AI",
@@ -703,24 +789,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
-   "link": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T11:56:44+00:00",
-   "summary": "Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous. Writing in a blog post, the Google DeepMind CEO and cofounder said the US should lead the initiative, arguing that the country is the best place to set global standards \"given its economic […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Demis Hassabis, CEO of Google DeepMind, has called for the creation of a global AI watchdog organization with authority to regulate frontier AI models and intervene if they pose safety risks. He argues the United States should lead this initiative, positioning it as the appropriate country to establish global AI standards.",
-   "whyMatters": [
-    "Represents a major AI industry leader advocating for international governance structures and safety oversight—a shift from earlier industry resistance to regulation",
-    "Raises questions about who sets global norms for AI development and whether US-led frameworks will address concerns from other nations, including how different cultural and religious communities view AI ethics"
-   ]
-  },
-  {
    "title": "This Luddite Puppet Hopes You’re Not Reading This on Your Smartphone",
    "link": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus/",
    "source": "Wired · AI",
@@ -849,24 +917,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How data science teams use ChatGPT Work",
-   "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-14T00:00:00+00:00",
-   "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published guidance on how data science teams use ChatGPT Work to automate writing briefs, analyses, and metrics documentation from raw work inputs.",
-   "whyMatters": [
-    "Shows practical enterprise adoption of ChatGPT for knowledge work; productivity gains for teams using structured prompting",
-    "Example of AI reshaping workflows in analytical roles; relevant to educators preparing students for labor markets where AI collaboration is standard"
-   ]
-  },
-  {
    "title": "How sales teams use ChatGPT Work",
    "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
    "source": "OpenAI News",
@@ -882,6 +932,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates AI adoption for sales operations and deal management; shows efficiency gains in high-velocity business functions",
     "Relevant to educators tracking which white-collar jobs are being augmented or displaced by AI tools"
+   ]
+  },
+  {
+   "title": "How data science teams use ChatGPT Work",
+   "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-14T00:00:00+00:00",
+   "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI published guidance on how data science teams use ChatGPT Work to automate writing briefs, analyses, and metrics documentation from raw work inputs.",
+   "whyMatters": [
+    "Shows practical enterprise adoption of ChatGPT for knowledge work; productivity gains for teams using structured prompting",
+    "Example of AI reshaping workflows in analytical roles; relevant to educators preparing students for labor markets where AI collaboration is standard"
    ]
   },
   {
@@ -1160,24 +1228,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Frames AI adoption around human flourishing rather than job displacement—relevant for educators and community leaders thinking about how to present AI to their communities",
     "Addresses a concrete organizational challenge: converting efficiency into expanded capacity rather than just cost-cutting, which affects how institutions (including schools and nonprofits) should approach AI implementation"
-   ]
-  },
-  {
-   "title": "Scientists’ Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
-   "link": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-12T10:00:00+00:00",
-   "summary": "Researchers cobbled together funding and time to show how quantum computing could aid in the development of drugs to help underserved populations and combat rare diseases.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers have demonstrated that quantum computing combined with AI can generate new peptides for drug development, working on this project with limited funding and time. The approach aims to develop treatments for rare diseases and underserved populations.",
-   "whyMatters": [
-    "Shows practical progress in using quantum computing for biomedical applications rather than theoretical work alone",
-    "Addresses a real gap in drug development for rare and neglected diseases where commercial incentives are weak"
    ]
   },
   {
@@ -2029,24 +2079,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-migrate 0.2",
-   "link": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-07T16:33:55+00:00",
-   "summary": "Release: sqlite-migrate 0.2 The version that retires the library, instead implementing a compatibility shim against the new sqlite-utils 4.0 dependency. Tags: sqlite-utils",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison released sqlite-migrate 0.2, which effectively retires the standalone library — it now acts as a compatibility shim over the migration support built directly into sqlite-utils 4.0.",
-   "whyMatters": [
-    "Housekeeping release: migration functionality has been folded into sqlite-utils itself, simplifying the ecosystem.",
-    "Only relevant if you use sqlite-migrate; existing users get a smooth path to the new core feature."
-   ]
-  },
-  {
    "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
    "link": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
    "source": "Ars Technica · AI",
@@ -2698,24 +2730,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Core dump epidemiology: fixing an 18-year-old bug",
-   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
-   "whyMatters": [
-    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
-    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
-   ]
-  },
-  {
    "title": "Inside Genebench-Pro",
    "link": "https://openai.com/index/genebench-pro/case-studies",
    "source": "OpenAI News",
@@ -2731,6 +2745,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
     "Thin source material; read alongside the main announcement rather than on its own."
+   ]
+  },
+  {
+   "title": "Core dump epidemiology: fixing an 18-year-old bug",
+   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
+   "whyMatters": [
+    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
+    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
    ]
   },
   {
@@ -3166,27 +3198,6 @@ window.NEWS_DATA = {
     "Directly on the religion-and-AI beat: a papal encyclical is the most authoritative religious statement on AI to date, and this is a scholarly unpacking of it.",
     "Useful comparative material for Jewish responses to AI — seeing how Catholic social teaching frames the technology sharpens what a Jewish framing might look like.",
     "Good source material for adult education or sermon prep on how faith traditions are grappling with AI."
-   ]
-  },
-  {
-   "title": "The Models Trying to Fill the Fable Gap",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Models-Trying-to-Fill-the-Fable-Gap-e3kvr3b",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-18T19:49:40+00:00",
-   "summary": "As the fallout from the Fable shutdown continues, the AI world is racing to figure out what comes next: Chinese open models, Cursor’s Composer, OpenRouter Fusion, and new routing strategies that promise frontier-level performance at lower cost. NLW looks at why the loss of Fable may accelerate the shift toward token efficiency, model diversity, and smarter enterprise AI architecture. In the headli",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121678379/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-18%2F426409736-44100-2-516cc7c1cc4ab.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "With Fable shut down, the AI world is scrambling to fill the gap. NLW surveys the contenders — Chinese open models, Cursor's Composer, OpenRouter Fusion — and new routing strategies that promise near-frontier performance at lower cost, arguing the loss of Fable may accelerate a shift toward token efficiency and model diversity.",
-   "whyMatters": [
-    "A practical map of the alternatives if a tool you rely on was built around Fable.",
-    "Chinese open models moving into frontier gaps has real geopolitical and safety implications worth watching.",
-    "The token-efficiency trend could lower costs for small organizations using AI."
    ]
   },
   {
