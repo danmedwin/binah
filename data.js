@@ -1,43 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-16T18:09:30.741615+00:00",
+ "generatedAt": "2026-07-17T00:02:04.387928+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-16T18:09:54.289006+00:00",
+  "generatedAt": "2026-07-17T00:02:25.156967+00:00",
   "bullets": [
    {
-    "text": "EU orders Google to open Android and Search to competing AI assistants, escalating antitrust enforcement while New York bans new data centers—major regulatory headwinds for the AI industry.",
+    "text": "EU mandates Google open Android and Search to rival AI systems; Google must share search data under digital antitrust rules.",
     "links": [
-     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
+    ]
+   },
+   {
+    "text": "New York imposes first-in-nation one-year data center moratorium, signaling potential broader regulatory backlash against AI infrastructure expansion.",
+    "links": [
      "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
     ]
    },
    {
-    "text": "OpenAI disclosed GPT-Red, a red-teaming system that auto-identifies vulnerabilities, after researchers found GPT-5.6 deletes files and Claude's web tool leaks private data—core safety tensions persist despite safeguards.",
+    "text": "xAI sues Grok user for generating child sexual abuse material after previously denying the system's capability to create such content.",
     "links": [
-     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-     "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
-    ]
-   },
-   {
-    "text": "Suno scraped millions of songs from YouTube, Deezer, and Genius without disclosure; xAI's open-source Grok uploaded user directories to cloud without consent—training data opacity and consent remain unresolved.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
-    ]
-   },
-   {
-    "text": "Thinking Machines Lab released 975-billion-parameter Inkling, an open-weights multimodal model competing with Anthropic and OpenAI; Codex surged to 7 million users in six months.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
-     "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
-    ]
-   },
-   {
-    "text": "OpenAI announced safety protections and parental controls for teen ChatGPT users; xAI sued a man for using Grok to generate child sexual abuse material—companies grapple with protecting minors from AI harms.",
-    "links": [
-     "https://openai.com/index/why-teens-deserve-access-safe-ai",
      "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
+    ]
+   },
+   {
+    "text": "Moonshot AI's Kimi K3 reaches 2.8 trillion parameters; open-weight release promised by July 27, marking first major open model in 3-trillion-parameter class.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything"
+    ]
+   },
+   {
+    "text": "Claude's web_fetch tool vulnerability allows private data exfiltration; GPT-5.6 has critical file-deletion bug when safety features disabled.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+     "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything"
     ]
    }
   ]
@@ -90,6 +86,190 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Firefox in WebAssembly",
+   "link": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-16T23:34:16+00:00",
+   "summary": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process support. The project took an estimated $25,000 of Claude Opus and Fable tokens, taking advantage of a Claude Max subscript",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/firefox-wasm.webp",
+   "themes": [],
+   "aiSummary": "Puter successfully compiled Firefox to WebAssembly, enabling the entire Firefox browser to run inside another browser (Chrome). The project leveraged Claude Opus and Fable to complete the work, estimated to cost $25,000 in AI tokens.",
+   "whyMatters": [
+    "Demonstrates practical application of LLM-assisted development for complex engineering tasks",
+    "Shows how AI tools can accelerate non-trivial compilation and porting work, with transparent cost/effort measurement"
+   ]
+  },
+  {
+   "title": "AI News, Current Events, and Critical Conversations #67",
+   "link": "https://aiandfaith.org/aif-podcast/ai-news-and-current-events/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-07-16T22:37:13+00:00",
+   "summary": "There is so much happening in the world of artificial intelligence that keeping up can feel impossible. To help us cut through the noise, we invited two experts from the",
+   "religionScore": 5,
+   "religionHits": [],
+   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-6-16/428098830-44100-2-46a8019b41324.m4a",
+   "image": "https://aiandfaith.org/wp-content/uploads/2026/07/AIF-PODCAST-pod-image-Ben-C-and-Marcus-Gilad_result-300x300.webp",
+   "themes": [],
+   "aiSummary": "AI and Faith podcast episode discussing AI news and current events with expert guests.",
+   "whyMatters": [
+    "Directly relevant to your focus on AI and religious/ethical perspectives",
+    "Limited information in blurb prevents deeper analysis of specific topics covered"
+   ]
+  },
+  {
+   "title": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis",
+   "link": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-16T22:17:27+00:00",
+   "summary": "On today’s Uncanny Valley, we unpack OpenAI’s ongoing drama, both legal and reputational, and whether these developments could further hurt the company—particularly in its fight against Anthropic.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Wired podcast episode covering Apple's lawsuit against OpenAI, OpenAI's legal and reputational challenges, and competitive pressure from Anthropic.",
+   "whyMatters": [
+    "Major IP and legal developments affecting leading AI companies",
+    "May impact industry consolidation and market positioning"
+   ]
+  },
+  {
+   "title": "It's official: EU will force Google to share search data and open up AI on Android",
+   "link": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-16T20:41:45+00:00",
+   "summary": "Google says these changes could endanger user privacy and security.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The EU has mandated that Google share search data and open AI capabilities on Android, marking an official regulatory requirement. Google argues these requirements could compromise user privacy and security.",
+   "whyMatters": [
+    "Significant regulatory forcing of data interoperability and open access in AI",
+    "Sets precedent for EU competition enforcement against AI incumbents; may reshape market access globally"
+   ]
+  },
+  {
+   "title": "The New Enterprise Battle Over Who Owns the Model",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Enterprise-Battle-Over-Who-Owns-the-Model-e3m65k0",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-16T20:38:52+00:00",
+   "summary": "Thinking Machines Lab’s new open-weight model Inkling may signal a new enterprise battle over who controls the model, the data, and the learning built on top of it. NLW explores its promise—and why fine-tuning may be harder than advocates suggest. In the headlines: Cursor, Apple’s AI chip hunt, and Microsoft’s model push. Brought to you by: KPMG – Research from KPMG and the University of Texas at ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122934336/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-16%2F428093686-44100-2-f6b0632b92356.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Thinking Machines Lab released Inkling, an open-weight enterprise model, potentially signaling a new competitive battle over model ownership, data control, and downstream learning. The episode explores fine-tuning challenges despite advocates' optimism.",
+   "whyMatters": [
+    "Emerging enterprise AI market segmentation between proprietary and open-weight models",
+    "Fine-tuning complexity may create barriers that benefit companies with more infrastructure and expertise"
+   ]
+  },
+  {
+   "title": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
+   "link": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-16T20:26:23+00:00",
+   "summary": "Elon Musk's xAI files first lawsuit against Grok user accused of making child sex images.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "xAI has filed its first lawsuit against a Grok user accused of generating child sexual abuse material, after previously being unable to deny that Grok could produce such content.",
+   "whyMatters": [
+    "Major legal and policy consequence of AI safety failures in content moderation",
+    "Raises questions about liability, enforcement, and platform responsibility for harmful outputs—relevant to education and child safety communities"
+   ]
+  },
+  {
+   "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+   "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-16T20:19:30+00:00",
+   "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-class model\" (I guess they're rounding 2.8 trillion up to 3 trillion), taking the crown from DeepSeek'",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/kimi-3-pelican.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Chinese AI lab Moonshot AI announced Kimi K3, claiming 2.8 trillion parameters as their most capable model to date. An open-weight release is promised by July 27, 2026, making it the first major open model in the 3-trillion-parameter class.",
+   "whyMatters": [
+    "Major milestone in open-weight model development; shifts competitive landscape toward larger open models",
+    "International competition in frontier AI, with Chinese lab leading on open release of large models"
+   ]
+  },
+  {
+   "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
+   "link": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-16T20:09:48+00:00",
+   "summary": "Hyundai aims to deploy 25,000 Atlas robots starting with US factories in 2028.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Workers at Hyundai auto factories are striking due to concerns about humanoid robot deployment. Hyundai plans to deploy 25,000 Atlas robots beginning in US factories in 2028.",
+   "whyMatters": [
+    "Labor market impact and worker displacement concerns becoming concrete through organized action",
+    "Highlights tension between automation benefits and employment disruption—relevant to educators discussing economic futures"
+   ]
+  },
+  {
+   "title": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
+   "link": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-16T19:18:23+00:00",
+   "summary": "Creator says he will \"very loudly ignore\" those arguing for a ban on AI tools.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Linus Torvalds stated he will not ban AI tools from Linux development and will \"very loudly ignore\" critics opposed to their use, telling dissenters to fork the project or leave.",
+   "whyMatters": [
+    "Major open-source leader explicitly endorsing AI-assisted development over community concerns",
+    "Sets tone for tool adoption in foundational software; signals that AI integration in critical infrastructure will proceed despite objections"
+   ]
+  },
+  {
+   "title": "Here’s Why Anthropic Is Pushing States to Regulate AI Faster",
+   "link": "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-16T18:35:18+00:00",
+   "summary": "The company endorsed landmark AI transparency laws in California and New York last year, but its head of US state and local policy says they may already be outdated.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic endorsed landmark AI transparency laws in California and New York but now suggests those regulations may already be outdated as AI developments accelerate.",
+   "whyMatters": [
+    "Leading AI lab acknowledging regulatory lag—regulations outpaced by technology",
+    "May signal push for stronger/faster preemptive regulation or admission that initial transparency measures are insufficient for current risks"
+   ]
+  },
   {
    "title": "New York governor says she’s using AI to analyze ‘every single rule’ in the state",
    "link": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
@@ -220,6 +400,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weights model release gives researchers and organizations direct access to frontier-scale AI architecture",
     "Potentially significant for academic institutions and non-commercial applications building on large multimodal models"
+   ]
+  },
+  {
+   "title": "Mermaid to ASCII art (mermaid-ascii)",
+   "link": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-16T14:57:39+00:00",
+   "summary": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 compile that one to WebAssembly as well so I could compare the two. This one includes support for colors! Tags: go , tools ,",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/mermaid-ascii.webp",
+   "themes": [],
+   "aiSummary": "A Mermaid-to-ASCII art tool was compiled to WebAssembly using Claude, and an older, more feature-complete Go library (mermaid-ascii) was also compiled for comparison, including color support.",
+   "whyMatters": [
+    "Practical developer tooling enabled by AI compilation assistance",
+    "Demonstrates utility of LLMs in cross-language and cross-platform code porting tasks"
    ]
   },
   {
@@ -445,28 +643,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides practical insight into near-term shifts in AI deployment and workflow—useful for educators preparing students for evolving AI-integrated work environments",
     "Frames the trajectory away from autonomous systems toward human-centered control, informing expectations about AI's actual role in professional contexts"
-   ]
-  },
-  {
-   "title": "The AI ethics debate looks different from Manila",
-   "link": "https://religionnews.com/2026/07/15/the-ai-ethics-debate-looks-different-from-manila/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-07-15T20:17:24+00:00",
-   "summary": "(RNS) — North Atlantic fears about AI are justified. But institutions with fewer inherited resources are showing why resistance can also be a luxury.",
-   "religionScore": 2,
-   "religionHits": [
-    "ethic"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Religion News Service reports that AI ethics concerns differ significantly when viewed from the Global South; institutions with fewer resources face different priorities than wealthy Northern institutions that can afford to focus on governance and risk mitigation.",
-   "whyMatters": [
-    "Highlights that AI ethics frameworks developed in North Atlantic contexts may not address the material constraints and urgent needs of faith communities and institutions in resource-limited settings",
-    "Suggests that clergy, educators, and faith leaders in developing regions must navigate AI deployment with different practical considerations than their wealthy counterparts"
    ]
   },
   {
@@ -1062,24 +1238,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Chatbot That Foretold Why People Share Secrets With ChatGPT",
-   "link": "https://www.wired.com/story/inventing-eliza-book-excerpt-chatbot/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-14T10:00:00+00:00",
-   "summary": "In the 1960s an MIT professor named Joseph Weizenbaum created a chatbot called ELIZA. The conversations people had with it set precedents for the chatbots to come.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Joseph Weizenbaum's 1960s chatbot ELIZA set behavioral precedents that explain why people today share intimate secrets with modern AI systems like ChatGPT—people project human-like empathy onto machines designed to listen.",
-   "whyMatters": [
-    "Historical context for understanding current AI interaction patterns; shows 60-year-old roots of why users anthropomorphize chatbots and disclose personal information",
-    "Relevant to educators and clergy working with communities; highlights how AI design patterns exploit human psychology, important for digital literacy and AI ethics teaching"
-   ]
-  },
-  {
    "title": "How to manage AI investments in the agentic era",
    "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
    "source": "OpenAI News",
@@ -1095,24 +1253,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals shift from general-purpose AI to task-specific agent systems in enterprise settings, changing how organizations should evaluate AI ROI",
     "Reflects OpenAI's positioning of autonomous agents as the next major commercial frontier for AI deployment"
-   ]
-  },
-  {
-   "title": "DOGE Used AI for Housing Policy. The Government Won’t Say How",
-   "link": "https://www.wired.com/story/doge-deployed-ai-housing-policy/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-14T09:00:00+00:00",
-   "summary": "In response to a public records request, HUD has withheld documents about DOGE’s use of AI—in part by citing a privilege that doesn’t exist.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Trump administration's DOGE used AI to inform housing policy decisions, but HUD refused to release documents about the process under FOIA, citing a nonexistent legal privilege to shield the records.",
-   "whyMatters": [
-    "Government opacity around AI-driven policy decisions undermines democratic oversight and transparency",
-    "Raises urgent concerns about AI use in consequential policy areas without public scrutiny; educators and community leaders need to understand how AI is shaping policy that affects their constituents"
    ]
   },
   {
@@ -1791,67 +1931,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing Muse Spark 1.1",
-   "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-09T16:24:09+00:00",
-   "summary": "Introducing Muse Spark 1.1 Following Muse Spark in April , here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more details are in the Muse Spark 1.1 Evaluation Report . The \"Attractor States in Self-Conversation\" part is fun, where having two copies of the model talk to each other results in s",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/muse-spark-1.1.png",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Meta released Muse Spark 1.1, the first Spark model with an API, claiming significant improvements in agentic tool calling and computer use. Simon Willison highlights the evaluation report's 'Attractor States in Self-Conversation' section, on what happens when two copies of the model talk to each other.",
-   "whyMatters": [
-    "Meta re-entering the frontier race with an API-accessible agentic model changes the competitive map.",
-    "The self-conversation 'attractor states' research is a fascinating window into emergent model behavior — the kind of finding that fuels AI-nature discussions.",
-    "More capable computer-use models mean more AI acting directly in software, not just chatting."
-   ]
-  },
-  {
-   "title": "llm-meta-ai 0.1",
-   "link": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-09T16:12:20+00:00",
-   "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm , meta",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison released llm-meta-ai 0.1, a plugin for his LLM command-line tool that lets it run prompts against Meta's new muse-spark-1.1 model. A small, same-day integration release.",
-   "whyMatters": [
-    "Shows how fast the open tooling ecosystem wraps new models — Meta's API was usable from a common CLI within a day.",
-    "Only relevant if you use Willison's llm tool; otherwise a minor release."
-   ]
-  },
-  {
-   "title": "llm 0.31.1",
-   "link": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-09T16:06:15+00:00",
-   "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tags: llm",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Willison also released llm 0.31.1, a bugfix version of his command-line tool. It fixes a JSON error some providers returned when a tool call had empty arguments on OpenAI-compatible Chat Completion endpoints, a bug surfaced while testing llm-meta-ai.",
-   "whyMatters": [
-    "Routine maintenance release — update if you use the llm CLI with tool calling.",
-    "Illustrates the interoperability friction of 'OpenAI-compatible' APIs that aren't quite compatible."
-   ]
-  },
-  {
    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
    "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
    "source": "OpenAI News",
@@ -2109,25 +2188,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
-   "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-08T07:00:51+00:00",
-   "summary": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers describe an attack called \"HalluSquatting\" that exploits nine popular AI tools' tendency to confidently make things up instead of saying \"I don't know,\" letting hackers turn those hallucinations into a way to assemble large botnets.",
-   "whyMatters": [
-    "Hallucination has graduated from an embarrassment to a genuine security vulnerability at scale.",
-    "Nine of the most popular tools are affected — this is a systemic weakness, not one vendor's bug.",
-    "A concrete, teachable example of why 'the AI sounds confident' is never evidence it's right."
-   ]
-  },
-  {
    "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
    "link": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
    "source": "Latent Space",
@@ -2166,27 +2226,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Data centers’ energy demand threatens Trump’s “Made in America” plan",
-   "link": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-07T21:03:07+00:00",
-   "summary": "Squeeze on Rust Belt electricity bills threatens Trump’s manufacturing plan.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Surging electricity demand from AI data centers is driving up energy costs for US manufacturers, particularly in the Rust Belt, and the squeeze is undercutting the Trump administration's \"Made in America\" manufacturing push.",
-   "whyMatters": [
-    "AI's energy appetite is now raising real costs for real communities, not just an abstract climate concern.",
-    "A direct policy collision: the same administration championing both AI buildout and domestic manufacturing can't easily have both.",
-    "Grounds for the ethical conversation about who bears AI's costs — often people who never chose to use it."
-   ]
-  },
-  {
    "title": "Anthropic Can Now Read Claude’s Mind",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Anthropic-Can-Now-Read-Claudes-Mind-e3lphgm",
    "source": "The AI Daily Brief",
@@ -2208,24 +2247,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
-   "link": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-07T16:14:53+00:00",
-   "summary": "It's early, but the plan is to reduce dependency on Nvidia and Huawei.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Chinese AI lab DeepSeek, squeezed by US export controls on advanced chips, plans to manufacture its own chips. The effort is at an early stage and aims to reduce dependence on both Nvidia and Huawei.",
-   "whyMatters": [
-    "US chip controls are pushing Chinese labs toward self-sufficiency — potentially the opposite of the controls' intent over the long run.",
-    "If DeepSeek succeeds, the US loses a key lever over Chinese AI development."
-   ]
-  },
-  {
    "title": "The foundational elements of AI architecture that IT leaders need to scale",
    "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
    "source": "MIT Tech Review · AI",
@@ -2241,26 +2262,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Captures a real anxiety in organizations: AI is moving so fast that six-month-old investments may already be obsolete.",
     "The 'get the foundations right' advice applies to nonprofits and schools adopting AI too, not just enterprises."
-   ]
-  },
-  {
-   "title": "How AI could enable autonomous robot workers in workplaces—and maybe homes",
-   "link": "https://arstechnica.com/ai/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-07T11:00:18+00:00",
-   "summary": "Top robotics researchers and founders explain how robot autonomy is evolving.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Ars Technica interviews leading robotics researchers and founders about how AI is advancing robot autonomy, and what it would take for general-purpose autonomous robots to work in workplaces and eventually homes.",
-   "whyMatters": [
-    "AI is jumping from screens into physical machines — the labor and safety questions get much more concrete.",
-    "Robots in homes and workplaces will sharpen debates about which kinds of work, including care work, we're willing to hand to machines."
    ]
   },
   {
@@ -3192,25 +3193,6 @@ window.NEWS_DATA = {
     "The takeaway for anyone building on AI tools: single-vendor dependence is now seen as a real risk, not a hypothetical.",
     "Signals that the model landscape is splintering — open models and routing layers are becoming mainstream strategy, not fringe options.",
     "Five minutes of catch-up on a genuinely chaotic week, if you only listen to one thing."
-   ]
-  },
-  {
-   "title": "Your Company Doesn’t Need an AI Strategy",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Your-Company-Doesnt-Need-an-AI-Strategy-e3l14m1",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-19T18:36:11+00:00",
-   "summary": "...it needs an AI learning system. This episode argues that the Fable 5 disruption exposed a deeper enterprise problem: companies can’t treat AI as a vendor strategy. The real advantage will come from building learning systems that capture institutional judgment, workflow traces, private evals, and model-portable IP. In the headlines: could Anthropic and the White House be headed for a resolution?",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121720961/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-19%2F426468386-44100-2-fd814bd4b4bde.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "This episode argues that the Fable 5 disruption exposed a flaw in how enterprises approach AI: treating it as a vendor-picking exercise. The claim is that lasting advantage comes from building an internal 'AI learning system' — capturing institutional judgment, workflow traces, private evaluations, and IP that stays portable across models. Headlines include hints that Anthropic and the White House may be moving toward a resolution.",
-   "whyMatters": [
-    "The core idea applies to nonprofits and religious institutions too: your accumulated judgment and workflows are the durable asset, not your choice of chatbot.",
-    "Model-portable practices protect you when a vendor stumbles — a timely lesson given the Fable 5 upheaval.",
-    "The Anthropic–White House resolution rumor is worth tracking for anyone whose tools run on Anthropic models."
    ]
   },
   {
