@@ -1,42 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-17T18:09:58.565234+00:00",
+ "generatedAt": "2026-07-17T23:56:22.284304+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-17T18:10:14.920640+00:00",
+  "generatedAt": "2026-07-17T23:56:41.140896+00:00",
   "bullets": [
    {
-    "text": "San Francisco ordered Apple and Google to remove AI 'nudify' apps generating nonconsensual intimate images, citing millions in app-store fees earned from these tools.",
+    "text": "Moonshot's Kimi K3 open-weight model achieves near-frontier performance (Opus/GPT-5.6 class), but practical testing reveals serious gaps in reliability, speed, and cost-effectiveness limiting immediate utility.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee",
+     "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything"
+    ]
+   },
+   {
+    "text": "San Francisco ordered Apple and Google to remove AI nudify apps from their stores after the companies profited millions in fees from tools used to create nonconsensual intimate images of women and girls.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
      "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    },
    {
-    "text": "EU mandated Google open Android and Search to rival AI assistants and search engines; Google also forced to share search data, marking major interoperability requirements.",
+    "text": "EU mandated Google share search data and open AI on Android under Digital Markets Act; Apple sued OpenAI alleging unfair competitive practices, escalating regulatory and legal pressure on AI leaders.",
     "links": [
      "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
      "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "Major new open-source models released: Kimi K3 (2.8T parameters, matching Claude Opus quality at lower price) and Inkling (975B multimodal, Apache 2.0 licensed).",
+    "text": "OpenAI developed GPT-Red, an automated red-teaming system using self-play to identify AI vulnerabilities; separately, researchers exposed data exfiltration risks in Claude and xAI's Grok, raising ongoing safety concerns.",
     "links": [
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-     "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b"
+     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
     ]
    },
    {
-    "text": "Apple sued OpenAI alleging unfair business practices; xAI sued a user for generating child abuse material via Grok after previously being unable to deny the capability.",
+    "text": "Suno's hacked source code revealed it scraped millions of songs from YouTube, Deezer, and Genius without disclosure, intensifying the AI industry's unresolved training-data transparency crisis.",
     "links": [
-     "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/"
-    ]
-   },
-   {
-    "text": "Hyundai factory workers striking over planned deployment of 25,000 humanoid Atlas robots; Foundation Future Industries developing military-grade robots with Eric Trump as chief strategy adviser.",
-    "links": [
-     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
-     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
     ]
    }
   ]
@@ -84,6 +84,62 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Is Kimi K3 Really Fable Class?",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-17T20:22:07+00:00",
+   "summary": "Moonshot’s Kimi K3 is the strongest open-weight model yet, with benchmarks approaching Fable 5 and GPT-5.6. But early testing reveals major limitations in reliability, speed, and cost. NLW examines whether K3 lives up to the hype—and what it means for open models, AI safety, and the US-China race. Brought to you by: KPMG – Research from KPMG and the University of Texas at Austin shows the highest-",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122978190/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-17%2F428152765-44100-2-3188a9b9df7e9.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Moonshot's Kimi K3 open-weight model achieves benchmark scores approaching Fable 5 and GPT-5.6, making it the strongest open-weight model to date. However, early testing has exposed significant practical limitations in reliability, speed, and cost-effectiveness that call into question whether the benchmarks translate to real-world performance.",
+   "whyMatters": [
+    "Open-weight models challenge closed commercial AI dominance; K3's mixed results illustrate the gap between benchmark claims and usable systems.",
+    "Raises questions about how the US-China AI competition and AI safety priorities interact when evaluating breakthrough claims."
+   ]
+  },
+  {
+   "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
+   "link": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-17T19:50:18+00:00",
+   "summary": "The FireSat program can spot wildfires that other satellites miss.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google-backed FireSat satellites have launched for wildfire detection and can identify fires that other satellite systems miss. The timely deployment comes as wildfire smoke affects large areas of the US and Canada.",
+   "whyMatters": [
+    "Demonstrates practical AI and remote-sensing application that directly reduces human and ecological harm during active crises.",
+    "Shows technology companies deploying infrastructure for public benefit in real-time environmental emergencies."
+   ]
+  },
+  {
+   "title": "TikTok is testing an AI likeness detection tool",
+   "link": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-17T19:34:30+00:00",
+   "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been working on a similar tool […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "TikTok is piloting an opt-in tool that detects AI-generated likenesses of creators and allows them to report such content to the platform. The test is currently limited to some US creators, following similar efforts by YouTube.",
+   "whyMatters": [
+    "Addresses creator protection and consent—a core labor and dignity issue as synthetic media becomes easier to produce.",
+    "Positions platforms' AI detection capability as a rights enforcement mechanism, though opt-in scope suggests incomplete coverage."
+   ]
+  },
   {
    "title": "Apple’s plot to crush OpenAI",
    "link": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
@@ -157,6 +213,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "LLM cliché highlighter",
+   "link": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-17T12:11:11+00:00",
+   "summary": "Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that sort of writing. Tags: tools , ai , generative-ai , llms",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A web tool created with Fable 5 identifies ten common patterns in LLM-generated writing—such as \"no fluff, no filler, no jargon\"—to help readers spot AI-composed or AI-influenced text. The tool highlights recognizable clichés typical of large language model output.",
+   "whyMatters": [
+    "Reflects growing awareness that LLM text has detectable statistical signatures; useful for educators and content consumers assessing authenticity.",
+    "Highlights the human cognitive work still required to parse AI-generated content—automation alone does not solve the literacy problem."
+   ]
+  },
+  {
    "title": "The A.I. Trade Secrets War + Economists Say ‘We Must Act Now’ + HatGPT",
    "link": "https://www.nytimes.com/column/hard-fork",
    "source": "Hard Fork",
@@ -199,7 +273,7 @@ window.NEWS_DATA = {
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-07-17T10:00:00+00:00",
-   "summary": "Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+   "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -885,23 +959,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Bagels are hanging from the trees in Beijing. Is China bagelmaxxing?",
-   "link": "https://forward.com/food/838169/is-china-bagelmaxxing/",
-   "source": "The Forward",
-   "category": "religion",
-   "date": "2026-07-15T18:50:49+00:00",
-   "summary": "I was strolling through a gleaming new mall complex in Beijing beside a couple walking their robot dog when I stumbled upon the bagel tree. Its branches, though bare of leaves, bore giant bagel sculptures, hanging from its boughs on translucent string. In front was a sign proclaiming, “Beigel Tree by New York Bagelous Museum.”...",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "A bagel-themed installation appeared in a Beijing mall, featuring a 'Beigel Tree' sculpture as part of what appears to be a New York Bagel Museum exhibit.",
-   "whyMatters": []
-  },
-  {
    "title": "AI Isn’t Smarter Than a Baby—Yet",
    "link": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
    "source": "Wired · AI",
@@ -1047,24 +1104,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises legal questions about whether Suno's scraping violates platform terms of service or copyright law",
     "Demonstrates the tension between AI training data needs and content creator rights"
-   ]
-  },
-  {
-   "title": "OpenAI finally launches hardware… for Codex",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-15T13:30:33+00:00",
-   "summary": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-shaped block of buttons called Codex Micro, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI launched the Codex Micro, a square button-based hardware device for use with its Codex coding platform. This is separate from the rumored consumer AI device being developed with Jony Ive.",
-   "whyMatters": [
-    "Signals OpenAI's focus on developer tools and infrastructure over consumer hardware",
-    "Positions the company as building the foundation layer for AI-assisted coding workflows"
    ]
   },
   {
@@ -1806,24 +1845,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Nilay Patel",
-   "link": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-10T17:05:26+00:00",
-   "summary": "The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it. There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time. You have to send that d",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nilay Patel argues that augmented reality glasses fundamentally require continuous-recording cameras and edge processing that cannot be miniaturized into a glasses frame with current technology; data processing must be offloaded to external systems.",
-   "whyMatters": [
-    "Clarifies technical constraints on AR hardware development, undermining assumptions that fully local processing is imminent",
-    "Has implications for privacy and surveillance concerns in ubiquitous computing that may interest communities and educators thinking about data ethics"
-   ]
-  },
-  {
    "title": "Disable autoplay and infinite scroll or risk massive fines, EU tells Meta",
    "link": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
    "source": "Ars Technica · AI",
@@ -2159,24 +2180,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "This is education's AI crisis in one number: a 50% score drop suggests grades had been measuring AI use, not learning.",
     "Directly relevant to Jewish education: assessment design — in-person, oral, discussion-based — may matter more than detection tools, and the beit midrash model of face-to-face learning looks newly durable."
-   ]
-  },
-  {
-   "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
-   "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-08T19:56:37+00:00",
-   "summary": "More young girls sue X over Grok CSAM; X accused of shielding child predators.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A lawsuit alleges a man used Grok to generate roughly 7,000 sexual images of his stepdaughter before killing himself, and that X reported only a single prompt to authorities. More young girls have joined suits accusing X of enabling AI-generated child sexual abuse material and shielding predators.",
-   "whyMatters": [
-    "The gravest kind of AI harm story: generative tools weaponized against a child, with the platform's safeguards and reporting allegedly failing almost entirely.",
-    "These lawsuits may set the legal precedent for how liable AI companies are for what their models generate — a core AI-ethics question heading to the courts."
    ]
   },
   {
@@ -3187,25 +3190,6 @@ window.NEWS_DATA = {
     "If cloud AI vendors can raise prices or cut access, running models locally is the hedge — relevant to any organization that has built workflows on one provider.",
     "Local AI keeps data on your own machines, which matters for institutions handling sensitive information, including congregations and schools.",
     "A practical starting-point guide rather than theory — useful if you want to experiment with open models on your own hardware."
-   ]
-  },
-  {
-   "title": "The 5-Minute AI Weekly Recap: Realignment Week",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-5-Minute-AI-Weekly-Recap-Realignment-Week-e3l2097",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-20T15:00:00+00:00",
-   "summary": "This week, the Fable fallout became a broader realignment across AI, pushing more attention toward open models, model routing, local control, and the risks of building around any single frontier system. GLM 5.2, OpenRouter’s Fusion, SpaceX’s Cursor acquisition, and Europe’s AI sovereignty scramble all point to the same shift: the model ecosystem is getting more fragmented, more strategic, and more",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121749223/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-20%2F426503865-44100-2-bdadaca3da607.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "A quick weekly recap arguing that the fallout from the Fable 5 controversy has turned into an industry-wide realignment: more attention on open models, model routing, and local control, and more wariness about depending on any single frontier system. The episode ties together GLM 5.2, OpenRouter's Fusion, SpaceX's acquisition of Cursor, and Europe's push for AI sovereignty as parts of the same fragmentation trend.",
-   "whyMatters": [
-    "The takeaway for anyone building on AI tools: single-vendor dependence is now seen as a real risk, not a hypothetical.",
-    "Signals that the model landscape is splintering — open models and routing layers are becoming mainstream strategy, not fringe options.",
-    "Five minutes of catch-up on a genuinely chaotic week, if you only listen to one thing."
    ]
   },
   {
