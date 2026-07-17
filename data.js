@@ -1,39 +1,45 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-17T00:02:04.387928+00:00",
+ "generatedAt": "2026-07-17T07:20:55.957948+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-17T00:02:25.156967+00:00",
+  "generatedAt": "2026-07-17T07:21:08.683419+00:00",
   "bullets": [
    {
-    "text": "EU mandates Google open Android and Search to rival AI systems; Google must share search data under digital antitrust rules.",
+    "text": "EU mandates Google share search data and open AI on Android; US states impose data center moratoriums, signaling tightening regulatory pressure on dominant AI platforms.",
     "links": [
      "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
      "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "New York imposes first-in-nation one-year data center moratorium, signaling potential broader regulatory backlash against AI infrastructure expansion.",
+    "text": "Open-source AI models scaling dramatically: Kimi K3 (2.8T parameters) and Inkling (975B) challenge proprietary incumbents, democratizing frontier-class capabilities.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+     "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/"
     ]
    },
    {
-    "text": "xAI sues Grok user for generating child sexual abuse material after previously denying the system's capability to create such content.",
+    "text": "xAI's Grok sued for enabling child sexual abuse material; major AI training data sources (Suno scraped YouTube, Genius, Deezer) exposed, raising accountability and consent issues.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
+     "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
     ]
    },
    {
-    "text": "Moonshot AI's Kimi K3 reaches 2.8 trillion parameters; open-weight release promised by July 27, marking first major open model in 3-trillion-parameter class.",
+    "text": "Critical security vulnerabilities discovered in deployed AI systems: Claude's web_fetch leaks user data; GPT-5.6 can delete files; xAI's open-source tool uploaded user directories without consent.",
     "links": [
-     "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything"
-    ]
-   },
-   {
-    "text": "Claude's web_fetch tool vulnerability allows private data exfiltration; GPT-5.6 has critical file-deletion bug when safety features disabled.",
-    "links": [
+     "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
      "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-     "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything"
+     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
+    ]
+   },
+   {
+    "text": "U.S. military deployed weaponized autonomous drone boats in combat; Hyundai workers striking over planned humanoid robot deployment, marking rising labor and geopolitical AI tensions.",
+    "links": [
+     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/"
     ]
    }
   ]
@@ -87,12 +93,52 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Spot birds not golf",
+   "link": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-17T02:58:07+00:00",
+   "summary": "Suggestion for hyperscalers feeling pressure over data center water use: Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby! Google used 10.9 billion gallons in 2025 , so about 30 million gallons per day. The Coachella Valley has 120 golf courses e",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Simon Willison proposes a tongue-in-cheek solution to data center water consumption: major tech companies could purchase golf courses and convert them into public parks with birdwatching programs, redirecting water-intensive leisure toward sustainable alternatives. He cites Google's 2025 water usage of 10.9 billion gallons and notes the Coachella Valley's 120 golf courses as a potential target.",
+   "whyMatters": [
+    "Highlights the genuine tension between AI infrastructure's massive water demands and environmental sustainability, relevant to decisions by tech leaders and policymakers",
+    "Sarcastically illustrates how corporate resource consumption intersects with public land use and community recreation"
+   ]
+  },
+  {
+   "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+   "link": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-17T01:46:36+00:00",
+   "summary": "a great week for open models continues.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!xVk0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d22c3fe-fde7-4c91-9e50-83b1597fe747_1958x1160.png",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Kimi K3 2.8T-A50B has been released as the largest open-source language model to date, reportedly matching Claude Opus 4.8 performance levels while priced at Sonnet 5 rates. This continues a recent streak of significant releases in the open model ecosystem.",
+   "whyMatters": [
+    "Open models reaching Opus-class performance at lower price points intensifies competition and increases accessibility for educators, researchers, and organizations with cost constraints",
+    "Shifts the competitive landscape by demonstrating open development can match or exceed proprietary model capabilities at scale"
+   ]
+  },
+  {
    "title": "Firefox in WebAssembly",
    "link": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-07-16T23:34:16+00:00",
-   "summary": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process support. The project took an estimated $25,000 of Claude Opus and Fable tokens, taking advantage of a Claude Max subscript",
+   "summary": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max s",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1874,25 +1920,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The new GPT-5.6 family: Luna, Terra, Sol",
-   "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-09T19:46:38+00:00",
-   "summary": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn't tell us much now that the number of",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.webp",
-   "themes": [],
-   "aiSummary": "OpenAI's GPT-5.6 family reached general availability in three sizes: Luna, Terra, and Sol, priced per million input/output tokens at $1/$6, $2.50/$15, and $5/$30 respectively. Simon Willison notes Sol undercuts Claude Opus ($5/$25) and Claude Fable 5 ($10/$50) on list price, while cautioning that per-token pricing no longer tells the whole cost story.",
-   "whyMatters": [
-    "Concrete pricing for the new flagship tier — useful if you're choosing models for projects or budgets.",
-    "OpenAI pricing aggressively against Anthropic's top models intensifies the frontier price war.",
-    "Willison's caveat matters: token counts per task vary so much that sticker price is an unreliable comparison."
-   ]
-  },
-  {
    "title": "How the 4 New AI Models Change How You Work",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-4-New-AI-Models-Change-How-You-Work-e3lsgnh",
    "source": "The AI Daily Brief",
@@ -2651,24 +2678,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals that agent adoption in big organizations needs hands-on human consultants, not just a product license — the tools don't deploy themselves.",
     "The forward-deployed model is a template any institution, including nonprofits and religious movements, might eventually encounter when adopting AI."
-   ]
-  },
-  {
-   "title": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-   "link": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-01T14:42:39+00:00",
-   "summary": "Why the Llama lead left Meta for drug discovery, PEARL's zero-shot OpenBind win, and what becomes possible when co-folding finally crosses the accuracy threshold.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/204393300/c3e6a250afb2434055b308d47570a862.mp3",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Latent Space interview with Evan Feinberg and Sergey Edunov of Genesis Molecular AI on applying diffusion models to drug discovery rather than language. Edunov, who previously led Llama at Meta, discusses their PEARL model's zero-shot win on the OpenBind benchmark and what improved protein co-folding accuracy could unlock.",
-   "whyMatters": [
-    "AI-for-drug-discovery is where the technology's clearest life-saving potential lies — pikuach nefesh territory, not chatbot hype.",
-    "A Llama lead leaving Meta for biotech says something about where top researchers see the frontier."
    ]
   },
   {
