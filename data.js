@@ -1,34 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-17T11:08:49.959483+00:00",
+ "generatedAt": "2026-07-17T12:13:33.145753+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-17T11:09:06.428687+00:00",
+  "generatedAt": "2026-07-17T12:13:40.395585+00:00",
   "bullets": [
    {
-    "text": "EU mandates Google share search data and open AI on Android; Google argues it could compromise privacy and security.",
+    "text": "EU mandates Google share search data and open AI on Android; Apple sues OpenAI over competitive practices and data use.",
     "links": [
      "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
+     "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/"
     ]
    },
    {
-    "text": "San Francisco demands Apple and Google remove 13 AI face-swap apps used to create non-consensual intimate images of women and girls.",
+    "text": "New York imposes first-in-nation data center construction moratorium, signaling potential regulatory backlash against AI infrastructure expansion.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
+    ]
+   },
+   {
+    "text": "San Francisco demands Apple and Google remove 13 AI deepfake apps used to create nonconsensual intimate images of women and girls.",
     "links": [
      "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    },
    {
-    "text": "xAI sued a user for generating child sexual abuse material with Grok after previously being unable to deny the model could produce such content.",
+    "text": "Suno AI scraped millions of songs from YouTube, Deezer, and Genius without disclosure; xAI's Grok-Build tool secretly uploaded user directories to company servers.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-     "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
     ]
    },
    {
-    "text": "Hyundai workers strike over plans to deploy 25,000 humanoid Atlas robots in US factories beginning 2028; Foundation Future Industries (backed by Eric Trump) develops robots for military applications.",
+    "text": "Largest open-source model released: Kimi K3 matches premium-tier performance at mid-tier pricing; Thinking Machines Lab debuts Inkling, signaling new competitive landscape.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
-     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest"
     ]
    }
   ]
