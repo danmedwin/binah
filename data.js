@@ -1,97 +1,174 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-17T07:20:55.957948+00:00",
+ "generatedAt": "2026-07-17T11:08:49.959483+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-17T07:21:08.683419+00:00",
+  "generatedAt": "2026-07-17T11:09:06.428687+00:00",
   "bullets": [
    {
-    "text": "EU mandates Google share search data and open AI on Android; US states impose data center moratoriums, signaling tightening regulatory pressure on dominant AI platforms.",
+    "text": "EU mandates Google share search data and open AI on Android; Google argues it could compromise privacy and security.",
     "links": [
      "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
      "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "Open-source AI models scaling dramatically: Kimi K3 (2.8T parameters) and Inkling (975B) challenge proprietary incumbents, democratizing frontier-class capabilities.",
+    "text": "San Francisco demands Apple and Google remove 13 AI face-swap apps used to create non-consensual intimate images of women and girls.",
     "links": [
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-     "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/"
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    },
    {
-    "text": "xAI's Grok sued for enabling child sexual abuse material; major AI training data sources (Suno scraped YouTube, Genius, Deezer) exposed, raising accountability and consent issues.",
+    "text": "xAI sued a user for generating child sexual abuse material with Grok after previously being unable to deny the model could produce such content.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
+     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+     "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
     ]
    },
    {
-    "text": "Critical security vulnerabilities discovered in deployed AI systems: Claude's web_fetch leaks user data; GPT-5.6 can delete files; xAI's open-source tool uploaded user directories without consent.",
+    "text": "Hyundai workers strike over plans to deploy 25,000 humanoid Atlas robots in US factories beginning 2028; Foundation Future Industries (backed by Eric Trump) develops robots for military applications.",
     "links": [
-     "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
-    ]
-   },
-   {
-    "text": "U.S. military deployed weaponized autonomous drone boats in combat; Hyundai workers striking over planned humanoid robot deployment, marking rising labor and geopolitical AI tensions.",
-    "links": [
-     "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
-     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/"
+     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-16T11:21:11.215393+00:00",
+  "generatedAt": "2026-07-17T11:09:06.428687+00:00",
   "bullets": [
    {
-    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting prior opacity about training data sources and raising fresh copyright liability concerns.",
+    "text": "EU mandates Google share search data and open AI on Android; Google argues it could compromise privacy and security.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
+     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "Claude's web_fetch tool can be exploited to exfiltrate private user data like interaction memories, exposing a vulnerability in AI assistant security when tasked with external data retrieval.",
+    "text": "San Francisco demands Apple and Google remove 13 AI face-swap apps used to create non-consensual intimate images of women and girls.",
     "links": [
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    },
    {
-    "text": "New York imposed the first state data center construction moratorium, signaling potential broader regulatory backlash against AI infrastructure expansion and alarming the industry.",
+    "text": "xAI sued a user for generating child sexual abuse material with Grok after previously being unable to deny the model could produce such content.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
+     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+     "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
     ]
    },
    {
-    "text": "OpenAI developed GPT-Red, an LLM trained to identify security vulnerabilities through adversarial testing; GPT-5.6 trained against it shows improved robustness against prompt injection attacks.",
+    "text": "Hyundai workers strike over plans to deploy 25,000 humanoid Atlas robots in US factories beginning 2028; Foundation Future Industries (backed by Eric Trump) develops robots for military applications.",
     "links": [
-     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-     "https://openai.com/index/unlocking-self-improvement-gpt-red"
-    ]
-   },
-   {
-    "text": "Thinking Machines Lab released Inkling, a 975-billion-parameter open-source multimodal model trained on video and audio, positioning itself as a competitor to Anthropic and OpenAI in frontier AI development.",
-    "links": [
-     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
-     "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b"
+     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-16T11:21:04.858955+00:00",
+  "updatedAt": "2026-07-17T11:09:00.816040+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
-   "Drawn to stories about major tech companies' AI initiatives and their business impacts",
-   "Prefers substantive reporting over technical release notes and developer tool updates"
+   "Interested in AI ethics and religious/moral perspectives on technology",
+   "Appreciates substantive tech industry reporting (Apple, major platforms)",
+   "Values practical AI applications and product features",
+   "Dislikes granular technical documentation and low-level software updates"
   ]
  },
  "items": [
+  {
+   "title": "The A.I. Trade Secrets War + Economists Say ‘We Must Act Now’ + HatGPT",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-07-17T11:00:00+00:00",
+   "summary": "This week, feuding between some of the biggest tech companies spilled into public view. We discuss Apple’s accusation that OpenAI tried to steal secrets about Apple’s hardware business, as well as share our reactions about OpenAI’s new model, Sol, and Anthropic’s decision to extend access to its model Fable. Then, we unpack the loudest warning yet about A.I. and jobs. We talk with Erik Brynjolfsso",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/e217845b-2a82-436c-9d5a-120ae4447a82/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=e217845b-2a82-436c-9d5a-120ae4447a82&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
+  {
+   "title": "San Francisco Demands Apple and Google Delete AI ‘Nudify’ Apps From App Stores",
+   "link": "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-17T10:00:00+00:00",
+   "summary": "The City Attorney’s Office sent the tech giants cease-and-desist letters this week telling them to stop profiting from 13 “face-swap” apps that are overwhelmingly used to target women and girls.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "San Francisco's City Attorney sent cease-and-desist letters to Apple and Google demanding they remove 13 AI face-swap apps from their app stores. These apps are used predominantly to create non-consensual intimate images of women and girls.",
+   "whyMatters": [
+    "Sexual abuse material and image-based sexual abuse are documented harms—this addresses enforcement against tools explicitly designed for targeting women and minors",
+    "Sets precedent for platform accountability: major app stores face legal pressure to police AI tools enabling gender-based harassment rather than passing liability to end-users"
+   ]
+  },
+  {
+   "title": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War",
+   "link": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-17T09:00:00+00:00",
+   "summary": "The CEO of Foundation Future Industries, which counts the president’s son as its chief strategy adviser, tells WIRED it’s exploring some “kinetic things.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Foundation Future Industries, a humanoid robotics company with Eric Trump as chief strategy adviser, is developing robots for military applications, according to its CEO's description of exploring \"kinetic things.\"",
+   "whyMatters": [
+    "Marks consolidation of AI/robotics development with political family connections, raising questions about revolving-door governance and defense-tech influence",
+    "Military robotics and autonomous systems raise policy questions about decision-making, deployment, and oversight that currently lack clear regulatory frameworks"
+   ]
+  },
+  {
+   "title": "The Future of AI Infrastructure with CoreWeave",
+   "link": "https://share.transistor.fm/s/01c30767",
+   "source": "Practical AI",
+   "category": "podcast",
+   "date": "2026-07-17T09:00:00+00:00",
+   "summary": "As AI applications become more complex, the infrastructure powering them needs to evolve. Corey Sanders, SVP of Product at CoreWeave, joins Chris to discuss why AI requires a fundamentally different approach than traditional cloud computing. They explore AI-native infrastructure, training and inference workloads, the rise of agentic development, optimizing GPU performance, AI research workflows, a",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/01c30767/eed885fc.mp3",
+   "image": "https://img.transistorcdn.com/ws8ux-rU7Be0kUVF-WpTgh1Vk3BmeTE-LRdaQjrdgz8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wOWE4/NGFiMDVkYjMxMjVh/YTA1ZDQ1ZjRkODNi/MTA1Mi5wbmc.jpg",
+   "themes": [],
+   "aiSummary": "CoreWeave's Corey Sanders discussed how AI infrastructure must differ fundamentally from traditional cloud computing, covering AI-native systems, GPU optimization, and agentic workflows.",
+   "whyMatters": [
+    "Infrastructure constraints are real bottlenecks shaping which AI applications succeed—understanding specialized compute needs matters for predicting AI capability advances",
+    "As inference and training workloads diversify, infrastructure design becomes a competitive lever in the AI landscape"
+   ]
+  },
+  {
+   "title": "The risk of weather data sabotage is rising",
+   "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-17T08:57:32+00:00",
+   "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, with real money, livelihoods, and even actual lives at stake. Farmers use…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Weather forecasts, which influence major decisions daily across aviation, energy grids, and agriculture, face rising vulnerability to data sabotage and manipulation.",
+   "whyMatters": [
+    "Weather data is critical infrastructure underpinning food security, energy systems, and transportation—compromising it has cascading real-world consequences",
+    "Highlights a class of AI/ML systems (those relying on external data sources) that are vulnerable to adversarial attack and poisoning, requiring new security models"
+   ]
+  },
   {
    "title": "Spot birds not golf",
    "link": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
@@ -1210,26 +1287,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "YouTube and X Have Become ‘Gateways’ to Nudify Apps",
-   "link": "https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-14T16:05:18+00:00",
-   "summary": "A new study found that social media platforms are referring people to sites where they can create nonconsensual, sexually explicit deepfakes for as little as $1 an image.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Research shows that YouTube and X (formerly Twitter) are directing users toward services that generate nonconsensual sexually explicit deepfakes, available for as little as $1 per image. These platforms are functioning as referral gateways to tools for creating abusive synthetic media.",
-   "whyMatters": [
-    "Demonstrates how major platforms enable access to tools for creating non-consensual sexual imagery, a serious harm disproportionately affecting women",
-    "Raises urgent questions about platform responsibility, content moderation, and the need for AI safety guardrails around synthetic media abuse"
-   ]
-  },
-  {
    "title": "New York bans data center construction for a year, rattling AI industry",
    "link": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
    "source": "Ars Technica · AI",
@@ -1263,24 +1320,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates how AI can enable intellectual property infringement at scale, threatening original game developers' revenues and incentives",
     "Raises questions about IP protection in an AI-assisted development world and the sustainability of original creative work"
-   ]
-  },
-  {
-   "title": "This Luddite Puppet Hopes You’re Not Reading This on Your Smartphone",
-   "link": "https://www.wired.com/story/the-big-interview-podcast-summer-of-ludd-gowanus/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-14T10:30:00+00:00",
-   "summary": "On this week’s episode of The Big Interview podcast, WIRED’s senior culture editor Manisha Krishnan talks to Gowanus about eschewing Big Tech, going outside, and rejection in the age of dating apps.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A podcast episode features Gowanus, a figure promoting Luddite ideas and skepticism toward Big Tech, discussing the rejection of smartphones and technology in favor of offline life and going outside.",
-   "whyMatters": [
-    "Reflects growing cultural pushback against tech dependence and algorithmic mediation, relevant to educators considering tech's role in learning environments",
-    "Represents counternarrative to AI/tech adoption that some communities and educators may find worth examining alongside AI integration strategies"
    ]
   },
   {
@@ -1743,25 +1782,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Bridges AI governance conversations with philosophical and theological frameworks, offering non-Western perspectives on consciousness and technology",
     "Relevant to rabbis and religious educators seeking to ground AI ethics in deep theological and philosophical traditions"
-   ]
-  },
-  {
-   "title": "Do Social Media Bans Work? + A Conversation About A.I. Consciousness + Tool Time",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-07-10T11:00:00+00:00",
-   "summary": "This week, with news that the U.S. Supreme Court declined to take up Texas’ age verification law for app stores, we check in on how social media bans are going around the globe and what may be coming soon to a state near you. Then, we’re joined by Jeff Sebo, an associate professor at N.Y.U., to discuss new research into “A.I. welfare” and whether A.I. could ever become conscious. And finally, in o",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/66388e1d-5945-46ac-8ff4-81c64aa56dbf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=66388e1d-5945-46ac-8ff4-81c64aa56dbf&feed=l2i9YnTd",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
    ]
   },
   {
@@ -2754,24 +2774,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Developer availability is what turns model announcements into tools people actually use in apps and workflows.",
     "Relevant if any of your own image-generation pipelines could switch to the cheaper Lite tier."
-   ]
-  },
-  {
-   "title": "Agriculture is ready for AI, but its data isn’t",
-   "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-06-30T12:00:00+00:00",
-   "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Technology Review argues that while AI-enabled predictive models could meaningfully improve farming — helpful in an industry facing volatile fertilizer costs, unpredictable weather, and thin margins — agriculture's underlying data is not yet in shape to support those systems, and leaders should fix the data groundwork before investing in AI.",
-   "whyMatters": [
-    "'Your data isn't ready' is the universal AI-adoption lesson — it applies to schools and nonprofits as much as to farms.",
-    "AI in food production has direct stakes for food security and prices."
    ]
   },
   {
