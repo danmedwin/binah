@@ -1,39 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-17T12:13:33.145753+00:00",
+ "generatedAt": "2026-07-17T18:09:58.565234+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-17T12:13:40.395585+00:00",
+  "generatedAt": "2026-07-17T18:10:14.920640+00:00",
   "bullets": [
    {
-    "text": "EU mandates Google share search data and open AI on Android; Apple sues OpenAI over competitive practices and data use.",
+    "text": "San Francisco ordered Apple and Google to remove AI 'nudify' apps generating nonconsensual intimate images, citing millions in app-store fees earned from these tools.",
     "links": [
-     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/"
-    ]
-   },
-   {
-    "text": "New York imposes first-in-nation data center construction moratorium, signaling potential regulatory backlash against AI infrastructure expansion.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
-    ]
-   },
-   {
-    "text": "San Francisco demands Apple and Google remove 13 AI deepfake apps used to create nonconsensual intimate images of women and girls.",
-    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
      "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    },
    {
-    "text": "Suno AI scraped millions of songs from YouTube, Deezer, and Genius without disclosure; xAI's Grok-Build tool secretly uploaded user directories to company servers.",
+    "text": "EU mandated Google open Android and Search to rival AI assistants and search engines; Google also forced to share search data, marking major interoperability requirements.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
+     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "Largest open-source model released: Kimi K3 matches premium-tier performance at mid-tier pricing; Thinking Machines Lab debuts Inkling, signaling new competitive landscape.",
+    "text": "Major new open-source models released: Kimi K3 (2.8T parameters, matching Claude Opus quality at lower price) and Inkling (975B multimodal, Apache 2.0 licensed).",
     "links": [
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest"
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+     "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b"
+    ]
+   },
+   {
+    "text": "Apple sued OpenAI alleging unfair business practices; xAI sued a user for generating child abuse material via Grok after previously being unable to deny the capability.",
+    "links": [
+     "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/"
+    ]
+   },
+   {
+    "text": "Hyundai factory workers striking over planned deployment of 25,000 humanoid Atlas robots; Foundation Future Industries developing military-grade robots with Eric Trump as chief strategy adviser.",
+    "links": [
+     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
     ]
    }
   ]
@@ -82,6 +85,78 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Apple’s plot to crush OpenAI",
+   "link": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-17T17:41:32+00:00",
+   "summary": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple is suing OpenAI with allegations detailed in a readable complaint. The Verge explores what Apple actually wants from the lawsuit and why it chose such a public confrontation, though many experts view the alleged practices as standard industry behavior.",
+   "whyMatters": [
+    "Signals potential shift in how major tech companies challenge each other's AI practices rather than settling privately",
+    "May indicate Apple sees OpenAI's approach as sufficiently threatening to warrant public legal action rather than negotiation"
+   ]
+  },
+  {
+   "title": "San Francisco orders Apple, Google to remove nudify apps from app stores",
+   "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-17T16:10:05+00:00",
+   "summary": "Official estimates Google and Apple likely made millions in nudify app fees.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "San Francisco's attorney general ordered Apple and Google to remove AI-powered nudify apps from their app stores, citing that the companies likely earned millions in fees from these applications.",
+   "whyMatters": [
+    "Establishes regulatory enforcement against non-consensual intimate imagery generation, a concrete harms-based precedent",
+    "Forces app store platforms to take financial and reputational responsibility for enabling AI abuse tools"
+   ]
+  },
+  {
+   "title": "Behind the Blog: Infinite Bowl Machine",
+   "link": "https://www.404media.co/behind-the-blog-infinite-bowl-machine/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-17T16:07:19+00:00",
+   "summary": "This week, we discuss AI music, slop bowls, and the endless quest for optimization.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A discussion of AI-generated music, low-quality AI output ('slop'), and the industry's focus on endless optimization.",
+   "whyMatters": [
+    "Reflects growing concern about AI-generated content quality and what 'optimization' means when applied to creative fields",
+    "Points to tensions between efficiency metrics and actual utility in AI applications"
+   ]
+  },
+  {
+   "title": "Quoting Kimi K3",
+   "link": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-17T13:43:53+00:00",
+   "summary": "Is there something I can actually help you with today? — Kimi K3 , after refusing to leak its system prompt Tags: kimi , ai-personality , generative-ai , ai , llms",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Kimi K3, an AI model, responded to a system prompt extraction attempt with a deflection about how it could actually help instead.",
+   "whyMatters": [
+    "Demonstrates evolving AI personality design—using conversational redirection rather than explicit refusal to defend against jailbreak attempts",
+    "Shows ongoing cat-and-mouse dynamic between researchers testing AI boundaries and systems designed to resist manipulation"
+   ]
+  },
+  {
    "title": "The A.I. Trade Secrets War + Economists Say ‘We Must Act Now’ + HatGPT",
    "link": "https://www.nytimes.com/column/hard-fork",
    "source": "Hard Fork",
@@ -116,6 +191,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Sexual abuse material and image-based sexual abuse are documented harms—this addresses enforcement against tools explicitly designed for targeting women and minors",
     "Sets precedent for platform accountability: major app stores face legal pressure to police AI tools enabling gender-based harassment rather than passing liability to end-users"
+   ]
+  },
+  {
+   "title": "A scorecard for the AI age",
+   "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-17T10:00:00+00:00",
+   "summary": "Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI's CFO Sarah Friar introduced a scorecard for measuring AI's return on investment, tracking useful work completed, cost per successful task, dependability, and computational return.",
+   "whyMatters": [
+    "Provides a business measurement framework as AI moves from research phase to operational deployment in enterprises",
+    "Shifts focus from model capability benchmarks to real-world productivity metrics that enterprises actually care about"
    ]
   },
   {
@@ -1143,27 +1236,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI may announce a ChatGPT smart speaker this year",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-14T21:26:32+00:00",
-   "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit against OpenAI that accused […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates",
-    "environment"
-   ],
-   "aiSummary": "OpenAI is reportedly planning to release a smart speaker hardware device running ChatGPT, equipped with a camera and sensors but no screen, to compete in the smart home market.",
-   "whyMatters": [
-    "Signals OpenAI's expansion beyond software into consumer hardware and physical spaces",
-    "Stakes out OpenAI's position in a category dominated by Apple and Amazon, expanding the reach of conversational AI interfaces"
-   ]
-  },
-  {
    "title": "AI Optimism vs. AI Pessimism",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Optimism-vs--AI-Pessimism-e3m3a74",
    "source": "The AI Daily Brief",
@@ -1829,26 +1901,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting OpenAI",
-   "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-10T01:05:57+00:00",
-   "summary": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer. — OpenAI , trying (unsuccessfully) to clarify ChatGPT Work Tags: openai , chatgpt , ai",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison quotes OpenAI's own explanation of how the new ChatGPT Work handles data: cloud conversations don't appear in the desktop app, desktop threads and local files stay on that computer. His point is that OpenAI's attempt to clarify the product is itself confusing.",
-   "whyMatters": [
-    "If you're evaluating ChatGPT Work for an organization, the cloud-vs-desktop data split matters for privacy and where files live.",
-    "The muddled messaging is a caution: even OpenAI struggles to explain its own product boundaries."
-   ]
-  },
-  {
    "title": "Getting started with ChatGPT",
    "link": "https://openai.com/academy/getting-started",
    "source": "OpenAI News",
@@ -1864,25 +1916,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Relevant to educators and clergy seeking practical instruction on integrating ChatGPT into their work—teaching, sermon preparation, curriculum design",
     "OpenAI's official onboarding content helps establish baseline competency and responsible use patterns among new users in religious and educational communities"
-   ]
-  },
-  {
-   "title": "Patreon Blocks Crawlers From Stealing Creators' Work for AI Training",
-   "link": "https://www.404media.co/patreon-cloudflare-partnership-ai-crawlers/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-09T21:54:58+00:00",
-   "summary": "“Creators deserve credit, compensation, and consent. If that's not on the table, the crawlers can stay the fuck off Patreon,\" CEO Jack Conte wrote on Thursday.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Patreon is blocking AI crawlers from scraping creators' work for training data, in partnership with Cloudflare. CEO Jack Conte framed it bluntly: creators deserve 'credit, compensation, and consent,' and without those the crawlers should stay off the platform.",
-   "whyMatters": [
-    "A major creator platform drawing a hard line on training-data consent — momentum for the 'permission first' side of the copyright fight.",
-    "Cloudflare's involvement means blocking AI crawlers is becoming infrastructure-level and easy to adopt.",
-    "The credit/compensation/consent framing is a clean ethical rubric worth borrowing for teaching about intellectual property and AI."
    ]
   },
   {
@@ -2019,24 +2052,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ChatGPT is now a partner for your most ambitious work",
-   "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI launched ChatGPT Work, an agent that can act across a user's apps and files, stay on a project for hours, and carry a goal through to finished work rather than just answering questions. It marks a shift from chatbot to autonomous worker.",
-   "whyMatters": [
-    "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
-    "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
-   ]
-  },
-  {
    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
    "link": "https://openai.com/index/gpt-5-6",
    "source": "OpenAI News",
@@ -2052,6 +2067,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The per-dollar framing matters: OpenAI is competing on efficiency, not just raw capability, as AI costs become a real business concern.",
     "Each frontier release resets what students, congregants, and colleagues can do with a chatbot — worth a hands-on look to recalibrate."
+   ]
+  },
+  {
+   "title": "ChatGPT is now a partner for your most ambitious work",
+   "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI launched ChatGPT Work, an agent that can act across a user's apps and files, stay on a project for hours, and carry a goal through to finished work rather than just answering questions. It marks a shift from chatbot to autonomous worker.",
+   "whyMatters": [
+    "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
+    "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
    ]
   },
   {
@@ -2162,24 +2195,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Cheap Chinese open models have been quietly subsidizing much of the AI economy; geopolitics could end that overnight.",
     "Rising AI costs would hit small organizations and nonprofits — the kind running on free and cheap tiers — first and hardest."
-   ]
-  },
-  {
-   "title": "Google updates Android Bench with new LLMs, but Gemini still lags behind",
-   "link": "https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-08T16:39:48+00:00",
-   "summary": "Android Bench is evolving, and developers can help guide that process.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google revamped Android Bench, its benchmark for AI models doing Android development work, adding Fable 5 and other new agents to the lineup and inviting developer input on the benchmark's evolution. Google's own Gemini still trails the competition on it.",
-   "whyMatters": [
-    "It is notable candor for Google to publish a benchmark its own model loses on — a sign serious evaluation is (sometimes) beating marketing.",
-    "Agent benchmarks on real development tasks are becoming how the industry actually compares models, replacing vibes and demos."
    ]
   },
   {
@@ -2337,24 +2352,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-   "link": "https://openai.com/index/australian-payments-plus",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-07T00:00:00+00:00",
-   "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI case study: Australian Payments Plus, which runs Australia's payments infrastructure, uses ChatGPT Enterprise and Codex to work through payments complexity faster, with the company emphasizing that human judgment stays central.",
-   "whyMatters": [
-    "AI is being woven into national payments infrastructure — high-stakes plumbing, not just office productivity.",
-    "The 'human judgment stays central' framing is becoming the standard reassurance in enterprise AI stories; worth watching whether practice matches it."
-   ]
-  },
-  {
    "title": "MUFG aims to become AI-native with OpenAI",
    "link": "https://openai.com/index/mufg",
    "source": "OpenAI News",
@@ -2370,6 +2367,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "One of the world's largest banks committing to an AI-native strategy signals how deep enterprise adoption is going.",
     "It's OpenAI's own marketing, so the claims of impact should be read with that in mind."
+   ]
+  },
+  {
+   "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+   "link": "https://openai.com/index/australian-payments-plus",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-07T00:00:00+00:00",
+   "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI case study: Australian Payments Plus, which runs Australia's payments infrastructure, uses ChatGPT Enterprise and Codex to work through payments complexity faster, with the company emphasizing that human judgment stays central.",
+   "whyMatters": [
+    "AI is being woven into national payments infrastructure — high-stakes plumbing, not just office productivity.",
+    "The 'human judgment stays central' framing is becoming the standard reassurance in enterprise AI stories; worth watching whether practice matches it."
    ]
   },
   {
@@ -2800,6 +2815,25 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Introducing GeneBench-Pro",
+   "link": "https://openai.com/index/introducing-genebench-pro",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI introduced GeneBench-Pro, a new benchmark that tests AI performance on genomics, biology, and scientific research tasks using complex, real-world datasets.",
+   "whyMatters": [
+    "New benchmarks in biology signal where labs expect the next capability race — AI as a working scientist, not just a chatbot.",
+    "Real-world datasets make this a more honest test than the toy benchmarks models have already saturated.",
+    "Pairs directly with Anthropic's Claude Science launch — the AI-for-science push is industry-wide this week."
+   ]
+  },
+  {
    "title": "Inside Genebench-Pro",
    "link": "https://openai.com/index/genebench-pro/case-studies",
    "source": "OpenAI News",
@@ -2833,25 +2867,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
     "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
-   ]
-  },
-  {
-   "title": "Introducing GeneBench-Pro",
-   "link": "https://openai.com/index/introducing-genebench-pro",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI introduced GeneBench-Pro, a new benchmark that tests AI performance on genomics, biology, and scientific research tasks using complex, real-world datasets.",
-   "whyMatters": [
-    "New benchmarks in biology signal where labs expect the next capability race — AI as a working scientist, not just a chatbot.",
-    "Real-world datasets make this a more honest test than the toy benchmarks models have already saturated.",
-    "Pairs directly with Anthropic's Claude Science launch — the AI-for-science push is industry-wide this week."
    ]
   },
   {
@@ -2912,24 +2927,6 @@ window.NEWS_DATA = {
     "Concrete occupation-level data on AI job impact is useful for anyone counseling people anxious about their livelihoods.",
     "Note the source: the company selling the technology is also writing the map of its consequences.",
     "Educators appear in these transition analyses too — worth checking where teaching roles land."
-   ]
-  },
-  {
-   "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-   "link": "https://openai.com/index/hp-frontier-partnership",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-28T17:00:00+00:00",
-   "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "HP Inc. is expanding its 'Frontier' strategic partnership with OpenAI, deploying AI across customer experiences, software development, and internal enterprise operations. It's a company-wide adoption commitment rather than a single product launch.",
-   "whyMatters": [
-    "Another legacy hardware giant restructuring around OpenAI's stack — a sign of how concentrated enterprise AI adoption is becoming.",
-    "These flagship partnerships normalize deep AI integration for smaller organizations watching from the sidelines."
    ]
   },
   {
