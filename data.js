@@ -1,33 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-18T17:58:53.034995+00:00",
+ "generatedAt": "2026-07-18T23:58:20.571271+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-18T17:59:01.899271+00:00",
+  "generatedAt": "2026-07-18T23:58:32.849940+00:00",
   "bullets": [
    {
-    "text": "EU orders Google to open Android and Search to rival AI services; separate ruling forces Google to share search data under digital competition rules.",
+    "text": "EU mandates Google share search data and open AI on Android; Apple sues OpenAI; San Francisco demands app stores remove AI nudify tools—major regulatory and legal pressure mounting on AI companies.",
     "links": [
      "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
+     "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    },
    {
-    "text": "San Francisco orders Apple and Google to remove AI deepfake apps generating nonconsensual intimate imagery of women and girls; xAI sues Grok user for generating child abuse material.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
-    ]
-   },
-   {
-    "text": "U.S. government pilots AI system to handle insurance prior authorization decisions, raising concerns about whether automation will reduce or compound healthcare access barriers.",
+    "text": "U.S. pilot tests AI system to handle insurance prior authorization decisions, potentially automating millions of healthcare approvals—raises questions about accuracy and fairness in medical access.",
     "links": [
      "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
     ]
    },
    {
-    "text": "Google-backed FireSat satellites successfully launch for wildfire detection amid smoke choking US and Canada; AI infrastructure demand surges as energy companies hit fastest IPO pace in a century.",
+    "text": "Moonshot AI releases Kimi K3, largest open-source model ever at 2.8 trillion parameters, reportedly matching Opus 4.8 performance—but testing reveals significant practical reliability and cost limitations.",
     "links": [
-     "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
-     "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/"
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
+    ]
+   },
+   {
+    "text": "Hyundai workers strike over planned deployment of 25,000 humanoid robots; Eric Trump-backed robotics firm developing military robots—labor and defense implications accelerating.",
+    "links": [
+     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
+    ]
+   },
+   {
+    "text": "Weather forecast data faces rising vulnerability to sabotage; xAI sued by users over Grok generating child sexual abuse material—critical safety and security gaps remain unresolved.",
+    "links": [
+     "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/"
     ]
    }
   ]
@@ -83,6 +92,43 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-18T20:54:42+00:00",
+   "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Author Dave Eggers, invited by Sam Altman to speak to OpenAI staff, argued that ChatGPT is suppressing emerging writers and creative voices. Eggers, who has founded schools and nonprofits supporting writers and the arts, made this case directly to around 200 OpenAI employees.",
+   "whyMatters": [
+    "Raises concrete concerns about AI's impact on professional creators and the next generation of writers—a key audience for educators and those tracking cultural implications of AI",
+    "Highlights the growing tension between AI companies and the creative community over training data, displacement, and economic opportunity",
+    "Relevant to educators and clergy thinking about AI's role in preserving human intellectual and creative traditions"
+   ]
+  },
+  {
+   "title": "SQLite Query Explainer",
+   "link": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-18T17:19:10+00:00",
+   "summary": "Tool: SQLite Query Explainer Julia Evan's, in Learning a few things about running SQLite : Maybe one day I’ll learn to read a query plan. Big same.... which inspired me to have Fable build this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in the browser and adds a layer of explanation to the results of both EXPLAIN and EXPLAIN QUERY PLAN. Approach with caution, ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An interactive web-based tool was created to help users understand SQLite queries by running EXPLAIN and EXPLAIN QUERY PLAN commands in the browser using WebAssembly. The tool adds explanatory layers on top of SQLite's native query plan output.",
+   "whyMatters": [
+    "Practical developer tool that lowers the barrier to understanding database performance and query optimization",
+    "Demonstrates creative use of Pyodide and WebAssembly to bring powerful debugging capabilities directly to the browser without server dependencies"
+   ]
+  },
   {
    "title": "Will AI fix prior authorization—or make it worse?",
    "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
@@ -1083,24 +1129,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI slop movies are the new direct-to-video cash grabs",
-   "link": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-15T19:55:15+00:00",
-   "summary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The article discusses the trend of low-quality, AI-generated movies replacing traditional direct-to-video content as a new form of quick, low-cost film production.",
-   "whyMatters": [
-    "Marks a shift in entertainment production economics as AI-generated content displaces traditional low-budget filmmaking",
-    "Raises questions about cultural production, artistic labor, and the downstream effects on creative industries and education in media studies"
-   ]
-  },
-  {
    "title": "AI Isn’t Smarter Than a Baby—Yet",
    "link": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
    "source": "Wired · AI",
@@ -1784,24 +1812,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Technical maintenance update for developers using web automation and screenshot tools",
     "No direct relevance to education, religion, or broader AI policy"
-   ]
-  },
-  {
-   "title": "Fable gets another bump",
-   "link": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-12T21:20:07+00:00",
-   "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19. As before, you can use up to half of your weekly usage limit on Fable ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic has extended the availability of Claude Fable 5 on its paid plans through July 19, maintaining its earlier decision to keep the model available longer than originally planned. The extension also keeps Claude Code's weekly rate limits 50% higher during this period.",
-   "whyMatters": [
-    "Signals ongoing demand for or strategic value of the Fable model class, prompting Anthropic to reverse earlier sunset timelines",
-    "Affects users relying on Fable for specific tasks who would otherwise lose access to the capability"
    ]
   },
   {
