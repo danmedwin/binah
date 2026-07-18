@@ -1,40 +1,33 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-18T11:56:21.496125+00:00",
+ "generatedAt": "2026-07-18T17:58:53.034995+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-18T11:56:31.864112+00:00",
+  "generatedAt": "2026-07-18T17:59:01.899271+00:00",
   "bullets": [
    {
-    "text": "EU orders Google to share search data and open Android's AI capabilities to competitors, marking formal regulatory enforcement of digital competition rules.",
+    "text": "EU orders Google to open Android and Search to rival AI services; separate ruling forces Google to share search data under digital competition rules.",
     "links": [
      "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
      "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "San Francisco authorities order Apple and Google to remove 13 AI face-swap apps used to create nonconsensual intimate imagery of women and children.",
+    "text": "San Francisco orders Apple and Google to remove AI deepfake apps generating nonconsensual intimate imagery of women and girls; xAI sues Grok user for generating child abuse material.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
     ]
    },
    {
-    "text": "Suno AI music generator secretly scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting previous opacity about training data.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
-    ]
-   },
-   {
-    "text": "Moonshot releases Kimi K3, the largest open-weight model ever (2.8 trillion parameters), reportedly matching high-end closed models at mid-tier pricing.",
-    "links": [
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
-    ]
-   },
-   {
-    "text": "U.S. government pilots AI system for medical prior authorization decisions, raising questions about whether automation will reduce administrative burden or compromise patient access to care.",
+    "text": "U.S. government pilots AI system to handle insurance prior authorization decisions, raising concerns about whether automation will reduce or compound healthcare access barriers.",
     "links": [
      "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
+    ]
+   },
+   {
+    "text": "Google-backed FireSat satellites successfully launch for wildfire detection amid smoke choking US and Canada; AI infrastructure demand surges as energy companies hit fastest IPO pace in a century.",
+    "links": [
+     "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
+     "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/"
     ]
    }
   ]
@@ -213,6 +206,24 @@ window.NEWS_DATA = {
    "aiSummary": "Latent Space reported a quiet day in AI news with no significant developments.",
    "whyMatters": [
     "Indicates a lull in major AI announcements or industry movements on that particular date"
+   ]
+  },
+  {
+   "title": "The apps, gadgets, and tools every reader needs",
+   "link": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-17T20:27:52+00:00",
+   "summary": "Hi, friends! Welcome to Installer No. 136, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope your neighborhood isn't as smoky as mine, and also you can read all the old editions at the Installer homepage.) This week, I've been recording the next season of Version History […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Verge's Installer newsletter (issue 136) recommends apps, gadgets, and tools for readers, curated by the publication's staff. The edition includes recommendations across various categories of useful software and hardware.",
+   "whyMatters": [
+    "Provides practical guidance on productivity and reading tools that tech-savvy users might integrate into their workflow",
+    "Curated recommendations from a trusted tech publication could influence adoption patterns of consumer tools and apps"
    ]
   },
   {
@@ -1123,24 +1134,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Expands the open-source LLM landscape with a multimodal model",
     "Signals another entrant entering the crowded foundation model market"
-   ]
-  },
-  {
-   "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-15T17:54:54+00:00",
-   "summary": "Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and how they were acquired, this a rare […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A hacking incident exposed that Suno, an AI music generator, scraped millions of songs and lyrics from YouTube Music, Deezer, Genius, and other platforms without disclosure. The company had previously avoided revealing details about its training data sources.",
-   "whyMatters": [
-    "Raises copyright and fair-use questions in generative AI training that regulators and courts are actively debating",
-    "Reveals the gap between corporate claims about data sourcing and actual practices"
    ]
   },
   {
