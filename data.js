@@ -1,42 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-18T10:48:11.315305+00:00",
+ "generatedAt": "2026-07-18T11:56:21.496125+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-18T10:48:26.459573+00:00",
+  "generatedAt": "2026-07-18T11:56:31.864112+00:00",
   "bullets": [
    {
-    "text": "Google tightens Gemini usage quotas, meaning users hit rate limits faster under identical plans, while Claude's latest model becomes permanent with cheaper access for premium subscribers.",
+    "text": "EU orders Google to share search data and open Android's AI capabilities to competitors, marking formal regulatory enforcement of digital competition rules.",
     "links": [
-     "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/",
-     "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
+     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "Open-weight models surge in capability: Moonshot's Kimi K3 (2.8T parameters) matches high-end proprietary performance at lower pricing, while Thinking Machines Lab released Inkling (975B parameters), advancing the competitive landscape for commercial AI.",
+    "text": "San Francisco authorities order Apple and Google to remove 13 AI face-swap apps used to create nonconsensual intimate imagery of women and children.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
+    ]
+   },
+   {
+    "text": "Suno AI music generator secretly scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting previous opacity about training data.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack"
+    ]
+   },
+   {
+    "text": "Moonshot releases Kimi K3, the largest open-weight model ever (2.8 trillion parameters), reportedly matching high-end closed models at mid-tier pricing.",
     "links": [
      "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
-     "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
     ]
    },
    {
-    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting the company's vague training-data statements and illustrating broader data-sourcing practices in AI development.",
+    "text": "U.S. government pilots AI system for medical prior authorization decisions, raising questions about whether automation will reduce administrative burden or compromise patient access to care.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
-    ]
-   },
-   {
-    "text": "Critical security flaw: xAI's grok-build tool automatically uploaded entire directories (including SSH keys and password databases) to cloud storage without user consent; Claude's web_fetch tool can be exploited to exfiltrate private user data.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
-    ]
-   },
-   {
-    "text": "Period tracker and health apps collect and share user data with third parties; period-tracking data combined with AI surveillance now poses privacy risks especially relevant to reproductive autonomy concerns.",
-    "links": [
-     "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/"
+     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
     ]
    }
   ]
@@ -92,6 +90,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Will AI fix prior authorization—or make it worse?",
+   "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-18T11:18:25+00:00",
+   "summary": "The government is piloting a program that uses AI for insurance-coverage decisions.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The U.S. government is testing an AI system to handle prior authorization decisions—the process where insurers approve or deny medical treatments before they happen. The pilot aims to reduce administrative burden, but raises questions about whether automating these gatekeeping decisions will improve access to care or entrench existing denials.",
+   "whyMatters": [
+    "AI replacing human judgment in high-stakes healthcare decisions creates accountability and transparency risks—particularly for vulnerable populations who may be disproportionately denied coverage",
+    "The outcome will affect both healthcare economics and the broader question of whether AI should automate decisions that have immediate consequences for people's medical treatment and wellbeing"
+   ]
+  },
   {
    "title": "Your Period Tracker Is (Probably) Spying on You",
    "link": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
@@ -2149,24 +2165,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The idea that agents, not humans, are becoming the primary users of computing infrastructure is a genuine shift in how the industry thinks.",
     "Where infrastructure money flows is a leading indicator of whether the agent trend is real or hype."
-   ]
-  },
-  {
-   "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
-   "link": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-08T21:42:44+00:00",
-   "summary": "AI cheating leads to \"a failed society,\" professor says.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Brown University professor who suspected widespread AI cheating replaced a take-home final with an in-person exam, and scores fell by roughly half. The professor warns that unchecked AI cheating leads to \"a failed society,\" and the episode has become a flashpoint on campus.",
-   "whyMatters": [
-    "This is education's AI crisis in one number: a 50% score drop suggests grades had been measuring AI use, not learning.",
-    "Directly relevant to Jewish education: assessment design — in-person, oral, discussion-based — may matter more than detection tools, and the beit midrash model of face-to-face learning looks newly durable."
    ]
   },
   {
