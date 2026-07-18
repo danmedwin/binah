@@ -1,39 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-17T23:56:22.284304+00:00",
+ "generatedAt": "2026-07-18T07:01:57.012134+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-17T23:56:41.140896+00:00",
+  "generatedAt": "2026-07-18T07:02:17.866652+00:00",
   "bullets": [
    {
-    "text": "Moonshot's Kimi K3 open-weight model achieves near-frontier performance (Opus/GPT-5.6 class), but practical testing reveals serious gaps in reliability, speed, and cost-effectiveness limiting immediate utility.",
+    "text": "Moonshot's Kimi K3 becomes the largest open-source model ever at 2.8 trillion parameters, matching premium-tier performance while undercutting pricing.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee",
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
      "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything"
     ]
    },
    {
-    "text": "San Francisco ordered Apple and Google to remove AI nudify apps from their stores after the companies profited millions in fees from tools used to create nonconsensual intimate images of women and girls.",
+    "text": "San Francisco AG orders Apple and Google to remove 13 AI deepfake apps used to create non-consensual intimate images, marking regulatory action against abuse tools.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
     ]
    },
    {
-    "text": "EU mandated Google share search data and open AI on Android under Digital Markets Act; Apple sued OpenAI alleging unfair competitive practices, escalating regulatory and legal pressure on AI leaders.",
+    "text": "EU mandates Google share search data and open AI capabilities on Android, enforcing digital competition rules that Google argues threaten privacy and security.",
     "links": [
      "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
      "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
     ]
    },
    {
-    "text": "OpenAI developed GPT-Red, an automated red-teaming system using self-play to identify AI vulnerabilities; separately, researchers exposed data exfiltration risks in Claude and xAI's Grok, raising ongoing safety concerns.",
+    "text": "Claude web_fetch vulnerability allows attackers to exfiltrate private user data; xAI's Grok-Build open-source tool had critical flaw uploading directories to cloud without consent.",
     "links": [
-     "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
     ]
    },
    {
-    "text": "Suno's hacked source code revealed it scraped millions of songs from YouTube, Deezer, and Genius without disclosure, intensifying the AI industry's unresolved training-data transparency crisis.",
+    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, exposing a gap between claimed training practices and actual data sourcing.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
      "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
@@ -84,6 +84,59 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Claude make Fable 5 permanent",
+   "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-18T06:00:13+00:00",
+   "summary": "Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit. As I was saying last week , the competition from GPT-5.6 Sol (and maybe to a lesser extent ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic is making Claude Fable 5 a permanent offering starting July 20. Max and Team Premium subscribers will get it at 50% of normal limits, while Pro and Team Standard users retain access through usage credits and receive a one-time $100 credit.",
+   "whyMatters": [
+    "Signals Anthropic's confidence in Fable 5 as a core product amid competitive pressure from other models",
+    "Tiered pricing strategy aims to retain customers across subscription levels while managing computational costs"
+   ]
+  },
+  {
+   "title": "nascheme/quixote",
+   "link": "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-18T05:27:49+00:00",
+   "summary": "nascheme/quixote A certain vintage if Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was six hours ago . The oldest commit in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into Git. Tags: computer-history , python , web-frameworks",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Quixote Python web framework received a commit six hours ago, with the repository's oldest commit dating back 21 years from its initial import from Subversion to Git.",
+   "whyMatters": [
+    "Demonstrates unexpectedly sustained maintenance of a legacy framework originally created around 2005",
+    "Relevant to understanding the long tail of Python web development tools still in use and updated"
+   ]
+  },
+  {
+   "title": "[AINews] not much happened today",
+   "link": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-18T04:30:21+00:00",
+   "summary": "a quiet day",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/OqM67QG_Ikk",
+   "themes": [],
+   "aiSummary": "Latent Space reported a quiet day in AI news with no significant developments.",
+   "whyMatters": [
+    "Indicates a lull in major AI announcements or industry movements on that particular date"
+   ]
+  },
   {
    "title": "Is Kimi K3 Really Fable Class?",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee",
@@ -222,7 +275,7 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "",
+   "image": "https://static.simonwillison.net/static/2026/the-loss-is-real.webp",
    "themes": [],
    "aiSummary": "A web tool created with Fable 5 identifies ten common patterns in LLM-generated writing—such as \"no fluff, no filler, no jargon\"—to help readers spot AI-composed or AI-influenced text. The tool highlights recognizable clichés typical of large language model output.",
    "whyMatters": [
@@ -1201,24 +1254,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "[AINews] not much happened today",
-   "link": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-14T23:54:07+00:00",
-   "summary": "a continuation: Codex adding 1M users a day now.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!uoZg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNOP2m2bAAAC2k7.jpg",
-   "themes": [],
-   "aiSummary": "Codex is adding 1 million users per day. This single data point is offered as the noteworthy development despite the post's self-deprecating title suggesting little occurred.",
-   "whyMatters": [
-    "Indicates massive adoption velocity for Codex, suggesting a major AI product is crossing significant user-growth milestones",
-    "Signals market consolidation around a few dominant platforms in the AI tooling space"
-   ]
-  },
-  {
    "title": "5 Trends That Defined AI Engineering at World’s Fair 2026",
    "link": "https://www.latent.space/p/aiewf26trends",
    "source": "Latent Space",
@@ -1753,26 +1788,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-utils 4.1.1",
-   "link": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-12T20:55:30+00:00",
-   "summary": "Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys enabled and the table is referenced by foreign keys with destructive ON DELETE actions - CASCADE , SET NULL or SET DEFA",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "sqlite-utils 4.1.1 adds a safety check that raises a TransactionError when table.transform() is called during an active transaction if the table has foreign key constraints with destructive delete actions, preventing data loss from unintended cascade operations.",
-   "whyMatters": [
-    "Prevents a class of data corruption bugs where dropping old tables during transforms could trigger unintended CASCADE, SET NULL, or SET DEFAULT actions that cannot be safely controlled within transactions",
-    "Improves reliability for developers working with relational databases that enforce referential integrity constraints"
-   ]
-  },
-  {
    "title": "How to Help People Thrive with AI",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Help-People-Thrive-with-AI-e3lvj3p",
    "source": "The AI Daily Brief",
@@ -1788,24 +1803,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Frames AI adoption around human flourishing rather than job displacement—relevant for educators and community leaders thinking about how to present AI to their communities",
     "Addresses a concrete organizational challenge: converting efficiency into expanded capacity rather than just cost-cutting, which affects how institutions (including schools and nonprofits) should approach AI implementation"
-   ]
-  },
-  {
-   "title": "sqlite-utils 4.1",
-   "link": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-11T23:50:20+00:00",
-   "summary": "Release: sqlite-utils 4.1 The first dot-release since 4.0 a few days ago , introducing a number of minor new features. sqlite-utils insert and sqlite-utils upsert now accept a --code option for providing a block of Python code (or a path to a .py file) that defines a rows() function or rows iterable of rows to insert, as an alternative to importing from a file. ( #684 ) sqlite-utils already had fe",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "sqlite-utils 4.1 adds a --code option to the insert and upsert commands, allowing users to provide Python code directly or reference a .py file that defines a rows() function instead of importing data from a file.",
-   "whyMatters": [
-    "Reduces friction for programmatic data insertion workflows by eliminating the need for intermediate file creation",
-    "Expands flexibility for developers integrating sqlite-utils into larger data pipelines"
    ]
   },
   {
@@ -2703,24 +2700,6 @@ window.NEWS_DATA = {
     "Practical guidance on what to actually try with Fable 5 during the subsidized-access window — timely if you want to evaluate it for your own writing and teaching workflows.",
     "The export-control saga shows how directly geopolitics now shapes which AI tools are available to ordinary users.",
     "The 'writing with clear standards' use case is exactly the kind of work a rabbi-educator does daily."
-   ]
-  },
-  {
-   "title": "How Cursor deploys AI inside the enterprise",
-   "link": "https://www.latent.space/p/cursor-forward-deployed-engineers",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-01T19:03:44+00:00",
-   "summary": "Cursor's Pauline Brunet explains how her team of Forward Deployed Engineers help organizations implement agents — essentially setting up software factories.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!e2BU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a8c541c-264c-476f-b47c-029cd970acf9_1280x720.jpeg",
-   "themes": [],
-   "aiSummary": "Cursor's Pauline Brunet describes how the company's Forward Deployed Engineers embed with enterprise customers to help them implement AI agents — in effect setting up 'software factories' inside client organizations.",
-   "whyMatters": [
-    "Signals that agent adoption in big organizations needs hands-on human consultants, not just a product license — the tools don't deploy themselves.",
-    "The forward-deployed model is a template any institution, including nonprofits and religious movements, might eventually encounter when adopting AI."
    ]
   },
   {
