@@ -1,89 +1,151 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-18T07:01:57.012134+00:00",
+ "generatedAt": "2026-07-18T10:48:11.315305+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-18T07:02:17.866652+00:00",
+  "generatedAt": "2026-07-18T10:48:26.459573+00:00",
   "bullets": [
    {
-    "text": "Moonshot's Kimi K3 becomes the largest open-source model ever at 2.8 trillion parameters, matching premium-tier performance while undercutting pricing.",
+    "text": "Google tightens Gemini usage quotas, meaning users hit rate limits faster under identical plans, while Claude's latest model becomes permanent with cheaper access for premium subscribers.",
+    "links": [
+     "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/",
+     "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
+    ]
+   },
+   {
+    "text": "Open-weight models surge in capability: Moonshot's Kimi K3 (2.8T parameters) matches high-end proprietary performance at lower pricing, while Thinking Machines Lab released Inkling (975B parameters), advancing the competitive landscape for commercial AI.",
     "links": [
      "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-     "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything"
+     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+     "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything"
     ]
    },
    {
-    "text": "San Francisco AG orders Apple and Google to remove 13 AI deepfake apps used to create non-consensual intimate images, marking regulatory action against abuse tools.",
-    "links": [
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
-    ]
-   },
-   {
-    "text": "EU mandates Google share search data and open AI capabilities on Android, enforcing digital competition rules that Google argues threaten privacy and security.",
-    "links": [
-     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
-    ]
-   },
-   {
-    "text": "Claude web_fetch vulnerability allows attackers to exfiltrate private user data; xAI's Grok-Build open-source tool had critical flaw uploading directories to cloud without consent.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything"
-    ]
-   },
-   {
-    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, exposing a gap between claimed training practices and actual data sourcing.",
+    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting the company's vague training-data statements and illustrating broader data-sourcing practices in AI development.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
      "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
+    ]
+   },
+   {
+    "text": "Critical security flaw: xAI's grok-build tool automatically uploaded entire directories (including SSH keys and password databases) to cloud storage without user consent; Claude's web_fetch tool can be exploited to exfiltrate private user data.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
+    ]
+   },
+   {
+    "text": "Period tracker and health apps collect and share user data with third parties; period-tracking data combined with AI surveillance now poses privacy risks especially relevant to reproductive autonomy concerns.",
+    "links": [
+     "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-17T11:09:06.428687+00:00",
+  "generatedAt": "2026-07-18T10:48:26.459573+00:00",
   "bullets": [
    {
-    "text": "EU mandates Google share search data and open AI on Android; Google argues it could compromise privacy and security.",
+    "text": "Google tightens Gemini usage quotas, meaning users hit rate limits faster under identical plans, while Claude's latest model becomes permanent with cheaper access for premium subscribers.",
     "links": [
-     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
+     "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/",
+     "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
     ]
    },
    {
-    "text": "San Francisco demands Apple and Google remove 13 AI face-swap apps used to create non-consensual intimate images of women and girls.",
+    "text": "Open-weight models surge in capability: Moonshot's Kimi K3 (2.8T parameters) matches high-end proprietary performance at lower pricing, while Thinking Machines Lab released Inkling (975B parameters), advancing the competitive landscape for commercial AI.",
     "links": [
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+     "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything"
     ]
    },
    {
-    "text": "xAI sued a user for generating child sexual abuse material with Grok after previously being unable to deny the model could produce such content.",
+    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting the company's vague training-data statements and illustrating broader data-sourcing practices in AI development.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-     "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
+     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
     ]
    },
    {
-    "text": "Hyundai workers strike over plans to deploy 25,000 humanoid Atlas robots in US factories beginning 2028; Foundation Future Industries (backed by Eric Trump) develops robots for military applications.",
+    "text": "Critical security flaw: xAI's grok-build tool automatically uploaded entire directories (including SSH keys and password databases) to cloud storage without user consent; Claude's web_fetch tool can be exploited to exfiltrate private user data.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
-     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
+     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
+    ]
+   },
+   {
+    "text": "Period tracker and health apps collect and share user data with third parties; period-tracking data combined with AI surveillance now poses privacy risks especially relevant to reproductive autonomy concerns.",
+    "links": [
+     "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-17T11:09:00.816040+00:00",
+  "updatedAt": "2026-07-18T10:48:18.762409+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and religious/moral perspectives on technology",
-   "Appreciates substantive tech industry reporting (Apple, major platforms)",
-   "Values practical AI applications and product features",
-   "Dislikes granular technical documentation and low-level software updates"
+   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
+   "Prefers substantive reporting on AI's real-world impacts over technical release notes",
+   "Values practical AI applications and industry developments (Apple, Waze)",
+   "Dislikes low-signal technical updates without broader context or utility"
   ]
  },
  "items": [
+  {
+   "title": "Your Period Tracker Is (Probably) Spying on You",
+   "link": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-18T10:30:00+00:00",
+   "summary": "Plus: Russian cyberspies turn to infrastructure hacking, DHS repeatedly fails to realize it’d been hacked, a breach exposes an AI music generator’s scraping ways, and more.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Wired's security roundup covers multiple threats including period tracker apps collecting and sharing user data, Russian cyberspies targeting infrastructure, a Department of Homeland Security breach the agency failed to detect, and an AI music generator's exposure for scraping training data without consent.",
+   "whyMatters": [
+    "Period trackers and health apps collecting intimate data without adequate privacy safeguards raises serious concerns about surveillance and data exploitation",
+    "Reveals systemic security failures across government and private sector, including AI systems being trained on data obtained through questionable scraping practices"
+   ]
+  },
+  {
+   "title": "How Google’s New Gemini Rates Work and How to Track Your Usage",
+   "link": "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-18T10:00:00+00:00",
+   "summary": "Now that Google has changed how its usage quotas are tallied, you might not get as many AI responses as you did before.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google has changed how it counts usage quotas for its Gemini AI service, meaning users now hit rate limits faster and receive fewer AI responses under the same plans than previously.",
+   "whyMatters": [
+    "Direct impact on Gemini users' practical access to the service and value proposition of Google's AI offerings",
+    "Reflects the broader trend of AI providers tightening usage caps as they manage infrastructure costs and compute demand"
+   ]
+  },
+  {
+   "title": "Prompt Injection Attacks Are Thwarting AI Hacking Agents",
+   "link": "https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-18T09:00:00+00:00",
+   "summary": "“Context bombing” tricks malicious AI agents into shutting down before they can do harm.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Security researchers have discovered that \"context bombing\"—injecting misleading information into prompts—can trick malicious AI agents into stopping their attacks before causing damage.",
+   "whyMatters": [
+    "Demonstrates a vulnerability in autonomous AI agents that security teams may exploit defensively against AI-powered attacks",
+    "Suggests attackers may need to invest more in making AI agents robust enough to overcome such defenses, raising the barrier for AI-based hacking"
+   ]
+  },
   {
    "title": "Claude make Fable 5 permanent",
    "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
@@ -1160,24 +1222,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "An Inventor of Apple’s FaceID Wants to Analyze Your Brain’s Health With AI",
-   "link": "https://www.wired.com/story/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-15T12:00:00+00:00",
-   "summary": "Gidi Littwin’s new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson’s. He wants the technology to be as cheap and easy as for a blood test.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Gidi Littwin, who worked on Apple's FaceID technology, has founded Hemispheric, a startup using AI to create diagnostic brain scans for neurological and psychiatric conditions including depression, PTSD, and Parkinson's disease. The company aims to make these diagnostics as affordable and accessible as a standard blood test.",
-   "whyMatters": [
-    "Represents a significant shift of AI talent from consumer tech to medical diagnostics with potential clinical impact on mental health and neurological disease detection",
-    "If successful, could democratize brain imaging and diagnosis, addressing a major gap in accessible screening for conditions traditionally requiring expensive specialist imaging"
-   ]
-  },
-  {
    "title": "The US is advancing AI safety through state and federal action",
    "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
    "source": "OpenAI News",
@@ -1198,24 +1242,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell",
-   "link": "https://www.wired.com/story/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-15T10:00:00+00:00",
-   "summary": "Companies’ increasing reliance on AI chatbots isn’t making the customer service experience smarter. It’s just making it more infuriating.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A customer whose ebike delivery went missing attempted to resolve the issue through company chatbots but found the AI-powered support system unable to address their problem, leaving them stuck in unproductive loops. The article documents the frustration of relying on chatbots that lack the judgment and authority to handle real customer service failures.",
-   "whyMatters": [
-    "AI customer service systems are being deployed without adequate guardrails or escalation paths, degrading service quality for real problems",
-    "Raises questions about companies prioritizing cost-cutting over customer experience and trust—relevant to broader debates about responsible AI deployment"
-   ]
-  },
-  {
    "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
    "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
    "source": "OpenAI News",
@@ -1233,24 +1259,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents a scalable, automated approach to adversarial testing that other labs may adopt",
     "Shows how self-play mechanisms can be applied to AI safety beyond game-playing domains"
-   ]
-  },
-  {
-   "title": "OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss",
-   "link": "https://www.wired.com/story/openai-employees-donations-guardrails-alliance-leading-the-future/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-15T09:00:00+00:00",
-   "summary": "OpenAI employees have donated more than $215,000 to a political effort opposing Leading the Future, a group backed by the company’s president, Greg Brockman.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI employees have collectively donated over $215,000 to a Super PAC opposing Leading the Future, a political organization backed by OpenAI president Greg Brockman. The donations signal internal disagreement over the company's political advocacy direction.",
-   "whyMatters": [
-    "Reveals internal tension at a major AI company over governance and political influence strategy",
-    "Demonstrates employee activism around corporate power and policy—a potential model for how AI workers are engaging with questions of organizational ethics and accountability"
    ]
   },
   {
@@ -1821,24 +1829,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks expansion of agentic AI from specialized coding tasks to broader enterprise workflows",
     "Efficiency has become the primary competitive metric in the model race, potentially shifting focus from raw capability scaling"
-   ]
-  },
-  {
-   "title": "AI Fiction Is Easy to Detect Because It's Stupid and Bad, Research Finds",
-   "link": "https://www.404media.co/ai-fiction-is-easy-to-detect-because-its-stupid-and-bad-research-finds/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-10T18:32:21+00:00",
-   "summary": "ChatGPT uses too many dream sequences and Gemini won’t stop describing characters.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Research shows that AI-generated fiction is relatively easy to detect because it exhibits consistent patterns—ChatGPT overuses dream sequences and Gemini relies heavily on character descriptions—making it detectable through stylistic analysis.",
-   "whyMatters": [
-    "Suggests current AI limitations in creative writing are systemic rather than minor, which may constrain use in content creation",
-    "Points to detectability as a potential safeguard against AI-generated misinformation and plagiarism in written content"
    ]
   },
   {
