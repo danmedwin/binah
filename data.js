@@ -1,42 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-18T23:58:20.571271+00:00",
+ "generatedAt": "2026-07-19T07:29:25.404429+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-18T23:58:32.849940+00:00",
+  "generatedAt": "2026-07-19T07:29:36.287735+00:00",
   "bullets": [
    {
-    "text": "EU mandates Google share search data and open AI on Android; Apple sues OpenAI; San Francisco demands app stores remove AI nudify tools—major regulatory and legal pressure mounting on AI companies.",
+    "text": "Kimi K3, a 2.8-trillion-parameter open model matching high-end proprietary performance, launches July 27—reshaping open-model competition and accessibility.",
     "links": [
-     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest"
+    ]
+   },
+   {
+    "text": "EU mandates Google share search data and open AI on Android, while also ruling on AI interoperability across core platforms under digital antitrust law.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
+    ]
+   },
+   {
+    "text": "AI hype is driving executives to pursue unfounded initiatives without hands-on experience, creating systemic decision-making failures across large companies.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
+    ]
+   },
+   {
+    "text": "San Francisco orders Apple and Google to remove AI nudify apps, citing the companies earned millions in fees from non-consensual intimate-image generation tools.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
      "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    },
    {
-    "text": "U.S. pilot tests AI system to handle insurance prior authorization decisions, potentially automating millions of healthcare approvals—raises questions about accuracy and fairness in medical access.",
+    "text": "Author Dave Eggers warned OpenAI staff that ChatGPT is suppressing emerging writers and creative voices, directly challenging the company on labor and cultural impact.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
-    ]
-   },
-   {
-    "text": "Moonshot AI releases Kimi K3, largest open-source model ever at 2.8 trillion parameters, reportedly matching Opus 4.8 performance—but testing reveals significant practical reliability and cost limitations.",
-    "links": [
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
-    ]
-   },
-   {
-    "text": "Hyundai workers strike over planned deployment of 25,000 humanoid robots; Eric Trump-backed robotics firm developing military robots—labor and defense implications accelerating.",
-    "links": [
-     "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
-     "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/"
-    ]
-   },
-   {
-    "text": "Weather forecast data faces rising vulnerability to sabotage; xAI sued by users over Grok generating child sexual abuse material—critical safety and security gaps remain unresolved.",
-    "links": [
-     "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
-     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/"
+     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
     ]
    }
   ]
@@ -92,6 +89,44 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "AI Mania Is Eviscerating Global Decision-Making",
+   "link": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-19T05:06:21+00:00",
+   "summary": "AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical s",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nik Suresh describes how AI hype is driving poor decision-making at large companies, with executives pursuing AI initiatives despite having no hands-on experience with the tools themselves. The piece collects anecdotes from anonymous sources showing how organizational priorities are being distorted by AI mania.",
+   "whyMatters": [
+    "Corporate AI adoption is being driven by hype rather than informed strategy, risking misallocation of resources and poor outcomes",
+    "Decision-makers in influential positions lack basic familiarity with the AI tools they're investing in, creating a knowledge gap at leadership level"
+   ]
+  },
+  {
+   "title": "Claude Code uses Bun written in Rust now",
+   "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-19T03:54:09+00:00",
+   "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust. I found these two commands convincing: s",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Claude Code v2.1.181 and later versions now use Bun written in Rust instead of the original JavaScript version, according to Jarred Sumner. The change resulted in a 10% startup speed improvement on Linux with minimal user-facing changes.",
+   "whyMatters": [
+    "Performance optimization through language rewriting (Rust for Bun) represents incremental but meaningful infrastructure improvements in AI tooling",
+    "The change was deliberately kept low-profile—'boring is good'—suggesting a shift toward pragmatic optimization over feature announcements in mature AI products"
+   ]
+  },
   {
    "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
    "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
@@ -1774,44 +1809,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "World models represent a foundational capability gap: models that reason about causality and physical consequences rather than pattern-matching",
     "Clarifying what world models can and cannot do is essential for assessing their role in embodied AI and robotics"
-   ]
-  },
-  {
-   "title": "Directly Responsible Individuals (DRI)",
-   "link": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-12T23:57:14+00:00",
-   "summary": "Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a specific project, initiative, or activity\". I've been thinking about this term recently in the cont",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Simon Willison explores the term \"Directly Responsible Individuals\" (DRI), a concept originating at Apple that designates one person as ultimately accountable for the success or failure of a specific project or initiative. The term is documented in GitLab's handbook and has become part of organizational practice.",
-   "whyMatters": [
-    "Clarifies a management pattern used in tech companies that affects how project accountability and decision-making are structured",
-    "Relevant to educators and organizational leaders thinking about how to assign responsibility in collaborative environments like schools or institutions"
-   ]
-  },
-  {
-   "title": "shot-scraper 1.11",
-   "link": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-12T23:46:52+00:00",
-   "summary": "Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a second to start serving traffic. server: processes used by shot-scraper multi and shot-scraper video now wait up to 30 seconds for the target URL to accept connections, polling for",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "shot-scraper, a web automation tool, released version 1.11 with minor improvements focused on command consistency and improved server startup handling. The update extends timeout windows for servers taking longer to start and improves reliability for the video and multi-server modes.",
-   "whyMatters": [
-    "Technical maintenance update for developers using web automation and screenshot tools",
-    "No direct relevance to education, religion, or broader AI policy"
    ]
   },
   {
