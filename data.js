@@ -1,91 +1,85 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-19T07:29:25.404429+00:00",
+ "generatedAt": "2026-07-19T10:58:54.207893+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-19T07:29:36.287735+00:00",
+  "generatedAt": "2026-07-19T10:59:05.021264+00:00",
   "bullets": [
    {
-    "text": "Kimi K3, a 2.8-trillion-parameter open model matching high-end proprietary performance, launches July 27—reshaping open-model competition and accessibility.",
-    "links": [
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest"
-    ]
-   },
-   {
-    "text": "EU mandates Google share search data and open AI on Android, while also ruling on AI interoperability across core platforms under digital antitrust law.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-     "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma"
-    ]
-   },
-   {
-    "text": "AI hype is driving executives to pursue unfounded initiatives without hands-on experience, creating systemic decision-making failures across large companies.",
+    "text": "AI hype is driving poor corporate decision-making, with executives pursuing AI initiatives despite no hands-on experience; anonymous accounts show widespread misalignment between strategy and actual tool competence.",
     "links": [
      "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
     ]
    },
    {
-    "text": "San Francisco orders Apple and Google to remove AI nudify apps, citing the companies earned millions in fees from non-consensual intimate-image generation tools.",
+    "text": "Author Dave Eggers told OpenAI staff that ChatGPT suppresses emerging writers and creative voices, raising concerns about AI's effect on cultural production and the next generation of authors.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
+     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
     ]
    },
    {
-    "text": "Author Dave Eggers warned OpenAI staff that ChatGPT is suppressing emerging writers and creative voices, directly challenging the company on labor and cultural impact.",
+    "text": "U.S. government is testing AI for prior authorization decisions in healthcare, potentially reducing administrative burden but raising questions about AI reliability in life-altering medical approval processes.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
+     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
+    ]
+   },
+   {
+    "text": "EU mandates Google share search data and open AI on Android under antitrust rules; Apple sues OpenAI over alleged standard industry practices, signaling intensifying regulatory and legal pressure on AI leaders.",
+    "links": [
+     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+     "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
+    ]
+   },
+   {
+    "text": "San Francisco ordered Apple and Google to remove 13 AI face-swap 'nudify' apps used to create non-consensual intimate images, targeting the most direct harms from generative AI deployment.",
+    "links": [
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-18T10:48:26.459573+00:00",
+  "generatedAt": "2026-07-19T10:59:05.021264+00:00",
   "bullets": [
    {
-    "text": "Google tightens Gemini usage quotas, meaning users hit rate limits faster under identical plans, while Claude's latest model becomes permanent with cheaper access for premium subscribers.",
+    "text": "AI hype is driving poor corporate decision-making, with executives pursuing AI initiatives despite no hands-on experience; anonymous accounts show widespread misalignment between strategy and actual tool competence.",
     "links": [
-     "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/",
-     "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
+     "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
     ]
    },
    {
-    "text": "Open-weight models surge in capability: Moonshot's Kimi K3 (2.8T parameters) matches high-end proprietary performance at lower pricing, while Thinking Machines Lab released Inkling (975B parameters), advancing the competitive landscape for commercial AI.",
+    "text": "Author Dave Eggers told OpenAI staff that ChatGPT suppresses emerging writers and creative voices, raising concerns about AI's effect on cultural production and the next generation of authors.",
     "links": [
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-     "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
-     "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything"
+     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
     ]
    },
    {
-    "text": "Suno AI music generator scraped millions of songs from YouTube, Deezer, and Genius without disclosure, contradicting the company's vague training-data statements and illustrating broader data-sourcing practices in AI development.",
+    "text": "U.S. government is testing AI for prior authorization decisions in healthcare, potentially reducing administrative burden but raising questions about AI reliability in life-altering medical approval processes.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-     "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
+     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
     ]
    },
    {
-    "text": "Critical security flaw: xAI's grok-build tool automatically uploaded entire directories (including SSH keys and password databases) to cloud storage without user consent; Claude's web_fetch tool can be exploited to exfiltrate private user data.",
+    "text": "EU mandates Google share search data and open AI on Android under antitrust rules; Apple sues OpenAI over alleged standard industry practices, signaling intensifying regulatory and legal pressure on AI leaders.",
     "links": [
-     "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
-     "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
+     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+     "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
     ]
    },
    {
-    "text": "Period tracker and health apps collect and share user data with third parties; period-tracking data combined with AI surveillance now poses privacy risks especially relevant to reproductive autonomy concerns.",
+    "text": "San Francisco ordered Apple and Google to remove 13 AI face-swap 'nudify' apps used to create non-consensual intimate images, targeting the most direct harms from generative AI deployment.",
     "links": [
-     "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/"
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-18T10:48:18.762409+00:00",
+  "updatedAt": "2026-07-19T10:58:58.941269+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
-   "Prefers substantive reporting on AI's real-world impacts over technical release notes",
-   "Values practical AI applications and industry developments (Apple, Waze)",
-   "Dislikes low-signal technical updates without broader context or utility"
+   "Wants substantive stories about AI's moral, ethical, and religious implications—especially institutional religious perspectives on technology",
+   "Interested in how major tech companies (Apple, Google/Waze) are developing and deploying AI, particularly non-obvious downstream effects",
+   "Dislikes low-level technical release notes and developer tool updates without broader context or impact"
   ]
  },
  "items": [
@@ -3450,27 +3444,6 @@ window.NEWS_DATA = {
     "The Templeton Foundation funds much of the serious science-and-religion work; its CEO's take on AI signals where that funding may flow.",
     "Pairing a foundation head with an Economist editor puts the religion-and-AI question in mainstream intellectual territory, not a niche.",
     "The 'theology of technology' framing is a useful prompt for Jewish thought: what would a Jewish theology of AI look like?"
-   ]
-  },
-  {
-   "title": "Breaking down the 2026 Stanford AI Index Report",
-   "link": "https://share.transistor.fm/s/302b36f8",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-06-04T09:00:00+00:00",
-   "summary": "AI models can win math olympiads… but still struggle to read an analog clock. In this fully connected episode, Dan and Chris break down the latest Stanford AI Index Report and explore what it reveals about the current state of AI. They discuss AI adoption and safety, disappearing junior tech jobs, robotics, AI’s “jagged frontier” of intelligence, and the growing race between the U.S. and China. Al",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/302b36f8/d474795e.mp3",
-   "image": "https://img.transistorcdn.com/ipFlPl0Z0kkjjiMc1n8f9T_9pB23QEviqZIzZXO9pig/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hYjA0/MjAxZGQ2Nzg4Yzk4/YzYxODg0OThmM2U0/ZmE0My5wbmc.jpg",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Practical AI's Dan and Chris break down the 2026 Stanford AI Index Report. Highlights include the 'jagged frontier' of AI ability — models that win math olympiads but struggle to read an analog clock — plus data on adoption, safety, disappearing junior tech jobs, robotics, and the U.S.–China race.",
-   "whyMatters": [
-    "The Stanford AI Index is the closest thing to an annual state-of-the-field report — data, not vibes.",
-    "Disappearing junior tech jobs is a concrete, documented labor effect with implications for how educators advise students.",
-    "The 'jagged frontier' — brilliant here, inept there — is the single most useful concept for setting realistic expectations of AI."
    ]
   }
  ]
