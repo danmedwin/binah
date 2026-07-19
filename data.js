@@ -1,38 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-19T10:58:54.207893+00:00",
+ "generatedAt": "2026-07-19T12:01:50.329736+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-19T10:59:05.021264+00:00",
+  "generatedAt": "2026-07-19T12:02:00.794250+00:00",
   "bullets": [
    {
-    "text": "AI hype is driving poor corporate decision-making, with executives pursuing AI initiatives despite no hands-on experience; anonymous accounts show widespread misalignment between strategy and actual tool competence.",
+    "text": "Moonshot AI's Kimi K3 released as the largest open-weight model (2.8T parameters), approaching frontier-model performance at mid-tier pricing, intensifying competition in the open-model ecosystem.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest"
+    ]
+   },
+   {
+    "text": "EU mandates Google share search data and open AI capabilities on Android, while US regulators target AI applications for non-consensual intimate images and child safety violations.",
+    "links": [
+     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
+    ]
+   },
+   {
+    "text": "Executive AI hype is driving strategic poor decision-making at major companies, with leaders pursuing initiatives despite lacking hands-on experience with the tools.",
     "links": [
      "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
     ]
    },
    {
-    "text": "Author Dave Eggers told OpenAI staff that ChatGPT suppresses emerging writers and creative voices, raising concerns about AI's effect on cultural production and the next generation of authors.",
+    "text": "Replit reports internal AI agents have nearly tripled engineering output while maintaining quality, signaling structural reorganization of knowledge work around agentic systems.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
     ]
    },
    {
-    "text": "U.S. government is testing AI for prior authorization decisions in healthcare, potentially reducing administrative burden but raising questions about AI reliability in life-altering medical approval processes.",
+    "text": "U.S. government is testing AI to automate prior authorization decisions for medical treatments, raising questions about accountability when algorithms deny care.",
     "links": [
      "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
-    ]
-   },
-   {
-    "text": "EU mandates Google share search data and open AI on Android under antitrust rules; Apple sues OpenAI over alleged standard industry practices, signaling intensifying regulatory and legal pressure on AI leaders.",
-    "links": [
-     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
-    ]
-   },
-   {
-    "text": "San Francisco ordered Apple and Google to remove 13 AI face-swap 'nudify' apps used to create non-consensual intimate images, targeting the most direct harms from generative AI deployment.",
-    "links": [
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    }
   ]
@@ -83,6 +84,26 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The Self-Driving Company",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-19T12:00:39+00:00",
+   "summary": "Replit says its internal agents have nearly tripled engineering output without sacrificing quality—but the bigger story is how AI is beginning to reshape the entire company. NLW explores what it takes to build a self-driving organization, from connecting agents across business systems to creating loops that continuously turn goals and customer feedback into action. Source: https://x.com/amasad/sta",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123028581/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-19%2F428220991-44100-2-64be4bc721e17.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Replit reports that its internal AI agents have nearly tripled engineering output while maintaining quality, and the company is restructuring itself around AI agent systems that connect across business functions to convert goals and customer feedback into automated action.",
+   "whyMatters": [
+    "Demonstrates practical shift from AI as tool to AI as organizational backbone—agents integrated into workflows rather than augmenting individual roles",
+    "Raises questions about knowledge work transformation: if engineering output triples, what happens to hiring, team structure, and the nature of engineering work itself"
+   ]
+  },
   {
    "title": "AI Mania Is Eviscerating Global Decision-Making",
    "link": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
@@ -3132,25 +3153,6 @@ window.NEWS_DATA = {
     "A strong open-weight model matters most when frontier access is being restricted — it's the escape hatch from gatekeeping.",
     "Another top-tier model from China underscores that AI leadership is genuinely contested, with geopolitical stakes.",
     "For budget-constrained organizations, capable open models could mean serious AI without enterprise pricing."
-   ]
-  },
-  {
-   "title": "Why Local AI Matters and How to Use It",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Local-AI-Matters-and-How-to-Use-It-e3l344o",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-21T15:20:32+00:00",
-   "summary": "In this Operator’s Cut, NLW is joined by Nufar Gaspar for a practical primer on why local AI suddenly matters and where to start. They break down the forces pushing companies to rethink full dependence on frontier cloud models — rising token costs, vendor fragility, capacity constraints, data control, and resilience — then walk through the basic layers of local AI, from hardware and open models to",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121785944/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-21%2F426551944-44100-2-eace034712683.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "NLW and guest Nufar Gaspar walk through why running AI locally — on your own hardware with open models — is suddenly a serious option. They cover the pressures pushing companies away from total reliance on cloud frontier models: rising token costs, vendor fragility, capacity limits, data control, and resilience, then outline the basic building blocks of a local AI stack.",
-   "whyMatters": [
-    "If cloud AI vendors can raise prices or cut access, running models locally is the hedge — relevant to any organization that has built workflows on one provider.",
-    "Local AI keeps data on your own machines, which matters for institutions handling sensitive information, including congregations and schools.",
-    "A practical starting-point guide rather than theory — useful if you want to experiment with open models on your own hardware."
    ]
   },
   {
