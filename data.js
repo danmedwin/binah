@@ -1,88 +1,169 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-20T08:09:26.439462+00:00",
+ "generatedAt": "2026-07-20T12:02:22.418414+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-20T08:09:36.001535+00:00",
+  "generatedAt": "2026-07-20T12:03:06.166796+00:00",
   "bullets": [
    {
-    "text": "OpenAI plans to release a GPT-3-level model for local consumer hardware soon, aiming to outpace competitors like Stability AI in the on-device AI race.",
+    "text": "Chinese AI companies Moonshot and Alibaba released competing models (Kimi K3, Qwen) claiming cost and capability parity with OpenAI and Anthropic, accelerating global competition beyond US dominance.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
+    ]
+   },
+   {
+    "text": "Research confirms AI hiring systems develop their own biases beyond training data, and these systems increasingly screen job applications at scale—posing concrete fairness risks in employment decisions.",
+    "links": [
+     "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
+    ]
+   },
+   {
+    "text": "OpenAI plans to release a GPT-3-capable model running locally on consumer hardware soon, signaling a shift toward edge deployment as companies race to offset centralized cloud AI dominance.",
     "links": [
      "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
     ]
    },
    {
-    "text": "San Francisco ordered Apple and Google to remove AI nudify apps that generate non-consensual intimate images, citing millions in app-store fees from these tools.",
+    "text": "Replit reports internal AI agents nearly tripled engineering output while maintaining quality, restructuring the company around agentic systems—a real-world productivity signal amid hype.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
-    ]
-   },
-   {
-    "text": "AI hype is driving poor decision-making at large companies, with executives pursuing initiatives despite lacking hands-on experience with the tools themselves.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
-    ]
-   },
-   {
-    "text": "Author Dave Eggers told OpenAI staff that ChatGPT is suppressing emerging writers and creative voices, raising questions about AI's impact on cultural production.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
-    ]
-   },
-   {
-    "text": "The U.S. government is testing AI to automate prior authorization decisions for medical treatments, raising concerns about algorithmic decision-making in healthcare.",
-    "links": [
-     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-19T10:59:05.021264+00:00",
+  "generatedAt": "2026-07-20T12:03:06.166796+00:00",
   "bullets": [
    {
-    "text": "AI hype is driving poor corporate decision-making, with executives pursuing AI initiatives despite no hands-on experience; anonymous accounts show widespread misalignment between strategy and actual tool competence.",
+    "text": "Chinese AI companies Moonshot and Alibaba released competing models (Kimi K3, Qwen) claiming cost and capability parity with OpenAI and Anthropic, accelerating global competition beyond US dominance.",
     "links": [
-     "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
+     "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
     ]
    },
    {
-    "text": "Author Dave Eggers told OpenAI staff that ChatGPT suppresses emerging writers and creative voices, raising concerns about AI's effect on cultural production and the next generation of authors.",
+    "text": "Research confirms AI hiring systems develop their own biases beyond training data, and these systems increasingly screen job applications at scale—posing concrete fairness risks in employment decisions.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
+     "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
     ]
    },
    {
-    "text": "U.S. government is testing AI for prior authorization decisions in healthcare, potentially reducing administrative burden but raising questions about AI reliability in life-altering medical approval processes.",
+    "text": "OpenAI plans to release a GPT-3-capable model running locally on consumer hardware soon, signaling a shift toward edge deployment as companies race to offset centralized cloud AI dominance.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
+     "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
     ]
    },
    {
-    "text": "EU mandates Google share search data and open AI on Android under antitrust rules; Apple sues OpenAI over alleged standard industry practices, signaling intensifying regulatory and legal pressure on AI leaders.",
+    "text": "Replit reports internal AI agents nearly tripled engineering output while maintaining quality, restructuring the company around agentic systems—a real-world productivity signal amid hype.",
     "links": [
-     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
-    ]
-   },
-   {
-    "text": "San Francisco ordered Apple and Google to remove 13 AI face-swap 'nudify' apps used to create non-consensual intimate images, targeting the most direct harms from generative AI deployment.",
-    "links": [
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-19T10:58:58.941269+00:00",
+  "updatedAt": "2026-07-20T12:03:00.507330+00:00",
   "voteCount": 7,
   "bullets": [
-   "Wants substantive stories about AI's moral, ethical, and religious implications—especially institutional religious perspectives on technology",
-   "Interested in how major tech companies (Apple, Google/Waze) are developing and deploying AI, particularly non-obvious downstream effects",
-   "Dislikes low-level technical release notes and developer tool updates without broader context or impact"
+   "Interested in AI ethics, governance, and moral/religious perspectives on technology leadership",
+   "Values substantive business and tech reporting (Apple, Waze features) over technical release notes and changelogs",
+   "Prefers stories with clear real-world impact or strategic significance rather than narrow developer updates"
   ]
  },
  "items": [
+  {
+   "title": "China delivers a one-two punch to America’s AI dominance",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-20T11:21:45+00:00",
+   "summary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Chinese AI companies Moonshot and Alibaba have released new AI models (Kimi K3 and Qwen respectively) that they claim compete with OpenAI and Anthropic's offerings while costing significantly less. The rapid releases from multiple Chinese firms signal that the U.S. technological lead in AI is narrowing.",
+   "whyMatters": [
+    "China's competitive models at lower cost could reshape the global AI market and shift economic advantages away from American tech companies",
+    "The acceleration of Chinese AI development may influence policy discussions around AI governance and competitive positioning internationally"
+   ]
+  },
+  {
+   "title": "Beyond grep: The case for a context-rich AI coding harness",
+   "link": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-20T11:20:10+00:00",
+   "summary": "Augment Code's Vinay Perneti talks models, harnesses, and context.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Augment Code's Vinay Perneti discusses improvements to AI coding tools by developing context-rich harnesses that go beyond simple pattern matching to better assist developers with code generation and understanding.",
+   "whyMatters": [
+    "More sophisticated AI coding tools could significantly improve developer productivity and code quality in software engineering workflows",
+    "Better context awareness in AI coding assistants may reduce errors and security vulnerabilities in generated code"
+   ]
+  },
+  {
+   "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-20T10:03:29+00:00",
+   "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Author Dave Eggers, invited by Sam Altman to speak to OpenAI staff, argued that ChatGPT is suppressing emerging writers and creative voices. Eggers, who has founded schools and nonprofits supporting writers and the arts, made this case directly to around 200 OpenAI employees.",
+   "whyMatters": [
+    "Raises concrete concerns about AI's impact on professional creators and the next generation of writers—a key audience for educators and those tracking cultural implications of AI",
+    "Highlights the growing tension between AI companies and the creative community over training data, displacement, and economic opportunity",
+    "Relevant to educators and clergy thinking about AI's role in preserving human intellectual and creative traditions"
+   ]
+  },
+  {
+   "title": "I hate that I don’t hate this song made with Suno",
+   "link": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-20T09:37:27+00:00",
+   "summary": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Verge writer reviewed a song generated by Suno AI and found it surprisingly listenable, contrary to their usual dismissal of AI-generated music as tedious. The piece captures an honest reaction to improving AI music output that defies easy categorization as either good or bad.",
+   "whyMatters": [
+    "AI music generation tools like Suno are crossing a quality threshold where output becomes subjectively engaging rather than obviously machine-generated, complicating easy critiques",
+    "As these tools improve, creators and audiences will need clearer frameworks for evaluating and discussing AI-generated creative work beyond simple acceptance or rejection"
+   ]
+  },
+  {
+   "title": "AI is more likely than humans to form biases when hiring",
+   "link": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-20T08:39:01+00:00",
+   "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "New research shows that large language models used in hiring can develop their own biases during operation, beyond simply inheriting biases from training data. This is particularly concerning because AI systems increasingly screen job applications before human review.",
+   "whyMatters": [
+    "AI hiring systems may perpetuate or amplify discrimination against job applicants without human intervention catching errors",
+    "Organizations deploying AI for hiring face legal and ethical risks; educational institutions and clergy advising congregants on employment should understand these limitations of automated screening"
+   ]
+  },
   {
    "title": "Quoting Sam Altman",
    "link": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
@@ -102,24 +183,6 @@ window.NEWS_DATA = {
     "Signals a potential shift in OpenAI's competitive strategy by moving toward smaller, locally-runnable models rather than purely cloud-based offerings",
     "Could affect the broader AI landscape by making capable models more accessible to individual developers and reducing dependence on proprietary APIs",
     "Raises questions about open-source licensing and distribution strategy that will influence how the AI industry balances openness with competitive advantage"
-   ]
-  },
-  {
-   "title": "I hate that I don’t hate this song made with Suno",
-   "link": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-19T18:20:20+00:00",
-   "summary": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Verge writer reviewed a song generated by Suno AI and found it surprisingly listenable, contrary to their usual dismissal of AI-generated music as tedious. The piece captures an honest reaction to improving AI music output that defies easy categorization as either good or bad.",
-   "whyMatters": [
-    "AI music generation tools like Suno are crossing a quality threshold where output becomes subjectively engaging rather than obviously machine-generated, complicating easy critiques",
-    "As these tools improve, creators and audiences will need clearer frameworks for evaluating and discussing AI-generated creative work beyond simple acceptance or rejection"
    ]
   },
   {
@@ -178,25 +241,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Performance optimization through language rewriting (Rust for Bun) represents incremental but meaningful infrastructure improvements in AI tooling",
     "The change was deliberately kept low-profile—'boring is good'—suggesting a shift toward pragmatic optimization over feature announcements in mature AI products"
-   ]
-  },
-  {
-   "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-18T20:54:42+00:00",
-   "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Author Dave Eggers, invited by Sam Altman to speak to OpenAI staff, argued that ChatGPT is suppressing emerging writers and creative voices. Eggers, who has founded schools and nonprofits supporting writers and the arts, made this case directly to around 200 OpenAI employees.",
-   "whyMatters": [
-    "Raises concrete concerns about AI's impact on professional creators and the next generation of writers—a key audience for educators and those tracking cultural implications of AI",
-    "Highlights the growing tension between AI companies and the creative community over training data, displacement, and economic opportunity",
-    "Relevant to educators and clergy thinking about AI's role in preserving human intellectual and creative traditions"
    ]
   },
   {
@@ -895,24 +939,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Part of Google's consolidation strategy around the Gemini brand across multiple AI products",
     "Affects educators and students using this tool for learning and note-taking workflows"
-   ]
-  },
-  {
-   "title": "Computer cops",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-16T16:06:48+00:00",
-   "summary": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digital age.\" As press, I was prohibited from entering, but from a number of nearby locations, I met with attendees who told me […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge reports on the growing industry of AI companies selling tools to police departments, using a Texas law enforcement conference as a case study. The press was restricted from attending but the reporter spoke with attendees about AI adoption in policing.",
-   "whyMatters": [
-    "Documents actual deployment of AI in criminal justice systems with limited public transparency (press exclusion); raises accountability questions about surveillance and bias in high-stakes decisions",
-    "Shows the business momentum behind police AI tools, which affects marginalized communities directly and raises concerns about algorithmic bias in law enforcement"
    ]
   },
   {
@@ -2036,25 +2062,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
-   "link": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-09T18:57:53+00:00",
-   "summary": "OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright fight.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The New York Times alleges in its copyright suit that OpenAI faked an inability to search its training data and hid or deleted billions of ChatGPT logs. Ars Technica reports OpenAI may face court sanctions over the conduct, calling it a potentially fatal misstep in the fight with news organizations.",
-   "whyMatters": [
-    "If a court finds OpenAI concealed or destroyed evidence, sanctions could reshape the landmark AI copyright case.",
-    "The alleged conduct is an ethics story in its own right: candor and accountability from the company asking for public trust.",
-    "The case's outcome will influence how all AI companies can use journalism and other creative work."
-   ]
-  },
-  {
    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
    "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
    "source": "OpenAI News",
@@ -2722,27 +2729,6 @@ window.NEWS_DATA = {
     "Model groupthink means AI-assisted work drifts toward sameness — a real concern for anyone using AI in creative writing, curriculum design, or sermons.",
     "The random-number demo is a vivid, classroom-ready illustration that LLMs pattern-match rather than think — useful for teaching AI literacy.",
     "Homogenized outputs across billions of users raise cultural questions about diversity of ideas."
-   ]
-  },
-  {
-   "title": "Claude Science is Anthropic’s newest flagship product",
-   "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-06-30T21:50:04+00:00",
-   "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously carry out meaningful work when given concise, high-level instructions, and it has access…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Anthropic announced Claude Science at an event for pharmaceutical executives, biotech founders, and researchers. The product is designed to support scientific research the way Claude Code supports software engineering: given concise high-level instructions, it autonomously carries out substantive research work.",
-   "whyMatters": [
-    "Extends the autonomous-agent model from coding into science — a test of whether AI can do open-ended intellectual work, not just software.",
-    "The pharma-first audience signals drug discovery and biotech as the initial commercial target.",
-    "If it works, the same pattern — autonomous agents for a whole profession — will keep spreading to new fields."
    ]
   },
   {
