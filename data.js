@@ -1,37 +1,36 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-20T00:01:21.010427+00:00",
+ "generatedAt": "2026-07-20T08:09:26.439462+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-20T00:01:26.891661+00:00",
+  "generatedAt": "2026-07-20T08:09:36.001535+00:00",
   "bullets": [
    {
-    "text": "Moonshot's Kimi K3 becomes largest open-source model ever, achieving Opus-class performance at Sonnet pricing—intensifying competition in capable models accessible outside closed ecosystems.",
+    "text": "OpenAI plans to release a GPT-3-level model for local consumer hardware soon, aiming to outpace competitors like Stability AI in the on-device AI race.",
     "links": [
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
+     "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
     ]
    },
    {
-    "text": "San Francisco ordered Apple and Google to remove AI nudify apps profiting the companies millions, targeting non-consensual intimate imagery affecting primarily women and girls.",
+    "text": "San Francisco ordered Apple and Google to remove AI nudify apps that generate non-consensual intimate images, citing millions in app-store fees from these tools.",
     "links": [
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
     ]
    },
    {
-    "text": "Replit's AI agents nearly tripled engineering output while maintaining quality, signaling major companies are restructuring around autonomous AI systems beyond narrow tasks.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
-    ]
-   },
-   {
-    "text": "AI hype is driving poor executive decision-making at large companies, with leaders pursuing initiatives despite lacking hands-on experience with the actual tools.",
+    "text": "AI hype is driving poor decision-making at large companies, with executives pursuing initiatives despite lacking hands-on experience with the tools themselves.",
     "links": [
      "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
     ]
    },
    {
-    "text": "U.S. government is testing AI to automate prior authorization—the insurance approval process affecting medical treatment access—raising concerns about accountability and accuracy in healthcare gatekeeping.",
+    "text": "Author Dave Eggers told OpenAI staff that ChatGPT is suppressing emerging writers and creative voices, raising questions about AI's impact on cultural production.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
+    ]
+   },
+   {
+    "text": "The U.S. government is testing AI to automate prior authorization decisions for medical treatments, raising concerns about algorithmic decision-making in healthcare.",
     "links": [
      "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
     ]
@@ -84,6 +83,27 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Quoting Sam Altman",
+   "link": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-20T03:47:59+00:00",
+   "summary": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage other",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Sam Altman stated that OpenAI is planning to release a language model with GPT-3-level capabilities that can run locally on consumer hardware, and they want to do this soon to get ahead of competitors like Stability AI. The company is having extensive discussions about open-source strategy and plans to address this further at an upcoming board meeting.",
+   "whyMatters": [
+    "Signals a potential shift in OpenAI's competitive strategy by moving toward smaller, locally-runnable models rather than purely cloud-based offerings",
+    "Could affect the broader AI landscape by making capable models more accessible to individual developers and reducing dependence on proprietary APIs",
+    "Raises questions about open-source licensing and distribution strategy that will influence how the AI industry balances openness with competitive advantage"
+   ]
+  },
   {
    "title": "I hate that I don’t hate this song made with Suno",
    "link": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
@@ -1674,24 +1694,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates creative application of AI tools (GPT-5.6 Sol) to solve unconventional problems",
     "Shows how current LLMs can assist in building novel systems that combine unexpected technologies"
-   ]
-  },
-  {
-   "title": "datasette code-frequency chart on GitHub",
-   "link": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-13T21:45:27+00:00",
-   "summary": "datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project: The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol. Tags:",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/datasette-code-frequency.png",
-   "themes": [],
-   "aiSummary": "Simon Willison analyzed his own GitHub activity on the Datasette open-source project and found a significant spike in code contributions correlating with releases of advanced AI coding models (Opus 4.8, GPT-5.5, Fable 5, GPT-5.6 Sol).",
-   "whyMatters": [
-    "Provides concrete evidence of how advanced AI models are accelerating developer productivity",
-    "Suggests AI coding agents are materially changing the pace of open-source development"
    ]
   },
   {
