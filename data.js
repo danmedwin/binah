@@ -1,40 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-19T18:01:36.921926+00:00",
+ "generatedAt": "2026-07-20T00:01:21.010427+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-19T18:01:48.609246+00:00",
+  "generatedAt": "2026-07-20T00:01:26.891661+00:00",
   "bullets": [
    {
-    "text": "EU mandates Google share search data and open AI on Android; Moonshot's Kimi K3 becomes largest open-weight model ever at 2.8 trillion parameters, approaching closed-model performance.",
+    "text": "Moonshot's Kimi K3 becomes largest open-source model ever, achieving Opus-class performance at Sonnet pricing—intensifying competition in capable models accessible outside closed ecosystems.",
     "links": [
-     "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest"
+     "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
     ]
    },
    {
-    "text": "San Francisco orders Apple and Google to remove 13 AI face-swap 'nudify' apps used to create non-consensual intimate images, after companies profited millions in fees from them.",
+    "text": "San Francisco ordered Apple and Google to remove AI nudify apps profiting the companies millions, targeting non-consensual intimate imagery affecting primarily women and girls.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
-     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/"
+     "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
     ]
    },
    {
-    "text": "U.S. government pilot tests AI system for prior authorization decisions in healthcare; xAI sued by users after Grok confirmed to generate child sexual abuse material.",
+    "text": "Replit's AI agents nearly tripled engineering output while maintaining quality, signaling major companies are restructuring around autonomous AI systems beyond narrow tasks.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
-     "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
     ]
    },
    {
-    "text": "AI hype is driving poor executive decision-making at large companies, with leaders pursuing initiatives despite lacking hands-on experience, according to analysis of industry patterns.",
+    "text": "AI hype is driving poor executive decision-making at large companies, with leaders pursuing initiatives despite lacking hands-on experience with the actual tools.",
     "links": [
      "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
     ]
    },
    {
-    "text": "Replit's internal AI agents have nearly tripled engineering output while maintaining quality, restructuring the company around agent systems connecting across business functions.",
+    "text": "U.S. government is testing AI to automate prior authorization—the insurance approval process affecting medical treatment access—raising concerns about accountability and accuracy in healthcare gatekeeping.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
+     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
     ]
    }
   ]
@@ -90,7 +89,7 @@ window.NEWS_DATA = {
    "link": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-07-19T17:35:54+00:00",
+   "date": "2026-07-19T18:20:20+00:00",
    "summary": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that […]",
    "religionScore": 0,
    "religionHits": [],
@@ -3423,28 +3422,6 @@ window.NEWS_DATA = {
     "Directly an education story: an RCT is the gold standard of evidence, and rigorous data on AI tutoring is still rare.",
     "If AI-guided learning works in low-resource settings, it strengthens the case for AI as an equalizer in education — with lessons for supplementary religious schooling too.",
     "Worth reading critically: vendor-run studies of their own product deserve scrutiny of methods and effect sizes."
-   ]
-  },
-  {
-   "title": "Where AI and Religion Meet: A Theology of Technology? #64",
-   "link": "https://aiandfaith.org/aif-podcast/theology-of-technology/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-06-04T21:14:02+00:00",
-   "summary": "Listen to an interview with Timothy Dalrymple, President and CEO of the John Templeton Foundation and Kenneth Cukier, the deputy executive editor of The Economist. Timothy discusses his views on",
-   "religionScore": 8,
-   "religionHits": [
-    "religio",
-    "theolog"
-   ],
-   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-5-4/425531281-44100-2-ca3dd7a60ad25.m4a",
-   "image": "https://aiandfaith.org/wp-content/uploads/2026/06/AIF-PODCAST-POD-IMAGE-Timothy-D.-and-Kenneth-C._result-300x300.webp",
-   "themes": [],
-   "aiSummary": "The AI and Faith podcast interviews Timothy Dalrymple, president and CEO of the John Templeton Foundation, and Kenneth Cukier, deputy executive editor of The Economist, on whether we need a 'theology of technology' and where AI and religion meet.",
-   "whyMatters": [
-    "The Templeton Foundation funds much of the serious science-and-religion work; its CEO's take on AI signals where that funding may flow.",
-    "Pairing a foundation head with an Economist editor puts the religion-and-AI question in mainstream intellectual territory, not a niche.",
-    "The 'theology of technology' framing is a useful prompt for Jewish thought: what would a Jewish theology of AI look like?"
    ]
   }
  ]
