@@ -1,32 +1,32 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-20T12:02:22.418414+00:00",
+ "generatedAt": "2026-07-20T13:10:12.742442+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-20T12:03:06.166796+00:00",
+  "generatedAt": "2026-07-20T13:10:17.915375+00:00",
   "bullets": [
    {
-    "text": "Chinese AI companies Moonshot and Alibaba released competing models (Kimi K3, Qwen) claiming cost and capability parity with OpenAI and Anthropic, accelerating global competition beyond US dominance.",
+    "text": "Chinese AI firms released competitive models at lower costs, signaling a shift in global AI power as Moonshot and Alibaba challenge OpenAI's dominance.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
     ]
    },
    {
-    "text": "Research confirms AI hiring systems develop their own biases beyond training data, and these systems increasingly screen job applications at scale—posing concrete fairness risks in employment decisions.",
+    "text": "LLMs used in hiring develop their own biases during operation beyond inherited training data, raising urgent concerns as AI increasingly screens job applications.",
     "links": [
      "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
     ]
    },
    {
-    "text": "OpenAI plans to release a GPT-3-capable model running locally on consumer hardware soon, signaling a shift toward edge deployment as companies race to offset centralized cloud AI dominance.",
+    "text": "AI hype is driving poor decision-making at major companies where executives pursue initiatives without hands-on experience, eviscerating strategic judgment.",
     "links": [
-     "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
+     "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
     ]
    },
    {
-    "text": "Replit reports internal AI agents nearly tripled engineering output while maintaining quality, restructuring the company around agentic systems—a real-world productivity signal amid hype.",
+    "text": "San Francisco's attorney general ordered Apple and Google to remove AI nudify apps, alleging the companies profited millions from non-consensual intimate imagery.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
+     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
     ]
    }
   ]
@@ -76,7 +76,7 @@ window.NEWS_DATA = {
    "link": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-07-20T11:21:45+00:00",
+   "date": "2026-07-20T12:47:44+00:00",
    "summary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming […]",
    "religionScore": 0,
    "religionHits": [],
