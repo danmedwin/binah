@@ -1,32 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-20T13:10:12.742442+00:00",
+ "generatedAt": "2026-07-20T18:56:35.536629+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-20T13:10:17.915375+00:00",
+  "generatedAt": "2026-07-20T18:56:50.650488+00:00",
   "bullets": [
    {
-    "text": "Chinese AI firms released competitive models at lower costs, signaling a shift in global AI power as Moonshot and Alibaba challenge OpenAI's dominance.",
+    "text": "Chinese AI firms Moonshot and Alibaba released competitive models at lower cost, intensifying tech competition and exposing fractures in Trump administration AI policy leadership.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
+     "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen"
     ]
    },
    {
-    "text": "LLMs used in hiring develop their own biases during operation beyond inherited training data, raising urgent concerns as AI increasingly screens job applications.",
-    "links": [
-     "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
-    ]
+    "text": "Research shows large language models develop novel hiring biases beyond training data, raising urgent concerns as AI increasingly screens job applications at scale.",
+    "links": []
    },
    {
-    "text": "AI hype is driving poor decision-making at major companies where executives pursue initiatives without hands-on experience, eviscerating strategic judgment.",
+    "text": "AI hype is driving poor executive decision-making at major companies, with leaders pursuing initiatives despite lacking hands-on tool experience.",
     "links": [
      "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
     ]
    },
    {
-    "text": "San Francisco's attorney general ordered Apple and Google to remove AI nudify apps, alleging the companies profited millions from non-consensual intimate imagery.",
+    "text": "Author Dave Eggers told OpenAI staff the company's tools are suppressing emerging writers and creative voices, raising questions about AI's cultural impact.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/"
+     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
+    ]
+   },
+   {
+    "text": "OpenAI plans to release GPT-3-level capability in locally-runnable models to outpace competitors like Stability AI in the consumer hardware space.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
     ]
    }
   ]
@@ -72,6 +75,81 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "$438 million later, what does this faith-tech company actually do?",
+   "link": "https://religionnews.com/2026/07/20/438-million-later-what-does-this-faith-tech-company-actually-do/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-07-20T18:41:40+00:00",
+   "summary": "(RNS) — RNS reporter Bob Smietana on Gloo, the faith-tech company chasing a one-stop IT/AI solution for churches.",
+   "religionScore": 6,
+   "religionHits": [
+    "church",
+    "faith"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Gloo, a faith-tech startup that has raised $438 million, aims to build an all-in-one IT and AI platform for churches. Religion News Service reporter Bob Smietana examines what the company actually delivers given its substantial funding.",
+   "whyMatters": [
+    "Directly relevant to religious institutions adopting AI tools; raises questions about whether AI/tech solutions designed for churches meet real pastoral and operational needs.",
+    "Highlights the business and investment side of faith-tech, which shapes what technologies clergy and congregations can access and afford."
+   ]
+  },
+  {
+   "title": "China’s AI models have Trump’s AI world at war with itself",
+   "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-20T18:00:00+00:00",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, the president’s AI and crypto “czar” until…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Trump administration's AI and crypto czar David Sacks has publicly criticized leading U.S. AI companies, creating internal conflict within the administration's AI policy circle. The dispute centers partly on concerns about China's AI capabilities.",
+   "whyMatters": [
+    "Shifts the landscape of U.S. AI policy and industry relations; government advisors openly attacking major AI labs complicates coordinated national AI strategy.",
+    "Reflects geopolitical tensions around AI development that could affect regulation, openness, and resource allocation across the industry."
+   ]
+  },
+  {
+   "title": "How to Get the Most Out of Fable 5 and GPT-5.6 Sol",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Get-the-Most-Out-of-Fable-5-and-GPT-5-6-Sol-e3maada",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-20T18:00:00+00:00",
+   "summary": "Most people are still using the newest frontier models like slightly better versions of the old ones. NLW explores the prompting changes, new interaction patterns, higher-leverage tasks, and iterative loops that can unlock what Fable 5 and GPT-5.6 Sol can actually do. Brought to you by: KPMG – Research from KPMG and the University of Texas at Austin shows the highest-impact AI users treat AI like ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123070314/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-20%2F428276826-44100-2-8a382acf87fef.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "A podcast episode explores how users can more effectively leverage newer frontier AI models like Fable 5 and GPT-5.6 Sol through improved prompting, new interaction patterns, and iterative workflows—moving beyond treating them as incremental upgrades.",
+   "whyMatters": [
+    "Practical guidance for adopters; most users still don't fully utilize new model capabilities, limiting real-world impact and ROI.",
+    "Relevant for educators and professionals who want to unlock AI's potential in their workflows rather than using it superficially."
+   ]
+  },
+  {
+   "title": "Who’s Afraid of Chinese Models?",
+   "link": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-20T17:09:19+00:00",
+   "summary": "Who’s Afraid of Chinese Models? Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts: The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Tech analyst Ben Thompson proposes a U.S. law that would clarify data collection for AI training as fair use and ban restrictive licensing practices that lock out competitors. The idea addresses the contradiction that AI labs train on unlicensed data while prohibiting others from doing the same.",
+   "whyMatters": [
+    "Policy proposal affecting AI competitiveness and openness; could reshape what American versus Chinese models can legally do.",
+    "Highlights tensions in AI governance between protecting proprietary models and enabling fair competition and innovation."
+   ]
+  },
+  {
    "title": "China delivers a one-two punch to America’s AI dominance",
    "link": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
    "source": "The Verge · AI",
@@ -110,6 +188,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Adobe’s ‘natural look’ camera app embraces generative AI",
+   "link": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-20T11:18:31+00:00",
+   "summary": "Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated with a suite of generative AI tools. And the change doesn't rely upon Adobe's own Firefly AI models. Adobe describes the […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Adobe's Indigo camera app, originally designed for natural iPhone photography, is being updated with generative AI tools. The app does not use Adobe's own Firefly models.",
+   "whyMatters": [
+    "Shows mainstream adoption of generative AI in consumer apps beyond text and image generation.",
+    "Choice to use non-Adobe models raises questions about interoperability and vendor lock-in in the generative AI ecosystem."
+   ]
+  },
+  {
    "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
    "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
    "source": "The Verge · AI",
@@ -126,6 +224,26 @@ window.NEWS_DATA = {
     "Raises concrete concerns about AI's impact on professional creators and the next generation of writers—a key audience for educators and those tracking cultural implications of AI",
     "Highlights the growing tension between AI companies and the creative community over training data, displacement, and economic opportunity",
     "Relevant to educators and clergy thinking about AI's role in preserving human intellectual and creative traditions"
+   ]
+  },
+  {
+   "title": "Safety and alignment in an era of long-horizon models",
+   "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-20T10:00:00+00:00",
+   "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenAI shares safety and alignment lessons learned from deploying long-running AI models, discussing new safety risks, documented failures, and improved safeguards developed through iterative real-world deployment.",
+   "whyMatters": [
+    "Critical for understanding how leading labs manage safety as AI systems operate for longer durations and in more complex scenarios.",
+    "Directly impacts whether AI systems can be trusted in high-stakes environments such as education, health, and institutional decision-making."
    ]
   },
   {
@@ -357,7 +475,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-07-18T05:27:49+00:00",
-   "summary": "nascheme/quixote A certain vintage if Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was six hours ago . The oldest commit in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into Git. Tags: computer-history , python , web-frameworks",
+   "summary": "nascheme/quixote A certain vintage of Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was six hours ago . The oldest commit in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into Git. Tags: computer-history , python , web-frameworks",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1076,25 +1194,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google ordered to open Android and Search to rivals in Europe",
-   "link": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-16T12:42:27+00:00",
-   "summary": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bloc's digital antitrust rules. The two decisions, handed down Thursday, could weaken Google's control over two of the tech industry's most important platforms and have […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The European Union ordered Google to open Android and Google Search to rival AI assistants and search engines under the bloc's digital antitrust rules. The rulings require Google to grant competitors greater access to these core platforms, potentially reducing Google's control over both operating systems and search.",
-   "whyMatters": [
-    "Establishes precedent for interoperability requirements in AI regulation—forces tech giants to share platform access rather than maintain closed ecosystems",
-    "Affects the AI industry structure by enabling alternative AI assistants to compete more directly with Google's offerings",
-    "Signals that EU is willing to enforce antitrust against dominant platforms that gate-keep AI capabilities and data access"
-   ]
-  },
-  {
    "title": "Please Stop Making Me Opt Out of AI",
    "link": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
    "source": "Wired · AI",
@@ -1705,24 +1804,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "DOOMQL",
-   "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-13T22:34:41+00:00",
-   "summary": "DOOMQL Peter Gostev built this using GPT-5.6 Sol. This is a lot of fun: DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data? The result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen. It's implemented as a Python terminal sc",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/doomql-window.png",
-   "themes": [],
-   "aiSummary": "Peter Gostev built DOOMQL, a playable Doom-like game where SQLite is the actual game engine, handling movement, collision, enemies, combat, and rendering—not just data storage. The entire game logic runs through SQL queries executed in a Python terminal.",
-   "whyMatters": [
-    "Demonstrates creative application of AI tools (GPT-5.6 Sol) to solve unconventional problems",
-    "Shows how current LLMs can assist in building novel systems that combine unexpected technologies"
-   ]
-  },
-  {
    "title": "Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
    "link": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/",
    "source": "Ars Technica · AI",
@@ -2080,24 +2161,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "Details about the OpenAI Bio Bounty program",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
-   "whyMatters": [
-    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
-    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
-   ]
-  },
-  {
    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
    "link": "https://openai.com/index/gpt-5-6",
    "source": "OpenAI News",
@@ -2131,6 +2194,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
     "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
+   ]
+  },
+  {
+   "title": "GPT-5.5 Bio Bug Bounty",
+   "link": "https://openai.com/index/bio-bug-bounty",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "Details about the OpenAI Bio Bounty program",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
+   "whyMatters": [
+    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
+    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
    ]
   },
   {
@@ -2362,24 +2443,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "MUFG aims to become AI-native with OpenAI",
-   "link": "https://openai.com/index/mufg",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-07T00:00:00+00:00",
-   "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI case study: MUFG, the Japanese banking giant, is using ChatGPT Enterprise across the organization with the stated goal of becoming \"AI-native,\" improving internal workflows and building new AI-powered financial services.",
-   "whyMatters": [
-    "One of the world's largest banks committing to an AI-native strategy signals how deep enterprise adoption is going.",
-    "It's OpenAI's own marketing, so the claims of impact should be read with that in mind."
-   ]
-  },
-  {
    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
    "link": "https://openai.com/index/australian-payments-plus",
    "source": "OpenAI News",
@@ -2395,6 +2458,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI is being woven into national payments infrastructure — high-stakes plumbing, not just office productivity.",
     "The 'human judgment stays central' framing is becoming the standard reassurance in enterprise AI stories; worth watching whether practice matches it."
+   ]
+  },
+  {
+   "title": "MUFG aims to become AI-native with OpenAI",
+   "link": "https://openai.com/index/mufg",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-07T00:00:00+00:00",
+   "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI case study: MUFG, the Japanese banking giant, is using ChatGPT Enterprise across the organization with the stated goal of becoming \"AI-native,\" improving internal workflows and building new AI-powered financial services.",
+   "whyMatters": [
+    "One of the world's largest banks committing to an AI-native strategy signals how deep enterprise adoption is going.",
+    "It's OpenAI's own marketing, so the claims of impact should be read with that in mind."
    ]
   },
   {
@@ -2713,25 +2794,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-   "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-01T14:35:16+00:00",
-   "summary": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Technology Review profiles a startup working on the tendency of large language models to converge on the same outputs — illustrated by the fact that most chatbots, asked for a random number between 1 and 10, overwhelmingly answer 7. The piece explores efforts to make model outputs less predictable and homogeneous.",
-   "whyMatters": [
-    "Model groupthink means AI-assisted work drifts toward sameness — a real concern for anyone using AI in creative writing, curriculum design, or sermons.",
-    "The random-number demo is a vivid, classroom-ready illustration that LLMs pattern-match rather than think — useful for teaching AI literacy.",
-    "Homogenized outputs across billions of users raise cultural questions about diversity of ideas."
-   ]
-  },
-  {
    "title": "How Big Is the AI Economy?",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-Big-Is-the-AI-Economy-e3lg6tt",
    "source": "The AI Daily Brief",
@@ -2786,6 +2848,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Core dump epidemiology: fixing an 18-year-old bug",
+   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-06-30T00:00:00+00:00",
+   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
+   "whyMatters": [
+    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
+    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
+   ]
+  },
+  {
    "title": "Introducing GeneBench-Pro",
    "link": "https://openai.com/index/introducing-genebench-pro",
    "source": "OpenAI News",
@@ -2820,24 +2900,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
     "Thin source material; read alongside the main announcement rather than on its own."
-   ]
-  },
-  {
-   "title": "Core dump epidemiology: fixing an 18-year-old bug",
-   "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI engineers used large-scale analysis of core dumps — treating crash data statistically, like an epidemiologist — to track down rare infrastructure crashes, uncovering both a hardware fault and a software bug that had gone unfixed for 18 years.",
-   "whyMatters": [
-    "A reminder that the AI boom runs on unglamorous infrastructure work, and that decades-old bugs still lurk under the newest systems.",
-    "The epidemiology-style method is a genuinely clever debugging approach for engineers to note."
    ]
   },
   {
@@ -2879,25 +2941,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly at the religion-and-AI intersection: a theological framework (Augustine's City of God) applied to questions of community and technology.",
     "Solidarity and communal bonds are exactly what congregational leaders worry AI-mediated life might erode — a Christian treatment worth comparing with Jewish thinking on kehillah."
-   ]
-  },
-  {
-   "title": "Mapping Europe’s AI Workforce Opportunity",
-   "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-29T07:00:00+00:00",
-   "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published a report mapping how AI could reshape employment across the European Union, identifying which occupations face automation, which may grow, and which will see their workflows change. It's a company-authored analysis of AI's labor-market impact.",
-   "whyMatters": [
-    "Concrete occupation-level data on AI job impact is useful for anyone counseling people anxious about their livelihoods.",
-    "Note the source: the company selling the technology is also writing the map of its consequences.",
-    "Educators appear in these transition analyses too — worth checking where teaching roles land."
    ]
   },
   {
@@ -3120,25 +3163,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Data centers are where AI's abstract costs — power, water, land — become local politics that both parties are now fighting over.",
     "The 'negotiate for real local benefits' frame is a practical ethics of communal fairness, not just NIMBY versus boosterism."
-   ]
-  },
-  {
-   "title": "Why AI Users Are Raving About GLM 5.2",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Users-Are-Raving-About-GLM-5-2-e3l50hs",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-22T19:44:29+00:00",
-   "summary": "GLM 5.2 is looking like the first open-weight model in a while that might survive contact with real-world usage, especially for coding and web design. NLW looks at why builders are comparing it to the DeepSeek R1 moment, where the hype is justified, where the cost story is more complicated, and what it means for enterprise AI stacks that can no longer assume a simple OpenAI-versus-Anthropic race. ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/121847804/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-22%2F426632470-44100-2-1fd697f62d833.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "GLM 5.2 looks like the first open-weight model in a while that may hold up under real-world use, especially for coding and web design, with builders comparing it to the DeepSeek R1 moment. NLW weighs where the hype is justified, where costs complicate the story, and what it means for enterprise stacks that can no longer assume a simple OpenAI-versus-Anthropic race.",
-   "whyMatters": [
-    "A strong open-weight model matters most when frontier access is being restricted — it's the escape hatch from gatekeeping.",
-    "Another top-tier model from China underscores that AI leadership is genuinely contested, with geopolitical stakes.",
-    "For budget-constrained organizations, capable open models could mean serious AI without enterprise pricing."
    ]
   },
   {
