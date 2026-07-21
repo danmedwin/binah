@@ -1,79 +1,183 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-21T07:34:46.507051+00:00",
+ "generatedAt": "2026-07-21T11:27:19.155531+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-21T07:34:57.170086+00:00",
+  "generatedAt": "2026-07-21T11:27:35.890499+00:00",
   "bullets": [
    {
-    "text": "Chinese AI firms Moonshot and Alibaba released competitive models at lower cost, signaling a challenge to American dominance in frontier AI development.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen"
-    ]
-   },
-   {
-    "text": "Sony sued Udio over 30,000 copyrighted songs, intensifying legal battles over AI training data and creator compensation.",
+    "text": "Sony is suing Udio over 30,000 copyrighted songs, launching the most concrete legal challenge yet to AI music generators' training practices and fair use claims.",
     "links": [
      "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
     ]
    },
    {
-    "text": "Research shows LLMs used in hiring develop their own biases during operation beyond inherited training data, raising concerns as AI increasingly screens job applications.",
+    "text": "ChatGPT's Farsi mode was observed inserting antisemitic content beyond grammatical edits, revealing systemic safety failures in multilingual deployments that affect non-English-speaking users.",
+    "links": [
+     "https://forward.com/news/839264/ai-chatbots-grok-antisemitic-farsi-multilingual/"
+    ]
+   },
+   {
+    "text": "The U.S. military has implemented AI token rate-limiting across the Army, signaling resource constraints and operational tensions in defense AI deployment at scale.",
+    "links": [
+     "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/"
+    ]
+   },
+   {
+    "text": "Over 100 Stanford students walked out on Google CEO Sundar Pichai's commencement speech protesting military contracts and ICE enforcement deals, demonstrating persistent internal and external pressure on tech companies' defense and immigration work.",
     "links": []
-   },
-   {
-    "text": "AI coding agents have made reverse-engineering consumer devices economically viable for hobbyists, shifting what's now accessible to non-specialists.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
-    ]
-   },
-   {
-    "text": "Replit's internal AI agents nearly tripled engineering output while maintaining quality, demonstrating significant productivity gains at scale.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
-    ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-20T12:03:06.166796+00:00",
+  "generatedAt": "2026-07-21T11:27:35.890499+00:00",
   "bullets": [
    {
-    "text": "Chinese AI companies Moonshot and Alibaba released competing models (Kimi K3, Qwen) claiming cost and capability parity with OpenAI and Anthropic, accelerating global competition beyond US dominance.",
+    "text": "Sony is suing Udio over 30,000 copyrighted songs, launching the most concrete legal challenge yet to AI music generators' training practices and fair use claims.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee"
+     "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
     ]
    },
    {
-    "text": "Research confirms AI hiring systems develop their own biases beyond training data, and these systems increasingly screen job applications at scale—posing concrete fairness risks in employment decisions.",
+    "text": "ChatGPT's Farsi mode was observed inserting antisemitic content beyond grammatical edits, revealing systemic safety failures in multilingual deployments that affect non-English-speaking users.",
     "links": [
-     "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
+     "https://forward.com/news/839264/ai-chatbots-grok-antisemitic-farsi-multilingual/"
     ]
    },
    {
-    "text": "OpenAI plans to release a GPT-3-capable model running locally on consumer hardware soon, signaling a shift toward edge deployment as companies race to offset centralized cloud AI dominance.",
+    "text": "The U.S. military has implemented AI token rate-limiting across the Army, signaling resource constraints and operational tensions in defense AI deployment at scale.",
     "links": [
-     "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
+     "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/"
     ]
    },
    {
-    "text": "Replit reports internal AI agents nearly tripled engineering output while maintaining quality, restructuring the company around agentic systems—a real-world productivity signal amid hype.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
-    ]
+    "text": "Over 100 Stanford students walked out on Google CEO Sundar Pichai's commencement speech protesting military contracts and ICE enforcement deals, demonstrating persistent internal and external pressure on tech companies' defense and immigration work.",
+    "links": []
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-20T12:03:00.507330+00:00",
+  "updatedAt": "2026-07-21T11:27:31.092310+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics, governance, and moral/religious perspectives on technology leadership",
-   "Values substantive business and tech reporting (Apple, Waze features) over technical release notes and changelogs",
-   "Prefers stories with clear real-world impact or strategic significance rather than narrow developer updates"
+   "Interested in AI ethics and governance, especially from religious/moral leadership perspectives",
+   "Prefers substantive tech analysis (products, business implications, technical legacies) over technical release notes",
+   "Likes coverage of major tech companies and their strategic decisions",
+   "Less interested in routine software updates or developer tool releases without broader context"
   ]
  },
  "items": [
+  {
+   "title": "America needs to stop getting shocked by Chinese AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-21T11:08:56+00:00",
+   "summary": "Last week, two Chinese AI companies unveiled models they say can credibly compete with the best systems from OpenAI and Anthropic. The response was swift and predictable. Markets wobbled, commentators declared Silicon Valley shooketh, and policymakers reached for the familiar language of arms races and wake-up calls. In one headline, The Associated Press said a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Two Chinese AI companies released models that reportedly compete with OpenAI and Anthropic's systems. The U.S. response included market volatility and political rhetoric about technological competition and national security.",
+   "whyMatters": [
+    "Reflects ongoing competitive pressure in large language models, not a sudden shift but a pattern observers should expect",
+    "Demonstrates how geopolitical framing influences AI industry perception and policy responses"
+   ]
+  },
+  {
+   "title": "On Iran war, AI chatbots give antisemitic answers in Farsi",
+   "link": "https://forward.com/news/839264/ai-chatbots-grok-antisemitic-farsi-multilingual/",
+   "source": "The Forward",
+   "category": "religion",
+   "date": "2026-07-21T11:00:41+00:00",
+   "summary": "Mostafa, an Iranian-born activist living in the U.S., uses ChatGPT in Farsi to help him polish his posts about the Iran War. He says more often than not, the chatbot makes changes to his writing that go far beyond syntax. “I just ask ChatGPT to polish my work grammatically,” said the activist who asked that...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ChatGPT in Farsi mode was observed making edits to user writing that inserted antisemitic content beyond grammatical corrections, as documented by an Iranian-American activist using the tool to edit posts about the Iran war.",
+   "whyMatters": [
+    "Reveals bias and safety failures in non-English language models, a concrete gap in multilingual AI safety practices",
+    "Raises urgent concerns for Jewish communities and educators about antisemitism embedded in widely-used tools across languages"
+   ]
+  },
+  {
+   "title": "Advancing next-gen AI with materials science innovation",
+   "link": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-21T10:37:34+00:00",
+   "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI technology demands more processing power, more memory, greater energy efficiency, and…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Advanced materials science innovations underpin the semiconductor and hardware progress required for next-generation AI systems, enabling improvements in processing power, memory, and energy efficiency.",
+   "whyMatters": [
+    "Highlights that AI capability advances depend on physics and materials engineering, not just algorithms or funding",
+    "Understanding materials constraints is essential for realistic assessment of AI scaling limits and timelines"
+   ]
+  },
+  {
+   "title": "‘It’s a Modern-Day Draft’: Why Stanford Students Walked Out on Sundar Pichai’s Commencement Speech",
+   "link": "https://www.wired.com/story/big-interview-stanford-students-booing-sundar-pichai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-21T10:30:00+00:00",
+   "summary": "Last month, more than a hundred Stanford students left their own graduation to protest Google’s military contracts and deals with ICE. Two organizers, Amanda Campos and Eva Jones, tell us why.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "More than 100 Stanford students walked out during Google CEO Sundar Pichai's commencement speech to protest the company's military contracts and immigration enforcement agency deals. Student organizers framed the action as objecting to corporate complicity in government surveillance and enforcement.",
+   "whyMatters": [
+    "Reflects ongoing campus activism against AI deployment in military and law enforcement contexts",
+    "Shows younger technologists questioning ethical implications of their industry's work—relevant for educators teaching emerging workforce about technology ethics"
+   ]
+  },
+  {
+   "title": "The Army Is Burning Through Its AI Tokens",
+   "link": "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-21T09:30:00+00:00",
+   "summary": "Members of the Army received an email informing them that they were rapidly depleting their AI tokens, and needed to limit use.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "U.S. Army personnel received notification that their allocated AI tokens were being consumed rapidly and needed to limit usage, indicating the military branch implemented rate-limiting on AI tool access.",
+   "whyMatters": [
+    "Suggests U.S. military adoption of AI tools is outpacing allocated resources",
+    "Practical constraint on government AI deployment worth monitoring in policy and procurement contexts"
+   ]
+  },
+  {
+   "title": "Etsy Is In Its Flop Era, and Sellers Are Fleeing",
+   "link": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-21T09:00:00+00:00",
+   "summary": "Once a quirky bastion of amateur vulva jewelry and pet portraits, Etsy is now deluged with mass-produced goods and AI knockoffs. Some customers don’t seem to mind.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Etsy's marketplace has become flooded with mass-produced goods and AI-generated knockoffs, causing some original sellers and craft creators to leave the platform, though some customer demand persists for cheaper offerings.",
+   "whyMatters": [
+    "Demonstrates real economic consequences of AI-generated content: displacement of human creators and erosion of platform authenticity",
+    "Relevant to creators and educators concerned with protecting artisanal work and human-centered labor in digital marketplaces"
+   ]
+  },
   {
    "title": "[AINews] not much happened today",
    "link": "https://www.latent.space/p/ainews-not-much-happened-today-173",
@@ -1079,24 +1183,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "New York governor says she’s using AI to analyze ‘every single rule’ in the state",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-16T17:58:37+00:00",
-   "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "New York Governor Kathy Hochul announced her administration is using AI to analyze every rule, regulation, and policy in the state to identify outdated provisions. This comes despite Hochul having signed a moratorium on new AI data centers in the state.",
-   "whyMatters": [
-    "Demonstrates internal government adoption of AI for policy review, independent of regulatory restrictions on AI infrastructure",
-    "Raises questions about governance consistency when officials restrict AI expansion while relying on AI tools themselves"
-   ]
-  },
-  {
    "title": "Quoting Thibault Sottiaux",
    "link": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
    "source": "Simon Willison",
@@ -1229,24 +1315,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Please Stop Making Me Opt Out of AI",
-   "link": "https://www.wired.com/story/please-stop-making-me-opt-out-of-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-16T10:00:00+00:00",
-   "summary": "I’m sick of “opt-out” toggles for automatically enabled generative AI features. It’s past time to make “opt in” the default setting for sensitive features.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Wired columnist argues that generative AI features should require explicit opt-in rather than being enabled by default with opt-out options. The piece critiques the current practice where users must actively disable features they never requested.",
-   "whyMatters": [
-    "Sets default terms that shape user behavior and consent—opt-out architectures rely on user inaction, making them ethically weaker than opt-in defaults",
-    "Affects how ordinary people interact with AI tools in everyday software; relevant to broader conversations about informed consent and user autonomy in tech"
-   ]
-  },
-  {
    "title": "Our approach to bioresilience",
    "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
    "source": "Google DeepMind",
@@ -1354,42 +1422,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides practical insight into near-term shifts in AI deployment and workflow—useful for educators preparing students for evolving AI-integrated work environments",
     "Frames the trajectory away from autonomous systems toward human-centered control, informing expectations about AI's actual role in professional contexts"
-   ]
-  },
-  {
-   "title": "AI Isn’t Smarter Than a Baby—Yet",
-   "link": "https://www.wired.com/story/ai-isnt-smarter-than-a-baby-yet/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-15T18:30:00+00:00",
-   "summary": "Babies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An article explores how infant learning mechanisms and brain architecture may offer valuable insights for advancing AI capabilities, framing babies as powerful learning systems that AI has not yet matched.",
-   "whyMatters": [
-    "Suggests a new research direction for AI development rooted in cognitive science rather than scaling alone",
-    "Relevant to educators discussing AI capabilities, limitations, and what we can learn from human development about learning"
-   ]
-  },
-  {
-   "title": "Thinking Machines Lab Drops Its First Model",
-   "link": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-15T18:05:00+00:00",
-   "summary": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Thinking Machines Lab released Inkling, a 975-billion-parameter open source model trained on video and audio data. The release positions the lab as a competitor to established players like Anthropic and OpenAI.",
-   "whyMatters": [
-    "Expands the open-source LLM landscape with a multimodal model",
-    "Signals another entrant entering the crowded foundation model market"
    ]
   },
   {
@@ -2693,24 +2725,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Articulates where humans stay in the loop as agents get stronger: taste, judgment, and steering rather than execution.",
     "'Skill engineering' — encoding your expertise so an AI can apply it — is a teaching act, and a frame educators will recognize."
-   ]
-  },
-  {
-   "title": "Building the foundation for an autonomous enterprise",
-   "link": "https://www.technologyreview.com/2026/07/02/1138433/building-the-foundation-for-an-autonomous-enterprise/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-02T12:51:44+00:00",
-   "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operationa",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Technology Review examines AI's move into heavy industry, where it is becoming a core operating layer for physical infrastructure and safety-critical operations rather than a consumer-facing tool. The focus is on sectors with sprawling industrial systems and constant operational data.",
-   "whyMatters": [
-    "A reminder that some of AI's biggest consequences are in factories and infrastructure, far from chatbots.",
-    "Safety-critical autonomy raises accountability questions that will outlast any single product cycle."
    ]
   },
   {
