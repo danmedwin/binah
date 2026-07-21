@@ -1,35 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-21T00:00:39.844955+00:00",
+ "generatedAt": "2026-07-21T07:34:46.507051+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-21T00:00:51.495311+00:00",
+  "generatedAt": "2026-07-21T07:34:57.170086+00:00",
   "bullets": [
    {
-    "text": "Sony sued Udio over 30,000 copyrighted songs, escalating the music industry's legal assault on AI training practices.",
-    "links": [
-     "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
-    ]
-   },
-   {
-    "text": "Chinese AI companies released competitive models at lower cost, signaling a sustained challenge to U.S. AI dominance.",
+    "text": "Chinese AI firms Moonshot and Alibaba released competitive models at lower cost, signaling a challenge to American dominance in frontier AI development.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen"
     ]
    },
    {
-    "text": "AI hiring systems develop independent biases during operation, moving beyond inherited training data problems.",
+    "text": "Sony sued Udio over 30,000 copyrighted songs, intensifying legal battles over AI training data and creator compensation.",
+    "links": [
+     "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
+    ]
+   },
+   {
+    "text": "Research shows LLMs used in hiring develop their own biases during operation beyond inherited training data, raising concerns as AI increasingly screens job applications.",
     "links": []
    },
    {
-    "text": "AI coding agents now make reverse-engineering consumer devices economically viable for hobbyists.",
+    "text": "AI coding agents have made reverse-engineering consumer devices economically viable for hobbyists, shifting what's now accessible to non-specialists.",
     "links": [
      "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
     ]
    },
    {
-    "text": "Government pilots AI for medical prior authorization decisions, raising questions about accountability in healthcare gatekeeping.",
+    "text": "Replit's internal AI agents nearly tripled engineering output while maintaining quality, demonstrating significant productivity gains at scale.",
     "links": [
-     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5"
     ]
    }
   ]
@@ -74,6 +74,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "[AINews] not much happened today",
+   "link": "https://www.latent.space/p/ainews-not-much-happened-today-173",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-21T03:58:00+00:00",
+   "summary": "a quiet day.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/VrpEyglYgeU",
+   "themes": [],
+   "aiSummary": "This edition of AINews reports minimal significant developments in the AI industry on the day covered. No major announcements, breakthroughs, or events warranted detailed coverage.",
+   "whyMatters": [
+    "Useful as a marker that AI news cycles are not uniformly eventful—sometimes the industry simply has slower news days",
+    "Reminds followers that substantive developments, not constant churn, should drive attention to the field"
+   ]
+  },
   {
    "title": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
    "link": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
@@ -559,23 +577,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates unexpectedly sustained maintenance of a legacy framework originally created around 2005",
     "Relevant to understanding the long tail of Python web development tools still in use and updated"
-   ]
-  },
-  {
-   "title": "[AINews] not much happened today",
-   "link": "https://www.latent.space/p/ainews-not-much-happened-today-830",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-18T04:30:21+00:00",
-   "summary": "a quiet day",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/OqM67QG_Ikk",
-   "themes": [],
-   "aiSummary": "Latent Space reported a quiet day in AI news with no significant developments.",
-   "whyMatters": [
-    "Indicates a lull in major AI announcements or industry movements on that particular date"
    ]
   },
   {
@@ -2747,24 +2748,6 @@ window.NEWS_DATA = {
     "The agency debate is fundamentally an ethics question — how much judgment should humans hand over to automated loops — which maps directly onto conversations about human dignity and responsibility.",
     "Shows the industry itself is not unanimous about full automation, even at its most enthusiastic gathering.",
     "Useful framing for teaching or preaching about what humans should keep for themselves as AI improves."
-   ]
-  },
-  {
-   "title": "Autoresearch: The feedback loop behind self-improving agents",
-   "link": "https://www.latent.space/p/autoresearch-introspection",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-01T23:52:30+00:00",
-   "summary": "Introspection co-founder Roland Gavrilescu explains autoresearch, agent “recipes,” self-improving loops, and why humans remain central to the software factory.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!p4Th!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe316b2cb-4200-4a71-bdcc-c398467b53ef_1280x720.jpeg",
-   "themes": [],
-   "aiSummary": "An interview with Roland Gavrilescu, co-founder of Introspection, on 'autoresearch' — feedback loops in which AI agents follow reusable 'recipes' and improve their own performance over time. He argues humans remain central to this so-called software factory rather than being designed out of it.",
-   "whyMatters": [
-    "Self-improving agent loops are the mechanism behind claims of accelerating AI progress — worth understanding the concrete version, not just the hype.",
-    "The 'humans remain central' claim from someone building the automation is a notable counterweight to replacement narratives."
    ]
   },
   {
