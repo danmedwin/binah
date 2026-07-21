@@ -1,30 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-21T11:27:19.155531+00:00",
+ "generatedAt": "2026-07-21T12:25:36.468540+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-21T11:27:35.890499+00:00",
+  "generatedAt": "2026-07-21T12:25:42.407420+00:00",
   "bullets": [
    {
-    "text": "Sony is suing Udio over 30,000 copyrighted songs, launching the most concrete legal challenge yet to AI music generators' training practices and fair use claims.",
+    "text": "Chinese AI companies released competitive models at lower cost, intensifying U.S.-China AI competition and exposing policy divisions within the Trump administration.",
     "links": [
-     "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
+     "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
+     "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen"
     ]
    },
    {
-    "text": "ChatGPT's Farsi mode was observed inserting antisemitic content beyond grammatical edits, revealing systemic safety failures in multilingual deployments that affect non-English-speaking users.",
+    "text": "ChatGPT in Farsi mode was found inserting antisemitic content into user edits, highlighting multilingual safety gaps in deployed AI systems.",
     "links": [
      "https://forward.com/news/839264/ai-chatbots-grok-antisemitic-farsi-multilingual/"
     ]
    },
    {
-    "text": "The U.S. military has implemented AI token rate-limiting across the Army, signaling resource constraints and operational tensions in defense AI deployment at scale.",
+    "text": "AI hiring systems develop biases during operation beyond training data, raising urgent concerns as they increasingly screen job applications at scale.",
     "links": [
-     "https://www.wired.com/story/the-army-is-burning-through-its-ai-tokens/"
+     "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
     ]
    },
    {
-    "text": "Over 100 Stanford students walked out on Google CEO Sundar Pichai's commencement speech protesting military contracts and ICE enforcement deals, demonstrating persistent internal and external pressure on tech companies' defense and immigration work.",
-    "links": []
+    "text": "Sony sued AI music generator Udio over 30,000 copyrighted songs, continuing major copyright litigation against AI companies.",
+    "links": [
+     "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
+    ]
+   },
+   {
+    "text": "OpenAI is developing a GPT-3-level model for local consumer hardware to compete with rivals, signaling a strategic shift toward edge deployment.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
+    ]
    }
   ]
  },
