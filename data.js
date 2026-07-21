@@ -1,35 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-20T18:56:35.536629+00:00",
+ "generatedAt": "2026-07-21T00:00:39.844955+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-20T18:56:50.650488+00:00",
+  "generatedAt": "2026-07-21T00:00:51.495311+00:00",
   "bullets": [
    {
-    "text": "Chinese AI firms Moonshot and Alibaba released competitive models at lower cost, intensifying tech competition and exposing fractures in Trump administration AI policy leadership.",
+    "text": "Sony sued Udio over 30,000 copyrighted songs, escalating the music industry's legal assault on AI training practices.",
+    "links": [
+     "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
+    ]
+   },
+   {
+    "text": "Chinese AI companies released competitive models at lower cost, signaling a sustained challenge to U.S. AI dominance.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen"
     ]
    },
    {
-    "text": "Research shows large language models develop novel hiring biases beyond training data, raising urgent concerns as AI increasingly screens job applications at scale.",
+    "text": "AI hiring systems develop independent biases during operation, moving beyond inherited training data problems.",
     "links": []
    },
    {
-    "text": "AI hype is driving poor executive decision-making at major companies, with leaders pursuing initiatives despite lacking hands-on tool experience.",
+    "text": "AI coding agents now make reverse-engineering consumer devices economically viable for hobbyists.",
     "links": [
-     "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything"
+     "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
     ]
    },
    {
-    "text": "Author Dave Eggers told OpenAI staff the company's tools are suppressing emerging writers and creative voices, raising questions about AI's cultural impact.",
+    "text": "Government pilots AI for medical prior authorization decisions, raising questions about accountability in healthcare gatekeeping.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
-    ]
-   },
-   {
-    "text": "OpenAI plans to release GPT-3-level capability in locally-runnable models to outpace competitors like Stability AI in the consumer hardware space.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
+     "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/"
     ]
    }
   ]
@@ -74,6 +74,80 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
+   "link": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-20T22:20:34+00:00",
+   "summary": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyoncé's Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New York court on Monday, claims that this […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Sony Music Entertainment sued Udio, an AI music generator, alleging copyright infringement on over 30,000 songs in its catalog, including works by Elvis Presley, Beyoncé, and Harry Styles. The lawsuit was filed in New York court and represents another major music industry action against AI music tools.",
+   "whyMatters": [
+    "Reflects escalating legal battles over whether AI music generators can train on copyrighted works without permission—a foundational question for the AI music industry",
+    "Highlights tension between AI capability to generate creative content and existing copyright frameworks designed for a pre-generative-AI era"
+   ]
+  },
+  {
+   "title": "Firefighting drones in the works as wildfires plague US nearly year-round",
+   "link": "https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-20T21:55:52+00:00",
+   "summary": "California and XPRIZE competition tests whether drones can stop wildfires early.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "California and an XPRIZE competition are testing whether drones equipped with AI can help contain wildfires during their early stages when intervention is most effective. The initiative aims to develop autonomous or remotely piloted systems that could respond faster than traditional firefighting methods.",
+   "whyMatters": [
+    "Demonstrates practical application of AI and robotics to urgent real-world crisis (wildfire mitigation) at scale",
+    "Tests whether automation can reduce response time and human risk in dangerous, time-sensitive scenarios"
+   ]
+  },
+  {
+   "title": "SpaceX in your index fund, explained",
+   "link": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-20T21:12:45+00:00",
+   "summary": "Index funds are touted as one of the safest ways to invest. Rather than picking and choosing individual stocks, index funds let you bet on the market as a whole. So what happens when a company like SpaceX - a giant gamble, and, in my opinion, terribly overpriced - is fast-tracked into the Nasdaq-100? Does […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "SpaceX has been fast-tracked into the Nasdaq-100 index fund, raising questions about how major private companies with volatile trajectories are admitted into index funds that are marketed as stable, diversified investments. The piece questions whether this represents sound index fund methodology or financial overvaluation.",
+   "whyMatters": [
+    "Raises governance and transparency issues in how index fund constituents are selected and the impact on retail investors",
+    "Reflects broader tensions between speculative high-growth companies and traditional index fund principles of broad market exposure"
+   ]
+  },
+  {
+   "title": "Reverse-engineering is cheap now",
+   "link": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-20T19:24:05+00:00",
+   "summary": "I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes. I think this is an interesting illustration of the impact of the reduced cost of writing code. Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer k",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI coding agents have made reverse-engineering consumer devices economically viable for hobbyists and home automation enthusiasts. What was previously technically possible but financially impractical—because manual coding effort outweighed benefits—is now accessible due to the dramatically reduced cost of code generation.",
+   "whyMatters": [
+    "Shows how AI agents shift the economics of technical work, enabling individuals to automate tasks that were previously only worth large teams' effort",
+    "Raises implications for device interoperability, user control, and manufacturer relationships as consumers can more easily modify and integrate hardware"
+   ]
+  },
   {
    "title": "$438 million later, what does this faith-tech company actually do?",
    "link": "https://religionnews.com/2026/07/20/438-million-later-what-does-this-faith-tech-company-actually-do/",
@@ -141,7 +215,7 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "",
+   "image": "https://static.simonwillison.net/static/2026/qwen-3.8-max-pelican.png",
    "themes": [],
    "aiSummary": "Tech analyst Ben Thompson proposes a U.S. law that would clarify data collection for AI training as fair use and ban restrictive licensing practices that lock out competitors. The idea addresses the contradiction that AI labs train on unlicensed data while prohibiting others from doing the same.",
    "whyMatters": [
@@ -1040,26 +1114,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google is renaming NotebookLM to Gemini Notebook",
-   "link": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-16T16:11:20+00:00",
-   "summary": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google is renaming its AI note-taking app NotebookLM to Gemini Notebook while keeping it as a standalone application, even as it deepens integration with the broader Gemini ecosystem and Google Search.",
-   "whyMatters": [
-    "Part of Google's consolidation strategy around the Gemini brand across multiple AI products",
-    "Affects educators and students using this tool for learning and note-taking workflows"
-   ]
-  },
-  {
    "title": "Why teens deserve access to safe AI",
    "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
    "source": "OpenAI News",
@@ -1133,26 +1187,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Practical developer tooling enabled by AI compilation assistance",
     "Demonstrates utility of LLMs in cross-language and cross-platform code porting tasks"
-   ]
-  },
-  {
-   "title": "Claude can now use your 1Password credentials for you",
-   "link": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-16T14:08:12+00:00",
-   "summary": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing online accounts on their behalf without having to manually input their login […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "1Password integrated Claude with the ability to access stored credentials, allowing the AI to complete multi-step tasks like booking travel and managing accounts on behalf of users without manual login input.",
-   "whyMatters": [
-    "Substantially increases the scope of actions AI agents can take on users' behalf, creating new security and trust considerations",
-    "Raises practical questions about delegation of sensitive tasks to AI systems in everyday workflows"
    ]
   },
   {
@@ -1748,26 +1782,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Using uvx in GitHub Actions in a cache-friendly way",
-   "link": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-14T00:56:20+00:00",
-   "summary": "TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like. The trick is setting a UV_EXCLUDE_NEWER: \"2026-07-12\" environment variable at the start of the workflow and then using that as part of the GitHub Actions cache key. This means any uvx tool-name commands will resolve to the most recent ver",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Simon Willison documented a cache-friendly approach for using uvx (a Python tool runner) in GitHub Actions by setting a UV_EXCLUDE_NEWER environment variable and incorporating it into the cache key. This solves performance issues when running tools through CI/CD pipelines.",
-   "whyMatters": [
-    "Practical improvement for developers using modern Python tooling in automated workflows",
-    "Reduces build time and infrastructure costs for teams adopting uvx-based development practices"
-   ]
-  },
-  {
    "title": "How sales teams use ChatGPT Work",
    "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
    "source": "OpenAI News",
@@ -2100,27 +2114,6 @@ window.NEWS_DATA = {
     "Interpretability progress matters for trust: we're starting to actually see how these systems 'think' rather than guessing.",
     "Findings described as 'unnerving' will feed debates about AI inner life and moral status — territory where religious thinkers have something to say.",
     "Anthropic publishing this keeps safety research visible amid the product-launch arms race."
-   ]
-  },
-  {
-   "title": "Humanoid robots controlled by surgeons did world-first operation on live pigs",
-   "link": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-09T20:12:03+00:00",
-   "summary": "Preclinical trial is testing the feasibility of humanoid robots in surgery.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "In a world first, surgeon-controlled humanoid robots performed an operation on live pigs. The preclinical trial is testing whether humanoid robots are feasible in surgery; the robots were teleoperated by human surgeons, not autonomous.",
-   "whyMatters": [
-    "A concrete step toward robotic hands in the operating room, with human surgeons still in control.",
-    "Raises pikuach-nefesh-adjacent ethical questions about trust, liability, and how much distance we accept between healer and patient.",
-    "Animal trials mean human applications are still years of testing away — this is early-stage."
    ]
   },
   {
