@@ -1,38 +1,36 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-21T12:25:36.468540+00:00",
+ "generatedAt": "2026-07-21T18:18:24.152959+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-21T12:25:42.407420+00:00",
+  "generatedAt": "2026-07-21T18:18:52.021864+00:00",
   "bullets": [
    {
-    "text": "Chinese AI companies released competitive models at lower cost, intensifying U.S.-China AI competition and exposing policy divisions within the Trump administration.",
+    "text": "Federal judge approved Anthropic's $1.5 billion copyright settlement with authors; only 350 opted out of the class, establishing precedent for AI training liability.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
+     "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
+     "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved"
+    ]
+   },
+   {
+    "text": "Chinese AI companies released competitive models at lower cost, prompting U.S. market volatility and policy tensions within the Trump administration's AI leadership.",
+    "links": [
      "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen"
     ]
    },
    {
-    "text": "ChatGPT in Farsi mode was found inserting antisemitic content into user edits, highlighting multilingual safety gaps in deployed AI systems.",
-    "links": [
-     "https://forward.com/news/839264/ai-chatbots-grok-antisemitic-farsi-multilingual/"
-    ]
-   },
-   {
-    "text": "AI hiring systems develop biases during operation beyond training data, raising urgent concerns as they increasingly screen job applications at scale.",
-    "links": [
-     "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
-    ]
-   },
-   {
-    "text": "Sony sued AI music generator Udio over 30,000 copyrighted songs, continuing major copyright litigation against AI companies.",
+    "text": "Sony sued Udio AI music generator over 30,000 copyrighted songs; ongoing copyright battles signal sustained legal pressure on generative AI companies across content types.",
     "links": [
      "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
     ]
    },
    {
-    "text": "OpenAI is developing a GPT-3-level model for local consumer hardware to compete with rivals, signaling a strategic shift toward edge deployment.",
+    "text": "Research shows AI hiring systems develop novel biases during operation beyond inherited training data biases, raising governance concerns as deployment spreads.",
+    "links": []
+   },
+   {
+    "text": "Malware targeting AI infrastructure discovered embedding deep in systems to steal credentials and deploy destructive 'death switches,' exposing critical infrastructure vulnerabilities.",
     "links": [
-     "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
+     "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/"
     ]
    }
   ]
@@ -76,11 +74,237 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
+   "link": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-21T17:33:14+00:00",
+   "summary": "Anthropic blocks authors from opting out of $1.5B settlement at last minute.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A federal judge approved Anthropic's $1.5 billion copyright settlement with authors who sued over unauthorized use of their books in AI training. Only 350 authors out of the class opted out, and the settlement will distribute roughly $3,000 per book to eligible authors.",
+   "whyMatters": [
+    "Establishes legal precedent for AI companies' liability in using copyrighted works, affecting how all major AI labs approach training data acquisition",
+    "Creates a financial model showing the cost of past copyright violations may reshape future AI development practices and negotiations with publishers"
+   ]
+  },
+  {
+   "title": "Introducing the ChatGPT for small business program",
+   "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-21T17:00:00+00:00",
+   "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI launched a ChatGPT for Small Businesses program designed to help entrepreneurs build AI skills, automate workflows, and scale their operations using ChatGPT Work.",
+   "whyMatters": [
+    "Expands ChatGPT's market beyond tech enthusiasts to mainstream small business users, potentially broadening AI adoption in less tech-savvy sectors",
+    "Reflects OpenAI's strategy to build widespread dependence on its platform across the SMB market before competition intensifies"
+   ]
+  },
+  {
+   "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
+   "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-21T16:58:25+00:00",
+   "summary": "There are new 3.6 and 3.5 models today, but Google is already training Gemini 4.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google released Gemini 3.6 Flash as a faster and cheaper model while still developing Gemini 3.5 Pro and already training Gemini 4. The company also introduced a dedicated cybersecurity-focused model.",
+   "whyMatters": [
+    "Demonstrates aggressive model cadence and capability stacking to maintain competitive pressure on Anthropic and OpenAI in the large language model market",
+    "Signals Google's focus on efficiency improvements (speed and cost) as a differentiator in an increasingly crowded field"
+   ]
+  },
+  {
+   "title": "Anthropic’s $1.5 billion book piracy settlement approved by judge",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-21T16:53:37+00:00",
+   "summary": "A federal judge has signed off on Anthropic's $1.5 billion class action settlement with authors who accused the company of training its AI models on copyrighted books, as reported earlier by Reuters. In an order on Monday, Judge Araceli Martínez-Olguín writes that the settlement will provide \"meaningful relief,\" offering authors around $3,000 for each book […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A federal judge approved Anthropic's $1.5 billion class action settlement with authors over copyrighted books used in AI training, with the judge noting the settlement provides \"meaningful relief\" of approximately $3,000 per book.",
+   "whyMatters": [
+    "Validates the authors' legal theory that unauthorized book scraping for AI training constitutes copyright infringement actionable at scale",
+    "May encourage similar litigation against other AI companies, potentially establishing $1.5B+ as the market price for past copyright violations"
+   ]
+  },
+  {
+   "title": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims’ Blind Spots",
+   "link": "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-21T16:08:44+00:00",
+   "summary": "A new type of malware can worm deep into AI coding systems to steal data and logins—and can flip a “death switch” to destroy files and keep out real users.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A new type of malware targets AI coding infrastructure by embedding deep within systems to steal credentials and data, with the ability to activate a \"death switch\" to destroy files and lock out legitimate users.",
+   "whyMatters": [
+    "Reveals a critical security blind spot in AI development environments that most organizations likely lack visibility into",
+    "Threatens the integrity and security of AI model code and training pipelines, with implications for supply chain attacks across the industry"
+   ]
+  },
+  {
+   "title": "Google launches a cheaper alternative to large AI security models like Mythos",
+   "link": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-21T15:43:26+00:00",
+   "summary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google launched Gemini 3.5 Flash Cyber, a specialized AI model designed to quickly identify and patch security vulnerabilities as a lower-cost alternative to larger cybersecurity AI systems.",
+   "whyMatters": [
+    "Positions Google to capture cybersecurity use cases by offering a specialized, efficient model rather than requiring enterprises to use expensive general-purpose systems",
+    "Demonstrates the trend toward narrow, task-specific AI models that compete on cost and latency rather than general capability"
+   ]
+  },
+  {
+   "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+   "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-07-21T15:16:30+00:00",
+   "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google announced three new Gemini models: 3.6 Flash (faster general-purpose model), 3.5 Flash-Lite (lighter version), and 3.5 Flash Cyber (cybersecurity-focused).",
+   "whyMatters": [
+    "Shows Google fragmenting its model lineup across performance tiers and specialized domains to serve different market segments and cost requirements",
+    "Indicates a shift from monolithic models toward a portfolio strategy similar to consumer product lines"
+   ]
+  },
+  {
+   "title": "Nvidia Wants to Own Every Chip Inside AI Data Centers",
+   "link": "https://www.wired.com/story/nvidia-wants-to-own-every-chip-inside-an-ai-data-center/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-21T15:00:00+00:00",
+   "summary": "Nvidia’s Vera Rubin platform combines CPUs and GPUs into a single system, reflecting the company’s growing ambition to power every layer of AI infrastructure.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia is developing its Vera Rubin platform to integrate both CPUs and GPUs into a single unified system, aiming to control all computational layers in AI data center infrastructure.",
+   "whyMatters": [
+    "Represents Nvidia's aggressive vertical integration strategy to lock in customers and increase margins by supplying entire data center stacks",
+    "If successful, could entrench Nvidia's monopoly over AI infrastructure and make it difficult for competitors or alternative chip designs to gain adoption"
+   ]
+  },
+  {
+   "title": "Nativ: Run AI models locally on your Mac",
+   "link": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-21T14:22:27+00:00",
+   "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models. The app picked up MLX models",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nativ is a new macOS desktop application that wraps the MLX Python library, allowing users to run AI models locally on their Mac with both a chat interface and a localhost API server.",
+   "whyMatters": [
+    "Lowers barriers for Mac users to run open-source models locally without command-line expertise, supporting privacy-preserving AI use cases",
+    "Continues the trend of democratizing local model inference as alternatives to cloud-based proprietary APIs"
+   ]
+  },
+  {
+   "title": "AI Companies Are Buying Tons of Old Books Because They're Free of AI Slop",
+   "link": "https://www.404media.co/ai-companies-are-buying-tons-of-old-books-because-theyre-free-of-ai-slop/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-21T13:51:39+00:00",
+   "summary": "ISBNdb, a company that sources printed books for AI companies to turn into training data, tells clients “the optics problem is real.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI companies are actively purchasing large quantities of out-of-print and old books from ISBNdb and other book resellers specifically to train on books that predate AI-generated content, avoiding low-quality synthetic data in training sets.",
+   "whyMatters": [
+    "Reveals that AI labs view pre-AI-era published content as strategically valuable and higher-quality than current internet data contaminated with AI-generated text",
+    "Raises questions about long-term data sustainability as AI training on AI-generated outputs compounds over generations and degrades content quality"
+   ]
+  },
+  {
+   "title": "Halliday’s New Smart Glasses Skip the Camera",
+   "link": "https://www.wired.com/story/halliday-new-smart-glasses-skip-the-camera/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-21T13:00:00+00:00",
+   "summary": "Halliday’s G2 glasses can listen to and summarize your workplace meetings—with no video involved.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Halliday's G2 smart glasses use audio-only recording to listen to and summarize workplace meetings without any video capture.",
+   "whyMatters": [
+    "Addresses privacy concerns around video capture in smart glasses by using audio-only transcription and summarization",
+    "Positions audio-based meeting intelligence as a privacy-friendlier alternative to camera-equipped AR glasses for workplace adoption"
+   ]
+  },
+  {
+   "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+   "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-21T12:54:02+00:00",
+   "summary": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full video of the session is now available on YouTube . Below is an edited copy of the transcript, with extr",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "A fireside chat with Anthropic's Claude Code team members Cat Wu and Thariq Shihipar covered Claude Code features, coding agent security, evaluation methods, and tool design practices at Anthropic.",
+   "whyMatters": [
+    "Provides transparency into how a leading AI lab approaches agent safety, tool design, and operational security for code-generation systems",
+    "Relevant for developers and organizations evaluating AI coding assistants and their security implications"
+   ]
+  },
+  {
    "title": "America needs to stop getting shocked by Chinese AI",
    "link": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-07-21T11:08:56+00:00",
+   "date": "2026-07-21T11:43:25+00:00",
    "summary": "Last week, two Chinese AI companies unveiled models they say can credibly compete with the best systems from OpenAI and Anthropic. The response was swift and predictable. Markets wobbled, commentators declared Silicon Valley shooketh, and policymakers reached for the familiar language of arms races and wake-up calls. In one headline, The Associated Press said a […]",
    "religionScore": 0,
    "religionHits": [],
@@ -206,6 +430,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Halliday’s latest smart glasses feature a much-improved display",
+   "link": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-20T22:56:22+00:00",
+   "summary": "I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, and my 30-minute demo left me with achy eyeballs. It was an interesting concept with terrible execution, especially compared to the […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Halliday released Gen 2 smart glasses with a significantly improved display compared to its original CES 2025 model, addressing previous usability and ergonomic issues.",
+   "whyMatters": [
+    "Shows iteration in the smart glasses market as hardware companies refine AR display ergonomics and usability after early missteps",
+    "Indicates companies are still investing heavily in wearable AI despite early product failures and consumer skepticism"
+   ]
+  },
+  {
    "title": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
    "link": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
    "source": "The Verge · AI",
@@ -277,27 +519,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows how AI agents shift the economics of technical work, enabling individuals to automate tasks that were previously only worth large teams' effort",
     "Raises implications for device interoperability, user control, and manufacturer relationships as consumers can more easily modify and integrate hardware"
-   ]
-  },
-  {
-   "title": "$438 million later, what does this faith-tech company actually do?",
-   "link": "https://religionnews.com/2026/07/20/438-million-later-what-does-this-faith-tech-company-actually-do/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-07-20T18:41:40+00:00",
-   "summary": "(RNS) — RNS reporter Bob Smietana on Gloo, the faith-tech company chasing a one-stop IT/AI solution for churches.",
-   "religionScore": 6,
-   "religionHits": [
-    "church",
-    "faith"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Gloo, a faith-tech startup that has raised $438 million, aims to build an all-in-one IT and AI platform for churches. Religion News Service reporter Bob Smietana examines what the company actually delivers given its substantial funding.",
-   "whyMatters": [
-    "Directly relevant to religious institutions adopting AI tools; raises questions about whether AI/tech solutions designed for churches meet real pastoral and operational needs.",
-    "Highlights the business and investment side of faith-tech, which shapes what technologies clergy and congregations can access and afford."
    ]
   },
   {
@@ -693,24 +914,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The apps, gadgets, and tools every reader needs",
-   "link": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-17T20:27:52+00:00",
-   "summary": "Hi, friends! Welcome to Installer No. 136, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope your neighborhood isn't as smoky as mine, and also you can read all the old editions at the Installer homepage.) This week, I've been recording the next season of Version History […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge's Installer newsletter (issue 136) recommends apps, gadgets, and tools for readers, curated by the publication's staff. The edition includes recommendations across various categories of useful software and hardware.",
-   "whyMatters": [
-    "Provides practical guidance on productivity and reading tools that tech-savvy users might integrate into their workflow",
-    "Curated recommendations from a trusted tech publication could influence adoption patterns of consumer tools and apps"
-   ]
-  },
-  {
    "title": "Is Kimi K3 Really Fable Class?",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee",
    "source": "The AI Daily Brief",
@@ -749,42 +952,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "TikTok is testing an AI likeness detection tool",
-   "link": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-17T19:34:30+00:00",
-   "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been working on a similar tool […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "TikTok is piloting an opt-in tool that detects AI-generated likenesses of creators and allows them to report such content to the platform. The test is currently limited to some US creators, following similar efforts by YouTube.",
-   "whyMatters": [
-    "Addresses creator protection and consent—a core labor and dignity issue as synthetic media becomes easier to produce.",
-    "Positions platforms' AI detection capability as a rights enforcement mechanism, though opt-in scope suggests incomplete coverage."
-   ]
-  },
-  {
-   "title": "Apple’s plot to crush OpenAI",
-   "link": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-17T17:41:32+00:00",
-   "summary": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple is suing OpenAI with allegations detailed in a readable complaint. The Verge explores what Apple actually wants from the lawsuit and why it chose such a public confrontation, though many experts view the alleged practices as standard industry behavior.",
-   "whyMatters": [
-    "Signals potential shift in how major tech companies challenge each other's AI practices rather than settling privately",
-    "May indicate Apple sees OpenAI's approach as sufficiently threatening to warrant public legal action rather than negotiation"
-   ]
-  },
-  {
    "title": "San Francisco orders Apple, Google to remove nudify apps from app stores",
    "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
    "source": "Ars Technica · AI",
@@ -818,6 +985,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects growing concern about AI-generated content quality and what 'optimization' means when applied to creative fields",
     "Points to tensions between efficiency metrics and actual utility in AI applications"
+   ]
+  },
+  {
+   "title": "Introducing Gemini 3.5 Flash Cyber",
+   "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-07-17T15:00:11+00:00",
+   "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google introduced Gemini 3.5 Flash Cyber, a lightweight specialized model designed to efficiently detect and patch security vulnerabilities.",
+   "whyMatters": [
+    "Demonstrates specialization in the model market, with dedicated security-focused variants optimized for speed and cost",
+    "Signals AI labs are moving away from one-size-fits-all models toward task-specific solutions tuned for enterprise security workflows"
    ]
   },
   {
@@ -909,26 +1096,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides a business measurement framework as AI moves from research phase to operational deployment in enterprises",
     "Shifts focus from model capability benchmarks to real-world productivity metrics that enterprises actually care about"
-   ]
-  },
-  {
-   "title": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War",
-   "link": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-17T09:00:00+00:00",
-   "summary": "The CEO of Foundation Future Industries, which counts the president’s son as its chief strategy adviser, tells WIRED it’s exploring some “kinetic things.”",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Foundation Future Industries, a humanoid robotics company with Eric Trump as chief strategy adviser, is developing robots for military applications, according to its CEO's description of exploring \"kinetic things.\"",
-   "whyMatters": [
-    "Marks consolidation of AI/robotics development with political family connections, raising questions about revolving-door governance and defense-tech influence",
-    "Military robotics and autonomous systems raise policy questions about decision-making, deployment, and oversight that currently lack clear regulatory frameworks"
    ]
   },
   {
@@ -1044,24 +1211,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis",
-   "link": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-16T22:17:27+00:00",
-   "summary": "On today’s Uncanny Valley, we unpack OpenAI’s ongoing drama, both legal and reputational, and whether these developments could further hurt the company—particularly in its fight against Anthropic.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Wired podcast episode covering Apple's lawsuit against OpenAI, OpenAI's legal and reputational challenges, and competitive pressure from Anthropic.",
-   "whyMatters": [
-    "Major IP and legal developments affecting leading AI companies",
-    "May impact industry consolidation and market positioning"
-   ]
-  },
-  {
    "title": "It's official: EU will force Google to share search data and open up AI on Android",
    "link": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
    "source": "Ars Technica · AI",
@@ -1171,24 +1320,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Major open-source leader explicitly endorsing AI-assisted development over community concerns",
     "Sets tone for tool adoption in foundational software; signals that AI integration in critical infrastructure will proceed despite objections"
-   ]
-  },
-  {
-   "title": "Here’s Why Anthropic Is Pushing States to Regulate AI Faster",
-   "link": "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-16T18:35:18+00:00",
-   "summary": "The company endorsed landmark AI transparency laws in California and New York last year, but its head of US state and local policy says they may already be outdated.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic endorsed landmark AI transparency laws in California and New York but now suggests those regulations may already be outdated as AI developments accelerate.",
-   "whyMatters": [
-    "Leading AI lab acknowledging regulatory lag—regulations outpaced by technology",
-    "May signal push for stronger/faster preemptive regulation or admission that initial transparency measures are insufficient for current risks"
    ]
   },
   {
@@ -1678,24 +1809,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Armin Ronacher",
-   "link": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-14T18:04:23+00:00",
-   "summary": "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely written down in one place. It lives partly in documentation and code, but also in code review, conversations, arguments, and the experience",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A quote reflects that software projects have an unwritten shared language embedded in documentation, code review, conversations, and culture that communicates design intent and ownership—knowledge rarely codified in one place.",
-   "whyMatters": [
-    "Relevant to AI-in-education contexts: highlights why tacit knowledge in human communities resists easy formalization or automation",
-    "Suggests limits to what AI systems can extract or replicate from human-built systems"
-   ]
-  },
-  {
    "title": "US military sent explosive drone boats into combat for the first time",
    "link": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
    "source": "Ars Technica · AI",
@@ -1713,24 +1826,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks the first documented combat use of fully autonomous weaponized systems at scale, raising urgent questions about AI deployment in warfare and accountability",
     "Has implications for international norms around autonomous weapons and AI ethics in military contexts"
-   ]
-  },
-  {
-   "title": "datasette 1.0a37",
-   "link": "https://simonwillison.net/2026/Jul/14/datasette/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-14T16:31:41+00:00",
-   "summary": "Release: datasette 1.0a37 A minor release. Performance and documentation improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break. Tags: datasette",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Datasette released version 1.0a37, a minor update focusing on performance and documentation improvements to its permissions system. The release also reverted a recent cosmetic API change that had broken plugin test suites.",
-   "whyMatters": [
-    "Performance improvements to permissions could matter for educators and organizations managing access to sensitive educational datasets or community records",
-    "Reverting a breaking change shows attention to developer experience, relevant for the small but growing ecosystem of people building tools on datasette for data transparency in institutions"
    ]
   },
   {
@@ -1933,24 +2028,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "These Are the Worst ChatGPT Flyers You've Sent Us",
-   "link": "https://www.404media.co/these-are-the-worst-chatgpt-flyers-youve-sent-us/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-13T14:01:35+00:00",
-   "summary": "Welcome to the AI-generated poster hall of shame.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media has collected examples of poorly designed AI-generated flyers submitted by readers, creating a humorous catalog of substandard outputs.",
-   "whyMatters": [
-    "Highlights persistent quality and design sense limitations in current generative AI, especially for visual composition",
-    "Reflects user frustration with AI outputs that lack contextual judgment and aesthetic coherence"
-   ]
-  },
-  {
    "title": "Empowering India’s next generation of innovators with ATL Saathi",
    "link": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
    "source": "Google DeepMind",
@@ -2023,24 +2100,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks expansion of agentic AI from specialized coding tasks to broader enterprise workflows",
     "Efficiency has become the primary competitive metric in the model race, potentially shifting focus from raw capability scaling"
-   ]
-  },
-  {
-   "title": "Disable autoplay and infinite scroll or risk massive fines, EU tells Meta",
-   "link": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-10T15:46:18+00:00",
-   "summary": "Digital Services Act may force Meta to make big changes on its platforms.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "EU regulators told Meta it must disable autoplay and infinite scroll on its platforms or face large fines under the Digital Services Act. The demand targets engagement-maximizing design features rather than content itself.",
-   "whyMatters": [
-    "Regulators are moving from policing content to policing addictive design — a shift with direct implications for AI-driven feeds.",
-    "Relevant to anyone teaching digital wellbeing: the EU is treating attention-hooking mechanics as a harm in their own right."
    ]
   },
   {
@@ -2121,25 +2180,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI wants its new tool to do your work for you and with you",
-   "link": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-09T21:25:55+00:00",
-   "summary": "Rebranded Codex promises independent workflows that can run \"for hours if needed.\"",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI has rebranded Codex as a broader work tool that promises independent workflows able to run 'for hours if needed,' working both for you and alongside you. It's part of the company's push into agentic, long-running task automation.",
-   "whyMatters": [
-    "Multi-hour autonomous AI workflows move AI from assistant to delegate — a real shift in how knowledge work gets done.",
-    "Raises practical questions about oversight: who checks work an agent did unsupervised for hours?",
-    "For educators and nonprofit staff, this class of tool could absorb substantial administrative work."
-   ]
-  },
-  {
    "title": "Anthropic found a hidden space where Claude puzzles over concepts",
    "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
    "source": "MIT Tech Review · AI",
@@ -2196,24 +2236,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-   "link": "https://openai.com/index/gpt-5-6",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced GPT-5.6, its newest frontier model, promising more intelligence per token, better performance per dollar, and additional capability available on demand for harder tasks. It is the company's new top-line model.",
-   "whyMatters": [
-    "The per-dollar framing matters: OpenAI is competing on efficiency, not just raw capability, as AI costs become a real business concern.",
-    "Each frontier release resets what students, congregants, and colleagues can do with a chatbot — worth a hands-on look to recalibrate."
-   ]
-  },
-  {
    "title": "ChatGPT is now a partner for your most ambitious work",
    "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
    "source": "OpenAI News",
@@ -2229,6 +2251,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
     "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
+   ]
+  },
+  {
+   "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+   "link": "https://openai.com/index/gpt-5-6",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-09T10:00:00+00:00",
+   "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced GPT-5.6, its newest frontier model, promising more intelligence per token, better performance per dollar, and additional capability available on demand for harder tasks. It is the company's new top-line model.",
+   "whyMatters": [
+    "The per-dollar framing matters: OpenAI is competing on efficiency, not just raw capability, as AI costs become a real business concern.",
+    "Each frontier release resets what students, congregants, and colleagues can do with a chatbot — worth a hands-on look to recalibrate."
    ]
   },
   {
@@ -2881,24 +2921,6 @@ window.NEWS_DATA = {
     "New benchmarks in biology signal where labs expect the next capability race — AI as a working scientist, not just a chatbot.",
     "Real-world datasets make this a more honest test than the toy benchmarks models have already saturated.",
     "Pairs directly with Anthropic's Claude Science launch — the AI-for-science push is industry-wide this week."
-   ]
-  },
-  {
-   "title": "Inside Genebench-Pro",
-   "link": "https://openai.com/index/genebench-pro/case-studies",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-06-30T00:00:00+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A companion piece to OpenAI's GeneBench-Pro announcement presenting case studies from the benchmark. The page carried no summary text, so details are limited.",
-   "whyMatters": [
-    "Case studies are where benchmark claims get concrete — worth a skim if the GeneBench-Pro announcement interests you.",
-    "Thin source material; read alongside the main announcement rather than on its own."
    ]
   },
   {
