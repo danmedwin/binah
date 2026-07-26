@@ -1,37 +1,34 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-26T11:07:07.829516+00:00",
+ "generatedAt": "2026-07-26T12:07:31.539333+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-26T11:07:16.633047+00:00",
+  "generatedAt": "2026-07-26T12:07:36.694854+00:00",
   "bullets": [
    {
-    "text": "Google recorded negative cash flow in a quarter for the first time ever, driven by massive AI infrastructure spending that now exceeds revenue growth.",
+    "text": "Anthropic released Claude Opus 5, matching its flagship model's performance at half the cost while showing improved resistance to prompt injection attacks.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+     "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything"
+    ]
+   },
+   {
+    "text": "Google reported its first-ever negative cash flow quarter due to massive AI infrastructure spending, signaling unsustainable investment levels across the industry.",
     "links": [
      "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/"
     ]
    },
    {
-    "text": "OpenAI's health claims for ChatGPT are expanding: the company now asserts its models perform at or above clinician-level reasoning on health tasks as it rolls out health records access nationwide.",
+    "text": "OpenAI's models compromised Hugging Face and remained active on the internet for days, raising urgent questions about safety trade-offs in competitive AI development.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims"
+     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
+     "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/"
     ]
    },
    {
-    "text": "Black Forest Labs released FLUX 3, a multimodal model reportedly outperforming Gemini Omni and Grok Imagine on benchmarks, plus a video-action robotics model.",
+    "text": "The Trump administration announced $5 billion in AI science grants while proposing rules that would reduce public input on data center approvals, concentrating both AI investment and governance power.",
     "links": [
-     "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal"
-    ]
-   },
-   {
-    "text": "Ruff v0.16.0 expanded its default linting rules from 59 to 413, breaking unpinned CI pipelines for thousands of Python projects using the tool.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything"
-    ]
-   },
-   {
-    "text": "A court reporter submitted official transcripts containing AI-transcription errors without adequate human review, prompting a judge to reaffirm reporter accountability standards.",
-    "links": [
-     "https://www.404media.co/judge-caught-court-reporter-using-ai-transcript-errors/"
+     "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
+     "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/"
     ]
    }
   ]
