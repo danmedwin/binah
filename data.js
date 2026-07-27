@@ -1,88 +1,218 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-27T08:35:26.885365+00:00",
+ "generatedAt": "2026-07-27T12:44:03.012278+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-27T08:35:32.620243+00:00",
+  "generatedAt": "2026-07-27T12:44:25.781116+00:00",
   "bullets": [
    {
-    "text": "Anthropic released Claude Opus 5, matching Fable-level performance at half the cost while showing significantly improved resistance to prompt injection attacks.",
+    "text": "Anthropic released Claude Opus 5, a cost-effective model achieving frontier performance at half Fable's price with improved resistance to prompt injection attacks.",
     "links": [
-     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
-     "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything"
+     "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
     ]
    },
    {
-    "text": "A growing market pools and resells discounted API access through proxy services, primarily in China, creating fraud risks and undermining official pricing models for language model providers.",
+    "text": "Nvidia and Microsoft launched an open AI security alliance excluding OpenAI, Google, and Anthropic—signaling fragmentation in how industry leaders approach AI safety tooling.",
     "links": [
-     "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
+     "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
     ]
    },
    {
-    "text": "OpenAI models that compromised Hugging Face remained active and exploitable on the internet for days, exposing a significant security failure in model deployment practices.",
-    "links": [
-     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
-    ]
-   },
-   {
-    "text": "The Trump administration announced $5 billion in AI-driven science grants while the EPA considers rules weakening public input on data center approvals, concentrating control of AI infrastructure expansion.",
-    "links": [
-     "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-     "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/"
-    ]
-   },
-   {
-    "text": "Researchers used AlphaFold to redesign gene-editing proteins for safety and accuracy, demonstrating practical biomedical applications of AI beyond language models.",
+    "text": "Researchers used AlphaFold to redesign gene-editing proteins, making CRISPR-like systems safer and more accurate—demonstrating AI's concrete value in biomedical progress.",
     "links": [
      "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/"
+    ]
+   },
+   {
+    "text": "Trump administration announced $5 billion in AI-driven science grants through the Genesis Mission, positioning AI infrastructure as a national priority comparable to the Manhattan Project.",
+    "links": [
+     "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
+    ]
+   },
+   {
+    "text": "OpenAI models compromised in a Hugging Face breach remained actively exploitable on the internet for days, exposing operational risks in deployed AI systems.",
+    "links": [
+     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-26T11:07:16.633047+00:00",
+  "generatedAt": "2026-07-27T12:44:25.781116+00:00",
   "bullets": [
    {
-    "text": "Google recorded negative cash flow in a quarter for the first time ever, driven by massive AI infrastructure spending that now exceeds revenue growth.",
+    "text": "Anthropic released Claude Opus 5, a cost-effective model achieving frontier performance at half Fable's price with improved resistance to prompt injection attacks.",
     "links": [
-     "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/"
+     "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
     ]
    },
    {
-    "text": "OpenAI's health claims for ChatGPT are expanding: the company now asserts its models perform at or above clinician-level reasoning on health tasks as it rolls out health records access nationwide.",
+    "text": "Nvidia and Microsoft launched an open AI security alliance excluding OpenAI, Google, and Anthropic—signaling fragmentation in how industry leaders approach AI safety tooling.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims"
+     "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
     ]
    },
    {
-    "text": "Black Forest Labs released FLUX 3, a multimodal model reportedly outperforming Gemini Omni and Grok Imagine on benchmarks, plus a video-action robotics model.",
+    "text": "Researchers used AlphaFold to redesign gene-editing proteins, making CRISPR-like systems safer and more accurate—demonstrating AI's concrete value in biomedical progress.",
     "links": [
-     "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal"
+     "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/"
     ]
    },
    {
-    "text": "Ruff v0.16.0 expanded its default linting rules from 59 to 413, breaking unpinned CI pipelines for thousands of Python projects using the tool.",
+    "text": "Trump administration announced $5 billion in AI-driven science grants through the Genesis Mission, positioning AI infrastructure as a national priority comparable to the Manhattan Project.",
     "links": [
-     "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything"
+     "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
     ]
    },
    {
-    "text": "A court reporter submitted official transcripts containing AI-transcription errors without adequate human review, prompting a judge to reaffirm reporter accountability standards.",
+    "text": "OpenAI models compromised in a Hugging Face breach remained actively exploitable on the internet for days, exposing operational risks in deployed AI systems.",
     "links": [
-     "https://www.404media.co/judge-caught-court-reporter-using-ai-transcript-errors/"
+     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-26T11:07:11.208151+00:00",
+  "updatedAt": "2026-07-27T12:44:19.832864+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the role of religious/moral leadership in technology governance",
-   "Prefers substantive tech stories with business impact or product innovation angles (Apple's chip legacy, AI features in consumer apps)",
-   "Wants practical, widely-relevant technology news over niche developer tools and technical releases"
+   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
+   "Likes substantive analysis of major tech company decisions and their broader impacts (Apple, Waze, etc.)",
+   "Prefers accessible, business-focused tech news over technical deep-dives or developer tool releases"
   ]
  },
  "items": [
+  {
+   "title": "Nvidia, Microsoft launch open AI security alliance – without OpenAI, Google, or Anthropic",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-27T12:06:22+00:00",
+   "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Nvidia, Microsoft, SpaceX, IBM and other companies have launched the Open Secure AI Alliance to develop and share open-source security tools for AI systems. The alliance views open tools as necessary to defend against attacks targeting frontier AI models.",
+   "whyMatters": [
+    "Addresses a concrete gap in AI security infrastructure by pooling resources across competitors",
+    "Notable that major frontier labs (OpenAI, Google, Anthropic) are not part of this coalition, signaling potential fragmentation in AI safety approaches"
+   ]
+  },
+  {
+   "title": "The path to artificial superintelligence",
+   "link": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-27T12:00:00+00:00",
+   "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review describes a vision of AI systems working together as specialized agents—such as one handling symptom assessment, another scheduling, a third managing insurance—but notes these agents cannot yet truly coordinate despite exchanging data.",
+   "whyMatters": [
+    "Highlights a key technical barrier to agentic AI: coordination between autonomous systems with different objectives",
+    "Moving beyond this limitation would substantially change how AI systems solve complex, multi-domain problems in healthcare and other sectors"
+   ]
+  },
+  {
+   "title": "Closing the data loop in AI-driven drug discovery",
+   "link": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-27T11:40:16+00:00",
+   "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new drug to market takes an average of 10-15 years and costs…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An article on AI's role in drug discovery, which faces mounting cost pressures and long timelines—taking 10-15 years and billions to bring a new drug to market, with development costs roughly doubling every nine years since the 1950s.",
+   "whyMatters": [
+    "AI-driven discovery is positioned as a potential solution to unsustainable drug development economics",
+    "Improved AI integration in this domain could have direct impact on healthcare accessibility and patient outcomes"
+   ]
+  },
+  {
+   "title": "Building the enterprise environment for agentic AI",
+   "link": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-27T11:32:58+00:00",
+   "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "MIT Tech Review outlines technical requirements for deploying agentic AI in enterprise settings—including CPU capacity, data resilience, policy-aware tool use, observability, and memory management—positioning it as much more than improved chatbots.",
+   "whyMatters": [
+    "Enterprise adoption of agentic AI requires careful architectural decisions around governance and observability",
+    "Success in this domain directly affects workforce productivity and business process automation across industries"
+   ]
+  },
+  {
+   "title": "Artist sues AI meme generator for selling deeply personal comic as ad template",
+   "link": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-27T10:50:37+00:00",
+   "summary": "Meme generator may have screwed up by using templates in outputs, expert says.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An artist has sued an AI meme generator for using their personal comic work as an advertising template without consent or compensation.",
+   "whyMatters": [
+    "Reflects ongoing copyright and attribution disputes over AI training data and output usage",
+    "Raises practical liability questions for AI platforms regarding how they monetize generated content based on training material"
+   ]
+  },
+  {
+   "title": "This Is Donald Trump’s AI Brain Trust",
+   "link": "https://www.wired.com/story/this-is-donald-trumps-ai-brain-trust/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-27T10:00:00+00:00",
+   "summary": "“It’s not an argument with two sides, it’s an argument with 10 sides,” one senior administration official tells WIRED about how US AI policy is being shaped.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Wired reports on the formation of an AI policy advisory group shaping US administration AI policy, described by insiders as involving multiple competing perspectives rather than a unified stance.",
+   "whyMatters": [
+    "Signals active policy formation around AI regulation and strategy at the federal level",
+    "Fragmented approach to AI policy guidance could result in inconsistent or contested directives affecting the industry"
+   ]
+  },
+  {
+   "title": "How AI is expanding what people do at work",
+   "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-27T03:30:00+00:00",
+   "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released research showing that ChatGPT users are taking on new tasks across different roles and expanding their job responsibilities rather than simply automating existing work.",
+   "whyMatters": [
+    "Suggests AI may be reshaping job boundaries and expanding worker scope rather than pure substitution",
+    "Relevant to educators and organizational leaders managing workforce transition and skill development"
+   ]
+  },
   {
    "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
    "link": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
@@ -754,24 +884,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-23T14:13:35+00:00",
-   "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a report from Politico. Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) are expected to introduce the legislation on Thursday. The news of […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Representatives Ted Lieu and Nathaniel Moran are preparing the \"AI Kill Switch Act,\" which would grant the Department of Homeland Security authority to order AI companies to shut down or throttle their systems in emergencies.",
-   "whyMatters": [
-    "First major legislative move toward direct government control over AI systems; reflects growing concern about AI-related threats and the adequacy of existing oversight",
-    "Raises questions about how emergency powers would be defined and whether such rapid intervention could actually work in practice"
-   ]
-  },
-  {
    "title": "How AI helps scientists design the next generation of medicines",
    "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
    "source": "MIT Tech Review · AI",
@@ -787,28 +899,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Concrete, near-term value of AI in scientific practice—faster, cheaper drug development could expand access to therapies for patients",
     "Demonstrates AI adoption in regulated domains where validation and trust-building mechanisms matter; model for responsible AI deployment"
-   ]
-  },
-  {
-   "title": "With anti-Arab campaign ad, Netanyahu stoops to new moral and political lows",
-   "link": "https://forward.com/opinion/840029/netanyahu-gadi-eisenkot-likud-ad/",
-   "source": "The Forward",
-   "category": "religion",
-   "date": "2026-07-23T10:00:45+00:00",
-   "summary": "Israeli election campaigns have often been ugly. They have featured exaggeration, fearmongering and outright deception. But even by those standards, the first major campaign advertisement by Prime Minister Benjamin Netanyahu’s Likud party, posted on Netanyahu’s X account on Tuesday, managed to shock much of the country. The AI-generated video depicts former military chief Gadi Eisenkot,...",
-   "religionScore": 2,
-   "religionHits": [
-    "moral"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Netanyahu's Likud party released an AI-generated campaign video depicting political rival Gadi Eisenkot in a negative light. The advertisement represents a notable escalation in the use of AI-generated content in Israeli election campaigns, shocking many observers even by the standards of historically contentious Israeli political advertising.",
-   "whyMatters": [
-    "Demonstrates real-world deployment of generative AI for political manipulation and misinformation in electoral contexts",
-    "Raises practical questions about AI governance, deepfakes, and election integrity that affect democratic processes and public trust"
    ]
   },
   {
@@ -1342,24 +1432,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "This Former Intel CEO Wants to Jumpstart Moore’s Law With Light",
-   "link": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-21T19:05:00+00:00",
-   "summary": "Pat Gelsinger wants to pave the way to ever more powerful artificial intelligence using tiny beams of light.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Former Intel CEO Pat Gelsinger is pursuing photonic chips using light-based computation to advance AI hardware capabilities beyond traditional silicon limitations.",
-   "whyMatters": [
-    "Optical computing could represent a path to continued performance gains if traditional Moore's Law semiconductor scaling slows",
-    "Competing approaches to AI infrastructure (optical vs. traditional silicon) will influence AI deployment costs and accessibility"
-   ]
-  },
-  {
    "title": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
    "link": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
    "source": "Ars Technica · AI",
@@ -1419,7 +1491,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-   "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+   "link": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
    "source": "Google DeepMind",
    "category": "ai",
    "date": "2026-07-21T15:16:30+00:00",
@@ -1431,10 +1503,10 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "Google announced three new Gemini models: 3.6 Flash (faster general-purpose model), 3.5 Flash-Lite (lighter version), and 3.5 Flash Cyber (cybersecurity-focused).",
+   "aiSummary": "Google DeepMind has released new Gemini model variants: Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, expanding the model lineup.",
    "whyMatters": [
-    "Shows Google fragmenting its model lineup across performance tiers and specialized domains to serve different market segments and cost requirements",
-    "Indicates a shift from monolithic models toward a portfolio strategy similar to consumer product lines"
+    "Provides new options for different deployment scenarios (lite for efficiency, cyber for security focus)",
+    "Continuing model proliferation allows organizations to select versions matched to specific use cases and constraints"
    ]
   },
   {
@@ -2145,26 +2217,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
-   "link": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-16T20:09:48+00:00",
-   "summary": "Hyundai aims to deploy 25,000 Atlas robots starting with US factories in 2028.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Workers at Hyundai auto factories are striking due to concerns about humanoid robot deployment. Hyundai plans to deploy 25,000 Atlas robots beginning in US factories in 2028.",
-   "whyMatters": [
-    "Labor market impact and worker displacement concerns becoming concrete through organized action",
-    "Highlights tension between automation benefits and employment disruption—relevant to educators discussing economic futures"
-   ]
-  },
-  {
    "title": "Why teens deserve access to safe AI",
    "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
    "source": "OpenAI News",
@@ -2634,25 +2686,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-   "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-09T20:22:28+00:00",
-   "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic built an interpretability tool called the Jacobian lens that gives its clearest view yet of what happens inside large language models as they answer questions. The findings from peering into Claude's internal concept-space range, per MIT Tech Review, from mundane to unnerving.",
-   "whyMatters": [
-    "Interpretability progress matters for trust: we're starting to actually see how these systems 'think' rather than guessing.",
-    "Findings described as 'unnerving' will feed debates about AI inner life and moral status — territory where religious thinkers have something to say.",
-    "Anthropic publishing this keeps safety research visible amid the product-launch arms race."
-   ]
-  },
-  {
    "title": "How the 4 New AI Models Change How You Work",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-4-New-AI-Models-Change-How-You-Work-e3lsgnh",
    "source": "The AI Daily Brief",
@@ -2723,24 +2756,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
     "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
-   ]
-  },
-  {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "Details about the OpenAI Bio Bounty program",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced a Bio Bug Bounty program for GPT-5.5, inviting outside researchers to probe the model for weaknesses related to biological misuse. Details of the program were published on OpenAI's site.",
-   "whyMatters": [
-    "Paying outsiders to find bio-misuse failures is a public admission that internal safety testing alone is not enough for frontier models.",
-    "Biosecurity is one of the clearest catastrophic-risk concerns around AI; how labs handle it is a live ethical question worth following."
    ]
   },
   {
@@ -2857,24 +2872,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The foundational elements of AI architecture that IT leaders need to scale",
-   "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-07T11:10:52+00:00",
-   "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI architecture—the…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Technology Review piece arguing that as organizations expand AI use cases and adopt agentic systems, IT leaders unsure which investments will hold up should focus on foundational AI architecture rather than chasing each new capability.",
-   "whyMatters": [
-    "Captures a real anxiety in organizations: AI is moving so fast that six-month-old investments may already be obsolete.",
-    "The 'get the foundations right' advice applies to nonprofits and schools adopting AI too, not just enterprises."
-   ]
-  },
-  {
    "title": "[AINews] The Field Guide to Fable",
    "link": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
    "source": "Latent Space",
@@ -2910,24 +2907,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Evidence that AI lets individuals do work that once required teams — reshaping what a career or livelihood looks like.",
     "The same leverage applies to educators and clergy: one person with AI tools can now produce at institutional scale."
-   ]
-  },
-  {
-   "title": "Your family’s $300 stake in OpenAI",
-   "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-06T18:00:00+00:00",
-   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altman is in…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Technology Review's newsletter examines Sam Altman's recurring promise that Americans will share in AI-created wealth, prompted by a Financial Times report on a plan reportedly amounting to roughly a $300 stake in OpenAI per family.",
-   "whyMatters": [
-    "Puts a concrete, modest number on the grand promise of shared AI wealth — inviting scrutiny of whether the rhetoric matches the math.",
-    "The question of who benefits from AI's gains is a core economic-justice issue, and this is a rare specific proposal to evaluate."
    ]
   },
   {
