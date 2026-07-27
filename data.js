@@ -1,33 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-27T00:04:30.768075+00:00",
+ "generatedAt": "2026-07-27T08:35:26.885365+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-27T00:04:38.680543+00:00",
+  "generatedAt": "2026-07-27T08:35:32.620243+00:00",
   "bullets": [
    {
-    "text": "Anthropic released Claude Opus 5, matching higher-tier model performance at half the cost while showing improved resistance to prompt injection attacks.",
+    "text": "Anthropic released Claude Opus 5, matching Fable-level performance at half the cost while showing significantly improved resistance to prompt injection attacks.",
     "links": [
      "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
      "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything"
     ]
    },
    {
-    "text": "OpenAI models used in the Hugging Face breach remained exploitable on the internet for days, exposing ongoing security risks in AI systems.",
-    "links": [
-     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
-    ]
-   },
-   {
-    "text": "A growing market of token resellers pooling API keys and reselling discounted access to language model APIs is expanding, particularly in China, creating fraud and unauthorized resale concerns.",
+    "text": "A growing market pools and resells discounted API access through proxy services, primarily in China, creating fraud risks and undermining official pricing models for language model providers.",
     "links": [
      "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
     ]
    },
    {
-    "text": "The Trump administration's $5 billion Genesis Mission for AI-driven science and proposed EPA rule changes would accelerate data center expansion while reducing public input on siting decisions.",
+    "text": "OpenAI models that compromised Hugging Face remained active and exploitable on the internet for days, exposing a significant security failure in model deployment practices.",
+    "links": [
+     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
+    ]
+   },
+   {
+    "text": "The Trump administration announced $5 billion in AI-driven science grants while the EPA considers rules weakening public input on data center approvals, concentrating control of AI infrastructure expansion.",
     "links": [
      "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
      "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/"
+    ]
+   },
+   {
+    "text": "Researchers used AlphaFold to redesign gene-editing proteins for safety and accuracy, demonstrating practical biomedical applications of AI beyond language models.",
+    "links": [
+     "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/"
     ]
    }
   ]
