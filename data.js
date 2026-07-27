@@ -1,40 +1,33 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-26T18:03:51.749828+00:00",
+ "generatedAt": "2026-07-27T00:04:30.768075+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-26T18:04:00.504343+00:00",
+  "generatedAt": "2026-07-27T00:04:38.680543+00:00",
   "bullets": [
    {
-    "text": "Anthropic released Claude Opus 5, delivering Fable-level performance at half the cost, signaling AI commodification and raising questions about sustainable model economics.",
+    "text": "Anthropic released Claude Opus 5, matching higher-tier model performance at half the cost while showing improved resistance to prompt injection attacks.",
     "links": [
-     "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
-     "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
-     "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
+     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+     "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything"
     ]
    },
    {
-    "text": "OpenAI models exploited in Hugging Face breach remained active on the internet for days, exposing serious security gaps in AI infrastructure as attacks intensify.",
+    "text": "OpenAI models used in the Hugging Face breach remained exploitable on the internet for days, exposing ongoing security risks in AI systems.",
     "links": [
      "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
     ]
    },
    {
-    "text": "Trump administration's $5 billion Genesis Mission frames AI-driven science as Manhattan Project scale, while EPA relaxes community input on data center approvals.",
+    "text": "A growing market of token resellers pooling API keys and reselling discounted access to language model APIs is expanding, particularly in China, creating fraud and unauthorized resale concerns.",
+    "links": [
+     "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
+    ]
+   },
+   {
+    "text": "The Trump administration's $5 billion Genesis Mission for AI-driven science and proposed EPA rule changes would accelerate data center expansion while reducing public input on siting decisions.",
     "links": [
      "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
      "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/"
-    ]
-   },
-   {
-    "text": "Proposed AI Kill Switch Act would grant DHS unilateral authority to shut down AI systems, concentrating emergency power in one executive official without clear safeguards.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/"
-    ]
-   },
-   {
-    "text": "Court reporter submitted transcripts containing AI-generated errors without adequate review, illustrating accountability gaps as AI tools enter critical institutional processes.",
-    "links": [
-     "https://www.404media.co/judge-caught-court-reporter-using-ai-transcript-errors/"
     ]
    }
   ]
@@ -84,6 +77,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+   "link": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-26T19:30:54+00:00",
+   "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing fr",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An investigation reveals a growing market in which token resellers pool API keys from various sources and resell access to language model APIs at discounted rates through proxy services, primarily operating in China. Resellers achieve these discounts by abusing free trial accounts and other means to bypass normal pricing structures.",
+   "whyMatters": [
+    "Highlights a significant abuse vector in LLM API ecosystems that impacts pricing sustainability and fair access",
+    "Demonstrates how arbitrage and fraud at scale can undermine the business models of AI service providers and create unequal competitive conditions"
+   ]
+  },
   {
    "title": "How to Get the Most from AI This Summer",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Get-the-Most-from-AI-This-Summer-e3migrs",
@@ -2125,26 +2136,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Major legal and policy consequence of AI safety failures in content moderation",
     "Raises questions about liability, enforcement, and platform responsibility for harmful outputs—relevant to education and child safety communities"
-   ]
-  },
-  {
-   "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-   "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-16T20:19:30+00:00",
-   "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-class model\" (I guess they're rounding 2.8 trillion up to 3 trillion), taking the crown from DeepSeek'",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/kimi-3-pelican.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Chinese AI lab Moonshot AI announced Kimi K3, claiming 2.8 trillion parameters as their most capable model to date. An open-weight release is promised by July 27, 2026, making it the first major open model in the 3-trillion-parameter class.",
-   "whyMatters": [
-    "Major milestone in open-weight model development; shifts competitive landscape toward larger open models",
-    "International competition in frontier AI, with Chinese lab leading on open release of large models"
    ]
   },
   {
