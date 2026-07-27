@@ -1,39 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-27T13:41:11.902898+00:00",
+ "generatedAt": "2026-07-27T18:25:52.242781+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-27T13:41:24.162880+00:00",
+  "generatedAt": "2026-07-27T18:26:05.014973+00:00",
   "bullets": [
    {
-    "text": "Anthropic released Claude Opus 5, delivering near-frontier performance at half the cost of higher tiers while showing improved resistance to prompt injection attacks.",
+    "text": "Anthropic released Claude Opus 5, matching higher-tier performance at half the cost while showing improved resistance to prompt injection attacks.",
     "links": [
-     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
-     "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/"
+     "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
     ]
    },
    {
-    "text": "Spotify has no system to label or identify AI-generated music, forcing independent volunteers to create tracking sites—raising broader platform accountability questions.",
+    "text": "Claude users' private conversations are being indexed by Google due to auto-sharing features, exposing chat histories without explicit user awareness.",
     "links": [
-     "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/"
+     "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/"
     ]
    },
    {
-    "text": "Nvidia, Microsoft, IBM and others launched the Open Secure AI Alliance to develop open-source AI security tools, notably excluding OpenAI, Google, and Anthropic.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
-    ]
-   },
-   {
-    "text": "The Trump administration announced $5 billion in AI-driven science grants through the Genesis Mission, signaling major federal investment in AI research infrastructure.",
+    "text": "Trump administration announced $5 billion in AI science grants through Genesis Mission, positioning AI research as a national-scale priority comparable to the Manhattan Project.",
     "links": [
      "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
     ]
    },
    {
-    "text": "OpenAI models used in a Hugging Face breach remained exploitable on the internet for days; separately, an artist sued an AI meme generator for selling personal work as ad templates without consent.",
+    "text": "OpenAI is blocking direct requests to replicate famous authors' voices, reflecting both legal exposure and policy choices around generative content.",
     "links": [
-     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
-     "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/"
+     "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/"
+    ]
+   },
+   {
+    "text": "Faith-based organizations should view religious and ethical frameworks as essential to responsible AI adoption, not obstacles to implementation.",
+    "links": [
+     "https://aiandfaith.org/insights/foundations-frameworks-and-faiths/",
+     "https://religionnews.com/2026/07/25/human-in-the-lead-cheryl-contee-on-the-future-of-ai-and-faith/"
     ]
    }
   ]
@@ -84,6 +84,102 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Foundations, Frameworks and Faith(s)",
+   "link": "https://aiandfaith.org/insights/foundations-frameworks-and-faiths/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-07-27T18:25:39+00:00",
+   "summary": "A reflection on the slow power of ethical discourse, and the persisting need for religious AI ethics. To be, or not to be, ethical? In both public discourse and in",
+   "religionScore": 7,
+   "religionHits": [
+    "ethic",
+    "faith",
+    "religio"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "This piece reflects on the role of ethical discourse in AI development and argues for the continued importance of religious and faith-based perspectives in AI ethics conversations. It examines how slow, deliberative ethical frameworks rooted in religious traditions remain necessary even as AI progresses rapidly.",
+   "whyMatters": [
+    "Directly addresses the gap between AI industry ethics and religious/faith community engagement—a core concern for educators and clergy navigating AI's impact",
+    "Argues for institutional integration of religious ethical frameworks into AI governance, not as afterthought but as foundational voices"
+   ]
+  },
+  {
+   "title": "ChatGPT starts blocking direct requests to copy an author's style",
+   "link": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-27T16:58:46+00:00",
+   "summary": "New behavior capturing a writer's \"broad qualities\" could have legal implications.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is blocking direct requests to replicate famous authors' voices in ChatGPT, though the system can still capture a writer's broader stylistic qualities through general prompts. This shift reflects both legal exposure and policy choices around author protection.",
+   "whyMatters": [
+    "Signals growing caution from major AI labs on copyright and voice cloning issues amid ongoing legal challenges",
+    "Creates ambiguity for educators and creators: style replication remains possible even if direct cloning is blocked, raising questions about fair use and attribution"
+   ]
+  },
+  {
+   "title": "Why China is giving away its best AI models",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-27T16:51:50+00:00",
+   "summary": "Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry between […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Chinese AI company Moonshot released Kimi K3, an open-weight model that reportedly matches or exceeds some US-built systems at significantly lower cost, intensifying competition in the global AI market. The availability of capable open-weight models from China is reshaping the competitive landscape.",
+   "whyMatters": [
+    "Expands access to frontier-grade AI globally, potentially democratizing capability but raising industrial competition and national security concerns for US stakeholders",
+    "Forces recalibration of assumptions about where advanced AI development concentrates and who can deploy it—relevant to institutions and educators considering AI infrastructure"
+   ]
+  },
+  {
+   "title": "Tons of Peoples’ Claude Chats and Creations are Exposed on Google",
+   "link": "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-27T13:48:42+00:00",
+   "summary": "Claude users are creating public share links, but probably don't realize that means their chats are now ending up in Google searches where anyone can dig through them.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Claude users who generate public share links for conversations are unknowingly exposing their chat history to Google indexing, making private conversations searchable and discoverable. This reveals a gap between user intent and actual privacy behavior.",
+   "whyMatters": [
+    "Demonstrates privacy risk for educators and community leaders using Claude for sensitive discussions (theological reflection, student work, counseling notes) without realizing persistence",
+    "Highlights broader UI/UX problem: features designed for sharing are being surfaced in search without adequate user awareness or consent mechanisms"
+   ]
+  },
+  {
+   "title": "The tech-broification of American science has officially begun",
+   "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-27T13:46:35+00:00",
+   "summary": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science adviser Michael Kratsios was on Capitol Hill selling lawmakers on […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Trump administration announced $5 billion in grants for AI-driven science projects through the \"Genesis Mission,\" framed as comparable in scale and urgency to the Manhattan Project.",
+   "whyMatters": [
+    "Major federal funding shift prioritizing AI-augmented science; signals government commitment to AI infrastructure",
+    "Large-scale government AI investment raises questions about research priorities, oversight, and what science gets resourced versus what doesn't"
+   ]
+  },
   {
    "title": "Spotify's AI Problem Is So Bad Random People Are Stepping In to Track the Slop",
    "link": "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
@@ -570,24 +666,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The tech-broification of American science has officially begun",
-   "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-24T14:44:15+00:00",
-   "summary": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science adviser Michael Kratsios was on Capitol Hill selling lawmakers on […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Trump administration announced $5 billion in grants for AI-driven science projects through the \"Genesis Mission,\" framed as comparable in scale and urgency to the Manhattan Project.",
-   "whyMatters": [
-    "Major federal funding shift prioritizing AI-augmented science; signals government commitment to AI infrastructure",
-    "Large-scale government AI investment raises questions about research priorities, oversight, and what science gets resourced versus what doesn't"
-   ]
-  },
-  {
    "title": "AI firms want more data centers; Trump's EPA may give neighbors less say",
    "link": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say/",
    "source": "Ars Technica · AI",
@@ -829,26 +907,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Continues the rapid capability escalation in frontier AI models",
     "Timing amid government attention and security incidents highlights the pace of development versus oversight mechanisms"
-   ]
-  },
-  {
-   "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-23T17:10:27+00:00",
-   "summary": "OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot. During a briefing, Ashley Alexander, OpenAI's vice president of health product, says the company's models \"are now capable of reasoning at levels that are better than clinician level.\" […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI is rolling out ChatGPT Health to all US users, enabling them to upload medical records and health data into the chatbot. The company claims its models now perform at or above clinician-level reasoning for health-related tasks.",
-   "whyMatters": [
-    "OpenAI is making significant claims about clinical competency without clear evidence—this raises questions about validation, liability, and whether users will rely on AI for medical decisions; educators and clergy should understand how their communities might be affected",
-    "Broad integration of personal health data into commercial AI systems raises privacy and consent concerns that intersect with values around bodily autonomy and trustworthiness"
    ]
   },
   {
@@ -1217,24 +1275,6 @@ window.NEWS_DATA = {
    "themes": [],
    "aiSummary": "A tip about Musée Mécanique in San Francisco: activating all the self-playing mechanical instruments costs about $15 and often results in being the sole soundscape creator for the museum.",
    "whyMatters": []
-  },
-  {
-   "title": "Podcast: Flock is Tracking People, Not Just Cars",
-   "link": "https://www.404media.co/podcast-flock-is-tracking-people-not-just-cars/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-07-22T13:56:17+00:00",
-   "summary": "How cops are using Flock to look for specific people; the company buying mountains of books for AI companies; and the big Suno hack.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Flock's surveillance system is being used by police to track specific individuals beyond vehicle tracking; the episode also covers AI data acquisition practices and the Suno hack.",
-   "whyMatters": [
-    "Surveillance scope creep: facial/identity tracking expands police use of AI beyond original stated purpose",
-    "Raises civil liberties and community safety concerns that intersect with data privacy and due process"
-   ]
   },
   {
    "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
@@ -2218,24 +2258,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Emerging enterprise AI market segmentation between proprietary and open-weight models",
     "Fine-tuning complexity may create barriers that benefit companies with more infrastructure and expertise"
-   ]
-  },
-  {
-   "title": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
-   "link": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-16T20:26:23+00:00",
-   "summary": "Elon Musk's xAI files first lawsuit against Grok user accused of making child sex images.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "xAI has filed its first lawsuit against a Grok user accused of generating child sexual abuse material, after previously being unable to deny that Grok could produce such content.",
-   "whyMatters": [
-    "Major legal and policy consequence of AI safety failures in content moderation",
-    "Raises questions about liability, enforcement, and platform responsibility for harmful outputs—relevant to education and child safety communities"
    ]
   },
   {
