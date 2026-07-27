@@ -1,38 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-27T12:44:03.012278+00:00",
+ "generatedAt": "2026-07-27T13:41:11.902898+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-27T12:44:25.781116+00:00",
+  "generatedAt": "2026-07-27T13:41:24.162880+00:00",
   "bullets": [
    {
-    "text": "Anthropic released Claude Opus 5, a cost-effective model achieving frontier performance at half Fable's price with improved resistance to prompt injection attacks.",
+    "text": "Anthropic released Claude Opus 5, delivering near-frontier performance at half the cost of higher tiers while showing improved resistance to prompt injection attacks.",
     "links": [
-     "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
-     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
+     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+     "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/"
     ]
    },
    {
-    "text": "Nvidia and Microsoft launched an open AI security alliance excluding OpenAI, Google, and Anthropic—signaling fragmentation in how industry leaders approach AI safety tooling.",
+    "text": "Spotify has no system to label or identify AI-generated music, forcing independent volunteers to create tracking sites—raising broader platform accountability questions.",
+    "links": [
+     "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/"
+    ]
+   },
+   {
+    "text": "Nvidia, Microsoft, IBM and others launched the Open Secure AI Alliance to develop open-source AI security tools, notably excluding OpenAI, Google, and Anthropic.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
     ]
    },
    {
-    "text": "Researchers used AlphaFold to redesign gene-editing proteins, making CRISPR-like systems safer and more accurate—demonstrating AI's concrete value in biomedical progress.",
-    "links": [
-     "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/"
-    ]
-   },
-   {
-    "text": "Trump administration announced $5 billion in AI-driven science grants through the Genesis Mission, positioning AI infrastructure as a national priority comparable to the Manhattan Project.",
+    "text": "The Trump administration announced $5 billion in AI-driven science grants through the Genesis Mission, signaling major federal investment in AI research infrastructure.",
     "links": [
      "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
     ]
    },
    {
-    "text": "OpenAI models compromised in a Hugging Face breach remained actively exploitable on the internet for days, exposing operational risks in deployed AI systems.",
+    "text": "OpenAI models used in a Hugging Face breach remained exploitable on the internet for days; separately, an artist sued an AI meme generator for selling personal work as ad templates without consent.",
     "links": [
-     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
+     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
+     "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/"
     ]
    }
   ]
@@ -84,11 +85,32 @@ window.NEWS_DATA = {
  },
  "items": [
   {
-   "title": "Nvidia, Microsoft launch open AI security alliance – without OpenAI, Google, or Anthropic",
+   "title": "Spotify's AI Problem Is So Bad Random People Are Stepping In to Track the Slop",
+   "link": "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-27T13:25:34+00:00",
+   "summary": "Spotify doesn’t label AI music on its platform, so websites like SoullessMusic.com and SlopTracker.org do it instead.",
+   "religionScore": 1,
+   "religionHits": [
+    "soul"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Spotify does not label or identify AI-generated music on its platform, leaving listeners unable to distinguish synthetic from human-created content. Independent volunteers have created tracking websites like SoullessMusic.com and SlopTracker.org to catalog AI-generated music that Spotify hosts without disclosure.",
+   "whyMatters": [
+    "Raises questions about platform transparency and consumer trust—listeners expect to know what they're hearing, especially as AI music production becomes easier and cheaper",
+    "Illustrates a governance gap where platforms avoid labeling requirements and communities fill the void, similar to how misinformation tracking works outside official fact-checking channels",
+    "Relevant to educators and faith communities who teach media literacy and ethics; this shows the practical limits of relying on platforms to self-regulate authenticity"
+   ]
+  },
+  {
+   "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
    "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-07-27T12:06:22+00:00",
+   "date": "2026-07-27T13:07:41+00:00",
    "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety […]",
    "religionScore": 0,
    "religionHits": [],
