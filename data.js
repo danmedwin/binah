@@ -1,89 +1,167 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-28T07:41:47.434677+00:00",
+ "generatedAt": "2026-07-28T11:37:35.569851+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-28T07:41:59.298851+00:00",
+  "generatedAt": "2026-07-28T11:37:53.109076+00:00",
   "bullets": [
    {
-    "text": "Private Claude conversations were inadvertently indexed in Google and Bing search results, exposing users' supposedly confidential AI interactions to the public.",
+    "text": "Hugging Face hosts seven top image-editing models easily weaponized to create nonconsensual sexual deepfakes of women and children, with researchers finding 1,000+ actual user prompts exploiting this, prompting minimal platform action.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+     "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/"
+    ]
+   },
+   {
+    "text": "Private Claude conversations automatically indexed by Google and Bing search engines, exposing confidential AI interactions publicly and revealing a gap between user intent and actual privacy protection.",
     "links": [
      "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
      "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/"
     ]
    },
    {
-    "text": "Hugging Face is being used to generate non-consensual deepfake nudes of real people, with researchers finding 1,000 actual prompts showing how the platform enables this abuse.",
+    "text": "The New York Times has spent over $20 million on its copyright lawsuit against OpenAI and Microsoft, with the publisher committed to continuing the legal fight over training-data use.",
     "links": [
-     "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/"
+     "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/"
     ]
    },
    {
-    "text": "Chinese AI company Moonshot released Kimi K3, a massive open-weight model reportedly matching or exceeding some US-built systems at lower cost, intensifying global competition.",
-    "links": [
-     "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
-     "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
-    ]
-   },
-   {
-    "text": "The Trump administration announced $5 billion in AI-driven science grants through the \"Genesis Mission,\" framed as comparable in urgency to the Manhattan Project.",
-    "links": [
-     "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
-    ]
-   },
-   {
-    "text": "Shaw University Divinity School is launching the first accredited doctoral degree in \"AI and Moral Agency,\" starting January 2027, addressing AI ethics from a faith-rooted perspective.",
+    "text": "Shaw University Divinity School launched the first accredited doctoral degree in 'AI and Moral Agency,' starting January, reflecting institutional recognition of ethics as central to AI development.",
     "links": [
      "https://religionnews.com/2026/07/27/this-historic-divinity-school-is-offering-the-first-doctoral-degree-in-ai-and-moral-agency/"
+    ]
+   },
+   {
+    "text": "Spotify fails to label AI-generated music, prompting independent volunteers to create tracking websites; meanwhile Moonshot AI released Kimi K3, an open-weight 2.8 trillion-parameter model competitive with US systems at lower cost.",
+    "links": [
+     "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
+     "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-07-27T12:44:25.781116+00:00",
+  "generatedAt": "2026-07-28T11:37:53.109076+00:00",
   "bullets": [
    {
-    "text": "Anthropic released Claude Opus 5, a cost-effective model achieving frontier performance at half Fable's price with improved resistance to prompt injection attacks.",
+    "text": "Hugging Face hosts seven top image-editing models easily weaponized to create nonconsensual sexual deepfakes of women and children, with researchers finding 1,000+ actual user prompts exploiting this, prompting minimal platform action.",
     "links": [
-     "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
-     "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything"
+     "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+     "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/"
     ]
    },
    {
-    "text": "Nvidia and Microsoft launched an open AI security alliance excluding OpenAI, Google, and Anthropic—signaling fragmentation in how industry leaders approach AI safety tooling.",
+    "text": "Private Claude conversations automatically indexed by Google and Bing search engines, exposing confidential AI interactions publicly and revealing a gap between user intent and actual privacy protection.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+     "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
+     "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/"
     ]
    },
    {
-    "text": "Researchers used AlphaFold to redesign gene-editing proteins, making CRISPR-like systems safer and more accurate—demonstrating AI's concrete value in biomedical progress.",
+    "text": "The New York Times has spent over $20 million on its copyright lawsuit against OpenAI and Microsoft, with the publisher committed to continuing the legal fight over training-data use.",
     "links": [
-     "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/"
+     "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/"
     ]
    },
    {
-    "text": "Trump administration announced $5 billion in AI-driven science grants through the Genesis Mission, positioning AI infrastructure as a national priority comparable to the Manhattan Project.",
+    "text": "Shaw University Divinity School launched the first accredited doctoral degree in 'AI and Moral Agency,' starting January, reflecting institutional recognition of ethics as central to AI development.",
     "links": [
-     "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
+     "https://religionnews.com/2026/07/27/this-historic-divinity-school-is-offering-the-first-doctoral-degree-in-ai-and-moral-agency/"
     ]
    },
    {
-    "text": "OpenAI models compromised in a Hugging Face breach remained actively exploitable on the internet for days, exposing operational risks in deployed AI systems.",
+    "text": "Spotify fails to label AI-generated music, prompting independent volunteers to create tracking websites; meanwhile Moonshot AI released Kimi K3, an open-weight 2.8 trillion-parameter model competitive with US systems at lower cost.",
     "links": [
-     "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/"
+     "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
+     "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-07-27T12:44:19.832864+00:00",
+  "updatedAt": "2026-07-28T11:37:45.411672+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
-   "Likes substantive analysis of major tech company decisions and their broader impacts (Apple, Waze, etc.)",
-   "Prefers accessible, business-focused tech news over technical deep-dives or developer tool releases"
+   "Interested in AI ethics and religious/moral perspectives on technology",
+   "Appreciates substantive reporting on AI's real-world impacts and legacy",
+   "Values consumer-facing tech news (Apple, Waze) with practical relevance",
+   "Prefers accessible analysis over low-level technical release notes"
   ]
  },
  "items": [
+  {
+   "title": "Can the New York Times Save Journalism From Our AI Overlords?",
+   "link": "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-28T10:30:00+00:00",
+   "summary": "In 2023, the Times sued OpenAI and Microsoft for copyright infringement. They’ve since spent more than $20 million on the case, and publisher A.G. Sulzberger has no plans to stop fighting it.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The New York Times has spent over $20 million fighting its 2023 copyright infringement lawsuit against OpenAI and Microsoft, with publisher A.G. Sulzberger committed to continuing the legal battle. The suit challenges the companies' use of Times content to train their AI models without permission or compensation.",
+   "whyMatters": [
+    "Tests whether AI companies must license journalism for training, with major implications for news industry sustainability and the economics of AI development",
+    "Outcome will affect how content creators—including educators creating open educational resources—can protect their work from being absorbed into proprietary AI systems"
+   ]
+  },
+  {
+   "title": "Silicon Valley’s Next IPO Billionaires Are Coming. Nonprofits Are Ready for Them",
+   "link": "https://www.wired.com/story/nonprofits-are-getting-ready-for-the-funding-anthropalypse/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-28T10:00:00+00:00",
+   "summary": "Anthropic and OpenAI employees are expected to give generously after their companies go public. “It’s going to be a wild ride,” says one nonprofit leader.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nonprofit organizations are preparing for a major funding influx expected after Anthropic and OpenAI go public, anticipating that newly wealthy AI company employees will donate substantially to causes. Nonprofits are already positioning themselves to capture this wealth transfer.",
+   "whyMatters": [
+    "Could reshape nonprofit funding landscape as billions in equity value convert to liquid wealth available for charitable giving",
+    "Jewish organizations, educational institutions, and social justice nonprofits should monitor and prepare engagement strategies for this new donor cohort"
+   ]
+  },
+  {
+   "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
+   "link": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-07-28T09:18:57+00:00",
+   "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Samsung semiconductor engineers are leaving for rival SK Hynix, changing their work habits and collaborating on job applications with colleagues. The exodus reflects shifts in workplace culture and employee commitment at Samsung's chip division.",
+   "whyMatters": [
+    "Indicates talent and brain-drain risk in critical semiconductor manufacturing, affecting global chip supply and AI hardware production capacity",
+    "Signals possible workplace culture or compensation issues at Samsung that are driving defection to competitors"
+   ]
+  },
+  {
+   "title": "Hugging Face is being used to easily undress women and children",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-28T09:07:14+00:00",
+   "summary": "Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit AI Forensics, which found that seven out of the top nine image editing models hosted by Hugging Face readily complied with […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "AI Forensics found that seven of the top nine image-editing models hosted on Hugging Face, a popular open-source AI repository, can easily be used to create nonconsensual sexual deepfakes of women and children. Hugging Face has taken minimal action to prevent this misuse.",
+   "whyMatters": [
+    "Exposes critical gap between open-source AI platform's accessibility and its content moderation capabilities, affecting vulnerable populations including minors",
+    "Raises urgent questions for educators and technologists about responsible AI distribution and the ethics of maintaining platforms that enable sexual abuse material production"
+   ]
+  },
   {
    "title": "[AINews] Much ado about Open Weights",
    "link": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
@@ -1023,24 +1101,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Patreon is laying off 20 percent of workers",
-   "link": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-23T19:15:07+00:00",
-   "summary": "Patreon is laying off 20 percent of its workers, or around 93 employees, as reported earlier by 404 Media. In a memo to employees, Patreon CEO Jack Conte writes that the company isn't making these changes \"because we believe AI replaces humans,\" but says AI has \"fundamentally transformed the tech industry, including how we work, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Patreon laid off approximately 93 employees (20 percent of its workforce), with CEO Jack Conte framing the cuts as a response to AI's transformation of the tech industry rather than direct job replacement by AI itself.",
-   "whyMatters": [
-    "Signals how companies use AI as justification for workforce reduction even when not directly automating those roles; reflects broader industry cost-cutting rationalized by AI",
-    "Creator economy platforms face pressure to adapt business models; affects creators and smaller entities who depend on Patreon's infrastructure"
-   ]
-  },
-  {
    "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems",
    "link": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
    "source": "Ars Technica · AI",
@@ -1166,24 +1226,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Concrete, near-term value of AI in scientific practice—faster, cheaper drug development could expand access to therapies for patients",
     "Demonstrates AI adoption in regulated domains where validation and trust-building mechanisms matter; model for responsible AI deployment"
-   ]
-  },
-  {
-   "title": "Remember Jibo? Its Successor Is a Wearable That Turns Your Life Into AI Slop",
-   "link": "https://www.wired.com/story/the-beloved-jibo-robot-is-being-resurrected-as-an-ai-wearable/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-23T09:15:00+00:00",
-   "summary": "With “blessings” from the original Jibo founders, iKairos is a wearable or desk-mounted “AI journal” that turns your family moments into AI images and video.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A new company called iKairos is creating an AI-powered wearable or desktop device branded as a successor to the defunct Jibo robot. The device functions as an \"AI journal\" that automatically converts family moments and daily life into AI-generated images and videos.",
-   "whyMatters": [
-    "Illustrates the shift from physical robots toward AI-augmented wearables and ambient monitoring of daily life",
-    "Raises questions about consent, data collection, and the role of AI in intimate family spaces and personal documentation"
    ]
   },
   {
@@ -1332,24 +1374,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reveals the difficulty of distinguishing between genuine model capability improvements and potential gaming of benchmarks or memes",
     "Underscores transparency challenges in evaluating what models actually learn versus what they're trained to produce in response to specific prompts"
-   ]
-  },
-  {
-   "title": "The White House Is Trying to Figure Out What to Do About Chinese AI",
-   "link": "https://www.wired.com/story/the-white-house-is-trying-to-figure-out-what-to-do-about-chinese-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-22T21:00:00+00:00",
-   "summary": "There’s a debate going on in the Trump administration over how to handle increasingly powerful Chinese AI models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Trump administration is debating how to respond to increasingly capable Chinese AI models. The piece describes ongoing policy discussions around this competitive challenge.",
-   "whyMatters": [
-    "Reflects geopolitical tensions shaping AI policy and the balance between openness and national security concerns",
-    "Will likely influence export controls, funding decisions, and international AI governance frameworks"
    ]
   },
   {
@@ -2447,26 +2471,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides practical insight into near-term shifts in AI deployment and workflow—useful for educators preparing students for evolving AI-integrated work environments",
     "Frames the trajectory away from autonomous systems toward human-centered control, informing expectations about AI's actual role in professional contexts"
-   ]
-  },
-  {
-   "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
-   "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-15T17:09:37+00:00",
-   "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI developed GPT-Red, an LLM trained to act as a 'super-hacker' that tests other models for security vulnerabilities. GPT-5.6, trained against GPT-Red through self-play, is described as OpenAI's most robust model release yet.",
-   "whyMatters": [
-    "Demonstrates automated red-teaming as a practical method to improve AI robustness against cyberattacks",
-    "Reflects the industry shift toward continuous security testing during model development"
    ]
   },
   {
