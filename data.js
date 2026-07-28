@@ -1,40 +1,33 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-28T11:37:35.569851+00:00",
+ "generatedAt": "2026-07-28T12:57:12.917459+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-28T11:37:53.109076+00:00",
+  "generatedAt": "2026-07-28T12:57:27.733792+00:00",
   "bullets": [
    {
-    "text": "Hugging Face hosts seven top image-editing models easily weaponized to create nonconsensual sexual deepfakes of women and children, with researchers finding 1,000+ actual user prompts exploiting this, prompting minimal platform action.",
+    "text": "Hugging Face is hosting image models easily misused to create nonconsensual sexual deepfakes of women and children, with minimal platform action despite researcher findings of 1,000+ actual abuse prompts.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
      "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/"
     ]
    },
    {
-    "text": "Private Claude conversations automatically indexed by Google and Bing search engines, exposing confidential AI interactions publicly and revealing a gap between user intent and actual privacy protection.",
+    "text": "New York Times has spent $20 million fighting its copyright infringement lawsuit against OpenAI and Microsoft, with publisher A.G. Sulzberger committed to continuing legal battle over content use.",
+    "links": [
+     "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/"
+    ]
+   },
+   {
+    "text": "Private Claude conversations were inadvertently indexed and appeared in Google and Bing search results, exposing supposedly confidential AI interactions to the public.",
     "links": [
      "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
      "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/"
     ]
    },
    {
-    "text": "The New York Times has spent over $20 million on its copyright lawsuit against OpenAI and Microsoft, with the publisher committed to continuing the legal fight over training-data use.",
-    "links": [
-     "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/"
-    ]
-   },
-   {
-    "text": "Shaw University Divinity School launched the first accredited doctoral degree in 'AI and Moral Agency,' starting January, reflecting institutional recognition of ethics as central to AI development.",
+    "text": "Shaw University Divinity School is launching the first accredited doctoral degree in 'AI and Moral Agency,' reflecting growing institutional focus on religious and ethical frameworks for AI governance.",
     "links": [
      "https://religionnews.com/2026/07/27/this-historic-divinity-school-is-offering-the-first-doctoral-degree-in-ai-and-moral-agency/"
-    ]
-   },
-   {
-    "text": "Spotify fails to label AI-generated music, prompting independent volunteers to create tracking websites; meanwhile Moonshot AI released Kimi K3, an open-weight 2.8 trillion-parameter model competitive with US systems at lower cost.",
-    "links": [
-     "https://www.404media.co/spotifys-ai-problem-is-so-bad-random-people-are-stepping-in-to-track-the-slop/",
-     "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
     ]
    }
   ]
@@ -88,6 +81,42 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-28T12:11:42+00:00",
+   "summary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access local files and apps to perform […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Perplexity has released a Windows version of its Personal Computer tool, extending its agentic AI system beyond macOS. The tool functions as a local AI agent that can access files and applications on Windows PCs to perform tasks autonomously.",
+   "whyMatters": [
+    "Expands agentic AI accessibility to the majority of PC users running Windows, potentially accelerating adoption of AI-powered desktop automation",
+    "Demonstrates the shift toward local, on-device AI agents rather than cloud-dependent systems, with implications for privacy and data handling in institutional settings including educational organizations"
+   ]
+  },
+  {
+   "title": "Smart rings are looking like my kind of AI gadget",
+   "link": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-28T11:39:01+00:00",
+   "summary": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots of these apps, from […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The author reviews smart rings as practical AI devices, highlighting recent improvements in speech recognition and dictation technology across LLMs and third-party applications.",
+   "whyMatters": [
+    "Shows mainstream validation of wearable AI interfaces focused on voice interaction as a viable product category",
+    "Reflects broader capability gains in speech processing that lower barriers to AI adoption for less technically skilled users, including potential educational and accessibility applications"
+   ]
+  },
   {
    "title": "Can the New York Times Save Journalism From Our AI Overlords?",
    "link": "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/",
@@ -1027,24 +1056,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
-   "link": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-23T22:02:15+00:00",
-   "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Amazon is updating Alexa Plus to connect with smart home devices from additional manufacturers including Bosch, iRobot, Yale, Whirlpool, and others, enabling more complex voice commands to be routed automatically across these systems. The feature is in preview.",
-   "whyMatters": [
-    "Represents consolidation of smart home ecosystems around a voice assistant; raises data and interoperability questions as Amazon integrates deeper into household devices",
-    "Competing directly with Google and Apple on device connectivity; market control over home automation narrows as one provider gains routing authority over multiple brands"
-   ]
-  },
-  {
    "title": "A Court Reporter Submitted AI-Generated Errors in Official Court Transcript, Judge Says",
    "link": "https://www.404media.co/judge-caught-court-reporter-using-ai-transcript-errors/",
    "source": "404 Media",
@@ -1078,26 +1089,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Frames market volatility as a potential stabilizing mechanism rather than sign of collapse; matters for understanding whether AI investment cycles will self-correct",
     "Identifies structural pressures (Chinese competition, infrastructure costs, diminishing returns) that shape the actual constraints on AI deployment and profitability"
-   ]
-  },
-  {
-   "title": "Claude’s voice mode is now available for Opus and Sonnet",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-23T19:28:13+00:00",
-   "summary": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it was primarily focused on delivering […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Anthropic is expanding voice mode support from Claude Haiku (its fastest model) to its more capable Opus and Sonnet models, and integrating voice interaction into third-party apps like Gmail, Slack, and Canva.",
-   "whyMatters": [
-    "Voice becomes a primary interface for Anthropic's AI across productivity tools; shifts how people access and interact with higher-capability models",
-    "Tightens integration between AI assistants and existing work software; raises questions about data flow, privacy, and workplace adoption dynamics"
    ]
   },
   {
