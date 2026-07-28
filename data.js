@@ -1,41 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-28T00:05:47.496779+00:00",
+ "generatedAt": "2026-07-28T07:41:47.434677+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-28T00:06:07.653293+00:00",
+  "generatedAt": "2026-07-28T07:41:59.298851+00:00",
   "bullets": [
    {
-    "text": "Claude Opus 5 delivers Fable-level performance at half the cost, though users report reliability inconsistencies and premature task abandonment in real-world deployment.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Where-Claude-Opus-5-Fits-in-Your-Model-Rotation-e3mkfcc",
-     "https://www.latent.space/p/ainews-claude-opus-5-fable-level"
-    ]
-   },
-   {
-    "text": "Chinese AI company Moonshot released open-weight Kimi K3 model matching or exceeding US systems at lower cost, intensifying global competition in frontier models.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-     "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
-    ]
-   },
-   {
-    "text": "Private Claude conversations were inadvertently indexed and exposed in Google and Bing search results, revealing a gap between user privacy expectations and actual security.",
+    "text": "Private Claude conversations were inadvertently indexed in Google and Bing search results, exposing users' supposedly confidential AI interactions to the public.",
     "links": [
      "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
      "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/"
     ]
    },
    {
-    "text": "Shaw University Divinity School launched the first accredited doctoral degree in AI and Moral Agency, embedding religious and ethical perspectives into AI development training.",
+    "text": "Hugging Face is being used to generate non-consensual deepfake nudes of real people, with researchers finding 1,000 actual prompts showing how the platform enables this abuse.",
     "links": [
-     "https://religionnews.com/2026/07/27/this-historic-divinity-school-is-offering-the-first-doctoral-degree-in-ai-and-moral-agency/"
+     "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/"
     ]
    },
    {
-    "text": "Industry is shifting focus from chatbots to agentic AI systems that autonomously execute multi-step tasks, requiring fundamentally different enterprise infrastructure and oversight.",
+    "text": "Chinese AI company Moonshot released Kimi K3, a massive open-weight model reportedly matching or exceeding some US-built systems at lower cost, intensifying global competition.",
     "links": [
-     "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-     "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/"
+     "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+     "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
+    ]
+   },
+   {
+    "text": "The Trump administration announced $5 billion in AI-driven science grants through the \"Genesis Mission,\" framed as comparable in urgency to the Manhattan Project.",
+    "links": [
+     "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
+    ]
+   },
+   {
+    "text": "Shaw University Divinity School is launching the first accredited doctoral degree in \"AI and Moral Agency,\" starting January 2027, addressing AI ethics from a faith-rooted perspective.",
+    "links": [
+     "https://religionnews.com/2026/07/27/this-historic-divinity-school-is-offering-the-first-doctoral-degree-in-ai-and-moral-agency/"
     ]
    }
   ]
@@ -86,6 +84,44 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Much ado about Open Weights",
+   "link": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-28T06:20:13+00:00",
+   "summary": "Everyone is writing a lot, but only Kimi K3 shipped today",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!90od!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOR8_rBbEAAhTr6.jpg",
+   "themes": [],
+   "aiSummary": "Latent Space reports on activity in the open-weights AI model space, noting that while there has been much discussion and announcements, only Kimi K3 actually shipped as a completed release today.",
+   "whyMatters": [
+    "Distinguishes between AI industry hype and actual product releases—important for tracking which models are genuinely available versus vaporware",
+    "Open-weights models are central to democratizing AI access; shipping status affects what tools are available to researchers, educators, and practitioners"
+   ]
+  },
+  {
+   "title": "Hugging Face Has a Deepfake Nudes Problem",
+   "link": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-07-28T05:30:00+00:00",
+   "summary": "Researchers tested top image editing models on Hugging Face and found they could easily create explicit deepfakes—and 1,000 image editing prompts show how people use the software.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Researchers demonstrated that popular image editing models hosted on Hugging Face can be used to generate explicit non-consensual deepfakes of real people, and found 1,000 actual prompts from users showing how the platform is being misused for this purpose.",
+   "whyMatters": [
+    "Raises urgent questions about platform responsibility and content moderation—Hugging Face is a critical infrastructure for AI researchers and educators",
+    "Points to a real-world harm gap: consent and dignity violations through synthetic media affect individuals and communities, and platforms enabling this need clear policies and technical safeguards"
+   ]
+  },
   {
    "title": "moonshotai/Kimi-K3",
    "link": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
@@ -1354,24 +1390,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses whether AI can substitute for human spiritual care in vulnerable moments—central to religious and educational ethics",
     "Questions what 'presence' means theologically and pastorally, important for clergy and faith communities considering AI tools in ministry"
-   ]
-  },
-  {
-   "title": "China’s Open AI Models Are Challenging Silicon Valley’s Playbook",
-   "link": "https://www.wired.com/story/chinas-open-ai-models-are-challenging-silicon-valleys-playbook/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-07-22T19:01:38+00:00",
-   "summary": "As access to Anthropic’s and OpenAI’s frontier models becomes more restricted, Chinese labs are pitching their open-source alternatives as stable, accessible, and increasingly capable.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Chinese AI labs are releasing open-source models as alternatives to restricted frontier models from OpenAI and Anthropic, positioning them as more accessible and increasingly competitive. This shift challenges the Silicon Valley strategy of controlling access to advanced models.",
-   "whyMatters": [
-    "Opens high-capability AI to wider global use, affecting adoption patterns in education, business, and policy globally",
-    "Complicates Western AI governance strategies that rely on limiting access to frontier models"
    ]
   },
   {
@@ -2936,26 +2954,6 @@ window.NEWS_DATA = {
     "Being able to see what a model is 'thinking' before it speaks is a major step for AI safety and reliability.",
     "The 'global workspace' framing borrows from consciousness science, which will fuel debates about machine minds that religious thinkers will be asked to weigh in on.",
     "Interpretability progress matters for trust: it moves AI from black box toward something auditable."
-   ]
-  },
-  {
-   "title": "[AINews] The Field Guide to Fable",
-   "link": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-07T04:44:53+00:00",
-   "summary": "a quiet day lets us digest the world's most significant model launch... to date.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/9fubhllmsBU",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The AINews newsletter publishes a \"field guide\" digesting a major model launch it calls the most significant to date — Anthropic's Fable — rounding up what's known about the model and the community's reactions.",
-   "whyMatters": [
-    "If the launch merits 'most significant to date' from a usually measured newsletter, it's worth understanding what changed.",
-    "A digest format is an efficient way to catch up on a big launch without wading through scattered hot takes."
    ]
   },
   {
