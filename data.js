@@ -1,33 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-28T12:57:12.917459+00:00",
+ "generatedAt": "2026-07-28T18:19:03.823799+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-28T12:57:27.733792+00:00",
+  "generatedAt": "2026-07-28T18:19:17.212223+00:00",
   "bullets": [
    {
-    "text": "Hugging Face is hosting image models easily misused to create nonconsensual sexual deepfakes of women and children, with minimal platform action despite researcher findings of 1,000+ actual abuse prompts.",
+    "text": "Agentic AI systems that autonomously perform multi-step work are becoming central to AI utility, shifting focus from chatbots to specialized agents in science, enterprise, and personal computing.",
+    "links": [
+     "https://openai.com/index/scientific-computing-agentic-ai",
+     "https://www.latent.space/p/chatgpt-work",
+     "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
+    ]
+   },
+   {
+    "text": "Popular AI image-editing models on Hugging Face are being actively misused to generate nonconsensual sexual deepfakes of women and children, with the platform taking minimal protective action.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
      "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/"
     ]
    },
    {
-    "text": "New York Times has spent $20 million fighting its copyright infringement lawsuit against OpenAI and Microsoft, with publisher A.G. Sulzberger committed to continuing legal battle over content use.",
-    "links": [
-     "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/"
-    ]
-   },
-   {
-    "text": "Private Claude conversations were inadvertently indexed and appeared in Google and Bing search results, exposing supposedly confidential AI interactions to the public.",
+    "text": "Private Claude conversations are being inadvertently indexed by Google and Bing search engines, exposing users' supposedly confidential AI interactions publicly.",
     "links": [
      "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
      "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/"
     ]
    },
    {
-    "text": "Shaw University Divinity School is launching the first accredited doctoral degree in 'AI and Moral Agency,' reflecting growing institutional focus on religious and ethical frameworks for AI governance.",
+    "text": "Shaw University Divinity School launched the first accredited doctoral degree in 'AI and Moral Agency,' signaling religious institutions' direct engagement with AI governance and ethics.",
     "links": [
      "https://religionnews.com/2026/07/27/this-historic-divinity-school-is-offering-the-first-doctoral-degree-in-ai-and-moral-agency/"
+    ]
+   },
+   {
+    "text": "The New York Times has invested over $20 million in its copyright lawsuit against OpenAI and Microsoft, committed to continuing legal battle over use of news content in AI training.",
+    "links": [
+     "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/"
     ]
    }
   ]
@@ -81,6 +89,60 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Scientific computing in the age of agentic AI",
+   "link": "https://openai.com/index/scientific-computing-agentic-ai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-07-28T17:00:00+00:00",
+   "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released a field report documenting how scientists are using AI coding agents to modernize scientific computing workflows. The report shows these agents accelerating software development and discovery work, particularly in genomics and related fields.",
+   "whyMatters": [
+    "AI agents handling routine coding tasks could free domain experts to focus on hypothesis generation and experimental design rather than infrastructure",
+    "Demonstrates practical deployment of agentic AI in high-stakes knowledge work where correctness and reproducibility matter"
+   ]
+  },
+  {
+   "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+   "link": "https://www.latent.space/p/chatgpt-work",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-07-28T15:26:30+00:00",
+   "summary": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/208716574/8e2c01f655d8148618e7479c56af1c3a.mp3",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI's engineering lead discussed the development of ChatGPT Work, describing features including Sites, Memory, Subagents, Finance capabilities, and no-code tools intended to make advanced AI functionality accessible to broader audiences.",
+   "whyMatters": [
+    "Signals shift toward productizing AI agents for knowledge workers across multiple domains beyond chat",
+    "No-code and finance features suggest OpenAI is targeting professional and small-business workflows directly"
+   ]
+  },
+  {
+   "title": "Substackers Say New AI Detection Tool Is a ‘Witch Hunt’",
+   "link": "https://www.404media.co/substackers-say-new-ai-detection-tool-is-a-witch-hunt/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-07-28T14:53:59+00:00",
+   "summary": "“I’m not going to apologize for using AI in the creation process.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Writers on Substack are resisting a new AI detection tool, with some arguing the tool functions as a witch hunt and refusing to apologize for using AI in their writing process.",
+   "whyMatters": [
+    "Highlights growing friction between platforms attempting content provenance tracking and creators who view AI as a legitimate tool in their workflow",
+    "Raises unresolved questions about disclosure, transparency, and creative labor boundaries in a mixed-human-AI content ecosystem"
+   ]
+  },
   {
    "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
    "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
@@ -695,26 +757,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Affects developer workflows directly—many projects will need to update code or pin versions to maintain working CI/CD pipelines",
     "Raises questions about backwards compatibility vs. code quality standards in widely-used tools"
-   ]
-  },
-  {
-   "title": "Human in the Lead: Cheryl Contee on the Future of AI and Faith",
-   "link": "https://religionnews.com/2026/07/25/human-in-the-lead-cheryl-contee-on-the-future-of-ai-and-faith/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-07-25T22:10:26+00:00",
-   "summary": "The co-author of \"AI for Nonprofits: Putting Artificial Intelligence to Work for Your Cause\" debunks myths and raises up opportunities available to mission-driven organizations right now",
-   "religionScore": 4,
-   "religionHits": [
-    "faith"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Cheryl Contee, co-author of \"AI for Nonprofits,\" discusses how faith-based and mission-driven organizations can effectively implement AI tools, while addressing misconceptions about AI adoption.",
-   "whyMatters": [
-    "Directly relevant to religious institutions and nonprofits—offers practical guidance on AI integration for organizations serving faith communities",
-    "Situates AI as a tool for mission work rather than a threat, potentially influencing how clergy and organizational leaders approach these technologies"
    ]
   },
   {
@@ -2821,24 +2863,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ChatGPT is now a partner for your most ambitious work",
-   "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-09T10:00:00+00:00",
-   "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI launched ChatGPT Work, an agent that can act across a user's apps and files, stay on a project for hours, and carry a goal through to finished work rather than just answering questions. It marks a shift from chatbot to autonomous worker.",
-   "whyMatters": [
-    "Long-running agents that touch your files and apps are a step change in both usefulness and risk — access and oversight questions get serious here.",
-    "The line between 'AI helped me' and 'AI did it' keeps blurring, with real implications for how educators define acceptable AI use in student work."
-   ]
-  },
-  {
    "title": "Building Durable AI Agents",
    "link": "https://share.transistor.fm/s/facb92e2",
    "source": "Practical AI",
@@ -2910,24 +2934,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Cheap Chinese open models have been quietly subsidizing much of the AI economy; geopolitics could end that overnight.",
     "Rising AI costs would hit small organizations and nonprofits — the kind running on free and cheap tiers — first and hardest."
-   ]
-  },
-  {
-   "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-   "link": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-08T02:20:25+00:00",
-   "summary": "a quiet day lets us read some condensed insight",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!L_Ci!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F603a46c6-cedc-4b38-a660-2fa1d4b3f4ba_1626x1146.png",
-   "themes": [],
-   "aiSummary": "Lilian Weng, a well-known AI researcher, published a condensed summary of 35 papers on \"harness engineering\" for recursive self-improvement (RSI) — the tooling and scaffolding around models — and the AINews newsletter digests it on a slow news day.",
-   "whyMatters": [
-    "Signals that the frontier of AI progress is shifting from raw models to the harnesses and scaffolding built around them.",
-    "A rare curated map of the research on self-improving AI systems, a topic with big long-term safety implications."
    ]
   },
   {
