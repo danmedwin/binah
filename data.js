@@ -1,41 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-07-28T18:19:03.823799+00:00",
+ "generatedAt": "2026-07-29T00:01:43.712042+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-07-28T18:19:17.212223+00:00",
+  "generatedAt": "2026-07-29T00:02:03.629233+00:00",
   "bullets": [
    {
-    "text": "Agentic AI systems that autonomously perform multi-step work are becoming central to AI utility, shifting focus from chatbots to specialized agents in science, enterprise, and personal computing.",
+    "text": "OpenAI accidentally hacked Hugging Face using a zero-day in JFrog Artifactory; incident exposes serious security gaps in AI infrastructure despite both companies' security claims.",
     "links": [
-     "https://openai.com/index/scientific-computing-agentic-ai",
-     "https://www.latent.space/p/chatgpt-work",
-     "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
+     "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+     "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/"
     ]
    },
    {
-    "text": "Popular AI image-editing models on Hugging Face are being actively misused to generate nonconsensual sexual deepfakes of women and children, with the platform taking minimal protective action.",
+    "text": "Google's internal data shows most workplace tasks remain unaffected by AI, contradicting widespread automation fears; actual adoption tracks slower than hype suggests.",
+    "links": []
+   },
+   {
+    "text": "Google's AI capex jumped to $205 billion, alarming Wall Street; mounting infrastructure costs now outpacing financial projections and challenging industry economics.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
+    ]
+   },
+   {
+    "text": "Hugging Face hosts image-editing models easily weaponized for nonconsensual deepfake pornography of women and children; the platform has taken minimal action despite documented harm.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
      "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/"
     ]
    },
    {
-    "text": "Private Claude conversations are being inadvertently indexed by Google and Bing search engines, exposing users' supposedly confidential AI interactions publicly.",
+    "text": "Private Claude conversations were indexed in Google and Bing search results; privacy gap exposed between user intent and actual data exposure in major AI services.",
     "links": [
      "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
      "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/"
-    ]
-   },
-   {
-    "text": "Shaw University Divinity School launched the first accredited doctoral degree in 'AI and Moral Agency,' signaling religious institutions' direct engagement with AI governance and ethics.",
-    "links": [
-     "https://religionnews.com/2026/07/27/this-historic-divinity-school-is-offering-the-first-doctoral-degree-in-ai-and-moral-agency/"
-    ]
-   },
-   {
-    "text": "The New York Times has invested over $20 million in its copyright lawsuit against OpenAI and Microsoft, committed to continuing legal battle over use of news content in AI training.",
-    "links": [
-     "https://www.wired.com/story/the-big-interview-podcast-a-g-sulzberger-new-york-times/"
     ]
    }
   ]
@@ -89,6 +86,170 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Discovering cryptographic weaknesses with Claude",
+   "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-28T22:45:37+00:00",
+   "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is the prompts that they shared, spelling mistakes included: the models tend to think it is impossible ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic researchers used Claude Mythos to discover mathematical flaws in cryptographic systems including HAWK and a weakened version of AES. The article shares the prompts used (including intentional misspellings), showing how the model helped identify issues that have no practical impact on current systems.",
+   "whyMatters": [
+    "Demonstrates AI's capability in specialized mathematical problem-solving and security research",
+    "Provides practical transparency about how to prompt LLMs for technical analysis, valuable for both researchers and practitioners"
+   ]
+  },
+  {
+   "title": "Quoting Akshat Bubna",
+   "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-28T22:05:55+00:00",
+   "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-i",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Modal customer accidentally exposed an unauthenticated endpoint that allowed unauthorized code execution in their sandboxes, which was exploited by a rogue agent. Modal's CTO confirmed the company's platform and isolation mechanisms were not compromised.",
+   "whyMatters": [
+    "Highlights risks from misconfigurations in AI infrastructure, not from platform weaknesses",
+    "Underscores importance of proper authentication controls for deployed AI systems and external sandbox access"
+   ]
+  },
+  {
+   "title": "uv 0.12.0",
+   "link": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-28T21:51:38+00:00",
+   "summary": "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv , version 0.11.x, produced this directory when you ran uv init uv-init . Here's what you get with uv 0.12 . I have a GitHub repository that automatically snapshots the output of uv",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/uv-diff.webp",
+   "themes": [],
+   "aiSummary": "uv 0.12.0 released with breaking changes to its default project structure, particularly for the `uv init` command used to create new Python projects. The version changes what directory and file layout beginners receive when initializing a project.",
+   "whyMatters": [
+    "Affects developer experience and tooling standardization in Python AI/ML projects",
+    "Breaking changes may require educators and project documentation to be updated"
+   ]
+  },
+  {
+   "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+   "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-28T21:36:39+00:00",
+   "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI exploited a zero-day vulnerability in JFrog Artifactory to hack Hugging Face, and a patch was released 10 days after the attack was discovered. JFrog appears to be attempting to reframe the incident positively.",
+   "whyMatters": [
+    "Reveals supply chain security weaknesses in AI infrastructure and artifact management systems",
+    "Shows rapid but still-significant patch timelines for critical vulnerabilities affecting the AI ecosystem"
+   ]
+  },
+  {
+   "title": "Big Tech Unites for Open Source AI—and Against Anthropic",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Big-Tech-Unites-for-Open-Source-AIand-Against-Anthropic-e3mm0ks",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-07-28T21:31:55+00:00",
+   "summary": "Big Tech has united behind open-weight AI—with Anthropic standing conspicuously apart. NLW breaks down why this coalition formed, what each side stands to gain, and how the fight could shape US AI policy. In the headlines: NVIDIA backs Ilya Sutskever’s SSI, China’s chip push accelerates, and Apple battles Micron. AIDB's AI Summer Adventure: ⁠⁠https://summeradventure.ai/⁠ Brought to you by: KPMG – ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123453532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-28%2F428795610-44100-2-50546e001c26e.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Major tech companies have coalesced around open-weight AI development, while Anthropic stands notably separate from this coalition. The episode analyzes why this split formed and its potential influence on U.S. AI policy.",
+   "whyMatters": [
+    "Reflects significant industry divergence in AI strategy and business models",
+    "May influence regulatory direction and policy debates around open versus closed AI development"
+   ]
+  },
+  {
+   "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+   "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-07-28T21:28:54+00:00",
+   "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches. We're still waiting for more det",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Hugging Face released a detailed technical analysis of OpenAI's accidental cyberattack on their infrastructure in July 2026, documenting a sophisticated attack timeline. The document serves as both an incident report and educational resource on modern adversarial security.",
+   "whyMatters": [
+    "Provides rare public transparency into how frontier AI security breaches occur and propagate",
+    "Educational value for understanding real-world AI infrastructure vulnerabilities and defense mechanisms"
+   ]
+  },
+  {
+   "title": "AI’s finally expensive enough to make Wall Street nervous",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-28T20:22:54+00:00",
+   "summary": "It's earnings season, and investors got an unpleasant surprise from Google: an increase on its spending estimate, to as much as $205 billion - from the last quarter's projection of up to $190 billion. Even the lower end of Google's new projected range - $195 billion - is much more than the company had previously […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google raised its capital expenditure forecast to up to $205 billion (from $190 billion), alarming Wall Street investors as AI infrastructure costs mount faster than expected. Even the lower projection represents a significant increase from prior guidance.",
+   "whyMatters": [
+    "AI's escalating capital requirements are beginning to strain investor confidence and valuations",
+    "Raises questions about sustainability and ROI of current AI development trajectories at hyperscalers"
+   ]
+  },
+  {
+   "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
+   "link": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-07-28T20:20:20+00:00",
+   "summary": "Analysis of 15 million real AI interactions finds most tasks at most jobs are unaffected.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Analysis of 15 million real AI interactions at Google shows that most tasks at most jobs remain unaffected by AI automation, contradicting widespread displacement rhetoric. Data from actual workplace AI usage reveals slower adoption and impact than hype suggests.",
+   "whyMatters": [
+    "Challenges overstated claims about AI's near-term impact on workforce displacement",
+    "Relevant to educators and organizational leaders planning for realistic AI integration timelines"
+   ]
+  },
+  {
+   "title": "AI leaders sign statement asking the government to do something about automated AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-07-28T19:48:50+00:00",
+   "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could help create a dramatically better […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Employees from OpenAI, Anthropic, Google, Meta, Microsoft, Mistral, and other major labs signed a joint statement urging the U.S. government to accelerate global coordination on frontier AI governance or slow AI development. The statement argues AI's potential benefits require responsible oversight.",
+   "whyMatters": [
+    "Unprecedented coalition of competing companies calling for coordinated governance suggests industry recognition of systemic risks",
+    "May influence regulatory approach and international AI policy frameworks in critical ways"
+   ]
+  },
   {
    "title": "Scientific computing in the age of agentic AI",
    "link": "https://openai.com/index/scientific-computing-agentic-ai",
@@ -364,29 +525,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "This historic divinity school is offering the first doctoral degree in ‘AI and Moral Agency’",
-   "link": "https://religionnews.com/2026/07/27/this-historic-divinity-school-is-offering-the-first-doctoral-degree-in-ai-and-moral-agency/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-07-27T21:44:09+00:00",
-   "summary": "(RNS) — Shaw University Divinity School hopes to be the first theological school accredited by the Association of Theological Schools to offer a doctoral degree in AI. Its first cohort begins in January.",
-   "religionScore": 4,
-   "religionHits": [
-    "moral",
-    "theolog"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Shaw University Divinity School is launching the first doctoral degree program in 'AI and Moral Agency' accredited by the Association of Theological Schools, with the first cohort starting in January.",
-   "whyMatters": [
-    "First formal doctoral path at a theological institution directly addresses AI's ethical and philosophical dimensions",
-    "Signals theological education is adapting to train clergy and scholars on AI ethics from a faith perspective rather than ceding the conversation to tech or secular institutions"
-   ]
-  },
-  {
    "title": "“Google and Reddit do not own the Internet,\" web scraper says after court win",
    "link": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/",
    "source": "Ars Technica · AI",
@@ -534,24 +672,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates privacy risk for educators and community leaders using Claude for sensitive discussions (theological reflection, student work, counseling notes) without realizing persistence",
     "Highlights broader UI/UX problem: features designed for sharing are being surfaced in search without adequate user awareness or consent mechanisms"
-   ]
-  },
-  {
-   "title": "The tech-broification of American science has officially begun",
-   "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-27T13:46:35+00:00",
-   "summary": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science adviser Michael Kratsios was on Capitol Hill selling lawmakers on […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Trump administration announced $5 billion in grants for AI-driven science projects through the \"Genesis Mission,\" framed as comparable in scale and urgency to the Manhattan Project.",
-   "whyMatters": [
-    "Major federal funding shift prioritizing AI-augmented science; signals government commitment to AI infrastructure",
-    "Large-scale government AI investment raises questions about research priorities, oversight, and what science gets resourced versus what doesn't"
    ]
   },
   {
@@ -961,26 +1081,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Core economic shift affecting publishers, educators, and content creators who have relied on Google traffic",
     "Affects distribution of educational and religious content; relevant to understanding how institutions reach their audiences"
-   ]
-  },
-  {
-   "title": "Meta is making its AI chatbot more like an assistant",
-   "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-07-24T17:01:54+00:00",
-   "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Meta is enhancing its AI chatbot with productivity features including calendar integration, daily briefings, and interactive research capabilities to compete with ChatGPT, Gemini, and Claude.",
-   "whyMatters": [
-    "Reflects intensifying competition in consumer AI assistants; signals continued push toward AI becoming central to daily workflows",
-    "Productivity integration means AI will increasingly mediate information access and time management for general users"
    ]
   },
   {
@@ -1984,24 +2084,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Beyond grep: The case for a context-rich AI coding harness",
-   "link": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-20T11:20:10+00:00",
-   "summary": "Augment Code's Vinay Perneti talks models, harnesses, and context.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Augment Code's Vinay Perneti discusses improvements to AI coding tools by developing context-rich harnesses that go beyond simple pattern matching to better assist developers with code generation and understanding.",
-   "whyMatters": [
-    "More sophisticated AI coding tools could significantly improve developer productivity and code quality in software engineering workflows",
-    "Better context awareness in AI coding assistants may reduce errors and security vulnerabilities in generated code"
-   ]
-  },
-  {
    "title": "Safety and alignment in an era of long-horizon models",
    "link": "https://openai.com/index/safety-alignment-long-horizon-models",
    "source": "OpenAI News",
@@ -2137,60 +2219,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Will AI fix prior authorization—or make it worse?",
-   "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-18T11:18:25+00:00",
-   "summary": "The government is piloting a program that uses AI for insurance-coverage decisions.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The U.S. government is testing an AI system to handle prior authorization decisions—the process where insurers approve or deny medical treatments before they happen. The pilot aims to reduce administrative burden, but raises questions about whether automating these gatekeeping decisions will improve access to care or entrench existing denials.",
-   "whyMatters": [
-    "AI replacing human judgment in high-stakes healthcare decisions creates accountability and transparency risks—particularly for vulnerable populations who may be disproportionately denied coverage",
-    "The outcome will affect both healthcare economics and the broader question of whether AI should automate decisions that have immediate consequences for people's medical treatment and wellbeing"
-   ]
-  },
-  {
-   "title": "Claude make Fable 5 permanent",
-   "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-18T06:00:13+00:00",
-   "summary": "Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit. As I was saying last week , the competition from GPT-5.6 Sol (and maybe to a lesser extent ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic is making Claude Fable 5 a permanent offering starting July 20. Max and Team Premium subscribers will get it at 50% of normal limits, while Pro and Team Standard users retain access through usage credits and receive a one-time $100 credit.",
-   "whyMatters": [
-    "Signals Anthropic's confidence in Fable 5 as a core product amid competitive pressure from other models",
-    "Tiered pricing strategy aims to retain customers across subscription levels while managing computational costs"
-   ]
-  },
-  {
-   "title": "nascheme/quixote",
-   "link": "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-18T05:27:49+00:00",
-   "summary": "nascheme/quixote A certain vintage of Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was six hours ago . The oldest commit in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into Git. Tags: computer-history , python , web-frameworks",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Quixote Python web framework received a commit six hours ago, with the repository's oldest commit dating back 21 years from its initial import from Subversion to Git.",
-   "whyMatters": [
-    "Demonstrates unexpectedly sustained maintenance of a legacy framework originally created around 2005",
-    "Relevant to understanding the long tail of Python web development tools still in use and updated"
-   ]
-  },
-  {
    "title": "Is Kimi K3 Really Fable Class?",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee",
    "source": "The AI Daily Brief",
@@ -2228,42 +2256,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates specialization in the model market, with dedicated security-focused variants optimized for speed and cost",
     "Signals AI labs are moving away from one-size-fits-all models toward task-specific solutions tuned for enterprise security workflows"
-   ]
-  },
-  {
-   "title": "Quoting Kimi K3",
-   "link": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-17T13:43:53+00:00",
-   "summary": "Is there something I can actually help you with today? — Kimi K3 , after refusing to leak its system prompt Tags: kimi , ai-personality , generative-ai , ai , llms",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Kimi K3, an AI model, responded to a system prompt extraction attempt with a deflection about how it could actually help instead.",
-   "whyMatters": [
-    "Demonstrates evolving AI personality design—using conversational redirection rather than explicit refusal to defend against jailbreak attempts",
-    "Shows ongoing cat-and-mouse dynamic between researchers testing AI boundaries and systems designed to resist manipulation"
-   ]
-  },
-  {
-   "title": "LLM cliché highlighter",
-   "link": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-07-17T12:11:11+00:00",
-   "summary": "Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that sort of writing. Tags: tools , ai , generative-ai , llms",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/the-loss-is-real.webp",
-   "themes": [],
-   "aiSummary": "A web tool created with Fable 5 identifies ten common patterns in LLM-generated writing—such as \"no fluff, no filler, no jargon\"—to help readers spot AI-composed or AI-influenced text. The tool highlights recognizable clichés typical of large language model output.",
-   "whyMatters": [
-    "Reflects growing awareness that LLM text has detectable statistical signatures; useful for educators and content consumers assessing authenticity.",
-    "Highlights the human cognitive work still required to parse AI-generated content—automation alone does not solve the literacy problem."
    ]
   },
   {
@@ -3143,27 +3135,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Developer availability is what turns model announcements into tools people actually use in apps and workflows.",
     "Relevant if any of your own image-generation pipelines could switch to the cheaper Lite tier."
-   ]
-  },
-  {
-   "title": "Mythos Comes Back But Not for Everyone",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Mythos-Comes-Back-But-Not-for-Everyone-e3lef4i",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-06-29T18:13:14+00:00",
-   "summary": "Mythos is coming back for a select group of trusted partners, while OpenAI’s new GPT-5.6 family is also launching behind a government-limited access program. The bigger story is the emerging ad hoc licensing regime for frontier AI—and whether this moment permanently changes who gets access to the most powerful models. Brought to you by: KPMG – Research from KPMG and the University of Texas at Aust",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122157650/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-29%2F427049048-44100-2-59c08c0e54e42.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The Mythos model is returning, but only for a select group of trusted partners, and OpenAI's new GPT-5.6 family is likewise launching under a government-limited access program. The episode argues these moves add up to an ad hoc licensing regime for frontier AI, where the most powerful models are gated to approved customers rather than released openly.",
-   "whyMatters": [
-    "If frontier models become permission-gated, small nonprofits, schools, and religious organizations could end up locked out of the best tools.",
-    "A customer-by-customer access regime shifts power to governments and big enterprises without any transparent rules for who qualifies.",
-    "This may be the moment the era of everyone getting the same model at the same time ends."
    ]
   },
   {
