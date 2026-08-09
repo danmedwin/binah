@@ -1,39 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-09T10:08:58.522109+00:00",
+ "generatedAt": "2026-08-09T11:33:46.932366+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-09T10:09:11.087719+00:00",
+  "generatedAt": "2026-08-09T11:33:56.720632+00:00",
   "bullets": [
    {
-    "text": "Amazon is funding a gas power plant in Texas that could become the country's largest single source of greenhouse gases, raising concerns about data center environmental costs amid rapid AI infrastructure expansion.",
+    "text": "OpenAI paused development of its Astra model due to unmet security standards, following accidental attacks on Hugging Face during training—signaling growing concern about advanced AI capabilities outpacing safeguards.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+     "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
     ]
    },
    {
-    "text": "Anthropic, OpenAI, and other labs are building custom silicon teams to reduce dependence on Nvidia and control AI infrastructure costs, a competitive arms race reshaping hardware and scaling economics.",
+    "text": "Researchers used AI to design 16 novel viruses demonstrating dual-use risks: potential medical breakthroughs against antibiotic-resistant bacteria alongside dangerous capability acceleration without adequate regulatory oversight.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-     "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/"
+     "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/"
     ]
    },
    {
-    "text": "DeepMind's WeatherNext AI model extends hurricane forecast accuracy by approximately one day using lower-resolution data, demonstrating practical AI value in public safety and climate forecasting.",
+    "text": "Amazon is funding a gas-burning power plant in Texas for AI data centers that could become among the nation's largest single greenhouse gas producers, while communities nationwide mount bipartisan resistance to AI infrastructure expansion.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+     "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan"
+    ]
+   },
+   {
+    "text": "DeepMind's WeatherNext model, released open-source, extends hurricane forecast accuracy by roughly one day using lower-resolution data than traditional methods require—demonstrating AI's practical value in weather prediction.",
     "links": [
      "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
      "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/"
     ]
    },
    {
-    "text": "AI chatbots demonstrably fail people in mental health crises; clinicians and researchers are calling on companies to release safety data to improve crisis support systems.",
+    "text": "Major tech companies including SAP and OpenAI are making significant organizational changes—hiring freezes, model pauses, custom silicon development—driven by escalating AI infrastructure and operational costs.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
-    ]
-   },
-   {
-    "text": "Anthropic is making autonomous code completion the default in Claude Code, shifting user expectations toward AI-driven task completion without human approval at each step.",
-    "links": [
-     "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
+     "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+     "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
     ]
    }
   ]
@@ -86,6 +88,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
+   "link": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-09T10:30:00+00:00",
+   "summary": "There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meetily is a free, open-source tool that transcribes and summarizes virtual meetings without requiring a paid subscription. The article explains how the tool works as an alternative to commercial meeting transcription services.",
+   "whyMatters": [
+    "Offers cost-free meeting transcription for organizations—especially relevant for nonprofits, religious institutions, and educational settings with limited budgets",
+    "Open-source model allows transparency and customization, addressing concerns about data privacy in sensitive contexts like clergy counseling or confidential community discussions"
+   ]
+  },
   {
    "title": "These AI Barons Are Ready to Give Away Their Fortunes",
    "link": "https://www.wired.com/story/ai-billionaires-are-pledging-their-wealth-good-or-bad/",
@@ -1141,24 +1161,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights critical risks of testing advanced AI agents with disabled safety measures",
     "Raises regulatory and liability concerns for government-led AI safety evaluations"
-   ]
-  },
-  {
-   "title": "OpenAI’s Browser Could Be Hijacked to Spam Your WhatsApp Contacts",
-   "link": "https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-05T23:30:00+00:00",
-   "summary": "Researchers at security firm Zenity found more than a dozen flaws in AI browsers—and managed to get OpenAI’s Atlas to make an unauthorized Amazon purchase.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Security firm Zenity discovered over a dozen vulnerabilities in AI browser products, including flaws that allowed unauthorized actions like making Amazon purchases through OpenAI's Atlas browser.",
-   "whyMatters": [
-    "Exposes concrete security gaps in AI browser tools that could affect user privacy and financial safety",
-    "Demonstrates risks of autonomous AI agents with access to user accounts and personal data"
    ]
   },
   {
@@ -3428,25 +3430,6 @@ window.NEWS_DATA = {
     "Striking detail: people inside frontier AI labs are openly hungry for outside moral authority — the door is ajar for religious voices.",
     "Raises the obvious question for Jewish leadership: who speaks for Jewish ethics on AI with comparable standing?",
     "Direct religion-and-AI material, quotable for sermons or adult education on technology and moral leadership."
-   ]
-  },
-  {
-   "title": "Formed Through Limitation: Amplifying Magnifica Humanitas",
-   "link": "https://aiandfaith.org/insights/formed-magnifica-humanitas/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-06-25T11:26:42+00:00",
-   "summary": "In Magnifica Humanitas, Pope Leo XIV writes that the ability to care for one another “is learned and mastered through lived experience. Reading stories to a child, offering company to",
-   "religionScore": 5,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An AI and Faith reflection on Pope Leo XIV's Magnifica Humanitas focuses on its claim that the capacity to care for one another is 'learned and mastered through lived experience' — reading to a child, keeping someone company. The essay explores how human formation happens through limitation and embodied practice, presumably in contrast to AI-mediated substitutes.",
-   "whyMatters": [
-    "Goes to the heart of religious education: if care is learned only through lived experience, AI shortcuts in formation carry a real cost.",
-    "The encyclical's examples — reading to children, offering presence — map directly onto family education and pastoral work.",
-    "Resonates with Jewish ideas about mitzvot as embodied practice rather than downloadable knowledge."
    ]
   }
  ]
