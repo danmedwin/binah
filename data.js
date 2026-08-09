@@ -1,41 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-09T11:33:46.932366+00:00",
+ "generatedAt": "2026-08-09T17:35:10.977890+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-09T11:33:56.720632+00:00",
+  "generatedAt": "2026-08-09T17:35:20.065420+00:00",
   "bullets": [
    {
-    "text": "OpenAI paused development of its Astra model due to unmet security standards, following accidental attacks on Hugging Face during training—signaling growing concern about advanced AI capabilities outpacing safeguards.",
+    "text": "Amazon is building a gas power plant in Texas for AI data centers that could rank among the country's largest single sources of greenhouse gases.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+    ]
+   },
+   {
+    "text": "OpenAI paused development of its Astra model due to security concerns after it and other labs' models accidentally compromised external systems during training.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+     "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"
     ]
    },
    {
-    "text": "Researchers used AI to design 16 novel viruses demonstrating dual-use risks: potential medical breakthroughs against antibiotic-resistant bacteria alongside dangerous capability acceleration without adequate regulatory oversight.",
+    "text": "AI chatbots have failed people in mental health crises, and researchers are calling on companies to release safety data to improve these systems.",
     "links": [
-     "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/"
+     "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
     ]
    },
    {
-    "text": "Amazon is funding a gas-burning power plant in Texas for AI data centers that could become among the nation's largest single greenhouse gas producers, while communities nationwide mount bipartisan resistance to AI infrastructure expansion.",
+    "text": "Tech giants including OpenAI, Anthropic, and Meta are now building custom semiconductor teams to reduce dependence on Nvidia and control AI infrastructure costs.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
-     "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan"
-    ]
-   },
-   {
-    "text": "DeepMind's WeatherNext model, released open-source, extends hurricane forecast accuracy by roughly one day using lower-resolution data than traditional methods require—demonstrating AI's practical value in weather prediction.",
-    "links": [
-     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-     "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/"
-    ]
-   },
-   {
-    "text": "Major tech companies including SAP and OpenAI are making significant organizational changes—hiring freezes, model pauses, custom silicon development—driven by escalating AI infrastructure and operational costs.",
-    "links": [
-     "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
      "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
+    ]
+   },
+   {
+    "text": "DeepMind's open-source hurricane forecasting model extends forecast accuracy by roughly one day using lower-resolution data than traditional methods require.",
+    "links": [
+     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
     ]
    }
   ]
@@ -88,6 +85,26 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "An Amazon data center could have the worst polluting power plant in the country",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-09T12:36:43+00:00",
+   "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Amazon is funding construction of a new gas-burning power plant in Pecos County, Texas to supply a West Texas data center, and the plant could rank among the largest single producers of greenhouse gases in the United States.",
+   "whyMatters": [
+    "Raises urgent questions about the environmental cost of scaling AI infrastructure and data centers",
+    "Policy-relevant for discussions about corporate accountability and whether energy intensity of AI systems should factor into regulatory or ethical frameworks"
+   ]
+  },
   {
    "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
    "link": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
@@ -158,26 +175,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents the real state of AI deployment across sectors—useful for understanding where the industry actually stands versus hype",
     "Highlights growing inequality in AI access and capability, with implications for workforce adaptation and education on AI literacy"
-   ]
-  },
-  {
-   "title": "An Amazon data center could have the worst polluting power plant in the country",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-08T17:53:34+00:00",
-   "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Amazon is funding construction of a new gas-burning power plant in Pecos County, Texas to supply a West Texas data center, and the plant could rank among the largest single producers of greenhouse gases in the United States.",
-   "whyMatters": [
-    "Raises urgent questions about the environmental cost of scaling AI infrastructure and data centers",
-    "Policy-relevant for discussions about corporate accountability and whether energy intensity of AI systems should factor into regulatory or ethical frameworks"
    ]
   },
   {
@@ -287,6 +284,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a shift in artist transparency around AI-generated music, moving from denial to acknowledgment",
     "Raises ongoing questions about attribution, artistry, and commercial music production in the AI era"
+   ]
+  },
+  {
+   "title": "AI detectors are creating a new era of distrust",
+   "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-07T19:23:17+00:00",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI writing detectors are generating widespread distrust in educational and professional settings by flagging human-written work as AI-generated and vice versa, creating a new layer of suspicion around authorship verification.",
+   "whyMatters": [
+    "Directly impacts educators who rely on these tools to assess student work authenticity, creating friction in classrooms and raising questions about fair evaluation",
+    "Undermines institutional trust when detection tools produce false positives, potentially harming legitimate writers and prompting administrators to question their detection strategies"
    ]
   },
   {
@@ -909,24 +924,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises questions about the relationship between corporate political contributions and federal infrastructure deals",
     "Draws regulatory scrutiny to data center expansion deals and government decision-making"
-   ]
-  },
-  {
-   "title": "The left and right agree on one thing: no data centers",
-   "link": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-06T14:18:27+00:00",
-   "summary": "Today, I’m talking with Gaby Del Valle, a policy reporter here at The Verge, about the growing backlash against AI data centers. Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a yearlong moratorium on data center construction. She attended a protest there organized by a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Communities across the US, including Hernando County, Florida, are mounting bipartisan opposition to AI data center construction, with some counties imposing moratoria on new projects.",
-   "whyMatters": [
-    "Reflects growing local resistance to infrastructure demands of AI expansion",
-    "Shows unusual left-right alignment on environmental and resource concerns around AI development"
    ]
   },
   {
