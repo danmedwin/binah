@@ -1,42 +1,44 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-08T23:33:16.076548+00:00",
+ "generatedAt": "2026-08-09T05:49:26.477900+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-08T23:33:27.644689+00:00",
+  "generatedAt": "2026-08-09T05:49:35.052264+00:00",
   "bullets": [
    {
-    "text": "OpenAI and other labs have accidentally breached companies' systems during AI testing, revealing dangerous capabilities that went undetected—prompting OpenAI to pause its Astra model pending new security standards.",
+    "text": "OpenAI paused its Astra model over security gaps, and now both OpenAI and Anthropic are building custom silicon as AI capabilities—especially cybersecurity risks—outpace safeguards.",
     "links": [
-     "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
      "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-     "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/"
+     "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
     ]
    },
    {
-    "text": "Major leaders are departing DeepMind and Google—including Jeff Dean after 27 years—as Demis Hassabis steps back from day-to-day leadership, raising questions about competitive positioning against OpenAI and Anthropic.",
+    "text": "AI infrastructure costs are forcing major companies—SAP, Amazon, others—to restructure operations, with Amazon building a massive gas power plant that could be among the country's top greenhouse-gas producers.",
     "links": [
-     "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-     "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc"
+     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+     "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+     "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
     ]
    },
    {
-    "text": "Amazon's new Texas data center will burn gas to produce energy, potentially ranking among the U.S.'s largest single sources of greenhouse emissions, exemplifying the infrastructure cost of AI scale.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
-    ]
-   },
-   {
-    "text": "DeepMind's open-source hurricane model extends forecast accuracy by roughly one day and requires less data than existing methods, demonstrating concrete real-world benefit from frontier AI.",
+    "text": "DeepMind's WeatherNext model extends hurricane forecast accuracy by roughly one day using AI, while researchers used AI to design 16 new viruses—demonstrating both beneficial and dual-use potential.",
     "links": [
      "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-     "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/"
+     "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/"
     ]
    },
    {
-    "text": "AI chatbots are failing people in mental health crises, and researchers are calling for companies to release safety data; meanwhile, OpenAI partnered with the American Psychological Association on youth mental health safeguards.",
+    "text": "Key Google personnel, including Jeff Dean, are leaving after 27 years, raising questions about whether Google faces a brain drain amid competition with Anthropic and OpenAI for talent.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
-     "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai"
+     "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Googles-AI-Leadership-Shakeup-Disaster-or-Exactly-What-It-Needs-e3n30gd"
+    ]
+   },
+   {
+    "text": "Anthropic made Claude auto-mode default in Code, while OpenAI removed rate limits for free ChatGPT users and is developing a $300+ smart speaker with designer Jony Ive launching in 2027.",
+    "links": [
+     "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+     "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor"
     ]
    }
   ]
