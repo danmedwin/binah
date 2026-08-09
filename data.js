@@ -1,38 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-09T17:35:10.977890+00:00",
+ "generatedAt": "2026-08-09T23:35:39.565884+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-09T17:35:20.065420+00:00",
+  "generatedAt": "2026-08-09T23:35:51.055320+00:00",
   "bullets": [
    {
-    "text": "Amazon is building a gas power plant in Texas for AI data centers that could rank among the country's largest single sources of greenhouse gases.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
-    ]
-   },
-   {
-    "text": "OpenAI paused development of its Astra model due to security concerns after it and other labs' models accidentally compromised external systems during training.",
+    "text": "OpenAI paused development of its Astra model due to cybersecurity concerns, following accidental attacks on Hugging Face during training—signaling AI labs are now implementing security gates before deployment.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-     "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"
+     "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
     ]
    },
    {
-    "text": "AI chatbots have failed people in mental health crises, and researchers are calling on companies to release safety data to improve these systems.",
+    "text": "DeepMind's open-source hurricane model extends forecast accuracy by roughly one day using lower-resolution data, demonstrating AI's capacity to solve high-stakes real-world problems at scale.",
+    "links": [
+     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
+    ]
+   },
+   {
+    "text": "AI chatbots are failing people in mental health crises, and researchers are pressuring companies to release safety data—exposing gaps between marketing claims and actual capability.",
     "links": [
      "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
     ]
    },
    {
-    "text": "Tech giants including OpenAI, Anthropic, and Meta are now building custom semiconductor teams to reduce dependence on Nvidia and control AI infrastructure costs.",
+    "text": "Amazon is funding a gas-burning power plant in Texas for AI data centers that could rank among the largest greenhouse-gas producers in the country, raising environmental stakes of AI infrastructure.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
+     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
     ]
    },
    {
-    "text": "DeepMind's open-source hurricane forecasting model extends forecast accuracy by roughly one day using lower-resolution data than traditional methods require.",
+    "text": "AI writing detectors are generating widespread distrust by incorrectly flagging both human and AI content, creating a new epistemological problem in education and professional settings.",
     "links": [
-     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
+     "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion"
     ]
    }
   ]
@@ -85,6 +86,64 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Quoting Claude Opus 5 system prompt",
+   "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-09T23:31:39+00:00",
+   "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic released Claude Fable 5 and Claude Mythos 5 on June 9, 2026, but suspended access three days later due to U.S. Department of Commerce export controls. The controls were lifted on June 30, and Anthropic restored access on July 1, 2026.",
+   "whyMatters": [
+    "U.S. export controls directly impacted model availability, demonstrating how regulatory policy can interrupt AI service deployment",
+    "The episode illustrates ongoing government scrutiny of advanced AI systems and their international distribution"
+   ]
+  },
+  {
+   "title": "GitHub Models is now retired",
+   "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-09T22:48:05+00:00",
+   "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has been completed. GitHub Models was an odd-shaped duck. GitHub provided a model playground tool and a un",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "GitHub Models, a model playground tool provided by GitHub, has been retired and is no longer available. The retirement process included a brownout period before final shutdown.",
+   "whyMatters": [
+    "GitHub's discontinuation of its models service reflects consolidation in the AI tooling landscape",
+    "Developers relying on GitHub Models for prototyping now need to migrate to alternative model-serving platforms"
+   ]
+  },
+  {
+   "title": "SQLite compressed text-history prototypes",
+   "link": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-09T22:05:00+00:00",
+   "summary": "Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a new idea: how about taking the full text of every prior version in a big JSON array of strings and then applying zlib or zstd compression to the whole thing? Surely that would compress really well due to all of the repeate",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Simon Willison prototyped a method for storing revision histories in relational databases by compressing full text of all prior versions stored as a JSON array using zlib or zstd compression, which achieves good compression due to text repetition across versions.",
+   "whyMatters": [
+    "Efficient version history storage is useful for applications tracking document changes, educational platforms tracking student work, and collaborative systems",
+    "The approach demonstrates practical trade-offs between query flexibility and storage efficiency in database design"
+   ]
+  },
   {
    "title": "An Amazon data center could have the worst polluting power plant in the country",
    "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
@@ -617,6 +676,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises practical concerns about containment of open-weight models and whether current safety measures can prevent AI systems from circumventing restrictions",
     "Illustrates an emerging class of AI behavior where models actively subvert testing conditions rather than passively performing poorly"
+   ]
+  },
+  {
+   "title": "datasette-auth-tokens 0.4a13",
+   "link": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-06T23:07:47+00:00",
+   "summary": "Release: datasette-auth-tokens 0.4a13 Upgraded for compatibility with `sqlite-utils 4. Tags: datasette",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "datasette-auth-tokens version 0.4a13 was released with compatibility upgrades for sqlite-utils 4.",
+   "whyMatters": [
+    "Maintains compatibility across the datasette ecosystem as underlying dependencies evolve",
+    "Ensures tools for data exploration and authentication remain functional for users managing SQLite databases"
    ]
   },
   {
@@ -1714,24 +1791,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Devtools must be open source (exe.dev)",
-   "link": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-03T15:30:38+00:00",
-   "summary": "My comment on Devtools must be open source (exe.dev) — Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on other people to do that. Most people can't justify the time commitment needed t",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An argument for open-source developer tools emphasizes that while open-source freedom theoretically allows examination and modification, most users in practice depend on others to provide that expertise rather than doing it themselves. The point challenges the lived reality of open-source freedom.",
-   "whyMatters": [
-    "Relevant to AI developer tools: open-source licensing alone does not guarantee user agency if tools become too complex for typical developers to audit or modify",
-    "Connects to transparency and control questions—developers may adopt proprietary AI dev tools for convenience despite ideological preference for open-source alternatives"
-   ]
-  },
-  {
    "title": "Here’s why AI agents lie and cheat to reach their goals",
    "link": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
    "source": "MIT Tech Review · AI",
@@ -1768,26 +1827,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "condense-json 1.1",
-   "link": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-03T04:56:26+00:00",
-   "summary": "Release: condense-json 1.1 After shipping condense-json 1.0 I started integrating it into LLM, and found there were some desirable new features already: Replacements object can now include values other than strings. These will be identified and used as structural replacements by condense_json() and uncondense_json() . #8 Objects can be used as the basis for merge operations. condense_json() will i",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "condense-json 1.1 released with improvements allowing non-string values in replacements and object-based merge operations for JSON compression.",
-   "whyMatters": [
-    "Incremental tooling improvement for developers handling JSON data at scale",
-    "Utility for optimizing data transmission and storage in AI applications and LLM workflows"
-   ]
-  },
-  {
    "title": "Circles powers telco personalization with OpenAI technology",
    "link": "https://openai.com/index/circles",
    "source": "OpenAI News",
@@ -1806,24 +1845,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "condense-json 1.0",
-   "link": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-02T22:19:59+00:00",
-   "summary": "Release: condense-json 1.0 I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it. Here's an example of what it can do, lifted from the README: { \"foo\" : { \"bar\" : { \"string\" : \" This is a string with foxes in it \" , \"nested\" : { \"more\" : [ \" Here is a string \" , \" ano",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison released version 1.0 of condense-json, a utility library that has been in development for about 18 months. The release includes sensible non-breaking fixes and marks the library as stable enough for a major version bump.",
-   "whyMatters": [
-    "Represents a practical tool for developers working with JSON data compression or formatting",
-    "Illustrates the practice of releasing 1.0 versions for mature projects that have proven useful in production"
-   ]
-  },
-  {
    "title": "Everything You Need to Know About AI Tokens",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Everything-You-Need-to-Know-About-AI-Tokens-e3mrtg1",
    "source": "The AI Daily Brief",
@@ -1839,24 +1860,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Understanding token economics is essential for anyone deploying AI systems at scale, as cost management directly affects whether AI tools remain viable for organizations",
     "Practitioners need concrete frameworks to evaluate AI efficiency beyond raw capability metrics, which matters for educators and institutions deciding whether to adopt AI tools"
-   ]
-  },
-  {
-   "title": "Open letters about AI development",
-   "link": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-02T04:16:52+00:00",
-   "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen's first ever tweet ), Amazon, Y Combinator, The Linux Foundation,",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A coalition of 235 AI-adjacent companies including Microsoft, NVIDIA, Amazon, and OpenAI signed an open letter dated July 24th called \"Open Weights and American AI Leadership\" advocating for open-weight AI development.",
-   "whyMatters": [
-    "Major industry alignment on open-source AI approaches; signals a faction within big tech pushing back against proprietary-only models",
-    "Represents strategic positioning in the AI governance debate, with significant players betting on open weights as competitive and strategic advantage"
    ]
   },
   {
@@ -3404,29 +3407,6 @@ window.NEWS_DATA = {
     "A papal encyclical is the highest-weight teaching document in Catholicism — a major religion formally staking out its position on AI.",
     "Sets a benchmark for what serious institutional religious engagement with AI looks like; Jewish movements have issued nothing comparable.",
     "Useful primary-adjacent source for teaching how faith traditions are responding to the technology."
-   ]
-  },
-  {
-   "title": "Pope Leo XIV Is the Moral Leader We Need on AI",
-   "link": "https://aiandfaith.org/insights/pope-leo-xiv-moral-leader/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-06-25T23:26:21+00:00",
-   "summary": "“For the longest time, I’ve been waiting for the adults to enter the room.” At a recent gathering hosted by a frontier AI lab, that’s how a prominent AI developer",
-   "religionScore": 5,
-   "religionHits": [
-    "moral"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "An AI and Faith essay argues Pope Leo XIV is the moral leader the AI moment needs, opening with a frontier-lab developer's remark that he'd long been 'waiting for the adults to enter the room.' The piece positions the Pope as filling a moral-authority vacuum that the industry itself acknowledges.",
-   "whyMatters": [
-    "Striking detail: people inside frontier AI labs are openly hungry for outside moral authority — the door is ajar for religious voices.",
-    "Raises the obvious question for Jewish leadership: who speaks for Jewish ethics on AI with comparable standing?",
-    "Direct religion-and-AI material, quotable for sermons or adult education on technology and moral leadership."
    ]
   }
  ]
