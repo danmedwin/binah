@@ -1,90 +1,109 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-09T05:49:26.477900+00:00",
+ "generatedAt": "2026-08-09T10:08:58.522109+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-09T05:49:35.052264+00:00",
+  "generatedAt": "2026-08-09T10:09:11.087719+00:00",
   "bullets": [
    {
-    "text": "OpenAI paused its Astra model over security gaps, and now both OpenAI and Anthropic are building custom silicon as AI capabilities—especially cybersecurity risks—outpace safeguards.",
+    "text": "Amazon is funding a gas power plant in Texas that could become the country's largest single source of greenhouse gases, raising concerns about data center environmental costs amid rapid AI infrastructure expansion.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+    ]
+   },
+   {
+    "text": "Anthropic, OpenAI, and other labs are building custom silicon teams to reduce dependence on Nvidia and control AI infrastructure costs, a competitive arms race reshaping hardware and scaling economics.",
+    "links": [
      "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+     "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/"
     ]
    },
    {
-    "text": "AI infrastructure costs are forcing major companies—SAP, Amazon, others—to restructure operations, with Amazon building a massive gas power plant that could be among the country's top greenhouse-gas producers.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
-     "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
-     "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
-    ]
-   },
-   {
-    "text": "DeepMind's WeatherNext model extends hurricane forecast accuracy by roughly one day using AI, while researchers used AI to design 16 new viruses—demonstrating both beneficial and dual-use potential.",
+    "text": "DeepMind's WeatherNext AI model extends hurricane forecast accuracy by approximately one day using lower-resolution data, demonstrating practical AI value in public safety and climate forecasting.",
     "links": [
      "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-     "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/"
+     "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/"
     ]
    },
    {
-    "text": "Key Google personnel, including Jeff Dean, are leaving after 27 years, raising questions about whether Google faces a brain drain amid competition with Anthropic and OpenAI for talent.",
+    "text": "AI chatbots demonstrably fail people in mental health crises; clinicians and researchers are calling on companies to release safety data to improve crisis support systems.",
     "links": [
-     "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Googles-AI-Leadership-Shakeup-Disaster-or-Exactly-What-It-Needs-e3n30gd"
+     "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
     ]
    },
    {
-    "text": "Anthropic made Claude auto-mode default in Code, while OpenAI removed rate limits for free ChatGPT users and is developing a $300+ smart speaker with designer Jony Ive launching in 2027.",
+    "text": "Anthropic is making autonomous code completion the default in Claude Code, shifting user expectations toward AI-driven task completion without human approval at each step.",
     "links": [
-     "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
-     "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor"
+     "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-08T10:06:03.328103+00:00",
+  "generatedAt": "2026-08-09T10:09:11.087719+00:00",
   "bullets": [
    {
-    "text": "OpenAI paused development of its Astra model due to unmet security standards, publicly establishing cybersecurity evaluation criteria for frontier AI systems after recent incidents exposed autonomous hacking capabilities.",
+    "text": "Amazon is funding a gas power plant in Texas that could become the country's largest single source of greenhouse gases, raising concerns about data center environmental costs amid rapid AI infrastructure expansion.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
     ]
    },
    {
-    "text": "ByteDance is training a 10-trillion-parameter AI model to compete with Anthropic and OpenAI, signaling continued aggressive scaling investment despite rising costs forcing layoffs and hiring freezes at SAP and other enterprises.",
+    "text": "Anthropic, OpenAI, and other labs are building custom silicon teams to reduce dependence on Nvidia and control AI infrastructure costs, a competitive arms race reshaping hardware and scaling economics.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
-     "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/"
+     "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+     "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/"
     ]
    },
    {
-    "text": "Google is consolidating its conversational AI by discontinuing Google Assistant voice control on phones September 4 and replacing it entirely with Gemini, a major product shift reshaping the mobile AI interface landscape.",
+    "text": "DeepMind's WeatherNext AI model extends hurricane forecast accuracy by approximately one day using lower-resolution data, demonstrating practical AI value in public safety and climate forecasting.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/"
+     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+     "https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/"
     ]
    },
    {
-    "text": "Researchers used AI genome models to design 16 previously unknown viruses with potential to fight antibiotic resistance, raising questions about whether safety mechanisms can keep pace with rapid AI capability deployment in biology.",
+    "text": "AI chatbots demonstrably fail people in mental health crises; clinicians and researchers are calling on companies to release safety data to improve crisis support systems.",
     "links": [
-     "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-     "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/"
+     "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
+    ]
+   },
+   {
+    "text": "Anthropic is making autonomous code completion the default in Claude Code, shifting user expectations toward AI-driven task completion without human approval at each step.",
+    "links": [
+     "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-08-08T10:05:57.367518+00:00",
+  "updatedAt": "2026-08-09T10:09:04.847453+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and religious/moral perspectives on technology",
-   "Drawn to stories about major tech companies (Apple, Google/Waze) and their AI initiatives",
-   "Wants substantive analysis and real-world impact, not technical release notes or niche tool updates"
+   "Interested in AI's intersection with ethics, morality, and religious/philosophical leadership",
+   "Appreciates substantive analysis of how AI development translates to real products and technological legacy",
+   "Prefers consumer-facing AI applications and established tech companies over niche developer tools",
+   "Less interested in technical release notes and implementation details without broader context"
   ]
  },
  "items": [
+  {
+   "title": "These AI Barons Are Ready to Give Away Their Fortunes",
+   "link": "https://www.wired.com/story/ai-billionaires-are-pledging-their-wealth-good-or-bad/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-09T09:30:00+00:00",
+   "summary": "A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise?",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI industry billionaires are publicly pledging to donate large portions of their wealth to philanthropy. The article examines what these pledges mean and raises questions about the credibility and impact of such commitments from tech's newest fortunes.",
+   "whyMatters": [
+    "Sets expectations for how AI wealth might be deployed—relevant to educators and communities considering where resources for AI ethics and responsible development come from",
+    "Raises accountability questions about philanthropic pledges in tech, touching on governance and trust in how industry leaders shape their own influence"
+   ]
+  },
   {
    "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
    "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
@@ -1211,24 +1230,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows rapid advancement in AI's ability to convert design concepts directly into executable applications",
     "Demonstrates practical productivity gains for developers and creators"
-   ]
-  },
-  {
-   "title": "The Most Dangerous AI Hacking Techniques Still Have Humans in the Loop",
-   "link": "https://www.wired.com/story/the-most-dangerous-ai-hacking-techniques-still-have-human-input/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-05T19:42:12+00:00",
-   "summary": "Security researcher James Kettle tried to push the limit of AI’s hacking abilities—and discovered how effective it can be when combined with human expertise.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Security researcher James Kettle found that AI hacking capabilities become most dangerous when combined with human expertise and guidance, rather than operating autonomously.",
-   "whyMatters": [
-    "Suggests hybrid human-AI attacks may pose greater risk than purely autonomous AI threats",
-    "Informs threat modeling and defense priorities for security professionals"
    ]
   },
   {
@@ -3446,25 +3447,6 @@ window.NEWS_DATA = {
     "Goes to the heart of religious education: if care is learned only through lived experience, AI shortcuts in formation carry a real cost.",
     "The encyclical's examples — reading to children, offering presence — map directly onto family education and pastoral work.",
     "Resonates with Jewish ideas about mitzvot as embodied practice rather than downloadable knowledge."
-   ]
-  },
-  {
-   "title": "AIUC-1: Building trust in AI agents",
-   "link": "https://share.transistor.fm/s/e039d1ca",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-06-25T09:00:00+00:00",
-   "summary": "How do we build trust in AI agents before the AI hailstorm arrives? Emil Lassen from the Artificial Intelligence Underwriting Company (AIUC) joins the show to discuss how the enterprise flywheel of standards, certification, audit, and insurance is being applied to AI agents. They explore the AIUC-1 framework, the challenges of securing agentic AI systems, and why red teaming (based on standards) m",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/e039d1ca/db5071bc.mp3",
-   "image": "https://img.transistorcdn.com/89G25P83HZOemN0dpGiJ0ofsle6f0bOdMWHjVS7LB_Q/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wODZl/ZTNmNTE4ODVjMTc4/YTE2MGJhYjQ1M2Fk/ZTAzNC5wbmc.jpg",
-   "themes": [],
-   "aiSummary": "Emil Lassen of the Artificial Intelligence Underwriting Company discusses AIUC-1, a framework applying the enterprise trust flywheel — standards, certification, audit, and insurance — to AI agents. The conversation covers the challenges of securing agentic systems and why standards-based red teaming matters.",
-   "whyMatters": [
-    "Insurance entering AI is a big signal: when underwriters price agent risk, trust stops being a vibe and becomes a market.",
-    "Certification and audit regimes could eventually tell nonprofits which AI tools are safe enough to deploy — like a kashrut supervision model for software.",
-    "Agent security is the practical bottleneck for anyone considering giving AI real authority over tasks."
    ]
   }
  ]
