@@ -1,37 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-10T17:53:40.154833+00:00",
+ "generatedAt": "2026-08-10T23:39:18.849884+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-10T17:53:56.878986+00:00",
+  "generatedAt": "2026-08-10T23:39:38.274102+00:00",
   "bullets": [
    {
-    "text": "Amazon is constructing a gas-burning power plant in Texas to fuel AI data centers, potentially becoming one of the nation's largest single greenhouse-gas producers.",
+    "text": "Amazon is building a massive natural gas power plant for AI data centers that could become the largest single source of US industrial climate pollution, contradicting its climate pledges.",
     "links": [
+     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
      "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
     ]
    },
    {
-    "text": "Academic peer review faces collapse as AI-assisted research submissions overwhelm volunteer reviewers faster than the system can absorb, threatening quality control.",
+    "text": "Academic peer review is collapsing under AI-driven paper volume while private companies control frontier AI capabilities, forcing researchers to negotiate new realities with industry.",
     "links": [
-     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
+     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+     "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/"
     ]
    },
    {
-    "text": "Platforms are implementing tools to label and filter AI-generated low-quality content in response to user backlash, effectively restoring human curation standards.",
-    "links": [
-     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
-    ]
-   },
-   {
-    "text": "Robotics companies including Knightscope are abandoning automated security robot deployments and returning to human guards after real-world contract failures.",
-    "links": [
-     "https://www.404media.co/the-roboguard-revolution-is-short-circuiting/"
-    ]
-   },
-   {
-    "text": "DeepMind's open-source hurricane forecasting model extends prediction accuracy by roughly one day using lower-resolution weather data than traditional methods require.",
+    "text": "DeepMind's open-source hurricane forecasting model extends forecast accuracy by one day using lower-resolution data, demonstrating concrete AI gains in scientific prediction.",
     "links": [
      "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
+    ]
+   },
+   {
+    "text": "Meta is launching open-source AI models as its latest strategic pivot to compete, while Zuckerberg published a 6,500-word manifesto on superintelligent AI coexistence.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
+     "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble"
+    ]
+   },
+   {
+    "text": "Pushback against AI-generated low-quality content is forcing platforms to implement labeling and filtering tools, showing consumer demand reshaping platform policies.",
+    "links": [
+     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
     ]
    }
   ]
@@ -84,6 +87,118 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Mark Zuckerberg doesn’t understand how to live",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-10T22:47:01+00:00",
+   "summary": "Recently, a man I was rock climbing with told me about how he'd used AI to make a motivational poster for himself, which he'd hung on his bedroom wall: a bear, walking a slackline over a canyon, holding a sign that said, \"Do cool shit.\" I made what I hoped was a polite noise. What […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Verge publishes a critical piece on Mark Zuckerberg's recent statements about AI and vision, framed through a personal anecdote about AI-generated motivational imagery. The article suggests Zuckerberg's philosophy lacks depth or grounding in how people actually live.",
+   "whyMatters": [
+    "Critiques the gap between techno-optimist AI rhetoric and practical human values, relevant to discussions of AI's proper role in society",
+    "Questions whether AI-generated inspirational content serves genuine human flourishing—a concern at the intersection of AI deployment and education/meaning-making"
+   ]
+  },
+  {
+   "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+   "link": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-10T22:13:03+00:00",
+   "summary": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta is launching new open-source AI models as part of a strategic pivot, attempting to compete with rivals who have taken the lead in the AI race. Zuckerberg is betting that openness can differentiate Meta's position.",
+   "whyMatters": [
+    "Open-weight models shift competitive dynamics—affects which organizations control AI capabilities and how they're distributed",
+    "If successful, could influence how universities and researchers access frontier AI tools for education and study"
+   ]
+  },
+  {
+   "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
+   "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-10T22:10:06+00:00",
+   "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
+   "religionScore": 1,
+   "religionHits": [
+    "belief"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Mark Zuckerberg published a 6,500-word essay outlining his vision for humanity's future coexisting with superintelligent AI systems, addressing broad themes about AI's role in society.",
+   "whyMatters": [
+    "Major tech leader articulating long-term AI philosophy and governance vision",
+    "Meta's public positioning on AI safety and societal integration matters to industry direction"
+   ]
+  },
+  {
+   "title": "What the Heck is Graph Engineering?",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Heck-is-Graph-Engineering-e3n80cn",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-08-10T21:10:55+00:00",
+   "summary": "Graph engineering is AI’s latest buzzy term—but it offers a useful framework for organizing agents, tools, knowledge and humans into working systems. NLW explains the evolution from prompts to graphs. In the headlines: OpenAI delays Astra, ByteDance trains a massive model, open-weight AI tests revenue sharing and Claude Code embraces Auto Mode. AIDB's AI Summer Adventure: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://summ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124043095/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-10%2F429594264-44100-2-ed4318aa908a2.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Graph engineering is explained as a framework for organizing AI agents, tools, knowledge, and humans into coordinated systems—an evolution from earlier prompt-based approaches. The piece covers the conceptual arc and current industry developments.",
+   "whyMatters": [
+    "Represents a shift in how AI systems are architected, moving toward more structured, orchestrated multi-component systems rather than single-model approaches",
+    "Has implications for educators building AI-assisted systems and for understanding how AI can integrate human judgment into workflows"
+   ]
+  },
+  {
+   "title": "Amazon backs power plant that may become top source of US climate pollution",
+   "link": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-10T20:45:52+00:00",
+   "summary": "Amazon announces first off-the-grid data center in race to reap AI profits.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Amazon is building or funding a major natural gas power plant to supply its data centers for AI workloads, contradicting its earlier climate commitments. The plant may become the largest single source of industrial climate pollution in the US.",
+   "whyMatters": [
+    "Exposes the massive energy cost of AI scaling, forcing hard tradeoffs between AI development and environmental sustainability",
+    "Raises ethical questions about whose values prevail when AI ambitions conflict with public climate pledges—relevant to organizational accountability and the common good"
+   ]
+  },
+  {
+   "title": "AI professors are negotiating the new realities of academic research",
+   "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-10T20:00:00+00:00",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising, AI…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI researchers and academics are grappling with how to conduct research in an era when frontier AI capabilities are controlled by private companies, reshaping what academic inquiry looks like. The piece documents their negotiations with these new constraints.",
+   "whyMatters": [
+    "Directly impacts AI education and research autonomy—universities and educators must now navigate dependencies on corporate AI systems",
+    "Raises questions about who controls the tools for advancing knowledge and whether academic independence in AI research remains viable"
+   ]
+  },
+  {
    "title": "What building an AI-native finance function taught me",
    "link": "https://openai.com/index/building-an-ai-native-finance-function",
    "source": "OpenAI News",
@@ -117,26 +232,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows how established consumer hardware brands are repositioning around AI capabilities",
     "Relevant to understanding how AI shifts competitive advantages in mature markets"
-   ]
-  },
-  {
-   "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
-   "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-10T15:40:12+00:00",
-   "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
-   "religionScore": 1,
-   "religionHits": [
-    "belief"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Mark Zuckerberg published a 6,500-word essay outlining his vision for humanity's future coexisting with superintelligent AI systems, addressing broad themes about AI's role in society.",
-   "whyMatters": [
-    "Major tech leader articulating long-term AI philosophy and governance vision",
-    "Meta's public positioning on AI safety and societal integration matters to industry direction"
    ]
   },
   {
@@ -290,6 +385,21 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+   "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T10:00:00+00:00",
+   "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Putting frontier cyber models in more trusted hands",
    "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
    "source": "OpenAI News",
@@ -381,6 +491,42 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Tiered pricing strategy emerging as usage patterns clarify business model",
     "Indicates demand stratification: some users hit usage ceilings and need premium access"
+   ]
+  },
+  {
+   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+   "link": "https://openai.com/index/zapier",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T00:00:00+00:00",
+   "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Zapier's marketing team used ChatGPT Work to reduce lead funnel dropoff, generate campaign assets, and automate reporting. The case study demonstrates practical enterprise adoption of AI for marketing workflows.",
+   "whyMatters": [
+    "Shows concrete productivity gains in marketing operations, establishing business case for AI investment in enterprise settings",
+    "Illustrates how AI tools are reshaping white-collar work practices—relevant to understanding labor impact and skills needed in next-generation organizations"
+   ]
+  },
+  {
+   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+   "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T00:00:00+00:00",
+   "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Virgin Atlantic is using ChatGPT Work to accelerate research, product planning, and decision-making by connecting customer journey signals across teams. The deployment spans multiple business functions.",
+   "whyMatters": [
+    "Demonstrates how enterprises are using AI to integrate insights across departments and speed decision cycles—reshaping organizational workflows",
+    "Shows AI adoption in customer-facing industries, raising questions about how these tools affect customer data handling and service quality"
    ]
   },
   {
@@ -1009,24 +1155,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Significant talent movement at a major AI organization signals potential internal instability or strategic restructuring at Google",
     "DeepMind leadership changes could affect research direction and the pace of AI breakthroughs from one of the field's most influential labs"
-   ]
-  },
-  {
-   "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-06T20:56:31+00:00",
-   "summary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is developing a battery-powered smart speaker with former Apple designer Jony Ive that is roughly hockey puck-sized, doughnut-shaped, and lacks a display. The device is expected to launch in 2027 and cost over $300.",
-   "whyMatters": [
-    "Signals OpenAI's expansion into hardware to distribute AI capabilities beyond software",
-    "Physical AI devices may shape how mainstream users interact with conversational AI and could establish new product categories"
    ]
   },
   {
@@ -1757,24 +1885,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Microsoft Tells Engineers ‘Tokenmaxxing Is Not What We Are Optimizing For’",
-   "link": "https://www.404media.co/microsoft-tells-engineers-tokenmaxxing-is-not-what-we-are-optimizing-for/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-04T16:17:16+00:00",
-   "summary": "Microsoft is introducing budget limits for AI use but says it still wants to be an ‘AI-first’ company.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Microsoft is implementing budget limits on internal AI use while maintaining its commitment to being an 'AI-first' company, signaling that the company is moving away from maximizing token consumption as a success metric.",
-   "whyMatters": [
-    "Indicates cost and resource constraints are now shaping how major AI companies operate internally",
-    "Suggests efficiency and sustainability concerns are becoming central to enterprise AI strategy, not just capability expansion"
-   ]
-  },
-  {
    "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
    "link": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
    "source": "Latent Space",
@@ -2031,24 +2141,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
-   "link": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-01T12:30:36+00:00",
-   "summary": "Reddit may still be considering ending its licensing deal with Google.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Reddit's CEO has expressed skepticism about the value of Google's AI Overviews feature, with the company potentially reconsidering its content licensing deal with Google as Reddit's stock price declines. The CEO indicated that Reddit is still seeking a mutually beneficial arrangement rather than the current arrangement.",
-   "whyMatters": [
-    "Content licensing deals between platforms and AI companies remain contentious and economically uncertain for both parties",
-    "Reddit's willingness to renegotiate reflects broader tensions in the AI industry over fair compensation for training data and content attribution"
-   ]
-  },
-  {
    "title": "[AINews] not much happened today",
    "link": "https://www.latent.space/p/ainews-not-much-happened-today-038",
    "source": "Latent Space",
@@ -2100,24 +2192,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Financial market turbulence and company valuations can diverge from actual operational metrics and customer demand in the AI sector",
     "Excessive leverage and speculative positioning, rather than fundamental business weakness, may be driving recent AI stock declines"
-   ]
-  },
-  {
-   "title": "Reddit keeps its strange DMCA fight over Google search results alive",
-   "link": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-07-31T21:19:39+00:00",
-   "summary": "Reddit advances lawsuit accusing Perplexity AI of conspiring with web scraper.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Reddit is continuing its DMCA lawsuit against Perplexity AI and an alleged web scraper collaborator, even after a related lawsuit involving Google showed legal vulnerabilities in such claims. The case centers on unauthorized scraping of Reddit content for AI training.",
-   "whyMatters": [
-    "Establishes ongoing IP disputes over content used for AI training, potentially affecting future data sourcing and legal precedent",
-    "Creates uncertainty around what data scrapers can legally use for AI model development"
    ]
   },
   {
@@ -2473,42 +2547,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-   "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-29T15:00:00+00:00",
-   "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI improved GPT-5.6's performance on the ARC-AGI-3 benchmark by tripling scores through two API settings that retained reasoning and enabled compaction.",
-   "whyMatters": [
-    "Shows gains on reasoning benchmarks via configuration rather than model retraining",
-    "Suggests frontier models have untapped capability unlocked through better prompting or inference techniques"
-   ]
-  },
-  {
-   "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-   "link": "https://openai.com/index/chatgpt-for-academic-researchers",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-29T10:00:00+00:00",
-   "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is providing 100,000 academic researchers with free access to its most advanced ChatGPT models to support scientific discovery and collaboration.",
-   "whyMatters": [
-    "Democratizes access to frontier AI tools for researchers who might otherwise lack resources",
-    "Directly impacts academic institutions and educators in how they can deploy AI for research and training"
-   ]
-  },
-  {
    "title": "The AI Hype Index: Unsexy AI",
    "link": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
    "source": "MIT Tech Review · AI",
@@ -2542,25 +2580,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals potential industry consensus on AI safety and development speed, which could influence policy discussions and set norms for responsible development",
     "May affect the tempo of capability releases and competitive timelines across leading labs"
-   ]
-  },
-  {
-   "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-   "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-29T00:00:00+00:00",
-   "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released GPT-5.6, a model designed to balance high performance with improved computational efficiency. The model achieves this across model architecture, inference processes, and agentic workflows, making advanced AI capabilities more cost-effective to deploy and run.",
-   "whyMatters": [
-    "Reduced inference costs make frontier AI models more accessible to smaller organizations, educators, and community institutions that previously couldn't afford cutting-edge systems",
-    "Efficiency gains affect the economics of AI deployment for religious organizations, schools, and non-profits considering AI tools for education, counseling, or administrative tasks",
-    "More efficient models mean faster response times and lower computational overhead, enabling real-time applications that were previously impractical"
    ]
   },
   {
@@ -2731,24 +2750,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights a key technical barrier to agentic AI: coordination between autonomous systems with different objectives",
     "Moving beyond this limitation would substantially change how AI systems solve complex, multi-domain problems in healthcare and other sectors"
-   ]
-  },
-  {
-   "title": "Closing the data loop in AI-driven drug discovery",
-   "link": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-27T11:40:16+00:00",
-   "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new drug to market takes an average of 10-15 years and costs…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An article on AI's role in drug discovery, which faces mounting cost pressures and long timelines—taking 10-15 years and billions to bring a new drug to market, with development costs roughly doubling every nine years since the 1950s.",
-   "whyMatters": [
-    "AI-driven discovery is positioned as a potential solution to unsustainable drug development economics",
-    "Improved AI integration in this domain could have direct impact on healthcare accessibility and patient outcomes"
    ]
   },
   {
@@ -3255,24 +3256,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly targets AI-in-education at scale, bringing generative AI support to underserved educator populations in India",
     "Demonstrates how large AI models can be localized for specific pedagogical contexts (robotics labs) and teacher needs"
-   ]
-  },
-  {
-   "title": "How to Help People Thrive with AI",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Help-People-Thrive-with-AI-e3lvj3p",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-07-12T10:47:12+00:00",
-   "summary": "AI can eliminate tedious work, but its real promise is helping people stretch their capabilities and pursue things that weren’t possible before. From the risk of “AI brain fry” to Uber’s agentic pods, NLW explores how organizations can turn productivity gains into human growth and entirely new forms of work. Brought to you by: KPMG – Research from KPMG and the University of Texas at Austin shows t",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122718777/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-12%2F427802521-44100-2-51652db76c0c6.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "This podcast episode argues that AI's value extends beyond automating tedious tasks—it should help people develop new capabilities and pursue work that was previously impossible. It discusses risks like \"AI brain fry\" and explores how organizations like Uber are structuring \"agentic pods\" to convert productivity gains into genuine human growth.",
-   "whyMatters": [
-    "Frames AI adoption around human flourishing rather than job displacement—relevant for educators and community leaders thinking about how to present AI to their communities",
-    "Addresses a concrete organizational challenge: converting efficiency into expanded capacity rather than just cost-cutting, which affects how institutions (including schools and nonprofits) should approach AI implementation"
    ]
   },
   {
