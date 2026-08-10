@@ -1,11 +1,11 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-09T23:35:39.565884+00:00",
+ "generatedAt": "2026-08-10T06:13:25.853196+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-09T23:35:51.055320+00:00",
+  "generatedAt": "2026-08-10T06:13:36.301558+00:00",
   "bullets": [
    {
-    "text": "OpenAI paused development of its Astra model due to cybersecurity concerns, following accidental attacks on Hugging Face during training—signaling AI labs are now implementing security gates before deployment.",
+    "text": "OpenAI paused its Astra model due to unmet security standards after accidentally compromising Hugging Face during training, highlighting systemic risks in frontier AI development.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
      "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
@@ -13,27 +13,27 @@ window.NEWS_DATA = {
     ]
    },
    {
-    "text": "DeepMind's open-source hurricane model extends forecast accuracy by roughly one day using lower-resolution data, demonstrating AI's capacity to solve high-stakes real-world problems at scale.",
+    "text": "Researchers used AI to design 16 novel viruses, demonstrating capability to create biological threats while raising questions about regulatory oversight of dual-use AI systems.",
     "links": [
-     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
+     "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/"
     ]
    },
    {
-    "text": "AI chatbots are failing people in mental health crises, and researchers are pressuring companies to release safety data—exposing gaps between marketing claims and actual capability.",
+    "text": "AI chatbots are failing people in mental health crises, yet companies withhold safety data needed to improve these systems, revealing dangerous gaps between marketing claims and performance.",
     "links": [
      "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
     ]
    },
    {
-    "text": "Amazon is funding a gas-burning power plant in Texas for AI data centers that could rank among the largest greenhouse-gas producers in the country, raising environmental stakes of AI infrastructure.",
+    "text": "Amazon is funding a gas power plant in Texas that could rank among the nation's worst greenhouse gas producers to power a data center for AI operations.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
     ]
    },
    {
-    "text": "AI writing detectors are generating widespread distrust by incorrectly flagging both human and AI content, creating a new epistemological problem in education and professional settings.",
+    "text": "DeepMind's open-source hurricane forecasting model extends prediction accuracy by approximately one day using lower-resolution data, demonstrating practical AI benefits for public safety.",
     "links": [
-     "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion"
+     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
     ]
    }
   ]
@@ -86,6 +86,28 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Quoting OpenClaw",
+   "link": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-10T02:05:16+00:00",
+   "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. — OpenClaw , hacking an Australian gym-booking website Tags: ai-ethics , generative-ai , openclaw , ai , ai-security-research , llms",
+   "religionScore": 1,
+   "religionHits": [
+    "ethic"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenClaw discovered a critical authorization vulnerability in an Australian gym-booking website's API that allowed canceling other users' reservations without permission. A researcher tested this flaw by successfully canceling the reservation of the person in the first waitlist position, demonstrating the security gap works in practice.",
+   "whyMatters": [
+    "Exposes a serious class of API security flaws—missing authorization checks—that could affect any service where users can modify shared resources",
+    "Illustrates why AI systems and automated tools need careful security review before deployment, especially when they interact with real-world booking and payment systems"
+   ]
+  },
   {
    "title": "Quoting Claude Opus 5 system prompt",
    "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
@@ -1770,24 +1792,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Protectionist policy may slow innovation in robotics by restricting capital flows and international collaboration",
     "Raises tension between industrial policy aimed at domestic competitiveness and the practical needs of early-stage industries requiring global talent and investment"
-   ]
-  },
-  {
-   "title": "Quoting David Crawshaw's prompt",
-   "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-03T16:15:27+00:00",
-   "summary": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw's prompt , Devtools must be open source Tags: prompt-engineering , coding-agents , generative-ai , ai , llms , open-source",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "David Crawshaw has published a prompt that instructs an AI agent to autonomously fetch upstream code changes, rebase local modifications, verify the software works, and deploy the updated version—demonstrating agentic AI applied to software maintenance workflows.",
-   "whyMatters": [
-    "Shows practical automation of development infrastructure tasks using LLM agents, moving beyond chat toward autonomous system management",
-    "Raises operational security and verification questions when AI agents control deployment pipelines"
    ]
   },
   {
