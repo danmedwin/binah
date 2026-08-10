@@ -1,39 +1,37 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-10T11:51:43.666041+00:00",
+ "generatedAt": "2026-08-10T17:53:40.154833+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-10T11:52:02.772106+00:00",
+  "generatedAt": "2026-08-10T17:53:56.878986+00:00",
   "bullets": [
    {
-    "text": "Amazon is funding a gas power plant in Texas that could rank among America's worst single greenhouse-gas polluters to power AI data centers, raising urgent climate questions.",
+    "text": "Amazon is constructing a gas-burning power plant in Texas to fuel AI data centers, potentially becoming one of the nation's largest single greenhouse-gas producers.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
     ]
    },
    {
-    "text": "AI-generated viruses and models with cyber-attack capabilities are forcing OpenAI and others to pause deployment until security standards catch up with capability growth.",
-    "links": [
-     "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-     "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
-    ]
-   },
-   {
-    "text": "Academic peer review is buckling under AI-assisted paper submissions faster than the volunteer reviewer system can handle, threatening research quality gatekeeping.",
+    "text": "Academic peer review faces collapse as AI-assisted research submissions overwhelm volunteer reviewers faster than the system can absorb, threatening quality control.",
     "links": [
      "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
     ]
    },
    {
-    "text": "AI chatbots marketed for mental health support have demonstrably failed people in crisis, with clinicians demanding companies release safety data.",
+    "text": "Platforms are implementing tools to label and filter AI-generated low-quality content in response to user backlash, effectively restoring human curation standards.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/"
+     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
     ]
    },
    {
-    "text": "Platforms are deploying detection tools to flag and filter AI-generated low-quality content in response to user backlash against 'AI slop.'",
+    "text": "Robotics companies including Knightscope are abandoning automated security robot deployments and returning to human guards after real-world contract failures.",
     "links": [
-     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
+     "https://www.404media.co/the-roboguard-revolution-is-short-circuiting/"
+    ]
+   },
+   {
+    "text": "DeepMind's open-source hurricane forecasting model extends prediction accuracy by roughly one day using lower-resolution weather data than traditional methods require.",
+    "links": [
+     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
     ]
    }
   ]
@@ -85,6 +83,138 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "What building an AI-native finance function taught me",
+   "link": "https://openai.com/index/building-an-ai-native-finance-function",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T17:00:00+00:00",
+   "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI CFO Sarah Friar shares lessons from integrating AI into OpenAI's own finance operations, covering areas like automated forecasting, enhanced controls, and measuring AI's return on investment.",
+   "whyMatters": [
+    "Practical case study for how enterprise finance teams can adopt AI at scale",
+    "Illustrates real-world tradeoffs between automation and oversight that other organizations will face"
+   ]
+  },
+  {
+   "title": "What happens to Bose when headphones become AI?",
+   "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-10T16:27:33+00:00",
+   "summary": "Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Bose CEO Lila Snyder discusses the company's strategy as AI transforms wearable audio devices, touching on product licensing and the future of the audio business in an AI-driven landscape.",
+   "whyMatters": [
+    "Shows how established consumer hardware brands are repositioning around AI capabilities",
+    "Relevant to understanding how AI shifts competitive advantages in mature markets"
+   ]
+  },
+  {
+   "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
+   "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-10T15:40:12+00:00",
+   "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy manifesto Zuckerberg published on Monday, titled \"The Future is for Everyone,\" broadly lays out his beliefs about how the […]",
+   "religionScore": 1,
+   "religionHits": [
+    "belief"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Mark Zuckerberg published a 6,500-word essay outlining his vision for humanity's future coexisting with superintelligent AI systems, addressing broad themes about AI's role in society.",
+   "whyMatters": [
+    "Major tech leader articulating long-term AI philosophy and governance vision",
+    "Meta's public positioning on AI safety and societal integration matters to industry direction"
+   ]
+  },
+  {
+   "title": "Mark Zuckerberg Posts Deranged 6,500-Word Essay About Giving Everyone AI Superintelligence",
+   "link": "https://www.404media.co/mark-zuckerberg-posts-deranged-6-500-word-essay-about-giving-everyone-ai-superintelligence/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-10T14:13:30+00:00",
+   "summary": "\"The future is for everyone,\" Zuckerberg says, describing future that is primarily good for Meta.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Critical take on Zuckerberg's AI manifesto, questioning the framing that described future benefits while critics argue the vision primarily serves Meta's interests.",
+   "whyMatters": [
+    "Highlights tension between utopian AI rhetoric and corporate incentive structures",
+    "Relevant to skepticism about whose interests are centered in AI deployment visions"
+   ]
+  },
+  {
+   "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+   "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T14:00:00+00:00",
+   "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenAI sent a letter to Texas Governor Greg Abbott committing to responsible AI infrastructure development in the state, emphasizing transparency and local benefits.",
+   "whyMatters": [
+    "State-level AI policy engagement becoming standard for frontier AI companies",
+    "Texas positioning itself as AI hub; OpenAI's commitment signals capital and infrastructure plans"
+   ]
+  },
+  {
+   "title": "The Roboguard Revolution is Short-Circuiting",
+   "link": "https://www.404media.co/the-roboguard-revolution-is-short-circuiting/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-10T13:00:43+00:00",
+   "summary": "Knightscope and other robotics companies are rethinking automated security following canceled contracts. One pivot? Human guards.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Robotics companies including Knightscope are canceling automated security robot deployments and returning to human security guards after real-world contracts failed.",
+   "whyMatters": [
+    "Demonstrates gap between AI/robotics hype and practical deployment success",
+    "Security organizations finding human judgment still essential; cautionary tale for autonomous systems in high-stakes domains"
+   ]
+  },
+  {
+   "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+   "link": "https://openai.com/index/model-ml",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T12:00:00+00:00",
+   "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Finance firm Model ML uses OpenAI's GPT-5.6 Sol model to automate financial analysis and generate editable, traceable PowerPoint and Excel outputs.",
+   "whyMatters": [
+    "Example of generative AI handling domain-specific workflows with audit trails",
+    "Financial services adoption of frontier models; traceability/editability matter for compliance"
+   ]
+  },
   {
    "title": "The AI Slop Backlash Is Actually Having an Impact",
    "link": "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/",
@@ -160,6 +290,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Putting frontier cyber models in more trusted hands",
+   "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T10:00:00+00:00",
+   "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is restricting access to its frontier cybersecurity models to approved partners through a program called Daybreak, allowing governed delivery of security services.",
+   "whyMatters": [
+    "Reflects policy decision to gate powerful dual-use capabilities rather than open release",
+    "Cybersecurity domain treated as sensitive; trusted-partner model is governance experiment"
+   ]
+  },
+  {
    "title": "AI for science needs reasoning, not just data",
    "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
    "source": "MIT Tech Review · AI",
@@ -215,6 +363,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Exposes a serious class of API security flaws—missing authorization checks—that could affect any service where users can modify shared resources",
     "Illustrates why AI systems and automated tools need careful security review before deployment, especially when they interact with real-world booking and payment systems"
+   ]
+  },
+  {
+   "title": "Premium seats are coming to ChatGPT Business",
+   "link": "https://openai.com/index/premium-seats-chatgpt-business",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T00:00:00+00:00",
+   "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ChatGPT Business is introducing premium seats tier with higher usage limits for teams that need more compute, with a promotional $100 credit offer through August 20.",
+   "whyMatters": [
+    "Tiered pricing strategy emerging as usage patterns clarify business model",
+    "Indicates demand stratification: some users hit usage ceilings and need premium access"
    ]
   },
   {
@@ -1008,24 +1174,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI is giving ChatGPT free users unlimited text chats",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-06T18:15:41+00:00",
-   "summary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is removing rate limits for free and Go tier ChatGPT users, allowing them unlimited text-only conversations with the chatbot. The change takes effect next week and represents a significant shift in OpenAI's free tier offering.",
-   "whyMatters": [
-    "Removes friction for new users to try ChatGPT and build familiarity with conversational AI",
-    "May shift OpenAI's monetization model to rely more on premium features and higher-tier paid plans than basic access"
-   ]
-  },
-  {
    "title": "Simon Willison on Technical Blogging",
    "link": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
    "source": "Simon Willison",
@@ -1040,24 +1188,6 @@ window.NEWS_DATA = {
    "aiSummary": "Simon Willison was interviewed for a blog series about technical writing and blogging, discussing why he started and continues blogging, its unexpected impact, and which posts he's most proud of.",
    "whyMatters": [
     "Not substantively about AI—this is a meta-interview about technical communication practices"
-   ]
-  },
-  {
-   "title": "Suno shares plans to combat spammy AI music",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-06T17:39:43+00:00",
-   "summary": "Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy. The company is rolling out new […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Suno announced plans to implement watermarking technology and new download policies to prevent spam and misuse of AI-generated music while increasing transparency. CEO Mikey Shulman outlined the company's principles and next steps in a blog post aimed at establishing legitimacy.",
-   "whyMatters": [
-    "Watermarking and download controls may become standard practice for AI music generation tools to establish legitimacy and comply with copyright expectations",
-    "Reflects music industry and creator concerns about attribution and the need for AI companies to self-regulate before facing stronger external pressure"
    ]
   },
   {
@@ -1642,24 +1772,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Indicates cost and resource constraints are now shaping how major AI companies operate internally",
     "Suggests efficiency and sustainability concerns are becoming central to enterprise AI strategy, not just capability expansion"
-   ]
-  },
-  {
-   "title": "Joining DAF Keshet’s board, Israeli entrepreneur Alon Arvatz hopes to recruit fellow tech founders",
-   "link": "https://ejewishphilanthropy.com/joining-daf-keshets-board-israeli-entrepreneur-alon-arvatz-hopes-to-recruit-fellow-tech-founders/",
-   "source": "eJewishPhilanthropy",
-   "category": "religion",
-   "date": "2026-08-04T11:39:42+00:00",
-   "summary": "In a bustling WeWork alongside the Ayalon where his AI startup sits, Alon Arvatz looks like a typical Tel Aviv techie in a casual polo, wedding ring, jeans and even a kippa. Yet hes chasing something bigger than his next “exit” —the sale of a startup to a larger firm. Having recently joined the board...",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Israeli AI entrepreneur Alon Arvatz has joined the board of DAF Keshet and is recruiting fellow tech founders to join. Arvatz, who runs an AI startup in Tel Aviv, is pursuing impact beyond typical venture exits.",
-   "whyMatters": [
-    "Bridges tech entrepreneurship with Jewish institutional engagement and philanthropy",
-    "Reflects growing effort to align Israeli AI talent with Jewish community priorities and values"
    ]
   },
   {
@@ -2470,24 +2582,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Scientific computing in the age of agentic AI",
-   "link": "https://openai.com/index/scientific-computing-agentic-ai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-28T17:00:00+00:00",
-   "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a field report documenting how scientists are using AI coding agents to modernize scientific computing workflows. The report shows these agents accelerating software development and discovery work, particularly in genomics and related fields.",
-   "whyMatters": [
-    "AI agents handling routine coding tasks could free domain experts to focus on hypothesis generation and experimental design rather than infrastructure",
-    "Demonstrates practical deployment of agentic AI in high-stakes knowledge work where correctness and reproducibility matter"
-   ]
-  },
-  {
    "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
    "link": "https://www.latent.space/p/chatgpt-work",
    "source": "Latent Space",
@@ -2658,24 +2752,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How AI is expanding what people do at work",
-   "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-27T03:30:00+00:00",
-   "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released research showing that ChatGPT users are taking on new tasks across different roles and expanding their job responsibilities rather than simply automating existing work.",
-   "whyMatters": [
-    "Suggests AI may be reshaping job boundaries and expanding worker scope rather than pure substitution",
-    "Relevant to educators and organizational leaders managing workforce transition and skill development"
-   ]
-  },
-  {
    "title": "How to Get the Most from AI This Summer",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Get-the-Most-from-AI-This-Summer-e3migrs",
    "source": "The AI Daily Brief",
@@ -2824,26 +2900,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Launching Health in ChatGPT",
-   "link": "https://openai.com/index/health-in-chatgpt",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-23T00:00:00+00:00",
-   "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI launched Health in ChatGPT, allowing eligible US users to securely connect medical records and Apple Health data to receive personalized health insights.",
-   "whyMatters": [
-    "Represents direct commercialization of health data and AI-driven medical advice; raises questions about informed consent and appropriate use of personal health information",
-    "Brings AI into intimate personal health decisions without established clinical oversight or liability frameworks"
-   ]
-  },
-  {
    "title": "Wait... Just How Good IS GPT-6?",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Wait----Just-How-Good-IS-GPT-6-e3mdt99",
    "source": "The AI Daily Brief",
@@ -2899,44 +2955,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Public good framing: AI infrastructure investment targeting fundamental research rather than consumer products",
     "Establishes model where frontier AI resources fund academic and scientific collaboration"
-   ]
-  },
-  {
-   "title": "Building AI infrastructure with the Effingham County community",
-   "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-22T13:00:00+00:00",
-   "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "OpenAI announced Project Camellia in Effingham County, Georgia, committing to responsible energy use, community investment, job creation, and access to coding tools.",
-   "whyMatters": [
-    "Localized infrastructure strategy: OpenAI addressing energy and community impact concerns at specific deployment sites",
-    "Educational access component (Codex) suggests attempt to tie infrastructure investment to workforce development"
-   ]
-  },
-  {
-   "title": "How news organizations are using AI to advance their vital missions",
-   "link": "https://openai.com/index/how-news-organizations-are-using-ai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-22T13:00:00+00:00",
-   "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI highlights how news organizations are using its AI tools to improve reporting, audience engagement, and business operations. The piece is promotional content from OpenAI about journalism applications.",
-   "whyMatters": [
-    "Demonstrates real adoption of AI in newsrooms, affecting how information is gathered, produced, and verified",
-    "Raises questions about transparency and disclosure when AI is used in news production—relevant to how educators and institutions should evaluate information sources"
    ]
   },
   {
@@ -3388,25 +3406,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly at the religion-and-AI intersection: a theological framework (Augustine's City of God) applied to questions of community and technology.",
     "Solidarity and communal bonds are exactly what congregational leaders worry AI-mediated life might erode — a Christian treatment worth comparing with Jewish thinking on kehillah."
-   ]
-  },
-  {
-   "title": "Of Epics and Epochs: Pope Leo’s Encyclical Marks a Watershed",
-   "link": "https://aiandfaith.org/insights/epics-and-epochs-encyclical/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-06-26T16:39:26+00:00",
-   "summary": "Who doesn’t love an epic moment? For me these mostly come in my favorite movies: Russell Crow as the mysterious fighter in Gladiator, turning to face the evil Emperor on",
-   "religionScore": 5,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An AI and Faith piece argues that Pope Leo's encyclical on AI marks a watershed moment, opening with a riff on epic movie moments before turning to the document itself. Per the blurb, the essay frames the encyclical as an epochal intervention rather than routine church commentary.",
-   "whyMatters": [
-    "A papal encyclical is the highest-weight teaching document in Catholicism — a major religion formally staking out its position on AI.",
-    "Sets a benchmark for what serious institutional religious engagement with AI looks like; Jewish movements have issued nothing comparable.",
-    "Useful primary-adjacent source for teaching how faith traditions are responding to the technology."
    ]
   }
  ]
