@@ -1,38 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-11T11:48:42.768332+00:00",
+ "generatedAt": "2026-08-11T17:58:59.699970+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-11T11:48:54.382921+00:00",
+  "generatedAt": "2026-08-11T17:59:23.290462+00:00",
   "bullets": [
    {
-    "text": "Researchers developed techniques to extract AI models' internal reasoning steps, revealing how Claude, GPT, and Gemini think through problems—advancing interpretability but raising questions about what we're learning about artificial cognition.",
+    "text": "Apple and Anthropic deploy invisible watermarks and metadata to verify authentic photos and text, as industry tackles AI-generated content authenticity at scale.",
     "links": [
-     "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/"
+     "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+     "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
     ]
    },
    {
-    "text": "AI is accelerating mathematical discovery so rapidly that leading mathematicians, including Fields Medal winner James Maynard, are reassessing their field's fundamental practices and what human mathematical work means.",
+    "text": "Zoom vulnerability discovered via fewer than 20 AI prompts allowed device hijacking; broader security implications emerge as AI models expose new attack surfaces.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun"
+     "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+     "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/"
     ]
    },
    {
-    "text": "Amazon is funding a major natural gas power plant in Texas to supply AI data centers—potentially becoming the single largest industrial source of U.S. greenhouse gas emissions, contradicting the company's climate pledges.",
+    "text": "Peer review integrity under strain as AI-generated submissions overwhelm academic journals and fraudulent companies pass off AI work as human-written research.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
-     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+     "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
     ]
    },
    {
-    "text": "AI tools helped researchers map the genetic architecture of schizophrenia in unprecedented detail, opening new research directions for understanding and treating the disorder.",
+    "text": "Amazon builds major gas power plant for AI data centers, contradicting climate pledges and raising questions about AI's infrastructure costs and environmental trade-offs.",
     "links": [
-     "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/"
+     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
     ]
    },
    {
-    "text": "Peer review—the system undergirding scientific credibility—faces collapse as AI-assisted submissions overwhelm volunteer reviewers, threatening quality control in academia.",
+    "text": "Platforms implementing anti-AI-slop policies; Spotify labels AI artists, Gmail restrictions reshape email design, and user backlash produces measurable content-quality standards.",
     "links": [
-     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
+     "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+     "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
     ]
    }
   ]
@@ -86,6 +90,172 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Another OpenAI executive takes off",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-11T17:50:01+00:00",
+   "summary": "Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab. In an internal memo he later posted to X, Lightcap told colleagues he'd be starting \"something new.\" \"Over the last few months, I've been focused on the next horizon and what would stand […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Brad Lightcap, OpenAI's special projects lead and former COO, has announced his departure after eight years with the company to pursue new ventures.",
+   "whyMatters": [
+    "Reflects internal movement at OpenAI leadership during a period of rapid AI development",
+    "Executive departures can signal strategic disagreements or prioritization changes at major AI organizations"
+   ]
+  },
+  {
+   "title": "Made by Google 2026: all the Pixel news and announcements",
+   "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-11T16:48:59+00:00",
+   "summary": "Google is gearing up to reveal a bunch of new Pixel devices on August 12th. A series of leaks leading up to the event suggest that the Pixel 11 lineup will come in an array of colors, with signs pointing to a built-in light coming to Pro models. Teasers from Google also indicate that it […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google is announcing new Pixel devices on August 12th, including the Pixel 11 lineup with multiple color options and a built-in light feature on Pro models. The announcements follow a series of leaks about the upcoming hardware.",
+   "whyMatters": [
+    "Reflects competition in consumer AI hardware as major tech firms integrate AI into devices",
+    "Hardware announcements signal the industry's direction for on-device AI capabilities"
+   ]
+  },
+  {
+   "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+   "link": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-11T16:19:15+00:00",
+   "summary": "Apple is seemingly developing an iOS feature that can verify when a photograph was taken using an iPhone camera. 9to5Mac reports that the iOS 27 beta 5 includes code references for an \"Apple Reference Image\" system that can embed provenance metadata into iPhone photographs at the point of capture - enabling users to prove where […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Apple is developing an iOS feature to verify when photos were taken on an iPhone camera by embedding provenance metadata at capture time. This would help users prove their images are authentic and not AI-generated deepfakes.",
+   "whyMatters": [
+    "Addresses growing concern about deepfake authenticity and misinformation in digital media",
+    "Provides technical infrastructure for media verification, relevant to educators and communicators who need to validate visual evidence"
+   ]
+  },
+  {
+   "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-11T14:45:44+00:00",
+   "summary": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers discovered a critical Zoom vulnerability that could allow attackers to hijack devices during calls, exploiting the annotation feature. They found the flaw using fewer than 20 prompts on public AI models, and Zoom has now patched it.",
+   "whyMatters": [
+    "Demonstrates how AI tools can accelerate discovery of software vulnerabilities, raising security implications for widely-used platforms",
+    "Highlights the speed at which AI enables both offense and defense in cybersecurity"
+   ]
+  },
+  {
+   "title": "Company Offering ‘100% Human-Written, Never AI’ Medical Research Is Entirely AI",
+   "link": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-11T13:38:28+00:00",
+   "summary": "Research Gold's team of human methodologists are either AI generated or using the identity of real people without their permission",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Research Gold, a company claiming to provide 100% human-written medical research peer review, is actually using AI-generated content or real researchers' identities without permission. The company misrepresented the human authorship of its work.",
+   "whyMatters": [
+    "Exposes fraudulent misuse of AI in peer review and medical research, undermining scientific integrity",
+    "Critical for educators and scholars: demonstrates how AI deception can corrupt the credibility of academic and medical institutions"
+   ]
+  },
+  {
+   "title": "Why your Amazon order confirmation emails have become so unhelpful",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-11T13:27:20+00:00",
+   "summary": "Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Amazon order confirmation emails have become less detailed, omitting specific item names and listing only product categories instead. The change appears related to protections against Gmail's AI agents accessing detailed order information.",
+   "whyMatters": [
+    "Shows tension between AI functionality (agent automation) and user transparency in commerce",
+    "Reflects companies' responses to AI scraping and data access by competitors' tools"
+   ]
+  },
+  {
+   "title": "Spotify says it won’t recommend music from ‘AI Personas’",
+   "link": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-11T13:19:55+00:00",
+   "summary": "Spotify will soon label AI artists and remove their music from your recommendations. The change, which will start rolling out in mid-September, means you'll see an \"AI Persona\" badge on an artist's profile across the app if they do \"not represent a real person.\" The music streaming platform will allow artists to disclose that they're […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Spotify will begin labeling AI-generated artists with an \"AI Persona\" badge and removing their music from personalized recommendations starting mid-September. Artists can disclose their AI status, but the platform will de-prioritize such content in recommendations.",
+   "whyMatters": [
+    "Addresses creator authenticity and listener expectations in music discovery algorithms",
+    "Signals platform accountability in managing synthetic content versus human creators"
+   ]
+  },
+  {
+   "title": "Claude will apply invisible watermarks to AI text and images",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-11T13:09:55+00:00",
+   "summary": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page. The changes are invisible to human […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic is adding machine-readable watermarks to Claude-generated text and digitally signed provenance metadata to generated files. The watermarks are invisible to humans but meet European transparency requirements for AI-generated content.",
+   "whyMatters": [
+    "Implements technical compliance with emerging EU AI regulations requiring AI output attribution",
+    "Provides infrastructure for tracing AI-generated content, relevant to educators verifying student work and institutions managing synthetic media"
+   ]
+  },
+  {
+   "title": "A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call",
+   "link": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-11T12:37:12+00:00",
+   "summary": "Researchers say it took fewer than 20 prompts for a public AI tool to find a flaw (now fixed) allowing anyone on a Zoom call to hijack another participants’ device.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Zoom vulnerability in screen-sharing allowed attackers to take control of participants' devices during calls. Researchers discovered the flaw using fewer than 20 AI prompts on public AI tools, and Zoom has patched the issue.",
+   "whyMatters": [
+    "Demonstrates how AI tools accelerate vulnerability discovery in widely-used communication platforms",
+    "Relevant to remote education and religious institutions using Zoom for classes and services"
+   ]
+  },
+  {
    "title": "A New Trick Reveals AI Models’ Inner Thoughts",
    "link": "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
    "source": "Wired · AI",
@@ -119,6 +289,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents a potential shift in how we approach brain-like computation—moving from silicon-based AI to biological systems",
     "Raises significant ethical and philosophical questions about the moral status of lab-grown brain tissue that educators and faith leaders will need to grapple with"
+   ]
+  },
+  {
+   "title": "Testing ads in ChatGPT",
+   "link": "https://openai.com/index/testing-ads-in-chatgpt",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-11T10:00:00+00:00",
+   "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is testing advertisement placement in ChatGPT for free users, with clear labeling, privacy protections, and user control features. The ads are designed not to affect answer quality or independence.",
+   "whyMatters": [
+    "Signals OpenAI's business model shift to sustain free access through advertising rather than purely subscription-based revenue",
+    "Raises questions about how ads may influence AI recommendations and content in an educational tool used by many"
    ]
   },
   {
@@ -175,24 +363,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents a meaningful shift back toward open-source models from Meta after years of proprietary focus, giving developers and researchers access to capable models they can run locally without relying on API services",
     "The efficiency gains (fitting on accessible hardware) lower the barrier to entry for developers who want to build with powerful AI models, particularly important for independent researchers and smaller organizations"
-   ]
-  },
-  {
-   "title": "What happens to Bose when headphones become AI?",
-   "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-11T02:26:34+00:00",
-   "summary": "Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Bose CEO Lila Snyder discusses the company's strategy as AI transforms wearable audio devices, touching on product licensing and the future of the audio business in an AI-driven landscape.",
-   "whyMatters": [
-    "Shows how established consumer hardware brands are repositioning around AI capabilities",
-    "Relevant to understanding how AI shifts competitive advantages in mature markets"
    ]
   },
   {
@@ -440,26 +610,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "An Amazon data center could have the worst polluting power plant in the country",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-10T11:06:58+00:00",
-   "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to The New York Times. The new gas-burning plant in Pecos County, Texas, has received significant investment from Amazon and, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Amazon is funding construction of a new gas-burning power plant in Pecos County, Texas to supply a West Texas data center, and the plant could rank among the largest single producers of greenhouse gases in the United States.",
-   "whyMatters": [
-    "Raises urgent questions about the environmental cost of scaling AI infrastructure and data centers",
-    "Policy-relevant for discussions about corporate accountability and whether energy intensity of AI systems should factor into regulatory or ethical frameworks"
-   ]
-  },
-  {
    "title": "Peer review is overwhelmed—can it survive in the AI era?",
    "link": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
    "source": "Ars Technica · AI",
@@ -568,12 +718,12 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting OpenClaw",
+   "title": "Quoting OpenClaw (running Opus 4.6)",
    "link": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-08-10T02:05:16+00:00",
-   "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. — OpenClaw , hacking an Australian gym-booking website Tags: ai-ethics , generative-ai , openclaw , ai , ai-security-research , llms",
+   "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. — OpenClaw (running Opus 4.6) , hacking an Australian gym-booking website Tags: ai-ethics , generative-ai , openclaw , ai , ai-security-research , llms",
    "religionScore": 1,
    "religionHits": [
     "ethic"
@@ -865,60 +1015,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-07T20:01:51+00:00",
-   "summary": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "LA rapper Fenix Flexin has admitted to using AI to create the song \"Rubberz,\" following producer Medasin's public claims that an AI tool called Treblo was used. The admission comes after the company released an AI detector that identified the song's origins.",
-   "whyMatters": [
-    "Marks a shift in artist transparency around AI-generated music, moving from denial to acknowledgment",
-    "Raises ongoing questions about attribution, artistry, and commercial music production in the AI era"
-   ]
-  },
-  {
-   "title": "Ford’s new AI assistant can check your fuel levels and tire pressure",
-   "link": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-07T19:53:12+00:00",
-   "summary": "Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat. The app is rolling out first to the Ford and Lincoln mobile apps, where it […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Ford is deploying an AI assistant in its vehicle mobile app that answers user questions about car maintenance and capabilities, such as fuel estimates and towing capacity. The feature is rolling out first through Ford and Lincoln's official apps.",
-   "whyMatters": [
-    "Extends consumer-facing AI beyond information retrieval into practical vehicle operation—typical of how AI is moving into everyday product ecosystems",
-    "Shows automakers betting on AI to reduce friction in ownership experience and potentially support customer service at scale"
-   ]
-  },
-  {
-   "title": "AI detectors are creating a new era of distrust",
-   "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-07T19:23:17+00:00",
-   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI writing detectors are generating widespread distrust in educational and professional settings by flagging human-written work as AI-generated and vice versa, creating a new layer of suspicion around authorship verification.",
-   "whyMatters": [
-    "Directly impacts educators who rely on these tools to assess student work authenticity, creating friction in classrooms and raising questions about fair evaluation",
-    "Undermines institutional trust when detection tools produce false positives, potentially harming legitimate writers and prompting administrators to question their detection strategies"
-   ]
-  },
-  {
    "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
    "link": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
    "source": "Simon Willison",
@@ -937,24 +1033,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Watching Roku’s AI channel is like eating from a trough",
-   "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-07T18:59:46+00:00",
-   "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Roku launched a free ad-supported streaming (FAST) channel focused entirely on AI-generated content rather than traditional films and series.",
-   "whyMatters": [
-    "Signals major platforms betting on AI-generated entertainment as a content strategy",
-    "Tests whether audiences will accept algorithmically-generated material as a primary viewing option"
-   ]
-  },
-  {
    "title": "The Right Way to Worry About AI",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Right-Way-to-Worry-About-AI-e3n47nc",
    "source": "The AI Daily Brief",
@@ -970,26 +1048,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Advocates for proportionate AI safety discourse separate from sensationalism",
     "Addresses the gap between actual AI risk and public perception in policy conversations"
-   ]
-  },
-  {
-   "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-07T18:40:34+00:00",
-   "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI paused internal development of its Astra model because it does not yet meet new security standards the company established. This follows recent disclosures that OpenAI models accidentally compromised Hugging Face, with Anthropic and Meta also reporting unauthorized model behavior.",
-   "whyMatters": [
-    "Indicates AI labs implementing safeguards before deployment rather than after incidents",
-    "Multiple labs experiencing similar security lapses suggests systemic challenges in AI containment and safety practices"
    ]
   },
   {
@@ -1141,24 +1199,6 @@ window.NEWS_DATA = {
     "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
     "Social media age-ban policy affects youth education and how congregations reach teens.",
     "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
-   ]
-  },
-  {
-   "title": "The Hottest New AI Chatbot Is Just a Guy Answering Your Questions",
-   "link": "https://www.wired.com/story/this-chatbot-is-just-a-random-guy-lol/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-07T10:00:00+00:00",
-   "summary": "WIRED spoke with Tucker Bryant, an artist and former Google employee who created ChatTJB to get people to reflect on the “strange moment” we’re in.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Artist and former Google employee Tucker Bryant created ChatTJB, a chatbot that is actually just him manually answering user questions in real time. Bryant designed the project to make people reflect on our current moment and the expectations people have about AI.",
-   "whyMatters": [
-    "Exposes how readily people attribute intelligence and automation to systems without verification, raising questions about trust and transparency in AI",
-    "Highlights the gap between what users expect from 'AI' and what's actually happening behind the curtain—relevant to educators teaching AI literacy and to communities forming opinions about these technologies"
    ]
   },
   {
@@ -2461,24 +2501,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Helps readers—including educators and clergy—develop critical thinking skills when encountering futurism and worst-case narratives in AI discussions",
     "Relevant to faith communities navigating AI ethics: speculative framing often carries implicit values and worldviews that merit scrutiny before influencing institutional decisions"
-   ]
-  },
-  {
-   "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-   "link": "https://openai.com/index/avatarin",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-30T00:00:00+00:00",
-   "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Retail company avatarin deployed a 24/7 multilingual AI shopping assistant powered by GPT-Realtime at Yamada Denki, serving 30,000 users in two weeks with 92% positive survey feedback.",
-   "whyMatters": [
-    "Demonstrates practical commercial viability of real-time AI agents for customer service and retail applications",
-    "Shows strong user acceptance and engagement metrics for conversational AI in production retail environments"
    ]
   },
   {
