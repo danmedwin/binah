@@ -1,38 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-10T23:39:18.849884+00:00",
+ "generatedAt": "2026-08-11T05:55:55.616626+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-10T23:39:38.274102+00:00",
+  "generatedAt": "2026-08-11T05:56:08.485935+00:00",
   "bullets": [
    {
-    "text": "Amazon is building a massive natural gas power plant for AI data centers that could become the largest single source of US industrial climate pollution, contradicting its climate pledges.",
+    "text": "Meta released Muse Glimmer, a 30B open-weights model under Apache 2.0 license, optimized for agentic task completion and deployable on consumer hardware, signaling a strategic bet that openness can compete with proprietary AI leaders.",
+    "links": [
+     "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+     "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+     "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/"
+    ]
+   },
+   {
+    "text": "Amazon is funding a major natural gas power plant in Texas to supply AI data centers, which may become the single largest industrial source of U.S. greenhouse gas emissions, contradicting earlier climate commitments.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
      "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
     ]
    },
    {
-    "text": "Academic peer review is collapsing under AI-driven paper volume while private companies control frontier AI capabilities, forcing researchers to negotiate new realities with industry.",
+    "text": "Academic peer review is collapsing under pressure from AI-assisted paper submissions that exceed volunteer reviewer capacity, jeopardizing the mechanism that validates scientific integrity in the AI era.",
     "links": [
-     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
-     "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/"
+     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
     ]
    },
    {
-    "text": "DeepMind's open-source hurricane forecasting model extends forecast accuracy by one day using lower-resolution data, demonstrating concrete AI gains in scientific prediction.",
+    "text": "AI-conducted first-round hiring interviews are becoming standard, enabling candidates to interview at any hour without human interaction, reshaping recruitment timelines and workplace accessibility.",
     "links": [
-     "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
+     "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/"
     ]
    },
    {
-    "text": "Meta is launching open-source AI models as its latest strategic pivot to compete, while Zuckerberg published a 6,500-word manifesto on superintelligent AI coexistence.",
-    "links": [
-     "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-     "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble"
-    ]
-   },
-   {
-    "text": "Pushback against AI-generated low-quality content is forcing platforms to implement labeling and filtering tools, showing consumer demand reshaping platform policies.",
+    "text": "Platforms are responding to user backlash against low-quality AI-generated content by implementing tools to flag, label, and filter out such material, reversing the default toward algorithmic distribution of synthetic text.",
     "links": [
      "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
     ]
@@ -86,6 +86,62 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+   "link": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-08-11T05:16:41+00:00",
+   "summary": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!k-nI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPWkSuDbkAExHc7.png",
+   "themes": [],
+   "aiSummary": "Meta has released Muse Glimmer, a 30-billion parameter open-weights model under an Apache 2.0 license, optimized for agentic task completion and designed to run efficiently on consumer hardware like a single RTX 3090 GPU.",
+   "whyMatters": [
+    "Represents a meaningful shift back toward open-source models from Meta after years of proprietary focus, giving developers and researchers access to capable models they can run locally without relying on API services",
+    "The efficiency gains (fitting on accessible hardware) lower the barrier to entry for developers who want to build with powerful AI models, particularly important for independent researchers and smaller organizations"
+   ]
+  },
+  {
+   "title": "What happens to Bose when headphones become AI?",
+   "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-11T02:26:34+00:00",
+   "summary": "Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Bose CEO Lila Snyder discusses the company's strategy as AI transforms wearable audio devices, touching on product licensing and the future of the audio business in an AI-driven landscape.",
+   "whyMatters": [
+    "Shows how established consumer hardware brands are repositioning around AI capabilities",
+    "Relevant to understanding how AI shifts competitive advantages in mature markets"
+   ]
+  },
+  {
+   "title": "Introducing Muse Glimmer",
+   "link": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-10T23:56:03+00:00",
+   "summary": "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success rates on full-task benchmarks including Deep",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/glimmer-pelican.png",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Muse Glimmer is Meta's new 30-billion parameter model released under a clean Apache 2.0 license, engineered for end-to-end agentic task completion with strong performance on full-task benchmarks.",
+   "whyMatters": [
+    "The Apache 2.0 license is cleaner and more commercially permissive than previous Llama licensing, removing legal friction for commercial and research applications",
+    "Strong performance on task completion benchmarks signals this model can handle complex, multi-step workflows locally, relevant for developers building autonomous systems"
+   ]
+  },
   {
    "title": "Mark Zuckerberg doesn’t understand how to live",
    "link": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
@@ -214,24 +270,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Practical case study for how enterprise finance teams can adopt AI at scale",
     "Illustrates real-world tradeoffs between automation and oversight that other organizations will face"
-   ]
-  },
-  {
-   "title": "What happens to Bose when headphones become AI?",
-   "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-10T16:27:33+00:00",
-   "summary": "Today, I’m talking with Lila Snyder, who is the CEO of Bose. You certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Bose CEO Lila Snyder discusses the company's strategy as AI transforms wearable audio devices, touching on product licensing and the future of the audio business in an AI-driven landscape.",
-   "whyMatters": [
-    "Shows how established consumer hardware brands are repositioning around AI capabilities",
-    "Relevant to understanding how AI shifts competitive advantages in mature markets"
    ]
   },
   {
@@ -396,8 +434,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "OpenAI has released GPT-5.6-Cyber, a specialized model designed for cybersecurity research, available through their Daybreak Red program for authorized researchers conducting vulnerability research, exploit validation, and security testing.",
+   "whyMatters": [
+    "Creates a controlled mechanism for security researchers to use cutting-edge AI capabilities for defensive work while maintaining responsible access constraints",
+    "Reflects industry recognition that AI's dual-use potential in cybersecurity requires governance structures that enable legitimate security research while limiting misuse"
+   ]
   },
   {
    "title": "Putting frontier cyber models in more trusted hands",
@@ -1939,24 +1980,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Don't be a meat proxy",
-   "link": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-03T23:45:04+00:00",
-   "summary": "Don't be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add. Via Lo",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison discusses the problem of people uncritically relaying AI outputs to others without reading or validating them first. The term \"meat proxy\" describes this behavior, and Willison argues that real value comes from understanding AI output, checking its accuracy, and synthesizing it into your own words.",
-   "whyMatters": [
-    "Relevant to educators and knowledge workers who must discern trustworthy AI use from passive delegation of thinking",
-    "Reinforces the ethical principle that intermediaries (human or institutional) bear responsibility for what they relay, not just the AI system that generated it"
-   ]
-  },
-  {
    "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
    "link": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
    "source": "Ars Technica · AI",
@@ -2992,24 +3015,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects emerging geopolitical and competitive tensions shaping AI policy and market access",
     "Outcomes will directly affect AI costs, competitive dynamics, and who can deploy powerful models—critical for organizations choosing AI platforms"
-   ]
-  },
-  {
-   "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
-   "link": "https://www.latent.space/p/xaira",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-21T19:34:06+00:00",
-   "summary": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/207941607/6f355666c408aef162923ead7724868f.mp3",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Xaira Therapeutics is prioritizing targeted data generation for building causal AI models in drug discovery, according to an interview with their leadership.",
-   "whyMatters": [
-    "Represents a shift in AI development toward data quality and causal reasoning rather than simply scaling model size",
-    "Applying causal models to drug discovery could improve the scientific validity and reliability of AI-assisted pharmaceutical research"
    ]
   },
   {
