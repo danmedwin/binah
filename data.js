@@ -1,91 +1,127 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-11T05:55:55.616626+00:00",
+ "generatedAt": "2026-08-11T10:30:37.169140+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-11T05:56:08.485935+00:00",
+  "generatedAt": "2026-08-11T10:30:59.794840+00:00",
   "bullets": [
    {
-    "text": "Meta released Muse Glimmer, a 30B open-weights model under Apache 2.0 license, optimized for agentic task completion and deployable on consumer hardware, signaling a strategic bet that openness can compete with proprietary AI leaders.",
+    "text": "Amazon is funding a major natural gas power plant in Texas to supply AI data centers—the facility could become the single largest source of industrial greenhouse gas emissions in the US, contradicting the company's climate pledges.",
     "links": [
-     "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
+    ]
+   },
+   {
+    "text": "Meta released Muse Glimmer, a 30-billion-parameter open-weights model on Apache 2.0 license optimized for agentic tasks and runnable on consumer GPUs, signaling a strategic bet on openness to compete in frontier AI.",
+    "links": [
      "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
      "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/"
     ]
    },
    {
-    "text": "Amazon is funding a major natural gas power plant in Texas to supply AI data centers, which may become the single largest industrial source of U.S. greenhouse gas emissions, contradicting earlier climate commitments.",
+    "text": "AI tools have mapped schizophrenia's genetic architecture with unprecedented detail, revealing new inheritance patterns and opening research directions for understanding and treating the disorder.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
-     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+     "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/"
     ]
    },
    {
-    "text": "Academic peer review is collapsing under pressure from AI-assisted paper submissions that exceed volunteer reviewer capacity, jeopardizing the mechanism that validates scientific integrity in the AI era.",
-    "links": [
-     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
-    ]
-   },
-   {
-    "text": "AI-conducted first-round hiring interviews are becoming standard, enabling candidates to interview at any hour without human interaction, reshaping recruitment timelines and workplace accessibility.",
-    "links": [
-     "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/"
-    ]
-   },
-   {
-    "text": "Platforms are responding to user backlash against low-quality AI-generated content by implementing tools to flag, label, and filter out such material, reversing the default toward algorithmic distribution of synthetic text.",
+    "text": "Major platforms are now implementing tools to flag, label, and remove low-quality AI-generated content following user backlash, making it easier to filter out AI slop from feeds.",
     "links": [
      "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
+    ]
+   },
+   {
+    "text": "Academic peer review systems face sustainability crisis as AI-assisted submissions outpace volunteer reviewers, threatening the field's quality-control mechanism.",
+    "links": [
+     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-10T10:46:19.316239+00:00",
+  "generatedAt": "2026-08-11T10:30:59.794840+00:00",
   "bullets": [
    {
-    "text": "OpenAI paused its Astra model due to unmet security standards after its systems accidentally compromised Hugging Face; companies are establishing new safeguards against critical cyber capabilities in advanced AI.",
+    "text": "Amazon is funding a major natural gas power plant in Texas to supply AI data centers—the facility could become the single largest source of industrial greenhouse gas emissions in the US, contradicting the company's climate pledges.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
     ]
    },
    {
-    "text": "Researchers used AI to design 16 previously unknown viruses for antibiotic-resistant bacteria research, raising concerns that technological capability is outpacing regulatory oversight of dual-use AI systems.",
+    "text": "Meta released Muse Glimmer, a 30-billion-parameter open-weights model on Apache 2.0 license optimized for agentic tasks and runnable on consumer GPUs, signaling a strategic bet on openness to compete in frontier AI.",
     "links": [
-     "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/"
+     "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+     "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/"
     ]
    },
    {
-    "text": "AI-conducted job interviews are becoming standard screening, allowing candidates to schedule at any hour including 1 am, removing human judgment from first-stage hiring decisions.",
+    "text": "AI tools have mapped schizophrenia's genetic architecture with unprecedented detail, revealing new inheritance patterns and opening research directions for understanding and treating the disorder.",
     "links": [
-     "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/"
+     "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/"
     ]
    },
    {
-    "text": "AI agents need advances in reasoning, not just data processing, to enable meaningful scientific discovery and counter claims that science is finished.",
+    "text": "Major platforms are now implementing tools to flag, label, and remove low-quality AI-generated content following user backlash, making it easier to filter out AI slop from feeds.",
     "links": [
-     "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/"
+     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
     ]
    },
    {
-    "text": "Key AI researchers including Jeff Dean have left Google for other roles, raising questions about Google's competitive standing against Anthropic and OpenAI amid organizational reshuffling.",
+    "text": "Academic peer review systems face sustainability crisis as AI-assisted submissions outpace volunteer reviewers, threatening the field's quality-control mechanism.",
     "links": [
-     "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast"
+     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-08-10T10:46:13.984602+00:00",
+  "updatedAt": "2026-08-11T10:30:53.422265+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI's intersection with ethics, religion, and moral leadership",
-   "Prefers substantive tech stories with real-world impact over incremental tool updates",
-   "Values practical applications and business outcomes (Apple's chip legacy, AI features in consumer products)",
-   "Less interested in technical release notes and niche developer tool updates without broader significance"
+   "Interested in AI's intersection with ethics, morality, and religious/faith perspectives",
+   "Prefers substantive tech stories with real-world impact or legacy (Apple's chip legacy, Waze features) over incremental tool updates",
+   "Values reporting on established tech companies and their AI initiatives",
+   "Uninterested in niche developer tool releases without broader context or utility"
   ]
  },
  "items": [
+  {
+   "title": "AI Is Dead. Organoids Are Alive",
+   "link": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-11T10:00:00+00:00",
+   "summary": "Mini human brains are being grown in labs all over the world. Soon, they could outthink neural networks.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers are growing miniature human brains (organoids) in laboratories around the world. The article suggests these lab-grown neural tissues could eventually surpass the capabilities of artificial neural networks.",
+   "whyMatters": [
+    "Represents a potential shift in how we approach brain-like computation—moving from silicon-based AI to biological systems",
+    "Raises significant ethical and philosophical questions about the moral status of lab-grown brain tissue that educators and faith leaders will need to grapple with"
+   ]
+  },
+  {
+   "title": "AI Is Helping Solve the Intricate Genetic Puzzle of Schizophrenia",
+   "link": "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-11T09:00:00+00:00",
+   "summary": "Recent findings provide one of the most detailed pictures to date of the genetic architecture of schizophrenia, opening up new avenues for research into the disorder.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI tools have helped researchers map the genetic architecture of schizophrenia in unprecedented detail, revealing new patterns in the disorder's genetic basis. This work opens new research directions for understanding and potentially treating the condition.",
+   "whyMatters": [
+    "Demonstrates concrete medical value of AI in interpreting complex genetic data that humans alone would struggle to analyze at scale",
+    "Could accelerate development of better diagnostics and treatments for a serious psychiatric condition affecting millions"
+   ]
+  },
   {
    "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
    "link": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
@@ -1232,42 +1268,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks escalation of AI companies building proprietary chips to control costs and avoid supply chain bottlenecks",
     "In-house silicon development could become a critical competitive advantage as compute demands for large models grow"
-   ]
-  },
-  {
-   "title": "Why Normal People Aren’t Using AI Agents",
-   "link": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-06T19:55:45+00:00",
-   "summary": "The tech industry is realizing it needs to build agents based on what regular consumers want, not just what its AI models can do.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The AI industry is recognizing that AI agents built to showcase what models can do technically often don't match what regular consumers actually want or find useful. Companies are being forced to rethink agent design to align with actual user needs rather than AI capabilities.",
-   "whyMatters": [
-    "Reveals a gap between AI capabilities and practical consumer demand, suggesting the industry has over-indexed on technical possibility",
-    "Market pressure to build consumer-focused agents rather than research-focused ones could shape the next generation of deployed AI"
-   ]
-  },
-  {
-   "title": "ICE’s DNA Collection Increases, SpaceX’s Rocket Crashes Into the Moon, and the AI Backlash Grows",
-   "link": "https://www.wired.com/story/ice-dna-collection-increases-spacex-rocket-crashes-into-the-moon-and-the-ai-backlash-grows/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-06T19:30:46+00:00",
-   "summary": "In today’s episode of Uncanny Valley, we discuss how ICE has been collecting DNA samples of people who have no criminal convictions, including children, which end up in an FBI database indefinitely.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The headline references growing backlash against AI broadly, contextualizing concerns about AI's role in surveillance and other systems of control. Specific details about the nature and scope of the backlash are not provided in the blurb.",
-   "whyMatters": [
-    "Indicates mounting public and institutional concern about AI's application in surveillance and civil liberties contexts",
-    "Relevant to educators and community leaders grappling with questions about AI ethics, fairness, and societal impact"
    ]
   },
   {
