@@ -1,94 +1,144 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-12T06:18:26.366700+00:00",
+ "generatedAt": "2026-08-12T10:40:50.671552+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-12T06:18:40.540779+00:00",
+  "generatedAt": "2026-08-12T10:41:06.158001+00:00",
   "bullets": [
    {
-    "text": "ChatGPT and Gemini both crossed 1 billion users, with Gemini becoming Google's fastest-growing product ever, marking mainstream AI adoption at scale.",
+    "text": "Researchers extracted proprietary AI models' encrypted reasoning traces, revealing how Claude, GPT, and Gemini think through problems—a security flaw major labs must now address.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-     "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
+     "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
+     "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything"
     ]
    },
    {
-    "text": "Researchers extracted proprietary AI models' hidden reasoning traces from Anthropic, OpenAI, and Google APIs, exposing internal thought processes meant to be opaque.",
+    "text": "AI newsrooms are now breaking stories faster than traditional journalists, including scooping major outlets on OpenAI security breaches, marking a shift in how news gatekeeping works.",
     "links": [
-     "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
-     "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/"
+     "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
     ]
    },
    {
-    "text": "AI-generated content is facing real friction: platforms now label and de-prioritize AI music, fraudulent medical peer review was exposed, and the \"AI slop\" backlash is driving policy changes.",
+    "text": "A fraudulent medical research company falsely claimed human authorship while actually using AI-generated content and researchers' stolen identities, exposing dangers to scientific integrity.",
     "links": [
-     "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
-     "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
+     "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
     ]
    },
    {
-    "text": "Amazon is funding a major natural gas power plant for AI data centers, contradicting its climate pledges and potentially becoming the largest U.S. industrial pollution source.",
+    "text": "Leading mathematicians are reassessing their discipline as AI accelerates discovery, forcing the traditionally deliberate field to adapt rapidly to new tools and methods.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
+     "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun"
     ]
    },
    {
-    "text": "Anthropic and OpenAI are adding watermarks and provenance metadata to AI-generated content to meet transparency requirements, while Apple is developing photo verification to prove images aren't deepfakes.",
+    "text": "Anthropic and OpenAI are adding invisible watermarks and cryptographic provenance to AI-generated text and images to meet transparency requirements and combat deepfakes.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-     "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata"
+     "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-11T10:30:59.794840+00:00",
+  "generatedAt": "2026-08-12T10:41:06.158001+00:00",
   "bullets": [
    {
-    "text": "Amazon is funding a major natural gas power plant in Texas to supply AI data centers—the facility could become the single largest source of industrial greenhouse gas emissions in the US, contradicting the company's climate pledges.",
+    "text": "Researchers extracted proprietary AI models' encrypted reasoning traces, revealing how Claude, GPT, and Gemini think through problems—a security flaw major labs must now address.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
-     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
+     "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
+     "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything"
     ]
    },
    {
-    "text": "Meta released Muse Glimmer, a 30-billion-parameter open-weights model on Apache 2.0 license optimized for agentic tasks and runnable on consumer GPUs, signaling a strategic bet on openness to compete in frontier AI.",
+    "text": "AI newsrooms are now breaking stories faster than traditional journalists, including scooping major outlets on OpenAI security breaches, marking a shift in how news gatekeeping works.",
     "links": [
-     "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
-     "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/"
+     "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
     ]
    },
    {
-    "text": "AI tools have mapped schizophrenia's genetic architecture with unprecedented detail, revealing new inheritance patterns and opening research directions for understanding and treating the disorder.",
+    "text": "A fraudulent medical research company falsely claimed human authorship while actually using AI-generated content and researchers' stolen identities, exposing dangers to scientific integrity.",
     "links": [
-     "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/"
+     "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
     ]
    },
    {
-    "text": "Major platforms are now implementing tools to flag, label, and remove low-quality AI-generated content following user backlash, making it easier to filter out AI slop from feeds.",
+    "text": "Leading mathematicians are reassessing their discipline as AI accelerates discovery, forcing the traditionally deliberate field to adapt rapidly to new tools and methods.",
     "links": [
-     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
+     "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun"
     ]
    },
    {
-    "text": "Academic peer review systems face sustainability crisis as AI-assisted submissions outpace volunteer reviewers, threatening the field's quality-control mechanism.",
+    "text": "Anthropic and OpenAI are adding invisible watermarks and cryptographic provenance to AI-generated text and images to meet transparency requirements and combat deepfakes.",
     "links": [
-     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
+     "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-08-11T10:30:53.422265+00:00",
+  "updatedAt": "2026-08-12T10:41:00.131017+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI's intersection with ethics, morality, and religious/faith perspectives",
-   "Prefers substantive tech stories with real-world impact or legacy (Apple's chip legacy, Waze features) over incremental tool updates",
-   "Values reporting on established tech companies and their AI initiatives",
-   "Uninterested in niche developer tool releases without broader context or utility"
+   "Interested in AI ethics and religious/moral perspectives on technology",
+   "Wants practical AI applications and business impacts over technical release notes",
+   "Prefers substantive stories about major tech companies and their strategic decisions",
+   "Dislikes granular tool updates and niche developer announcements"
   ]
  },
  "items": [
+  {
+   "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
+   "link": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-12T10:30:00+00:00",
+   "summary": "Last week, an AI newsroom beat mainstream journalists—including WIRED—to a story about OpenAI and hacking. It’s just the beginning.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An AI-powered newsroom recently scooped mainstream journalists, including WIRED itself, on a story about OpenAI and a security breach. The incident signals that AI systems are now capable of gathering and publishing news faster than traditional human-staffed outlets.",
+   "whyMatters": [
+    "Demonstrates a concrete shift in competitive advantage toward AI-driven information gathering and publication speed",
+    "Raises questions about verification, accuracy, and journalistic standards when speed-to-publish becomes automated",
+    "Affects how newsrooms and educators train people to think about information sourcing and trustworthiness in an AI-accelerated media landscape"
+   ]
+  },
+  {
+   "title": "You’re Thinking About Online Trends All Wrong",
+   "link": "https://www.wired.com/story/youre-thinking-about-online-trends-all-wrong/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-12T09:30:00+00:00",
+   "summary": "From pessimism around dating to AI reshaping culture, cyber-ethnographer Ruby J. Thelot tells WIRED why people are putting too much stock into things that go viral.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Cyber-ethnographer Ruby J. Thelot argues that people overestimate the cultural weight of viral trends, citing examples from dating pessimism to AI's impact on culture. The piece challenges the assumption that what goes viral necessarily reflects or shapes broader social reality.",
+   "whyMatters": [
+    "Provides a corrective framework for educators and communicators evaluating which online phenomena warrant serious attention versus hype",
+    "Relevant to anyone (including clergy and educators) trying to understand how AI and internet culture actually influence their communities versus media narratives about them"
+   ]
+  },
+  {
+   "title": "[AINews] How to steal a Reasoning Trace",
+   "link": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-08-12T07:11:08+00:00",
+   "summary": "Speculative Decoding by any other name would distil as sweet",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!nQZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPcJLMtagAAx07t.jpg",
+   "themes": [],
+   "aiSummary": "The article discusses speculative decoding as a technique for extracting or reconstructing reasoning traces from AI models. It appears to frame this as a security or model-extraction concern wrapped in technical language about efficiency.",
+   "whyMatters": [
+    "Touches on AI safety and model security—relevant to how institutions safeguard proprietary reasoning systems",
+    "Part of ongoing technical work on understanding and potentially compromising advanced AI model internals"
+   ]
+  },
   {
    "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
    "link": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
@@ -1097,24 +1147,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How to Disable Gemini in Gmail and Google Docs",
-   "link": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-08T10:00:00+00:00",
-   "summary": "New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google has integrated Gemini AI features into Gmail and Google Docs through new toolbars and prompts. Users who prefer not to use these AI writing assistants can disable them through settings.",
-   "whyMatters": [
-    "Practical control: Educators and clergy using Google Workspace need to know how to manage AI in their daily communication tools, especially if their institutions have policies about AI use",
-    "Transparency issue: The default inclusion of AI features in widely-used productivity software affects adoption decisions for organizations that want to maintain human-centered writing practices"
-   ]
-  },
-  {
    "title": "[AINews] Zawinski's Law of MultiAgents",
    "link": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
    "source": "Latent Space",
@@ -1238,24 +1270,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI companies face pressure to demonstrate proactive security evaluation and controls for new capabilities",
     "Transparency on safety measures is becoming expected practice in the industry"
-   ]
-  },
-  {
-   "title": "Scientists Used AI to Create 16 New Viruses",
-   "link": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-07T14:13:57+00:00",
-   "summary": "The use of AI systems to create viruses opens up new possibilities for combating bacterial resistance. It also raises concerns about the pace at which technology is outstripping regulation.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers used AI systems to design 16 previously unknown viruses, which could help address antibiotic-resistant bacteria but also raises concerns about the pace of technological capability outpacing regulatory oversight. The work demonstrates both therapeutic and dual-use potential.",
-   "whyMatters": [
-    "AI-enabled biological research creates urgent policy and governance questions around dual-use technology",
-    "Regulatory frameworks lag significantly behind the speed at which AI can be applied to sensitive domains like pathogen development"
    ]
   },
   {
@@ -2970,24 +2984,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates continued competition in the model market where smaller, efficient architectures can outperform larger ones on cost and capability metrics",
     "Suggests progress in making advanced capabilities more accessible and economical for builders and organizations"
-   ]
-  },
-  {
-   "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
-   "link": "https://www.latent.space/p/poolside",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-23T05:09:14+00:00",
-   "summary": "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights model... and this is just the beginning.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/208082176/150a7023faa153b1393ccb518c6ff305.mp3",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Poolside AI's co-CEO Eiso Kant discusses how his small team built a model factory capable of training Laguna S, a 118B mixture-of-experts model that beats a much larger 1 trillion parameter open-weights competitor.",
-   "whyMatters": [
-    "Shows that scale alone is not sufficient—architectural efficiency and training methodology allow smaller teams to produce competitive results",
-    "Raises questions about the efficiency frontier in model development and what larger labs may be missing in their approaches"
    ]
   },
   {
