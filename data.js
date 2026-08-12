@@ -1,42 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-11T23:47:40.115242+00:00",
+ "generatedAt": "2026-08-12T06:18:26.366700+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-11T23:47:58.124761+00:00",
+  "generatedAt": "2026-08-12T06:18:40.540779+00:00",
   "bullets": [
    {
-    "text": "Researchers extracted encrypted reasoning chains from OpenAI, Anthropic, and Google models that can be replayed across sessions, enabling weaker models to leverage frontier reasoning at scale.",
+    "text": "ChatGPT and Gemini both crossed 1 billion users, with Gemini becoming Google's fastest-growing product ever, marking mainstream AI adoption at scale.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+     "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
+    ]
+   },
+   {
+    "text": "Researchers extracted proprietary AI models' hidden reasoning traces from Anthropic, OpenAI, and Google APIs, exposing internal thought processes meant to be opaque.",
     "links": [
      "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
      "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/"
     ]
    },
    {
-    "text": "ChatGPT and Gemini both reached 1 billion users, with Gemini hitting the milestone faster than any prior Google product, signaling mainstream AI adoption but raising sustainability questions.",
+    "text": "AI-generated content is facing real friction: platforms now label and de-prioritize AI music, fraudulent medical peer review was exposed, and the \"AI slop\" backlash is driving policy changes.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
-     "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
+     "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+     "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
     ]
    },
    {
-    "text": "Academic peer review faces collapse as AI-assisted submissions overwhelm volunteer reviewers, while fraudulent companies falsely claim human-written research, eroding trust in knowledge production.",
-    "links": [
-     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
-     "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
-    ]
-   },
-   {
-    "text": "Amazon is funding a major natural gas power plant for AI data centers, potentially becoming the largest single source of U.S. industrial climate pollution, contradicting earlier climate commitments.",
+    "text": "Amazon is funding a major natural gas power plant for AI data centers, contradicting its climate pledges and potentially becoming the largest U.S. industrial pollution source.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
     ]
    },
    {
-    "text": "Anthropic and Anthropic are applying invisible watermarks to AI-generated content to meet transparency requirements, while Spotify labels AI artists and Amazon obscures order details to block AI agent access.",
+    "text": "Anthropic and OpenAI are adding watermarks and provenance metadata to AI-generated content to meet transparency requirements, while Apple is developing photo verification to prove images aren't deepfakes.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-     "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
-     "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data"
+     "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata"
     ]
    }
   ]
@@ -90,6 +90,44 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+   "link": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-12T00:40:27+00:00",
+   "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that \"I was lead writer on this one! […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Saber Interactive's CEO denies allegations that the company replaced writers with ChatGPT on the Rideshare Stimulator game, but former lead writer Stella Sacco has publicly stated she was let go from the project. The dispute centers on whether Saber used AI to replace human writing work on an announced game developed by Unigine.",
+   "whyMatters": [
+    "Illustrates ongoing tensions in creative industries around AI displacement of human workers and the gap between company statements and worker accounts",
+    "Raises questions about transparency and accountability when AI is used to substitute for hired labor in game development"
+   ]
+  },
+  {
+   "title": "There are no lossless transformations of natural-language text",
+   "link": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-11T23:48:35+00:00",
+   "summary": "There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems crucial to me: You must stand behind every idea and every sentence in your docs . It is your respon",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Sophie Alpert articulates a policy for when engineers use LLMs to help edit or improve writing: the writer must take full responsibility for every idea and sentence in the final document. The underlying principle is that AI text transformation inevitably changes meaning and nuance, so human oversight cannot be casual.",
+   "whyMatters": [
+    "Addresses practical accountability in technical documentation where unclear writing can cause real problems",
+    "Establishes a framework for responsible AI use in writing that puts human judgment and ownership first, rather than treating AI output as ready-to-publish"
+   ]
+  },
+  {
    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
    "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
    "source": "Simon Willison",
@@ -125,6 +163,24 @@ window.NEWS_DATA = {
     "Commercial validation: pharma industry moving from AI skepticism to active procurement of biology-focused AI solutions",
     "Market signal that AI-drug discovery integration is becoming mainstream enterprise practice, not experimental",
     "Impacts AI industry segmentation and talent distribution toward biotech applications"
+   ]
+  },
+  {
+   "title": "datasette-upload-dbs 0.5a0",
+   "link": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-11T20:35:13+00:00",
+   "summary": "Release: datasette-upload-dbs 0.5a0 This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance. It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so /name starts serving ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The datasette-upload-dbs plugin, version 0.5a0, allows users to upload new SQLite databases to a hosted Datasette instance for immediate serving, and supports atomic swaps of databases with newer versions. The uploaded database is validated and swapped in safely.",
+   "whyMatters": [
+    "Enables easier data management and deployment workflows for users of Datasette, a data serving tool",
+    "Improves operational safety through atomic swaps and verification steps rather than direct file replacement"
    ]
   },
   {
@@ -371,6 +427,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "AI Is Dead. Organoids Are Alive",
+   "link": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-11T10:00:00+00:00",
+   "summary": "Mini human brains are being grown in labs all over the world. Soon, they could outthink neural networks.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers are growing miniature human brains (organoids) in laboratories around the world. The article suggests these lab-grown neural tissues could eventually surpass the capabilities of artificial neural networks.",
+   "whyMatters": [
+    "Represents a potential shift in how we approach brain-like computation—moving from silicon-based AI to biological systems",
+    "Raises significant ethical and philosophical questions about the moral status of lab-grown brain tissue that educators and faith leaders will need to grapple with"
+   ]
+  },
+  {
    "title": "Testing ads in ChatGPT",
    "link": "https://openai.com/index/testing-ads-in-chatgpt",
    "source": "OpenAI News",
@@ -407,24 +481,6 @@ window.NEWS_DATA = {
     "Enterprise AI distribution: OpenAI expanding beyond direct consumer/API access to deep cloud platform integration",
     "AWS-OpenAI partnership deepens competitive pressure on Google Cloud and Azure in enterprise AI deployment",
     "Cybersecurity as high-value AI application: vertical-specific models becoming key commercial differentiation strategy"
-   ]
-  },
-  {
-   "title": "AI Is Dead. Organoids Are Alive",
-   "link": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-11T10:00:00+00:00",
-   "summary": "Mini human brains are being grown in labs all over the world. Soon, they could outthink neural networks.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers are growing miniature human brains (organoids) in laboratories around the world. The article suggests these lab-grown neural tissues could eventually surpass the capabilities of artificial neural networks.",
-   "whyMatters": [
-    "Represents a potential shift in how we approach brain-like computation—moving from silicon-based AI to biological systems",
-    "Raises significant ethical and philosophical questions about the moral status of lab-grown brain tissue that educators and faith leaders will need to grapple with"
    ]
   },
   {
@@ -501,24 +557,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The Apache 2.0 license is cleaner and more commercially permissive than previous Llama licensing, removing legal friction for commercial and research applications",
     "Strong performance on task completion benchmarks signals this model can handle complex, multi-step workflows locally, relevant for developers building autonomous systems"
-   ]
-  },
-  {
-   "title": "Mark Zuckerberg doesn’t understand how to live",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-10T22:47:01+00:00",
-   "summary": "Recently, a man I was rock climbing with told me about how he'd used AI to make a motivational poster for himself, which he'd hung on his bedroom wall: a bear, walking a slackline over a canyon, holding a sign that said, \"Do cool shit.\" I made what I hoped was a polite noise. What […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge publishes a critical piece on Mark Zuckerberg's recent statements about AI and vision, framed through a personal anecdote about AI-generated motivational imagery. The article suggests Zuckerberg's philosophy lacks depth or grounding in how people actually live.",
-   "whyMatters": [
-    "Critiques the gap between techno-optimist AI rhetoric and practical human values, relevant to discussions of AI's proper role in society",
-    "Questions whether AI-generated inspirational content serves genuine human flourishing—a concern at the intersection of AI deployment and education/meaning-making"
    ]
   },
   {
@@ -1989,24 +2027,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "PipeNetwork/minimax-h3-mlx",
-   "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-04T19:10:09+00:00",
-   "summary": "PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included. This Python package ports it to MLX for running on Apple Silicon. I got it running on my M5 Max MacBook Pro. I clo",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MiniMax released MiniMax-H3, a multimodal generative system that accepts text, images, audio, and video to produce up to 15-second video clips with audio. A new MLX port makes it runnable on Apple Silicon devices like MacBook Pro.",
-   "whyMatters": [
-    "Open availability of powerful multimodal models on consumer hardware increases accessibility for developers and educators outside large tech labs",
-    "Enabling video generation on local devices raises both opportunities for creative work and questions about content authenticity and detection"
-   ]
-  },
-  {
    "title": "Why AI Washing Won’t Work Much Longer",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Washing-Wont-Work-Much-Longer-e3mvkl0",
    "source": "The AI Daily Brief",
@@ -2042,26 +2062,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Helps technically-minded users understand the actual capabilities and limitations of ChatGPT Work rather than marketing claims",
     "Relevant for educators and professionals deciding whether to adopt ChatGPT Work for their workflows"
-   ]
-  },
-  {
-   "title": "llm 0.32",
-   "link": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-04T17:15:33+00:00",
-   "summary": "Release: llm 0.32 See my detailed blog post about this release . Tags: llm",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The LLM library released version 0.32 with enhancements supporting the tooling updates in llm-anthropic.",
-   "whyMatters": [
-    "Infrastructure update enabling broader tool integration across multiple AI model providers",
-    "Part of ecosystem maturation making AI models more accessible and composable for developers"
    ]
   },
   {
