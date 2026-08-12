@@ -1,39 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-12T11:51:39.473967+00:00",
+ "generatedAt": "2026-08-12T17:59:32.196974+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-12T11:51:51.613784+00:00",
+  "generatedAt": "2026-08-12T18:00:01.205633+00:00",
   "bullets": [
    {
-    "text": "AI-powered newsrooms are now scooping mainstream journalists on breaking stories, signaling AI systems have crossed into competitive real-time news gathering and publishing.",
+    "text": "Twitch is now training Amazon's AI models on streamers' content—streams, VODs, chats, and images—with an opt-out mechanism now available for future use.",
     "links": [
-     "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
+     "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
+     "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
     ]
    },
    {
-    "text": "Both ChatGPT and Gemini reached 1 billion users, with Gemini becoming Google's fastest-growing product ever, marking a consolidation of the AI assistant market around two dominant players.",
+    "text": "ChatGPT and Gemini both reached 1 billion users, with Gemini becoming Google's fastest-growing product ever, but sustainability questions loom as release cycles slow.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
-     "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
+     "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+     "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
     ]
    },
    {
-    "text": "Researchers extracted hidden 'reasoning traces' from Claude, GPT, and Gemini APIs, revealing models' intermediate steps and raising concerns about model extraction and intellectual property theft.",
+    "text": "Companies are falsely marketing AI-generated content as human-created—from D'Addario's AI music denial to Research Gold's entirely AI-generated peer reviews—undermining trust in content authenticity.",
     "links": [
-     "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
-     "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything"
+     "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+     "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
     ]
    },
    {
-    "text": "Major platforms including Anthropic, Spotify, and Apple are implementing detection and labeling systems for AI-generated content, addressing the 'AI slop' backlash with provenance metadata and transparency tools.",
+    "text": "AI firms are reportedly purchasing and destroying rare books to extract training data, while peer review systems face collapse as AI submissions overwhelm volunteer reviewers.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-     "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
-     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
+     "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+     "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
     ]
    },
    {
-    "text": "Amazon is funding a major gas power plant to power AI data centers, contradicting climate pledges and raising questions about AI's true infrastructure costs and environmental impact.",
+    "text": "Amazon is building a major natural gas power plant for AI data centers, potentially becoming the largest single source of U.S. industrial climate pollution, contradicting earlier climate commitments.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
     ]
@@ -88,7 +88,281 @@ window.NEWS_DATA = {
  },
  "items": [
   {
-   "title": "The Job Interview Tattoo Guy Everyone Got Mad at Finally Explains Himself",
+   "title": "Twitch is Mining Peoples' Streams to Train Amazon's AI",
+   "link": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-12T17:58:48+00:00",
+   "summary": "Here's how to opt out of Twitch's new generative AI training setting.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Twitch has begun using streamers' content—streams, VODs, clips, chats, and channel images—to train Amazon's generative AI models. The platform now offers an opt-out setting that lets users prevent their content from being used in future AI training.",
+   "whyMatters": [
+    "Raises data privacy and consent concerns for content creators who may not have explicitly agreed to this use",
+    "Highlights broader pattern of tech platforms mining user-generated content for AI training without clear prior notice",
+    "Puts burden on individual creators to actively opt out rather than requiring opt-in consent"
+   ]
+  },
+  {
+   "title": "Twitch streamers can now opt out from training Amazon’s AI",
+   "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-12T17:29:10+00:00",
+   "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Twitch users can now opt out of allowing their streams, VODs, clips, chats, and channel content to be used for training Amazon's generative AI models. The opt-out mechanism lets users prevent future use of their content in Amazon's AI training.",
+   "whyMatters": [
+    "Provides creators control over their intellectual property and content reuse",
+    "Indicates Twitch/Amazon recognizes potential legal or ethical issues with unrestricted AI training data use",
+    "Follows pressure from creators and advocacy groups concerned about unpaid content extraction"
+   ]
+  },
+  {
+   "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-12T17:24:07+00:00",
+   "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plug-ins like Autotune introducing […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Guitar company D'Addario has admitted to using AI-generated music (via Suno) in a promotional video after weeks of denying the allegations and offering alternative explanations for the suspicious audio quality. The admission came only after mounting evidence forced the company's hand.",
+   "whyMatters": [
+    "Illustrates corporate reluctance to be transparent about AI use and initial deflection tactics",
+    "Affects trust with music professionals and industry stakeholders who view AI-generated music as deceptive marketing",
+    "Raises questions about authenticity and proper disclosure when companies promote products with AI-generated content"
+   ]
+  },
+  {
+   "title": "Scaling AI agents with trustworthy data",
+   "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-12T16:51:57+00:00",
+   "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Organizations are rapidly deploying AI agents but struggle to achieve expected ROI because they lack proper data infrastructure and trustworthy data foundations necessary to scale these systems effectively.",
+   "whyMatters": [
+    "Identifies gap between AI adoption enthusiasm and practical implementation challenges in enterprises",
+    "Shows data quality and governance are critical bottlenecks for agentic AI deployment",
+    "Suggests organizations need foundational work before advanced AI agents can deliver promised value"
+   ]
+  },
+  {
+   "title": "Made by Google 2026: all the Pixel news and announcements",
+   "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-12T16:31:54+00:00",
+   "summary": "Google has revealed a bunch of new Pixel devices ahead of its Made by Google event. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google’s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google is announcing new Pixel devices on August 12th, including the Pixel 11 lineup with multiple color options and a built-in light feature on Pro models. The announcements follow a series of leaks about the upcoming hardware.",
+   "whyMatters": [
+    "Reflects competition in consumer AI hardware as major tech firms integrate AI into devices",
+    "Hardware announcements signal the industry's direction for on-device AI capabilities"
+   ]
+  },
+  {
+   "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-12T16:26:04+00:00",
+   "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Paul Conyngham, an Australian entrepreneur who publicized his use of ChatGPT and Grok to develop a personalized cancer vaccine for his dog, has launched a startup called Gamgee to commercialize personalized mRNA cancer vaccines for dogs, with broader ambitions beyond veterinary medicine.",
+   "whyMatters": [
+    "Demonstrates how AI-assisted biotech research can move from anecdote to commercialization quickly",
+    "Shows potential medical applications of AI in personalized vaccine development",
+    "Raises questions about clinical validation, regulatory pathways, and claims substantiation for AI-designed treatments"
+   ]
+  },
+  {
+   "title": "Booksellers suspect AI firms are buying and then destroying rare books",
+   "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-12T15:19:17+00:00",
+   "summary": "AI firms quietly bulk buying rare books face resistance from booksellers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI companies are reportedly buying rare and valuable books in bulk, apparently destroying them after extracting text for AI training. Booksellers have noticed this pattern and are pushing back against the practice.",
+   "whyMatters": [
+    "Raises concerns about preservation of rare literary works and cultural heritage",
+    "Shows tension between AI training data needs and stewardship of irreplaceable materials",
+    "May prompt regulatory or ethical responses from publishers, libraries, and cultural institutions"
+   ]
+  },
+  {
+   "title": "Quoting Florian Herrengt",
+   "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-12T15:08:47+00:00",
+   "summary": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A developer describes a scenario where an AI bug fix fails after multiple attempts, and the team members resort to asking Claude for help without understanding the underlying data sources—resulting in endless AI-generated text that doesn't solve the problem.",
+   "whyMatters": [
+    "Illustrates risk of over-reliance on AI for problem-solving without understanding system fundamentals",
+    "Highlights knowledge debt and opacity when teams delegate decisions to AI without comprehension",
+    "Suggests potential for productivity theater where AI use creates appearance of action without actual progress"
+   ]
+  },
+  {
+   "title": "Podcast: Mark Zuckerberg’s 'Superintelligent' AI Future That No One Wants",
+   "link": "https://www.404media.co/podcast-mark-zuckerbergs-superintelligent-ai-future-that-no-one-wants/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-12T14:15:44+00:00",
+   "summary": "Zuckerberg's anti-social future; a company offering human writing that is actually just AI; and the big switch from Flock to Axon.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A podcast discusses Zuckerberg's vision for superintelligent AI, examines deceptive marketing where AI-generated writing is sold as human-authored, and reports on industry platform shifts.",
+   "whyMatters": [
+    "Highlights disconnect between tech leader visions and public sentiment about AI futures",
+    "Exposes fraudulent marketing practices leveraging AI to deceive consumers",
+    "Tracks infrastructure evolution in AI development and deployment tools"
+   ]
+  },
+  {
+   "title": "Putting sign language AI into users’ hands",
+   "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-08-12T14:01:59+00:00",
+   "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google DeepMind has released sign-language-to-text (SL2T), an AI model that translates sign language to text, now being deployed as new features for Deaf and hard of hearing users.",
+   "whyMatters": [
+    "Provides genuine accessibility benefit by removing communication barriers for Deaf users",
+    "Demonstrates practical AI application in inclusion and universal design",
+    "May significantly improve digital and workplace accessibility if deployed widely and reliably"
+   ]
+  },
+  {
+   "title": "4 New Camera Tricks on Google’s Latest Pixel 11 Smartphones",
+   "link": "https://www.wired.com/story/new-camera-tricks-on-google-latest-pixel-11-smartphones/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-12T14:00:00+00:00",
+   "summary": "From Magic Capture and Instant Night Sight to a built-in teleprompter, here’s a look at a few camera features on Google’s new Pixel 11 series.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google's new Pixel 11 smartphones include several AI-powered camera features such as Magic Capture, Instant Night Sight, and a built-in teleprompter function.",
+   "whyMatters": [
+    "Shows consumer AI integration in everyday devices and mainstream product development",
+    "Demonstrates practical AI use cases that improve user experience without requiring technical expertise",
+    "Indicates AI becoming standard feature differentiation in consumer electronics"
+   ]
+  },
+  {
+   "title": "AI Generated 3D Models Flood Market, But Almost No One Is Buying Them",
+   "link": "https://www.404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-12T13:36:41+00:00",
+   "summary": "The number of AI generated uploads to CGTrader would suggest AI is taking over the platform, but buyers are refusing to pay for AI generated models.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI-generated 3D models have flooded marketplaces like CGTrader, but buyers are largely refusing to purchase them despite the high volume of uploads, suggesting weak market demand.",
+   "whyMatters": [
+    "Shows market resistance to AI-generated creative assets, likely due to quality concerns or preference for human-created work",
+    "Indicates oversupply problem when low-cost AI generation meets skeptical buyers",
+    "Suggests AI commoditization does not automatically create economic value if outputs lack differentiation or perceived quality"
+   ]
+  },
+  {
+   "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+   "link": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-12T13:23:13+00:00",
+   "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too, because the Pixel […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google's $399 Pixel Watch 5 features a slightly faster processor and minor hardware improvements, but the focus is on AI and health features rather than hardware design. The device represents a $50 price increase from the previous generation.",
+   "whyMatters": [
+    "Shows hardware manufacturers shifting value proposition from devices to AI-powered features and services",
+    "Raises questions about whether AI integration justifies price increases for smartwatch users",
+    "Indicates priority on health monitoring and AI integration in wearable strategy"
+   ]
+  },
+  {
+   "title": "Grok is now an AI ‘teammate’ you can assign work",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-12T11:58:54+00:00",
+   "summary": "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace tasks, only coming back when their assigned work […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates",
+    "environment"
+   ],
+   "aiSummary": "SpaceX's Grok Bot is an always-on AI agent service that functions as an independent \"teammate,\" can sign into apps and websites, and completes multi-step workplace tasks autonomously in a cloud-based environment.",
+   "whyMatters": [
+    "Represents deployment of agentic AI for autonomous task execution in business workflows",
+    "Raises security and governance concerns about AI systems with independent access to corporate applications",
+    "Shows competition between different AI companies (OpenAI, Anthropic, xAI) in agent capability deployment"
+   ]
+  },
+  {
+   "title": "The Job-Interview Tattoo Guy Everyone Got Mad at Finally Explains Himself",
    "link": "https://www.wired.com/story/linkedin-grindset-tattoo-guy-explains-himself/",
    "source": "Wired · AI",
    "category": "ai",
@@ -158,6 +432,25 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Touches on AI safety and model security—relevant to how institutions safeguard proprietary reasoning systems",
     "Part of ongoing technical work on understanding and potentially compromising advanced AI model internals"
+   ]
+  },
+  {
+   "title": "From assistance to execution: How enterprises put AI to work",
+   "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-12T06:00:00+00:00",
+   "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI research shows how enterprises are adopting agentic AI using ChatGPT and related tools, with frontier firms pulling ahead in AI adoption and moving from AI-assisted tasks to autonomous AI execution.",
+   "whyMatters": [
+    "Documents accelerating enterprise shift from AI as assistant to AI as autonomous agent for task execution",
+    "Shows competitive divergence between early-adopting and slower-adopting firms in AI capabilities",
+    "Indicates market demand for agentic AI systems is driving rapid enterprise deployment"
    ]
   },
   {
@@ -252,26 +545,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Enables easier data management and deployment workflows for users of Datasette, a data serving tool",
     "Improves operational safety through atomic swaps and verification steps rather than direct file replacement"
-   ]
-  },
-  {
-   "title": "Made by Google 2026: all the Pixel news and announcements",
-   "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-11T20:33:23+00:00",
-   "summary": "Google is gearing up to reveal a bunch of new Pixel devices on August 12th. A series of leaks leading up to the event suggest that the Pixel 11 lineup will come in an array of colors, with signs pointing to a built-in light coming to Pro models. Teasers from Google also indicate that it […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google is announcing new Pixel devices on August 12th, including the Pixel 11 lineup with multiple color options and a built-in light feature on Pro models. The announcements follow a series of leaks about the upcoming hardware.",
-   "whyMatters": [
-    "Reflects competition in consumer AI hardware as major tech firms integrate AI into devices",
-    "Hardware announcements signal the industry's direction for on-device AI capabilities"
    ]
   },
   {
@@ -372,24 +645,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-11T14:45:44+00:00",
-   "summary": "Zoom has patched a major security vulnerability that could allow an attacker to hijack anyone's device during a meeting. In a blog post on Tuesday, researchers at A Security say they uncovered the flaw using \"fewer than 20 prompts on publicly available AI models,\" as reported earlier by Wired. The exploit involved Zoom's annotation feature, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers discovered a critical Zoom vulnerability that could allow attackers to hijack devices during calls, exploiting the annotation feature. They found the flaw using fewer than 20 prompts on public AI models, and Zoom has now patched it.",
-   "whyMatters": [
-    "Demonstrates how AI tools can accelerate discovery of software vulnerabilities, raising security implications for widely-used platforms",
-    "Highlights the speed at which AI enables both offense and defense in cybersecurity"
-   ]
-  },
-  {
    "title": "Company Offering ‘100% Human-Written, Never AI’ Medical Research Is Entirely AI",
    "link": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
    "source": "404 Media",
@@ -405,60 +660,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Exposes fraudulent misuse of AI in peer review and medical research, undermining scientific integrity",
     "Critical for educators and scholars: demonstrates how AI deception can corrupt the credibility of academic and medical institutions"
-   ]
-  },
-  {
-   "title": "Why your Amazon order confirmation emails have become so unhelpful",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-11T13:27:20+00:00",
-   "summary": "Earlier this summer, Amazon customers began noticing that emails related to their online orders looked sparse: Order confirmation emails didn't name specific items anymore, and instead listed only item categories. \"Your Beauty item is confirmed!\" an email about my retainer cleaning tablets read. Shoppers have posted other iterations of the redacted emails as well: \"Ordered: […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Amazon order confirmation emails have become less detailed, omitting specific item names and listing only product categories instead. The change appears related to protections against Gmail's AI agents accessing detailed order information.",
-   "whyMatters": [
-    "Shows tension between AI functionality (agent automation) and user transparency in commerce",
-    "Reflects companies' responses to AI scraping and data access by competitors' tools"
-   ]
-  },
-  {
-   "title": "Spotify says it won’t recommend music from ‘AI Personas’",
-   "link": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-11T13:19:55+00:00",
-   "summary": "Spotify will soon label AI artists and remove their music from your recommendations. The change, which will start rolling out in mid-September, means you'll see an \"AI Persona\" badge on an artist's profile across the app if they do \"not represent a real person.\" The music streaming platform will allow artists to disclose that they're […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Spotify will begin labeling AI-generated artists with an \"AI Persona\" badge and removing their music from personalized recommendations starting mid-September. Artists can disclose their AI status, but the platform will de-prioritize such content in recommendations.",
-   "whyMatters": [
-    "Addresses creator authenticity and listener expectations in music discovery algorithms",
-    "Signals platform accountability in managing synthetic content versus human creators"
-   ]
-  },
-  {
-   "title": "Claude will apply invisible watermarks to AI text and images",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-11T13:09:55+00:00",
-   "summary": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page. The changes are invisible to human […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic is adding machine-readable watermarks to Claude-generated text and digitally signed provenance metadata to generated files. The watermarks are invisible to humans but meet European transparency requirements for AI-generated content.",
-   "whyMatters": [
-    "Implements technical compliance with emerging EU AI regulations requiring AI output attribution",
-    "Provides infrastructure for tracing AI-generated content, relevant to educators verifying student work and institutions managing synthetic media"
    ]
   },
   {
@@ -552,26 +753,6 @@ window.NEWS_DATA = {
     "Enterprise AI distribution: OpenAI expanding beyond direct consumer/API access to deep cloud platform integration",
     "AWS-OpenAI partnership deepens competitive pressure on Google Cloud and Azure in enterprise AI deployment",
     "Cybersecurity as high-value AI application: vertical-specific models becoming key commercial differentiation strategy"
-   ]
-  },
-  {
-   "title": "The AI takeover of mathematics has begun",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-11T09:37:49+00:00",
-   "summary": "Mathematician James Maynard has spent a lot of time this past year \"soul searching.\" A professor at the University of Oxford and winner of the prestigious Fields Medal, Maynard told The Verge he's been grappling with the future of his field as the traditionally slow-moving discipline hurries to adapt to AI. Days before we spoke, […]",
-   "religionScore": 1,
-   "religionHits": [
-    "soul"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Leading mathematicians including Fields Medal winner James Maynard are reassessing their field as AI tools accelerate mathematical discovery and problem-solving, forcing the traditionally deliberate discipline to rapidly adapt.",
-   "whyMatters": [
-    "AI is reshaping how knowledge work is done—educators need to rethink how mathematics is taught and what mathematical skills remain distinctly human-centered",
-    "Broader question for academic fields and professions: as AI handles certain cognitive tasks faster, what becomes the role of human expertise and judgment?"
    ]
   },
   {
@@ -1059,24 +1240,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
-   "link": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-09T10:30:00+00:00",
-   "summary": "There are endless ways to record and transcribe your virtual meetings with AI. Here’s an option that’s free and open source.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meetily is a free, open-source tool that transcribes and summarizes virtual meetings without requiring a paid subscription. The article explains how the tool works as an alternative to commercial meeting transcription services.",
-   "whyMatters": [
-    "Offers cost-free meeting transcription for organizations—especially relevant for nonprofits, religious institutions, and educational settings with limited budgets",
-    "Open-source model allows transparency and customization, addressing concerns about data privacy in sensitive contexts like clergy counseling or confidential community discussions"
-   ]
-  },
-  {
    "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
    "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
    "source": "Simon Willison",
@@ -1462,24 +1625,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks escalation of AI companies building proprietary chips to control costs and avoid supply chain bottlenecks",
     "In-house silicon development could become a critical competitive advantage as compute demands for large models grow"
-   ]
-  },
-  {
-   "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI’s Soaring Cost",
-   "link": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-06T19:13:34+00:00",
-   "summary": "SAP says it needs to “be disciplined in how we spend.” That includes still freezing hires and travel. Unless it's to do with AI, of course.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "SAP has frozen most hiring and travel spending due to the rising costs of AI infrastructure, though exceptions are being made for AI-related activities. The company is tightening budgets while prioritizing AI development and deployment.",
-   "whyMatters": [
-    "Demonstrates how AI compute costs are forcing enterprise software companies to make hard trade-offs in other areas",
-    "Shows that AI adoption is becoming a capital-intensive priority that reshapes organizational spending across the industry"
    ]
   },
   {
@@ -1930,24 +2075,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Podcast: This Man Might Go to Prison for Wiping His Phone",
-   "link": "https://www.404media.co/podcast-this-man-might-go-to-prison-for-wiping-his-phone/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-05T14:23:24+00:00",
-   "summary": "The case of Samuel Tunick allegedly wiping a phone before DHS could search it; inside an AI-powered TIkTok Shop; and Google Earth's dumb AI tool.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A podcast episode covers the case of Samuel Tunick, who may face prison time for allegedly wiping his phone before a DHS search, alongside coverage of AI-powered TikTok Shop and Google Earth's AI tools.",
-   "whyMatters": [
-    "Raises questions about intersection of AI evidence, digital forensics, and criminal liability in the AI era",
-    "Highlights both AI applications in commerce (TikTok Shop) and incidental AI features in widely-used tools (Google Earth)"
-   ]
-  },
-  {
    "title": "SpaceX spooks investors with debut earnings report",
    "link": "https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/",
    "source": "Ars Technica · AI",
@@ -2001,26 +2128,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reasoning traces visibility helps developers understand how AI models arrive at conclusions, useful for educational contexts where transparency matters",
     "Server-side tools and improved logging infrastructure make it easier for developers to build and audit AI applications responsibly"
-   ]
-  },
-  {
-   "title": "llm-anthropic 0.26",
-   "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-04T22:00:58+00:00",
-   "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Python tools= . The previous -o web_search* options have been removed in favor of -T WebSearch . #79 Upgraded to llm>=0.32 . ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "llm-anthropic version 0.26 released with support for new Claude models (Fable-5, Sonnet-5, Opus-5) and added server-side tools including WebSearch, WebFetch, and CodeExecution.",
-   "whyMatters": [
-    "Expands capability and tooling for developers using Anthropic's models via the LLM command-line interface",
-    "Reflects ongoing iteration in making language models more functional for practical development workflows"
    ]
   },
   {
@@ -2115,26 +2222,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to educators considering how to incorporate ChatGPT responsibly into their teaching and student learning",
     "Represents an explicit effort by OpenAI to shape educational adoption through purpose-built tools, which requires educators to evaluate both benefits and risks for their specific contexts"
-   ]
-  },
-  {
-   "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
-   "link": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-03T22:11:39+00:00",
-   "summary": "$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "A U.S. company has supplied AI capabilities to Ukrainian drones via a $100 million deal, enabling 50,000 inexpensive drones to autonomously track and strike targets without human guidance per strike. This represents a significant military application of autonomous targeting technology.",
-   "whyMatters": [
-    "Demonstrates accelerating military deployment of autonomous AI decision-making in active warfare",
-    "Raises urgent questions about autonomous weapons governance and the pace of field deployment outrunning policy frameworks"
    ]
   },
   {
@@ -2409,24 +2496,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Dramatic cost reductions make advanced AI capabilities more accessible to developers, educators, and organizations with budget constraints",
     "Rapid price compression reflects competitive pressure and efficiency gains in the AI market, changing the economics of AI deployment"
-   ]
-  },
-  {
-   "title": "Disrupting a Criminal Scam Operation",
-   "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-07-31T00:00:00+00:00",
-   "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI disrupted a Cambodia-based criminal operation that used ChatGPT to run investment scams, romance fraud, gambling schemes, and impersonation attacks. The company identified and shut down the infrastructure supporting these illegal activities.",
-   "whyMatters": [
-    "Demonstrates real-world criminal exploitation of AI tools and OpenAI's enforcement capability",
-    "Raises questions about platform responsibility and the practical limits of safety measures once tools are deployed at scale"
    ]
   },
   {
@@ -2839,24 +2908,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Suggests the 'rogue AI agent' narrative may be overstated relative to actual precedent in AI model containment failures",
     "Highlights need for accurate historical framing of AI security incidents rather than treating each as novel"
-   ]
-  },
-  {
-   "title": "The path to artificial superintelligence",
-   "link": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-27T12:00:00+00:00",
-   "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review describes a vision of AI systems working together as specialized agents—such as one handling symptom assessment, another scheduling, a third managing insurance—but notes these agents cannot yet truly coordinate despite exchanging data.",
-   "whyMatters": [
-    "Highlights a key technical barrier to agentic AI: coordination between autonomous systems with different objectives",
-    "Moving beyond this limitation would substantially change how AI systems solve complex, multi-domain problems in healthcare and other sectors"
    ]
   },
   {
