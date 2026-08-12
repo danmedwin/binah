@@ -1,38 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-12T10:40:50.671552+00:00",
+ "generatedAt": "2026-08-12T11:51:39.473967+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-12T10:41:06.158001+00:00",
+  "generatedAt": "2026-08-12T11:51:51.613784+00:00",
   "bullets": [
    {
-    "text": "Researchers extracted proprietary AI models' encrypted reasoning traces, revealing how Claude, GPT, and Gemini think through problems—a security flaw major labs must now address.",
+    "text": "AI-powered newsrooms are now scooping mainstream journalists on breaking stories, signaling AI systems have crossed into competitive real-time news gathering and publishing.",
+    "links": [
+     "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
+    ]
+   },
+   {
+    "text": "Both ChatGPT and Gemini reached 1 billion users, with Gemini becoming Google's fastest-growing product ever, marking a consolidation of the AI assistant market around two dominant players.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+     "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
+    ]
+   },
+   {
+    "text": "Researchers extracted hidden 'reasoning traces' from Claude, GPT, and Gemini APIs, revealing models' intermediate steps and raising concerns about model extraction and intellectual property theft.",
     "links": [
      "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
      "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything"
     ]
    },
    {
-    "text": "AI newsrooms are now breaking stories faster than traditional journalists, including scooping major outlets on OpenAI security breaches, marking a shift in how news gatekeeping works.",
+    "text": "Major platforms including Anthropic, Spotify, and Apple are implementing detection and labeling systems for AI-generated content, addressing the 'AI slop' backlash with provenance metadata and transparency tools.",
     "links": [
-     "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
+     "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+     "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations",
+     "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/"
     ]
    },
    {
-    "text": "A fraudulent medical research company falsely claimed human authorship while actually using AI-generated content and researchers' stolen identities, exposing dangers to scientific integrity.",
+    "text": "Amazon is funding a major gas power plant to power AI data centers, contradicting climate pledges and raising questions about AI's true infrastructure costs and environmental impact.",
     "links": [
-     "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/"
-    ]
-   },
-   {
-    "text": "Leading mathematicians are reassessing their discipline as AI accelerates discovery, forcing the traditionally deliberate field to adapt rapidly to new tools and methods.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun"
-    ]
-   },
-   {
-    "text": "Anthropic and OpenAI are adding invisible watermarks and cryptographic provenance to AI-generated text and images to meet transparency requirements and combat deepfakes.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
+     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
     ]
    }
   ]
@@ -84,6 +87,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The Job Interview Tattoo Guy Everyone Got Mad at Finally Explains Himself",
+   "link": "https://www.wired.com/story/linkedin-grindset-tattoo-guy-explains-himself/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-12T10:45:00+00:00",
+   "summary": "LemonLime cofounder Jordan Zietz hears your criticism loud and clear. That’s why he got his startup’s logo tattooed on his shoulder.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jordan Zietz, cofounder of LemonLime, responded to public backlash over getting his startup's logo tattooed on his shoulder by explaining his decision. The tattoo became a flashpoint on social media for perceived excessive corporate loyalty or performative hustle culture.",
+   "whyMatters": [
+    "Reflects tensions in startup culture around authentic commitment versus performative displays of dedication",
+    "Illustrates how social media amplifies and debates professional identity markers in the tech industry"
+   ]
+  },
   {
    "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
    "link": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
@@ -1053,24 +1074,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Offers cost-free meeting transcription for organizations—especially relevant for nonprofits, religious institutions, and educational settings with limited budgets",
     "Open-source model allows transparency and customization, addressing concerns about data privacy in sensitive contexts like clergy counseling or confidential community discussions"
-   ]
-  },
-  {
-   "title": "These AI Barons Are Ready to Give Away Their Fortunes",
-   "link": "https://www.wired.com/story/ai-billionaires-are-pledging-their-wealth-good-or-bad/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-09T09:30:00+00:00",
-   "summary": "A new generation of philanthropists made rich by artificial intelligence are preparing to give away their vast wealth. What should we make of a multi-billion-dollar pinky promise?",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI industry billionaires are publicly pledging to donate large portions of their wealth to philanthropy. The article examines what these pledges mean and raises questions about the credibility and impact of such commitments from tech's newest fortunes.",
-   "whyMatters": [
-    "Sets expectations for how AI wealth might be deployed—relevant to educators and communities considering where resources for AI ethics and responsible development come from",
-    "Raises accountability questions about philanthropic pledges in tech, touching on governance and trust in how industry leaders shape their own influence"
    ]
   },
   {
