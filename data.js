@@ -1,37 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-13T10:41:52.563026+00:00",
+ "generatedAt": "2026-08-13T11:51:55.141532+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-13T10:42:05.240110+00:00",
+  "generatedAt": "2026-08-13T11:52:06.173870+00:00",
   "bullets": [
    {
-    "text": "AI models now accessible as autonomous 'teammates' that sign into apps and complete multi-step workplace tasks unsupervised, raising execution speed and dependency risks alike.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-Bot-Finally-Makes-AI-Agents-Easy-e3navt9"
-    ]
-   },
-   {
-    "text": "Both ChatGPT and Gemini surpassed 1 billion users, with Gemini growing faster than any prior Google product, signaling mainstream AI adoption and sustaining business models.",
+    "text": "ChatGPT and Gemini both reached 1 billion users, with Gemini becoming Google's fastest-growing product ever, marking mainstream AI adoption at scale.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
      "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
     ]
    },
    {
-    "text": "Amazon funded a massive gas power plant for AI data centers, contradicting climate pledges and making it potentially the largest industrial pollution source in the U.S.",
-    "links": []
-   },
-   {
-    "text": "Fatty liver disease, affecting over a billion globally, may be detected early via AI tools before progression to serious complications, demonstrating preventive medical applications.",
+    "text": "Twitch users can now opt out of having their streams, chats, and content used to train Amazon's AI models after years of undisclosed use.",
     "links": [
-     "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/"
+     "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+     "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+     "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/"
     ]
    },
    {
-    "text": "Google DeepMind released sign-language-to-text AI now deployed to serve Deaf and hard-of-hearing users, expanding accessibility while raising questions about cultural representation in AI design.",
+    "text": "SpaceX's Grok Bot launched as a significant AI agent platform enabling autonomous multi-step workplace task completion, escalating competition in autonomous AI assistants.",
     "links": [
-     "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+     "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-Bot-Finally-Makes-AI-Agents-Easy-e3navt9"
+    ]
+   },
+   {
+    "text": "Amazon is building a massive natural gas power plant for AI data centers, potentially creating the largest single source of US industrial climate pollution despite climate pledges.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/"
+    ]
+   },
+   {
+    "text": "Researchers extracted reasoning traces from major AI models (Claude, GPT, Gemini), revealing intermediate reasoning steps and raising concerns about model security and potential jailbreaking.",
+    "links": [
+     "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
+     "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/"
     ]
    }
   ]
@@ -82,21 +87,41 @@ window.NEWS_DATA = {
  },
  "items": [
   {
-   "title": "How kids feel about AI, in their own words",
-   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-   "source": "MIT Tech Review · AI",
+   "title": "Twitch streamers can now opt out from training Amazon’s AI",
+   "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+   "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+   "date": "2026-08-13T11:43:40+00:00",
+   "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
+   "aiSummary": "Twitch users can now opt out of allowing their streams, VODs, clips, chats, and channel content to be used for training Amazon's generative AI models. The opt-out mechanism lets users prevent future use of their content in Amazon's AI training.",
    "whyMatters": [
-    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
-    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+    "Provides creators control over their intellectual property and content reuse",
+    "Indicates Twitch/Amazon recognizes potential legal or ethical issues with unrestricted AI training data use",
+    "Follows pressure from creators and advocacy groups concerned about unpaid content extraction"
+   ]
+  },
+  {
+   "title": "Claude's new Scarlet Letter watermark is invisible — for now",
+   "link": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-13T11:10:18+00:00",
+   "summary": "The mark flags anything Claude processed, even human writing it only edited.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic has added an invisible watermark to Claude that flags any content the AI has processed or edited, even when Claude only makes minor revisions to human-written text. The watermark is currently imperceptible but the technology exists to make it visible in the future.",
+   "whyMatters": [
+    "Raises provenance and transparency questions for educators and institutions using Claude—flagged content could be used to track AI involvement in student work, assignments, or published material",
+    "Creates friction between legitimate uses (disclosing AI assistance) and potential misuse (blanket marking of minimally-edited human work as AI-processed)",
+    "The 'invisible for now' framing suggests future visibility and enforcement mechanisms that could reshape how institutions handle generative AI output and original authorship claims"
    ]
   },
   {
@@ -115,6 +140,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
     "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
+   ]
+  },
+  {
+   "title": "How kids feel about AI, in their own words",
+   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
+   "whyMatters": [
+    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
+    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
    ]
   },
   {
@@ -339,25 +382,6 @@ window.NEWS_DATA = {
     "Raises data privacy and consent concerns for content creators who may not have explicitly agreed to this use",
     "Highlights broader pattern of tech platforms mining user-generated content for AI training without clear prior notice",
     "Puts burden on individual creators to actively opt out rather than requiring opt-in consent"
-   ]
-  },
-  {
-   "title": "Twitch streamers can now opt out from training Amazon’s AI",
-   "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-12T17:29:10+00:00",
-   "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Twitch users can now opt out of allowing their streams, VODs, clips, chats, and channel content to be used for training Amazon's generative AI models. The opt-out mechanism lets users prevent future use of their content in Amazon's AI training.",
-   "whyMatters": [
-    "Provides creators control over their intellectual property and content reuse",
-    "Indicates Twitch/Amazon recognizes potential legal or ethical issues with unrestricted AI training data use",
-    "Follows pressure from creators and advocacy groups concerned about unpaid content extraction"
    ]
   },
   {
@@ -1286,24 +1310,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-   "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-10T00:00:00+00:00",
-   "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Virgin Atlantic is using ChatGPT Work to accelerate research, product planning, and decision-making by connecting customer journey signals across teams. The deployment spans multiple business functions.",
-   "whyMatters": [
-    "Demonstrates how enterprises are using AI to integrate insights across departments and speed decision cycles—reshaping organizational workflows",
-    "Shows AI adoption in customer-facing industries, raising questions about how these tools affect customer data handling and service quality"
-   ]
-  },
-  {
    "title": "Premium seats are coming to ChatGPT Business",
    "link": "https://openai.com/index/premium-seats-chatgpt-business",
    "source": "OpenAI News",
@@ -1319,6 +1325,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Tiered pricing strategy emerging as usage patterns clarify business model",
     "Indicates demand stratification: some users hit usage ceilings and need premium access"
+   ]
+  },
+  {
+   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+   "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T00:00:00+00:00",
+   "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Virgin Atlantic is using ChatGPT Work to accelerate research, product planning, and decision-making by connecting customer journey signals across teams. The deployment spans multiple business functions.",
+   "whyMatters": [
+    "Demonstrates how enterprises are using AI to integrate insights across departments and speed decision cycles—reshaping organizational workflows",
+    "Shows AI adoption in customer-facing industries, raising questions about how these tools affect customer data handling and service quality"
    ]
   },
   {
@@ -2137,24 +2161,6 @@ window.NEWS_DATA = {
    "aiSummary": "Reddit has announced upcoming changes to old.reddit.com, citing concerns about \"bad behavior\" on the platform.",
    "whyMatters": [
     "Not directly relevant to AI news or the specified audience's primary interests"
-   ]
-  },
-  {
-   "title": "Hank Green found the AI problem that YouTube labels can’t catch",
-   "link": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-05T19:51:40+00:00",
-   "summary": "\"Slop\" isn't the only problem.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Content creator Hank Green identified AI-related problems on YouTube beyond AI-generated content (\"slop\") that current labeling systems cannot detect.",
-   "whyMatters": [
-    "Reveals limitations in current AI content moderation and labeling approaches",
-    "Suggests need for better detection mechanisms for subtle AI-generated content problems"
    ]
   },
   {
