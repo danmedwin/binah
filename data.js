@@ -1,35 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-12T23:47:51.849859+00:00",
+ "generatedAt": "2026-08-13T06:20:07.799014+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-12T23:48:40.718346+00:00",
+  "generatedAt": "2026-08-13T06:20:19.715695+00:00",
   "bullets": [
    {
-    "text": "Both ChatGPT and Gemini reached 1 billion users, with Gemini becoming Google's fastest-growing product ever, signaling mainstream AI adoption at scale.",
+    "text": "Both ChatGPT and Gemini have reached 1 billion users, with Gemini becoming Google's fastest-growing product ever, signaling mainstream AI adoption at unprecedented scale.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
      "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
     ]
    },
    {
-    "text": "Amazon is funding a massive natural gas power plant for AI data centers that may become the U.S.'s largest single source of industrial climate pollution, contradicting its climate pledges.",
-    "links": []
-   },
-   {
-    "text": "Amazon used Twitch user-generated content to train AI models for years without explicit consent; Twitch now offers opt-out, as disclosure grows around unauthorized AI training data practices.",
+    "text": "SpaceX's Grok Bot launches as a genuinely consequential autonomous AI agent platform that can independently execute multi-step workplace tasks, marking a major shift from chatbot assistance to AI execution.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
+     "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+     "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch"
     ]
    },
    {
-    "text": "Meta released Muse Glimmer, an open-source 30-billion-parameter model optimized for autonomous AI agents, signaling renewed competitive pressure in open-weights AI development.",
+    "text": "Amazon has been training AI models on Twitch user content for years without explicit consent; the platform now offers an opt-out but raises broader questions about creator rights and data use.",
     "links": [
-     "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
-     "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/"
+     "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+     "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
     ]
    },
    {
-    "text": "Academic peer review faces collapse as AI-assisted paper submissions overwhelm volunteer reviewers, threatening gatekeeping of research quality.",
+    "text": "Researchers discovered method to extract reasoning traces from proprietary LLM APIs, revealing potential security vulnerabilities in how companies guard their model's internal reasoning logic.",
+    "links": [
+     "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+     "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/"
+    ]
+   },
+   {
+    "text": "The academic peer review system faces potential collapse as AI-generated submissions outpace volunteer reviewers, threatening the foundation of scientific quality control.",
     "links": [
      "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/"
     ]
@@ -84,11 +88,29 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+   "link": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-08-13T01:53:47+00:00",
+   "summary": "AI teammate category just had its most significant new entrant yet",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!HIbH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2087221157787525120.jpg",
+   "themes": [],
+   "aiSummary": "SpaceX's Grok 4.6 and a new Grok @Bot feature have launched, marking what observers are calling the most significant entry yet into the AI teammate category—a space increasingly competitive with other AI assistant platforms.",
+   "whyMatters": [
+    "Grok is now positioned as a direct competitor to Claude, ChatGPT, and other AI teammates, expanding the practical uses of Grok beyond its original twitter/X integration",
+    "SpaceX's investment in productized AI (not just capability, but team collaboration tools) signals serious intent to compete in the core AI assistant market"
+   ]
+  },
+  {
    "title": "Made by Google 2026: all the Pixel news and announcements",
    "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-08-12T23:36:06+00:00",
+   "date": "2026-08-13T00:06:37+00:00",
    "summary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google’s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring thinner bezels, alongside a […]",
    "religionScore": 0,
    "religionHits": [],
@@ -101,6 +123,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects competition in consumer AI hardware as major tech firms integrate AI into devices",
     "Hardware announcements signal the industry's direction for on-device AI capabilities"
+   ]
+  },
+  {
+   "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+   "link": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-12T23:59:23+00:00",
+   "summary": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/deepseek-pro-low.png",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "DeepSeek released V4 Pro 0813, the latest version of their Pro model, available via API through OpenRouter. The timing and announcement approach is unclear, with no obvious official announcement page from DeepSeek, and open-source availability status is unconfirmed.",
+   "whyMatters": [
+    "DeepSeek continues rapid iteration on their Pro tier, potentially offering an alternative to closed models like GPT-5.6 Sol Ultra",
+    "The lack of clear announcement or communication from DeepSeek makes it harder to assess their release strategy and whether open weights will follow historical patterns"
    ]
   },
   {
@@ -210,6 +252,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI agents moving from research/expert territory toward mainstream usability",
     "Accessibility improvements must be matched by solutions to reliability and trust problems in agent behavior"
+   ]
+  },
+  {
+   "title": "alchemy-utils 0.1a0",
+   "link": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-12T19:51:30+00:00",
+   "summary": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison released alchemy-utils 0.1a0, a prototype database-agnostic library built using AI, that aims to replicate the core API of sqlite-utils (insert, upsert) but work across multiple database systems rather than just SQLite.",
+   "whyMatters": [
+    "Demonstrates practical use of LLMs like Codex and GPT-5.6 Sol Ultra for research spikes and code generation on real developer tools",
+    "Could simplify database operations for developers who work with multiple database backends, potentially reducing boilerplate code across projects"
    ]
   },
   {
@@ -819,24 +881,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI Is Dead. Organoids Are Alive",
-   "link": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-11T10:00:00+00:00",
-   "summary": "Mini human brains are being grown in labs all over the world. Soon, they could outthink neural networks.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers are growing miniature human brains (organoids) in laboratories around the world. The article suggests these lab-grown neural tissues could eventually surpass the capabilities of artificial neural networks.",
-   "whyMatters": [
-    "Represents a potential shift in how we approach brain-like computation—moving from silicon-based AI to biological systems",
-    "Raises significant ethical and philosophical questions about the moral status of lab-grown brain tissue that educators and faith leaders will need to grapple with"
-   ]
-  },
-  {
    "title": "Testing ads in ChatGPT",
    "link": "https://openai.com/index/testing-ads-in-chatgpt",
    "source": "OpenAI News",
@@ -873,6 +917,24 @@ window.NEWS_DATA = {
     "Enterprise AI distribution: OpenAI expanding beyond direct consumer/API access to deep cloud platform integration",
     "AWS-OpenAI partnership deepens competitive pressure on Google Cloud and Azure in enterprise AI deployment",
     "Cybersecurity as high-value AI application: vertical-specific models becoming key commercial differentiation strategy"
+   ]
+  },
+  {
+   "title": "AI Is Dead. Organoids Are Alive",
+   "link": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-11T10:00:00+00:00",
+   "summary": "Mini human brains are being grown in labs all over the world. Soon, they could outthink neural networks.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers are growing miniature human brains (organoids) in laboratories around the world. The article suggests these lab-grown neural tissues could eventually surpass the capabilities of artificial neural networks.",
+   "whyMatters": [
+    "Represents a potential shift in how we approach brain-like computation—moving from silicon-based AI to biological systems",
+    "Raises significant ethical and philosophical questions about the moral status of lab-grown brain tissue that educators and faith leaders will need to grapple with"
    ]
   },
   {
@@ -1212,6 +1274,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+   "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-10T00:00:00+00:00",
+   "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Virgin Atlantic is using ChatGPT Work to accelerate research, product planning, and decision-making by connecting customer journey signals across teams. The deployment spans multiple business functions.",
+   "whyMatters": [
+    "Demonstrates how enterprises are using AI to integrate insights across departments and speed decision cycles—reshaping organizational workflows",
+    "Shows AI adoption in customer-facing industries, raising questions about how these tools affect customer data handling and service quality"
+   ]
+  },
+  {
    "title": "How Zapier transformed core marketing processes with ChatGPT Work",
    "link": "https://openai.com/index/zapier",
    "source": "OpenAI News",
@@ -1245,24 +1325,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Tiered pricing strategy emerging as usage patterns clarify business model",
     "Indicates demand stratification: some users hit usage ceilings and need premium access"
-   ]
-  },
-  {
-   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-   "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-10T00:00:00+00:00",
-   "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Virgin Atlantic is using ChatGPT Work to accelerate research, product planning, and decision-making by connecting customer journey signals across teams. The deployment spans multiple business functions.",
-   "whyMatters": [
-    "Demonstrates how enterprises are using AI to integrate insights across departments and speed decision cycles—reshaping organizational workflows",
-    "Shows AI adoption in customer-facing industries, raising questions about how these tools affect customer data handling and service quality"
    ]
   },
   {
@@ -2084,24 +2146,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
-   "link": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-05T19:42:38+00:00",
-   "summary": "Back in 2022 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job of it! You can play the game here . Here's the GitHub repo , and a short video de",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/raccoon-heist-tweet.webp",
-   "themes": [],
-   "aiSummary": "Claude Fable 5 successfully built a complete, playable game from a four-year-old tweet containing a game concept and DALL-E concept art, completing the task in a single shot via Claude Code.",
-   "whyMatters": [
-    "Demonstrates substantial progress in agentic code generation: legacy prompts now executable end-to-end by modern models",
-    "Shows practical utility of agents for creative/exploratory development tasks beyond traditional programming"
-   ]
-  },
-  {
    "title": "Why the Data Center Fight Has Little to Do With AI",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-the-Data-Center-Fight-Has-Little-to-Do-With-AI-e3n1897",
    "source": "The AI Daily Brief",
@@ -2153,26 +2197,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Cursor and kernel architecture are active areas of AI engineering iteration",
     "News item lacks sufficient detail in provided blurb to assess specific impact"
-   ]
-  },
-  {
-   "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-   "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-04T23:58:24+00:00",
-   "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates o",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/best-pelicans.gif",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison released LLM 0.32, a major update to his LLM command-line tool that adds support for visible reasoning traces, server-side provider tools, improved SQLite logging, and integration with OpenAI's Responses API. The llm-anthropic plugin also received substantial updates alongside this release.",
-   "whyMatters": [
-    "Developers working with local LLM tools gain better visibility into model reasoning and improved logging infrastructure for debugging and auditing AI interactions",
-    "Enhanced reasoning trace support helps users understand how models arrive at answers, relevant for educators explaining AI capabilities and limitations to students"
    ]
   },
   {
@@ -3025,26 +3049,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents the accelerating pace of agent-based automation replacing earlier software economics and competitive advantages",
     "Indicates immediate practical pressure on workforce and business model adaptation, not theoretical future concerns"
-   ]
-  },
-  {
-   "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
-   "link": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-23T05:18:47+00:00",
-   "summary": "a quiet day lets us highlight a new neolab win.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/9_0hs2sxHHo",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Laguna S 2.1, a new model from Neolab, has been released and offers better performance than some larger competitors at a lower cost, specifically positioning itself as cheaper than Deepseek v4 Flash while outperforming v4 Pro.",
-   "whyMatters": [
-    "Demonstrates continued competition in the model market where smaller, efficient architectures can outperform larger ones on cost and capability metrics",
-    "Suggests progress in making advanced capabilities more accessible and economical for builders and organizations"
    ]
   },
   {
