@@ -1,41 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-14T17:56:04.500571+00:00",
+ "generatedAt": "2026-08-14T23:26:30.114869+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-14T17:56:23.774593+00:00",
+  "generatedAt": "2026-08-14T23:26:45.111488+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic cut prices amid competition from Chinese AI rivals and xAI's Grok, reshaping the market from winner-take-all to multi-provider competition.",
+    "text": "OpenAI and Anthropic are in a price war as Chinese competitors gain ground, with xAI's Grok 4.6 and others offering strong performance at lower cost, reshaping the AI provider landscape.",
     "links": [
      "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop"
     ]
    },
    {
-    "text": "Meta patents AI glasses using facial recognition to auto-curate social events into highlight reels, raising privacy concerns about pervasive surveillance in personal spaces.",
-    "links": [
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
-    ]
-   },
-   {
-    "text": "Litigants embed hidden prompts in court filings expecting judges use AI, while courts warn of widespread chatbot misuse—exposing legal system vulnerability to AI manipulation.",
+    "text": "A litigant embedded AI prompts in legal filings hoping to trick or exploit the court, revealing desperation in using AI and raising concerns about whether courts themselves use AI systems.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
      "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
     ]
    },
    {
-    "text": "Google and Apple advance localized AI: Gemini 3.7 Flash released in three weeks; Apple builds custom LLM for China via Alibaba partnership despite U.S.-China tensions.",
+    "text": "Anthropic is projected to reach a $2 trillion valuation on IPO, driven by rapid revenue growth, potentially the largest IPO in history.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-     "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
+     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
     ]
    },
    {
-    "text": "Anthropic adds invisible watermarks to Claude-generated content; Google lets users disable AI image watermarks—opposing approaches to tracing AI-created media.",
+    "text": "Google DeepMind released sign-language-to-text AI now being deployed for Deaf and hard of hearing users, and Meta patented AI glasses with facial recognition to auto-generate event highlight reels.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-     "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
+     "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
+    ]
+   },
+   {
+    "text": "Police surveillance platform Flock is tightening access restrictions and Twitch now lets streamers opt out of Amazon AI training after years of undisclosed content use.",
+    "links": [
+     "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+     "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
     ]
    }
   ]
@@ -85,6 +85,64 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "How to Decide What Work AI Should Do for You: The AI Deputization Audit",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-08-14T21:57:48+00:00",
+   "summary": "OpenAI’s Computer History and GrokBot’s “teach a task” feature point to a new phase of AI: tools that learn how you work so they can take more work off your plate. NLW introduces the AI Deputization Audit, a simple framework for deciding what to hand over, what to do alongside AI, and what to keep for yourself. In the headlines: Gemini 3.7 Flash, the true cost of cheaper models, GPT-5.6 Sol’s ultr",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124238408/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-14%2F429864343-44100-2-18aa36cf02186.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI's Computer History and GrokBot features show AI systems learning how users work to automate more tasks. NLW proposes the AI Deputization Audit, a framework for deciding which work to delegate to AI, which to do alongside it, and which to keep entirely human.",
+   "whyMatters": [
+    "Helps individuals and organizations make intentional choices about AI automation rather than defaulting to full delegation",
+    "Relevant to educators and clergy who must decide which aspects of their work—teaching, mentoring, pastoral care—can be augmented versus those requiring human judgment and presence"
+   ]
+  },
+  {
+   "title": "Don't classify. Hallucinate!",
+   "link": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-14T21:54:35+00:00",
+   "summary": "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the exi",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Rather than forcing an LLM to choose from a fixed list of tags (which requires feeding it all options upfront), a better approach is to have the model freely generate tags, then match them to existing tags via vector embeddings. This avoids the computational bottleneck of large vocabulary classification.",
+   "whyMatters": [
+    "Demonstrates practical improvement in how to structure LLM prompts for tagging and classification tasks",
+    "Shows that sometimes reformulating a problem—asking the model to generate rather than classify—produces better results with lower computational overhead"
+   ]
+  },
+  {
+   "title": "The Next Big Influencer Is This 4-Foot-Tall Robot From China",
+   "link": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-14T20:59:03+00:00",
+   "summary": "The Unitree G1 has found online fame as a relatively affordable robot that can charm a crowd. But can it ever hold down a real job?",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "The Unitree G1, an affordable humanoid robot from China, has gained social media popularity and can perform entertaining movements. The article questions whether its appeal as a viral novelty can translate into practical real-world job capability.",
+   "whyMatters": [
+    "Highlights the gap between AI/robotics consumer appeal and actual utility in productive work",
+    "Relevant to assessing hype cycles in robotics and whether hardware advances match claims of practical deployment"
+   ]
+  },
   {
    "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
    "link": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
@@ -715,24 +773,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How kids feel about AI, in their own words",
-   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
-   "whyMatters": [
-    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
-    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
-   ]
-  },
-  {
    "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
    "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
    "source": "Wired · AI",
@@ -748,6 +788,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
     "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
+   ]
+  },
+  {
+   "title": "How kids feel about AI, in their own words",
+   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
+   "whyMatters": [
+    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
+    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
    ]
   },
   {
@@ -1103,24 +1161,6 @@ window.NEWS_DATA = {
     "Shows market resistance to AI-generated creative assets, likely due to quality concerns or preference for human-created work",
     "Indicates oversupply problem when low-cost AI generation meets skeptical buyers",
     "Suggests AI commoditization does not automatically create economic value if outputs lack differentiation or perceived quality"
-   ]
-  },
-  {
-   "title": "The Job-Interview Tattoo Guy Everyone Got Mad at Finally Explains Himself",
-   "link": "https://www.wired.com/story/linkedin-grindset-tattoo-guy-explains-himself/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-12T10:45:00+00:00",
-   "summary": "LemonLime cofounder Jordan Zietz hears your criticism loud and clear. That’s why he got his startup’s logo tattooed on his shoulder.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jordan Zietz, cofounder of LemonLime, responded to public backlash over getting his startup's logo tattooed on his shoulder by explaining his decision. The tattoo became a flashpoint on social media for perceived excessive corporate loyalty or performative hustle culture.",
-   "whyMatters": [
-    "Reflects tensions in startup culture around authentic commitment versus performative displays of dedication",
-    "Illustrates how social media amplifies and debates professional identity markers in the tech industry"
    ]
   },
   {
@@ -2138,24 +2178,6 @@ window.NEWS_DATA = {
    "aiSummary": "Datasette 0.65.3 backports the SQL injection security fix from version 1.0a38 to the stable release line.",
    "whyMatters": [
     "Ensures security patch availability to users not yet on alpha versions"
-   ]
-  },
-  {
-   "title": "Simon Willison on Technical Blogging",
-   "link": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-06T18:04:39+00:00",
-   "summary": "Simon Willison on Technical Blogging I was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog! It includes my answers to the following questions: Why did you start blogging – and why do you continue? What has been the most surprising impact of blogging for you? What blog post are you most proud of an",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison discussed his technical blogging philosophy in an interview with Cynthia Dunlop's \"Write that blog!\" series, covering motivations, impacts, and notable posts.",
-   "whyMatters": [
-    "Meta-commentary on blogging as knowledge-sharing practice in tech communities",
-    "Relevant to educators considering how to teach or document AI concepts through writing"
    ]
   },
   {
@@ -3315,24 +3337,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to your focus on AI and religious/ethical perspectives",
     "Limited information in blurb prevents deeper analysis of specific topics covered"
-   ]
-  },
-  {
-   "title": "The New Enterprise Battle Over Who Owns the Model",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Enterprise-Battle-Over-Who-Owns-the-Model-e3m65k0",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-07-16T20:38:52+00:00",
-   "summary": "Thinking Machines Lab’s new open-weight model Inkling may signal a new enterprise battle over who controls the model, the data, and the learning built on top of it. NLW explores its promise—and why fine-tuning may be harder than advocates suggest. In the headlines: Cursor, Apple’s AI chip hunt, and Microsoft’s model push. Brought to you by: KPMG – Research from KPMG and the University of Texas at ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122934336/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-16%2F428093686-44100-2-f6b0632b92356.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Thinking Machines Lab released Inkling, an open-weight enterprise model, potentially signaling a new competitive battle over model ownership, data control, and downstream learning. The episode explores fine-tuning challenges despite advocates' optimism.",
-   "whyMatters": [
-    "Emerging enterprise AI market segmentation between proprietary and open-weight models",
-    "Fine-tuning complexity may create barriers that benefit companies with more infrastructure and expertise"
    ]
   },
   {
