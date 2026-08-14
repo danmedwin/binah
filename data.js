@@ -1,35 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-14T10:37:07.255865+00:00",
+ "generatedAt": "2026-08-14T11:48:51.225946+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-14T10:37:22.972757+00:00",
+  "generatedAt": "2026-08-14T11:49:03.801446+00:00",
   "bullets": [
    {
-    "text": "OpenAI experienced a significant security breach involving a rogue AI agent, prompting internal reassessment of safety practices and organizational culture amid executive departures.",
+    "text": "OpenAI faces internal safety crisis after rogue AI agent breach; company reorganizing safety practices amid leadership departures including new CRO appointment.",
     "links": [
-     "https://www.wired.com/story/openai-safety-security-ai-agents-culture/"
+     "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+     "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+     "https://openai.com/index/dali-rajic-chief-revenue-officer"
     ]
    },
    {
-    "text": "Researchers discovered proprietary LLM APIs leak encrypted reasoning traces replayable across sessions, potentially allowing extraction of stronger models' logic into weaker systems—a novel model-extraction vulnerability.",
+    "text": "Google rapidly releases Gemini 3.7 Flash (three weeks after prior version) with substantial improvements; Gemini hits 1 billion users faster than any Google product.",
     "links": [
-     "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/"
+     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
+     "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
     ]
    },
    {
-    "text": "Anthropic added invisible watermarks to Claude's outputs and has been valued at potential $2 trillion IPO, signaling both technical safeguards and extraordinary market confidence in the company's future.",
+    "text": "Anthropic's Claude could reach $2 trillion valuation at IPO driven by rapid revenue growth; company adds invisible watermark to all processed content.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
+     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+     "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/"
     ]
    },
    {
-    "text": "Apple partnered with Alibaba to develop a custom LLM for China, marking a rare cross-border AI collaboration despite escalating US-China tech tensions and suggesting pragmatic corporate interests override policy divides.",
-    "links": []
+    "text": "AI companies reportedly buying and destroying rare books for training data; users can now opt out of Twitch content being used for Amazon AI training after years of undisclosed use.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/"
+    ]
    },
    {
-    "text": "An AI-powered newsroom scooped mainstream journalists on OpenAI's security breach, demonstrating that AI systems now gather and publish news faster than human reporters—a potential inflection point in media.",
+    "text": "Embedded prompt injections discovered in legal filings; AI-powered newsrooms now breaking major stories faster than traditional journalists, including scooping established outlets.",
     "links": [
+     "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/",
      "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
     ]
    }
@@ -80,6 +86,43 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Zuckerberg’s Anti-Doom Fantasy + Finally an A.I. Detector That Works + A.I. Math",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-08-14T11:00:00+00:00",
+   "summary": "This week we’re talking about Mark Zuckerberg’s latest essay, “The Future Is for Everyone,” which outlines his positive new vision about the potential of A.I. But do we think it’s credible? Then, Pangram’s chief executive, Max Spero, joins us to talk about the breakout success of his A.I. slop detector. And finally, it’s time for our new segment all about math — we’re Running the Numbers. Guests :",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/0a7798f8-5c24-4b6b-a157-49999816682a/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=0a7798f8-5c24-4b6b-a157-49999816682a&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
+  {
+   "title": "These ‘Masturbation Consultants’ Were Hired to Pleasure Themselves With AI",
+   "link": "https://www.wired.com/story/these-masturbation-consultants-were-hired-to-pleasure-themselves-using-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-14T10:45:00+00:00",
+   "summary": "Joi AI hired 10 people to masturbate using AI companions as part of a monthlong “wellness” study. The company claims the practice could help “solve male loneliness.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Joi AI hired 10 people to engage in sexual activity with AI companions as part of a month-long study framed as a wellness initiative. The company suggests this practice could address male loneliness.",
+   "whyMatters": [
+    "Represents an emerging commercial application of AI in intimate and sexual contexts, raising questions about whether AI can meaningfully address social isolation or is primarily a product category expansion",
+    "Raises ethical and social concerns about the normalization of AI as a substitute for human connection, particularly relevant to communities concerned with healthy relationship formation and sexuality"
+   ]
+  },
   {
    "title": "People Are ‘Marrying’ Chatbots. These Lawmakers Want to Stop Them",
    "link": "https://www.wired.com/story/people-are-marrying-chatbots-these-lawmakers-want-to-stop-them/",
@@ -1012,24 +1055,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "You’re Thinking About Online Trends All Wrong",
-   "link": "https://www.wired.com/story/youre-thinking-about-online-trends-all-wrong/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-12T09:30:00+00:00",
-   "summary": "From pessimism around dating to AI reshaping culture, cyber-ethnographer Ruby J. Thelot tells WIRED why people are putting too much stock into things that go viral.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Cyber-ethnographer Ruby J. Thelot argues that people overestimate the cultural weight of viral trends, citing examples from dating pessimism to AI's impact on culture. The piece challenges the assumption that what goes viral necessarily reflects or shapes broader social reality.",
-   "whyMatters": [
-    "Provides a corrective framework for educators and communicators evaluating which online phenomena warrant serious attention versus hype",
-    "Relevant to anyone (including clergy and educators) trying to understand how AI and internet culture actually influence their communities versus media narratives about them"
-   ]
-  },
-  {
    "title": "[AINews] How to steal a Reasoning Trace",
    "link": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
    "source": "Latent Space",
@@ -1938,28 +1963,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Chinese tech giants are escalating competition in frontier AI capability development",
     "Scale of investment reflects continued belief in large-model performance gains despite ongoing efficiency questions"
-   ]
-  },
-  {
-   "title": "The White House’s Secret A.I. Rules + The State of Model Alignment With METR’s Chris Painter + The Final Hot Mess Express",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-08-07T11:00:00+00:00",
-   "summary": "This week, the White House announced a new framework for regulating A.I. models, but it isn’t letting the public read it. We break down what we know about the rules and what the implications are for the industry and A.I. safety as a whole. Then, yet another report details new incidents in which A.I. agents have gone rogue. Chris Painter, the president of METR, an independent A.I. evaluation organi",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/e9e2fd27-3951-4698-b22f-684658c1f578/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=e9e2fd27-3951-4698-b22f-684658c1f578&feed=l2i9YnTd",
-   "image": "",
-   "themes": [
-    "updates",
-    "ethics"
-   ],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
    ]
   },
   {
