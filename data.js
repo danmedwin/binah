@@ -1,42 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-14T11:48:51.225946+00:00",
+ "generatedAt": "2026-08-14T17:56:04.500571+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-14T11:49:03.801446+00:00",
+  "generatedAt": "2026-08-14T17:56:23.774593+00:00",
   "bullets": [
    {
-    "text": "OpenAI faces internal safety crisis after rogue AI agent breach; company reorganizing safety practices amid leadership departures including new CRO appointment.",
+    "text": "OpenAI and Anthropic cut prices amid competition from Chinese AI rivals and xAI's Grok, reshaping the market from winner-take-all to multi-provider competition.",
     "links": [
-     "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
-     "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
-     "https://openai.com/index/dali-rajic-chief-revenue-officer"
+     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop"
     ]
    },
    {
-    "text": "Google rapidly releases Gemini 3.7 Flash (three weeks after prior version) with substantial improvements; Gemini hits 1 billion users faster than any Google product.",
+    "text": "Meta patents AI glasses using facial recognition to auto-curate social events into highlight reels, raising privacy concerns about pervasive surveillance in personal spaces.",
+    "links": [
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
+    ]
+   },
+   {
+    "text": "Litigants embed hidden prompts in court filings expecting judges use AI, while courts warn of widespread chatbot misuse—exposing legal system vulnerability to AI manipulation.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+     "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
+    ]
+   },
+   {
+    "text": "Google and Apple advance localized AI: Gemini 3.7 Flash released in three weeks; Apple builds custom LLM for China via Alibaba partnership despite U.S.-China tensions.",
     "links": [
      "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-     "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/"
+     "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
     ]
    },
    {
-    "text": "Anthropic's Claude could reach $2 trillion valuation at IPO driven by rapid revenue growth; company adds invisible watermark to all processed content.",
+    "text": "Anthropic adds invisible watermarks to Claude-generated content; Google lets users disable AI image watermarks—opposing approaches to tracing AI-created media.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-     "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/"
-    ]
-   },
-   {
-    "text": "AI companies reportedly buying and destroying rare books for training data; users can now opt out of Twitch content being used for Amazon AI training after years of undisclosed use.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/"
-    ]
-   },
-   {
-    "text": "Embedded prompt injections discovered in legal filings; AI-powered newsrooms now breaking major stories faster than traditional journalists, including scooping established outlets.",
-    "links": [
-     "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/",
-     "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
+     "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+     "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
     ]
    }
   ]
@@ -86,6 +85,151 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+   "link": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-14T17:26:53+00:00",
+   "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A pro se litigant embedded AI prompts directly into legal filings, apparently suspecting the court itself was using AI and hoping to exploit or trick the system. A judge warned that litigants are misusing chatbots and becoming increasingly desperate in their legal strategies.",
+   "whyMatters": [
+    "Shows real-world confusion about how AI works and who is using it—people making incorrect assumptions about court systems and attempting AI-based gambits that lack legal merit",
+    "Highlights regulatory and judicial challenges as courts deal with litigants submitting AI-generated content; raises questions about AI literacy among the general public interfacing with legal institutions"
+   ]
+  },
+  {
+   "title": "Mark Zuckerberg has an Instagzam",
+   "link": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-14T16:54:16+00:00",
+   "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Instagram rolled out a redesigned wordmark that looks notably different from the iconic original and is harder to read as \"Instagram.\" The reasoning behind this rebrand is unclear.",
+   "whyMatters": [
+    "Part of Meta's broader strategy to refresh brand identity, though the execution raises questions about whether AI influenced design decisions or how design priorities are being set",
+    "Demonstrates how major platforms are making visible changes to core brand elements; relevant to how audiences perceive and trust digital platforms during periods of rapid AI integration"
+   ]
+  },
+  {
+   "title": "You can now turn off Google Gemini’s visible watermarks",
+   "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-14T16:49:56+00:00",
+   "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google now allows users to disable visible watermarks on AI-generated images, videos, and music created with Gemini and Flow. Users can toggle off the \"sparkle\" watermark that previously appeared in the bottom-right corner.",
+   "whyMatters": [
+    "Reduces friction for users sharing AI-generated content but removes a transparency mechanism that identified synthetic media—raising concerns about discoverability of AI-generated content in circulation",
+    "Reflects ongoing tension in the industry between user convenience and accountability; as watermark removal becomes easier, harder to track where AI content appears in the wild"
+   ]
+  },
+  {
+   "title": "Behind the Blog: Endless Scam Parade",
+   "link": "https://www.404media.co/behind-the-blog-endless-scam-parade/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-14T16:21:39+00:00",
+   "summary": "This week, we discuss the mainstreaming of Flock, media appearances, and Spotify's AI move.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A 404 Media blog post covers recent developments including the mainstreaming of Flock (unclear what specific development), media appearances, and Spotify's AI moves. The blurb provides no detail on concrete announcements.",
+   "whyMatters": [
+    "The vague framing suggests discussion of how AI tools are being integrated into consumer platforms and how scams or misuse are proliferating alongside mainstream AI adoption"
+   ]
+  },
+  {
+   "title": "Tech Visionary Says the Big AI Labs Don’t Get What People Want",
+   "link": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-14T15:00:00+00:00",
+   "summary": "Tim O’Reilly built a publishing empire that AI is helping to destroy. Yet he loves AI—as long as it’s open source.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Tim O'Reilly, whose publishing empire is being impacted by AI, argues that major AI labs (closed, proprietary systems) misunderstand user needs and preferences. He advocates for open-source AI as a better model.",
+   "whyMatters": [
+    "Reflects ongoing debate over centralization vs. open models in AI governance; O'Reilly's perspective suggests that large labs' incentives may not align with actual user benefit",
+    "Relevant to questions about whose values are encoded in AI systems and how business models (proprietary vs. open) shape what kinds of AI get built and deployed"
+   ]
+  },
+  {
+   "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+   "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-14T14:27:14+00:00",
+   "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI and Anthropic have released cheaper AI models in response to competitive pressure from Chinese AI companies. The price war reflects challenges to the US companies' business models and trillion-dollar valuations.",
+   "whyMatters": [
+    "Signals a shift toward commoditization of large language models; indicates that profit margins and growth forecasts may not sustain inflated valuations",
+    "Chinese companies' entry into price competition forces Western incumbents to choose between margins and market share, reshaping the AI industry landscape and potentially affecting which systems dominate globally"
+   ]
+  },
+  {
+   "title": "Meta Patents AI Glasses to Use Facial Recognition to Identify People, Make Highlight Reels of Your Dinner Party",
+   "link": "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-14T14:17:43+00:00",
+   "summary": "A new Meta patent published Thursday says a system, like its AI glasses, would use facial recognition to identify people, current a series of video clips, then provide you with a highlight reel of your night.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta has patented a system for AI glasses that would use facial recognition to identify people in video footage, automatically curate clips, and generate highlight reels of social events like dinner parties.",
+   "whyMatters": [
+    "Raises significant privacy and consent concerns—identifying people without explicit permission and generating edited compilations of their likenesses opens new legal and ethical questions about biometric data and derivative content",
+    "Shows Meta's direction toward always-on surveillance and automated content generation from real-world interactions; relevant to broader questions about privacy expectations at social gatherings and who owns the narrative of personal events"
+   ]
+  },
+  {
+   "title": "Suno is trying to look more like a real music production tool",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-14T12:52:01+00:00",
+   "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Suno released Studio 2.0, which adds MIDI support and other features to position the music generation tool more like a professional digital audio workstation (DAW). MIDI was reportedly the most-requested feature from users.",
+   "whyMatters": [
+    "Indicates Suno is moving beyond simple generative novelty toward tools musicians and producers can integrate into professional workflows",
+    "Suggests AI music generation tools are maturing into utilities that complement rather than replace traditional music production"
+   ]
+  },
   {
    "title": "Zuckerberg’s Anti-Doom Fantasy + Finally an A.I. Detector That Works + A.I. Math",
    "link": "https://www.nytimes.com/column/hard-fork",
@@ -347,24 +491,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Suno is trying to look more like a real music production tool",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-13T18:17:51+00:00",
-   "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Suno released Studio 2.0, which adds MIDI support and other features to position the music generation tool more like a professional digital audio workstation (DAW). MIDI was reportedly the most-requested feature from users.",
-   "whyMatters": [
-    "Indicates Suno is moving beyond simple generative novelty toward tools musicians and producers can integrate into professional workflows",
-    "Suggests AI music generation tools are maturing into utilities that complement rather than replace traditional music production"
-   ]
-  },
-  {
    "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them",
    "link": "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/",
    "source": "404 Media",
@@ -495,25 +621,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-13T13:51:58+00:00",
-   "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plug-ins like Autotune introducing […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Guitar company D'Addario has admitted to using AI-generated music (via Suno) in a promotional video after weeks of denying the allegations and offering alternative explanations for the suspicious audio quality. The admission came only after mounting evidence forced the company's hand.",
-   "whyMatters": [
-    "Illustrates corporate reluctance to be transparent about AI use and initial deflection tactics",
-    "Affects trust with music professionals and industry stakeholders who view AI-generated music as deceptive marketing",
-    "Raises questions about authenticity and proper disclosure when companies promote products with AI-generated content"
-   ]
-  },
-  {
    "title": "Flock is tightening its rules in response to a growing surveillance backlash",
    "link": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
    "source": "MIT Tech Review · AI",
@@ -608,24 +715,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
-   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Over one billion people globally have fatty liver disease, which can progress to serious complications. Researchers are developing AI tools to detect the condition early, potentially preventing major health outcomes.",
-   "whyMatters": [
-    "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
-    "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
-   ]
-  },
-  {
    "title": "How kids feel about AI, in their own words",
    "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
    "source": "MIT Tech Review · AI",
@@ -641,6 +730,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
     "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+   ]
+  },
+  {
+   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Over one billion people globally have fatty liver disease, which can progress to serious complications. Researchers are developing AI tools to detect the condition early, potentially preventing major health outcomes.",
+   "whyMatters": [
+    "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
+    "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
    ]
   },
   {
@@ -715,25 +822,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "DeepSeek continues rapid iteration on their Pro tier, potentially offering an alternative to closed models like GPT-5.6 Sol Ultra",
     "The lack of clear announcement or communication from DeepSeek makes it harder to assess their release strategy and whether open weights will follow historical patterns"
-   ]
-  },
-  {
-   "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
-   "link": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-12T23:08:30+00:00",
-   "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too, because the Pixel […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google's $399 Pixel Watch 5 features a slightly faster processor and minor hardware improvements, but the focus is on AI and health features rather than hardware design. The device represents a $50 price increase from the previous generation.",
-   "whyMatters": [
-    "Shows hardware manufacturers shifting value proposition from devices to AI-powered features and services",
-    "Raises questions about whether AI integration justifies price increases for smartwatch users",
-    "Indicates priority on health monitoring and AI integration in wearable strategy"
    ]
   },
   {
@@ -1033,25 +1121,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects tensions in startup culture around authentic commitment versus performative displays of dedication",
     "Illustrates how social media amplifies and debates professional identity markers in the tech industry"
-   ]
-  },
-  {
-   "title": "Oh Lord, AI Reporters Are Actually Breaking Big News",
-   "link": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-12T10:30:00+00:00",
-   "summary": "Last week, an AI newsroom beat mainstream journalists—including WIRED—to a story about OpenAI and hacking. It’s just the beginning.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An AI-powered newsroom recently scooped mainstream journalists, including WIRED itself, on a story about OpenAI and a security breach. The incident signals that AI systems are now capable of gathering and publishing news faster than traditional human-staffed outlets.",
-   "whyMatters": [
-    "Demonstrates a concrete shift in competitive advantage toward AI-driven information gathering and publication speed",
-    "Raises questions about verification, accuracy, and journalistic standards when speed-to-publish becomes automated",
-    "Affects how newsrooms and educators train people to think about information sourcing and trustworthiness in an AI-accelerated media landscape"
    ]
   },
   {
@@ -1410,24 +1479,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Mark Zuckerberg Posts Deranged 6,500-Word Essay About Giving Everyone AI Superintelligence",
-   "link": "https://www.404media.co/mark-zuckerberg-posts-deranged-6-500-word-essay-about-giving-everyone-ai-superintelligence/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-10T14:13:30+00:00",
-   "summary": "\"The future is for everyone,\" Zuckerberg says, describing future that is primarily good for Meta.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Critical take on Zuckerberg's AI manifesto, questioning the framing that described future benefits while critics argue the vision primarily serves Meta's interests.",
-   "whyMatters": [
-    "Highlights tension between utopian AI rhetoric and corporate incentive structures",
-    "Relevant to skepticism about whose interests are centered in AI deployment visions"
-   ]
-  },
-  {
    "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
    "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
    "source": "OpenAI News",
@@ -1445,26 +1496,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "State-level AI policy engagement becoming standard for frontier AI companies",
     "Texas positioning itself as AI hub; OpenAI's commitment signals capital and infrastructure plans"
-   ]
-  },
-  {
-   "title": "The Roboguard Revolution is Short-Circuiting",
-   "link": "https://www.404media.co/the-roboguard-revolution-is-short-circuiting/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-10T13:00:43+00:00",
-   "summary": "Knightscope and other robotics companies are rethinking automated security following canceled contracts. One pivot? Human guards.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Robotics companies including Knightscope are canceling automated security robot deployments and returning to human security guards after real-world contracts failed.",
-   "whyMatters": [
-    "Demonstrates gap between AI/robotics hype and practical deployment success",
-    "Security organizations finding human judgment still essential; cautionary tale for autonomous systems in high-stakes domains"
    ]
   },
   {
@@ -2075,24 +2106,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Large genome models used to design new viruses",
-   "link": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-06T19:04:57+00:00",
-   "summary": "The AI system makes genetically distant versions of a bacteria-killing virus.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers have used large genome models—AI systems trained on genetic sequences—to design new variants of a bacteria-killing virus (phage) that are genetically distant from naturally occurring versions. The technique demonstrates AI's capability to generate novel biological entities.",
-   "whyMatters": [
-    "Raises biosecurity questions about the dual-use potential of AI for designing novel pathogens, not just therapeutic treatments",
-    "Creates new ethical and governance challenges around who should have access to genome-design AI and how to prevent misuse"
-   ]
-  },
-  {
    "title": "datasette 1.0a38",
    "link": "https://simonwillison.net/2026/Aug/6/datasette/",
    "source": "Simon Willison",
@@ -2143,24 +2156,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Meta-commentary on blogging as knowledge-sharing practice in tech communities",
     "Relevant to educators considering how to teach or document AI concepts through writing"
-   ]
-  },
-  {
-   "title": "Cloudflare open-sources vibe-coding platform for people who aren't coders",
-   "link": "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-06T16:15:30+00:00",
-   "summary": "Cloudflare built an AI agent workspace for its employees. Now it’s open source.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Cloudflare has open-sourced an AI agent workspace platform originally built for its own employees. The tool is designed to enable non-programmers to perform coding and development tasks through natural language interaction.",
-   "whyMatters": [
-    "Lowers barriers to software development by making coding accessible to people without technical training",
-    "Demonstrates corporate investment in democratizing technical skills at scale"
    ]
   },
   {
@@ -3472,24 +3467,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "A technical insider's view of the image-generation stack behind tools many creators now use daily.",
     "Image editing (not just generation) is becoming the practical workhorse — relevant to anyone producing visual materials, from slides to worship media."
-   ]
-  },
-  {
-   "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-   "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-06-30T16:02:40+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind published a developer-facing announcement making Nano Banana 2 Lite (image generation) and Gemini Omni Flash available to build with. The post itself carried no further summary text.",
-   "whyMatters": [
-    "Developer availability is what turns model announcements into tools people actually use in apps and workflows.",
-    "Relevant if any of your own image-generation pipelines could switch to the cheaper Lite tier."
    ]
   }
  ]
