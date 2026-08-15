@@ -1,40 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-15T11:24:29.338227+00:00",
+ "generatedAt": "2026-08-15T17:24:25.840080+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-15T11:24:40.491120+00:00",
+  "generatedAt": "2026-08-15T17:24:35.687308+00:00",
   "bullets": [
    {
-    "text": "Amazon has been using Twitch streams to train AI models by default for years; streamers can now opt out, sparking backlash over unauthorized content use.",
+    "text": "Amazon defaulted to using Twitch streamers' content for AI training; creators can now opt out, marking a major precedent in how platforms monetize user-generated content.",
     "links": [
      "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
-     "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired"
+     "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
     ]
    },
    {
-    "text": "OpenAI and Anthropic cut prices as Chinese competitors gain ground; Anthropic could reach $2 trillion valuation at IPO despite intensifying competition.",
+    "text": "US and Chinese AI labs are in a price war; Anthropic's Claude could reach $2 trillion on IPO, while Chinese rivals and xAI's Grok 4.6 rapidly expand affordable alternatives.",
     "links": [
      "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
      "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
     ]
    },
    {
-    "text": "A litigant embedded AI prompts directly into legal filings suspecting the court uses AI, exemplifying desperation and misuse of AI tools in judicial proceedings.",
+    "text": "Meta patented AI glasses using facial recognition to auto-identify people and curate event highlight reels, escalating privacy concerns around always-on wearable surveillance.",
+    "links": [
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
+    ]
+   },
+   {
+    "text": "A litigant embedded AI prompts in court filings to manipulate judicial decision-making; judges warn lawyers are increasingly misusing AI and becoming desperate to game systems.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
      "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
     ]
    },
    {
-    "text": "Google released Gemini 3.7 Flash just three weeks after the prior version, signaling accelerating release cycles and competitive pressure in AI model development.",
+    "text": "Google released Gemini 3.7 Flash just three weeks after 3.6, signaling accelerating model release cycles amid competitive pressure and claims of substantial improvements.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-     "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/"
     ]
-   },
-   {
-    "text": "Apple trained a custom AI model for China with Alibaba's help, marking significant cross-border collaboration despite U.S.-China tech tensions.",
-    "links": []
    }
   ]
  },
@@ -88,6 +89,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+   "link": "https://www.latent.space/p/flue-2",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-08-15T15:46:22+00:00",
+   "summary": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!Osie!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F131d402d-63bf-4895-b5e7-b8990972a14c_1280x720.png",
+   "themes": [],
+   "aiSummary": "Fred Schott, creator of Astro, has released Flue 2, a framework for building AI agents that borrows architectural concepts from React, including hooks. The framework emphasizes that agents are fundamentally defined by their 'harnesses'—the systems that structure how they operate.",
+   "whyMatters": [
+    "Brings familiar React patterns to agent development, potentially lowering the barrier for web developers to build AI systems",
+    "Represents a shift in how agent frameworks are conceptualized, moving toward clearer separation between agent logic and the systems that orchestrate it"
+   ]
+  },
   {
    "title": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
    "link": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
@@ -3060,24 +3079,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights the growing skill gap between novice chatbot users and those deploying AI agents for actual work—relevant for educators designing curricula and professionals evaluating AI's practical utility",
     "Offers concrete, project-based learning pathways that could inform how organizations and educators structure AI literacy programs"
-   ]
-  },
-  {
-   "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
-   "link": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-25T07:25:38+00:00",
-   "summary": "ain't nobody beats Anthropic at distilling Fable!",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!FqD_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOBjK6cbIAA2Yph.jpg",
-   "themes": [],
-   "aiSummary": "Anthropic released Claude Opus 5, a model that achieves performance comparable to Anthropic's higher-tier Fable model while being priced at the Opus tier (roughly half the cost of Fable).",
-   "whyMatters": [
-    "Creates significant pricing pressure in the market by delivering top-tier performance at mid-tier costs, shifting the value proposition for AI users",
-    "Demonstrates Anthropic's continued success at model distillation and efficiency, competing directly with other labs on performance-per-dollar"
    ]
   },
   {
