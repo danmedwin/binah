@@ -1,40 +1,31 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-15T17:24:25.840080+00:00",
+ "generatedAt": "2026-08-15T23:24:17.644661+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-15T17:24:35.687308+00:00",
+  "generatedAt": "2026-08-15T23:24:26.724101+00:00",
   "bullets": [
    {
-    "text": "Amazon defaulted to using Twitch streamers' content for AI training; creators can now opt out, marking a major precedent in how platforms monetize user-generated content.",
+    "text": "OpenAI and Anthropic face mounting price pressure from Chinese competitors, triggering a price war for AI models that threatens US companies' business models and trillion-dollar valuations.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+    ]
+   },
+   {
+    "text": "Amazon uses Twitch creators' content to train AI by default; Anthropic adds invisible watermarks to flagged content; Google allows watermark removal—highlighting unresolved tensions over AI training data and content provenance.",
     "links": [
      "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
-     "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
+     "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
     ]
    },
    {
-    "text": "US and Chinese AI labs are in a price war; Anthropic's Claude could reach $2 trillion on IPO, while Chinese rivals and xAI's Grok 4.6 rapidly expand affordable alternatives.",
-    "links": [
-     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
-    ]
+    "text": "Apple developed a custom AI model for China with Alibaba's help, marking a significant cross-border collaboration amid US-China tech tensions and raising questions about technology transfer.",
+    "links": []
    },
    {
-    "text": "Meta patented AI glasses using facial recognition to auto-identify people and curate event highlight reels, escalating privacy concerns around always-on wearable surveillance.",
-    "links": [
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
-    ]
-   },
-   {
-    "text": "A litigant embedded AI prompts in court filings to manipulate judicial decision-making; judges warn lawyers are increasingly misusing AI and becoming desperate to game systems.",
+    "text": "A litigant embedded hidden AI prompts in legal filings to manipulate court decisions, exemplifying emerging risks of AI exploitation in high-stakes institutional contexts where decisions carry real consequences.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
      "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
-    ]
-   },
-   {
-    "text": "Google released Gemini 3.7 Flash just three weeks after 3.6, signaling accelerating model release cycles amid competitive pressure and claims of substantial improvements.",
-    "links": [
-     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/"
     ]
    }
   ]
@@ -90,6 +81,24 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+   "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-15T20:43:38+00:00",
+   "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A website called \"Your AI Slop Bores Me\" lets people roleplay as AI chatbots by responding to prompts on one side while humans submit requests on the other, creating a humorous comparison between AI and human responses.",
+   "whyMatters": [
+    "Highlights growing audience skepticism about AI output quality and repetitive patterns in commercial chatbot responses",
+    "Demonstrates public engagement with AI through parody and interactive entertainment rather than serious AI use cases"
+   ]
+  },
+  {
    "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
    "link": "https://www.latent.space/p/flue-2",
    "source": "Latent Space",
@@ -133,7 +142,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-08-15T03:22:00+00:00",
-   "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. He showed up in the Farallon Islands off the coast of San Francisco 14 years ago . He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with t",
+   "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. They showed up in the Farallon Islands off the coast of San Francisco 14 years ago . They have since made Pillar Point harbor their home, where they are quite easy to spot: the only white bird with a yellow head, usually hanging",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -756,25 +765,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows public and policy pressure forcing concrete changes to surveillance infrastructure",
     "Raises questions about how surveillance tools are governed and whether access controls can prevent abuse in practice"
-   ]
-  },
-  {
-   "title": "Twitch streamers can now opt out from training Amazon’s AI",
-   "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-13T11:43:40+00:00",
-   "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Twitch users can now opt out of allowing their streams, VODs, clips, chats, and channel content to be used for training Amazon's generative AI models. The opt-out mechanism lets users prevent future use of their content in Amazon's AI training.",
-   "whyMatters": [
-    "Provides creators control over their intellectual property and content reuse",
-    "Indicates Twitch/Amazon recognizes potential legal or ethical issues with unrestricted AI training data use",
-    "Follows pressure from creators and advocacy groups concerned about unpaid content extraction"
    ]
   },
   {
