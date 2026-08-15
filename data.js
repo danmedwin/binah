@@ -1,43 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-15T09:55:42.717366+00:00",
+ "generatedAt": "2026-08-15T11:24:29.338227+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-15T09:55:56.711284+00:00",
+  "generatedAt": "2026-08-15T11:24:40.491120+00:00",
   "bullets": [
    {
-    "text": "Amazon has been training its AI on Twitch streamer content by default for years; creators can now opt out, sparking backlash over unauthorized use of user-generated content for model training.",
+    "text": "Amazon has been using Twitch streams to train AI models by default for years; streamers can now opt out, sparking backlash over unauthorized content use.",
     "links": [
      "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
-     "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
+     "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired"
     ]
    },
    {
-    "text": "OpenAI and Anthropic are cutting prices and releasing faster models (GPT-5.6 Ultrafast at 14× speed, Grok 4.6 at lower cost) as Chinese competitors gain ground, intensifying competition that threatens US valuations.",
+    "text": "OpenAI and Anthropic cut prices as Chinese competitors gain ground; Anthropic could reach $2 trillion valuation at IPO despite intensifying competition.",
     "links": [
      "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-     "https://openai.com/index/previewing-ultrafast",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop"
+     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
     ]
    },
    {
-    "text": "A pro se litigant embedded hidden AI prompts in legal filings hoping to manipulate court AI systems, highlighting desperation to exploit AI use in judiciary—judges warn litigants are increasingly misusing chatbots in courtrooms.",
+    "text": "A litigant embedded AI prompts directly into legal filings suspecting the court uses AI, exemplifying desperation and misuse of AI tools in judicial proceedings.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
      "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
     ]
    },
    {
-    "text": "Meta patented AI glasses with facial recognition to auto-generate highlight reels of events; Google released sign-language-to-text translation for Deaf users—new AI capabilities converging on surveillance and accessibility.",
+    "text": "Google released Gemini 3.7 Flash just three weeks after the prior version, signaling accelerating release cycles and competitive pressure in AI model development.",
     "links": [
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
-     "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
+     "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
     ]
    },
    {
-    "text": "The White House is preparing to expand AI policy to cover open-source models after years of light regulation, signaling growing policy attention to a broader AI landscape beyond frontier labs.",
-    "links": [
-     "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/"
-    ]
+    "text": "Apple trained a custom AI model for China with Alibaba's help, marking significant cross-border collaboration despite U.S.-China tech tensions.",
+    "links": []
    }
   ]
  },
@@ -817,24 +814,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
-   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Over one billion people globally have fatty liver disease, which can progress to serious complications. Researchers are developing AI tools to detect the condition early, potentially preventing major health outcomes.",
-   "whyMatters": [
-    "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
-    "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
-   ]
-  },
-  {
    "title": "How kids feel about AI, in their own words",
    "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
    "source": "MIT Tech Review · AI",
@@ -850,6 +829,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
     "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+   ]
+  },
+  {
+   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Over one billion people globally have fatty liver disease, which can progress to serious complications. Researchers are developing AI tools to detect the condition early, potentially preventing major health outcomes.",
+   "whyMatters": [
+    "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
+    "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
    ]
   },
   {
@@ -999,8 +996,8 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Grok Bot Finally Makes AI Agents Easy",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-Bot-Finally-Makes-AI-Agents-Easy-e3navt9",
+   "title": "The AI Agent Platform for Everyone",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-Agent-Platform-for-Everyone-e3navt9",
    "source": "The AI Daily Brief",
    "category": "podcast",
    "date": "2026-08-12T20:10:24+00:00",
@@ -1010,10 +1007,10 @@ window.NEWS_DATA = {
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/124140905/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-12%2F429730192-44100-2-8e39630ef7295.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
    "themes": [],
-   "aiSummary": "Grok Bot packages persistent computers, coordinated agent teams, workflow learning, and computer use capabilities into a simplified interface designed to make AI agents accessible. The tool could enable broader adoption but raises questions about cost, reliability, and trustworthiness.",
+   "aiSummary": "Grok Bot combines persistent computers, coordinated agent teams, workflow learning, and computer use into a simplified interface aimed at making AI agents accessible to mainstream users. The episode examines both the potential for widespread adoption and the practical obstacles around cost, reliability, and trust that could limit its impact.",
    "whyMatters": [
-    "AI agents moving from research/expert territory toward mainstream usability",
-    "Accessibility improvements must be matched by solutions to reliability and trust problems in agent behavior"
+    "Simplified AI-agent platforms could reshape how organizations and individuals automate work, affecting everything from business processes to education and administrative tasks that rabbis and Jewish institutions currently handle manually",
+    "Trust and reliability concerns with AI agents directly matter to religious and educational communities considering whether to adopt such tools for member communication, learning support, or institutional operations"
    ]
   },
   {
