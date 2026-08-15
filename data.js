@@ -1,41 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-14T23:26:30.114869+00:00",
+ "generatedAt": "2026-08-15T05:28:54.351444+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-14T23:26:45.111488+00:00",
+  "generatedAt": "2026-08-15T05:29:05.554655+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic are in a price war as Chinese competitors gain ground, with xAI's Grok 4.6 and others offering strong performance at lower cost, reshaping the AI provider landscape.",
+    "text": "OpenAI and Anthropic race on pricing and talent amid competition from cheaper Chinese alternatives, while Anthropic could hit $2 trillion IPO valuation.",
     "links": [
      "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop"
+     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
     ]
    },
    {
-    "text": "A litigant embedded AI prompts in legal filings hoping to trick or exploit the court, revealing desperation in using AI and raising concerns about whether courts themselves use AI systems.",
+    "text": "Google accelerates model releases (Gemini 3.7 Flash in three weeks) while Apple trains custom AI with Alibaba, reshaping the competitive landscape.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/"
+    ]
+   },
+   {
+    "text": "Litigants embed prompt injections in legal filings attempting to manipulate AI-assisted judicial decisions, highlighting AI governance risks in justice systems.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
      "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
     ]
    },
    {
-    "text": "Anthropic is projected to reach a $2 trillion valuation on IPO, driven by rapid revenue growth, potentially the largest IPO in history.",
+    "text": "AI companies reportedly destroy rare books after text extraction for training; Twitch and Google now allow users to opt out of content-based AI training.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
+     "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/"
     ]
    },
    {
-    "text": "Google DeepMind released sign-language-to-text AI now being deployed for Deaf and hard of hearing users, and Meta patented AI glasses with facial recognition to auto-generate event highlight reels.",
+    "text": "Meta patents AI glasses with facial recognition to auto-generate social event highlight reels, while police surveillance tech Flock tightens access rules amid backlash.",
     "links": [
-     "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
-    ]
-   },
-   {
-    "text": "Police surveillance platform Flock is tightening access restrictions and Twitch now lets streamers opt out of Amazon AI training after years of undisclosed content use.",
-    "links": [
-     "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
-     "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+     "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/"
     ]
    }
   ]
@@ -85,6 +84,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Northern Gannet",
+   "link": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-15T03:22:00+00:00",
+   "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. He showed up in the Farallon Islands off the coast of San Francisco 14 years ago . He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with t",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.inaturalist.org/photos/716984157/large.jpg",
+   "themes": [],
+   "aiSummary": "Morris is a Northern Gannet living in Pillar Point Harbor, California, and is the only known member of his species in the entire Pacific Ocean. He arrived at the Farallon Islands 14 years ago and has since become a local celebrity, easily identifiable as the only white bird with a yellow head in the area.",
+   "whyMatters": [
+    "This is a nature observation post, not AI or technology news—appears to be misfiled or test content for your news feed",
+    "Contains no information relevant to AI industry developments, education, religion, ethics, or policy"
+   ]
+  },
   {
    "title": "How to Decide What Work AI Should Do for You: The AI Deputization Audit",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48",
@@ -2161,23 +2178,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Critical security issue in systems serving differentiated data access",
     "Emphasizes need for careful permission management when using relational database tools in multi-tenant or privacy-sensitive contexts"
-   ]
-  },
-  {
-   "title": "datasette 0.65.3",
-   "link": "https://simonwillison.net/2026/Aug/6/datasette-2/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-06T18:22:07+00:00",
-   "summary": "Release: datasette 0.65.3 Back-ported the SQL Injection security fix from 1.0a38 . Tags: datasette",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Datasette 0.65.3 backports the SQL injection security fix from version 1.0a38 to the stable release line.",
-   "whyMatters": [
-    "Ensures security patch availability to users not yet on alpha versions"
    ]
   },
   {
