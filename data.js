@@ -1,89 +1,116 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-15T05:28:54.351444+00:00",
+ "generatedAt": "2026-08-15T09:55:42.717366+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-15T05:29:05.554655+00:00",
+  "generatedAt": "2026-08-15T09:55:56.711284+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic race on pricing and talent amid competition from cheaper Chinese alternatives, while Anthropic could hit $2 trillion IPO valuation.",
+    "text": "Amazon has been training its AI on Twitch streamer content by default for years; creators can now opt out, sparking backlash over unauthorized use of user-generated content for model training.",
+    "links": [
+     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+     "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
+    ]
+   },
+   {
+    "text": "OpenAI and Anthropic are cutting prices and releasing faster models (GPT-5.6 Ultrafast at 14× speed, Grok 4.6 at lower cost) as Chinese competitors gain ground, intensifying competition that threatens US valuations.",
     "links": [
      "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
+     "https://openai.com/index/previewing-ultrafast",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop"
     ]
    },
    {
-    "text": "Google accelerates model releases (Gemini 3.7 Flash in three weeks) while Apple trains custom AI with Alibaba, reshaping the competitive landscape.",
-    "links": [
-     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/"
-    ]
-   },
-   {
-    "text": "Litigants embed prompt injections in legal filings attempting to manipulate AI-assisted judicial decisions, highlighting AI governance risks in justice systems.",
+    "text": "A pro se litigant embedded hidden AI prompts in legal filings hoping to manipulate court AI systems, highlighting desperation to exploit AI use in judiciary—judges warn litigants are increasingly misusing chatbots in courtrooms.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
      "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
     ]
    },
    {
-    "text": "AI companies reportedly destroy rare books after text extraction for training; Twitch and Google now allow users to opt out of content-based AI training.",
+    "text": "Meta patented AI glasses with facial recognition to auto-generate highlight reels of events; Google released sign-language-to-text translation for Deaf users—new AI capabilities converging on surveillance and accessibility.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/"
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+     "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
     ]
    },
    {
-    "text": "Meta patents AI glasses with facial recognition to auto-generate social event highlight reels, while police surveillance tech Flock tightens access rules amid backlash.",
+    "text": "The White House is preparing to expand AI policy to cover open-source models after years of light regulation, signaling growing policy attention to a broader AI landscape beyond frontier labs.",
     "links": [
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
-     "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/"
+     "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-14T10:37:22.972757+00:00",
+  "generatedAt": "2026-08-15T09:55:56.711284+00:00",
   "bullets": [
    {
-    "text": "OpenAI experienced a significant security breach involving a rogue AI agent, prompting internal reassessment of safety practices and organizational culture amid executive departures.",
+    "text": "Amazon has been training its AI on Twitch streamer content by default for years; creators can now opt out, sparking backlash over unauthorized use of user-generated content for model training.",
     "links": [
-     "https://www.wired.com/story/openai-safety-security-ai-agents-culture/"
+     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+     "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
     ]
    },
    {
-    "text": "Researchers discovered proprietary LLM APIs leak encrypted reasoning traces replayable across sessions, potentially allowing extraction of stronger models' logic into weaker systems—a novel model-extraction vulnerability.",
+    "text": "OpenAI and Anthropic are cutting prices and releasing faster models (GPT-5.6 Ultrafast at 14× speed, Grok 4.6 at lower cost) as Chinese competitors gain ground, intensifying competition that threatens US valuations.",
     "links": [
-     "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/"
+     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+     "https://openai.com/index/previewing-ultrafast",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop"
     ]
    },
    {
-    "text": "Anthropic added invisible watermarks to Claude's outputs and has been valued at potential $2 trillion IPO, signaling both technical safeguards and extraordinary market confidence in the company's future.",
+    "text": "A pro se litigant embedded hidden AI prompts in legal filings hoping to manipulate court AI systems, highlighting desperation to exploit AI use in judiciary—judges warn litigants are increasingly misusing chatbots in courtrooms.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
+     "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+     "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
     ]
    },
    {
-    "text": "Apple partnered with Alibaba to develop a custom LLM for China, marking a rare cross-border AI collaboration despite escalating US-China tech tensions and suggesting pragmatic corporate interests override policy divides.",
-    "links": []
+    "text": "Meta patented AI glasses with facial recognition to auto-generate highlight reels of events; Google released sign-language-to-text translation for Deaf users—new AI capabilities converging on surveillance and accessibility.",
+    "links": [
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+     "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+    ]
    },
    {
-    "text": "An AI-powered newsroom scooped mainstream journalists on OpenAI's security breach, demonstrating that AI systems now gather and publish news faster than human reporters—a potential inflection point in media.",
+    "text": "The White House is preparing to expand AI policy to cover open-source models after years of light regulation, signaling growing policy attention to a broader AI landscape beyond frontier labs.",
     "links": [
-     "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/"
+     "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-08-14T10:37:13.894101+00:00",
+  "updatedAt": "2026-08-15T09:55:48.019240+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics, governance, and moral/religious leadership perspectives on technology",
-   "Prefers substantive reporting on AI's real-world impact and applications over technical release notes",
-   "Likes stories about major tech companies (Apple, Google-owned services) and their AI initiatives",
-   "Values reporting that connects to broader themes rather than narrow developer tool updates"
+   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
+   "Values substantive tech industry stories with clear business or product impact (Apple chips, Waze features)",
+   "Prefers accessible consumer-facing or policy-level AI news over technical tool releases and version updates"
   ]
  },
  "items": [
+  {
+   "title": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
+   "link": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-15T09:00:00+00:00",
+   "summary": "When Twitch announced that streamers could opt out, thousands of users questioned why their content was being used to train AI models in the first place.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Amazon is using Twitch streamer content to train its AI models by default, with an opt-out option available to creators. The announcement sparked significant backlash from streamers who questioned why their content was being used for AI training without explicit consent.",
+   "whyMatters": [
+    "Sets a precedent for how major tech platforms handle creator content in the AI era—opt-out rather than opt-in raises concerns about consent norms in content licensing",
+    "Highlights growing friction between AI developers' data needs and creators' intellectual property rights, likely to influence future platform policies and potential regulation"
+   ]
+  },
   {
    "title": "Northern Gannet",
    "link": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
@@ -1140,25 +1167,6 @@ window.NEWS_DATA = {
     "Provides genuine accessibility benefit by removing communication barriers for Deaf users",
     "Demonstrates practical AI application in inclusion and universal design",
     "May significantly improve digital and workplace accessibility if deployed widely and reliably"
-   ]
-  },
-  {
-   "title": "4 New Camera Tricks on Google’s Latest Pixel 11 Smartphones",
-   "link": "https://www.wired.com/story/new-camera-tricks-on-google-latest-pixel-11-smartphones/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-12T14:00:00+00:00",
-   "summary": "From Magic Capture and Instant Night Sight to a built-in teleprompter, here’s a look at a few camera features on Google’s new Pixel 11 series.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google's new Pixel 11 smartphones include several AI-powered camera features such as Magic Capture, Instant Night Sight, and a built-in teleprompter function.",
-   "whyMatters": [
-    "Shows consumer AI integration in everyday devices and mainstream product development",
-    "Demonstrates practical AI use cases that improve user experience without requiring technical expertise",
-    "Indicates AI becoming standard feature differentiation in consumer electronics"
    ]
   },
   {
