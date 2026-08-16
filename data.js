@@ -1,31 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-15T23:24:17.644661+00:00",
+ "generatedAt": "2026-08-16T05:31:54.903233+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-15T23:24:26.724101+00:00",
+  "generatedAt": "2026-08-16T05:32:04.074067+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic face mounting price pressure from Chinese competitors, triggering a price war for AI models that threatens US companies' business models and trillion-dollar valuations.",
+    "text": "OpenAI and Anthropic cut prices amid competition from Chinese rivals, while Google accelerates model releases with Gemini 3.7 Flash just three weeks after the prior version.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/"
     ]
    },
    {
-    "text": "Amazon uses Twitch creators' content to train AI by default; Anthropic adds invisible watermarks to flagged content; Google allows watermark removal—highlighting unresolved tensions over AI training data and content provenance.",
+    "text": "Amazon uses Twitch creator content to train AI by default, sparking backlash; meanwhile OpenAI and Anthropic deploy watermarks to flag AI-generated content.",
     "links": [
-     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
-     "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
+     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
     ]
    },
    {
-    "text": "Apple developed a custom AI model for China with Alibaba's help, marking a significant cross-border collaboration amid US-China tech tensions and raising questions about technology transfer.",
-    "links": []
+    "text": "Meta patents AI glasses with facial recognition to identify people and auto-curate event videos; Apple builds custom AI model for China with Alibaba despite US-China tensions.",
+    "links": [
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
+    ]
    },
    {
-    "text": "A litigant embedded hidden AI prompts in legal filings to manipulate court decisions, exemplifying emerging risks of AI exploitation in high-stakes institutional contexts where decisions carry real consequences.",
+    "text": "A litigant embedded hidden prompts in legal filings attempting to manipulate AI systems, revealing vulnerability of courts and legal processes to prompt injection attacks.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-     "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
+     "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/"
+    ]
+   },
+   {
+    "text": "Anthropic could reach $2 trillion valuation at IPO on revenue growth; OpenAI appoints new CRO and introduces faster API tier as competition for business customers intensifies.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+     "https://openai.com/index/previewing-ultrafast"
     ]
    }
   ]
@@ -114,6 +122,25 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Brings familiar React patterns to agent development, potentially lowering the barrier for web developers to build AI systems",
     "Represents a shift in how agent frameworks are conceptualized, moving toward clearer separation between agent logic and the systems that orchestrate it"
+   ]
+  },
+  {
+   "title": "CORS Chat",
+   "link": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-15T14:49:54+00:00",
+   "summary": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as c",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/cors-chat.webp",
+   "themes": [],
+   "aiSummary": "Simon Willison built CORS Chat, a web UI tool for testing chat endpoints compatible with OpenAI's API format. The tool was created to test Qwen 3.8 27B models running locally in LM Studio on Mac and NVIDIA hardware, and has been verified working with both LM Studio and OpenRouter.",
+   "whyMatters": [
+    "Enables developers to quickly test and debug local or remote language models without building custom interfaces",
+    "Supports the growing trend of running open-source models locally rather than relying solely on proprietary cloud APIs",
+    "Browser-based persistence and export features make it practical for iterative model testing and comparison workflows"
    ]
   },
   {
@@ -823,24 +850,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How kids feel about AI, in their own words",
-   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
-   "whyMatters": [
-    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
-    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
-   ]
-  },
-  {
    "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
    "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
    "source": "Wired · AI",
@@ -856,6 +865,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
     "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
+   ]
+  },
+  {
+   "title": "How kids feel about AI, in their own words",
+   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
+   "whyMatters": [
+    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
+    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
    ]
   },
   {
@@ -2174,24 +2201,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks escalation of AI companies building proprietary chips to control costs and avoid supply chain bottlenecks",
     "In-house silicon development could become a critical competitive advantage as compute demands for large models grow"
-   ]
-  },
-  {
-   "title": "datasette 1.0a38",
-   "link": "https://simonwillison.net/2026/Aug/6/datasette/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-06T18:24:34+00:00",
-   "summary": "Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessi",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Datasette 1.0a38 patches a SQL injection vulnerability affecting instances serving mixed public/private tables with permission-based access controls. Administrators should disable the execute-sql permission to prevent exploitation.",
-   "whyMatters": [
-    "Critical security issue in systems serving differentiated data access",
-    "Emphasizes need for careful permission management when using relational database tools in multi-tenant or privacy-sensitive contexts"
    ]
   },
   {
