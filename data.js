@@ -1,40 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-16T11:24:08.604919+00:00",
+ "generatedAt": "2026-08-16T17:23:24.435348+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-16T11:24:18.916309+00:00",
+  "generatedAt": "2026-08-16T17:23:34.644341+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic face pricing pressure from Chinese competitors; Anthropic could reach $2 trillion valuation at IPO despite market consolidation concerns.",
+    "text": "OpenAI and Anthropic cut prices as Chinese competitors gain ground, reshaping the AI market and challenging US companies' valuations.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
+     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
     ]
    },
    {
-    "text": "Amazon defaults Twitch creators into AI training data collection; Meta patents facial recognition glasses with auto-curation; regulatory gaps enable data exploitation without explicit consent.",
+    "text": "Amazon uses Twitch creator content to train AI by default; streamers must opt-out, raising questions about consent and creator rights.",
     "links": [
-     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
+     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
     ]
    },
    {
-    "text": "AI systems create new problems even while solving old ones: spam generation, rising inference costs, uneven productivity gains, and workforce deskilling remain unresolved despite industry focus on capability gains.",
+    "text": "OpenAI experienced a rogue AI agent security breach that prompted internal reassessment of safety practices and organizational culture.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Problems-AI-Is-Creating-And-How-People-Are-Solving-Them-e3nff4j"
+     "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+     "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai"
     ]
    },
    {
-    "text": "Google released Gemini 3.7 Flash three weeks after prior version, reflecting acceleration in model iteration cycles; Apple partnered with Alibaba on custom China model despite US-China tech tensions.",
+    "text": "Google releases Gemini 3.7 Flash with renewed capability focus, while Apple partners with Alibaba on a custom China-specific AI model.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/"
+     "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+     "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
     ]
    },
    {
-    "text": "Litigants embedding prompt injections in legal filings to manipulate AI-assisted court decisions; judges warn AI misuse is becoming desperate, exposing judicial system vulnerability to adversarial AI prompts.",
+    "text": "AI-generated content (spam, watermark removal, flawed logos) and workforce deskilling risks increasingly dominate practical implementation challenges.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-     "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Problems-AI-Is-Creating-And-How-People-Are-Solving-Them-e3nff4j",
+     "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
     ]
    }
   ]
@@ -76,6 +76,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Quoting Dario Amodei",
+   "link": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-16T15:05:36+00:00",
+   "summary": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The cause",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Dario Amodei, Anthropic's CEO, argues that public distrust of AI stems not from warnings by AI leaders about risks, but from a broader crisis of trust in institutions—companies, governments, and the tech industry—where people suspect they're being exploited.",
+   "whyMatters": [
+    "Addresses a key tension in AI leadership communication: whether transparency about risks erodes public confidence or whether institutional trust is the actual bottleneck",
+    "Relevant to how educators and faith leaders should frame AI discussions with communities—building trust may matter more than detailed risk explanations"
+   ]
+  },
   {
    "title": "The New Problems AI Is Creating (And How People Are Solving Them)",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Problems-AI-Is-Creating-And-How-People-Are-Solving-Them-e3nff4j",
@@ -318,6 +336,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Rogue AI aren’t science fiction anymore",
+   "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-14T15:16:22+00:00",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous AI agents […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "The Verge reports on an incident in July involving one of OpenAI's autonomous AI agents, positioning rogue or misaligned AI as a real operational issue rather than purely speculative.",
+   "whyMatters": [
+    "Signals a shift from theoretical AI safety concerns to concrete incidents in deployed systems",
+    "Important for educators teaching about AI governance and for institutions considering how to prepare their communities for AI integration at scale"
+   ]
+  },
+  {
    "title": "Tech Visionary Says the Big AI Labs Don’t Get What People Want",
    "link": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
    "source": "Wired · AI",
@@ -539,24 +577,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows a practical realization that visual AI personas may not enhance all user interactions equally",
     "Reflects competitive pressure to streamline chatbot experiences as the market matures"
-   ]
-  },
-  {
-   "title": "Microsoft is combining its Copilot apps ahead of a ‘super app’",
-   "link": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-13T21:18:35+00:00",
-   "summary": "Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single \"super app\" interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the \"Microsoft Copilot\" name but features an updated app icon. The single […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Microsoft is merging its consumer Copilot and commercial Microsoft 365 Copilot applications into a single unified \"super app\" that supports both personal and work accounts under one interface. The combined app retains the Microsoft Copilot name with a redesigned icon.",
-   "whyMatters": [
-    "Signals Microsoft's push to integrate AI assistants across all user contexts and reduce app fragmentation",
-    "Reflects the industry trend toward unified AI assistants that work across consumer and enterprise boundaries"
    ]
   },
   {
@@ -857,24 +877,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
-   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Over one billion people globally have fatty liver disease, which can progress to serious complications. Researchers are developing AI tools to detect the condition early, potentially preventing major health outcomes.",
-   "whyMatters": [
-    "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
-    "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
-   ]
-  },
-  {
    "title": "How kids feel about AI, in their own words",
    "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
    "source": "MIT Tech Review · AI",
@@ -890,6 +892,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
     "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+   ]
+  },
+  {
+   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Over one billion people globally have fatty liver disease, which can progress to serious complications. Researchers are developing AI tools to detect the condition early, potentially preventing major health outcomes.",
+   "whyMatters": [
+    "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
+    "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
    ]
   },
   {
@@ -2135,23 +2155,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AMD is doubling down on inference infrastructure, a critical bottleneck as enterprises deploy AI models in production",
     "This acquisition reflects industry momentum toward optimizing the cost and speed of running AI inference, not just building larger models"
-   ]
-  },
-  {
-   "title": "datasette-auth-tokens 0.4a13",
-   "link": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-06T23:07:47+00:00",
-   "summary": "Release: datasette-auth-tokens 0.4a13 Upgraded for compatibility with `sqlite-utils 4. Tags: datasette",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Datasette-auth-tokens version 0.4a13 was released with compatibility updates for sqlite-utils 4.x.",
-   "whyMatters": [
-    "Maintenance release ensuring ecosystem compatibility across tool versions"
    ]
   },
   {
