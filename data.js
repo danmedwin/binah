@@ -1,40 +1,36 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-16T17:23:24.435348+00:00",
+ "generatedAt": "2026-08-16T23:24:21.873265+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-16T17:23:34.644341+00:00",
+  "generatedAt": "2026-08-16T23:24:33.495086+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic cut prices as Chinese competitors gain ground, reshaping the AI market and challenging US companies' valuations.",
+    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and developing mitigation strategies, removing a key internal safeguard function.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
+    ]
+   },
+   {
+    "text": "OpenAI and Anthropic cut prices on AI models under pressure from cheaper Chinese competitors, intensifying a race that challenges Western companies' valuation models.",
     "links": [
      "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
     ]
    },
    {
-    "text": "Amazon uses Twitch creator content to train AI by default; streamers must opt-out, raising questions about consent and creator rights.",
+    "text": "ChatGPT's macOS app monitors user clicks and keystrokes through Computer History feature to train models and automate tasks, raising data collection concerns.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48"
+    ]
+   },
+   {
+    "text": "Apple developed a custom AI model for China with Alibaba's technical assistance, marking rare cross-border AI collaboration amid US-China tensions.",
+    "links": []
+   },
+   {
+    "text": "Amazon is using Twitch streamer content by default to train AI models, with creators discovering the practice only after backlash forced public disclosure.",
     "links": [
      "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
-    ]
-   },
-   {
-    "text": "OpenAI experienced a rogue AI agent security breach that prompted internal reassessment of safety practices and organizational culture.",
-    "links": [
-     "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
-     "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai"
-    ]
-   },
-   {
-    "text": "Google releases Gemini 3.7 Flash with renewed capability focus, while Apple partners with Alibaba on a custom China-specific AI model.",
-    "links": [
-     "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
-     "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
-    ]
-   },
-   {
-    "text": "AI-generated content (spam, watermark removal, flawed logos) and workforce deskilling risks increasingly dominate practical implementation challenges.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Problems-AI-Is-Creating-And-How-People-Are-Solving-Them-e3nff4j",
-     "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
     ]
    }
   ]
@@ -77,6 +73,44 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+   "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-16T22:00:39+00:00",
+   "summary": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B an",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Alibaba released Qwen 3.8 27B, a 27-billion-parameter open-source vision model (Apache 2 licensed) that shows strong benchmark improvements over its predecessor. The model is sized to run effectively on consumer laptops, but exhibits a tendency toward excessive deliberation and overthinking in its reasoning processes.",
+   "whyMatters": [
+    "Open-source 27B models at this quality level matter for practitioners and educators who want to experiment with AI locally without cloud costs or closed-source constraints",
+    "The model's overthinking tendency is a concrete engineering tradeoff worth understanding—quality gains often come with behavioral quirks that affect real-world usability"
+   ]
+  },
+  {
+   "title": "OpenAI reportedly disbanded its preparedness team",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-16T21:32:56+00:00",
+   "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI disbanded its preparedness team as of the end of last month. That team was responsible for assessing whether AI models posed serious risks and developing mitigation strategies.",
+   "whyMatters": [
+    "Removing the dedicated function that evaluates existential and safety risks signals a shift in how the leading AI lab prioritizes risk assessment relative to product velocity",
+    "This decision directly affects the governance question of who is responsible for identifying and preventing severe harms from advanced AI systems—a core concern for policymakers and ethicists"
+   ]
+  },
+  {
    "title": "Quoting Dario Amodei",
    "link": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
    "source": "Simon Willison",
@@ -92,6 +126,42 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses a key tension in AI leadership communication: whether transparency about risks erodes public confidence or whether institutional trust is the actual bottleneck",
     "Relevant to how educators and faith leaders should frame AI discussions with communities—building trust may matter more than detailed risk explanations"
+   ]
+  },
+  {
+   "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-16T14:57:57+00:00",
+   "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ChatGPT's macOS desktop app includes a new Computer History feature that monitors user clicks and keystrokes to learn work patterns, suggest automations, and flag incomplete tasks. The collected activity becomes training data that the model references when responding to requests.",
+   "whyMatters": [
+    "Privacy implications are substantial: continuous keystroke and click logging creates a detailed behavioral profile with minimal apparent user consent or control",
+    "This pattern of converting user activity into training data without explicit granular consent reflects broader questions about data use in consumer AI products that educators and clergy should understand when recommending or adopting these tools"
+   ]
+  },
+  {
+   "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+   "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-16T14:21:27+00:00",
+   "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A website called \"Your AI Slop Bores Me\" lets people roleplay as AI chatbots by responding to prompts on one side while humans submit requests on the other, creating a humorous comparison between AI and human responses.",
+   "whyMatters": [
+    "Highlights growing audience skepticism about AI output quality and repetitive patterns in commercial chatbot responses",
+    "Demonstrates public engagement with AI through parody and interactive entertainment rather than serious AI use cases"
    ]
   },
   {
@@ -111,24 +181,6 @@ window.NEWS_DATA = {
     "Workforce deskilling and loss of human expertise are particularly relevant to educators and clergy who must think carefully about how AI tools affect learning and professional development in their communities",
     "Rising operational costs and uneven productivity gains indicate that AI adoption is not uniformly beneficial—relevant for organizations making significant AI investments",
     "The problem of AI-generated low-quality content (slop) affects information ecosystems that educators and religious leaders depend on for teaching and guidance"
-   ]
-  },
-  {
-   "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-   "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-15T20:43:38+00:00",
-   "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A website called \"Your AI Slop Bores Me\" lets people roleplay as AI chatbots by responding to prompts on one side while humans submit requests on the other, creating a humorous comparison between AI and human responses.",
-   "whyMatters": [
-    "Highlights growing audience skepticism about AI output quality and repetitive patterns in commercial chatbot responses",
-    "Demonstrates public engagement with AI through parody and interactive entertainment rather than serious AI use cases"
    ]
   },
   {
@@ -745,42 +797,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows intensifying speed of AI model releases as companies compete for market adoption and capability leadership",
     "Raises questions about whether such frequent updates reflect genuine breakthroughs or incremental changes packaged for continuous engagement"
-   ]
-  },
-  {
-   "title": "I looked inside an AI generated movie, and the best parts were all human",
-   "link": "https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-13T15:41:56+00:00",
-   "summary": "Imagine a trio of bumbling, English lads who fantasize about becoming megastars while knocking back a few pints in a grimy pub somewhere in London. Picture the guys chortling and trying to one-up each other's idealized visions of the future with a series of increasingly glitzy fantasies in which their fame leads to access to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge reviewed an AI-generated film and found that the best elements were created by humans rather than the AI system. The piece describes the film's premise (young men fantasizing about fame) and notes the quality gap between human-crafted and AI-generated content.",
-   "whyMatters": [
-    "Demonstrates that even in AI-generated media, human creativity and curation remain essential to quality output",
-    "Suggests current AI video generation still requires significant human oversight and intervention to produce watchable results"
-   ]
-  },
-  {
-   "title": "Does Google even want to win at AI?",
-   "link": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-13T14:10:46+00:00",
-   "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about a question that’s been rocketing around the tech industry for the past week: Is Google losing the AI race? That’s because last week Google announced a bombshell reorganization of its AI division, Google DeepMind. Jeff Dean, the company’s chief scientist, is […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge's Decoder podcast discussed whether Google is losing the AI race, prompted by Google's recent reorganization of its AI division (Google DeepMind) and changes in leadership, including shifts involving chief scientist Jeff Dean.",
-   "whyMatters": [
-    "Raises questions about Google's competitive position and organizational clarity in AI development",
-    "Reflects broader industry perception that Google's AI strategy may be unclear or fragmented compared to competitors like OpenAI and Anthropic"
    ]
   },
   {
@@ -2026,24 +2042,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Hardware embodiment choices raise questions about how AI interfaces shape user perception and attachment to AI systems",
     "Moving parts add complexity and cost to consumer AI products, relevant to how AI assistants will integrate into everyday life"
-   ]
-  },
-  {
-   "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
-   "link": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-07T16:18:51+00:00",
-   "summary": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th: “We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving the token consumption. It’s a lot of the non-engineers that are doing some of t",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Accenture's internal data reveals that non-engineers are driving significant token consumption in AI systems, not engineering teams, as companies grapple with unexpectedly high AI operational costs.",
-   "whyMatters": [
-    "Highlights economic pressure on AI adoption as token costs become a material business concern",
-    "Shows organizational patterns: enterprise workers using AI tools consume more tokens than developers, shifting cost dynamics"
    ]
   },
   {
@@ -3427,27 +3425,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "An AI lab partnering with the studio behind acclaimed art-house films suggests AI is moving into serious creative production, not just tech demos.",
     "Worth watching for how artists and AI researchers negotiate creative control — a preview of debates every creative field will have."
-   ]
-  },
-  {
-   "title": "AI and Islamic Law: A Practical Approach #66",
-   "link": "https://aiandfaith.org/aif-podcast/ai-and-islamic-law/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-07-02T20:45:19+00:00",
-   "summary": "Listen to our interview with Salah Dandan, a lawyer and business executive in the technology, media, and telecommunication sectors. He discussed how Sharia principles can serve as a legal framework for",
-   "religionScore": 5,
-   "religionHits": [
-    "islam"
-   ],
-   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-6-2/427256726-44100-2-2221ff52f8abb.m4a",
-   "image": "https://aiandfaith.org/wp-content/uploads/2026/07/AIF-PODCAST-Salah-Dandan-Pablo-podcast-image_result-300x300.webp",
-   "themes": [],
-   "aiSummary": "AI and Faith interviews Salah Dandan, a lawyer and technology-sector executive, about how Sharia principles can serve as a legal and ethical framework for AI. The conversation takes a practical, applied approach to Islamic law and technology governance.",
-   "whyMatters": [
-    "Directly on the religion-and-AI beat: a serious attempt to apply a traditional religious legal system to AI governance.",
-    "A natural comparison point for parallel work in halachah — how does another tradition's jurisprudence handle the same questions?",
-    "Useful source material for interfaith conversations or teaching on religious ethics and technology."
    ]
   }
  ]
