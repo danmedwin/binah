@@ -1,28 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-16T09:56:11.301495+00:00",
+ "generatedAt": "2026-08-16T11:24:08.604919+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-16T09:56:19.898266+00:00",
+  "generatedAt": "2026-08-16T11:24:18.916309+00:00",
   "bullets": [
    {
-    "text": "OpenAI's CRO Denise Dresser is departing weeks after joining; leadership instability amid internal safety crises raises questions about organizational direction as competition intensifies.",
+    "text": "OpenAI and Anthropic face pricing pressure from Chinese competitors; Anthropic could reach $2 trillion valuation at IPO despite market consolidation concerns.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure"
+     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
     ]
    },
    {
-    "text": "Google released Gemini 3.7 Flash just three weeks after 3.6 Flash, accelerating model release cycles with claimed substantial improvements as AI labs race to maintain competitive advantage.",
-    "links": []
-   },
-   {
-    "text": "Anthropic's Claude now uses invisible watermarks to flag all AI-processed or edited content, creating infrastructure for future content provenance tracking even when AI involvement is minimal.",
-    "links": []
-   },
-   {
-    "text": "Meta patented facial recognition AI glasses to auto-curate highlight reels of dinner parties; Apple and Alibaba co-developed a custom LLM for China despite US-China tensions—surveillance and geopolitical fragmentation accelerate.",
+    "text": "Amazon defaults Twitch creators into AI training data collection; Meta patents facial recognition glasses with auto-curation; regulatory gaps enable data exploitation without explicit consent.",
     "links": [
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
-     "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
+     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
+    ]
+   },
+   {
+    "text": "AI systems create new problems even while solving old ones: spam generation, rising inference costs, uneven productivity gains, and workforce deskilling remain unresolved despite industry focus on capability gains.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Problems-AI-Is-Creating-And-How-People-Are-Solving-Them-e3nff4j"
+    ]
+   },
+   {
+    "text": "Google released Gemini 3.7 Flash three weeks after prior version, reflecting acceleration in model iteration cycles; Apple partnered with Alibaba on custom China model despite US-China tech tensions.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/"
+    ]
+   },
+   {
+    "text": "Litigants embedding prompt injections in legal filings to manipulate AI-assisted court decisions; judges warn AI misuse is becoming desperate, exposing judicial system vulnerability to adversarial AI prompts.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+     "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
     ]
    }
   ]
@@ -64,6 +76,25 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The New Problems AI Is Creating (And How People Are Solving Them)",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Problems-AI-Is-Creating-And-How-People-Are-Solving-Them-e3nff4j",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-08-16T11:12:56+00:00",
+   "summary": "AI is solving old problems while creating entirely new ones. NLW looks at how people and companies are responding to AI slop, rising token costs, uneven productivity, workforce deskilling, and the long-term challenge of preserving human expertise. AIDB's AI Summer Adventure: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://summeradventure.ai/⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Brought to you by: KPMG – Research from KPMG and the Universi",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124287571/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-16%2F429932316-44100-2-818213fb2b282.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "This podcast episode examines problems that AI systems are creating even as they solve older ones, including AI-generated spam (slop), climbing token costs for inference, uneven productivity gains across organizations, workforce deskilling, and the difficulty of retaining human expertise long-term. The episode explores how people and companies are responding to these emerging challenges.",
+   "whyMatters": [
+    "Workforce deskilling and loss of human expertise are particularly relevant to educators and clergy who must think carefully about how AI tools affect learning and professional development in their communities",
+    "Rising operational costs and uneven productivity gains indicate that AI adoption is not uniformly beneficial—relevant for organizations making significant AI investments",
+    "The problem of AI-generated low-quality content (slop) affects information ecosystems that educators and religious leaders depend on for teaching and guidance"
+   ]
+  },
   {
    "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
    "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
@@ -844,24 +875,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
-   "whyMatters": [
-    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
-    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
-   ]
-  },
-  {
    "title": "How kids feel about AI, in their own words",
    "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
    "source": "MIT Tech Review · AI",
@@ -877,6 +890,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
     "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+   ]
+  },
+  {
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
+   "whyMatters": [
+    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
+    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
    ]
   },
   {
@@ -3242,26 +3273,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical shift from AI as tool to AI as organizational backbone—agents integrated into workflows rather than augmenting individual roles",
     "Raises questions about knowledge work transformation: if engineering output triples, what happens to hiring, team structure, and the nature of engineering work itself"
-   ]
-  },
-  {
-   "title": "Is Kimi K3 Really Fable Class?",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Is-Kimi-K3-Really-Fable-Class-e3m7gee",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-07-17T20:22:07+00:00",
-   "summary": "Moonshot’s Kimi K3 is the strongest open-weight model yet, with benchmarks approaching Fable 5 and GPT-5.6. But early testing reveals major limitations in reliability, speed, and cost. NLW examines whether K3 lives up to the hype—and what it means for open models, AI safety, and the US-China race. Brought to you by: KPMG – Research from KPMG and the University of Texas at Austin shows the highest-",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/122978190/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-17%2F428152765-44100-2-3188a9b9df7e9.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Moonshot's Kimi K3 open-weight model achieves benchmark scores approaching Fable 5 and GPT-5.6, making it the strongest open-weight model to date. However, early testing has exposed significant practical limitations in reliability, speed, and cost-effectiveness that call into question whether the benchmarks translate to real-world performance.",
-   "whyMatters": [
-    "Open-weight models challenge closed commercial AI dominance; K3's mixed results illustrate the gap between benchmark claims and usable systems.",
-    "Raises questions about how the US-China AI competition and AI safety priorities interact when evaluating breakthrough claims."
    ]
   },
   {
