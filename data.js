@@ -1,90 +1,66 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-16T05:31:54.903233+00:00",
+ "generatedAt": "2026-08-16T09:56:11.301495+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-16T05:32:04.074067+00:00",
+  "generatedAt": "2026-08-16T09:56:19.898266+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic cut prices amid competition from Chinese rivals, while Google accelerates model releases with Gemini 3.7 Flash just three weeks after the prior version.",
+    "text": "OpenAI's CRO Denise Dresser is departing weeks after joining; leadership instability amid internal safety crises raises questions about organizational direction as competition intensifies.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-     "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/"
+     "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure"
     ]
    },
    {
-    "text": "Amazon uses Twitch creator content to train AI by default, sparking backlash; meanwhile OpenAI and Anthropic deploy watermarks to flag AI-generated content.",
-    "links": [
-     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
-    ]
+    "text": "Google released Gemini 3.7 Flash just three weeks after 3.6 Flash, accelerating model release cycles with claimed substantial improvements as AI labs race to maintain competitive advantage.",
+    "links": []
    },
    {
-    "text": "Meta patents AI glasses with facial recognition to identify people and auto-curate event videos; Apple builds custom AI model for China with Alibaba despite US-China tensions.",
-    "links": [
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
-    ]
+    "text": "Anthropic's Claude now uses invisible watermarks to flag all AI-processed or edited content, creating infrastructure for future content provenance tracking even when AI involvement is minimal.",
+    "links": []
    },
    {
-    "text": "A litigant embedded hidden prompts in legal filings attempting to manipulate AI systems, revealing vulnerability of courts and legal processes to prompt injection attacks.",
+    "text": "Meta patented facial recognition AI glasses to auto-curate highlight reels of dinner parties; Apple and Alibaba co-developed a custom LLM for China despite US-China tensions—surveillance and geopolitical fragmentation accelerate.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/"
-    ]
-   },
-   {
-    "text": "Anthropic could reach $2 trillion valuation at IPO on revenue growth; OpenAI appoints new CRO and introduces faster API tier as competition for business customers intensifies.",
-    "links": [
-     "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-     "https://openai.com/index/previewing-ultrafast"
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
+     "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-15T09:55:56.711284+00:00",
+  "generatedAt": "2026-08-16T09:56:19.898266+00:00",
   "bullets": [
    {
-    "text": "Amazon has been training its AI on Twitch streamer content by default for years; creators can now opt out, sparking backlash over unauthorized use of user-generated content for model training.",
+    "text": "OpenAI's CRO Denise Dresser is departing weeks after joining; leadership instability amid internal safety crises raises questions about organizational direction as competition intensifies.",
     "links": [
-     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
-     "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/"
+     "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure"
     ]
    },
    {
-    "text": "OpenAI and Anthropic are cutting prices and releasing faster models (GPT-5.6 Ultrafast at 14× speed, Grok 4.6 at lower cost) as Chinese competitors gain ground, intensifying competition that threatens US valuations.",
-    "links": [
-     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-     "https://openai.com/index/previewing-ultrafast",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop"
-    ]
+    "text": "Google released Gemini 3.7 Flash just three weeks after 3.6 Flash, accelerating model release cycles with claimed substantial improvements as AI labs race to maintain competitive advantage.",
+    "links": []
    },
    {
-    "text": "A pro se litigant embedded hidden AI prompts in legal filings hoping to manipulate court AI systems, highlighting desperation to exploit AI use in judiciary—judges warn litigants are increasingly misusing chatbots in courtrooms.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-     "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/"
-    ]
+    "text": "Anthropic's Claude now uses invisible watermarks to flag all AI-processed or edited content, creating infrastructure for future content provenance tracking even when AI involvement is minimal.",
+    "links": []
    },
    {
-    "text": "Meta patented AI glasses with facial recognition to auto-generate highlight reels of events; Google released sign-language-to-text translation for Deaf users—new AI capabilities converging on surveillance and accessibility.",
+    "text": "Meta patented facial recognition AI glasses to auto-curate highlight reels of dinner parties; Apple and Alibaba co-developed a custom LLM for China despite US-China tensions—surveillance and geopolitical fragmentation accelerate.",
     "links": [
      "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
-     "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
-    ]
-   },
-   {
-    "text": "The White House is preparing to expand AI policy to cover open-source models after years of light regulation, signaling growing policy attention to a broader AI landscape beyond frontier labs.",
-    "links": [
-     "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/"
+     "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-08-15T09:55:48.019240+00:00",
+  "updatedAt": "2026-08-16T09:56:14.494303+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
-   "Values substantive tech industry stories with clear business or product impact (Apple chips, Waze features)",
-   "Prefers accessible consumer-facing or policy-level AI news over technical tool releases and version updates"
+   "Interested in how religious and moral leaders engage with AI ethics and policy",
+   "Drawn to substantive AI impact stories with technical depth (chip design, practical applications)",
+   "Prefers established tech companies and mainstream coverage over niche developer updates",
+   "Seeks meaningful information that informs rather than routine technical release notes"
   ]
  },
  "items": [
@@ -868,24 +844,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How kids feel about AI, in their own words",
-   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
-   "whyMatters": [
-    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
-    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
-   ]
-  },
-  {
    "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
    "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
    "source": "OpenAI News",
@@ -901,6 +859,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
     "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
+   ]
+  },
+  {
+   "title": "How kids feel about AI, in their own words",
+   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
+   "whyMatters": [
+    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
+    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
    ]
   },
   {
@@ -3458,24 +3434,6 @@ window.NEWS_DATA = {
     "Directly on the religion-and-AI beat: a serious attempt to apply a traditional religious legal system to AI governance.",
     "A natural comparison point for parallel work in halachah — how does another tradition's jurisprudence handle the same questions?",
     "Useful source material for interfaith conversations or teaching on religious ethics and technology."
-   ]
-  },
-  {
-   "title": "Image Generation and Visual Intelligence with Black Forest Labs",
-   "link": "https://share.transistor.fm/s/6d8dad5f",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-07-02T09:00:00+00:00",
-   "summary": "How has AI image generation evolved from blurry outputs to powerful visual intelligence models? Dustin Podell, Co-Founder and Researcher at Black Forest Labs, explains the progression from diffusion to flow matching, how modern image models work, and how they're being used for image editing and practical visual workflows. The conversation also explores the FLUX family of models, running image gene",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/6d8dad5f/f006d8d2.mp3",
-   "image": "https://img.transistorcdn.com/Lm2mEDqafZACT7FMC2M7-KVb80vV2pNbxRXD28BQVg0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9jYWRm/N2UzOWQ2NmRjOTll/NTBiMDEwMjc1ZjVm/YjNlYy5wbmc.jpg",
-   "themes": [],
-   "aiSummary": "Practical AI interviews Dustin Podell, co-founder of Black Forest Labs (makers of the FLUX image models), on how AI image generation matured from blurry early outputs to today's visual-intelligence systems. He walks through the shift from diffusion to flow matching and how modern models handle image editing and practical visual workflows.",
-   "whyMatters": [
-    "A technical insider's view of the image-generation stack behind tools many creators now use daily.",
-    "Image editing (not just generation) is becoming the practical workhorse — relevant to anyone producing visual materials, from slides to worship media."
    ]
   }
  ]
