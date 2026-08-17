@@ -1,37 +1,36 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-16T23:24:21.873265+00:00",
+ "generatedAt": "2026-08-17T05:38:43.652529+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-16T23:24:33.495086+00:00",
+  "generatedAt": "2026-08-17T05:38:51.055614+00:00",
   "bullets": [
    {
-    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and developing mitigation strategies, removing a key internal safeguard function.",
+    "text": "OpenAI disbanded its preparedness team responsible for assessing AI risks and developing mitigations, signaling potential deprioritization of safety assessment.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     ]
    },
    {
-    "text": "OpenAI and Anthropic cut prices on AI models under pressure from cheaper Chinese competitors, intensifying a race that challenges Western companies' valuation models.",
+    "text": "OpenAI and Anthropic cut prices on AI models amid competitive pressure from Chinese rivals, triggering an AI industry price war that challenges US valuations.",
     "links": [
      "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
     ]
    },
    {
-    "text": "ChatGPT's macOS app monitors user clicks and keystrokes through Computer History feature to train models and automate tasks, raising data collection concerns.",
+    "text": "ChatGPT's macOS app now monitors user clicks and keystrokes via Computer History feature, raising data collection and consent concerns.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48"
+     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
     ]
    },
    {
-    "text": "Apple developed a custom AI model for China with Alibaba's technical assistance, marking rare cross-border AI collaboration amid US-China tensions.",
-    "links": []
-   },
-   {
-    "text": "Amazon is using Twitch streamer content by default to train AI models, with creators discovering the practice only after backlash forced public disclosure.",
+    "text": "Amazon defaults to using Twitch creators' content for AI training unless they opt out, sparking industry backlash over consent.",
     "links": [
      "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
     ]
+   },
+   {
+    "text": "Apple partnered with Alibaba to develop a custom AI model for China, marking rare cross-border AI collaboration amid US-China tech tensions.",
+    "links": []
    }
   ]
  },
@@ -72,6 +71,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Markdown SVG upgrades",
+   "link": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-16T23:59:37+00:00",
+   "summary": "I started building my markdown-svg-renderer tool in May , but I've since added enough features to it that it's worth talking about here again. It's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my proclivity for drawing pelicans riding bicycles this is a problem that I needed to solve! The tool is very simple. Navigate to markdown-svg-renderer in you",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/raw-svg.webp",
+   "themes": [],
+   "aiSummary": "Simon Willison has expanded his markdown-svg-renderer tool with additional features since its initial May launch. The tool now serves as a comprehensive solution for sharing Markdown documents that embed SVG graphics, making it easier to combine text transcripts with vector illustrations.",
+   "whyMatters": [
+    "Useful for developers and technical writers who need to blend documentation with custom graphics without external tools",
+    "Demonstrates practical tooling for handling mixed-media content in plain text formats, reducing friction in workflows that cross markdown and visual design"
+   ]
+  },
   {
    "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
    "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
@@ -451,7 +468,7 @@ window.NEWS_DATA = {
    "source": "404 Media",
    "category": "ai",
    "date": "2026-08-14T14:17:43+00:00",
-   "summary": "A new Meta patent published Thursday says a system, like its AI glasses, would use facial recognition to identify people, current a series of video clips, then provide you with a highlight reel of your night.",
+   "summary": "A new Meta patent published Thursday says a system, like its AI glasses, would use facial recognition to identify people, create a series of video clips, then provide you with a highlight reel of your night.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -911,24 +928,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
-   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Over one billion people globally have fatty liver disease, which can progress to serious complications. Researchers are developing AI tools to detect the condition early, potentially preventing major health outcomes.",
-   "whyMatters": [
-    "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
-    "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
-   ]
-  },
-  {
    "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
    "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
    "source": "OpenAI News",
@@ -944,6 +943,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
     "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
+   ]
+  },
+  {
+   "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+   "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "Over a billion people worldwide have livers with excess fat, which can lead to a host of medical problems. Researchers think AI tools can spot the condition—and help stop it—early enough to save lives.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Over one billion people globally have fatty liver disease, which can progress to serious complications. Researchers are developing AI tools to detect the condition early, potentially preventing major health outcomes.",
+   "whyMatters": [
+    "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
+    "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
    ]
   },
   {
@@ -1923,7 +1940,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-08-08T14:06:41+00:00",
-   "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News. I think one of the most interesting details here might be tucked away in that first bulletin point: May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how",
+   "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News. I think one of the most interesting details here might be tucked away in that first bullet point: May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how w",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1988,24 +2005,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Illustrates pragmatic mindset in blogging culture that values regular publication over perfectionism",
     "Relevant for educators and communicators deciding between rigor and accessibility in technical content"
-   ]
-  },
-  {
-   "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
-   "link": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-07T19:18:09+00:00",
-   "summary": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5 , where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago . I decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-a",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/raccoon-heist-codex-bug.jpg",
-   "themes": [],
-   "aiSummary": "Simon Willison tested GPT-5.6 Sol Ultra (Codex Desktop) on the same four-year-old game prompt that Claude Fable 5 had recently completed, comparing agentic code generation capabilities across models.",
-   "whyMatters": [
-    "Benchmarks real-world agentic performance across competing models in practical coding scenarios",
-    "Shows rapid capability growth: legacy GPT-3 + DALL-E prompts now handled by single modern models with code execution"
    ]
   },
   {
