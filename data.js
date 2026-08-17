@@ -1,32 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-17T10:08:36.086054+00:00",
+ "generatedAt": "2026-08-17T11:30:30.240535+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-17T10:08:48.850374+00:00",
+  "generatedAt": "2026-08-17T11:30:40.026005+00:00",
   "bullets": [
    {
-    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and developing mitigation strategies, raising concerns about safety oversight as the company faces leadership instability.",
+    "text": "OpenAI disbanded its preparedness team responsible for assessing AI risks and developing mitigations, raising governance concerns as the company faces competitive pressure.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     ]
    },
    {
-    "text": "ChatGPT's macOS app now monitors user clicks and keystrokes via Computer History feature to learn work patterns and suggest automations, collecting activity data for model training without clear user awareness.",
+    "text": "ChatGPT's macOS app now monitors user clicks and keystrokes via Computer History feature, collecting activity as training data without clear consent frameworks.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48"
     ]
    },
    {
-    "text": "Amazon uses Twitch streamer content to train AI models by default with only an opt-out option, sparking creator backlash over unauthorized use of copyrighted material for AI development.",
+    "text": "Anthropic embedding invisible watermarks in Claude text using Google DeepMind's SynthID technology to meet European AI transparency requirements.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system"
+    ]
+   },
+   {
+    "text": "Amazon uses Twitch streamer content to train AI models by default; widespread creator backlash over opt-out rather than opt-in approach to data use.",
     "links": [
      "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
     ]
    },
    {
-    "text": "OpenAI and Anthropic cut model prices amid competition from Chinese AI rivals, signaling market pressure on the US companies' valuations and business models as open-source alternatives gain ground.",
+    "text": "Meta patented AI glasses using facial recognition to auto-identify people and generate curated highlight reels of social events, raising privacy concerns.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
     ]
    }
   ]
@@ -71,6 +77,26 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Anthropic explains how Claude’s invisible text watermarks will work",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-17T10:57:13+00:00",
+   "summary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This [",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic announced that Claude will use invisible watermarks on generated text to meet European AI transparency requirements. The watermarks use Google DeepMind's open-source SynthID-Text technology, which embeds detectable patterns through word choice probabilities.",
+   "whyMatters": [
+    "Addresses EU regulatory compliance for AI-generated content disclosure, setting a practical standard for how AI labs can mark outputs transparently",
+    "Demonstrates industry movement toward technical solutions for attribution and detection of AI-generated text, relevant to concerns about synthetic content misuse"
+   ]
+  },
   {
    "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
    "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
@@ -145,6 +171,24 @@ window.NEWS_DATA = {
     "Raises critical questions about how AI's role in children's emotional development and mental health affects them when the technology fails or is discontinued",
     "Relevant to educators and parents who need to understand healthy boundaries between children and AI companions, and how to support kids through loss of a digital relationship",
     "Touches on design ethics: whether companies building emotionally-supportive AI for children bear responsibility for how they handle discontinuation"
+   ]
+  },
+  {
+   "title": "New policy ideas for the Intelligence Age",
+   "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-17T03:15:00+00:00",
+   "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is funding 14 independent research projects exploring policy frameworks for AI in the coming era. The initiative aims to expand economic opportunity and build societal resilience around advanced AI systems.",
+   "whyMatters": [
+    "Reflects OpenAI's shift toward funding external policy research rather than only internal work, increasing input from diverse perspectives on AI governance",
+    "Seeks to shape emerging policy landscape before rapid AI deployment creates regulatory crises, though specific project details and goals are not outlined"
    ]
   },
   {
@@ -500,24 +544,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises significant privacy and consent concerns—identifying people without explicit permission and generating edited compilations of their likenesses opens new legal and ethical questions about biometric data and derivative content",
     "Shows Meta's direction toward always-on surveillance and automated content generation from real-world interactions; relevant to broader questions about privacy expectations at social gatherings and who owns the narrative of personal events"
-   ]
-  },
-  {
-   "title": "Suno is trying to look more like a real music production tool",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-14T12:52:01+00:00",
-   "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Suno released Studio 2.0, which adds MIDI support and other features to position the music generation tool more like a professional digital audio workstation (DAW). MIDI was reportedly the most-requested feature from users.",
-   "whyMatters": [
-    "Indicates Suno is moving beyond simple generative novelty toward tools musicians and producers can integrate into professional workflows",
-    "Suggests AI music generation tools are maturing into utilities that complement rather than replace traditional music production"
    ]
   },
   {
@@ -950,24 +976,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How kids feel about AI, in their own words",
-   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
-   "whyMatters": [
-    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
-    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
-   ]
-  },
-  {
    "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
    "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
    "source": "Wired · AI",
@@ -1001,6 +1009,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
     "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
+   ]
+  },
+  {
+   "title": "How kids feel about AI, in their own words",
+   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
+   "whyMatters": [
+    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
+    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
    ]
   },
   {
@@ -2641,24 +2667,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Voice interaction is becoming a primary interface for AI products, shifting from text-based interaction toward more immediate conversational experiences",
     "Lower latency and turnless speech models make AI interaction feel more human-like, which affects accessibility but also the psychological experience of interacting with AI systems"
-   ]
-  },
-  {
-   "title": "Circles powers telco personalization with OpenAI technology",
-   "link": "https://openai.com/index/circles",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-03T00:00:00+00:00",
-   "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Circles, a telecommunications platform, integrated OpenAI's API and Codex to power AI-driven personalization features for telecom operators. Measurable results include a 22% increase in ARPU (average revenue per user), 9% reduction in customer churn, and faster development cycles.",
-   "whyMatters": [
-    "Demonstrates concrete ROI from AI APIs in enterprise telecom—not theoretical but measured revenue and retention improvements",
-    "Shows how coding-focused AI models (Codex) can accelerate developer productivity in non-tech sectors like telecommunications"
    ]
   },
   {
