@@ -1,37 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-17T17:31:44.259155+00:00",
+ "generatedAt": "2026-08-17T23:26:57.636222+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-17T17:31:57.511304+00:00",
+  "generatedAt": "2026-08-17T23:27:12.961707+00:00",
   "bullets": [
    {
-    "text": "Amazon traced rare books to an AI training facility, confirming tech companies systematically acquire copyrighted materials without author permission for model training.",
+    "text": "Amazon systematically purchases and disposes of rare books at AI training facilities, raising questions about data sourcing practices and cultural preservation.",
     "links": [
+     "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
      "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
     ]
    },
    {
-    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and mitigation strategies, signaling reduced internal focus on safety.",
+    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and mitigation, reducing institutional safety oversight.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     ]
    },
    {
-    "text": "An expert witness used ChatGPT to generate portions of a legal defense report in a $61M lawsuit, directing the AI to argue zero fault—raising serious questions about AI use in legal proceedings.",
+    "text": "An expert witness used ChatGPT with prompts directing zero-fault conclusions in a deadly 3M explosion lawsuit, exemplifying AI's misuse in legal proceedings.",
     "links": [
      "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/"
     ]
    },
    {
-    "text": "ChatGPT's Computer History feature monitors user clicks and keystrokes to learn work patterns and automate tasks, creating new privacy and consent concerns.",
+    "text": "ChatGPT's macOS app collects keystroke and click data as training material, expanding AI companies' monitoring scope into desktop activity.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
     ]
    },
    {
-    "text": "Amazon uses Twitch streamer content to train AI by default, sparking backlash over creator compensation and content rights.",
+    "text": "Anthropic CEO acknowledged AI companies have failed to deliver on promised benefits, sparking broader industry accountability debate.",
     "links": [
-     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc"
     ]
    }
   ]
@@ -76,6 +77,100 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Stripe buys OpenRouter for $7B",
+   "link": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-08-17T23:13:41+00:00",
+   "summary": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/QHBjufYK8TA",
+   "themes": [],
+   "aiSummary": "Stripe has acquired OpenRouter, an AI infrastructure and routing platform, for $7 billion. The acquisition focuses on OpenRouter's strengths in API infrastructure and distribution rather than novel AI models or agent capabilities.",
+   "whyMatters": [
+    "Consolidates AI infrastructure layers—Stripe gains control over a key distribution point for AI model access, reshaping how developers route requests across different providers",
+    "Signals prioritization of operational foundation over frontier capabilities—the deal values reliable plumbing and market access over cutting-edge model development"
+   ]
+  },
+  {
+   "title": "AI Companies Still Haven’t Delivered on Their Biggest Promises",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-08-17T21:47:54+00:00",
+   "summary": "Anthropic CEO Dario Amodei says the strongest criticism of AI companies is that they still haven’t delivered the enormous benefits they’ve promised—and that no amount of marketing can substitute for real results. His rare public response sparks a larger debate over what the industry must actually do to prove its value. In the headlines: ZAI releases GLM 5.3, Anthropic keeps a powerful new model in",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124357996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-17%2F430026787-44100-2-a2bcd0db21cc7.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic CEO Dario Amodei acknowledged in a rare public statement that AI companies have failed to deliver on their promised benefits, and that marketing cannot compensate for lack of real results. His comments sparked broader industry debate about what companies must actually demonstrate to prove AI's value.",
+   "whyMatters": [
+    "Credibility crisis within the industry—a major AI leader admits the gap between promises and performance, putting pressure on all firms to show tangible outcomes rather than continue hype",
+    "Matters to educators and communities evaluating AI adoption—establishes a baseline skepticism about vendor claims, reinforcing the need for local evidence before institutional commitments"
+   ]
+  },
+  {
+   "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
+   "link": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-17T21:18:49+00:00",
+   "summary": "“We're not necessarily building in a dogmatic fashion towards full autonomy.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Former SpaceX engineers have launched a project to build an automated robotic factory for manufacturing steel parts, approaching the task pragmatically rather than pursuing full autonomy as a dogmatic goal.",
+   "whyMatters": [
+    "Demonstrates practical AI/robotics applications outside tech—focuses manufacturing efficiency gains without waiting for theoretical autonomy breakthroughs",
+    "Reflects maturing industry attitude—emphasizes what works now rather than aspirational end-states, relevant to realistic ROI expectations"
+   ]
+  },
+  {
+   "title": "What Flock’s defenders are missing",
+   "link": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-17T19:16:09+00:00",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Flock, the police surveillance platform operating approximately 120,000 automatic license plate readers across the US, announced platform changes meant to address certain concerns about its technology.",
+   "whyMatters": [
+    "Surveillance infrastructure scaling—Flock's nationwide license plate reader network raises persistent questions about data governance, privacy, and law enforcement use of AI regardless of incremental updates",
+    "Matters to communities and civil liberties—any changes to such systems warrant scrutiny beyond official announcements, especially given the power asymmetry in policing contexts"
+   ]
+  },
+  {
+   "title": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
+   "link": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-17T18:13:47+00:00",
+   "summary": "Amazon’s team uses a T. rex preparing to devour a book as its logo.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An investigation using a hidden Airtag tracker discovered that Amazon is disposing of rare books as part of its practices, apparently to obtain material for AI training data.",
+   "whyMatters": [
+    "Raises questions about sustainability and cultural loss—destroying rare, potentially irreplaceable books for AI training data presents a tradeoff that may harm historical and scholarly access",
+    "Relevant to educational institutions and libraries—reveals data sourcing practices that educators and communities should understand when evaluating institutional relationships with major AI providers"
+   ]
+  },
   {
    "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
    "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
@@ -1085,24 +1180,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How kids feel about AI, in their own words",
-   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
-   "whyMatters": [
-    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
-    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
-   ]
-  },
-  {
    "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
    "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
    "source": "OpenAI News",
@@ -1118,6 +1195,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
     "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
+   ]
+  },
+  {
+   "title": "How kids feel about AI, in their own words",
+   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
+   "whyMatters": [
+    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
+    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
    ]
   },
   {
@@ -2314,42 +2409,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Suno hopes to go legit with watermarks for AI-generated music",
-   "link": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-06T20:17:36+00:00",
-   "summary": "Suno plans watermarks and download limits to stop \"large-scale abuse.\"",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Suno, an AI music generation company, is implementing watermarks and download limits on its generated music to combat misuse and abuse at scale. The move is part of efforts to establish legitimacy and address concerns about AI-generated music being spread without proper attribution.",
-   "whyMatters": [
-    "Reflects growing pressure on AI content tools to prove they can police their own outputs and prevent harmful proliferation",
-    "Watermarking and usage controls may become industry standard for AI-generated creative content as copyright and authenticity concerns mount"
-   ]
-  },
-  {
-   "title": "Anthropic will design its own hardware to power Claude",
-   "link": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-06T20:03:44+00:00",
-   "summary": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic has confirmed it is building an internal silicon design team to create custom hardware for running Claude. The effort mirrors similar initiatives by OpenAI and reflects competition to reduce dependence on Nvidia and scale AI infrastructure independently.",
-   "whyMatters": [
-    "Marks escalation of AI companies building proprietary chips to control costs and avoid supply chain bottlenecks",
-    "In-house silicon development could become a critical competitive advantage as compute demands for large models grow"
-   ]
-  },
-  {
    "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
    "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
    "source": "Google DeepMind",
@@ -2858,24 +2917,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-   "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-30T10:15:19+00:00",
-   "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers presented evidence at a top AI conference that large language models have an inherent architectural vulnerability that makes them impossible to fully secure against attacks, not just difficult. The flaw is intrinsic to how LLMs function rather than a fixable implementation issue.",
-   "whyMatters": [
-    "Has major implications for any system relying on LLM security—from enterprise applications to safety-critical domains",
-    "Suggests the challenge may require fundamental redesign rather than patching, creating long-term risk for deployed systems"
-   ]
-  },
-  {
    "title": "Reconstructing how OpenAI agents attacked Hugging Face",
    "link": "https://share.transistor.fm/s/9d74230b",
    "source": "Practical AI",
@@ -3036,24 +3077,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects significant industry divergence in AI strategy and business models",
     "May influence regulatory direction and policy debates around open versus closed AI development"
-   ]
-  },
-  {
-   "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
-   "link": "https://www.latent.space/p/chatgpt-work",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-28T15:26:30+00:00",
-   "summary": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/208716574/8e2c01f655d8148618e7479c56af1c3a.mp3",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI's engineering lead discussed the development of ChatGPT Work, describing features including Sites, Memory, Subagents, Finance capabilities, and no-code tools intended to make advanced AI functionality accessible to broader audiences.",
-   "whyMatters": [
-    "Signals shift toward productizing AI agents for knowledge workers across multiple domains beyond chat",
-    "No-code and finance features suggest OpenAI is targeting professional and small-business workflows directly"
    ]
   },
   {
@@ -3302,26 +3325,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Practical guidance for adopters; most users still don't fully utilize new model capabilities, limiting real-world impact and ROI.",
     "Relevant for educators and professionals who want to unlock AI's potential in their workflows rather than using it superficially."
-   ]
-  },
-  {
-   "title": "The Self-Driving Company",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Self-Driving-Company-e3m91l5",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-07-19T12:00:39+00:00",
-   "summary": "Replit says its internal agents have nearly tripled engineering output without sacrificing quality—but the bigger story is how AI is beginning to reshape the entire company. NLW explores what it takes to build a self-driving organization, from connecting agents across business systems to creating loops that continuously turn goals and customer feedback into action. Source: https://x.com/amasad/sta",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123028581/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-19%2F428220991-44100-2-64be4bc721e17.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Replit reports that its internal AI agents have nearly tripled engineering output while maintaining quality, and the company is restructuring itself around AI agent systems that connect across business functions to convert goals and customer feedback into automated action.",
-   "whyMatters": [
-    "Demonstrates practical shift from AI as tool to AI as organizational backbone—agents integrated into workflows rather than augmenting individual roles",
-    "Raises questions about knowledge work transformation: if engineering output triples, what happens to hiring, team structure, and the nature of engineering work itself"
    ]
   },
   {
