@@ -1,76 +1,152 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-17T05:38:43.652529+00:00",
+ "generatedAt": "2026-08-17T10:08:36.086054+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-17T05:38:51.055614+00:00",
+  "generatedAt": "2026-08-17T10:08:48.850374+00:00",
   "bullets": [
    {
-    "text": "OpenAI disbanded its preparedness team responsible for assessing AI risks and developing mitigations, signaling potential deprioritization of safety assessment.",
+    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and developing mitigation strategies, raising concerns about safety oversight as the company faces leadership instability.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     ]
    },
    {
-    "text": "OpenAI and Anthropic cut prices on AI models amid competitive pressure from Chinese rivals, triggering an AI industry price war that challenges US valuations.",
+    "text": "ChatGPT's macOS app now monitors user clicks and keystrokes via Computer History feature to learn work patterns and suggest automations, collecting activity data for model training without clear user awareness.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48"
     ]
    },
    {
-    "text": "ChatGPT's macOS app now monitors user clicks and keystrokes via Computer History feature, raising data collection and consent concerns.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
-    ]
-   },
-   {
-    "text": "Amazon defaults to using Twitch creators' content for AI training unless they opt out, sparking industry backlash over consent.",
+    "text": "Amazon uses Twitch streamer content to train AI models by default with only an opt-out option, sparking creator backlash over unauthorized use of copyrighted material for AI development.",
     "links": [
      "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
     ]
    },
    {
-    "text": "Apple partnered with Alibaba to develop a custom AI model for China, marking rare cross-border AI collaboration amid US-China tech tensions.",
-    "links": []
+    "text": "OpenAI and Anthropic cut model prices amid competition from Chinese AI rivals, signaling market pressure on the US companies' valuations and business models as open-source alternatives gain ground.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+    ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-16T09:56:19.898266+00:00",
+  "generatedAt": "2026-08-17T10:08:48.850374+00:00",
   "bullets": [
    {
-    "text": "OpenAI's CRO Denise Dresser is departing weeks after joining; leadership instability amid internal safety crises raises questions about organizational direction as competition intensifies.",
+    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and developing mitigation strategies, raising concerns about safety oversight as the company faces leadership instability.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure"
+     "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     ]
    },
    {
-    "text": "Google released Gemini 3.7 Flash just three weeks after 3.6 Flash, accelerating model release cycles with claimed substantial improvements as AI labs race to maintain competitive advantage.",
-    "links": []
-   },
-   {
-    "text": "Anthropic's Claude now uses invisible watermarks to flag all AI-processed or edited content, creating infrastructure for future content provenance tracking even when AI involvement is minimal.",
-    "links": []
-   },
-   {
-    "text": "Meta patented facial recognition AI glasses to auto-curate highlight reels of dinner parties; Apple and Alibaba co-developed a custom LLM for China despite US-China tensions—surveillance and geopolitical fragmentation accelerate.",
+    "text": "ChatGPT's macOS app now monitors user clicks and keystrokes via Computer History feature to learn work patterns and suggest automations, collecting activity data for model training without clear user awareness.",
     "links": [
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/",
-     "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
+     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48"
+    ]
+   },
+   {
+    "text": "Amazon uses Twitch streamer content to train AI models by default with only an opt-out option, sparking creator backlash over unauthorized use of copyrighted material for AI development.",
+    "links": [
+     "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
+    ]
+   },
+   {
+    "text": "OpenAI and Anthropic cut model prices amid competition from Chinese AI rivals, signaling market pressure on the US companies' valuations and business models as open-source alternatives gain ground.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-08-16T09:56:14.494303+00:00",
+  "updatedAt": "2026-08-17T10:08:43.441940+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in how religious and moral leaders engage with AI ethics and policy",
-   "Drawn to substantive AI impact stories with technical depth (chip design, practical applications)",
-   "Prefers established tech companies and mainstream coverage over niche developer updates",
-   "Seeks meaningful information that informs rather than routine technical release notes"
+   "Interested in AI ethics and moral/religious perspectives on technology",
+   "Appreciates well-analyzed product developments and innovations (Apple, consumer tech)",
+   "Prefers substantive reporting over technical release notes and software updates"
   ]
  },
  "items": [
+  {
+   "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+   "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-17T10:02:14+00:00",
+   "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side, you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A website called \"Your AI Slop Bores Me\" lets people roleplay as AI chatbots by responding to prompts on one side while humans submit requests on the other, creating a humorous comparison between AI and human responses.",
+   "whyMatters": [
+    "Highlights growing audience skepticism about AI output quality and repetitive patterns in commercial chatbot responses",
+    "Demonstrates public engagement with AI through parody and interactive entertainment rather than serious AI use cases"
+   ]
+  },
+  {
+   "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-17T09:48:02+00:00",
+   "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ChatGPT's macOS desktop app includes a new Computer History feature that monitors user clicks and keystrokes to learn work patterns, suggest automations, and flag incomplete tasks. The collected activity becomes training data that the model references when responding to requests.",
+   "whyMatters": [
+    "Privacy implications are substantial: continuous keystroke and click logging creates a detailed behavioral profile with minimal apparent user consent or control",
+    "This pattern of converting user activity into training data without explicit granular consent reflects broader questions about data use in consumer AI products that educators and clergy should understand when recommending or adopting these tools"
+   ]
+  },
+  {
+   "title": "OpenAI reportedly disbanded its preparedness team",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-17T09:21:20+00:00",
+   "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI disbanded its preparedness team as of the end of last month. That team was responsible for assessing whether AI models posed serious risks and developing mitigation strategies.",
+   "whyMatters": [
+    "Removing the dedicated function that evaluates existential and safety risks signals a shift in how the leading AI lab prioritizes risk assessment relative to product velocity",
+    "This decision directly affects the governance question of who is responsible for identifying and preventing severe harms from advanced AI systems—a core concern for policymakers and ethicists"
+   ]
+  },
+  {
+   "title": "What happens when a kid’s robot best friend dies?",
+   "link": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-17T09:00:00+00:00",
+   "summary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other,…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots",
+    "environment"
+   ],
+   "aiSummary": "The article explores the emotional impact on children when their robot companion—in this case a device called Moxie that has provided years of emotional support and coping strategies—becomes defunct or is no longer available. It examines what happens to the relationship and attachment a child has developed with an AI companion over an extended period.",
+   "whyMatters": [
+    "Raises critical questions about how AI's role in children's emotional development and mental health affects them when the technology fails or is discontinued",
+    "Relevant to educators and parents who need to understand healthy boundaries between children and AI companions, and how to support kids through loss of a digital relationship",
+    "Touches on design ethics: whether companies building emotionally-supportive AI for children bear responsibility for how they handle discontinuation"
+   ]
+  },
   {
    "title": "Markdown SVG upgrades",
    "link": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
@@ -110,24 +186,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI reportedly disbanded its preparedness team",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-16T21:32:56+00:00",
-   "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI disbanded its preparedness team as of the end of last month. That team was responsible for assessing whether AI models posed serious risks and developing mitigation strategies.",
-   "whyMatters": [
-    "Removing the dedicated function that evaluates existential and safety risks signals a shift in how the leading AI lab prioritizes risk assessment relative to product velocity",
-    "This decision directly affects the governance question of who is responsible for identifying and preventing severe harms from advanced AI systems—a core concern for policymakers and ethicists"
-   ]
-  },
-  {
    "title": "Quoting Dario Amodei",
    "link": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
    "source": "Simon Willison",
@@ -143,42 +201,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses a key tension in AI leadership communication: whether transparency about risks erodes public confidence or whether institutional trust is the actual bottleneck",
     "Relevant to how educators and faith leaders should frame AI discussions with communities—building trust may matter more than detailed risk explanations"
-   ]
-  },
-  {
-   "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-16T14:57:57+00:00",
-   "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "ChatGPT's macOS desktop app includes a new Computer History feature that monitors user clicks and keystrokes to learn work patterns, suggest automations, and flag incomplete tasks. The collected activity becomes training data that the model references when responding to requests.",
-   "whyMatters": [
-    "Privacy implications are substantial: continuous keystroke and click logging creates a detailed behavioral profile with minimal apparent user consent or control",
-    "This pattern of converting user activity into training data without explicit granular consent reflects broader questions about data use in consumer AI products that educators and clergy should understand when recommending or adopting these tools"
-   ]
-  },
-  {
-   "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-   "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-16T14:21:27+00:00",
-   "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A website called \"Your AI Slop Bores Me\" lets people roleplay as AI chatbots by responding to prompts on one side while humans submit requests on the other, creating a humorous comparison between AI and human responses.",
-   "whyMatters": [
-    "Highlights growing audience skepticism about AI output quality and repetitive patterns in commercial chatbot responses",
-    "Demonstrates public engagement with AI through parody and interactive entertainment rather than serious AI use cases"
    ]
   },
   {
@@ -572,6 +594,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
+   "link": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-08-14T06:16:00+00:00",
+   "summary": "Congrats to the team!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png",
+   "themes": [],
+   "aiSummary": "Cursor, an AI-powered code editor, was acquired by SpaceXai in a deal valued at $60 billion.",
+   "whyMatters": [
+    "Signals major consolidation in the AI developer tools space, with Elon Musk's AI venture absorbing a prominent competitive product",
+    "Reflects the intense M&A activity and valuations in AI infrastructure as companies compete for control of key developer ecosystems"
+   ]
+  },
+  {
    "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
    "link": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
    "source": "Latent Space",
@@ -928,24 +968,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
-   "whyMatters": [
-    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
-    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
-   ]
-  },
-  {
    "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
    "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
    "source": "Wired · AI",
@@ -961,6 +983,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI diagnostic systems moving into practical screening for a widespread condition affecting billions; demonstrates concrete medical benefit beyond hype",
     "Early detection via AI could shift disease management from treatment to prevention, reducing healthcare burden at population scale"
+   ]
+  },
+  {
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
+   "whyMatters": [
+    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
+    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
    ]
   },
   {
@@ -2918,24 +2958,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The AI Hype Index: Unsexy AI",
-   "link": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-07-29T08:42:57+00:00",
-   "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The article examines a shift in AI development from flashy language models to less glamorous but practical applications like robotic dexterity and food preparation. Company 1X demonstrated new robots with improved hand capability, suggesting the field is moving toward unglamorous utility over headline-grabbing breakthroughs.",
-   "whyMatters": [
-    "Represents a maturation of AI industry interests: from attention-seeking large models to solving concrete real-world problems in robotics and physical tasks",
-    "Signals that actual economic value and disruption may come from incremental improvements in unglamorous domains rather than from the most-hyped generative AI applications"
-   ]
-  },
-  {
    "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
    "link": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
    "source": "Latent Space",
@@ -3007,24 +3029,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a milestone in embodied AI capability—extending from speech/text into coordinated physical action",
     "Opens new applications in manufacturing, care work, and other physical domains while raising questions about displacement and safety oversight"
-   ]
-  },
-  {
-   "title": "[AINews] Much ado about Open Weights",
-   "link": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-07-28T06:20:13+00:00",
-   "summary": "Everyone is writing a lot, but only Kimi K3 shipped today",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!90od!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOR8_rBbEAAhTr6.jpg",
-   "themes": [],
-   "aiSummary": "Latent Space reports on activity in the open-weights AI model space, noting that while there has been much discussion and announcements, only Kimi K3 actually shipped as a completed release today.",
-   "whyMatters": [
-    "Distinguishes between AI industry hype and actual product releases—important for tracking which models are genuinely available versus vaporware",
-    "Open-weights models are central to democratizing AI access; shipping status affects what tools are available to researchers, educators, and practitioners"
    ]
   },
   {
