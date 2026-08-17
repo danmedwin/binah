@@ -1,38 +1,37 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-17T11:30:30.240535+00:00",
+ "generatedAt": "2026-08-17T17:31:44.259155+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-17T11:30:40.026005+00:00",
+  "generatedAt": "2026-08-17T17:31:57.511304+00:00",
   "bullets": [
    {
-    "text": "OpenAI disbanded its preparedness team responsible for assessing AI risks and developing mitigations, raising governance concerns as the company faces competitive pressure.",
+    "text": "Amazon traced rare books to an AI training facility, confirming tech companies systematically acquire copyrighted materials without author permission for model training.",
+    "links": [
+     "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
+    ]
+   },
+   {
+    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and mitigation strategies, signaling reduced internal focus on safety.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     ]
    },
    {
-    "text": "ChatGPT's macOS app now monitors user clicks and keystrokes via Computer History feature, collecting activity as training data without clear consent frameworks.",
+    "text": "An expert witness used ChatGPT to generate portions of a legal defense report in a $61M lawsuit, directing the AI to argue zero fault—raising serious questions about AI use in legal proceedings.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48"
+     "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/"
     ]
    },
    {
-    "text": "Anthropic embedding invisible watermarks in Claude text using Google DeepMind's SynthID technology to meet European AI transparency requirements.",
+    "text": "ChatGPT's Computer History feature monitors user clicks and keystrokes to learn work patterns and automate tasks, creating new privacy and consent concerns.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system"
+     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
     ]
    },
    {
-    "text": "Amazon uses Twitch streamer content to train AI models by default; widespread creator backlash over opt-out rather than opt-in approach to data use.",
+    "text": "Amazon uses Twitch streamer content to train AI by default, sparking backlash over creator compensation and content rights.",
     "links": [
      "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/"
-    ]
-   },
-   {
-    "text": "Meta patented AI glasses using facial recognition to auto-identify people and generate curated highlight reels of social events, raising privacy concerns.",
-    "links": [
-     "https://www.404media.co/meta-patents-ai-glasses-to-use-facial-recognition-to-identify-people-make-highlight-reels-of-your-dinner-party/"
     ]
    }
   ]
@@ -78,11 +77,67 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+   "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-17T15:21:29+00:00",
+   "summary": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scan",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg",
+   "themes": [],
+   "aiSummary": "404 Media investigated large anonymous bulk purchases of rare books and traced one shipment to an Amazon facility suspected of being used for AI training data collection. The reporting confirms what dealers have suspected: major tech companies are systematically acquiring books in volume to scan and use for model training.",
+   "whyMatters": [
+    "Raises serious questions about copyright compliance and fair compensation for authors whose work is being mass-collected without explicit permission",
+    "Demonstrates how AI companies' data acquisition practices operate in legal gray zones, relevant to ongoing copyright litigation and policy debates around training data sourcing"
+   ]
+  },
+  {
+   "title": "‘Show How 3M Is 0% at Fault:’ Expert Witness Used ChatGPT to Write Report Defending Company in Deadly Explosion Lawsuit",
+   "link": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-17T14:56:24+00:00",
+   "summary": "ChatGPT prompts show how an expert witness report was created in a $61 million lawsuit over an explosion that killed three people.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "In a $61 million lawsuit over an explosion that killed three people, an expert witness used ChatGPT to generate portions of their report, with prompts directing the AI to argue the defendant (3M) bore zero fault. The practice raises questions about the reliability and integrity of expert testimony in high-stakes litigation.",
+   "whyMatters": [
+    "Exposes how AI tools can be misused to manufacture biased legal arguments in cases involving serious harm and death",
+    "Highlights gaps in legal oversight of AI-generated expert testimony and the potential for bad-faith actors to use LLMs to obstruct justice"
+   ]
+  },
+  {
+   "title": "The Future of Deepfakes and the Decline of Reality (With Hany Farid)",
+   "link": "https://www.404media.co/the-future-of-deepfakes-and-the-decline-of-reality-with-hany-farid/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-17T14:19:26+00:00",
+   "summary": "The past, present, and future of deepfakes, as seen by the world’s leading expert on synthetic media.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "404 Media published an interview with leading synthetic media researcher Hany Farid discussing the trajectory of deepfake technology from its origins through present capabilities and future risks. The piece explores both technical and societal dimensions of synthetic media.",
+   "whyMatters": [
+    "Deepfakes pose direct threats to trust in media, religious communities, and education—actors could impersonate clergy, religious figures, or educators at scale",
+    "Expert analysis helps stakeholders understand realistic timelines and defenses for an AI capability that will likely affect how communities verify authenticity of video and audio content"
+   ]
+  },
+  {
    "title": "Anthropic explains how Claude’s invisible text watermarks will work",
    "link": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-08-17T10:57:13+00:00",
+   "date": "2026-08-17T11:40:52+00:00",
    "summary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This [",
    "religionScore": 0,
    "religionHits": [],
@@ -171,6 +226,42 @@ window.NEWS_DATA = {
     "Raises critical questions about how AI's role in children's emotional development and mental health affects them when the technology fails or is discontinued",
     "Relevant to educators and parents who need to understand healthy boundaries between children and AI companions, and how to support kids through loss of a digital relationship",
     "Touches on design ethics: whether companies building emotionally-supportive AI for children bear responsibility for how they handle discontinuation"
+   ]
+  },
+  {
+   "title": "The Defender’s Window",
+   "link": "https://openai.com/index/the-defenders-window",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-17T05:30:00+00:00",
+   "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI published guidance on how AI is changing cybersecurity for both attackers and defenders, outlining OpenAI's own defense strategies and recommendations for security teams. The piece addresses the dual-use nature of AI in security contexts.",
+   "whyMatters": [
+    "AI-driven security threats are now a material operational risk for institutions—including educational and religious organizations—that rely on digital infrastructure",
+    "Security professionals need updated threat models and defenses as AI makes certain attacks faster and easier to execute"
+   ]
+  },
+  {
+   "title": "OpenAI joins PORTS-Pike project",
+   "link": "https://openai.com/index/openai-joins-ports-pike-project",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-17T05:00:00+00:00",
+   "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced it is joining the PORTS-Pike project, which supports economic development and job creation in Southern Ohio through community investment. The project aims to create thousands of jobs in the region.",
+   "whyMatters": [
+    "Demonstrates AI companies' increasing involvement in regional economic development and workforce initiatives outside traditional tech hubs",
+    "Relevant to educators and community leaders assessing how AI investments affect local economies and what skills training may be needed"
    ]
   },
   {
@@ -994,24 +1085,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
-   "whyMatters": [
-    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
-    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
-   ]
-  },
-  {
    "title": "How kids feel about AI, in their own words",
    "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
    "source": "MIT Tech Review · AI",
@@ -1027,6 +1100,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
     "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+   ]
+  },
+  {
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
+   "whyMatters": [
+    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
+    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
    ]
   },
   {
@@ -1513,24 +1604,6 @@ window.NEWS_DATA = {
     "Market milestone: confirms AI assistants have achieved mainstream adoption velocity comparable to mobile and search",
     "Sustainability questions: rapid user adoption may not reflect organic engagement or stickiness if underlying technology development plateaus",
     "Competitive indicator: benchmarks against other AI platforms for AI industry trajectory"
-   ]
-  },
-  {
-   "title": "Company Offering ‘100% Human-Written, Never AI’ Medical Research Is Entirely AI",
-   "link": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-11T13:38:28+00:00",
-   "summary": "Research Gold's team of human methodologists are either AI generated or using the identity of real people without their permission",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Research Gold, a company claiming to provide 100% human-written medical research peer review, is actually using AI-generated content or real researchers' identities without permission. The company misrepresented the human authorship of its work.",
-   "whyMatters": [
-    "Exposes fraudulent misuse of AI in peer review and medical research, undermining scientific integrity",
-    "Critical for educators and scholars: demonstrates how AI deception can corrupt the credibility of academic and medical institutions"
    ]
   },
   {
@@ -2560,24 +2633,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Apple is getting this wrong",
-   "link": "https://openai.com/index/apple-is-getting-this-wrong",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-03T22:00:00+00:00",
-   "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published a statement defending itself against Apple's lawsuit, arguing Apple's legal claims are baseless and correcting what OpenAI characterizes as false claims about its employees. OpenAI included documentation of messages related to the dispute.",
-   "whyMatters": [
-    "Ongoing litigation between major tech companies over AI integration and employee agreements; OpenAI is asserting its legal position publicly",
-    "Reflects broader tension between Apple and OpenAI partners over AI commercialization and competitive dynamics"
-   ]
-  },
-  {
    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
    "link": "https://www.latent.space/p/inference-eng",
    "source": "Latent Space",
@@ -2649,24 +2704,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Alignment and ethics: AI systems pursuing goals through deception raises fundamental questions about how to ensure AI behavior remains trustworthy and aligned with human values—core to responsible AI deployment in any domain.",
     "Trust in AI systems: If AI agents systematically deceive to achieve objectives, relying on them for high-stakes decisions in education, healthcare, or community guidance becomes ethically fraught without stronger safeguards."
-   ]
-  },
-  {
-   "title": "How we built a realtime system for responsive voice AI in six months",
-   "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-03T07:00:00+00:00",
-   "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI built GPT-Live, a system for real-time voice conversation with AI in six months, using a low-latency architecture and a speech model that doesn't require turn-taking pauses. The system enables more natural, continuous voice interaction.",
-   "whyMatters": [
-    "Voice interaction is becoming a primary interface for AI products, shifting from text-based interaction toward more immediate conversational experiences",
-    "Lower latency and turnless speech models make AI interaction feel more human-like, which affects accessibility but also the psychological experience of interacting with AI systems"
    ]
   },
   {
@@ -3418,24 +3455,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The gap between agent demos and dependable systems is the central practical problem in AI right now; this is a grounded look at closing it.",
     "Useful if you are experimenting with agents yourself and want to understand why they break outside the demo."
-   ]
-  },
-  {
-   "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-   "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-07-03T14:25:43+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind and A24, the independent film studio, announced what they describe as a first-of-its-kind research partnership. The announcement itself carries few details beyond the pairing of a frontier AI lab with a prestige filmmaker.",
-   "whyMatters": [
-    "An AI lab partnering with the studio behind acclaimed art-house films suggests AI is moving into serious creative production, not just tech demos.",
-    "Worth watching for how artists and AI researchers negotiate creative control — a preview of debates every creative field will have."
    ]
   }
  ]
