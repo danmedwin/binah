@@ -1,38 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-17T23:26:57.636222+00:00",
+ "generatedAt": "2026-08-18T05:34:03.700454+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-17T23:27:12.961707+00:00",
+  "generatedAt": "2026-08-18T05:34:14.802364+00:00",
   "bullets": [
    {
-    "text": "Amazon systematically purchases and disposes of rare books at AI training facilities, raising questions about data sourcing practices and cultural preservation.",
+    "text": "Amazon is systematically acquiring rare books through bulk purchases and disposing of them at AI training facilities, raising questions about data sourcing practices.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
      "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
     ]
    },
    {
-    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and mitigation, reducing institutional safety oversight.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
-    ]
-   },
-   {
-    "text": "An expert witness used ChatGPT with prompts directing zero-fault conclusions in a deadly 3M explosion lawsuit, exemplifying AI's misuse in legal proceedings.",
+    "text": "An expert witness in a $61 million lawsuit used ChatGPT with bias prompts to argue a defendant bore zero fault in a deadly explosion, exposing AI's role in legal proceedings.",
     "links": [
      "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/"
     ]
    },
    {
-    "text": "ChatGPT's macOS app collects keystroke and click data as training material, expanding AI companies' monitoring scope into desktop activity.",
+    "text": "Stripe acquired OpenRouter for $7 billion, consolidating AI infrastructure and API routing capabilities rather than novel model development.",
     "links": [
+     "https://www.latent.space/p/ainews-stripe-buys-openrouter-for"
+    ]
+   },
+   {
+    "text": "Anthropic's CEO acknowledged AI companies have failed to deliver on promises, while OpenAI disbanded its preparedness team and ChatGPT expanded keystroke tracking on macOS.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc",
+     "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
      "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
     ]
    },
    {
-    "text": "Anthropic CEO acknowledged AI companies have failed to deliver on promised benefits, sparking broader industry accountability debate.",
+    "text": "Alibaba's Qwen 3.8 27B matches much larger competitors on benchmarks while running on consumer hardware, signaling competitive open-source model progress.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc"
+     "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+     "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
     ]
    }
   ]
@@ -77,6 +80,44 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+   "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-17T23:58:14+00:00",
+   "summary": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , ll",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Alibaba's Qwen 3.8 27B model achieved a score of 52 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Luna and nearly matching much larger competitors like GLM-5.2 (753B parameters) and DeepSeek V4 Pro (1.6B parameters). The result is notable because Qwen achieves this performance at just 27B parameters, suggesting significant efficiency gains in model scaling.",
+   "whyMatters": [
+    "Demonstrates that smaller models can now compete with much larger ones on standardized benchmarks, shifting the efficiency frontier in LLM development",
+    "Has implications for deployment costs and accessibility—smaller models require less computational infrastructure while maintaining high performance"
+   ]
+  },
+  {
+   "title": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
+   "link": "https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-17T23:40:26+00:00",
+   "summary": "The greatest invention in pet tech in recent years is the litter robot. A machine that scoops your kitties' poop so you don't have to - what else could a cat owner possibly want? How about insights into your kitty's litter box usage that could flag health issues? Sign me up. But I have two […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "The Litter Robot 5 Pro uses AI to analyze cats' litter box usage patterns and provide health insights to owners. However, the review indicates the AI misidentified individual cats, incorrectly thinking two cats had swapped bodies rather than recognizing them as separate animals.",
+   "whyMatters": [
+    "Highlights practical limitations of AI vision systems in real-world consumer products—misidentification undermines the health monitoring value proposition",
+    "Raises questions about relying on AI-generated health insights for pet care when the underlying recognition system is unreliable"
+   ]
+  },
   {
    "title": "[AINews] Stripe buys OpenRouter for $7B",
    "link": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
@@ -975,24 +1016,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI is losing its second executive this week",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-13T19:28:39+00:00",
-   "summary": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she said in a team note posted to LinkedIn. Dali Rajic, president and COO of Wiz, will be taking over the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Denise Dresser, who became OpenAI's chief revenue officer in December after leading Slack, is departing in the coming weeks. Dali Rajic from Wiz will replace her.",
-   "whyMatters": [
-    "Second executive departure from OpenAI in a week, signaling possible internal instability or leadership realignment",
-    "May affect OpenAI's commercial strategy and partnerships during a critical growth phase"
-   ]
-  },
-  {
    "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them",
    "link": "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/",
    "source": "404 Media",
@@ -1162,6 +1185,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "How kids feel about AI, in their own words",
+   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
+   "whyMatters": [
+    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
+    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+   ]
+  },
+  {
    "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
    "link": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
    "source": "Wired · AI",
@@ -1195,24 +1236,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
     "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
-   ]
-  },
-  {
-   "title": "How kids feel about AI, in their own words",
-   "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review interviewed children about their attitudes toward AI, expecting to hear about cheating and academic shortcuts similar to past technologies. The article captures kids' own perspectives on how they view and use artificial intelligence.",
-   "whyMatters": [
-    "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
-    "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
    ]
   },
   {
@@ -2221,24 +2244,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides conceptual framework for understanding the current multi-agent AI landscape",
     "Connects disparate recent developments into a coherent pattern"
-   ]
-  },
-  {
-   "title": "Quoting John Gruber",
-   "link": "https://simonwillison.net/2026/Aug/8/john-gruber/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-08T00:10:40+00:00",
-   "summary": "Me, I try to get into the mindset of playing live music, not recording a studio album. Except when I’m writing a piece where I really want it to be an album. Those aren’t rare , per se, but they’re occasional . If I tried to make every post a hall-of-famer I’d never get anything out. I’m aiming for professionalism. I’m performing live in front of an audience — not just jamming in my garage or bedr",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "John Gruber described his philosophy of technical writing as live performance rather than studio perfection, prioritizing consistent output and professionalism over making every piece exceptional.",
-   "whyMatters": [
-    "Illustrates pragmatic mindset in blogging culture that values regular publication over perfectionism",
-    "Relevant for educators and communicators deciding between rigor and accessibility in technical content"
    ]
   },
   {
