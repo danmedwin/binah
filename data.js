@@ -1,39 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-18T11:29:24.671715+00:00",
+ "generatedAt": "2026-08-18T17:31:13.239933+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-18T11:29:38.526073+00:00",
+  "generatedAt": "2026-08-18T17:31:29.784479+00:00",
   "bullets": [
    {
-    "text": "OpenAI disbanded its preparedness team responsible for assessing AI model risks and developing mitigation strategies, amid questions about safety prioritization.",
+    "text": "OpenAI disbanded its preparedness team responsible for assessing AI safety risks and developing mitigation strategies, signaling reduced institutional focus on existential risk management.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     ]
    },
    {
-    "text": "An expert witness used ChatGPT to argue a defendant bore zero fault in a deadly explosion lawsuit, raising serious questions about AI's role in legal proceedings and accountability.",
-    "links": [
-     "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/"
-    ]
-   },
-   {
-    "text": "Investigation reveals Amazon is disposing of rare books at AI training facilities, confirming tech companies systematically acquire material for model training with minimal transparency.",
+    "text": "Amazon is systematically acquiring rare books for AI training data, discovered via hidden tracker investigation, raising questions about data sourcing ethics and literary preservation.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
      "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
     ]
    },
    {
-    "text": "OpenAI launches ChatGPT for Teens with safeguards and parental controls, alongside educator partnerships to build AI literacy in young people.",
+    "text": "ChatGPT's new Computer History feature monitors user clicks and keystrokes for productivity suggestions, converting intimate activity logs into training data without explicit consent.",
     "links": [
-     "https://openai.com/index/chatgpt-for-teens",
-     "https://openai.com/index/partnering-with-codeai"
+     "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
     ]
    },
    {
-    "text": "AI companies like Anthropic and OpenAI selectively publish usage data with no third-party verification, creating a transparency gap about how people actually use AI systems.",
+    "text": "Expert witnesses in high-stakes litigation are using ChatGPT to write portions of legal reports with prompts directing AI to argue predetermined conclusions, compromising courtroom evidentiary integrity.",
     "links": [
-     "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/"
+     "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/"
+    ]
+   },
+   {
+    "text": "Anthropic CEO publicly acknowledged AI companies have failed to deliver on major promised benefits and that marketing cannot compensate for lack of real results.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc"
     ]
    }
   ]
@@ -84,6 +83,136 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Anthropic’s Text Watermarking Proves AI Companies Do Not Care at All About Writing",
+   "link": "https://www.404media.co/anthropics-text-watermarking-proves-ai-companies-do-not-care-at-all-about-writing/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-18T15:54:15+00:00",
+   "summary": "AI companies see words as interchangeable and have zero clue how to judge the “quality” of writing.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic has implemented text watermarking in its AI outputs, which critics argue reveals a fundamental indifference among AI companies to actual writing quality. The watermarking approach treats words as largely interchangeable units rather than recognizing the nuanced craft of good writing.",
+   "whyMatters": [
+    "Raises concerns about whether AI developers prioritize detectability over genuine writing competence, with implications for educational use where discerning authentic student work matters",
+    "Points to a gap between AI industry rhetoric about quality and the technical choices that suggest words are commoditized rather than crafted"
+   ]
+  },
+  {
+   "title": "Elon Musk broke the FAA — Palantir is picking up the pieces",
+   "link": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-18T15:44:25+00:00",
+   "summary": "On August 6th, the Minneapolis Air Route Traffic Control Center lost radar and communications for around two hours. The outage disrupted more than 1,100 flights across the center's 330,000 square mile, nine-state airspace sector. Two days earlier, on August 4th, President Donald Trump departed the White House inside his Marine One military helicopter. As Federal […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A major air traffic control outage in Minneapolis disrupted over 1,100 flights across a nine-state region. The reporting suggests connections between Elon Musk, Peter Thiel, Palantir, and the FAA's systems, linking the outage to potential conflicts of interest in critical infrastructure management.",
+   "whyMatters": [
+    "AI governance and safety: concerns about corporate influence over critical infrastructure systems that could affect public safety",
+    "Raises questions about oversight and transparency in AI/technology deployment in essential services"
+   ]
+  },
+  {
+   "title": "Google’s Pet Memory forgot who my cats are",
+   "link": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-18T14:55:58+00:00",
+   "summary": "One of the best things my smart home does is help me care for my pets, and security cameras are particularly useful for keeping track of my many critters. But the barrage of notifications they send often means I miss important ones. So, when Google announced its new Pet Memory feature for Gemini for Home, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google's new Pet Memory feature for Gemini for Home, designed to reduce notification overload from security cameras by filtering pet-related alerts, failed in practice by forgetting which cats belonged to the household. The feature was intended to improve smart home pet care management but demonstrated poor recognition capability.",
+   "whyMatters": [
+    "Shows limitations in AI systems handling recurring, personalized context needed for reliable household automation",
+    "Highlights gap between promised smart home utility and actual performance in everyday use cases"
+   ]
+  },
+  {
+   "title": "X's Algorithm Feeds Off Ragebait and Impacts Democrats More, Study Finds",
+   "link": "https://www.404media.co/xs-algorithm-feeds-off-ragebait-and-impacts-democrats-more-study-finds/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-08-18T13:27:22+00:00",
+   "summary": "X is driving engagement by making users fight in the replies.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A new study found that X's algorithm systematically promotes ragebait and inflammatory content to drive engagement, with measurable disparate impact favoring certain political viewpoints. The platform appears optimized for conflict rather than meaningful discourse.",
+   "whyMatters": [
+    "Demonstrates algorithmic amplification of divisive content at scale with documented political effects relevant to civic discourse and trust",
+    "Raises questions about platform responsibility in public information ecosystems, particularly acute for educators and community leaders navigating misinformation"
+   ]
+  },
+  {
+   "title": "Firefox’s Smart Window promises a better AI browser",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-18T13:17:45+00:00",
+   "summary": "Starting today, AI chats in Firefox's Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa. Smart Window can also now automatically suggest tab groups and show visual previews of pages you previously visited when you search your browsing history using natural […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Firefox's Smart Window AI feature now integrates real-time web information into AI chat responses through a partnership with Exa, and adds features like automatic tab group suggestions and visual browsing history previews. This improves the AI assistant's ability to ground responses in current information and help users navigate their own web activity.",
+   "whyMatters": [
+    "Addresses a key limitation of LLMs by grounding responses in live web data with source attribution, important for users needing current information",
+    "Advances browser-integrated AI that stays within a privacy-controlled environment rather than requiring external services"
+   ]
+  },
+  {
+   "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+   "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-18T13:00:04+00:00",
+   "summary": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers discovered that Microsoft Copilot contained a hidden parameter vulnerability that attackers could exploit to steal passwords when users clicked on malicious links. The vulnerability allowed unauthorized input to manipulate the AI's behavior in security-critical ways.",
+   "whyMatters": [
+    "Demonstrates significant security risk in enterprise AI tools where hidden parameters can be exploited to compromise user credentials",
+    "Highlights dangers of deploying AI assistants before security review is complete, especially in workplace contexts handling sensitive data"
+   ]
+  },
+  {
+   "title": "ChatGPT is getting a dedicated mode for teens",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-18T11:29:53+00:00",
+   "summary": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is \"an experience designed to help teens […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI is rolling out a ChatGPT mode dedicated to teenagers that consolidates existing safety safeguards with new protective features. This launch follows broader public concern about AI tools' effects on young people and comes as other platforms implement age verification and teen-specific protections.",
+   "whyMatters": [
+    "Reflects growing pressure on AI companies to address youth safety and age-appropriate experiences",
+    "Part of broader trend in platform responsibility; relevant to educators and parents managing teen technology access"
+   ]
+  },
+  {
    "title": "Partnering with CodeAI to prepare the first AI generation",
    "link": "https://openai.com/index/partnering-with-codeai",
    "source": "OpenAI News",
@@ -122,32 +251,12 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ChatGPT is getting a dedicated mode for teens",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-18T10:18:21+00:00",
-   "summary": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is \"an experience designed to help teens […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI is rolling out a ChatGPT mode dedicated to teenagers that consolidates existing safety safeguards with new protective features. This launch follows broader public concern about AI tools' effects on young people and comes as other platforms implement age verification and teen-specific protections.",
-   "whyMatters": [
-    "Reflects growing pressure on AI companies to address youth safety and age-appropriate experiences",
-    "Part of broader trend in platform responsibility; relevant to educators and parents managing teen technology access"
-   ]
-  },
-  {
    "title": "We still don’t know how people are really using AI",
    "link": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
    "source": "MIT Tech Review · AI",
    "category": "ai",
    "date": "2026-08-18T10:06:43+00:00",
-   "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a Computer Science PhD candidate at the Stanford Trustworthy AI Research…",
+   "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a computer science PhD candidate at the Stanford Trustworthy AI Research…",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -200,7 +309,7 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Powerful Chinese Model Experts Warned About—and Waited for—Is Here",
+   "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
    "category": "ai",
@@ -238,6 +347,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+   "link": "https://openai.com/index/asana",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-18T07:00:00+00:00",
+   "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Asana used OpenAI's Codex to replace a five-year-old testing infrastructure in just two weeks at a cost of approximately $12,000, completing engineering work that was expected to take five years. The AI code generation capability accelerated a major technical migration.",
+   "whyMatters": [
+    "Demonstrates concrete productivity gains from AI code generation in legacy system modernization, with measurable time and cost savings",
+    "Relevant to institutions (schools, nonprofits) considering whether AI tools can reduce technical debt and free engineering resources for other priorities"
+   ]
+  },
+  {
    "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
    "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
    "source": "Simon Willison",
@@ -271,24 +398,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Consolidates AI infrastructure layers—Stripe gains control over a key distribution point for AI model access, reshaping how developers route requests across different providers",
     "Signals prioritization of operational foundation over frontier capabilities—the deal values reliable plumbing and market access over cutting-edge model development"
-   ]
-  },
-  {
-   "title": "Elon Musk made flying even worse so Palantir could profit",
-   "link": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-17T22:41:53+00:00",
-   "summary": "On August 6th, the Minneapolis Air Route Traffic Control Center lost radar and communications for around two hours. The outage disrupted more than 1,100 flights across the center's 330,000 square mile, nine-state airspace sector. Two days earlier, on August 4th, President Donald Trump departed the White House inside his Marine One military helicopter. As Federal […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A major air traffic control outage in Minneapolis disrupted over 1,100 flights across a nine-state region. The reporting suggests connections between Elon Musk, Peter Thiel, Palantir, and the FAA's systems, linking the outage to potential conflicts of interest in critical infrastructure management.",
-   "whyMatters": [
-    "AI governance and safety: concerns about corporate influence over critical infrastructure systems that could affect public safety",
-    "Raises questions about oversight and transparency in AI/technology deployment in essential services"
    ]
   },
   {
@@ -441,24 +550,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses EU regulatory compliance for AI-generated content disclosure, setting a practical standard for how AI labs can mark outputs transparently",
     "Demonstrates industry movement toward technical solutions for attribution and detection of AI-generated text, relevant to concerns about synthetic content misuse"
-   ]
-  },
-  {
-   "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-   "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-17T10:02:14+00:00",
-   "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side, you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A website called \"Your AI Slop Bores Me\" lets people roleplay as AI chatbots by responding to prompts on one side while humans submit requests on the other, creating a humorous comparison between AI and human responses.",
-   "whyMatters": [
-    "Highlights growing audience skepticism about AI output quality and repetitive patterns in commercial chatbot responses",
-    "Demonstrates public engagement with AI through parody and interactive entertainment rather than serious AI use cases"
    ]
   },
   {
@@ -797,24 +888,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows real-world confusion about how AI works and who is using it—people making incorrect assumptions about court systems and attempting AI-based gambits that lack legal merit",
     "Highlights regulatory and judicial challenges as courts deal with litigants submitting AI-generated content; raises questions about AI literacy among the general public interfacing with legal institutions"
-   ]
-  },
-  {
-   "title": "Mark Zuckerberg has an Instagzam",
-   "link": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-14T16:54:16+00:00",
-   "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Instagram rolled out a redesigned wordmark that looks notably different from the iconic original and is harder to read as \"Instagram.\" The reasoning behind this rebrand is unclear.",
-   "whyMatters": [
-    "Part of Meta's broader strategy to refresh brand identity, though the execution raises questions about whether AI influenced design decisions or how design priorities are being set",
-    "Demonstrates how major platforms are making visible changes to core brand elements; relevant to how audiences perceive and trust digital platforms during periods of rapid AI integration"
    ]
   },
   {
@@ -1302,24 +1375,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
-   "whyMatters": [
-    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
-    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
-   ]
-  },
-  {
    "title": "How kids feel about AI, in their own words",
    "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
    "source": "MIT Tech Review · AI",
@@ -1335,6 +1390,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
     "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+   ]
+  },
+  {
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
+   "whyMatters": [
+    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
+    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
    ]
   },
   {
@@ -1579,25 +1652,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Podcast: Mark Zuckerberg’s 'Superintelligent' AI Future That No One Wants",
-   "link": "https://www.404media.co/podcast-mark-zuckerbergs-superintelligent-ai-future-that-no-one-wants/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-12T14:15:44+00:00",
-   "summary": "Zuckerberg's anti-social future; a company offering human writing that is actually just AI; and the big switch from Flock to Axon.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A podcast discusses Zuckerberg's vision for superintelligent AI, examines deceptive marketing where AI-generated writing is sold as human-authored, and reports on industry platform shifts.",
-   "whyMatters": [
-    "Highlights disconnect between tech leader visions and public sentiment about AI futures",
-    "Exposes fraudulent marketing practices leveraging AI to deceive consumers",
-    "Tracks infrastructure evolution in AI development and deployment tools"
-   ]
-  },
-  {
    "title": "Putting sign language AI into users’ hands",
    "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
    "source": "Google DeepMind",
@@ -1616,25 +1670,6 @@ window.NEWS_DATA = {
     "Provides genuine accessibility benefit by removing communication barriers for Deaf users",
     "Demonstrates practical AI application in inclusion and universal design",
     "May significantly improve digital and workplace accessibility if deployed widely and reliably"
-   ]
-  },
-  {
-   "title": "AI Generated 3D Models Flood Market, But Almost No One Is Buying Them",
-   "link": "https://www.404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-12T13:36:41+00:00",
-   "summary": "The number of AI generated uploads to CGTrader would suggest AI is taking over the platform, but buyers are refusing to pay for AI generated models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI-generated 3D models have flooded marketplaces like CGTrader, but buyers are largely refusing to purchase them despite the high volume of uploads, suggesting weak market demand.",
-   "whyMatters": [
-    "Shows market resistance to AI-generated creative assets, likely due to quality concerns or preference for human-created work",
-    "Indicates oversupply problem when low-cost AI generation meets skeptical buyers",
-    "Suggests AI commoditization does not automatically create economic value if outputs lack differentiation or perceived quality"
    ]
   },
   {
@@ -2421,24 +2456,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ByteDance trains massive AI model in bid to rival Anthropic",
-   "link": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-07T13:29:22+00:00",
-   "summary": "TikTok owner training a model with 10 trillion parameters.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "ByteDance, TikTok's parent company, is training a massive AI model with 10 trillion parameters in an effort to compete with leading AI labs like Anthropic. This represents significant continued investment in scaling model capacity.",
-   "whyMatters": [
-    "Chinese tech giants are escalating competition in frontier AI capability development",
-    "Scale of investment reflects continued belief in large-model performance gains despite ongoing efficiency questions"
-   ]
-  },
-  {
    "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
    "link": "https://openai.com/index/hsp-gruppe",
    "source": "OpenAI News",
@@ -2611,24 +2628,6 @@ window.NEWS_DATA = {
     "Represents potential shifts in DeepMind's strategic direction and research priorities under new leadership",
     "Loss of several foundational figures in deep learning may affect the lab's technical vision and culture",
     "Signals possible internal disagreements or changing roles within one of AI's most influential research institutions"
-   ]
-  },
-  {
-   "title": "From asking to doing: How the world is putting ChatGPT to work",
-   "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-06T00:00:00+00:00",
-   "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released data from its Signals analytics showing how ChatGPT is being used globally, with country-level adoption and usage trend insights.",
-   "whyMatters": [
-    "Provides visibility into actual worldwide ChatGPT adoption patterns and use cases",
-    "Enables analysis of how different populations and regions are integrating AI into work and daily life"
    ]
   },
   {
