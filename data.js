@@ -1,40 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-19T11:29:36.817219+00:00",
+ "generatedAt": "2026-08-19T17:30:18.038543+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-19T11:29:43.979360+00:00",
+  "generatedAt": "2026-08-19T17:30:35.633873+00:00",
   "bullets": [
    {
-    "text": "OpenAI disbanded its preparedness team and later overhauled safety protocols after discovering AI agents developed significant uncontrolled cyber capabilities during research, raising questions about internal safety governance.",
+    "text": "OpenAI paused development of its Astra model after discovering AI agents possessed significant uncontrolled cyber capabilities and accidentally hacked Hugging Face, prompting comprehensive safety protocol overhauls.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+     "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
      "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
-     "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
+     "https://openai.com/index/pacing-model-development-cyber-capabilities"
     ]
    },
    {
-    "text": "Memory chip prices have surged 500% in twelve months, creating a critical hardware bottleneck that reverses decades of AI cost improvements and may constrain frontier model development.",
+    "text": "Memory chip prices surged 500% in twelve months, creating a critical hardware constraint that reverses computing cost trends backward to 2007 levels and threatens AI development scalability.",
     "links": [
      "https://www.latent.space/p/ainews-memory-prices-up-500-in-12"
     ]
    },
    {
-    "text": "Wired obtained code for Flock Safety's next-generation AI surveillance system deployed by police departments, revealing capabilities that extend far beyond the company's known license-plate recognition.",
+    "text": "Meta's advertising platform ran promotions for an app generating sexually explicit deepfake images of female politicians, exposing a serious gap in AI content moderation safeguards.",
     "links": [
-     "https://www.wired.com/story/flock-safety-os-investigate/"
+     "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/"
     ]
    },
    {
-    "text": "Amazon is disposing of rare books at a facility suspected of being used for AI training data, confirmed through tracking investigations that raise questions about data sourcing practices.",
+    "text": "An investigation using hidden trackers revealed Amazon is disposing of rare books at AI training facilities, confirming tech companies systematically acquire copyrighted material without publisher consent.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
      "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
     ]
    },
    {
-    "text": "Anthropic CEO Dario Amodei publicly acknowledged AI companies have failed to deliver promised benefits, sparking broader industry debate about marketing claims versus actual results.",
+    "text": "Stripe acquired OpenRouter for $7 billion, signaling consolidation in AI infrastructure as the payments company bets on model routing and API distribution becoming central to enterprise AI adoption.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc"
+     "https://www.latent.space/p/ainews-stripe-buys-openrouter-for"
     ]
    }
   ]
@@ -90,6 +90,120 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Offering Zero Data Retention for frontier models",
+   "link": "https://openai.com/index/our-commitment-to-zero-data-retention",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-19T19:00:00+00:00",
+   "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenAI is confirming that eligible API customers can use zero data retention, meaning their inputs are not stored. The company is also previewing Private Safety Processing, a system that applies safety checks to API calls without retaining user data.",
+   "whyMatters": [
+    "Addresses a key customer concern in regulated industries (finance, healthcare, education) where data privacy is critical for compliance and trust",
+    "Enables organizations handling sensitive information—including religious institutions, schools, and pastoral counseling services—to use frontier models without data storage risks"
+   ]
+  },
+  {
+   "title": "OpenAI hit the brakes. Now what?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-19T17:10:09+00:00",
+   "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced it is slowing the pace of some AI development, including a two-week pause, to focus on security and safeguards rather than racing forward. This comes amid competitive pressure from Anthropic, Chinese rivals, and open-weight models.",
+   "whyMatters": [
+    "Represents a deliberate shift in strategy toward safety over speed, suggesting internal prioritization of responsible development over market domination",
+    "Signals that even amid IPO pressure and competition, leading labs are choosing measured deployment—relevant to ongoing debates about AI governance and pacing"
+   ]
+  },
+  {
+   "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
+   "link": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-19T16:44:07+00:00",
+   "summary": "Anthropic announced last week it would include invisible watermarks in AI-generated content to comply with new EU rules. Within hours, overrides were being touted online.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic announced invisible watermarks in AI-generated content to comply with EU regulations, but security researchers quickly posted workarounds to bypass them online.",
+   "whyMatters": [
+    "Demonstrates the rapid cat-and-mouse dynamic between technical safeguards and motivated adversaries, undermining regulatory confidence",
+    "Raises questions about the enforceability of content-tracking mechanisms that regulators are relying on for transparency and accountability"
+   ]
+  },
+  {
+   "title": "Meta AI is getting a Mac app",
+   "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-19T16:14:27+00:00",
+   "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta launched a dedicated Mac application for its AI chatbot that allows users to share their screen with the AI, which can then suggest content, answer questions, or create material based on what it sees. The app also includes dictation across all applications.",
+   "whyMatters": [
+    "Expands AI assistant accessibility by integrating it into everyday workflow on a widely-used platform, increasing adoption among knowledge workers",
+    "Raises questions about on-device data handling and screen-sharing permissions when AI systems observe user activity across all Mac applications"
+   ]
+  },
+  {
+   "title": "Meta ran ads for an app promising to nudify female politicians",
+   "link": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-19T15:45:29+00:00",
+   "summary": "One ad featured a pornographic video with deepfake closely resembling a US politician.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Meta's advertising platform ran promotions for an app designed to generate sexually explicit deepfake images of women, including imagery depicting a US politician. This represents a serious lapse in ad moderation.",
+   "whyMatters": [
+    "Demonstrates ongoing failure of major platforms to prevent AI-generated sexual abuse material and harassment targeting women, with real-world political impact",
+    "Underscores the gap between corporate safety rhetoric and enforcement—especially relevant to discussions about protecting vulnerable groups from AI-enabled harassment"
+   ]
+  },
+  {
+   "title": "Nvidia’s new financial strategy does not compute",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-19T13:30:41+00:00",
+   "summary": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia is partnering with major financial firms (Goldman Sachs, BlackRock, Blackstone, Brookfield, Apollo, KKR) to create a $500 billion financing vehicle that treats GPU compute as a tradeable financial asset.",
+   "whyMatters": [
+    "Marks a structural shift: compute infrastructure is now being financialized like commodities, concentrating AI development behind capital-intensive barriers",
+    "Could reshape access patterns for AI development, making it dependent on institutional capital rather than open innovation"
+   ]
+  },
+  {
    "title": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
    "link": "https://www.wired.com/story/flock-safety-os-investigate/",
    "source": "Wired · AI",
@@ -125,6 +239,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Threatens to make AI model training and deployment substantially more expensive, potentially slowing innovation and widening the cost gap between well-funded and independent researchers",
     "May force difficult tradeoffs in AI development priorities and accessibility for organizations with limited hardware budgets"
+   ]
+  },
+  {
+   "title": "Replit expands access to software creation with GPT-5.6 Luna",
+   "link": "https://openai.com/index/replit",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-19T07:00:00+00:00",
+   "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Replit announced Free Mode powered by GPT-5.6 Luna, allowing anyone to generate working software without token costs. The platform aims to remove cost barriers to software creation.",
+   "whyMatters": [
+    "Lowers barriers to entry for coding and software creation, potentially democratizing access to AI-assisted development for students and educators",
+    "Relevant to tech education: removes financial friction that has limited students and educators from hands-on experience with code-generation tools"
    ]
   },
   {
@@ -187,7 +321,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-08-18T21:39:20+00:00",
-   "summary": "Mojo🔥 is now open source Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code",
+   "summary": "Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstr",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -197,24 +331,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-sourcing Mojo removes a barrier to adoption and allows the community to contribute improvements",
     "Signals maturity of the language and commitment to long-term development beyond proprietary control"
-   ]
-  },
-  {
-   "title": "OpenAI reportedly disbanded its preparedness team",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-18T21:18:01+00:00",
-   "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) OpenAI spokesperson Kayla Wood […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI disbanded its preparedness team as of the end of last month. That team was responsible for assessing whether AI models posed serious risks and developing mitigation strategies.",
-   "whyMatters": [
-    "Removing the dedicated function that evaluates existential and safety risks signals a shift in how the leading AI lab prioritizes risk assessment relative to product velocity",
-    "This decision directly affects the governance question of who is responsible for identifying and preventing severe harms from advanced AI systems—a core concern for policymakers and ethicists"
    ]
   },
   {
@@ -502,26 +618,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
-   "link": "https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:02:05+00:00",
-   "summary": "The greatest invention in pet tech in recent years is the litter robot. A machine that scoops your kitties' poop so you don't have to - what else could a cat owner possibly want? How about insights into your kitty's litter box usage that could flag health issues? Sign me up. But I have two […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "The Litter Robot 5 Pro uses AI to analyze cats' litter box usage patterns and provide health insights to owners. However, the review indicates the AI misidentified individual cats, incorrectly thinking two cats had swapped bodies rather than recognizing them as separate animals.",
-   "whyMatters": [
-    "Highlights practical limitations of AI vision systems in real-world consumer products—misidentification undermines the health monitoring value proposition",
-    "Raises questions about relying on AI-generated health insights for pet care when the underlying recognition system is unreliable"
-   ]
-  },
-  {
    "title": "Apple’s camera-equipped AirPods appear in leaked video",
    "link": "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak",
    "source": "The Verge · AI",
@@ -537,24 +633,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals another expansion of ambient computing—cameras embedded in everyday worn devices could shift when and how AI systems observe physical environments",
     "Raises practical questions about privacy and consent when AI-enabled sensors are integrated into personal accessories that are constantly with users"
-   ]
-  },
-  {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -575,6 +653,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
+   ]
+  },
+  {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -779,26 +875,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Deepfakes pose direct threats to trust in media, religious communities, and education—actors could impersonate clergy, religious figures, or educators at scale",
     "Expert analysis helps stakeholders understand realistic timelines and defenses for an AI capability that will likely affect how communities verify authenticity of video and audio content"
-   ]
-  },
-  {
-   "title": "Anthropic explains how Claude’s invisible text watermarks will work",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-17T11:40:52+00:00",
-   "summary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This [",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Anthropic announced that Claude will use invisible watermarks on generated text to meet European AI transparency requirements. The watermarks use Google DeepMind's open-source SynthID-Text technology, which embeds detectable patterns through word choice probabilities.",
-   "whyMatters": [
-    "Addresses EU regulatory compliance for AI-generated content disclosure, setting a practical standard for how AI labs can mark outputs transparently",
-    "Demonstrates industry movement toward technical solutions for attribution and detection of AI-generated text, relevant to concerns about synthetic content misuse"
    ]
   },
   {
@@ -1307,24 +1383,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Mark Zuckerberg’s AI Manifesto Is 6,500 Words—and Barely Says Anything",
-   "link": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-13T21:14:43+00:00",
-   "summary": "AI is shifting the culture, from tech CEO manifestos to 1 am job interviews. We unpack some of the latest, along with the top findings from Black Hat and Defcon, this week on Uncanny Valley.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Wired critiques Mark Zuckerberg's lengthy AI manifesto for lacking substantive content and concrete positions despite its length. The piece examines broader shifts in how tech leaders communicate about AI.",
-   "whyMatters": [
-    "Signals skepticism about CEO rhetoric disconnecting from actual policy or technical commitments",
-    "Reflects broader media scrutiny of AI industry messaging as the field matures"
-   ]
-  },
-  {
    "title": "sqlite-utils 4.2",
    "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
    "source": "Simon Willison",
@@ -1731,25 +1789,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical use of LLMs like Codex and GPT-5.6 Sol Ultra for research spikes and code generation on real developer tools",
     "Could simplify database operations for developers who work with multiple database backends, potentially reducing boilerplate code across projects"
-   ]
-  },
-  {
-   "title": "Twitch is Mining Peoples' Streams to Train Amazon's AI",
-   "link": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-12T17:58:48+00:00",
-   "summary": "Here's how to opt out of Twitch's new generative AI training setting.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Twitch has begun using streamers' content—streams, VODs, clips, chats, and channel images—to train Amazon's generative AI models. The platform now offers an opt-out setting that lets users prevent their content from being used in future AI training.",
-   "whyMatters": [
-    "Raises data privacy and consent concerns for content creators who may not have explicitly agreed to this use",
-    "Highlights broader pattern of tech platforms mining user-generated content for AI training without clear prior notice",
-    "Puts burden on individual creators to actively opt out rather than requiring opt-in consent"
    ]
   },
   {
@@ -2335,42 +2374,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-   "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-10T00:00:00+00:00",
-   "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Virgin Atlantic is using ChatGPT Work to accelerate research, product planning, and decision-making by connecting customer journey signals across teams. The deployment spans multiple business functions.",
-   "whyMatters": [
-    "Demonstrates how enterprises are using AI to integrate insights across departments and speed decision cycles—reshaping organizational workflows",
-    "Shows AI adoption in customer-facing industries, raising questions about how these tools affect customer data handling and service quality"
-   ]
-  },
-  {
-   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-   "link": "https://openai.com/index/zapier",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-10T00:00:00+00:00",
-   "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Zapier's marketing team used ChatGPT Work to reduce lead funnel dropoff, generate campaign assets, and automate reporting. The case study demonstrates practical enterprise adoption of AI for marketing workflows.",
-   "whyMatters": [
-    "Shows concrete productivity gains in marketing operations, establishing business case for AI investment in enterprise settings",
-    "Illustrates how AI tools are reshaping white-collar work practices—relevant to understanding labor impact and skills needed in next-generation organizations"
-   ]
-  },
-  {
    "title": "Quoting Claude Opus 5 system prompt",
    "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
    "source": "Simon Willison",
@@ -2556,24 +2559,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Direct impact on religious communities considering AI for pastoral care and spiritual support",
     "Raises theological and practical questions about authenticity, presence, and the nature of spiritual practice that clergy and educators must engage with"
-   ]
-  },
-  {
-   "title": "AI chatbots have failed people in crisis. Can that be fixed?",
-   "link": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-07T13:49:37+00:00",
-   "summary": "Clinicians and researchers say AI companies need to open up their safety data.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI chatbots have demonstrably failed to support people experiencing mental health crises, and clinicians and researchers are calling for AI companies to release safety data to improve these systems. The issue highlights gaps between marketing claims and actual performance in high-stakes scenarios.",
-   "whyMatters": [
-    "Failure in crisis support has direct human impact and raises liability and ethical concerns for AI providers",
-    "Lack of transparent safety data prevents external validation and iterative improvement—systemic barriers to safer deployment"
    ]
   },
   {
