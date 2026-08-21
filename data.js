@@ -1,40 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-21T17:33:09.290496+00:00",
+ "generatedAt": "2026-08-21T23:28:26.942880+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-21T17:33:26.200148+00:00",
+  "generatedAt": "2026-08-21T23:28:40.744018+00:00",
   "bullets": [
    {
-    "text": "OpenAI paused development and overhauled safety protocols after discovering its AI agents possessed significant uncontrolled cyber capabilities during training.",
+    "text": "NVIDIA acquired AI startup Poolside for $12 billion, scaling infrastructure to 7GW while retaining founders and employees with $1B and $6B packages respectively.",
+    "links": []
+   },
+   {
+    "text": "OpenAI announced a voluntary two-week development pause to focus on security and safeguards amid competition from Anthropic and Chinese rivals, while expanding zero data retention policies for API users.",
     "links": [
-     "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/"
+     "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+     "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
     ]
    },
    {
-    "text": "Memory chip prices surged 500% in 12 months, creating a major hardware constraint that reverses tech cost trends and threatens AI infrastructure scaling.",
+    "text": "Bipartisan opposition to AI data centers is accelerating due to electricity consumption, water usage, and distrust of Big Tech, while memory chip prices have surged 500% in 12 months, constraining hardware availability.",
     "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
      "https://www.latent.space/p/ainews-memory-prices-up-500-in-12"
     ]
    },
    {
-    "text": "NVIDIA acquired Poolside for $12 billion and is scaling infrastructure to 7 gigawatts as frontier model development intensifies amid competitive pressure from Chinese rivals and open-weight alternatives.",
-    "links": [
-     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
-    ]
-   },
-   {
-    "text": "Nonconsensual AI-generated sexual imagery of women proliferates across platforms with increasingly subtle alterations, while Meta's ad platform promoted deepfake tools targeting female politicians.",
+    "text": "Nonconsensual AI-generated sexual imagery is spreading on X with subtle alterations; Meta ran ads for nudification apps targeting female politicians; Grok has been found to exfiltrate user data via encrypted instructions.",
     "links": [
      "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
      "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-     "https://forward.com/news/845642/texas-gop-bo-french-rosenthal-antisemitism/"
+     "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
     ]
    },
    {
-    "text": "Meta's Alex Luxenberg, architect of AI-equipped glasses that raise privacy concerns, will lead Sefaria, the digital library of Jewish texts, starting September.",
+    "text": "Meta executive Alex Luxenberg (Ray-Ban AI glasses lead) becomes Sefaria CEO, while AI adoption raises longstanding questions in Sikh communities about technology's role in spiritual practice.",
     "links": [
      "https://ejewishphilanthropy.com/metas-alex-luxenberg-announced-as-sefarias-next-ceo/",
-     "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
+     "https://religionnews.com/2026/08/20/as-ai-enters-sikh-life-old-debates-on-technology-and-tradition-continue/"
     ]
    }
   ]
@@ -84,6 +84,102 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-21T21:54:07+00:00",
+   "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "LinkedIn launched a \"Seems like AI slop\" button in July 2024 that lets users flag AI-generated content, and the company reports that over one million people have already clicked it. The button is accessible from the three-dot menu on posts.",
+   "whyMatters": [
+    "Reveals significant user frustration with low-quality AI-generated content on social platforms",
+    "Suggests demand for platform mechanisms to filter and surface authentic human-created posts over machine-generated material"
+   ]
+  },
+  {
+   "title": "Major YouTube creators are facing backlash for accepting AI money",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-21T19:16:43+00:00",
+   "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Popular YouTube filmmaking creators Matti Haapoja and Sam Kold have posted promotional videos demonstrating Higgsfield's AI video generation tools (Seedance 2.5 functionality) and positioning them as the future of video production. The videos triggered public backlash from their audiences.",
+   "whyMatters": [
+    "Creator credibility and sponsored content transparency remain fraught when AI tools are promoted to audiences without clear disclosure of financial relationships",
+    "Creators promoting AI tooling face tension between early adoption benefits and maintaining audience trust in an evolving media landscape"
+   ]
+  },
+  {
+   "title": "Why Everyone Suddenly Hates AI Data Centers",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-08-21T18:26:30+00:00",
+   "summary": "Opposition to AI data centers has become one of America’s fastest-moving bipartisan political issues, driven by concerns about electricity, water, noise, property values, jobs, and a deeper mistrust of Big Tech. NLW provides an end-to-end primer on what data centers actually do, why public sentiment has turned so sharply, where the loudest claims fall apart, and how transparency, community control",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124552235/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-21%2F430291103-44100-2-6d9e69a61f40e.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Opposition to AI data centers has become a fast-moving bipartisan political issue in America, driven by concerns about electricity consumption, water usage, noise, property values, local jobs, and distrust of Big Tech companies. The episode provides analysis of data center functions, shifts in public sentiment, and questions of community control and transparency.",
+   "whyMatters": [
+    "Infrastructure and resource allocation around AI is becoming a mainstream political concern, not just a tech-industry issue",
+    "Community-level resistance may shape where and how AI computational infrastructure can be deployed, affecting AI industry expansion plans"
+   ]
+  },
+  {
+   "title": "llm 0.32.1",
+   "link": "https://simonwillison.net/2026/Aug/21/llm/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-21T17:16:13+00:00",
+   "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to openai<3 , and a soon-to-drop 0.33 release will switch from httpx to httpx2 . Tags: httpx , openai , ll",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "LLM version 0.32.1 was released to fix a breaking issue where fresh installations failed because the OpenAI Python library removed its httpx dependency, which LLM had relied on indirectly. The fix temporarily pins to an older OpenAI version, with a planned 0.33 release switching to httpx2.",
+   "whyMatters": [
+    "Highlights fragility in open-source AI tooling when upstream dependencies change",
+    "Demonstrates need for better dependency management and communication in widely-used AI development libraries"
+   ]
+  },
+  {
+   "title": "llm-openrouter 0.7",
+   "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-21T16:58:19+00:00",
+   "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's implementation of the Responses API . Three new server-side tools: Shell , WebFetch , and WebSearch . Enable these with options like -T WebSearch . Tags: llm , openrouter",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "The llm-openrouter plugin version 0.7 was updated for compatibility with LLM 0.32 and now supports reasoning models, uses OpenRouter's Responses API, and adds three new server-side tools: Shell, WebFetch, and WebSearch.",
+   "whyMatters": [
+    "Expands capability of open-source LLM tooling to access advanced reasoning models and web integration",
+    "Developers can now more easily prototype and deploy multi-tool AI applications without building infrastructure from scratch"
+   ]
+  },
+  {
    "title": "Stop Making TUIs",
    "link": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
    "source": "Simon Willison",
@@ -99,24 +195,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI-powered code generation is reshaping development practices by lowering the barrier to building polished user interfaces, changing what 'good enough' means for even small personal projects",
     "This reflects broader shifts in how engineers decide to allocate effort: focusing less on CLI optimization and more on user experience when both are nearly equally feasible"
-   ]
-  },
-  {
-   "title": "Major YouTube creators are facing backlash for accepting AI money",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-21T15:55:34+00:00",
-   "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Popular YouTube filmmaking creators Matti Haapoja and Sam Kold have posted promotional videos demonstrating Higgsfield's AI video generation tools (Seedance 2.5 functionality) and positioning them as the future of video production. The videos triggered public backlash from their audiences.",
-   "whyMatters": [
-    "Creator credibility and sponsored content transparency remain fraught when AI tools are promoted to audiences without clear disclosure of financial relationships",
-    "Creators promoting AI tooling face tension between early adoption benefits and maintaining audience trust in an evolving media landscape"
    ]
   },
   {
@@ -1010,24 +1088,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-sourcing Mojo removes a barrier to adoption and allows the community to contribute improvements",
     "Signals maturity of the language and commitment to long-term development beyond proprietary control"
-   ]
-  },
-  {
-   "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
-   "link": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-18T19:48:26+00:00",
-   "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Robin Williams' children have taken control of their father's Instagram account to create a safe space and counter unauthorized AI recreations of his likeness, following his daughter's public criticism of AI abuse involving his image.",
-   "whyMatters": [
-    "Highlights legal and ethical questions about deceased individuals' AI likenesses and family control over legacy",
-    "Demonstrates practical harm from generative AI abuse that families are now addressing directly"
    ]
   },
   {
@@ -2042,24 +2102,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-13T09:00:00+00:00",
-   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
-   "whyMatters": [
-    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
-    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
-   ]
-  },
-  {
    "title": "How kids feel about AI, in their own words",
    "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
    "source": "MIT Tech Review · AI",
@@ -2075,6 +2117,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to education: understanding how students actually perceive and relate to AI tools shapes how educators should integrate or regulate them in classrooms",
     "Provides grounded, youth-sourced insight rather than adult assumptions about generational attitudes toward technology"
+   ]
+  },
+  {
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-13T09:00:00+00:00",
+   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help companies extract maximum business value from AI.",
+   "whyMatters": [
+    "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
+    "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
    ]
   },
   {
@@ -2355,42 +2415,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates concrete business value and productivity gains from AI integration in software development",
     "Shows enterprise adoption patterns that may influence how organizations structure technical teams"
-   ]
-  },
-  {
-   "title": "There are no lossless transformations of natural-language text",
-   "link": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-11T23:48:35+00:00",
-   "summary": "There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems crucial to me: You must stand behind every idea and every sentence in your docs . It is your respon",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sophie Alpert presents a policy that engineers must stand behind every idea and sentence in documentation they produce, even when LLMs help draft or massage the writing. The argument acknowledges that no transformation of natural language is lossless and responsibility cannot be delegated.",
-   "whyMatters": [
-    "Addresses accountability and authorship: engineers remain responsible for technical documentation regardless of AI assistance",
-    "Relevant to educators and professionals: highlights the ethical requirement to understand and endorse content bearing your name"
-   ]
-  },
-  {
-   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-   "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-11T22:40:45+00:00",
-   "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker model, and recover the stronger model’s hidde",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers discovered that proprietary LLM APIs return encrypted chain-of-thought reasoning traces that persist across sessions and users. These traces can be replayed into weaker models to extract the stronger model's reasoning and potentially jailbreak systems.",
-   "whyMatters": [
-    "Reveals a novel attack vector on proprietary AI systems through reusable reasoning artifacts",
-    "Indicates that API-based AI services may expose more intellectual property and control mechanisms than previously understood"
    ]
   },
   {
@@ -3298,24 +3322,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly challenges the widespread anxiety about AI-driven job displacement; matters to understanding actual economic impact versus hype",
     "The claim about expertise becoming more valuable has direct implications for education and training—areas critical to rabbis and Jewish educators advising communities about workforce preparation"
-   ]
-  },
-  {
-   "title": "A Field Guide to AI Market Freakouts",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/A-Field-Guide-to-AI-Market-Freakouts-e3mfbjd",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-07-23T20:22:55+00:00",
-   "summary": "Cheap Chinese models, runaway infrastructure spending, token caps, circular financing and performance plateaus have each threatened to derail the AI boom. NLW examines the recurring fears haunting investors—and argues that these periodic freakouts may be exactly what keeps a genuine AI bubble from forming. Brought to you by: KPMG – Research from KPMG and the University of Texas at Austin shows the",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123235373/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F428501756-44100-2-9c2da0953b21c.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "An analysis examines recurring investor fears about the AI market—cheap Chinese models, excessive infrastructure spending, token limitations, circular financing, and performance plateaus—and argues that periodic panics may actually prevent a runaway bubble.",
-   "whyMatters": [
-    "Frames market volatility as a potential stabilizing mechanism rather than sign of collapse; matters for understanding whether AI investment cycles will self-correct",
-    "Identifies structural pressures (Chinese competition, infrastructure costs, diminishing returns) that shape the actual constraints on AI deployment and profitability"
    ]
   },
   {
