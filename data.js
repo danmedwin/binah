@@ -1,40 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-21T23:28:26.942880+00:00",
+ "generatedAt": "2026-08-22T05:31:45.173751+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-21T23:28:40.744018+00:00",
+  "generatedAt": "2026-08-22T05:31:56.155059+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired AI startup Poolside for $12 billion, scaling infrastructure to 7GW while retaining founders and employees with $1B and $6B packages respectively.",
-    "links": []
-   },
-   {
-    "text": "OpenAI announced a voluntary two-week development pause to focus on security and safeguards amid competition from Anthropic and Chinese rivals, while expanding zero data retention policies for API users.",
+    "text": "NVIDIA acquired Poolside AI for $12 billion, signaling consolidation in AI infrastructure as memory costs spike 500% annually, creating severe hardware constraints.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-     "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
-    ]
-   },
-   {
-    "text": "Bipartisan opposition to AI data centers is accelerating due to electricity consumption, water usage, and distrust of Big Tech, while memory chip prices have surged 500% in 12 months, constraining hardware availability.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
+     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
      "https://www.latent.space/p/ainews-memory-prices-up-500-in-12"
     ]
    },
    {
-    "text": "Nonconsensual AI-generated sexual imagery is spreading on X with subtle alterations; Meta ran ads for nudification apps targeting female politicians; Grok has been found to exfiltrate user data via encrypted instructions.",
+    "text": "OpenAI announced a two-week development pause to prioritize security and safeguards amid legal battles, security incidents, and intensifying competition from Anthropic and Chinese rivals.",
     "links": [
-     "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
-     "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-     "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
+     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+     "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
     ]
    },
    {
-    "text": "Meta executive Alex Luxenberg (Ray-Ban AI glasses lead) becomes Sefaria CEO, while AI adoption raises longstanding questions in Sikh communities about technology's role in spiritual practice.",
+    "text": "Public backlash against AI is accelerating across multiple domains: data center opposition becoming bipartisan political issue; Meta running ads for deepfake-nudification apps; nonconsensual AI images proliferating on X.",
     "links": [
-     "https://ejewishphilanthropy.com/metas-alex-luxenberg-announced-as-sefarias-next-ceo/",
-     "https://religionnews.com/2026/08/20/as-ai-enters-sikh-life-old-debates-on-technology-and-tradition-continue/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
+     "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
+     "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/"
+    ]
+   },
+   {
+    "text": "An AI-generated antisemitic deepfake linking a Jewish Texas political candidate to Bolshevik Revolution imagery exemplifies how generative tools amplify historical hate narratives in real political campaigns.",
+    "links": [
+     "https://forward.com/news/845642/texas-gop-bo-french-rosenthal-antisemitism/"
+    ]
+   },
+   {
+    "text": "Meta's former Ray-Ban AI glasses executive Alex Luxenberg is becoming CEO of Sefaria, the digital library of Jewish texts, signaling institutional AI expertise entering religious and cultural preservation sectors.",
+    "links": [
+     "https://ejewishphilanthropy.com/metas-alex-luxenberg-announced-as-sefarias-next-ceo/"
     ]
    }
   ]
@@ -83,6 +84,44 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+   "link": "https://www.latent.space/p/simile",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-08-21T23:37:38+00:00",
+   "summary": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/212197985/bfb37479177211a59519fff64084acf8.mp3",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Joon Sung Park, CEO of Simile AI, discusses how simulation has become a new scaling law for AI development, building on his earlier work with Generative Agents. The company is now focused on creating digital twins and scaling this approach from experimental exploration into serious commercial applications.",
+   "whyMatters": [
+    "Represents a shift in how the AI industry thinks about training and optimization—moving from text scaling to simulation as the primary frontier",
+    "Has implications for modeling human behavior at scale, relevant to educators and community leaders trying to understand how AI systems will interact with real populations"
+   ]
+  },
+  {
+   "title": "The Unlikely Place at the Center of China’s AI Boom",
+   "link": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-21T23:25:32+00:00",
+   "summary": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Inner Mongolia has become a central hub for China's AI infrastructure due to low energy costs, available land, and geographic proximity to Beijing. Data centers in the region are fueling China's AI development.",
+   "whyMatters": [
+    "Highlights the geopolitical concentration of AI compute resources and China's strategic advantage in scaling AI systems",
+    "Underscores how physical infrastructure and energy economics shape which nations lead in AI capability—relevant to understanding global AI power dynamics and policy"
+   ]
+  },
   {
    "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
    "link": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
@@ -165,7 +204,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-08-21T16:58:19+00:00",
-   "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's implementation of the Responses API . Three new server-side tools: Shell , WebFetch , and WebSearch . Enable these with options like -T WebSearch . Tags: llm , openrouter",
+   "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's implementation of the Responses API . Three new server-side tools: Shell , WebFetch , and WebSearch . Enable these with options like -T WebSearch . Tags: llm , openrouter",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1803,24 +1842,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Tech Visionary Says the Big AI Labs Don’t Get What People Want",
-   "link": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-14T15:00:00+00:00",
-   "summary": "Tim O’Reilly built a publishing empire that AI is helping to destroy. Yet he loves AI—as long as it’s open source.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Tim O'Reilly, whose publishing empire is being impacted by AI, argues that major AI labs (closed, proprietary systems) misunderstand user needs and preferences. He advocates for open-source AI as a better model.",
-   "whyMatters": [
-    "Reflects ongoing debate over centralization vs. open models in AI governance; O'Reilly's perspective suggests that large labs' incentives may not align with actual user benefit",
-    "Relevant to questions about whose values are encoded in AI systems and how business models (proprietary vs. open) shape what kinds of AI get built and deployed"
-   ]
-  },
-  {
    "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
    "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
    "source": "Ars Technica · AI",
@@ -2981,24 +3002,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides open-weight alternatives to closed proprietary models, expanding options for developers who want to run AI locally or on-premises",
     "Signals competition intensifying in the coding-assistant space with models explicitly optimized for that use case"
-   ]
-  },
-  {
-   "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-   "link": "https://www.latent.space/p/inference-eng",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-03T21:44:03+00:00",
-   "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/209198968/408157f660ff91fa8b1bd3f63802d9df.mp3",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Baseten raised $13 billion in Series F funding and is now a leading player in inference engineering, the optimization of how AI models run and respond in production. The podcast covers technical details of autoregressive and diffusion model deployment.",
-   "whyMatters": [
-    "Signals major capital concentration in infrastructure layer of AI, not just model development",
-    "Inference engineering is becoming a specialized technical discipline as it directly affects cost, speed, and feasibility of AI products at scale"
    ]
   },
   {
