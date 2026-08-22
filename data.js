@@ -1,40 +1,37 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-22T11:25:17.614665+00:00",
+ "generatedAt": "2026-08-22T17:24:53.722514+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-22T11:25:24.400968+00:00",
+  "generatedAt": "2026-08-22T17:25:11.304025+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside AI for $12 billion, combining major computational capacity (scaling to 7GW) with engineering talent as AI infrastructure becomes the competitive battleground.",
-    "links": [
-     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
-    ]
+    "text": "NVIDIA acquired Poolside for $12 billion, absorbing an AI startup focused on simulation—a strategy emerging as a dominant scaling approach that trades marginal quality for dramatic cost and speed gains.",
+    "links": []
    },
    {
-    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is emerging as a fundamental new scaling law reshaping AI development strategy and workflows across the industry.",
+    "text": "Simulation is becoming a new scaling law in AI development, with companies using cheaper, faster models to approximate expensive ones—extending beyond training into broader workflows and reshaping how labs build systems.",
     "links": [
      "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
      "https://www.latent.space/p/simile"
     ]
    },
    {
-    "text": "OpenAI announced a two-week development pause to prioritize security and safeguards, signaling industry concern about safety amid competitive pressure from Anthropic and Chinese rivals.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
-    ]
-   },
-   {
-    "text": "Meta's AI glasses are proliferating while nonconsensual AI-generated sexual images spread on X; Meta also ran ads for deepfake nudification apps, exposing moderation failures across the ecosystem.",
+    "text": "Meta's AI glasses are proliferating despite privacy concerns; detection apps exist but are imperfect, while nonconsensual AI-generated images are spreading on X with subtle alterations that bypass existing detection methods.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
-     "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
-     "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/"
+     "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/"
     ]
    },
    {
-    "text": "Public backlash against AI—driven by data-center environmental and privacy concerns, plus misuse for antisemitic political content—is becoming politically effective with concrete policy effects.",
+    "text": "Bipartisan opposition to AI data centers is accelerating over electricity, water, noise, and property concerns, while China's Inner Mongolia has emerged as a central hub for AI infrastructure due to low energy costs and proximity to Beijing.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
+     "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/"
+    ]
+   },
+   {
+    "text": "An AI-generated antisemitic image linking a Jewish political candidate to the Bolshevik Revolution was circulated in a Texas GOP campaign, exemplifying how generative tools are weaponizing historical antisemitic tropes in real elections.",
+    "links": [
      "https://forward.com/news/845642/texas-gop-bo-french-rosenthal-antisemitism/"
     ]
    }
@@ -90,6 +87,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "More than just code review",
+   "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-22T15:56:54+00:00",
+   "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Effective use of coding agents requires developers to give clear instructions and verify outputs, but line-by-line code review isn't always the best verification method. Simon Willison argues that developers need confidence in both directing the agent's work and validating the results, though there are alternative approaches beyond traditional code review.",
+   "whyMatters": [
+    "Understanding how to work productively with AI coding assistants is becoming a core skill for modern developers, shifting from pure coding ability to human-AI collaboration",
+    "This reflects a broader pattern in AI tools: the bottleneck is increasingly human judgment and oversight rather than the AI's capability"
+   ]
+  },
   {
    "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
    "link": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
@@ -1340,24 +1355,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
-   ]
-  },
-  {
    "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
@@ -1375,6 +1372,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
+   ]
+  },
+  {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -2384,24 +2399,6 @@ window.NEWS_DATA = {
     "Raises concerns about preservation of rare literary works and cultural heritage",
     "Shows tension between AI training data needs and stewardship of irreplaceable materials",
     "May prompt regulatory or ethical responses from publishers, libraries, and cultural institutions"
-   ]
-  },
-  {
-   "title": "Quoting Florian Herrengt",
-   "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-12T15:08:47+00:00",
-   "summary": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A developer describes a situation where teams repeatedly ask AI to fix bugs without understanding the underlying data sources or logic, leading to dependency on AI without comprehension. The scenario illustrates a pattern of delegating problem-solving to AI while losing visibility into systems.",
-   "whyMatters": [
-    "Raises concerns about knowledge loss and fragility when developers outsource debugging without understanding their own systems",
-    "Relevant to educators: demonstrates how over-reliance on AI for problem-solving can prevent skill development and system comprehension"
    ]
   },
   {
