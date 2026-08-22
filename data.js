@@ -1,38 +1,37 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-22T17:24:53.722514+00:00",
+ "generatedAt": "2026-08-22T23:25:07.569237+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-22T17:25:11.304025+00:00",
+  "generatedAt": "2026-08-22T23:25:18.351694+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside for $12 billion, absorbing an AI startup focused on simulation—a strategy emerging as a dominant scaling approach that trades marginal quality for dramatic cost and speed gains.",
+    "text": "NVIDIA acquired Poolside for $12 billion, expanding AI infrastructure capacity to 7 gigawatts as competition for computational resources intensifies globally.",
     "links": []
    },
    {
-    "text": "Simulation is becoming a new scaling law in AI development, with companies using cheaper, faster models to approximate expensive ones—extending beyond training into broader workflows and reshaping how labs build systems.",
+    "text": "Simulation is displacing traditional scaling as AI development strategy—using cheaper, faster models to approximate expensive ones across workflows, fundamentally shifting how labs approach model development.",
     "links": [
      "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
      "https://www.latent.space/p/simile"
     ]
    },
    {
-    "text": "Meta's AI glasses are proliferating despite privacy concerns; detection apps exist but are imperfect, while nonconsensual AI-generated images are spreading on X with subtle alterations that bypass existing detection methods.",
+    "text": "Public backlash against AI infrastructure is becoming bipartisan political pressure in America, driven by concerns over electricity consumption, water usage, and corporate power.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
+    ]
+   },
+   {
+    "text": "Tech leadership fundamentally misunderstands public skepticism about AI; Silicon Valley frames concerns as misguided while public worry centers on real harms and autonomy, not existential risks.",
+    "links": [
+     "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/"
+    ]
+   },
+   {
+    "text": "Security vulnerabilities in LLMs—including Grok's data exfiltration via encrypted instructions and nonconsensual AI imagery proliferation—outpace detection and safety guardrails.",
+    "links": [
+     "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
      "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/"
-    ]
-   },
-   {
-    "text": "Bipartisan opposition to AI data centers is accelerating over electricity, water, noise, and property concerns, while China's Inner Mongolia has emerged as a central hub for AI infrastructure due to low energy costs and proximity to Beijing.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
-     "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/"
-    ]
-   },
-   {
-    "text": "An AI-generated antisemitic image linking a Jewish political candidate to the Bolshevik Revolution was circulated in a Texas GOP campaign, exemplifying how generative tools are weaponizing historical antisemitic tropes in real elections.",
-    "links": [
-     "https://forward.com/news/845642/texas-gop-bo-french-rosenthal-antisemitism/"
     ]
    }
   ]
@@ -87,6 +86,44 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Quoting Linus Torvalds",
+   "link": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-22T21:04:26+00:00",
+   "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect those things have been trained by people who may not be quite as stubborn as I am. But while the AI was ready to give up se",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Linus Torvalds used AI as a debugging assistant to help solve a complex kernel problem. The AI initially suggested the issue was unsolvable multiple times, but Torvalds persisted and ultimately found a solution with the AI's help on the routine parts of the work.",
+   "whyMatters": [
+    "Shows practical value of AI in technical problem-solving when paired with human persistence and domain expertise",
+    "Highlights a current limitation: AI systems trained to recognize impossibility may prematurely defer to humans, potentially missing solvable problems"
+   ]
+  },
+  {
+   "title": "llm 0.33",
+   "link": "https://simonwillison.net/2026/Aug/22/llm/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-22T17:01:16+00:00",
+   "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept --key . The Python EmbeddingModel.embed() , EmbeddingModel.embed_multi() , Collection.embed() and Co",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "The llm command-line tool released version 0.33 with infrastructure updates including upgraded dependencies (OpenAI Python library 3.x, new HTTP client), bug fixes from the previous 0.32.1 release, and new features for embedding commands to accept API keys.",
+   "whyMatters": [
+    "Technical maintenance release improving compatibility and adding flexibility for users managing API credentials",
+    "Reflects ongoing development of open-source tooling that makes LLM capabilities more accessible to developers"
+   ]
+  },
   {
    "title": "More than just code review",
    "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
@@ -1355,6 +1392,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
+   ]
+  },
+  {
    "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
@@ -1372,24 +1427,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
-   ]
-  },
-  {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -2252,26 +2289,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-   "link": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-12T23:59:23+00:00",
-   "summary": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/deepseek-pro-low.png",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "DeepSeek released V4 Pro 0813, the latest version of their Pro model, available via API through OpenRouter. The timing and announcement approach is unclear, with no obvious official announcement page from DeepSeek, and open-source availability status is unconfirmed.",
-   "whyMatters": [
-    "DeepSeek continues rapid iteration on their Pro tier, potentially offering an alternative to closed models like GPT-5.6 Sol Ultra",
-    "The lack of clear announcement or communication from DeepSeek makes it harder to assess their release strategy and whether open weights will follow historical patterns"
-   ]
-  },
-  {
    "title": "The web’s newest weapon against AI scrapers is a font",
    "link": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
    "source": "Ars Technica · AI",
@@ -2341,26 +2358,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Simplified AI-agent platforms could reshape how organizations and individuals automate work, affecting everything from business processes to education and administrative tasks that rabbis and Jewish institutions currently handle manually",
     "Trust and reliability concerns with AI agents directly matter to religious and educational communities considering whether to adopt such tools for member communication, learning support, or institutional operations"
-   ]
-  },
-  {
-   "title": "alchemy-utils 0.1a0",
-   "link": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-12T19:51:30+00:00",
-   "summary": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison released alchemy-utils 0.1a0, a prototype database-agnostic library built using AI, that aims to replicate the core API of sqlite-utils (insert, upsert) but work across multiple database systems rather than just SQLite.",
-   "whyMatters": [
-    "Demonstrates practical use of LLMs like Codex and GPT-5.6 Sol Ultra for research spikes and code generation on real developer tools",
-    "Could simplify database operations for developers who work with multiple database backends, potentially reducing boilerplate code across projects"
    ]
   },
   {
