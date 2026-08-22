@@ -1,41 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-22T09:55:55.185847+00:00",
+ "generatedAt": "2026-08-22T11:25:17.614665+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-22T09:56:09.118469+00:00",
+  "generatedAt": "2026-08-22T11:25:24.400968+00:00",
   "bullets": [
    {
-    "text": "Simulation—using cheaper, faster models as proxies for expensive ones—is becoming a fundamental scaling law for AI development, with companies like Simile AI treating it as critical infrastructure beyond just training.",
+    "text": "NVIDIA acquired Poolside AI for $12 billion, combining major computational capacity (scaling to 7GW) with engineering talent as AI infrastructure becomes the competitive battleground.",
+    "links": [
+     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+    ]
+   },
+   {
+    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is emerging as a fundamental new scaling law reshaping AI development strategy and workflows across the industry.",
     "links": [
      "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
      "https://www.latent.space/p/simile"
     ]
    },
    {
-    "text": "OpenAI voluntarily slowed frontier model development and paused certain AI research to focus on security; Anthropic released Claude's watermarking to comply with EU regulations, but researchers immediately found bypasses.",
+    "text": "OpenAI announced a two-week development pause to prioritize security and safeguards, signaling industry concern about safety amid competitive pressure from Anthropic and Chinese rivals.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-     "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/"
+     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
     ]
    },
    {
-    "text": "AI data centers face fast-moving bipartisan political opposition driven by electricity consumption, water usage, and distrust of Big Tech; Inner Mongolia has become China's central AI hub due to low energy costs.",
+    "text": "Meta's AI glasses are proliferating while nonconsensual AI-generated sexual images spread on X; Meta also ran ads for deepfake nudification apps, exposing moderation failures across the ecosystem.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
+     "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
+     "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/"
+    ]
+   },
+   {
+    "text": "Public backlash against AI—driven by data-center environmental and privacy concerns, plus misuse for antisemitic political content—is becoming politically effective with concrete policy effects.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
-     "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/"
-    ]
-   },
-   {
-    "text": "OpenAI solved longstanding mathematics problems using AI, triggering existential concern among leading mathematicians; ChatGPT now systematically uses site: operators at scale, creating a consulting market for organizations to improve visibility in AI search.",
-    "links": [
-     "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
-     "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
-    ]
-   },
-   {
-    "text": "Meta's Alex Luxenberg, who led Ray-Ban AI glasses at Meta, will become CEO of Sefaria—the free digital library of Jewish texts—raising implications for how major tech resources and AI leadership approach religious and cultural content.",
-    "links": [
-     "https://ejewishphilanthropy.com/metas-alex-luxenberg-announced-as-sefarias-next-ceo/"
+     "https://forward.com/news/845642/texas-gop-bo-french-rosenthal-antisemitism/"
     ]
    }
   ]
