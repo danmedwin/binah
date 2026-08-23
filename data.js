@@ -1,37 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-23T09:56:49.839845+00:00",
+ "generatedAt": "2026-08-23T11:25:19.663408+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-23T09:57:05.483567+00:00",
+  "generatedAt": "2026-08-23T11:25:28.304603+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside AI for $12 billion, with founders receiving $1 billion in retention packages while employees get $6 billion, as NVIDIA scales infrastructure to 7 gigawatts.",
+    "text": "NVIDIA acquired Poolside AI for $12 billion, signaling massive infrastructure consolidation as the company scales to 7 gigawatts of AI compute capacity.",
     "links": [
      "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
     ]
    },
    {
-    "text": "AI models are absorbing functions previously handled by external control systems; the interface layer between developers and AI may eventually flip entirely, reshaping how we direct AI agents.",
+    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is becoming a dominant development strategy, reshaping how AI workflows are built beyond just training.",
     "links": [
-     "https://www.latent.space/p/attention-interface"
+     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+     "https://www.latent.space/p/simile"
     ]
    },
    {
-    "text": "Over one million LinkedIn users have flagged AI-generated content using the platform's \"AI slop\" button since July 2024, signaling persistent public resistance to low-quality AI content.",
+    "text": "OpenAI's AI solved longstanding mathematics problems, triggering existential crisis concerns within the mathematics community about the field's future.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+     "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis"
     ]
    },
    {
-    "text": "YouTube creators face backlash after promoting Higgsfield's AI video generation tools as the future of production, highlighting tension between creator incentives and audience skepticism about AI.",
+    "text": "Bipartisan opposition to AI data centers is accelerating over electricity consumption, water usage, and local impacts; Inner Mongolia has become China's AI infrastructure hub due to low energy costs.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
+     "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/"
     ]
    },
    {
-    "text": "Silicon Valley tech leaders appear to fundamentally misunderstand public concerns about AI, continuing to post optimistic visions while public skepticism grows—a significant disconnect in messaging.",
+    "text": "Tech leaders and the public hold fundamentally different views on AI's societal impact; nonconsensual AI-generated images proliferate on social platforms while detection methods remain imperfect.",
     "links": [
-     "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/"
+     "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/",
+     "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
+     "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
     ]
    }
   ]
@@ -82,6 +86,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The Real Future of AI and Work",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Real-Future-of-AI-and-Work-e3noahk",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-08-23T10:00:00+00:00",
+   "summary": "AI’s impact on work goes far beyond job losses. Drawing on Every’s new Thesis Statements project, NLW explores how AI could transform what individuals do, how companies operate, which skills become valuable and what becomes possible when intelligence is abundant. Thesis Statements: https://every.to/thesis-statements Executive Agent Leadership - Returns in September -- Learn how to use agents - ⁠ht",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124577780/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-22%2F430326054-44100-2-8aa8ad8cd267.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "NLW discusses AI's broader impact on work beyond simple job displacement, exploring how AI could reshape individual roles, organizational structures, skill demands, and what becomes feasible in an age of abundant intelligence.",
+   "whyMatters": [
+    "Moves the conversation past job-loss anxiety to systemic questions about work design, skill value, and organizational transformation—relevant for educators planning curriculum and clergy advising congregants on career discernment",
+    "Suggests a framework (Every's Thesis Statements) for thinking through what remains uniquely human when routine cognitive tasks are automated"
+   ]
+  },
   {
    "title": "Quoting Linus Torvalds",
    "link": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
@@ -1388,24 +1410,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
-   ]
-  },
-  {
    "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
@@ -1423,6 +1427,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
+   ]
+  },
+  {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -3303,24 +3325,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights the growing skill gap between novice chatbot users and those deploying AI agents for actual work—relevant for educators designing curricula and professionals evaluating AI's practical utility",
     "Offers concrete, project-based learning pathways that could inform how organizations and educators structure AI literacy programs"
-   ]
-  },
-  {
-   "title": "Why AI Hasn’t Increased Unemployment, According to Anthropic",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Hasnt-Increased-Unemployment--According-to-Anthropic-e3mgkqc",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-07-24T18:12:23+00:00",
-   "summary": "Anthropic’s head of economics argues that AI is still augmenting workers rather than replacing them—and that expertise becomes more valuable as AI handles more tasks. NLW examines the evidence, the warning signs in junior hiring, and why the story executives tell themselves about AI could shape its impact on work. In the headlines: Stripe’s reported $10 billion pursuit of OpenRouter, the booming m",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123277580/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-24%2F428558844-44100-2-f3905f6d9daa2.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Anthropic's head of economics argues that AI is currently augmenting worker capabilities rather than replacing jobs, and that expertise becomes more valuable as AI handles routine tasks. The podcast examines this claim against actual hiring patterns, particularly among junior roles, and explores how industry narratives about AI's labor impact may shape real outcomes.",
-   "whyMatters": [
-    "Directly challenges the widespread anxiety about AI-driven job displacement; matters to understanding actual economic impact versus hype",
-    "The claim about expertise becoming more valuable has direct implications for education and training—areas critical to rabbis and Jewish educators advising communities about workforce preparation"
    ]
   },
   {
