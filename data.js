@@ -1,40 +1,32 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-23T11:25:19.663408+00:00",
+ "generatedAt": "2026-08-23T17:24:06.540152+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-23T11:25:28.304603+00:00",
+  "generatedAt": "2026-08-23T17:24:14.994564+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside AI for $12 billion, signaling massive infrastructure consolidation as the company scales to 7 gigawatts of AI compute capacity.",
+    "text": "NVIDIA acquired Poolside AI for $12 billion, scaling infrastructure to 7 gigawatts as the race for AI compute capacity intensifies amid growing data-center opposition.",
+    "links": []
+   },
+   {
+    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is emerging as a new scaling law reshaping AI development strategy beyond training.",
+    "links": []
+   },
+   {
+    "text": "AI's reshaping of work extends far beyond job displacement, fundamentally altering individual roles, organizational structures, and what becomes feasible at scale.",
     "links": [
-     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Real-Future-of-AI-and-Work-e3noahk"
     ]
    },
    {
-    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is becoming a dominant development strategy, reshaping how AI workflows are built beyond just training.",
-    "links": [
-     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-     "https://www.latent.space/p/simile"
-    ]
-   },
-   {
-    "text": "OpenAI's AI solved longstanding mathematics problems, triggering existential crisis concerns within the mathematics community about the field's future.",
+    "text": "OpenAI solved longstanding mathematics problems with AI, sparking existential concerns within the mathematics community about the field's future.",
     "links": [
      "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis"
     ]
    },
    {
-    "text": "Bipartisan opposition to AI data centers is accelerating over electricity consumption, water usage, and local impacts; Inner Mongolia has become China's AI infrastructure hub due to low energy costs.",
+    "text": "Meta's AI-equipped glasses raise privacy concerns as recording detection tools prove imperfect, complicating consent in increasingly ambient surveillance environments.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
-     "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/"
-    ]
-   },
-   {
-    "text": "Tech leaders and the public hold fundamentally different views on AI's societal impact; nonconsensual AI-generated images proliferate on social platforms while detection methods remain imperfect.",
-    "links": [
-     "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/",
-     "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/",
      "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
     ]
    }
