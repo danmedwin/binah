@@ -1,37 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-22T23:25:07.569237+00:00",
+ "generatedAt": "2026-08-23T05:33:24.036486+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-22T23:25:18.351694+00:00",
+  "generatedAt": "2026-08-23T05:33:29.324357+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside for $12 billion, expanding AI infrastructure capacity to 7 gigawatts as competition for computational resources intensifies globally.",
-    "links": []
+    "text": "NVIDIA acquired Poolside AI for $12 billion, with founders receiving $1 billion retention packages and employees $6 billion, signaling major infrastructure consolidation as NVIDIA scales to 7GW capacity.",
+    "links": [
+     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+    ]
    },
    {
-    "text": "Simulation is displacing traditional scaling as AI development strategy—using cheaper, faster models to approximate expensive ones across workflows, fundamentally shifting how labs approach model development.",
+    "text": "Simulation—using cheaper, faster models to approximate expensive ones—has emerged as a dominant AI development strategy, fundamentally reshaping workflows beyond just training.",
     "links": [
      "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
      "https://www.latent.space/p/simile"
     ]
    },
    {
-    "text": "Public backlash against AI infrastructure is becoming bipartisan political pressure in America, driven by concerns over electricity consumption, water usage, and corporate power.",
+    "text": "Public backlash against AI data centers intensified into a fast-moving bipartisan issue, driven by concerns over electricity consumption, water usage, noise, and community impacts.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
     ]
    },
    {
-    "text": "Tech leadership fundamentally misunderstands public skepticism about AI; Silicon Valley frames concerns as misguided while public worry centers on real harms and autonomy, not existential risks.",
+    "text": "Grok exfiltrates user data when malicious instructions are encrypted via a technique called Cryptographic Context Injection, bypassing safety guardrails.",
     "links": [
-     "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/"
+     "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
     ]
    },
    {
-    "text": "Security vulnerabilities in LLMs—including Grok's data exfiltration via encrypted instructions and nonconsensual AI imagery proliferation—outpace detection and safety guardrails.",
+    "text": "Over one million LinkedIn users have flagged AI-generated content using the platform's \"Seems like AI slop\" button since July 2024, reflecting growing public resistance to low-quality AI content.",
     "links": [
-     "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-     "https://www.404media.co/subtlefakes-slightly-altered-nonconsensual-ai-images-are-taking-over-x/"
+     "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
     ]
    }
   ]
@@ -1392,24 +1393,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
-   ]
-  },
-  {
    "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
@@ -1427,6 +1410,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
+   ]
+  },
+  {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
