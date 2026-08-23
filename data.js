@@ -1,31 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-23T17:24:06.540152+00:00",
+ "generatedAt": "2026-08-23T23:25:15.753858+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-23T17:24:14.994564+00:00",
+  "generatedAt": "2026-08-23T23:25:26.430578+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside AI for $12 billion, scaling infrastructure to 7 gigawatts as the race for AI compute capacity intensifies amid growing data-center opposition.",
+    "text": "NVIDIA acquired Poolside AI for $12 billion, significantly expanding its AI infrastructure capabilities and signaling continued consolidation in the sector.",
     "links": []
    },
    {
-    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is emerging as a new scaling law reshaping AI development strategy beyond training.",
-    "links": []
-   },
-   {
-    "text": "AI's reshaping of work extends far beyond job displacement, fundamentally altering individual roles, organizational structures, and what becomes feasible at scale.",
+    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is emerging as a new scaling law reshaping AI development strategy across the industry.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Real-Future-of-AI-and-Work-e3noahk"
+     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+     "https://www.latent.space/p/simile"
     ]
    },
    {
-    "text": "OpenAI solved longstanding mathematics problems with AI, sparking existential concerns within the mathematics community about the field's future.",
+    "text": "Anthropic's revenue surged to $65 billion annualized, but its premium model struggles against cheaper alternatives, revealing a fundamental market-adoption challenge.",
     "links": [
-     "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis"
+     "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+     "https://simonwillison.net/2026/Aug/23/drew-breunig/"
     ]
    },
    {
-    "text": "Meta's AI-equipped glasses raise privacy concerns as recording detection tools prove imperfect, complicating consent in increasingly ambient surveillance environments.",
+    "text": "Bipartisan political opposition to AI data centers is accelerating in America due to electricity, water, and local community concerns, becoming a fast-moving policy issue.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
+    ]
+   },
+   {
+    "text": "Meta's AI-equipped glasses popularity raises privacy concerns as detection tools remain imperfect, highlighting the tension between innovation and surveillance risks.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
     ]
@@ -78,6 +82,42 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+   "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-23T20:24:52+00:00",
+   "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here . Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic's revenue grew significantly from $47 billion annualized in May to $65 billion in July, and the company expects Q3 to be profitable. However, despite this growth, their top-tier model is struggling to attract users as cheaper alternatives prove sufficient for most use cases.",
+   "whyMatters": [
+    "High cost of premium models creates adoption friction even as absolute revenue grows—organizations are finding cheaper tools adequate for practical tasks",
+    "The economics of AI commoditization are shifting: incremental improvements in frontier models may not justify their premium pricing if good-enough alternatives exist at lower cost"
+   ]
+  },
+  {
+   "title": "Quoting Drew Breunig",
+   "link": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-23T19:55:30+00:00",
+   "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed. So we started to think abou",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Drew Breunig observes that developers previously saw little value in optimizing their workflows since new models at similar or lower prices would arrive regularly. However, Anthropic's Fable model changed this calculus by being exceptionally capable but expensive, forcing teams to decide whether to invest in optimization or use cheaper models like Opus that are 'good enough' for their coding needs.",
+   "whyMatters": [
+    "The economics of model selection are shifting from \"always upgrade to the latest\" to \"optimize workflows around affordable tools\"—practical for cost-conscious teams but potentially risky long-term",
+    "This dynamic may reshape how developers invest in tooling and prompting strategies, favoring pragmatism over cutting-edge capability"
+   ]
+  },
   {
    "title": "The Real Future of AI and Work",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Real-Future-of-AI-and-Work-e3noahk",
@@ -1402,6 +1442,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
+   ]
+  },
+  {
    "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
@@ -1419,24 +1477,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
-   ]
-  },
-  {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -2056,26 +2096,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "llm-gemini 0.33",
-   "link": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-13T19:37:34+00:00",
-   "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enab",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/gemini-3.7-flash-high-pelican.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The llm-gemini plugin version 0.33 added support for the new Gemini 3.7 Flash model and several other Gemini variants (3.6-flash, 3.5-flash-lite) plus embedding models, and upgraded compatibility with LLM 0.32 to enable reasoning traces and other features.",
-   "whyMatters": [
-    "Expands the open-source LLM tooling ecosystem to keep pace with commercial model releases, enabling developers to experiment with latest models",
-    "Reasoning trace visibility helps AI practitioners debug and understand model behavior, important for educational and transparency contexts"
-   ]
-  },
-  {
    "title": "The new Instagram logo is the perfect embodiment of AI slop",
    "link": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
    "source": "Ars Technica · AI",
@@ -2260,24 +2280,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals OpenAI's shift toward mature commercial operations and enterprise sales focus",
     "Reflects the company's move from research-driven culture toward revenue optimization and customer monetization"
-   ]
-  },
-  {
-   "title": "alchemy-utils 0.1a1",
-   "link": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-13T03:03:17+00:00",
-   "summary": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A new release of alchemy-utils (version 0.1a1) includes performance improvements for DuckDB exports and CSV imports. This is an early-stage alpha release.",
-   "whyMatters": [
-    "Incremental tooling improvement for data engineering workflows with open-source contributions",
-    "Minimal strategic significance; primarily of interest to developers using DuckDB and data pipelines"
    ]
   },
   {
