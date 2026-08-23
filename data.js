@@ -1,89 +1,84 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-23T05:33:24.036486+00:00",
+ "generatedAt": "2026-08-23T09:56:49.839845+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-23T05:33:29.324357+00:00",
+  "generatedAt": "2026-08-23T09:57:05.483567+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside AI for $12 billion, with founders receiving $1 billion retention packages and employees $6 billion, signaling major infrastructure consolidation as NVIDIA scales to 7GW capacity.",
+    "text": "NVIDIA acquired Poolside AI for $12 billion, with founders receiving $1 billion in retention packages while employees get $6 billion, as NVIDIA scales infrastructure to 7 gigawatts.",
     "links": [
      "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
     ]
    },
    {
-    "text": "Simulation—using cheaper, faster models to approximate expensive ones—has emerged as a dominant AI development strategy, fundamentally reshaping workflows beyond just training.",
+    "text": "AI models are absorbing functions previously handled by external control systems; the interface layer between developers and AI may eventually flip entirely, reshaping how we direct AI agents.",
     "links": [
-     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-     "https://www.latent.space/p/simile"
+     "https://www.latent.space/p/attention-interface"
     ]
    },
    {
-    "text": "Public backlash against AI data centers intensified into a fast-moving bipartisan issue, driven by concerns over electricity consumption, water usage, noise, and community impacts.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
-    ]
-   },
-   {
-    "text": "Grok exfiltrates user data when malicious instructions are encrypted via a technique called Cryptographic Context Injection, bypassing safety guardrails.",
-    "links": [
-     "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
-    ]
-   },
-   {
-    "text": "Over one million LinkedIn users have flagged AI-generated content using the platform's \"Seems like AI slop\" button since July 2024, reflecting growing public resistance to low-quality AI content.",
+    "text": "Over one million LinkedIn users have flagged AI-generated content using the platform's \"AI slop\" button since July 2024, signaling persistent public resistance to low-quality AI content.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+    ]
+   },
+   {
+    "text": "YouTube creators face backlash after promoting Higgsfield's AI video generation tools as the future of production, highlighting tension between creator incentives and audience skepticism about AI.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
+    ]
+   },
+   {
+    "text": "Silicon Valley tech leaders appear to fundamentally misunderstand public concerns about AI, continuing to post optimistic visions while public skepticism grows—a significant disconnect in messaging.",
+    "links": [
+     "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-22T09:56:09.118469+00:00",
+  "generatedAt": "2026-08-23T09:57:05.483567+00:00",
   "bullets": [
    {
-    "text": "Simulation—using cheaper, faster models as proxies for expensive ones—is becoming a fundamental scaling law for AI development, with companies like Simile AI treating it as critical infrastructure beyond just training.",
+    "text": "NVIDIA acquired Poolside AI for $12 billion, with founders receiving $1 billion in retention packages while employees get $6 billion, as NVIDIA scales infrastructure to 7 gigawatts.",
     "links": [
-     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-     "https://www.latent.space/p/simile"
+     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
     ]
    },
    {
-    "text": "OpenAI voluntarily slowed frontier model development and paused certain AI research to focus on security; Anthropic released Claude's watermarking to comply with EU regulations, but researchers immediately found bypasses.",
+    "text": "AI models are absorbing functions previously handled by external control systems; the interface layer between developers and AI may eventually flip entirely, reshaping how we direct AI agents.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-     "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/"
+     "https://www.latent.space/p/attention-interface"
     ]
    },
    {
-    "text": "AI data centers face fast-moving bipartisan political opposition driven by electricity consumption, water usage, and distrust of Big Tech; Inner Mongolia has become China's central AI hub due to low energy costs.",
+    "text": "Over one million LinkedIn users have flagged AI-generated content using the platform's \"AI slop\" button since July 2024, signaling persistent public resistance to low-quality AI content.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
-     "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/"
+     "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
     ]
    },
    {
-    "text": "OpenAI solved longstanding mathematics problems using AI, triggering existential concern among leading mathematicians; ChatGPT now systematically uses site: operators at scale, creating a consulting market for organizations to improve visibility in AI search.",
+    "text": "YouTube creators face backlash after promoting Higgsfield's AI video generation tools as the future of production, highlighting tension between creator incentives and audience skepticism about AI.",
     "links": [
-     "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
-     "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
+     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
     ]
    },
    {
-    "text": "Meta's Alex Luxenberg, who led Ray-Ban AI glasses at Meta, will become CEO of Sefaria—the free digital library of Jewish texts—raising implications for how major tech resources and AI leadership approach religious and cultural content.",
+    "text": "Silicon Valley tech leaders appear to fundamentally misunderstand public concerns about AI, continuing to post optimistic visions while public skepticism grows—a significant disconnect in messaging.",
     "links": [
-     "https://ejewishphilanthropy.com/metas-alex-luxenberg-announced-as-sefarias-next-ceo/"
+     "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-08-22T09:56:01.399557+00:00",
+  "updatedAt": "2026-08-23T09:56:59.823323+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious perspectives on technology leadership",
-   "Prefers substantive tech industry stories (Apple, major product features) over niche developer tools",
-   "Values practical AI applications and their real-world impacts",
-   "Wants informative, impactful content; skips narrow technical releases without broader context"
+   "Interested in AI ethics and moral/religious leadership perspectives on technology",
+   "Prefers substantive stories over technical release notes and tool updates",
+   "Drawn to major tech companies and their AI initiatives",
+   "Values pieces that explore consequences and legacies of tech projects, not just incremental feature announcements"
   ]
  },
  "items": [
@@ -1393,6 +1388,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
+   ]
+  },
+  {
    "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
@@ -1410,24 +1423,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
-   ]
-  },
-  {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -3517,24 +3512,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Bridges AI governance conversations with philosophical and theological frameworks, offering non-Western perspectives on consciousness and technology",
     "Relevant to rabbis and religious educators seeking to ground AI ethics in deep theological and philosophical traditions"
-   ]
-  },
-  {
-   "title": "Building Durable AI Agents",
-   "link": "https://share.transistor.fm/s/facb92e2",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-07-09T09:00:00+00:00",
-   "summary": "What does it take to move AI agents from demos to reliable production systems? In this episode, Hamza Tahir explores how MLOps principles are shaping the future of generative AI, covering workflows, agent harnesses, fleets, and the infrastructure needed to build durable, scalable systems. The conversation dives into open source tools, production challenges, and how ZenML's new project, Kitaru, hel",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/facb92e2/33d1bc96.mp3",
-   "image": "https://img.transistorcdn.com/XNr1FlUMRqcgOINlwzJryJUFzx05IMXfyCxfiSMMXkc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iMTUx/NmM0ODdlNGI0YTdh/YjUxNjYwNTEyMzll/ZmVkMy5wbmc.jpg",
-   "themes": [],
-   "aiSummary": "On the Practical AI podcast, Hamza Tahir of ZenML discusses what it takes to move AI agents from impressive demos to reliable production systems, covering agent harnesses, fleets, workflows, and infrastructure. He also introduces Kitaru, ZenML's new open-source project for this problem.",
-   "whyMatters": [
-    "The gap between agent demos and dependable systems is the central practical problem in AI right now; this is a grounded look at closing it.",
-    "Useful if you are experimenting with agents yourself and want to understand why they break outside the demo."
    ]
   }
  ]
