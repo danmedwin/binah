@@ -1,31 +1,32 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-24T10:20:34.893119+00:00",
+ "generatedAt": "2026-08-24T11:33:05.784775+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-24T10:20:47.252193+00:00",
+  "generatedAt": "2026-08-24T11:33:10.231825+00:00",
   "bullets": [
    {
-    "text": "Teachers face rising sexual harassment through AI deepfakes with minimal institutional accountability, a targeted abuse vector distinct from earlier AI ethics concerns.",
+    "text": "Teachers face rising targeted harassment through AI-generated sexualized deepfakes, with many institutions providing little support or accountability when synthetic materials spread.",
     "links": [
      "https://www.wired.com/story/teachers-deepfake-ai-students-content/"
     ]
    },
    {
-    "text": "Children still learn human languages to native fluency far better than AI systems despite four years of LLM advances, suggesting fundamental gaps in how machines acquire language.",
+    "text": "Children still uniquely master human languages to fluency in ways AI systems haven't matched despite four years of rapid LLM advances, suggesting fundamental gaps in how machines learn.",
     "links": [
      "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/"
     ]
    },
    {
-    "text": "AI data centers face fast-moving bipartisan political opposition driven by power consumption, water usage, and broader distrust of Big Tech infrastructure claims.",
+    "text": "AI data centers face fast-moving bipartisan opposition over electricity, water use, noise, and property impacts, becoming a major political flashpoint across America.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
     ]
    },
    {
-    "text": "Meta's AI glasses proliferate while detection tools remain unreliable, creating a privacy asymmetry where recording others without obvious consent becomes harder to prevent.",
+    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is emerging as a new scaling law reshaping AI development strategy and workflows.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
+     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+     "https://www.latent.space/p/simile"
     ]
    }
   ]
