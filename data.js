@@ -1,37 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-23T23:25:15.753858+00:00",
+ "generatedAt": "2026-08-24T05:41:43.897732+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-23T23:25:26.430578+00:00",
+  "generatedAt": "2026-08-24T05:41:48.718853+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside AI for $12 billion, significantly expanding its AI infrastructure capabilities and signaling continued consolidation in the sector.",
-    "links": []
-   },
-   {
-    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is emerging as a new scaling law reshaping AI development strategy across the industry.",
-    "links": [
-     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-     "https://www.latent.space/p/simile"
-    ]
-   },
-   {
-    "text": "Anthropic's revenue surged to $65 billion annualized, but its premium model struggles against cheaper alternatives, revealing a fundamental market-adoption challenge.",
+    "text": "Anthropic's revenue surged to $65B annualized, but their flagship model struggles to compete as cheaper alternatives dominate the market.",
     "links": [
      "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
      "https://simonwillison.net/2026/Aug/23/drew-breunig/"
     ]
    },
    {
-    "text": "Bipartisan political opposition to AI data centers is accelerating in America due to electricity, water, and local community concerns, becoming a fast-moving policy issue.",
+    "text": "NVIDIA acquired Poolside for $12B to scale AI infrastructure to 7 gigawatts, signaling massive investment in computational capacity.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
+     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
     ]
    },
    {
-    "text": "Meta's AI-equipped glasses popularity raises privacy concerns as detection tools remain imperfect, highlighting the tension between innovation and surveillance risks.",
+    "text": "Simulation using cheaper, faster models to approximate expensive ones is becoming the dominant strategy in AI development, reshaping workflows beyond training.",
+    "links": [
+     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+     "https://www.latent.space/p/simile"
+    ]
+   },
+   {
+    "text": "Privacy concerns intensify as Meta's popular AI glasses enable undetectable recording, with detection tools proving unreliable.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
+    ]
+   },
+   {
+    "text": "Bipartisan opposition to AI data centers is accelerating, driven by concerns about electricity, water, noise, and local economic impact.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
     ]
    }
   ]
