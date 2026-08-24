@@ -1,32 +1,37 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-24T11:33:05.784775+00:00",
+ "generatedAt": "2026-08-24T17:34:35.279130+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-24T11:33:10.231825+00:00",
+  "generatedAt": "2026-08-24T17:34:45.887754+00:00",
   "bullets": [
    {
-    "text": "Teachers face rising targeted harassment through AI-generated sexualized deepfakes, with many institutions providing little support or accountability when synthetic materials spread.",
+    "text": "An Nvidia senior manager faces indictment in an AI server smuggling scheme to China, highlighting enforcement of export controls on critical AI infrastructure.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
+    ]
+   },
+   {
+    "text": "Teachers are being targeted with sexualized deepfake images, with institutions struggling to provide accountability or support against AI-generated abuse.",
     "links": [
      "https://www.wired.com/story/teachers-deepfake-ai-students-content/"
     ]
    },
    {
-    "text": "Children still uniquely master human languages to fluency in ways AI systems haven't matched despite four years of rapid LLM advances, suggesting fundamental gaps in how machines learn.",
+    "text": "Schools are developing smarter AI policies as educators grapple with how to guide student use of powerful language models now commonplace in classrooms.",
+    "links": [
+     "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/"
+    ]
+   },
+   {
+    "text": "Children still outpace AI systems at achieving fluency in human language learning, despite rapid advances in large language models over the past four years.",
     "links": [
      "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/"
     ]
    },
    {
-    "text": "AI data centers face fast-moving bipartisan opposition over electricity, water use, noise, and property impacts, becoming a major political flashpoint across America.",
+    "text": "Bipartisan opposition to AI data centers is rapidly growing over concerns about electricity, water use, noise, property values, and tech company trustworthiness.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
-    ]
-   },
-   {
-    "text": "Simulation—using cheaper, faster models to approximate expensive ones—is emerging as a new scaling law reshaping AI development strategy and workflows.",
-    "links": [
-     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-     "https://www.latent.space/p/simile"
     ]
    }
   ]
@@ -71,6 +76,62 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+   "link": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-24T16:41:45+00:00",
+   "summary": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An Nvidia senior manager has been indicted in connection with a scheme to smuggle AI servers to China through Supermicro, after Jensen Huang publicly scolded Supermicro for involvement in such activities.",
+   "whyMatters": [
+    "Export controls on advanced AI hardware to China are a critical U.S. national security and trade policy matter; this case shows those controls are being actively tested and enforced",
+    "Internal misconduct at major AI chip suppliers creates legal and reputational risk to the entire supply chain"
+   ]
+  },
+  {
+   "title": "How to encourage smarter AI use in the classroom",
+   "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-24T14:20:19+00:00",
+   "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "MIT Technology Review examines strategies for schools to develop more thoughtful policies around AI chatbot use in classrooms, recognizing that students now have access to powerful LLM tools that caught many educators off guard upon their release.",
+   "whyMatters": [
+    "Educators need practical frameworks for integrating or restricting AI tools in ways that support learning goals rather than undermine them",
+    "Schools are actively grappling with how to set sustainable AI policies as a core education policy matter"
+   ]
+  },
+  {
+   "title": "Your executable is a SQLite database",
+   "link": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-24T11:38:15+00:00",
+   "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a numb",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Farid Zakaria describes a Linux technique that embeds SQLite database files directly as executable binaries by setting the SQLite application ID field to 'SELF' (Structured Executable & Linkable Format) and arranging ELF executable components within the database structure.",
+   "whyMatters": [
+    "This is a technical proof-of-concept showing creative use of file format overlap, with potential implications for binary distribution and execution patterns",
+    "The technique has limited practical application but illustrates how low-level system design assumptions can be creatively repurposed"
+   ]
+  },
   {
    "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
    "link": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
@@ -2071,24 +2132,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-utils 4.2",
-   "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-13T20:11:29+00:00",
-   "summary": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments de",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "sqlite-utils 4.2 expanded its table.transform() feature to handle more complex database schema operations, now preserving edge cases like check constraints, unique constraints, and table comments during alter table operations.",
-   "whyMatters": [
-    "Improves data tool reliability for developers working with SQL databases in AI pipelines and data processing workflows",
-    "Better schema preservation reduces brittleness in systems that need to maintain data integrity during transformations"
-   ]
-  },
-  {
    "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop",
    "source": "The AI Daily Brief",
@@ -2384,25 +2427,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Scaling AI agents with trustworthy data",
-   "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-12T16:51:57+00:00",
-   "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Organizations are rapidly deploying AI agents but struggle to achieve expected ROI because they lack proper data infrastructure and trustworthy data foundations necessary to scale these systems effectively.",
-   "whyMatters": [
-    "Identifies gap between AI adoption enthusiasm and practical implementation challenges in enterprises",
-    "Shows data quality and governance are critical bottlenecks for agentic AI deployment",
-    "Suggests organizations need foundational work before advanced AI agents can deliver promised value"
-   ]
-  },
-  {
    "title": "Booksellers suspect AI firms are buying and then destroying rare books",
    "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
    "source": "Ars Technica · AI",
@@ -2647,26 +2671,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents a shift in how AI systems are architected, moving toward more structured, orchestrated multi-component systems rather than single-model approaches",
     "Has implications for educators building AI-assisted systems and for understanding how AI can integrate human judgment into workflows"
-   ]
-  },
-  {
-   "title": "Amazon backs power plant that may become top source of US climate pollution",
-   "link": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-10T20:45:52+00:00",
-   "summary": "Amazon announces first off-the-grid data center in race to reap AI profits.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Amazon is building or funding a major natural gas power plant to supply its data centers for AI workloads, contradicting its earlier climate commitments. The plant may become the largest single source of industrial climate pollution in the US.",
-   "whyMatters": [
-    "Exposes the massive energy cost of AI scaling, forcing hard tradeoffs between AI development and environmental sustainability",
-    "Raises ethical questions about whose values prevail when AI ambitions conflict with public climate pledges—relevant to organizational accountability and the common good"
    ]
   },
   {
@@ -3483,26 +3487,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly targets AI-in-education at scale, bringing generative AI support to underserved educator populations in India",
     "Demonstrates how large AI models can be localized for specific pedagogical contexts (robotics labs) and teacher needs"
-   ]
-  },
-  {
-   "title": "AI Governance and Vedānta",
-   "link": "https://aiandfaith.org/insights/ai-governance-and-vedanta/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-07-10T14:40:49+00:00",
-   "summary": "Directly or indirectly, today’s major faith traditions trace their origins to the Axial Age 2,500 years ago when people started to reflect on their inner selves and ask what it",
-   "religionScore": 5,
-   "religionHits": [
-    "faith"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI and Faith publishes an article connecting AI governance to Vedānta philosophy, rooting the discussion in the Axial Age when major faith traditions emerged and people began reflecting on inner consciousness and selfhood.",
-   "whyMatters": [
-    "Bridges AI governance conversations with philosophical and theological frameworks, offering non-Western perspectives on consciousness and technology",
-    "Relevant to rabbis and religious educators seeking to ground AI ethics in deep theological and philosophical traditions"
    ]
   }
  ]
