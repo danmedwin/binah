@@ -1,89 +1,117 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-24T05:41:43.897732+00:00",
+ "generatedAt": "2026-08-24T10:20:34.893119+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-24T05:41:48.718853+00:00",
+  "generatedAt": "2026-08-24T10:20:47.252193+00:00",
   "bullets": [
    {
-    "text": "Anthropic's revenue surged to $65B annualized, but their flagship model struggles to compete as cheaper alternatives dominate the market.",
+    "text": "Teachers face rising sexual harassment through AI deepfakes with minimal institutional accountability, a targeted abuse vector distinct from earlier AI ethics concerns.",
     "links": [
-     "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-     "https://simonwillison.net/2026/Aug/23/drew-breunig/"
+     "https://www.wired.com/story/teachers-deepfake-ai-students-content/"
     ]
    },
    {
-    "text": "NVIDIA acquired Poolside for $12B to scale AI infrastructure to 7 gigawatts, signaling massive investment in computational capacity.",
+    "text": "Children still learn human languages to native fluency far better than AI systems despite four years of LLM advances, suggesting fundamental gaps in how machines acquire language.",
     "links": [
-     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+     "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/"
     ]
    },
    {
-    "text": "Simulation using cheaper, faster models to approximate expensive ones is becoming the dominant strategy in AI development, reshaping workflows beyond training.",
-    "links": [
-     "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-     "https://www.latent.space/p/simile"
-    ]
-   },
-   {
-    "text": "Privacy concerns intensify as Meta's popular AI glasses enable undetectable recording, with detection tools proving unreliable.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
-    ]
-   },
-   {
-    "text": "Bipartisan opposition to AI data centers is accelerating, driven by concerns about electricity, water, noise, and local economic impact.",
+    "text": "AI data centers face fast-moving bipartisan political opposition driven by power consumption, water usage, and broader distrust of Big Tech infrastructure claims.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
+    ]
+   },
+   {
+    "text": "Meta's AI glasses proliferate while detection tools remain unreliable, creating a privacy asymmetry where recording others without obvious consent becomes harder to prevent.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-23T09:57:05.483567+00:00",
+  "generatedAt": "2026-08-24T10:20:47.252193+00:00",
   "bullets": [
    {
-    "text": "NVIDIA acquired Poolside AI for $12 billion, with founders receiving $1 billion in retention packages while employees get $6 billion, as NVIDIA scales infrastructure to 7 gigawatts.",
+    "text": "Teachers face rising sexual harassment through AI deepfakes with minimal institutional accountability, a targeted abuse vector distinct from earlier AI ethics concerns.",
     "links": [
-     "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+     "https://www.wired.com/story/teachers-deepfake-ai-students-content/"
     ]
    },
    {
-    "text": "AI models are absorbing functions previously handled by external control systems; the interface layer between developers and AI may eventually flip entirely, reshaping how we direct AI agents.",
+    "text": "Children still learn human languages to native fluency far better than AI systems despite four years of LLM advances, suggesting fundamental gaps in how machines acquire language.",
     "links": [
-     "https://www.latent.space/p/attention-interface"
+     "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/"
     ]
    },
    {
-    "text": "Over one million LinkedIn users have flagged AI-generated content using the platform's \"AI slop\" button since July 2024, signaling persistent public resistance to low-quality AI content.",
+    "text": "AI data centers face fast-moving bipartisan political opposition driven by power consumption, water usage, and broader distrust of Big Tech infrastructure claims.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
     ]
    },
    {
-    "text": "YouTube creators face backlash after promoting Higgsfield's AI video generation tools as the future of production, highlighting tension between creator incentives and audience skepticism about AI.",
+    "text": "Meta's AI glasses proliferate while detection tools remain unreliable, creating a privacy asymmetry where recording others without obvious consent becomes harder to prevent.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
-    ]
-   },
-   {
-    "text": "Silicon Valley tech leaders appear to fundamentally misunderstand public concerns about AI, continuing to post optimistic visions while public skepticism grows—a significant disconnect in messaging.",
-    "links": [
-     "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/"
+     "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-08-23T09:56:59.823323+00:00",
+  "updatedAt": "2026-08-24T10:20:43.106040+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious leadership perspectives on technology",
-   "Prefers substantive stories over technical release notes and tool updates",
-   "Drawn to major tech companies and their AI initiatives",
-   "Values pieces that explore consequences and legacies of tech projects, not just incremental feature announcements"
+   "Interested in AI ethics and religious/moral perspectives on technology",
+   "Prefers substantive analysis of AI's real-world impacts over routine product updates",
+   "Engages with major tech companies (Apple, Google/Waze) and their strategic moves",
+   "Wants fewer technical release notes and granular developer updates"
   ]
  },
  "items": [
+  {
+   "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
+   "link": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-24T09:30:00+00:00",
+   "summary": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sexualized, AI-generated content—and how difficult it was to find accountability.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Teachers are being targeted with sexualized deepfake images created by AI, with some educators struggling to find institutional support or accountability when these synthetic materials spread. The article documents four teachers' experiences dealing with this harassment and the difficulty of addressing it through existing systems.",
+   "whyMatters": [
+    "Teachers are increasingly vulnerable to a form of image-based abuse enabled by accessible AI tools, creating an unsafe work environment for educators",
+    "Schools and platforms lack clear policies or enforcement mechanisms to address deepfake harassment of staff, leaving educators exposed and without recourse",
+    "This directly affects educational communities and their ability to recruit and retain quality teachers"
+   ]
+  },
+  {
+   "title": "Kids outlearn AI—and we still don’t know why",
+   "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-24T09:00:00+00:00",
+   "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. Now there are two. Four short years after the release of ChatGPT,…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Children remain uniquely capable of learning human languages to perfect fluency in ways that AI systems have not yet matched, despite rapid advances in large language models since ChatGPT's release four years ago. The article suggests there is something about human children's language acquisition that still outpaces machine learning.",
+   "whyMatters": [
+    "Highlights a genuine limitation in current AI capabilities that persists despite impressive progress, relevant to educators and others assessing AI's role in learning environments",
+    "Suggests cognitive and developmental mechanisms in human children that AI has not yet replicated, important for understanding learning differently for educational practice",
+    "May inform how educators design language instruction knowing that AI remains a tool rather than a replacement for human language development"
+   ]
+  },
   {
    "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
    "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
@@ -1444,24 +1472,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
-   ]
-  },
-  {
    "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
@@ -1479,6 +1489,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
+   ]
+  },
+  {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -1947,26 +1975,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical improvement in how to structure LLM prompts for tagging and classification tasks",
     "Shows that sometimes reformulating a problem—asking the model to generate rather than classify—produces better results with lower computational overhead"
-   ]
-  },
-  {
-   "title": "The Next Big Influencer Is This 4-Foot-Tall Robot From China",
-   "link": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-14T20:59:03+00:00",
-   "summary": "The Unitree G1 has found online fame as a relatively affordable robot that can charm a crowd. But can it ever hold down a real job?",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "The Unitree G1, an affordable humanoid robot from China, has gained social media popularity and can perform entertaining movements. The article questions whether its appeal as a viral novelty can translate into practical real-world job capability.",
-   "whyMatters": [
-    "Highlights the gap between AI/robotics consumer appeal and actual utility in productive work",
-    "Relevant to assessing hype cycles in robotics and whether hardware advances match claims of practical deployment"
    ]
   },
   {
@@ -2658,24 +2666,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Exposes the massive energy cost of AI scaling, forcing hard tradeoffs between AI development and environmental sustainability",
     "Raises ethical questions about whose values prevail when AI ambitions conflict with public climate pledges—relevant to organizational accountability and the common good"
-   ]
-  },
-  {
-   "title": "AI professors are negotiating the new realities of academic research",
-   "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-10T20:00:00+00:00",
-   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising, AI…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI researchers and academics are grappling with how to conduct research in an era when frontier AI capabilities are controlled by private companies, reshaping what academic inquiry looks like. The piece documents their negotiations with these new constraints.",
-   "whyMatters": [
-    "Directly impacts AI education and research autonomy—universities and educators must now navigate dependencies on corporate AI systems",
-    "Raises questions about who controls the tools for advancing knowledge and whether academic independence in AI research remains viable"
    ]
   },
   {
