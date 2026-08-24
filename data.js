@@ -1,37 +1,31 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-24T17:34:35.279130+00:00",
+ "generatedAt": "2026-08-24T23:26:06.261263+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-24T17:34:45.887754+00:00",
+  "generatedAt": "2026-08-24T23:26:19.122173+00:00",
   "bullets": [
    {
-    "text": "An Nvidia senior manager faces indictment in an AI server smuggling scheme to China, highlighting enforcement of export controls on critical AI infrastructure.",
+    "text": "Entry-level workers in AI-impacted fields saw 19% employment decline versus less-affected occupations, per Stanford study, suggesting displacement concentrates among youngest professionals.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
+     "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/"
     ]
    },
    {
-    "text": "Teachers are being targeted with sexualized deepfake images, with institutions struggling to provide accountability or support against AI-generated abuse.",
+    "text": "AI-generated deepfakes of teachers spread online with limited institutional accountability, raising urgent questions about synthetic harm and educator protections in the AI era.",
     "links": [
      "https://www.wired.com/story/teachers-deepfake-ai-students-content/"
     ]
    },
    {
-    "text": "Schools are developing smarter AI policies as educators grapple with how to guide student use of powerful language models now commonplace in classrooms.",
+    "text": "Schools struggle to develop thoughtful AI policies as students gain access to powerful LLM tools that educators initially struggled to address, requiring new classroom governance frameworks.",
     "links": [
      "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/"
     ]
    },
    {
-    "text": "Children still outpace AI systems at achieving fluency in human language learning, despite rapid advances in large language models over the past four years.",
+    "text": "Nvidia senior manager indicted over alleged scheme to smuggle AI servers to China through Supermicro, echoing earlier public friction between the companies over export control violations.",
     "links": [
-     "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/"
-    ]
-   },
-   {
-    "text": "Bipartisan opposition to AI data centers is rapidly growing over concerns about electricity, water use, noise, property values, and tech company trustworthiness.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb"
+     "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
     ]
    }
   ]
@@ -77,6 +71,63 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+   "link": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-24T21:45:53+00:00",
+   "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Stanford study found that young workers in AI-impacted fields experienced a 19% employment decline compared to those in occupations less affected by AI. Entry-level positions appear to be bearing the brunt of AI-driven job displacement.",
+   "whyMatters": [
+    "Entry-level job losses may reduce pathways for early-career workers and reduce economic mobility for young people entering the workforce",
+    "Educators and community leaders should be aware of shifting labor market dynamics when advising students on career preparation and skill development"
+   ]
+  },
+  {
+   "title": "American synagogues are spending more than ever on security. How much is enough?",
+   "link": "https://forward.com/news/846551/antisemitism-synagogue-attacks-central-synagogue/",
+   "source": "The Forward",
+   "category": "religion",
+   "date": "2026-08-24T20:08:33+00:00",
+   "summary": "At Temple Israel in Bloomfield, Michigan, which was attacked in March by a gunman, getting ready for the High Holidays this year means more than preparing for crowds of worshippers. The synagogue is spending millions of dollars on security upgrades, including a new gatehouse, artificial intelligence technology and physical and ballistic hardening of its building....",
+   "religionScore": 8,
+   "religionHits": [
+    "synagogue",
+    "worship"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Synagogues across America are investing millions in security upgrades following recent attacks, including AI-enabled surveillance, new gatehouses, and ballistic hardening. Temple Israel in Michigan, attacked in March, is among institutions prioritizing these measures ahead of High Holiday gatherings.",
+   "whyMatters": [
+    "AI is being deployed in real-world religious security infrastructure, raising practical questions for Jewish communities balancing safety and open worship",
+    "This reflects a significant institutional shift in how synagogues approach physical safety and community welcoming during major religious observances"
+   ]
+  },
+  {
+   "title": "The AI Model Tier List",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-Model-Tier-List-e3nr9cb",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-08-24T19:26:22+00:00",
+   "summary": "A viral AI model tier list reveals how much harder it has become to name the “best” model. This episode breaks down where today’s leading models belong, why cost and speed increasingly matter alongside intelligence, and how businesses are assembling model stacks that combine premium and open models. In the headlines: Hugging Face explores a sale, NVIDIA expands its open-model ambitions, and Dr. Dr",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124674891/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-24%2F430457183-44100-2-24feca95167de.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "A viral tier list of AI models shows that selecting a single \"best\" model has become harder as the landscape diversifies. Businesses increasingly combine multiple models—premium options alongside open-source alternatives—based on speed, cost, and capability rather than raw performance alone.",
+   "whyMatters": [
+    "The AI market is fragmenting: enterprises must now think about model selection as a portfolio strategy rather than a single-model choice",
+    "This trend affects developers and organizations building AI applications, requiring more complex technical and economic decision-making"
+   ]
+  },
+  {
    "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
    "link": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
    "source": "Ars Technica · AI",
@@ -92,6 +143,25 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Export controls on advanced AI hardware to China are a critical U.S. national security and trade policy matter; this case shows those controls are being actively tested and enforced",
     "Internal misconduct at major AI chip suppliers creates legal and reputational risk to the entire supply chain"
+   ]
+  },
+  {
+   "title": "llm-anthropic 0.27",
+   "link": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-24T16:27:04+00:00",
+   "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - re",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "The llm-anthropic plugin version 0.27 was released to maintain compatibility with Anthropic's new v1.0.0 Python library, which changed its underlying HTTP client from httpx to httpx2. This mirrors a similar migration OpenAI completed in their v3.0.0 release.",
+   "whyMatters": [
+    "This is a routine maintenance update for developers using the Anthropic plugin; major library version bumps can cause integration friction across the ecosystem"
    ]
   },
   {
@@ -112,6 +182,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Educators need practical frameworks for integrating or restricting AI tools in ways that support learning goals rather than undermine them",
     "Schools are actively grappling with how to set sustainable AI policies as a core education policy matter"
+   ]
+  },
+  {
+   "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+   "link": "https://openai.com/index/gpt-5-6-in-kiro",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-24T12:00:00+00:00",
+   "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released GPT-5.6 as an option in Kiro, its platform for developers to plan, build, review, and test software with improved cost-performance characteristics.",
+   "whyMatters": [
+    "This represents a continued refinement of OpenAI's pricing and performance tradeoffs for developers using their platform",
+    "It signals OpenAI's ongoing focus on making models more accessible to developers through better economic efficiency"
    ]
   },
   {
@@ -658,24 +746,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "As AI enters Sikh life, old debates on technology and tradition continue",
-   "link": "https://religionnews.com/2026/08/20/as-ai-enters-sikh-life-old-debates-on-technology-and-tradition-continue/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-08-20T21:27:08+00:00",
-   "summary": "(RNS) — A machine may reproduce words, images or melodies. But Sikh practice, many argue, remains rooted in intention, consciousness and connection.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Religion News Service piece examines how AI adoption raises longstanding questions within Sikh communities about technology's role in practice. The article notes that Sikh tradition emphasizes intention, consciousness, and spiritual connection—dimensions that machines cannot reproduce.",
-   "whyMatters": [
-    "Religious communities are grappling with whether AI can substitute for practices rooted in human intention and consciousness",
-    "Relevant to educators and clergy working with congregants navigating which technologies align with spiritual values"
-   ]
-  },
-  {
    "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
    "link": "https://www.latent.space/p/wayfinder-skill",
    "source": "Latent Space",
@@ -1099,28 +1169,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses privacy concerns from enterprise customers who are hesitant to use frontier models with proprietary data",
     "Moves safety evaluation offline-path so compliance and security can coexist with strict confidentiality guarantees"
-   ]
-  },
-  {
-   "title": "He’s campaigning to regulate Texas oil and gas. Why is he linking his Jewish opponent to the Bolshevik Revolution?",
-   "link": "https://forward.com/news/845642/texas-gop-bo-french-rosenthal-antisemitism/",
-   "source": "The Forward",
-   "category": "religion",
-   "date": "2026-08-19T18:58:23+00:00",
-   "summary": "A Texas race that would normally focus on oil wells, pipelines and energy policy has spilled into accusations of antisemitism. In a fundraising email last month, Bo French, the Republican nominee for the powerful Texas Railroad Commission, circulated an AI-generated image of Jon Rosenthal, his Jewish Democratic opponent, smiling inside the room where Russia’s Romanov...",
-   "religionScore": 6,
-   "religionHits": [
-    "jewish"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "In a Texas Railroad Commission race, Republican nominee Bo French circulated an AI-generated image of his Jewish Democratic opponent Jon Rosenthal linked to the Bolshevik Revolution, conflating him with antisemitic tropes about Jewish communism.",
-   "whyMatters": [
-    "Demonstrates how AI image generation is being weaponized to spread antisemitic conspiracy theories in electoral politics",
-    "Raises urgent concerns for Jewish communities about misinformation: AI tools lower barriers to mass-distributing hateful content without detection"
    ]
   },
   {
@@ -2114,24 +2162,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "sqlite-utils 4.2.1",
-   "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-13T23:53:47+00:00",
-   "summary": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As pa",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "sqlite-utils 4.2.1 was released to fix a crash in version 4.2 caused by a missing dependency declaration for typing-extensions. The package wasn't properly listed as a direct dependency, though it was available indirectly through dev dependencies.",
-   "whyMatters": [
-    "Highlights the importance of precise dependency management in development tools; missing dependencies can break workflows for users installing tools directly",
-    "Affects developers building data pipelines and AI applications that rely on sqlite-utils for database operations"
-   ]
-  },
-  {
    "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Grok-4-6-Shows-How-Fast-Your-AI-Options-Are-Expanding-e3ncdop",
    "source": "The AI Daily Brief",
@@ -2638,24 +2668,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
-   "link": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-10T22:13:03+00:00",
-   "summary": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta is launching new open-source AI models as part of a strategic pivot, attempting to compete with rivals who have taken the lead in the AI race. Zuckerberg is betting that openness can differentiate Meta's position.",
-   "whyMatters": [
-    "Open-weight models shift competitive dynamics—affects which organizations control AI capabilities and how they're distributed",
-    "If successful, could influence how universities and researchers access frontier AI tools for education and study"
-   ]
-  },
-  {
    "title": "What the Heck is Graph Engineering?",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Heck-is-Graph-Engineering-e3n80cn",
    "source": "The AI Daily Brief",
@@ -2727,24 +2739,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Example of generative AI handling domain-specific workflows with audit trails",
     "Financial services adoption of frontier models; traceability/editability matter for compliance"
-   ]
-  },
-  {
-   "title": "Putting frontier cyber models in more trusted hands",
-   "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-10T10:00:00+00:00",
-   "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is restricting access to its frontier cybersecurity models to approved partners through a program called Daybreak, allowing governed delivery of security services.",
-   "whyMatters": [
-    "Reflects policy decision to gate powerful dual-use capabilities rather than open release",
-    "Cybersecurity domain treated as sensitive; trusted-partner model is governance experiment"
    ]
   },
   {
@@ -3298,24 +3292,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses the gap between AI industry ethics and religious/faith community engagement—a core concern for educators and clergy navigating AI's impact",
     "Argues for institutional integration of religious ethical frameworks into AI governance, not as afterthought but as foundational voices"
-   ]
-  },
-  {
-   "title": "How to Get the Most from AI This Summer",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Get-the-Most-from-AI-This-Summer-e3migrs",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-07-26T12:44:01+00:00",
-   "summary": "Ethan Mollick’s latest guide reveals the widening divide between casual chatbot use and serious work with agents. NLW breaks down his recommendations and launches AI Summer Adventure, a free choose-your-own-adventure with more than 20 hands-on projects—from building better context and your first app to creating an AI-staffed microbusiness and running agentic loops. Ethan's piece: https://www.oneus",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123339068/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-26%2F428640174-44100-2-d9db74d5d310f.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Ethan Mollick has published guidance distinguishing between casual chatbot use and more sophisticated work with AI agents. The AI Daily Brief's NLW segment covers his recommendations and introduces AI Summer Adventure, a free interactive program offering over 20 hands-on projects ranging from basic context-building to developing AI-staffed microbusinesses and running agentic workflows.",
-   "whyMatters": [
-    "Highlights the growing skill gap between novice chatbot users and those deploying AI agents for actual work—relevant for educators designing curricula and professionals evaluating AI's practical utility",
-    "Offers concrete, project-based learning pathways that could inform how organizations and educators structure AI literacy programs"
    ]
   },
   {
