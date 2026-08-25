@@ -1,29 +1,36 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-24T23:26:06.261263+00:00",
+ "generatedAt": "2026-08-25T05:35:33.482194+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-24T23:26:19.122173+00:00",
+  "generatedAt": "2026-08-25T05:35:41.231957+00:00",
   "bullets": [
    {
-    "text": "Entry-level workers in AI-impacted fields saw 19% employment decline versus less-affected occupations, per Stanford study, suggesting displacement concentrates among youngest professionals.",
+    "text": "Entry-level workers face disproportionate AI job displacement, with 19% employment decline in affected fields versus minimal impact on higher-skill roles, according to Stanford research.",
     "links": [
      "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/"
     ]
    },
    {
-    "text": "AI-generated deepfakes of teachers spread online with limited institutional accountability, raising urgent questions about synthetic harm and educator protections in the AI era.",
+    "text": "Anthropic's top-tier model struggles to gain market share as cheaper alternatives proliferate, despite the company's revenue growing to $65B annualized and Q3 profitability expected.",
+    "links": [
+     "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+     "https://simonwillison.net/2026/Aug/23/drew-breunig/"
+    ]
+   },
+   {
+    "text": "Teachers face sexual deepfake abuse with minimal institutional accountability, raising urgent questions about synthetic media harms and institutional responsibility in the AI era.",
     "links": [
      "https://www.wired.com/story/teachers-deepfake-ai-students-content/"
     ]
    },
    {
-    "text": "Schools struggle to develop thoughtful AI policies as students gain access to powerful LLM tools that educators initially struggled to address, requiring new classroom governance frameworks.",
+    "text": "Schools grapple with developing coherent AI chatbot policies as educators seek frameworks for thoughtful student use of powerful LLM tools now widely accessible.",
     "links": [
      "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/"
     ]
    },
    {
-    "text": "Nvidia senior manager indicted over alleged scheme to smuggle AI servers to China through Supermicro, echoing earlier public friction between the companies over export control violations.",
+    "text": "An Nvidia senior manager faces indictment in AI server smuggling scheme to China through Supermicro, escalating export control enforcement following public executive criticism.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
     ]
@@ -70,6 +77,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Andrew Ng gets into AI Engineering",
+   "link": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-08-25T02:50:57+00:00",
+   "summary": "An industry legend starts covering the inevitable!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!2Hw4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3107842a-995c-42c3-a41a-592339e041f8_1002x1182.png",
+   "themes": [],
+   "aiSummary": "Andrew Ng has launched coverage of AI engineering topics. The article announces that an established industry figure is now focusing on this area of the AI field.",
+   "whyMatters": [
+    "AI engineering as a discipline is becoming prominent enough to warrant dedicated coverage from major figures",
+    "This reflects the field's maturation from research-focused to production-focused concerns"
+   ]
+  },
   {
    "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
    "link": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
@@ -1582,6 +1607,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "AI’s recursive self-improvement might not come so quickly after all",
+   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-18T09:00:00+00:00",
+   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
+   "whyMatters": [
+    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
+    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
+   ]
+  },
+  {
    "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
    "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
    "source": "Wired · AI",
@@ -1599,24 +1642,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight models create a governance tension—releasing powerful tools publicly accelerates beneficial security work but removes upstream control over misuse",
     "Reflects the geopolitical and technical reality that cutting-edge AI capabilities are no longer contained within a few organizations or countries"
-   ]
-  },
-  {
-   "title": "AI’s recursive self-improvement might not come so quickly after all",
-   "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-18T09:00:00+00:00",
-   "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers question whether AI's promised recursive self-improvement—where AI systems improve themselves with minimal human oversight—will arrive as quickly as industry forecasts suggest. While LLMs can write code and optimize hardware, technical hurdles may slow explosive self-improvement timelines.",
-   "whyMatters": [
-    "Challenges key industry narrative about AI acceleration; affects long-term strategic planning for institutions",
-    "Impacts policy urgency: if self-improvement timelines are slower, it may affect how quickly governance frameworks need to move"
    ]
   },
   {
@@ -2967,24 +2992,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses the intersection of AI, theology, and anthropology—how we understand human nature shapes our approach to building AI systems",
     "Relevant to religious educators considering how faith traditions should engage with AI development that treats human limitation as valuable rather than as a problem to solve"
-   ]
-  },
-  {
-   "title": "[AINews] Megakernels are so dead and so back",
-   "link": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-05T01:21:47+00:00",
-   "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!Gpou!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNw6xyYaUAA_BVO.jpg",
-   "themes": [],
-   "aiSummary": "Latent Space published a brief news roundup touching on a Cursor product launch and an engineering discussion about megakernels in AI infrastructure.",
-   "whyMatters": [
-    "Cursor and kernel architecture are active areas of AI engineering iteration",
-    "News item lacks sufficient detail in provided blurb to assess specific impact"
    ]
   },
   {
