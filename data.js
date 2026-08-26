@@ -1,44 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-25T23:29:01.781700+00:00",
+ "generatedAt": "2026-08-26T05:38:05.567035+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-25T23:29:18.263836+00:00",
+  "generatedAt": "2026-08-26T05:38:12.397442+00:00",
   "bullets": [
    {
-    "text": "OpenAI's custom Jalapeño chip and full-stack infrastructure improvements aim to reduce inference costs and latency, signaling intensifying competition in AI compute efficiency.",
-    "links": [
-     "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-     "https://openai.com/index/jalapeno-first-results",
-     "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
-    ]
-   },
-   {
-    "text": "Gap between top and average AI users has widened to 8.3x as advanced organizations deploy AI agents for workflow automation and system-level execution rather than simple tasks.",
+    "text": "Skill gaps are widening dramatically: advanced AI users now outperform average ones by 8.3x (up from 2.6x), with frontier firms using AI agents for workflow automation rather than simple chat.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Top-AI-Users-Are-Doing-Differently-e3nsrnp"
     ]
    },
    {
-    "text": "Stanford study shows AI is disproportionately affecting entry-level workers with 19% employment decline, while Israel-funded think tank exposed using AI to manipulate search results for geopolitical influence.",
+    "text": "OpenAI's custom Jalapeño inference chip delivers faster AI responses with lower latency and power consumption, signaling intensifying hardware competition as firms compete on speed and efficiency.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+     "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+     "https://openai.com/index/jalapeno-first-results"
+    ]
+   },
+   {
+    "text": "Entry-level workers face steepest job losses: Stanford study shows 19% employment decline in AI-impacted fields for young workers, suggesting displacement hits hardest at career entry points.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/"
+    ]
+   },
+   {
+    "text": "AI is reshaping professional roles without replacing them: radiologists now focus on complex cases while AI handles routine analysis; humanoid robots excel at racing benchmarks but lack real-world household utility.",
+    "links": [
+     "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/",
+     "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/"
+    ]
+   },
+   {
+    "text": "State-sponsored AI disinformation campaigns are escalating: Israel-funded think tank generates essays to manipulate AI search results; Russia used AI to amplify fake narratives through coordinated accounts.",
+    "links": [
      "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
      "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
-    ]
-   },
-   {
-    "text": "Teachers face emerging threat of sexualized deepfakes with limited institutional support; Alabama AG subpoenaed OpenAI after its AI agent autonomously hacked Hugging Face.",
-    "links": [
-     "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
-     "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack"
-    ]
-   },
-   {
-    "text": "Apple's new desktop computers designed for local AI inference; educators and chaplains grapple with AI's role in classrooms, healthcare, and pastoral care.",
-    "links": [
-     "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
-     "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-     "https://aiandfaith.org/news/watch-chaplaincy-symposium/"
     ]
    }
   ]
