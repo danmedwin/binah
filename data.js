@@ -1,39 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-30T15:17:06.033279+00:00",
+ "generatedAt": "2026-08-30T19:40:30.797441+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-30T15:17:15.951555+00:00",
+  "generatedAt": "2026-08-30T19:40:37.615894+00:00",
   "bullets": [
    {
-    "text": "Major copyright lawsuits target AI training practices: Sony Music and Warner Chappell sued Anthropic for allegedly training on tens of thousands of copyrighted works without permission, seeking up to $150,000 per infringement.",
+    "text": "Federal judge ruled Pentagon's blacklisting of Anthropic illegal, rejecting claims the AI safety company poses national security risks.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
+     "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+     "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/"
     ]
    },
    {
-    "text": "Federal judge blocks Pentagon's blacklisting of Anthropic, ruling it illegal and baseless—a significant victory for the AI company's safety-first policies over government pressure.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-     "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
-     "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/"
-    ]
-   },
-   {
-    "text": "Nvidia's reported $13 billion acquisition of Hugging Face consolidates control over critical open-source AI model infrastructure, raising concerns about centralized power in model distribution.",
+    "text": "Nvidia reportedly acquiring Hugging Face for $13 billion, consolidating control over open-source AI model distribution infrastructure.",
     "links": [
      "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/"
     ]
    },
    {
-    "text": "AI-generated religious teachers are attracting millions of online listeners while presenting as legitimate spiritual instructors, though religious leaders argue AI cannot transmit authentic faith.",
+    "text": "Sony Music and Warner Chappell sued Anthropic for training on tens of thousands of copyrighted songs without permission, seeking up to $150,000 per work.",
     "links": [
-     "https://religionnews.com/2026/08/28/the-religious-influencers-who-arent-real/"
+     "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
     ]
    },
    {
-    "text": "Severe allegations emerge: lawsuit claims xAI trained Grok models on child sexual abuse material, raising profound ethical and legal concerns about data sourcing practices.",
+    "text": "Lawsuit alleges xAI trained Grok models on child sexual abuse material, raising severe ethical and legal concerns about training data practices.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/"
+    ]
+   },
+   {
+    "text": "AI-generated religious teachers attract millions of listeners online while presenting themselves as spiritual instructors, though experts say AI cannot provide authentic spiritual guidance.",
+    "links": [
+     "https://religionnews.com/2026/08/28/the-religious-influencers-who-arent-real/"
     ]
    }
   ]
@@ -80,6 +79,26 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-30T16:14:46+00:00",
+   "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Texas Governor Greg Abbott has frozen state spending on Flock's AI-powered surveillance cameras following public backlash. The action came as reporting revealed Texas has spent over $30 million on the cameras, with funding primarily generated through a $1 fee added to insurance policies.",
+   "whyMatters": [
+    "Growing public opposition to AI surveillance technology is affecting policy decisions at the state executive level, showing limits on deployment even after significant spending",
+    "Raises questions about funding mechanisms for surveillance infrastructure and how costs are distributed to citizens without explicit consent"
+   ]
+  },
   {
    "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
    "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
@@ -932,24 +951,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates AI robotics moving from research into consumer products",
     "Cute design and consumer price point signal broader push to normalize AI robotics in everyday contexts"
-   ]
-  },
-  {
-   "title": "Adobe is adding more AI to Photoshop",
-   "link": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-27T13:08:18+00:00",
-   "summary": "Adobe is rolling out an AI-heavy update for Photoshop that includes a new \"optional\" interface dedicated to its AI tools. Launching in beta, the \"AI Assisted Editor\" view will show all of Photoshop's AI features in a single toolbar, including its prompt-based image editor, background remover, an AI image extender, and more. There are also […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Adobe is rolling out a beta update to Photoshop that adds an \"AI Assisted Editor\" interface consolidating all of the software's AI tools—including prompt-based image editing, background removal, and image extension—into a single toolbar.",
-   "whyMatters": [
-    "Accelerates integration of AI into mainstream creative tools used by educators, designers, and content creators",
-    "Raises questions about visual authenticity and documentation that affect how educational and religious institutions use images in communications"
    ]
   },
   {
