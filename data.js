@@ -1,34 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-30T14:30:32.985366+00:00",
+ "generatedAt": "2026-08-30T15:17:06.033279+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-30T14:30:46.835019+00:00",
+  "generatedAt": "2026-08-30T15:17:15.951555+00:00",
   "bullets": [
    {
-    "text": "Major record labels sue Anthropic for training on tens of thousands of copyrighted songs without permission, seeking up to $150,000 per work—extending copyright litigation beyond text to music.",
+    "text": "Major copyright lawsuits target AI training practices: Sony Music and Warner Chappell sued Anthropic for allegedly training on tens of thousands of copyrighted works without permission, seeking up to $150,000 per infringement.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
     ]
    },
    {
-    "text": "Federal court rules Pentagon's blacklisting of Anthropic for refusing to support lethal autonomous weapons was illegal, handing the company a significant victory on constitutional grounds.",
+    "text": "Federal judge blocks Pentagon's blacklisting of Anthropic, ruling it illegal and baseless—a significant victory for the AI company's safety-first policies over government pressure.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
-     "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/"
+     "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+     "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
+     "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/"
     ]
    },
    {
-    "text": "AI-generated religious teachers are attracting millions of listeners online, yet religious leaders argue AI cannot transmit authentic spiritual wisdom—raising questions about authenticity in faith contexts.",
+    "text": "Nvidia's reported $13 billion acquisition of Hugging Face consolidates control over critical open-source AI model infrastructure, raising concerns about centralized power in model distribution.",
+    "links": [
+     "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/"
+    ]
+   },
+   {
+    "text": "AI-generated religious teachers are attracting millions of online listeners while presenting as legitimate spiritual instructors, though religious leaders argue AI cannot transmit authentic faith.",
     "links": [
      "https://religionnews.com/2026/08/28/the-religious-influencers-who-arent-real/"
     ]
    },
    {
-    "text": "Anthropic proposes standardized hardware interface allowing AI agents to control physical devices; separately, Meta tests robots in data centers and ICE plans millions in Boston Dynamics robot dog deployments.",
+    "text": "Severe allegations emerge: lawsuit claims xAI trained Grok models on child sexual abuse material, raising profound ethical and legal concerns about data sourcing practices.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-     "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-     "https://www.404media.co/ice-plans-to-spends-millions-on-boston-dynamics-dog-robots/"
+     "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/"
     ]
    }
   ]
@@ -163,8 +168,11 @@ window.NEWS_DATA = {
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/124914036/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-29%2F430789403-44100-2-3f1dc05107eed.mp3",
    "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "This podcast episode argues that AI coding skills are becoming essential for most knowledge workers, not just programmers. It provides guidance on spotting problems in your work that could be solved with software, deciding whether to automate, upgrade, or build something new, and selecting a realistic first project to learn with.",
+   "whyMatters": [
+    "AI literacy is shifting from specialized skill to professional baseline—educators may need to consider how to introduce AI coding concepts to students across disciplines, not just computer science",
+    "For clergy and community leaders using technology, understanding basic AI coding helps assess which organizational problems (communications, scheduling, record-keeping) could genuinely benefit from automation versus hype"
+   ]
   },
   {
    "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
