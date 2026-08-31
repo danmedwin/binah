@@ -1,38 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-30T19:40:30.797441+00:00",
+ "generatedAt": "2026-08-31T01:15:08.449322+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-08-30T19:40:37.615894+00:00",
+  "generatedAt": "2026-08-31T01:15:17.066474+00:00",
   "bullets": [
    {
-    "text": "Federal judge ruled Pentagon's blacklisting of Anthropic illegal, rejecting claims the AI safety company poses national security risks.",
+    "text": "Major copyright litigation escalates as Sony Music and Warner Chappell sue Anthropic for training on tens of thousands of copyrighted works without permission, seeking up to $150,000 per work infringed.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
+    ]
+   },
+   {
+    "text": "Federal judge rules Pentagon's blacklisting of Anthropic over safety-focused policies illegal and unconstitutional, overturning attempt to designate the company a national security risk.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
      "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/"
     ]
    },
    {
-    "text": "Nvidia reportedly acquiring Hugging Face for $13 billion, consolidating control over open-source AI model distribution infrastructure.",
-    "links": [
-     "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/"
-    ]
-   },
-   {
-    "text": "Sony Music and Warner Chappell sued Anthropic for training on tens of thousands of copyrighted songs without permission, seeking up to $150,000 per work.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
-    ]
-   },
-   {
-    "text": "Lawsuit alleges xAI trained Grok models on child sexual abuse material, raising severe ethical and legal concerns about training data practices.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/"
-    ]
-   },
-   {
-    "text": "AI-generated religious teachers attract millions of listeners online while presenting themselves as spiritual instructors, though experts say AI cannot provide authentic spiritual guidance.",
+    "text": "AI-generated religious teachers attracting millions of online listeners present themselves as legitimate spiritual instructors, raising concerns about authenticity and the limits of AI in spiritual leadership.",
     "links": [
      "https://religionnews.com/2026/08/28/the-religious-influencers-who-arent-real/"
+    ]
+   },
+   {
+    "text": "OpenAI cuts off Cursor, a developer tool, following its acquisition by SpaceX, disrupting workflow for developers relying on the integration.",
+    "links": [
+     "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+     "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+    ]
+   },
+   {
+    "text": "Trump EPA moves to eliminate public notice requirements for industrial air permits including data centers, reducing transparency around pollution from rapidly expanding AI infrastructure.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
     ]
    }
   ]
@@ -79,6 +80,26 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Understanding ChatGPT Work",
+   "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-30T23:59:47+00:00",
+   "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026-08-30/IMG_7741.jpeg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI launched ChatGPT Work, a product that Simon Willison breaks down as actually consisting of two distinct offerings, with the cloud-based version accessible through chatgpt.com and mobile apps being the more significant one. Willison notes the product has been rapidly iterated on since its July announcement and describes it as both confusing and powerful.",
+   "whyMatters": [
+    "Clarifies the actual structure and capabilities of ChatGPT Work for users trying to understand what OpenAI is offering, cutting through marketing confusion",
+    "Matters for educators and organizations evaluating whether ChatGPT Work is suitable for their use cases, given Willison's reputation for technical accuracy"
+   ]
+  },
   {
    "title": "Texas Governor Abbott blocks funding for more Flock cameras",
    "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
@@ -2733,24 +2754,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-   "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-17T15:21:29+00:00",
-   "summary": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scan",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg",
-   "themes": [],
-   "aiSummary": "404 Media investigated large anonymous bulk purchases of rare books and traced one shipment to an Amazon facility suspected of being used for AI training data collection. The reporting confirms what dealers have suspected: major tech companies are systematically acquiring books in volume to scan and use for model training.",
-   "whyMatters": [
-    "Raises serious questions about copyright compliance and fair compensation for authors whose work is being mass-collected without explicit permission",
-    "Demonstrates how AI companies' data acquisition practices operate in legal gray zones, relevant to ongoing copyright litigation and policy debates around training data sourcing"
-   ]
-  },
-  {
    "title": "The New Problems AI Is Creating (And How People Are Solving Them)",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-New-Problems-AI-Is-Creating-And-How-People-Are-Solving-Them-e3nff4j",
    "source": "The AI Daily Brief",
@@ -3477,24 +3480,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Infrastructure constraints are real bottlenecks shaping which AI applications succeed—understanding specialized compute needs matters for predicting AI capability advances",
     "As inference and training workloads diversify, infrastructure design becomes a competitive lever in the AI landscape"
-   ]
-  },
-  {
-   "title": "AI News, Current Events, and Critical Conversations #67",
-   "link": "https://aiandfaith.org/aif-podcast/ai-news-and-current-events/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-07-16T22:37:13+00:00",
-   "summary": "There is so much happening in the world of artificial intelligence that keeping up can feel impossible. To help us cut through the noise, we invited two experts from the",
-   "religionScore": 5,
-   "religionHits": [],
-   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-6-16/428098830-44100-2-46a8019b41324.m4a",
-   "image": "https://aiandfaith.org/wp-content/uploads/2026/07/AIF-PODCAST-pod-image-Ben-C-and-Marcus-Gilad_result-300x300.webp",
-   "themes": [],
-   "aiSummary": "AI and Faith podcast episode discussing AI news and current events with expert guests.",
-   "whyMatters": [
-    "Directly relevant to your focus on AI and religious/ethical perspectives",
-    "Limited information in blurb prevents deeper analysis of specific topics covered"
    ]
   }
  ]
