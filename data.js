@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-31T17:13:01.367740+00:00",
+ "generatedAt": "2026-08-31T21:49:42.159244+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,51 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "How to Navigate the Next Wave of AI Competition",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Navigate-the-Next-Wave-of-AI-Competition-e3o59rt",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-08-31T19:39:34+00:00",
+   "summary": "OpenAI’s decision to cut off Cursor reveals how the next phase of AI competition will affect enterprise users. NLW explains why companies need strategies for open-weight models, model routing and internally controlled harnesses to avoid dependence on any single provider. In the headlines: data center politics, AI chip restrictions, Anthropic’s Pentagon victory, enterprise Mac Minis and cheaper Ope",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125003069/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-31%2F430911698-44100-2-a66bc12f70ce7.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "“Zlibrary my beloved”: Anthropic staff chats extolling piracy cited in Sony suit",
+   "link": "https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-31T18:10:45+00:00",
+   "summary": "Lawsuit: Anthropic’s torrenting totally screwed songwriters as AI songs top charts.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+   "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-31T18:00:00+00:00",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Debian won’t ban AI code from its Linux distribution",
    "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
@@ -1279,24 +1324,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Learning never stops: How AI makes learning continuous",
-   "link": "https://openai.com/index/learning-never-stops",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
-   "whyMatters": [
-    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
-    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
-   ]
-  },
-  {
    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
    "source": "OpenAI News",
@@ -1312,6 +1339,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
     "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
+   ]
+  },
+  {
+   "title": "Learning never stops: How AI makes learning continuous",
+   "link": "https://openai.com/index/learning-never-stops",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
+   "whyMatters": [
+    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
+    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
    ]
   },
   {
@@ -1701,24 +1746,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The AI market is fragmenting: enterprises must now think about model selection as a portfolio strategy rather than a single-model choice",
     "This trend affects developers and organizations building AI applications, requiring more complex technical and economic decision-making"
-   ]
-  },
-  {
-   "title": "Nvidia senior manager tied to ex-Supermicro staff's AI smuggling scheme",
-   "link": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-24T16:41:45+00:00",
-   "summary": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An Nvidia senior manager has been indicted for involvement in a scheme to smuggle AI servers to China, following earlier action by Nvidia's CEO Jensen Huang against Supermicro for similar conduct. The indictment occurred after Huang publicly criticized Supermicro's practices.",
-   "whyMatters": [
-    "Demonstrates enforcement of AI export controls and national security restrictions in hardware supply chains",
-    "Shows both corporate accountability and government prosecution are actively addressing unauthorized AI technology transfers"
    ]
   },
   {
@@ -2245,7 +2272,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "Introducing Intelligence Age",
-   "link": "https://openai.com/index/introducing-ai-futures",
+   "link": "https://openai.com/index/introducing-intelligence-age",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-08-20T07:00:00+00:00",
@@ -2597,24 +2624,19 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "We still don’t know how people are really using AI",
-   "link": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-   "source": "MIT Tech Review · AI",
+   "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+   "link": "https://openai.com/index/asana",
+   "source": "OpenAI News",
    "category": "ai",
-   "date": "2026-08-18T10:06:43+00:00",
-   "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a computer science PhD candidate at the Stanford Trustworthy AI Research…",
+   "date": "2026-08-18T07:00:00+00:00",
+   "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "AI companies like Anthropic and OpenAI publish usage reports selectively, releasing only data they choose to share, with no independent third-party verification available. Researchers note this creates a transparency gap about how people actually use AI tools.",
-   "whyMatters": [
-    "Governance and transparency issue: without independent auditing, claims about AI adoption and impact cannot be verified",
-    "Relevant to policy and institutional decision-making; educators and organizations cannot assess real usage patterns to inform their own AI strategies"
-   ]
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
   },
   {
    "title": "How NVIDIA scales expertise with ChatGPT Work",
@@ -3124,24 +3146,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights a governance gap: who validates, reproduces, and understands breakthroughs if the AI's reasoning is opaque or too complex for human verification?",
     "Directly impacts academic and scientific communities relying on peer review and reproducibility as foundations of knowledge"
-   ]
-  },
-  {
-   "title": "Everything You Need to Know About AI Tokens",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Everything-You-Need-to-Know-About-AI-Tokens-e3mrtg1",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-02T12:17:43+00:00",
-   "summary": "In this Operator's edition, Nufar Gaspar explains what AI tokens actually are, why costs can spiral in agentic workflows, and how to distinguish valuable usage from waste. Learn how to measure cost per successful task, eliminate “tokens that spin,” choose the right models and protect the experimentation that creates real value. AIDB's AI Summer Adventure: ⁠⁠⁠⁠⁠⁠https://summeradventure.ai/⁠⁠⁠⁠⁠ Bro",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123646913/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-2%2F429058263-44100-2-449364437b0ef.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Nufar Gaspar explains what AI tokens are, why costs can escalate in agentic workflows, and how to distinguish productive token usage from waste. The episode covers measuring cost per successful task, eliminating inefficient token consumption, selecting appropriate models, and preserving valuable experimentation.",
-   "whyMatters": [
-    "Understanding token economics is essential for anyone deploying AI systems at scale, as cost management directly affects whether AI tools remain viable for organizations",
-    "Practitioners need concrete frameworks to evaluate AI efficiency beyond raw capability metrics, which matters for educators and institutions deciding whether to adopt AI tools"
    ]
   },
   {
