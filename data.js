@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-31T01:15:08.449322+00:00",
+ "generatedAt": "2026-08-31T11:28:43.497646+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -80,6 +80,36 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
+   "link": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-08-31T10:30:00+00:00",
+   "summary": "Of the Glassdoor reviews from claims adjusters that mentioned AI, a staggering 98 percent were negative. “AI is just a tool,” one person tells WIRED. “It should never be given the keys.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+   "link": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-31T10:00:34+00:00",
+   "summary": "Interactive mobile \"gizmos\" are easy to make, hard to share outside Meta's platform.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Understanding ChatGPT Work",
    "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
@@ -806,24 +836,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates that AI-powered surveillance tools designed for law enforcement can be weaponized by bad actors within institutions themselves",
     "Raises urgent questions about access controls and accountability in systems that track location data"
-   ]
-  },
-  {
-   "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
-   "link": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-27T18:06:52+00:00",
-   "summary": "The potential for AI to automate scientific research and manufacturing must be balanced with new risks, Anthropic says.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic is developing standards for how AI agents should safely operate in physical-world applications like manufacturing and scientific research, balancing automation benefits against new risks.",
-   "whyMatters": [
-    "As AI agents move from digital to physical domains, governance frameworks become essential to prevent unintended consequences",
-    "Industry-led standards-setting may precede or circumvent regulatory oversight"
    ]
   },
   {
@@ -2250,24 +2262,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-   "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-20T13:00:35+00:00",
-   "summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers demonstrated a vulnerability in Grok (X's AI assistant) where encrypted malicious instructions can cause the system to exfiltrate user data despite safety guardrails. This technique, called Cryptographic Context Injection, is one of several known methods to bypass LLM safety measures.",
-   "whyMatters": [
-    "Shows that encryption itself can be weaponized to circumvent AI safety systems rather than protect them",
-    "Indicates ongoing vulnerability in LLM security; highlights need for robust defense mechanisms beyond prompt-level filtering"
-   ]
-  },
-  {
    "title": "Unlocking hidden revenue streams with market models",
    "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
    "source": "MIT Tech Review · AI",
@@ -3462,24 +3456,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates specialization in the model market, with dedicated security-focused variants optimized for speed and cost",
     "Signals AI labs are moving away from one-size-fits-all models toward task-specific solutions tuned for enterprise security workflows"
-   ]
-  },
-  {
-   "title": "The Future of AI Infrastructure with CoreWeave",
-   "link": "https://share.transistor.fm/s/01c30767",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-07-17T09:00:00+00:00",
-   "summary": "As AI applications become more complex, the infrastructure powering them needs to evolve. Corey Sanders, SVP of Product at CoreWeave, joins Chris to discuss why AI requires a fundamentally different approach than traditional cloud computing. They explore AI-native infrastructure, training and inference workloads, the rise of agentic development, optimizing GPU performance, AI research workflows, a",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/01c30767/eed885fc.mp3",
-   "image": "https://img.transistorcdn.com/ws8ux-rU7Be0kUVF-WpTgh1Vk3BmeTE-LRdaQjrdgz8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wOWE4/NGFiMDVkYjMxMjVh/YTA1ZDQ1ZjRkODNi/MTA1Mi5wbmc.jpg",
-   "themes": [],
-   "aiSummary": "CoreWeave's Corey Sanders discussed how AI infrastructure must differ fundamentally from traditional cloud computing, covering AI-native systems, GPU optimization, and agentic workflows.",
-   "whyMatters": [
-    "Infrastructure constraints are real bottlenecks shaping which AI applications succeed—understanding specialized compute needs matters for predicting AI capability advances",
-    "As inference and training workloads diversify, infrastructure design becomes a competitive lever in the AI landscape"
    ]
   }
  ]
