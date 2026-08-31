@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-31T11:28:43.497646+00:00",
+ "generatedAt": "2026-08-31T17:13:01.367740+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -39,33 +39,38 @@ window.NEWS_DATA = {
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-08-30T14:30:46.835019+00:00",
+  "generatedAt": "2026-08-31T01:15:17.066474+00:00",
   "bullets": [
    {
-    "text": "Major record labels sue Anthropic for training on tens of thousands of copyrighted songs without permission, seeking up to $150,000 per work—extending copyright litigation beyond text to music.",
+    "text": "Major copyright litigation escalates as Sony Music and Warner Chappell sue Anthropic for training on tens of thousands of copyrighted works without permission, seeking up to $150,000 per work infringed.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
     ]
    },
    {
-    "text": "Federal court rules Pentagon's blacklisting of Anthropic for refusing to support lethal autonomous weapons was illegal, handing the company a significant victory on constitutional grounds.",
+    "text": "Federal judge rules Pentagon's blacklisting of Anthropic over safety-focused policies illegal and unconstitutional, overturning attempt to designate the company a national security risk.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
      "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/"
     ]
    },
    {
-    "text": "AI-generated religious teachers are attracting millions of listeners online, yet religious leaders argue AI cannot transmit authentic spiritual wisdom—raising questions about authenticity in faith contexts.",
+    "text": "AI-generated religious teachers attracting millions of online listeners present themselves as legitimate spiritual instructors, raising concerns about authenticity and the limits of AI in spiritual leadership.",
     "links": [
      "https://religionnews.com/2026/08/28/the-religious-influencers-who-arent-real/"
     ]
    },
    {
-    "text": "Anthropic proposes standardized hardware interface allowing AI agents to control physical devices; separately, Meta tests robots in data centers and ICE plans millions in Boston Dynamics robot dog deployments.",
+    "text": "OpenAI cuts off Cursor, a developer tool, following its acquisition by SpaceX, disrupting workflow for developers relying on the integration.",
     "links": [
-     "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-     "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-     "https://www.404media.co/ice-plans-to-spends-millions-on-boston-dynamics-dog-robots/"
+     "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+     "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+    ]
+   },
+   {
+    "text": "Trump EPA moves to eliminate public notice requirements for industrial air permits including data centers, reducing transparency around pollution from rapidly expanding AI infrastructure.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
     ]
    }
   ]
@@ -80,6 +85,121 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Debian won’t ban AI code from its Linux distribution",
+   "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-31T15:38:13+00:00",
+   "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject to special rules beyond the standards already […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "ChatGPT to face tougher regulation in the EU",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-31T14:17:34+00:00",
+   "summary": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+   "link": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-31T14:06:46+00:00",
+   "summary": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Meta just reached […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "ChatGPT and Reddit now face EU's toughest online safety rules",
+   "link": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-08-31T13:41:40+00:00",
+   "summary": "Explosive growth comes with a new regulatory burden in the European Union.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Instagram cracks down on AI accounts pretending to be human",
+   "link": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-31T13:16:39+00:00",
+   "summary": "Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it clear when a profile features an AI-generated person that's not a real human being. \"We've heard that people don't like seeing a profile […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-31T12:46:26+00:00",
+   "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Texas Governor Greg Abbott has frozen state spending on Flock's AI-powered surveillance cameras following public backlash. The action came as reporting revealed Texas has spent over $30 million on the cameras, with funding primarily generated through a $1 fee added to insurance policies.",
+   "whyMatters": [
+    "Growing public opposition to AI surveillance technology is affecting policy decisions at the state executive level, showing limits on deployment even after significant spending",
+    "Raises questions about funding mechanisms for surveillance infrastructure and how costs are distributed to citizens without explicit consent"
+   ]
+  },
+  {
+   "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-08-31T11:50:37+00:00",
+   "summary": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Sony Music and Warner Chappell filed a copyright lawsuit against Anthropic in federal court, claiming the company trained its AI on tens of thousands of copyrighted musical works without permission. The suit seeks up to $150,000 per work infringed, plus additional damages for instances where copyright metadata was removed.",
+   "whyMatters": [
+    "Represents major escalation in ongoing copyright disputes between AI companies and content creators over training data; directly challenges whether current AI model development practices comply with copyright law",
+    "Outcome could establish precedent for what constitutes fair use in AI training and what licensing obligations apply to foundation model developers"
+   ]
+  },
   {
    "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
    "link": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
@@ -111,6 +231,21 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "A milestone in expanding access to AI",
+   "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-31T04:00:00+00:00",
+   "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Understanding ChatGPT Work",
    "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
    "source": "Simon Willison",
@@ -128,44 +263,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Clarifies the actual structure and capabilities of ChatGPT Work for users trying to understand what OpenAI is offering, cutting through marketing confusion",
     "Matters for educators and organizations evaluating whether ChatGPT Work is suitable for their use cases, given Willison's reputation for technical accuracy"
-   ]
-  },
-  {
-   "title": "Texas Governor Abbott blocks funding for more Flock cameras",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-30T16:14:46+00:00",
-   "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Texas Governor Greg Abbott has frozen state spending on Flock's AI-powered surveillance cameras following public backlash. The action came as reporting revealed Texas has spent over $30 million on the cameras, with funding primarily generated through a $1 fee added to insurance policies.",
-   "whyMatters": [
-    "Growing public opposition to AI surveillance technology is affecting policy decisions at the state executive level, showing limits on deployment even after significant spending",
-    "Raises questions about funding mechanisms for surveillance infrastructure and how costs are distributed to citizens without explicit consent"
-   ]
-  },
-  {
-   "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-30T13:00:30+00:00",
-   "summary": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sony Music and Warner Chappell filed a copyright lawsuit against Anthropic in federal court, claiming the company trained its AI on tens of thousands of copyrighted musical works without permission. The suit seeks up to $150,000 per work infringed, plus additional damages for instances where copyright metadata was removed.",
-   "whyMatters": [
-    "Represents major escalation in ongoing copyright disputes between AI companies and content creators over training data; directly challenges whether current AI model development practices comply with copyright law",
-    "Outcome could establish precedent for what constitutes fair use in AI training and what licensing obligations apply to foundation model developers"
    ]
   },
   {
@@ -377,29 +474,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "They look like religious teachers. But they’re AI — and millions are listening",
-   "link": "https://religionnews.com/2026/08/28/the-religious-influencers-who-arent-real/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-08-28T17:39:00+00:00",
-   "summary": "(RNS) — 'AI can help maybe with information and training and insight, but it can’t actually transmit spirituality,' said Swami Sarvapriyananda, a Hindu monk.",
-   "religionScore": 8,
-   "religionHits": [
-    "hindu",
-    "religio",
-    "ritual",
-    "spiritual"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI-generated religious teachers are attracting millions of listeners online, presenting themselves as legitimate spiritual instructors. Religious leaders like Hindu monk Swami Sarvapriyananda argue that while AI can provide information, it cannot transmit genuine spirituality.",
-   "whyMatters": [
-    "Raises urgent questions for religious communities and educators about authenticity, consent, and potential deception when AI impersonates spiritual teachers",
-    "Highlights a gap between AI's capacity for information delivery and the relational, embodied nature of genuine spiritual transmission that religious traditions emphasize"
-   ]
-  },
-  {
    "title": "Trump’s EPA wants to let data centers hide their air pollution",
    "link": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
    "source": "The Verge · AI",
@@ -546,24 +620,6 @@ window.NEWS_DATA = {
     "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
     "Social media age-ban policy affects youth education and how congregations reach teens.",
     "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
-   ]
-  },
-  {
-   "title": "Plaud is launching AI earbuds",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-28T09:09:07+00:00",
-   "summary": "Plaud has introduced a new AI wearable that's designed to record, transcribe, and summarize your conversations, only this time it looks like earbuds instead of a pin. The Plaud One Explorer Edition can be worn like traditional earbuds or used through its standalone charging case, and the case includes built-in 4G to upload and process […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Plaud released AI earbuds designed to automatically record, transcribe, and summarize conversations, with 4G built into the charging case for cloud processing.",
-   "whyMatters": [
-    "Normalizes always-on recording as a wearable feature, raising privacy concerns for both the wearer and anyone in conversation with them",
-    "Creates ethical and legal questions around consent and surveillance, particularly relevant in educational and community settings"
    ]
   },
   {
@@ -767,24 +823,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI’s executive exodus has one big winner",
-   "link": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-27T19:32:53+00:00",
-   "summary": "Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s most public face, Brockman has amassed […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Recent organizational changes at OpenAI have consolidated power under cofounder Greg Brockman, the company's president, while Sam Altman remains CEO and public face. Multiple executives have departed or shifted roles.",
-   "whyMatters": [
-    "Indicates internal restructuring and possible power consolidation at one of AI's most influential companies",
-    "OpenAI's governance changes affect how the company sets AI safety and deployment priorities, influencing broader industry norms"
-   ]
-  },
-  {
    "title": "AI industry says Trump plans to tax chips in the “single dumbest way imaginable”",
    "link": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
    "source": "Ars Technica · AI",
@@ -836,24 +874,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates that AI-powered surveillance tools designed for law enforcement can be weaponized by bad actors within institutions themselves",
     "Raises urgent questions about access controls and accountability in systems that track location data"
-   ]
-  },
-  {
-   "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-27T16:20:07+00:00",
-   "summary": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the supposed finish line of the AI race, there is no consensus […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia CEO Jensen Huang casually claimed on an earnings call that the company had achieved AGI, then immediately dismissed the milestone as meaningless. The article notes that AGI—long promoted as the ultimate goal of AI development—lacks any agreed-upon definition or consensus on what it actually means.",
-   "whyMatters": [
-    "Highlights the gap between industry marketing and technical reality; what constitutes AGI remains undefined despite years of hype",
-    "Exposes how foundational concepts in AI strategy lack rigor, affecting how investors, policymakers, and the public understand AI progress"
    ]
   },
   {
@@ -964,26 +984,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Growing environmental footprint of AI raises ethical questions about sustainability and justice",
     "Relevant to religiously-motivated environmental stewardship discussions and institutions evaluating AI adoption"
-   ]
-  },
-  {
-   "title": "Hugging Face’s new robot is an adorable rollerskating duck",
-   "link": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-27T13:44:00+00:00",
-   "summary": "Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot \"before Christmas 2026.\" Video demos of the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Hugging Face's robotics division Pollen Robotics launched Microduck, a small rollerskating robot standing under 10 inches tall, available for preorder at $399 with shipping expected before Christmas 2026.",
-   "whyMatters": [
-    "Demonstrates AI robotics moving from research into consumer products",
-    "Cute design and consumer price point signal broader push to normalize AI robotics in everyday contexts"
    ]
   },
   {
@@ -1478,24 +1478,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Indicates rapid stratification in AI capability deployment—leading organizations moving beyond text generation into autonomous execution",
     "Shows diverging economic value: frontier use cases (automation, agents) vs. commodity text generation"
-   ]
-  },
-  {
-   "title": "Israel Is Running a Synthetic Think Tank to Influence AI Search Results",
-   "link": "https://www.404media.co/israel-is-running-a-synthetic-think-tank-to-influence-ai-search-results/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-25T18:35:26+00:00",
-   "summary": "An Israel-funded think tank is churning out AI written essays to catch the attention of AI chatbots and warp search results.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An Israel-funded think tank is using AI to generate essays designed to manipulate AI chatbots and influence search results for geopolitical messaging. The strategy explicitly targets AI search rankings rather than organic web traffic.",
-   "whyMatters": [
-    "Reveals emerging information warfare tactic: synthetic content farms optimized for AI indexing rather than human readers",
-    "Raises policy concerns about coordinated inauthentic behavior and adversarial prompt injection at scale"
    ]
   },
   {
@@ -2116,24 +2098,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
-   "link": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-21T11:00:53+00:00",
-   "summary": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta's AI-enabled glasses are gaining widespread adoption, raising privacy concerns about unwanted recording in public. A new app called Zuckoff attempts to detect when someone is wearing the glasses, but its detection capability is imperfect.",
-   "whyMatters": [
-    "Privacy and consent: glasses with recording capability worn in public spaces create asymmetric information and documentation problems",
-    "Public demand for detection tools shows emerging tension between technology adoption and privacy norms; inadequate detection leaves communities vulnerable"
-   ]
-  },
-  {
    "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
    "link": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
    "source": "Latent Space",
@@ -2281,7 +2245,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "Introducing Intelligence Age",
-   "link": "https://openai.com/index/introducing-intelligence-age",
+   "link": "https://openai.com/index/introducing-ai-futures",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-08-20T07:00:00+00:00",
@@ -2291,11 +2255,8 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "OpenAI launched a new blog series called \"Intelligence Age\" dedicated to exploring how transformative AI could reshape power, governance, economics, and individual freedoms.",
-   "whyMatters": [
-    "Signals OpenAI's pivot toward policy/philosophy discourse alongside product releases, positioning itself as a thought leader on AI's systemic impacts",
-    "Indicates growing recognition that AI governance and societal implications are core strategic narratives, not afterthoughts"
-   ]
+   "aiSummary": "",
+   "whyMatters": []
   },
   {
    "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
@@ -2653,24 +2614,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Governance and transparency issue: without independent auditing, claims about AI adoption and impact cannot be verified",
     "Relevant to policy and institutional decision-making; educators and organizations cannot assess real usage patterns to inform their own AI strategies"
-   ]
-  },
-  {
-   "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-   "link": "https://openai.com/index/asana",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-18T07:00:00+00:00",
-   "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Asana used OpenAI's Codex to replace a five-year-old testing infrastructure in just two weeks at a cost of approximately $12,000, completing engineering work that was expected to take five years. The AI code generation capability accelerated a major technical migration.",
-   "whyMatters": [
-    "Demonstrates concrete productivity gains from AI code generation in legacy system modernization, with measurable time and cost savings",
-    "Relevant to institutions (schools, nonprofits) considering whether AI tools can reduce technical debt and free engineering resources for other priorities"
    ]
   },
   {
@@ -3436,26 +3379,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides new options for different deployment scenarios (lite for efficiency, cyber for security focus)",
     "Continuing model proliferation allows organizations to select versions matched to specific use cases and constraints"
-   ]
-  },
-  {
-   "title": "Introducing Gemini 3.5 Flash Cyber",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-07-17T15:00:11+00:00",
-   "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google introduced Gemini 3.5 Flash Cyber, a lightweight specialized model designed to efficiently detect and patch security vulnerabilities.",
-   "whyMatters": [
-    "Demonstrates specialization in the model market, with dedicated security-focused variants optimized for speed and cost",
-    "Signals AI labs are moving away from one-size-fits-all models toward task-specific solutions tuned for enterprise security workflows"
    ]
   }
  ]
