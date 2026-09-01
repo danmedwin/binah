@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-01T14:16:35.262598+00:00",
+ "generatedAt": "2026-09-01T15:25:29.396048+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,36 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Python 3.15.0 candidate 2 is here!",
+   "link": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-01T14:59:18+00:00",
+   "summary": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Pyt",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Sonos Ace Ultra, Beam Ultra, Sonos Fabric, and a New App: Everything Sonos Just Announced",
+   "link": "https://www.wired.com/story/sonos-has-new-devices-a-new-os-and-yes-a-new-app/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-01T14:40:00+00:00",
+   "summary": "Sonos is cramming AI into its software because it’s “very hot these days.” The new features, which include agentic automation, are opt-in.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "This 'Digital Camouflage' Shirt Confuses AI-Powered Surveillance Cameras",
    "link": "https://www.404media.co/this-digital-camouflage-shirt-confuses-ai-powered-surveillance-cameras/",
@@ -992,24 +1022,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Undermines the integrity of academic publishing and scientific knowledge, particularly damaging for fields that inform practice like education, medicine, and theology",
     "Educational institutions relying on peer-reviewed sources face a growing problem of distinguishing authentic from fabricated scholarship"
-   ]
-  },
-  {
-   "title": "A Georgia Cop Used Flock to Track 2 Other Cops: His Ex and Her Friend",
-   "link": "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-27T18:12:17+00:00",
-   "summary": "After an affair with a fellow police officer ended, a Georgia cop used Flock to track her movements—and those of a man whose vehicle often showed up near hers, internal investigation records show.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Georgia police officer misused Flock surveillance technology to track the movements of a fellow officer and her companion following a personal dispute, according to internal investigation records.",
-   "whyMatters": [
-    "Demonstrates that AI-powered surveillance tools designed for law enforcement can be weaponized by bad actors within institutions themselves",
-    "Raises urgent questions about access controls and accountability in systems that track location data"
    ]
   },
   {
@@ -2432,24 +2444,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shifts software architecture paradigm: moving from monolithic apps to AI-augmented extensibility could change how developers build and maintain applications",
     "Raises questions about accountability and liability when users deploy AI-generated extensions in production systems"
-   ]
-  },
-  {
-   "title": "Conceptual integrity and counting lines of code",
-   "link": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-19T22:46:07+00:00",
-   "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\"). This is the latest version of an argument I've been trying to build about why sometimes",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison discusses highlights from a Talking Postgres podcast episode with Claire Giordano about how AI is changing software development, focusing on concepts like conceptual integrity and lines of code as metrics.",
-   "whyMatters": [
-    "Explores how AI tools are shifting what matters in software development—away from traditional metrics toward design coherence",
-    "Relevant to developers and teams adopting AI assistants in their workflows"
    ]
   },
   {
