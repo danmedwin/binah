@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-01T01:44:00.438218+00:00",
+ "generatedAt": "2026-09-01T09:50:56.581016+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,21 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+   "link": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-01T04:36:54+00:00",
+   "summary": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!hV5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHQ7UHClW4AA2I6L.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Introducing wrapture",
    "link": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
@@ -302,6 +317,23 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI supports California’s bill to advance youth AI safety",
+   "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-31T07:00:00+00:00",
+   "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1369,24 +1401,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Learning never stops: How AI makes learning continuous",
-   "link": "https://openai.com/index/learning-never-stops",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
-   "whyMatters": [
-    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
-    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
-   ]
-  },
-  {
    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
    "source": "OpenAI News",
@@ -1402,6 +1416,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
     "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
+   ]
+  },
+  {
+   "title": "Learning never stops: How AI makes learning continuous",
+   "link": "https://openai.com/index/learning-never-stops",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
+   "whyMatters": [
+    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
+    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
    ]
   },
   {
@@ -2651,24 +2683,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How NVIDIA scales expertise with ChatGPT Work",
-   "link": "https://openai.com/index/nvidia/chatgpt-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-18T00:00:00+00:00",
-   "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect operational signals across fast-moving workflows, and replicate successful processes globally.",
-   "whyMatters": [
-    "Demonstrates practical enterprise adoption of AI assistants for scaling expertise and reducing repetitive work",
-    "Shows how AI tools are being embedded into high-speed technical environments, not just routine tasks"
-   ]
-  },
-  {
    "title": "[AINews] Stripe buys OpenRouter for $7B",
    "link": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
    "source": "Latent Space",
@@ -2835,24 +2849,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Continues Google's rapid iteration cycle in generative AI models",
     "Reflects competitive pressure to release model improvements frequently"
-   ]
-  },
-  {
-   "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
-   "link": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-13T01:53:47+00:00",
-   "summary": "AI teammate category just had its most significant new entrant yet",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!HIbH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2087221157787525120.jpg",
-   "themes": [],
-   "aiSummary": "SpaceX's Grok 4.6 and a new Grok @Bot feature have launched, marking what observers are calling the most significant entry yet into the AI teammate category—a space increasingly competitive with other AI assistant platforms.",
-   "whyMatters": [
-    "Grok is now positioned as a direct competitor to Claude, ChatGPT, and other AI teammates, expanding the practical uses of Grok beyond its original twitter/X integration",
-    "SpaceX's investment in productized AI (not just capability, but team collaboration tools) signals serious intent to compete in the core AI assistant market"
    ]
   },
   {
