@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-08-31T21:49:42.159244+00:00",
+ "generatedAt": "2026-09-01T01:44:00.438218+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,36 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Introducing wrapture",
+   "link": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-31T23:59:36+00:00",
+   "summary": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a differ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Quoting Andrew Digby",
+   "link": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-08-31T22:25:02+00:00",
+   "summary": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort. — Andrew Digby , providing the best news of the year Tags: kakapo",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "How to Navigate the Next Wave of AI Competition",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Navigate-the-Next-Wave-of-AI-Competition-e3o59rt",
    "source": "The AI Daily Brief",
@@ -116,7 +146,7 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+   "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
    "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
    "source": "MIT Tech Review · AI",
    "category": "ai",
@@ -267,6 +297,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-08-31T10:00:34+00:00",
    "summary": "Interactive mobile \"gizmos\" are easy to make, hard to share outside Meta's platform.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Polimill builds Japan's next-generation public AI infrastructure",
+   "link": "https://openai.com/index/polimill",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-31T07:00:00+00:00",
+   "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1324,24 +1369,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
-   "whyMatters": [
-    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
-    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
-   ]
-  },
-  {
    "title": "Learning never stops: How AI makes learning continuous",
    "link": "https://openai.com/index/learning-never-stops",
    "source": "OpenAI News",
@@ -1357,6 +1384,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
     "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
+   ]
+  },
+  {
+   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
+   "whyMatters": [
+    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
+    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
    ]
   },
   {
@@ -2530,24 +2575,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Mojo🔥 is now open source",
-   "link": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-18T21:39:20+00:00",
-   "summary": "Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstr",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Mojo programming language, which aims to be a Python superset, released version 1.0 and simultaneously open-sourced its compiler and toolchain under an Apache 2 license, fulfilling a promise made in May 2023.",
-   "whyMatters": [
-    "Open-sourcing Mojo removes a barrier to adoption and allows the community to contribute improvements",
-    "Signals maturity of the language and commitment to long-term development beyond proprietary control"
-   ]
-  },
-  {
    "title": "Strengthening democratic oversight in national security",
    "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
    "source": "OpenAI News",
@@ -2624,21 +2651,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-   "link": "https://openai.com/index/asana",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-18T07:00:00+00:00",
-   "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "How NVIDIA scales expertise with ChatGPT Work",
    "link": "https://openai.com/index/nvidia/chatgpt-work",
    "source": "OpenAI News",
@@ -2654,24 +2666,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical enterprise adoption of AI assistants for scaling expertise and reducing repetitive work",
     "Shows how AI tools are being embedded into high-speed technical environments, not just routine tasks"
-   ]
-  },
-  {
-   "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-   "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-17T23:58:14+00:00",
-   "summary": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , l",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Alibaba's Qwen 3.8 27B model achieved a score of 52 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Luna and nearly matching much larger competitors like GLM-5.2 (753B parameters) and DeepSeek V4 Pro (1.6B parameters). The result is notable because Qwen achieves this performance at just 27B parameters, suggesting significant efficiency gains in model scaling.",
-   "whyMatters": [
-    "Demonstrates that smaller models can now compete with much larger ones on standardized benchmarks, shifting the efficiency frontier in LLM development",
-    "Has implications for deployment costs and accessibility—smaller models require less computational infrastructure while maintaining high performance"
    ]
   },
   {
