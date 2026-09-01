@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-01T09:50:56.581016+00:00",
+ "generatedAt": "2026-09-01T14:16:35.262598+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,38 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "This 'Digital Camouflage' Shirt Confuses AI-Powered Surveillance Cameras",
+   "link": "https://www.404media.co/this-digital-camouflage-shirt-confuses-ai-powered-surveillance-cameras/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-01T13:27:26+00:00",
+   "summary": "I watched Simon Weckert's 'digital camouflage' in action.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Nvidia’s controversial DLSS 5 arrives September 3rd and requires serious GPU horsepower",
+   "link": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T13:21:12+00:00",
+   "summary": "Nvidia is officially launching DLSS 5 this week, following a divisive announcement in March where we likened the AI upscaling tech to a \"real-time generative AI filter for video games\" and \"motion smoothing for video games, but worse.\" DLSS 5 will officially be available on RTX 50-series desktop and laptop GPUs and through GeForce Now […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
    "link": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
@@ -649,24 +681,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to knowledge workers across sectors, including educators and clergy, facing questions about automation of traditionally human expertise",
     "Touches on professional identity and meaning—core concerns for communities thinking through AI's impact on human work and vocation"
-   ]
-  },
-  {
-   "title": "Google’s AI note-taking app now allows you to interact with books",
-   "link": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-28T14:11:14+00:00",
-   "summary": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions about the material, as well as generate plans, infographics, AI podcasts, and more based on their […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google's Gemini Notebook AI app now integrates with Google Play Books, letting users pull purchased books directly into the tool and ask questions about the material. The feature generates summaries, plans, infographics, and AI podcasts based on book content.",
-   "whyMatters": [
-    "Enables new educational workflows by letting learners and educators interact dynamically with purchased texts rather than passively reading them",
-    "Raises questions about how AI systems filter, summarize, and represent published content, particularly relevant for religious and educational texts"
    ]
   },
   {
@@ -1362,24 +1376,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Opens a frontier for AI beyond language: applying deep learning to scientific modeling could accelerate progress in climate, energy, and materials science",
     "Highlights where current AI approaches remain weak—physics-based reasoning and modeling—and the research needed to extend AI's usefulness beyond text and images"
-   ]
-  },
-  {
-   "title": "Inside the Warehouse Where Amazon Scans and Destroys Books for AI Training",
-   "link": "https://www.404media.co/inside-the-warehouse-where-amazon-scans-and-destroys-books-for-ai-training/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-26T13:21:51+00:00",
-   "summary": "An interview with one of the Amazon employees at Amazon’s AI training facility VGT3.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media reported on Amazon's AI training facility VGT3, where employees scan and destroy books to generate training data for AI models. The process raises questions about the sources of AI training data and content destruction at scale.",
-   "whyMatters": [
-    "Exposes the material infrastructure and content sourcing behind AI training, including potential copyright, rights, and cultural preservation concerns",
-    "Reinforces ongoing tension between training data availability and intellectual property; relevant to discussions about what material should be used to train systems, especially for educational and religious texts"
    ]
   },
   {
