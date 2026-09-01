@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-01T15:25:29.396048+00:00",
+ "generatedAt": "2026-09-01T19:47:43.152753+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,145 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Codex bundles LibreOffice",
+   "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-01T19:03:01+00:00",
+   "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forke",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/codex-primay-runtime.webp",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T19:02:54+00:00",
+   "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Apple accuses OpenAI of destroying evidence",
+   "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T18:19:26+00:00",
+   "summary": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsuit, which contained discussions about \"destroying […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Introducing agentic video understanding with Gemini",
+   "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-09-01T17:08:51+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Quoting Tarn Adams",
+   "link": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-01T17:01:11+00:00",
+   "summary": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes — Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "How AI-native companies turn workflows into operating capability",
+   "link": "https://openai.com/index/ai-native-company-workflows",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-01T17:00:00+00:00",
+   "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "John Deere launched an AI chatbot for farmers",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T16:30:23+00:00",
+   "summary": "John Deere is testing a new \"JD\" AI assistant that it says can help farmers make more money, with answers about best practices and historical trends that are based on their own data. It uses their \"field, machine and operational data\" to answer questions on topics like equipment settings, fuel usage, or harvest timing. The […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+   "link": "https://www.latent.space/p/pr-not-welcome",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-01T16:17:15+00:00",
+   "summary": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!s9oN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ec85997-40a7-4337-b20d-a3574ba4707e_1280x720.png",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Google Pics is like Canva, but with even more AI",
+   "link": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T15:32:51+00:00",
+   "summary": "Google has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses. Built around Gemini and the Nano Banana generative AI model, Google Pics is designed to give more granular control over prompt-based image making and manipulation, allowing […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Python 3.15.0 candidate 2 is here!",
    "link": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
    "source": "Simon Willison",
@@ -139,6 +278,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-01T13:21:12+00:00",
    "summary": "Nvidia is officially launching DLSS 5 this week, following a divisive announcement in March where we likened the AI upscaling tech to a \"real-time generative AI filter for video games\" and \"motion smoothing for video games, but worse.\" DLSS 5 will officially be available on RTX 50-series desktop and laptop GPUs and through GeForce Now […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+   "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-01T12:00:00+00:00",
+   "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -332,24 +486,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Growing public opposition to AI surveillance technology is affecting policy decisions at the state executive level, showing limits on deployment even after significant spending",
     "Raises questions about funding mechanisms for surveillance infrastructure and how costs are distributed to citizens without explicit consent"
-   ]
-  },
-  {
-   "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-31T11:50:37+00:00",
-   "summary": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sony Music and Warner Chappell filed a copyright lawsuit against Anthropic in federal court, claiming the company trained its AI on tens of thousands of copyrighted musical works without permission. The suit seeks up to $150,000 per work infringed, plus additional damages for instances where copyright metadata was removed.",
-   "whyMatters": [
-    "Represents major escalation in ongoing copyright disputes between AI companies and content creators over training data; directly challenges whether current AI model development practices comply with copyright law",
-    "Outcome could establish precedent for what constitutes fair use in AI training and what licensing obligations apply to foundation model developers"
    ]
   },
   {
@@ -620,24 +756,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Musicians-turned-detectives are hunting for AI grifters",
-   "link": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-28T19:10:32+00:00",
-   "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Musicians are investigating and publicly identifying AI-generated music on the internet that mimics human artists' styles and vocals without attribution. Some creators admit to using AI tools while others deny it despite evidence.",
-   "whyMatters": [
-    "Attribution and transparency problems in AI music creation raise questions about artist consent, credit, and market integrity",
-    "The ease of generating convincing AI music creates friction between technology capabilities and ethical music industry norms"
-   ]
-  },
-  {
    "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
    "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
    "source": "Ars Technica · AI",
@@ -655,26 +773,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Establishes legal precedent protecting companies that refuse to enable harmful AI applications",
     "Affirms that corporate ethical positions on AI use cases cannot be punished through government action"
-   ]
-  },
-  {
-   "title": "Trump’s EPA wants to let data centers hide their air pollution",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-28T16:28:40+00:00",
-   "summary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "The Trump EPA is moving to eliminate a federal rule that requires public notice and comment periods when new industrial sites like data centers are permitted. This change would reduce transparency around air pollution emissions from the rapidly expanding data center infrastructure that powers AI.",
-   "whyMatters": [
-    "Data center pollution affects real communities; removing public input channels reduces accountability for infrastructure that has become a flashpoint in local opposition",
-    "Relevant to educators and communities considering AI's environmental costs and the governance decisions that shape where and how AI infrastructure is built"
    ]
   },
   {
@@ -731,24 +829,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Impacts vulnerable communities and raises concerns about surveillance technology deployment by government agencies",
     "Relevant for educators and religious communities engaged in social justice and civil liberties questions"
-   ]
-  },
-  {
-   "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-28T11:18:29+00:00",
-   "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A federal judge ruled that the Pentagon's blacklisting of AI company Anthropic as a national security supply-chain risk was unconstitutional and unlawful. Anthropic had been blacklisted after establishing safety-focused policies on AI development.",
-   "whyMatters": [
-    "Significant for understanding government attempts to control AI development and the limits of executive power",
-    "Highlights the tension between national security claims and companies pursuing responsible AI practices"
    ]
   },
   {
@@ -2409,44 +2489,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
-   "link": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-19T23:16:00+00:00",
-   "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Smolvm is a fast, secure sandbox for running untrusted Python and JavaScript code with controlled resource limits on RAM and CPU. Simon Willison tested it using Claude as a research tool to evaluate its capabilities for sandboxing.",
-   "whyMatters": [
-    "Addresses a critical safety challenge for AI applications that need to execute user code without risking system compromise—relevant to educational tools, AI-assisted development environments, and API-based services",
-    "Practical tooling for deploying AI systems in constrained, secure contexts; matters for scaling trustworthy AI applications in institutional and public-facing settings"
-   ]
-  },
-  {
-   "title": "Quoting Jeremy Morrell",
-   "link": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-19T22:56:31+00:00",
-   "summary": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Jeremy Morrell argues that LLMs enable a new model for web software where developers build a secure core application and let users extend it safely using AI-generated code, lowering both authoring and deployment costs. This approach leverages modern sandbox security to allow flexible customization without compromising accountability.",
-   "whyMatters": [
-    "Shifts software architecture paradigm: moving from monolithic apps to AI-augmented extensibility could change how developers build and maintain applications",
-    "Raises questions about accountability and liability when users deploy AI-generated extensions in production systems"
-   ]
-  },
-  {
    "title": "The AI Backlash Is Getting Stupider. But Also Smarter.",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-Backlash-Is-Getting-Stupider--But-Also-Smarter-e3nkhhd",
    "source": "The AI Daily Brief",
@@ -2633,46 +2675,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Pacing model development in an era of cyber-critical capabilities",
-   "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-18T11:00:00+00:00",
-   "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI described new measures for pacing its development of frontier models with critical cyber capabilities, including strengthened monitoring, alignment techniques, and security protocols to guide how quickly it advances these systems.",
-   "whyMatters": [
-    "Establishes a framework for responsible capability development in an era of dangerous model powers",
-    "Indicates that frontier AI labs may need to slow timelines or add review stages as capabilities become more risky"
-   ]
-  },
-  {
-   "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-   "link": "https://openai.com/index/chatgpt-for-teens",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-18T11:00:00+00:00",
-   "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI is launching ChatGPT for Teens, a dedicated version of ChatGPT with stronger safeguards, healthy-use features, and parental controls designed for teenage users. The product aims to help teens learn and use AI critically while protecting their wellbeing.",
-   "whyMatters": [
-    "Addresses education and youth development directly; reflects industry recognition that younger users need tailored experiences",
-    "Includes parental oversight mechanisms, relevant to family units and educators concerned about teen AI exposure"
-   ]
-  },
-  {
    "title": "[AINews] Stripe buys OpenRouter for $7B",
    "link": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
    "source": "Latent Space",
@@ -2783,24 +2785,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals major consolidation in the AI developer tools space, with Elon Musk's AI venture absorbing a prominent competitive product",
     "Reflects the intense M&A activity and valuations in AI infrastructure as companies compete for control of key developer ecosystems"
-   ]
-  },
-  {
-   "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
-   "link": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-14T05:30:39+00:00",
-   "summary": "Down, but not out!",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!dQiQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d28d24c-21c5-4e67-a9e6-00b50421ddfe_2112x1214.png",
-   "themes": [],
-   "aiSummary": "Google released Gemini 3.7 Flash, a new model version. The article's blurb suggests it represents a recovery or renewed prominence for the model line after some setback.",
-   "whyMatters": [
-    "Fast inference models like Flash are important for deployed AI applications, affecting practical adoption across industries",
-    "Model releases shape the competitive landscape that educators and institutions consider when building AI curricula"
    ]
   },
   {
