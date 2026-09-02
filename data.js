@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-01T19:47:43.152753+00:00",
+ "generatedAt": "2026-09-02T00:54:49.941105+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,106 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Claude Fable 5.1 made me a really nice animated pelican",
+   "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-01T23:57:28+00:00",
+   "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 an",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/fable-5.1-low.png",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Google needs Hollywood more than the studios need AI",
+   "link": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T22:50:29+00:00",
+   "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the studios that would also […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T22:20:00+00:00",
+   "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T22:01:36+00:00",
+   "summary": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-01T20:45:49+00:00",
+   "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+   "link": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-01T20:00:00+00:00",
+   "summary": "The company will give select partners early access to its Astra AI model—so they have time to shore up their defenses.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Codex bundles LibreOffice",
    "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
    "source": "Simon Willison",
@@ -101,23 +201,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T19:02:54+00:00",
-   "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Apple accuses OpenAI of destroying evidence",
    "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
    "source": "The Verge · AI",
@@ -128,6 +211,21 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "GeoJSON Map Viewer",
+   "link": "https://simonwillison.net/2026/Sep/1/geojson/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-01T18:05:45+00:00",
+   "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/geojson-tool.webp",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
@@ -287,6 +385,23 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "Path to Astra: critical capabilities and frontier safeguards",
+   "link": "https://openai.com/index/path-to-astra",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-01T13:00:00+00:00",
+   "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
    "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
    "source": "OpenAI News",
@@ -407,23 +522,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "ChatGPT to face tougher regulation in the EU",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-31T14:17:34+00:00",
-   "summary": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
    "link": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
    "source": "The Verge · AI",
@@ -452,41 +550,6 @@ window.NEWS_DATA = {
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
-  },
-  {
-   "title": "Instagram cracks down on AI accounts pretending to be human",
-   "link": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-31T13:16:39+00:00",
-   "summary": "Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make it clear when a profile features an AI-generated person that's not a real human being. \"We've heard that people don't like seeing a profile […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Texas Governor Abbott blocks funding for more Flock cameras",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-31T12:46:26+00:00",
-   "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Texas Governor Greg Abbott has frozen state spending on Flock's AI-powered surveillance cameras following public backlash. The action came as reporting revealed Texas has spent over $30 million on the cameras, with funding primarily generated through a $1 fee added to insurance policies.",
-   "whyMatters": [
-    "Growing public opposition to AI surveillance technology is affecting policy decisions at the state executive level, showing limits on deployment even after significant spending",
-    "Raises questions about funding mechanisms for surveillance infrastructure and how costs are distributed to citizens without explicit consent"
-   ]
   },
   {
    "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
@@ -994,24 +1057,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Moves AI from software-only systems to real-world device control, raising safety and accountability questions",
     "Standardization could either democratize AI access or concentrate control depending on adoption and governance"
-   ]
-  },
-  {
-   "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
-   "link": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-27T21:08:34+00:00",
-   "summary": "This week on “Uncanny Valley,” senior writer Will Knight talks his recent visit to China and the future of AI collaboration.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Wired's Will Knight discusses observations from a recent China visit regarding how AI agents' ability to hack systems might create incentives for US-China AI cooperation.",
-   "whyMatters": [
-    "Suggests shared cybersecurity vulnerabilities could become a diplomatic lever for international AI governance",
-    "Reflects growing concern that autonomous AI agents pose security threats both nations have incentive to address together"
    ]
   },
   {
@@ -2328,24 +2373,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ChatGPT search now uses the site:operator at scale",
-   "link": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-20T23:57:32+00:00",
-   "summary": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products lik",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "ChatGPT's search feature now systematically uses the site: operator to surface specific websites, enabling a new consulting market (\"GEO\") where companies help organizations improve their visibility in AI chatbot responses.",
-   "whyMatters": [
-    "Creates new gatekeeping dynamics—organizations with optimization resources can shape whose information appears in AI search results, raising fairness and information access concerns",
-    "Impacts educators and institutions planning digital strategy; institutions need to understand how their content reaches audiences through AI systems"
-   ]
-  },
-  {
    "title": "9 AI Techniques You Probably Haven't Tried",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/9-AI-Techniques-You-Probably-Havent-Tried-e3nm50u",
    "source": "The AI Daily Brief",
@@ -2397,24 +2424,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Exposes how language around AI consciousness can distort public and policy debate away from concrete harms and actual capabilities",
     "Matters for educators teaching critical literacy around AI claims and for policymakers making regulation decisions based on actual properties, not anthropomorphized narratives"
-   ]
-  },
-  {
-   "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-   "link": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-20T15:37:00+00:00",
-   "summary": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes: Bun 1.4 adds +1,517 tests from the Node.js te",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Bun 1.4 shipped with a new WebView feature and a large set of improvements. Simon Willison documents a JSON API pattern for Bun.WebView inspired by the shot-scraper tool, showing how developers can use this capability.",
-   "whyMatters": [
-    "Developer infrastructure update; not directly AI-focused but relevant to tech professionals building AI applications",
-    "Minimal relevance to the rabbi/educator audience unless they're building or evaluating AI tooling"
    ]
   },
   {
@@ -2654,24 +2663,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses concerns that AI development for defense and security should remain accountable to democratic institutions",
     "OpenAI positioning itself as a responsible participant in governance rather than solely focused on commercial deployment"
-   ]
-  },
-  {
-   "title": "Partnering with CodeAI to prepare the first AI generation",
-   "link": "https://openai.com/index/partnering-with-codeai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-18T11:00:00+00:00",
-   "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI and CodeAI are partnering to help students develop AI literacy, critical thinking about AI, and responsible usage skills. The program aims to prepare the next generation to work with and shape AI tools effectively.",
-   "whyMatters": [
-    "Directly addresses education: targets student preparation and critical thinking around AI tools",
-    "Positions OpenAI within the educator ecosystem, potentially influencing how schools teach about AI"
    ]
   },
   {
