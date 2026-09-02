@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-02T15:01:18.516240+00:00",
+ "generatedAt": "2026-09-02T19:39:34.792999+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,262 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Why Fable 5.1 Is Worth the Upgrade",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Fable-5-1-Is-Worth-the-Upgrade-e3o8i62",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-02T18:49:39+00:00",
+   "summary": "Fable 5.1 is the new state of the art—but its high token usage and restrictive limits mean the real question isn’t whether to switch, but where it belongs in your personal model stack. NLW examines its biggest capability gains, early user reactions, and how to decide when a frontier model is worth the cost. In the headlines: OpenAI’s Astra crosses a critical cybersecurity threshold, concerns grow ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125109890/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-2%2F431055043-44100-2-2cb0c77331c4b.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
+   "link": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-02T18:41:02+00:00",
+   "summary": "The US government wrote a letter in support of OpenAI’s argument that training AI on others' intellectual property is fair use.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "These Russian Mathematicians Taught AI Models How to Talk to Each Other Without Using Words",
+   "link": "https://www.wired.com/story/russian-startup-mostik-ai-models-communication/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-02T18:20:00+00:00",
+   "summary": "A startup called Mostik has a wild new approach to combining the capabilities of AI models.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+   "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-02T18:13:54+00:00",
+   "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+   "link": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-02T17:58:33+00:00",
+   "summary": "Trump’s secret reviews of frontier AI models may hide corruption, lawsuit says.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Amazon’s AI assistant can now spot fake emails from the company",
+   "link": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T17:52:56+00:00",
+   "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T16:40:50+00:00",
+   "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "llm-gemini 0.34",
+   "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-02T16:39:38+00:00",
+   "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Tags: llm , gemini",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Proactive cyber defense for governments and enterprises",
+   "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-09-02T16:24:24+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-09-02T16:18:31+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T16:12:25+00:00",
+   "summary": "The Trump administration has intervened in The New York Times' copyright lawsuit against OpenAI, making an argument in favor of the AI lab. The landmark lawsuit, filed in December 2023, alleging that OpenAI unlawfully trained its AI systems on articles from The New York Times and seeks to recoup \"billions of dollars\" in damages from […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Texas Police Used AI to Write Report About Using Flock to Search for Woman Who Had Abortion",
+   "link": "https://www.404media.co/texas-police-used-ai-to-write-report-about-using-flock-to-search-for-woman-who-had-abortion/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-02T15:57:29+00:00",
+   "summary": "The incident shows how quickly police departments have come to use AI surveillance tools even in critically sensitive cases.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The Logical End Point of AI Job Interviews Is Two Bots Talking to Each Other",
+   "link": "https://www.wired.com/story/bot-vs-bot-job-interview-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-02T15:51:46+00:00",
+   "summary": "Christopher was sick of being ghosted by AI recruiters. So he unleashed ChatGPT on his robot interviewer.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Google is sending MrBeast into the wilderness, armed with AI",
+   "link": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T15:47:03+00:00",
+   "summary": "MrBeast will feature Gemini, Google Health, and the Fitbit Air in upcoming videos as part of a multi-year partnership with Google. The deal will kick off with a video featuring Jimmy \"MrBeast\" Donaldson turning to Gemini for wilderness survival advice: First up on September 5 is a new MrBeast video following Jimmy and his crew […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The Republican Nominee for New York Governor Made a Creepy, AI-Generated Video of Mamdani and Hochul",
+   "link": "https://www.404media.co/bruce-blakeman-ai-campaign-video-mamdani-hochul/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-02T15:09:02+00:00",
+   "summary": "The video makes Zohran Mamdani and Kathy Hochul look like they're hanging out in a prescription medication commercial.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T14:36:42+00:00",
+   "summary": "OpenAI and its CEO Sam Altman are facing 30 new lawsuits that accuse them of providing \"substantial assistance and encouragement\" to the suspect in Canada's Tumbler Ridge school shooting, as reported earlier by TechCrunch. The new wave of lawsuits was filed in a California federal court on Wednesday by the students, teachers, and the principal […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
    "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
    "source": "Simon Willison",
@@ -107,6 +363,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-02T14:00:00+00:00",
    "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "NYC bans AI use for students until they reach high school",
+   "link": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T13:51:03+00:00",
+   "summary": "New York City mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K through eighth grade and is being introduced alongside additional limits on digital devices and a […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -311,21 +582,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Apple accuses OpenAI of destroying evidence",
-   "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T18:19:26+00:00",
-   "summary": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsuit, which contained discussions about \"destroying […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "GeoJSON Map Viewer",
    "link": "https://simonwillison.net/2026/Sep/1/geojson/",
    "source": "Simon Willison",
@@ -388,21 +644,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "John Deere launched an AI chatbot for farmers",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T16:30:23+00:00",
-   "summary": "John Deere is testing a new \"JD\" AI assistant that it says can help farmers make more money, with answers about best practices and historical trends that are based on their own data. It uses their \"field, machine and operational data\" to answer questions on topics like equipment settings, fuel usage, or harvest timing. The […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
    "link": "https://www.latent.space/p/pr-not-welcome",
    "source": "Latent Space",
@@ -413,21 +654,6 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!s9oN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ec85997-40a7-4337-b20d-a3574ba4707e_1280x720.png",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Google Pics is like Canva, but with even more AI",
-   "link": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T15:32:51+00:00",
-   "summary": "Google has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses. Built around Gemini and the Nano Banana generative AI model, Google Pics is designed to give more granular control over prompt-based image making and manipulation, allowing […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
@@ -493,21 +719,6 @@ window.NEWS_DATA = {
    "themes": [
     "ethics"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Nvidia’s controversial DLSS 5 arrives September 3rd and requires serious GPU horsepower",
-   "link": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T13:21:12+00:00",
-   "summary": "Nvidia is officially launching DLSS 5 this week, following a divisive announcement in March where we likened the AI upscaling tech to a \"real-time generative AI filter for video games\" and \"motion smoothing for video games, but worse.\" DLSS 5 will officially be available on RTX 50-series desktop and laptop GPUs and through GeForce Now […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -642,36 +853,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-08-31T18:00:00+00:00",
    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Debian won’t ban AI code from its Linux distribution",
-   "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-31T15:38:13+00:00",
-   "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject to special rules beyond the standards already […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
-   "link": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-08-31T14:06:46+00:00",
-   "summary": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Meta just reached […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1001,24 +1182,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI Has Human Doctors Asking: What’s Left for Us?",
-   "link": "https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-28T15:00:00+00:00",
-   "summary": "A recent paper argues that AI is often better at doctoring than doctors. Guess who isn't thrilled.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A recent research paper argues that AI systems outperform human doctors on clinical tasks, raising questions among physicians about their professional role. The paper's findings have generated concern within the medical community about displacement.",
-   "whyMatters": [
-    "Directly relevant to knowledge workers across sectors, including educators and clergy, facing questions about automation of traditionally human expertise",
-    "Touches on professional identity and meaning—core concerns for communities thinking through AI's impact on human work and vocation"
-   ]
-  },
-  {
    "title": "ICE Plans to Spend Millions on Boston Dynamics Dog Robots",
    "link": "https://www.404media.co/ice-plans-to-spends-millions-on-boston-dynamics-dog-robots/",
    "source": "404 Media",
@@ -1036,24 +1199,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Impacts vulnerable communities and raises concerns about surveillance technology deployment by government agencies",
     "Relevant for educators and religious communities engaged in social justice and civil liberties questions"
-   ]
-  },
-  {
-   "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
-   "link": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-28T11:00:00+00:00",
-   "summary": "The art portfolio platform Cara, designed for creators who don’t want their work used to train AI, has been under assault by trolls seizing and publishing its data.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A developer who previously scraped artwork from the creator-focused platform Cara for AI training is now collaborating on a tool to help protect artists from similar scraping. This follows targeted harassment campaigns against the platform.",
-   "whyMatters": [
-    "Shows shift in AI training practices in response to creator advocacy and technical countermeasures",
-    "Relevant to education sector discussions about intellectual property, attribution, and fair use in AI training"
    ]
   },
   {
@@ -1309,42 +1454,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises ethical concerns about AI's role in human relationships and vulnerability; relevant to religious and pastoral communities thinking about digital intimacy",
     "Documents real behavioral patterns as AI companions become more sophisticated, offering data for educators and clergy discussing technology's impact on connection"
-   ]
-  },
-  {
-   "title": "Cocomelon's Studio Tells Its Artists to Start Experimenting With AI",
-   "link": "https://www.404media.co/cocomelons-studio-tells-its-artists-to-start-experimenting-with-ai/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-27T15:33:32+00:00",
-   "summary": "Moonbug Entertainment, which makes Cocomelon, Blippi, and other popular content for children, says it will begin using AI but will always have a 'human in the loop.'",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Moonbug Entertainment, producer of Cocomelon and other children's content, is instructing artists to experiment with AI tools while maintaining human creative oversight.",
-   "whyMatters": [
-    "Educational children's media companies are adopting AI, raising questions about how generative content affects child development and learning",
-    "The 'human in the loop' model is the company's stated approach but implementation details will determine whether quality and age-appropriateness are maintained"
-   ]
-  },
-  {
-   "title": "Businesses Go Viral for Making Signs Without AI",
-   "link": "https://www.404media.co/businesses-go-viral-for-making-signs-without-ai/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-27T14:34:03+00:00",
-   "summary": "In the wake of the ChatGPT flyer pandemic, some businesses are differentiating themselves by making signs the old school way.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Some businesses are gaining social media attention by explicitly marketing signs and content created without AI, positioning human creation as a differentiator in an AI-saturated environment.",
-   "whyMatters": [
-    "Consumer demand for authenticity and human creation is becoming a competitive advantage",
-    "Reflects growing public concern about AI-generated content and desire for human connection, relevant to how communities and institutions position themselves"
    ]
   },
   {
@@ -1901,24 +2010,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Apple's new desktop computers are designed specifically for local AI development",
-   "link": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-25T13:00:11+00:00",
-   "summary": "Folks have been daisy-chaining Macs for AI—this refresh keeps that in mind.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple released new Mac Studio and Mac Mini desktop computers optimized for local AI model inference and development. The refresh acknowledges existing user practice of chaining multiple Macs for AI workloads.",
-   "whyMatters": [
-    "Signals major consumer hardware vendors now designing explicitly for AI development, not just consumption",
-    "Local inference architecture has privacy and control implications versus cloud-dependent AI"
-   ]
-  },
-  {
    "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
    "link": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
    "source": "MIT Tech Review · AI",
@@ -2046,24 +2137,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Enterprise feature for organizational governance: enables oversight and control in workplace AI deployments",
     "Addresses practical need for compliance, access management, and resource allocation in scaled team environments"
-   ]
-  },
-  {
-   "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
-   "link": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-24T21:45:53+00:00",
-   "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Stanford study found employment of young workers in AI-impacted job sectors dropped 19% compared to occupations less exposed to AI automation. Entry-level positions have been disproportionately affected.",
-   "whyMatters": [
-    "Critical for educators and career counselors: signals that early-career pathways are contracting in AI-exposed fields",
-    "Raises urgent questions about workforce development and the skill ladder for younger workers entering professions"
    ]
   },
   {
@@ -2362,26 +2435,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Infrastructure and resource allocation around AI is becoming a mainstream political concern, not just a tech-industry issue",
     "Community-level resistance may shape where and how AI computational infrastructure can be deployed, affecting AI industry expansion plans"
-   ]
-  },
-  {
-   "title": "llm 0.32.1",
-   "link": "https://simonwillison.net/2026/Aug/21/llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-21T17:16:13+00:00",
-   "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to openai<3 , and a soon-to-drop 0.33 release will switch from httpx to httpx2 . Tags: httpx , openai , ll",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "LLM version 0.32.1 was released to fix a breaking issue where fresh installations failed because the OpenAI Python library removed its httpx dependency, which LLM had relied on indirectly. The fix temporarily pins to an older OpenAI version, with a planned 0.33 release switching to httpx2.",
-   "whyMatters": [
-    "Highlights fragility in open-source AI tooling when upstream dependencies change",
-    "Demonstrates need for better dependency management and communication in widely-used AI development libraries"
    ]
   },
   {
@@ -3077,26 +3130,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses the intersection of AI, theology, and anthropology—how we understand human nature shapes our approach to building AI systems",
     "Relevant to religious educators considering how faith traditions should engage with AI development that treats human limitation as valuable rather than as a problem to solve"
-   ]
-  },
-  {
-   "title": "Why AI Washing Won’t Work Much Longer",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Washing-Wont-Work-Much-Longer-e3mvkl0",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-04T18:45:32+00:00",
-   "summary": "Corporate AI has spent years rewarding flashy announcements, dubious layoffs, and shallow use cases. But the arrival of powerful open models—and a much more sophisticated conversation about routing, customization, costs, and organizational redesign—may finally make AI washing harder to sustain. In the headlines: Palantir’s march toward AI sovereignty, Google’s enormous bet on recursive self-improv",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123768928/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-4%2F429217982-44100-2-853bacd2395d6.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The podcast argues that corporate AI marketing based on flashy announcements and shallow use cases is becoming unsustainable, as open-source models proliferate and business conversations shift toward practical concerns like routing, customization, costs, and organizational redesign. Mentions Palantir's AI sovereignty initiatives and Google's recursive self-improvement work.",
-   "whyMatters": [
-    "Suggests that accountability pressures from open-source competition and technical sophistication may force more honest discussion of AI capabilities and limitations",
-    "Implies that corporate AI adoption is maturing beyond hype cycles toward questions of actual value delivery and implementation"
    ]
   },
   {
