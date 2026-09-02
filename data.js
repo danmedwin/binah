@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-02T09:22:47.368548+00:00",
+ "generatedAt": "2026-09-02T13:51:05.602312+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,36 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Podcast: We Spoke to an Amazon Worker Destroying Books for AI",
+   "link": "https://www.404media.co/podcast-we-spoke-to-an-amazon-worker-destroying-books-for-ai/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-02T12:47:45+00:00",
+   "summary": "A follow up to the Amazon destroying books for AI story, why a bunch of names keep appearing in AI-generated papers, and ICE's latest spending spree.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
+   "link": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-02T10:00:00+00:00",
+   "summary": "Meet the AI police who can make or break careers—in publishing and beyond.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
    "link": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
@@ -1067,24 +1097,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects emerging corporate policy: AI companies are now using exclusivity decisions as business/geopolitical levers tied to acquirer identity",
     "Illustrates the practical stakes of consolidation in AI tooling—exclusive licensing can reshape developer ecosystems overnight"
-   ]
-  },
-  {
-   "title": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
-   "link": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-28T03:04:14+00:00",
-   "summary": "A federal judge has called the Department of Defense’s designation of Anthropic as a national security supply-chain risk “illegal and baseless.”",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A federal judge ruled the Pentagon's designation of Anthropic as a national security supply-chain risk \"illegal and baseless.\" This represents a victory for the AI company in its challenge to government blacklisting.",
-   "whyMatters": [
-    "Same ruling as earlier item; establishes legal precedent limiting executive power to restrict AI companies on security grounds",
-    "Affects the regulatory environment for AI development and government procurement decisions"
    ]
   },
   {
