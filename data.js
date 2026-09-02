@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-02T00:54:49.941105+00:00",
+ "generatedAt": "2026-09-02T09:22:47.368548+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,38 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+   "link": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-02T07:46:08+00:00",
+   "summary": "Queue the usual rush of model launches...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!-NFa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2094843261470793728.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Quoting Rick Brewster",
+   "link": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-02T05:50:57+00:00",
+   "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dl",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Claude Fable 5.1 made me a really nice animated pelican",
    "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
    "source": "Simon Willison",
@@ -98,6 +130,24 @@ window.NEWS_DATA = {
    "image": "https://static.simonwillison.net/static/2026/fable-5.1-low.png",
    "themes": [
     "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenClaw 2.0 Shows Where AI Agents Are Going Next",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/OpenClaw-2-0-Shows-Where-AI-Agents-Are-Going-Next-e3o74t6",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-01T23:09:27+00:00",
+   "summary": "OpenClaw 2.0 introduces a multiplayer workspace where people and agents can share context, steer work, and hand projects off without reconstructing everything from scratch. NLW argues that collaborative agents—not just personal ones—represent the next major shift in how AI gets used at work. In the headlines: an unguardrailed cyber model sparks alarm, Anthropic updates its alignment and security p",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125063526/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-1%2F430996383-44100-2-cb45518400175.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates",
+    "ethics"
    ],
    "aiSummary": "",
    "whyMatters": []
@@ -221,7 +271,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-09-01T18:05:45+00:00",
-   "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got ",
+   "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we go",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -319,6 +369,23 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "datasette-mcp 0.2",
+   "link": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-01T15:30:12+00:00",
+   "summary": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. #1 Now depends on mcp>=2.1.1 . This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself. Tags: datasette , model-cont",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -428,6 +495,23 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!hV5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHQ7UHClW4AA2I6L.jpg",
    "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+   "link": "https://openai.com/index/gilbert-tobin",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-01T01:00:00+00:00",
+   "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1534,24 +1618,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
-   "whyMatters": [
-    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
-    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
-   ]
-  },
-  {
    "title": "Learning never stops: How AI makes learning continuous",
    "link": "https://openai.com/index/learning-never-stops",
    "source": "OpenAI News",
@@ -1567,6 +1633,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
     "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
+   ]
+  },
+  {
+   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
+   "whyMatters": [
+    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
+    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
    ]
   },
   {
@@ -2279,44 +2363,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Stop Making TUIs",
-   "link": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-21T16:07:32+00:00",
-   "summary": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing. I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps back in March , and I'm still using both of those on a daily basis. I'm not habitually knoc",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Thomas Ptacek argues that developers should stop building terminal user interfaces (TUIs) for tools and instead create native graphical interfaces, since AI coding agents have made GUI development nearly as cheap and quick as building command-line tools. The argument is illustrated with examples like macOS task bar apps that are simple but more usable than their terminal equivalents.",
-   "whyMatters": [
-    "AI-powered code generation is reshaping development practices by lowering the barrier to building polished user interfaces, changing what 'good enough' means for even small personal projects",
-    "This reflects broader shifts in how engineers decide to allocate effort: focusing less on CLI optimization and more on user experience when both are nearly equally feasible"
-   ]
-  },
-  {
-   "title": "Quoting Matt Webb",
-   "link": "https://simonwillison.net/2026/Aug/21/matt-webb/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-21T15:06:26+00:00",
-   "summary": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work. So learning doesn’t stop just bec",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Matt Webb describes using ChatGPT not to write code directly, but as an interactive tutor to teach himself quaternions—a math concept he had struggled to learn from books and peers—in order to implement specific functionality in an app. He frames this as showing that learning doesn't end with version 1.0 of a tool.",
-   "whyMatters": [
-    "AI systems are being used as patient, personalized educators for technically-specialized topics, offering a different teaching mode than traditional resources",
-    "This touches on education: tools like ChatGPT can scaffold learning for engineers in ways that democratize knowledge typically gatekept by specialized expertise"
-   ]
-  },
-  {
    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
    "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
    "source": "Google DeepMind",
@@ -2648,24 +2694,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Strengthening democratic oversight in national security",
-   "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-18T19:00:00+00:00",
-   "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI launched an initiative to strengthen democratic oversight of AI in national security work, providing tools, training, and expertise to government institutions.",
-   "whyMatters": [
-    "Addresses concerns that AI development for defense and security should remain accountable to democratic institutions",
-    "OpenAI positioning itself as a responsible participant in governance rather than solely focused on commercial deployment"
-   ]
-  },
-  {
    "title": "[AINews] Stripe buys OpenRouter for $7B",
    "link": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
    "source": "Latent Space",
@@ -2758,24 +2786,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Helps individuals and organizations make intentional choices about AI automation rather than defaulting to full delegation",
     "Relevant to educators and clergy who must decide which aspects of their work—teaching, mentoring, pastoral care—can be augmented versus those requiring human judgment and presence"
-   ]
-  },
-  {
-   "title": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
-   "link": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-14T06:16:00+00:00",
-   "summary": "Congrats to the team!",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png",
-   "themes": [],
-   "aiSummary": "Cursor, an AI-powered code editor, was acquired by SpaceXai in a deal valued at $60 billion.",
-   "whyMatters": [
-    "Signals major consolidation in the AI developer tools space, with Elon Musk's AI venture absorbing a prominent competitive product",
-    "Reflects the intense M&A activity and valuations in AI infrastructure as companies compete for control of key developer ecosystems"
    ]
   },
   {
@@ -3083,24 +3093,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Suggests that accountability pressures from open-source competition and technical sophistication may force more honest discussion of AI capabilities and limitations",
     "Implies that corporate AI adoption is maturing beyond hype cycles toward questions of actual value delivery and implementation"
-   ]
-  },
-  {
-   "title": "What Happens When AI Breakthroughs Outrun Human Understanding",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-Happens-When-AI-Breakthroughs-Outrun-Human-Understanding-e3mu7fn",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-03T21:17:52+00:00",
-   "summary": "OpenAI says its unreleased Astra model solved or advanced ten long-standing mathematical problems for roughly $2,000. The results raise a larger question: what happens when AI can produce important breakthroughs that almost nobody has the expertise to understand, assess or independently verify? In the headlines: a new Deepseek model, Amazon completes OpenAI investment, and is Situational Awareness",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123722679/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-3%2F429155950-44100-2-74f2bf3e5ed83.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "OpenAI's unreleased Astra model reportedly solved or advanced ten long-standing mathematical problems for approximately $2,000, raising the question of what happens when AI produces important scientific breakthroughs that few experts can understand or independently verify. The episode also covers other AI news including Deepseek models and Amazon's OpenAI investment.",
-   "whyMatters": [
-    "Highlights a governance gap: who validates, reproduces, and understands breakthroughs if the AI's reasoning is opaque or too complex for human verification?",
-    "Directly impacts academic and scientific communities relying on peer review and reproducibility as foundations of knowledge"
    ]
   },
   {
