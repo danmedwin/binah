@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-02T13:51:05.602312+00:00",
+ "generatedAt": "2026-09-02T15:01:18.516240+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,36 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+   "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-02T14:16:42+00:00",
+   "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026-09-01/IMG_7797.jpeg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Facilitating AI integration with simplicity at scale",
+   "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-09-02T14:00:00+00:00",
+   "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Podcast: We Spoke to an Amazon Worker Destroying Books for AI",
    "link": "https://www.404media.co/podcast-we-spoke-to-an-amazon-worker-destroying-books-for-ai/",
@@ -2355,26 +2385,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "llm-openrouter 0.7",
-   "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-21T16:58:19+00:00",
-   "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's implementation of the Responses API . Three new server-side tools: Shell , WebFetch , and WebSearch . Enable these with options like -T WebSearch . Tags: llm , openrouter",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The llm-openrouter plugin version 0.7 was updated for compatibility with LLM 0.32 and now supports reasoning models, uses OpenRouter's Responses API, and adds three new server-side tools: Shell, WebFetch, and WebSearch.",
-   "whyMatters": [
-    "Expands capability of open-source LLM tooling to access advanced reasoning models and web integration",
-    "Developers can now more easily prototype and deploy multi-tool AI applications without building infrastructure from scratch"
-   ]
-  },
-  {
    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
    "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
    "source": "Google DeepMind",
@@ -2482,24 +2492,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Exposes how language around AI consciousness can distort public and policy debate away from concrete harms and actual capabilities",
     "Matters for educators teaching critical literacy around AI claims and for policymakers making regulation decisions based on actual properties, not anthropomorphized narratives"
-   ]
-  },
-  {
-   "title": "Unlocking hidden revenue streams with market models",
-   "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-20T09:47:22+00:00",
-   "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Airlines use market-based pricing models that consider hundreds of variables—demand, seasonality, time of day, events, global markets, and competitor pricing—to optimize revenue across complex multi-leg journeys rather than simple point-to-point routes.",
-   "whyMatters": [
-    "Demonstrates how AI and optimization algorithms are being applied to real-world business problems with substantial financial stakes, shifting pricing from static to dynamic and data-driven models",
-    "Shows the growing sophistication of algorithmic decision-making in consumer-facing industries, raising questions about pricing transparency and fairness that matter to both technologists and ethicists"
    ]
   },
   {
