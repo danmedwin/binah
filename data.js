@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-02T19:39:34.792999+00:00",
+ "generatedAt": "2026-09-03T01:01:09.874891+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,53 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T23:44:11+00:00",
+   "summary": "OpenAI and its CEO Sam Altman are facing 30 new lawsuits that accuse them of providing \"substantial assistance and encouragement\" to the suspect in Canada's Tumbler Ridge school shooting, as reported earlier by TechCrunch. The new wave of lawsuits was filed in a California federal court on Wednesday by the students, teachers, and principal in […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "NYC bans AI use for students until they reach high school",
+   "link": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T22:58:03+00:00",
+   "summary": "New York City Mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K through eighth grade and is being introduced alongside additional limits on digital devices and a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-02T20:11:40+00:00",
+   "summary": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Why Fable 5.1 Is Worth the Upgrade",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Fable-5-1-Is-Worth-the-Upgrade-e3o8i62",
@@ -204,11 +251,11 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-09-02T16:39:38+00:00",
-   "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Tags: llm , gemini",
+   "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: F",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "",
+   "image": "https://static.simonwillison.net/static/2026-09-02/image.jpg",
    "themes": [
     "updates"
    ],
@@ -327,21 +374,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-02T14:36:42+00:00",
-   "summary": "OpenAI and its CEO Sam Altman are facing 30 new lawsuits that accuse them of providing \"substantial assistance and encouragement\" to the suspect in Canada's Tumbler Ridge school shooting, as reported earlier by TechCrunch. The new wave of lawsuits was filed in a California federal court on Wednesday by the students, teachers, and the principal […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
    "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
    "source": "Simon Willison",
@@ -372,12 +404,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "NYC bans AI use for students until they reach high school",
-   "link": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
-   "source": "The Verge · AI",
+   "title": "Podcast: We Spoke to an Amazon Worker Destroying Books for AI",
+   "link": "https://www.404media.co/podcast-we-spoke-to-an-amazon-worker-destroying-books-for-ai/",
+   "source": "404 Media",
    "category": "ai",
-   "date": "2026-09-02T13:51:03+00:00",
-   "summary": "New York City mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K through eighth grade and is being introduced alongside additional limits on digital devices and a […]",
+   "date": "2026-09-02T12:47:45+00:00",
+   "summary": "A follow up to the Amazon destroying books for AI story, why a bunch of names keep appearing in AI-generated papers, and ICE's latest spending spree.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -387,12 +419,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Podcast: We Spoke to an Amazon Worker Destroying Books for AI",
-   "link": "https://www.404media.co/podcast-we-spoke-to-an-amazon-worker-destroying-books-for-ai/",
-   "source": "404 Media",
+   "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+   "link": "https://openai.com/index/atv-big-air-tour",
+   "source": "OpenAI News",
    "category": "ai",
-   "date": "2026-09-02T12:47:45+00:00",
-   "summary": "A follow up to the Amazon destroying books for AI story, why a bunch of names keep appearing in AI-generated papers, and ICE's latest spending spree.",
+   "date": "2026-09-02T12:00:00+00:00",
+   "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -495,23 +527,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T22:20:00+00:00",
-   "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurity incident from a company to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2694,24 +2709,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Lowers barriers to entry for coding and software creation, potentially democratizing access to AI-assisted development for students and educators",
     "Relevant to tech education: removes financial friction that has limited students and educators from hands-on experience with code-generation tools"
-   ]
-  },
-  {
-   "title": "ChatGPT Ads expands across Europe",
-   "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-18T22:00:00+00:00",
-   "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is expanding its ChatGPT Ads product to 31 European markets, allowing advertisers to place ads within ChatGPT as users search, compare, and make decisions.",
-   "whyMatters": [
-    "Marks a significant shift in how generative AI applications monetize through advertising, creating new business models for AI platforms",
-    "Raises questions about ad transparency, user experience, and how advertising integrates into AI assistant interactions in regulated EU markets"
    ]
   },
   {
