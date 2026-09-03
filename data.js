@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-03T13:51:06.084408+00:00",
+ "generatedAt": "2026-09-03T14:55:50.400098+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -92,6 +92,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T13:34:13+00:00",
    "summary": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Nvidia is buying Hugging Face for almost $13 billion",
+   "link": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-03T13:16:18+00:00",
+   "summary": "Nvidia has agreed to buy Hugging Face for $12.93 billion, bringing one of the most popular hosting platforms for open-source AI models, datasets, and tools under the ownership of the world's biggest AI chipmaker. Hugging Face is an online platform founded in 2016 that gives AI developers a space to share their projects and data […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -648,23 +663,6 @@ window.NEWS_DATA = {
    "image": "",
    "themes": [
     "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T20:45:49+00:00",
-   "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
    ],
    "aiSummary": "",
    "whyMatters": []
