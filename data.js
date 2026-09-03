@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-03T01:01:09.874891+00:00",
+ "generatedAt": "2026-09-03T09:32:32.241235+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,51 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Less about Models; More about Architecture",
+   "link": "https://share.transistor.fm/s/ec79b4ac",
+   "source": "Practical AI",
+   "category": "podcast",
+   "date": "2026-09-03T09:00:00+00:00",
+   "summary": "As AI moves from experimentation to enterprise deployment, are organizations thinking too much about models and not enough about architecture? In this episode, Daniel and Chris talk with Chetan Gupta, Chief AI Officer at Rackspace, about the evolution from industrial AI and physical AI to today’s enterprise AI landscape. Discover how organizations can navigate the complex AI landscape responsibly ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/ec79b4ac/efba87b4.mp3",
+   "image": "https://img.transistorcdn.com/-0_OMgmp3xKvAJfdUTA1m0vONHyL0qOVlX1utg7d2G8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81MjEz/Yzc5NWZiN2FjZDRk/NzVjYWQ2NDhkZjRj/YjNlZi5wbmc.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+   "link": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-03T04:38:33+00:00",
+   "summary": "an epic comeback story for Meta",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!vyuW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff20254a9-6670-4842-b0c9-89101011f15c_2342x984.jpeg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
+   "link": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-03T01:32:02+00:00",
+   "summary": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment with Hatch, its most advanced AI project yet.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
    "link": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
@@ -1082,24 +1127,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Imminent security threat to critical infrastructure could disrupt services that communities depend on",
     "Raises questions about how AI systems themselves are secured and how clergy/educators should advise congregants on digital safety"
-   ]
-  },
-  {
-   "title": "How to Run a Chatbot on Your Own Computer",
-   "link": "https://www.wired.com/story/how-to-run-your-own-local-llm/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-29T10:00:00+00:00",
-   "summary": "Installing a large language model on your personal computer gives you a handy digital assistant that won’t compromise your data privacy.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Users can now install large language models directly on personal computers, creating a private digital assistant without sending data to external servers. This provides an alternative to cloud-based AI services.",
-   "whyMatters": [
-    "Gives individuals and organizations control over their data and privacy—relevant for educators and religious institutions handling sensitive information",
-    "Democratizes access to AI tools without reliance on corporate platforms"
    ]
   },
   {
@@ -2802,24 +2829,6 @@ window.NEWS_DATA = {
     "Workforce deskilling and loss of human expertise are particularly relevant to educators and clergy who must think carefully about how AI tools affect learning and professional development in their communities",
     "Rising operational costs and uneven productivity gains indicate that AI adoption is not uniformly beneficial—relevant for organizations making significant AI investments",
     "The problem of AI-generated low-quality content (slop) affects information ecosystems that educators and religious leaders depend on for teaching and guidance"
-   ]
-  },
-  {
-   "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-   "link": "https://www.latent.space/p/flue-2",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-15T15:46:22+00:00",
-   "summary": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!Osie!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F131d402d-63bf-4895-b5e7-b8990972a14c_1280x720.png",
-   "themes": [],
-   "aiSummary": "Fred Schott, creator of Astro, has released Flue 2, a framework for building AI agents that borrows architectural concepts from React, including hooks. The framework emphasizes that agents are fundamentally defined by their 'harnesses'—the systems that structure how they operate.",
-   "whyMatters": [
-    "Brings familiar React patterns to agent development, potentially lowering the barrier for web developers to build AI systems",
-    "Represents a shift in how agent frameworks are conceptualized, moving toward clearer separation between agent logic and the systems that orchestrate it"
    ]
   },
   {
