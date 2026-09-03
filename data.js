@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-03T14:55:50.400098+00:00",
+ "generatedAt": "2026-09-03T19:41:02.329822+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,162 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "AI in the News and Current Affairs: AI Governance, AI Creativity and More #71",
+   "link": "https://aiandfaith.org/aif-podcast/ai-news-governance-creativity/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-09-03T18:48:34+00:00",
+   "summary": "As we finish the summer, we invited two of our guests back to continue our conversation about artificial intelligence in the news and in current affairs. We spoke about the",
+   "religionScore": 5,
+   "religionHits": [],
+   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-8-3/431131510-44100-2-e6e6596dcb1e2.m4a",
+   "image": "https://aiandfaith.org/wp-content/uploads/2026/09/AIF-PODCAST-pod-image-2nd-Ben-C-and-Marcus-Gilad_result-300x300.webp",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-03T18:38:14+00:00",
+   "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Four major AI models suffer rare overlapping downtime",
+   "link": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-03T18:10:19+00:00",
+   "summary": "Service interruptions hit ChatGPT, Claude, Grok, and Gemini practically simultaneously.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+   "link": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-03T18:06:24+00:00",
+   "summary": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "ChatGPT, Grok, and Claude all went down at the same time",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-03T18:03:46+00:00",
+   "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-03T17:28:18+00:00",
+   "summary": "Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio. Let's get the obvious thing out of the way, despite what its name might imply: PAIR is not a hardware router. It's open-source software […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+   "link": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-03T16:42:40+00:00",
+   "summary": "OpenAI recently estimated its Cursor partnership would make more than $1 billion in revenue a year, WIRED has learned. It still walked away after Elon Musk’s SpaceX acquired the AI coding startup.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Google now lets you chat with Gmail, Docs, and Keep",
+   "link": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-03T16:34:43+00:00",
+   "summary": "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them. The real time conversational capabilities are called Gmail Live, Docs Live, and Keep Live, and like the Gemini Live experience for Google's chatbot, aim to make it easier to note down […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+   "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-09-03T15:02:08+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Google says its AI weather model is getting better",
+   "link": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-03T14:41:03+00:00",
+   "summary": "Google is rolling out an updated AI weather model that's supposed to be more accurate, especially when it comes to predicting rain and snowfall. In the announcement today, the company says it's now able to make forecasts with \"unprecedented resolution\" using its new WeatherNext 3 AI model. It can produce a global picture that's five […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
    "link": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
@@ -197,36 +353,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T01:32:02+00:00",
    "summary": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment with Hatch, its most advanced AI project yet.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-02T23:44:11+00:00",
-   "summary": "OpenAI and its CEO Sam Altman are facing 30 new lawsuits that accuse them of providing \"substantial assistance and encouragement\" to the suspect in Canada's Tumbler Ridge school shooting, as reported earlier by TechCrunch. The new wave of lawsuits was filed in a California federal court on Wednesday by the students, teachers, and principal in […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "NYC bans AI use for students until they reach high school",
-   "link": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-02T22:58:03+00:00",
-   "summary": "New York City Mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K through eighth grade and is being introduced alongside additional limits on digital devices and a […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -464,21 +590,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Google is sending MrBeast into the wilderness, armed with AI",
-   "link": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-02T15:47:03+00:00",
-   "summary": "MrBeast will feature Gemini, Google Health, and the Fitbit Air in upcoming videos as part of a multi-year partnership with Google. The deal will kick off with a video featuring Jimmy \"MrBeast\" Donaldson turning to Gemini for wilderness survival advice: First up on September 5 is a new MrBeast video following Jimmy and his crew […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "The Republican Nominee for New York Governor Made a Creepy, AI-Generated Video of Mamdani and Hochul",
    "link": "https://www.404media.co/bruce-blakeman-ai-campaign-video-mamdani-hochul/",
    "source": "404 Media",
@@ -636,55 +747,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Google needs Hollywood more than the studios need AI",
-   "link": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T22:50:29+00:00",
-   "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the studios that would also […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-01T22:01:36+00:00",
-   "summary": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
-   "link": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-01T20:00:00+00:00",
-   "summary": "The company will give select partners early access to its Astra AI model—so they have time to shore up their defenses.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Codex bundles LibreOffice",
    "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
    "source": "Simon Willison",
@@ -800,21 +862,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-01T14:59:18+00:00",
    "summary": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Pyt",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Sonos Ace Ultra, Beam Ultra, Sonos Fabric, and a New App: Everything Sonos Just Announced",
-   "link": "https://www.wired.com/story/sonos-has-new-devices-a-new-os-and-yes-a-new-app/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-01T14:40:00+00:00",
-   "summary": "Sonos is cramming AI into its software because it’s “very hot these days.” The new features, which include agentic automation, are opt-in.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1486,24 +1533,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Tragedy and Ecstasy of AI Companions (with Bridget Todd)",
-   "link": "https://www.404media.co/bridget-todd-love-at-first-prompt-ai-chatbot-companions-podcast/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-27T15:47:59+00:00",
-   "summary": "In her new audiobook, Love at First Prompt: AI and the Future of Intimacy, Bridget Jones and Michael Amato unpack how real people are using chatbots to seek connection, in an era when tech companies are constantly trying to exploit our innermost worlds.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Bridget Todd has released an audiobook called \"Love at First Prompt\" examining how people use AI chatbots to seek emotional connection, and how tech companies exploit intimate human needs through these systems.",
-   "whyMatters": [
-    "Raises ethical concerns about AI's role in human relationships and vulnerability; relevant to religious and pastoral communities thinking about digital intimacy",
-    "Documents real behavioral patterns as AI companions become more sophisticated, offering data for educators and clergy discussing technology's impact on connection"
-   ]
-  },
-  {
    "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
    "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
    "source": "Ars Technica · AI",
@@ -1977,26 +2006,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates large-scale software maintenance challenges in production systems that have run unmaintained for decades",
     "Relevant to understanding technical debt and upgrade strategies in systems built on aging infrastructure"
-   ]
-  },
-  {
-   "title": "World humanoid robot games show runners breaking records, bursting into flames",
-   "link": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-25T20:59:03+00:00",
-   "summary": "Record-breaking robot races are less substantial than household chore challenges.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Humanoid robots competed in international games where some set speed records while others caught fire or malfunctioned. The races, while visually impressive, were less meaningful tests than practical household chore challenges.",
-   "whyMatters": [
-    "Highlights the gap between headline-grabbing robot feats and real-world utility—speed races are easier to engineer than reliable task completion",
-    "Reveals current limitations of humanoid robotics for practical applications despite technological progress"
    ]
   },
   {
