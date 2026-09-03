@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-03T09:32:32.241235+00:00",
+ "generatedAt": "2026-09-03T13:51:06.084408+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,66 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
+   "link": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-03T13:34:13+00:00",
+   "summary": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
+   "link": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-03T13:00:00+00:00",
+   "summary": "At IFA 2026, Nvidia and its partners showed off the first RTX Spark-powered laptops and mini PCs, designed to run AI models right on your computer.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+   "link": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-03T12:43:09+00:00",
+   "summary": "The long-rumored deal will give the chip giant access to—and help it promote—a huge repository of open-source AI models and data sets.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "This Is Flock’s AI Search Tool for Cops",
+   "link": "https://www.wired.com/story/flock-ai-search-user-interface/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-03T10:00:00+00:00",
+   "summary": "WIRED rebuilt Flock’s latest search tool from code the company sends to a police officer’s browser. Its AI can keep watch across multiple cameras for anyone fitting a written description.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Less about Models; More about Architecture",
    "link": "https://share.transistor.fm/s/ec79b4ac",
@@ -937,21 +997,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
-   "link": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-31T10:30:00+00:00",
-   "summary": "Of the Glassdoor reviews from claims adjusters that mentioned AI, a staggering 98 percent were negative. “AI is just a tool,” one person tells WIRED. “It should never be given the keys.”",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
    "link": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/",
    "source": "Ars Technica · AI",
@@ -1054,24 +1099,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Why the Hottest New Wearables Want to Be Ignored",
-   "link": "https://www.wired.com/story/why-the-hottest-new-wearables-want-to-be-ignored/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-30T10:30:00+00:00",
-   "summary": "Burnt out on wrist buzzes and notification overload? A new crop of minimalist wearables promises to collect your health data without demanding your attention.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A new generation of wearable devices is designed to collect health and biometric data passively without generating constant notifications or requiring user attention. These minimalist wearables prioritize background data collection over active engagement.",
-   "whyMatters": [
-    "Addresses genuine user fatigue with notification-heavy devices; represents maturation in wearable design philosophy",
-    "Reflects tension between data collection utility and user experience—relevant for developers building health/wellness applications with AI"
-   ]
-  },
-  {
    "title": "Introducing Hy4 Preview",
    "link": "https://simonwillison.net/2026/Aug/29/hy4/",
    "source": "Simon Willison",
@@ -1107,26 +1134,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI literacy is shifting from specialized skill to professional baseline—educators may need to consider how to introduce AI coding concepts to students across disciplines, not just computer science",
     "For clergy and community leaders using technology, understanding basic AI coding helps assess which organizational problems (communications, scheduling, record-keeping) could genuinely benefit from automation versus hype"
-   ]
-  },
-  {
-   "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
-   "link": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-08-29T10:30:00+00:00",
-   "summary": "Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you’ll never guess what “MrChildPorn” was arrested for.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "AI industry leaders are warning that a major cybersecurity crisis could strike within months. The alert comes alongside reports of hackers targeting over 100 US water systems and other incidents.",
-   "whyMatters": [
-    "Imminent security threat to critical infrastructure could disrupt services that communities depend on",
-    "Raises questions about how AI systems themselves are secured and how clergy/educators should advise congregants on digital safety"
    ]
   },
   {
@@ -2031,24 +2038,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses integration of AI in religious/spiritual care roles—clergy and chaplains thinking through practical implications",
     "Educational forum bringing faith professionals into dialogue with AI capabilities and limitations in emotionally sensitive healthcare contexts"
-   ]
-  },
-  {
-   "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
-   "link": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-25T15:10:03+00:00",
-   "summary": "A pioneering AI scientist once predicted computers would replace human radiologists. They haven't.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Despite earlier predictions that AI would replace radiologists, the profession has survived but undergone significant transformation in practice. AI systems now handle specific diagnostic tasks while radiology work itself has evolved substantially.",
-   "whyMatters": [
-    "Challenges the 'AI will eliminate white-collar jobs' narrative; shows actual impact is workflow redesign rather than elimination",
-    "Demonstrates that professional judgment and human oversight remain essential even as AI augments technical capabilities"
    ]
   },
   {
