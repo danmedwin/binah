@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-04T13:45:15.370045+00:00",
+ "generatedAt": "2026-09-04T14:52:20.501211+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,11 +86,28 @@ window.NEWS_DATA = {
  },
  "items": [
   {
-   "title": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI",
+   "title": "Artificial Intelligence and Chaplaincy Resources",
+   "link": "https://aiandfaith.org/news/artificial-intelligence-and-chaplaincy-resources/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-09-04T14:49:38+00:00",
+   "summary": "There is no excerpt because this is a protected post.",
+   "religionScore": 5,
+   "religionHits": [
+    "chaplain"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
    "link": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-09-04T13:42:35+00:00",
+   "date": "2026-09-04T14:46:39+00:00",
    "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI […]",
    "religionScore": 0,
    "religionHits": [],
