@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-04T00:52:25.426166+00:00",
+ "generatedAt": "2026-09-04T09:24:29.345073+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,55 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "August newsletter is out",
+   "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-04T05:54:40+00:00",
+   "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the momen",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+   "link": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-04T05:18:11+00:00",
+   "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!75mH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e58156f-49e2-48e8-af49-ce5edd8e68b6_1118x1118.png",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Agentic Loops for Knowledge Workers",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Agentic-Loops-for-Knowledge-Workers-e3oaiu2",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-03T22:41:58+00:00",
+   "summary": "In this episode, NLW and Nufar Gaspar explain how knowledge workers can move beyond one-shot prompting and use agentic loops to produce more complete, reliable work. They break down how to design verifiable finish lines, decide which tasks should be looped, prevent runaway costs and compose multiple agents into work graphs that can research, review and refine outputs autonomously. NEXT COHORT - Ex",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125176194/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-3%2F431145568-44100-2-0e1697b267ed2.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
    "link": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
@@ -1772,7 +1821,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-08-26T23:52:58+00:00",
-   "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried the ",
+   "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B parameters but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried t",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2452,26 +2501,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "llm 0.33",
-   "link": "https://simonwillison.net/2026/Aug/22/llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-22T17:01:16+00:00",
-   "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept --key . The Python EmbeddingModel.embed() , EmbeddingModel.embed_multi() , Collection.embed() and Co",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The llm command-line tool released version 0.33 with infrastructure updates including upgraded dependencies (OpenAI Python library 3.x, new HTTP client), bug fixes from the previous 0.32.1 release, and new features for embedding commands to accept API keys.",
-   "whyMatters": [
-    "Technical maintenance release improving compatibility and adding flexibility for users managing API credentials",
-    "Reflects ongoing development of open-source tooling that makes LLM capabilities more accessible to developers"
-   ]
-  },
-  {
    "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
    "link": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
    "source": "Latent Space",
@@ -2745,24 +2774,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Educators should understand what skills to teach students and professionals as AI reshapes knowledge work",
     "The framing that human domain judgment remains irreplaceable pushes back against concerns that AI eliminates expertise"
-   ]
-  },
-  {
-   "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
-   "link": "https://www.latent.space/p/glean-model-routing",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-18T21:41:10+00:00",
-   "summary": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!mpso!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ac64fa7-87ce-4106-816c-5811822047e1_1280x720.png",
-   "themes": [],
-   "aiSummary": "Glean CEO Arvind Jain explains how model routing—directing tasks to appropriate AI models based on cost and capability—helps organizations control spending and improve quality through scaled human feedback loops.",
-   "whyMatters": [
-    "Model routing is becoming a practical tool for enterprises managing multiple frontier models and their costs",
-    "Demonstrates how organizations are operationalizing AI tool selection rather than defaulting to single large models"
    ]
   },
   {
@@ -3073,24 +3084,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Multi-agent architectures represent a shift in how AI systems are designed and deployed—understanding these distinctions helps educators and technologists grasp where the field is heading",
     "Organizations planning AI adoption need to understand these concepts to evaluate whether single-tool solutions or coordinated agent systems better serve their specific needs"
-   ]
-  },
-  {
-   "title": "Why the Data Center Fight Has Little to Do With AI",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-the-Data-Center-Fight-Has-Little-to-Do-With-AI-e3n1897",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-05T18:59:27+00:00",
-   "summary": "The fight over AI data centers is accelerating—but concerns about power and water are only part of the story. NLW argues that the deeper issue is trust, agency and communities feeling that change is being imposed on them. In the headlines: the White House’s secret AI testing regime, agents attacking real-world targets, a potential ban on Chinese data center components and SpaceX’s first earnings r",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123821799/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-5%2F429290682-44100-2-31dbfd777fcda.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "A podcast episode argues that concerns about AI data centers extend beyond power and water usage to deeper issues of community trust, loss of agency, and perceived imposition of change on affected communities.",
-   "whyMatters": [
-    "Highlights social and ethical dimensions of AI infrastructure deployment beyond technical metrics",
-    "Relevant for educators and community leaders addressing how AI expansion affects local autonomy and trust"
    ]
   },
   {
