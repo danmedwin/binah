@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-04T09:24:29.345073+00:00",
+ "generatedAt": "2026-09-04T13:45:15.370045+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,138 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-04T13:42:35+00:00",
+   "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-04T11:33:40+00:00",
+   "summary": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and described it as the start of \"the […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
+   "link": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-04T11:22:12+00:00",
+   "summary": "Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith is designed for new developer-focused devices with 64GB or more of unified memory. \"Project Zenith devices come with a preconfigured Windows setup for development and a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-04T11:16:10+00:00",
+   "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The A.I. Mob That Attacked Hugging Face + METR’s Ajeya Cotra",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-09-04T11:00:00+00:00",
+   "summary": "This week, we’re diving into two new reports about the OpenAI-Hugging Face hack. We discuss what’s new and how they fundamentally change our understanding of what happened. Then we’re joined by Ajeya Cotra, one of the investigators at METR, to discuss the rogue agents’ message board and chain-of-thought transcripts and how the world should respond. Guests: Ajeya Cotra, co-author of the METR and Re",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/3189e217-df81-47e5-8084-f93f19459dfa/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=3189e217-df81-47e5-8084-f93f19459dfa&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
+  {
+   "title": "This NAS company wants to run your local smart home",
+   "link": "https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-04T10:38:39+00:00",
+   "summary": "Ugreen, known for its phone power banks, chargers, and NAS storage solutions, is moving into the smart home - in a big way. This week at the IFA tech show, the company launched its HomeAgent smart home platform that combines security camera storage, on-device AI, and smart home control in one system, managed by a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
+   "link": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-04T10:00:00+00:00",
+   "summary": "Job seekers are trying to game the application process using AI. It’s not working, and not for the reasons you might think.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+   "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-09-04T09:25:19+00:00",
+   "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly becoming part…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "August newsletter is out",
    "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
@@ -225,19 +357,17 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+   "title": "Instagram’s AI detection is a mess (again)",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-09-03T18:38:14+00:00",
-   "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't […]",
+   "date": "2026-09-03T18:37:50+00:00",
+   "summary": "Instagram's visible AI labels are supposed to help people quickly spot synthetically generated content at a glance. Over the last few weeks, however, users have been reporting that the system has gone haywire. They say Meta has been automatically applying an \"AI Content\" label to images that they didn't create or edit using generative AI […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [
-    "updates"
-   ],
+   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -334,19 +464,17 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Google says its AI weather model is getting better",
-   "link": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+   "title": "Why AI food looks like that",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-09-03T14:41:03+00:00",
-   "summary": "Google is rolling out an updated AI weather model that's supposed to be more accurate, especially when it comes to predicting rain and snowfall. In the announcement today, the company says it's now able to make forecasts with \"unprecedented resolution\" using its new WeatherNext 3 AI model. It can produce a global picture that's five […]",
+   "date": "2026-09-03T14:08:47+00:00",
+   "summary": "There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut shrimp, Reubens from the deep, wormlike noodles, and noodle-like pastries and stringy chicken. There's also construction material masquerading as ice cream, ice cream masquerading […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [
-    "updates"
-   ],
+   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -357,21 +485,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T13:34:13+00:00",
    "summary": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Nvidia is buying Hugging Face for almost $13 billion",
-   "link": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-03T13:16:18+00:00",
-   "summary": "Nvidia has agreed to buy Hugging Face for $12.93 billion, bringing one of the most popular hosting platforms for open-source AI models, datasets, and tools under the ownership of the world's biggest AI chipmaker. Hugging Face is an online platform founded in 2016 that gives AI developers a space to share their projects and data […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -531,23 +644,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-02T20:11:40+00:00",
-   "summary": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Why Fable 5.1 Is Worth the Upgrade",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Fable-5-1-Is-Worth-the-Upgrade-e3o8i62",
    "source": "The AI Daily Brief",
@@ -571,21 +667,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-02T18:41:02+00:00",
    "summary": "The US government wrote a letter in support of OpenAI’s argument that training AI on others' intellectual property is fair use.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "These Russian Mathematicians Taught AI Models How to Talk to Each Other Without Using Words",
-   "link": "https://www.wired.com/story/russian-startup-mostik-ai-models-communication/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-02T18:20:00+00:00",
-   "summary": "A startup called Mostik has a wild new approach to combining the capabilities of AI models.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -624,38 +705,6 @@ window.NEWS_DATA = {
    "image": "",
    "themes": [
     "ethics"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Amazon’s AI assistant can now spot fake emails from the company",
-   "link": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-02T17:52:56+00:00",
-   "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-02T16:40:50+00:00",
-   "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
    ],
    "aiSummary": "",
    "whyMatters": []
@@ -706,21 +755,6 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-02T16:12:25+00:00",
-   "summary": "The Trump administration has intervened in The New York Times' copyright lawsuit against OpenAI, making an argument in favor of the AI lab. The landmark lawsuit, filed in December 2023, alleging that OpenAI unlawfully trained its AI systems on articles from The New York Times and seeks to recoup \"billions of dollars\" in damages from […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1430,25 +1464,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Impacts vulnerable communities and raises concerns about surveillance technology deployment by government agencies",
     "Relevant for educators and religious communities engaged in social justice and civil liberties questions"
-   ]
-  },
-  {
-   "title": "Meta Shifts the Blame + Do Data Center Bans Work? + The Final HatGPT",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-08-28T11:00:00+00:00",
-   "summary": "This week, Meta agreed to pay up to $17.1 billion and make major changes to Facebook and Instagram over claims it endangered children with addictive social media platforms. We discuss why it capitulated and what it means for the entire social media industry. Then, Princeton computer science professor Arvind Narayanan returns to offer his thoughts on why banning data centers won’t slow down A.I. pr",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/95108f33-c923-4c83-837e-f48795e7ae23/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=95108f33-c923-4c83-837e-f48795e7ae23&feed=l2i9YnTd",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
    ]
   },
   {
@@ -2664,24 +2679,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Offers a practical AI-assisted method for project planning and scoping, reducing time spent on initial direction-setting",
     "Useful for educators teaching strategic thinking and planning alongside AI tools"
-   ]
-  },
-  {
-   "title": "Debates over AI consciousness are a trap",
-   "link": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-20T15:42:39+00:00",
-   "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review argues that current rhetoric about 'rogue' AI agents and 'conscious' systems misleads people into treating AI as autonomous and superhuman. The piece suggests this framing, used by both worried regulators and tech leaders, obscures what AI systems actually are.",
-   "whyMatters": [
-    "Exposes how language around AI consciousness can distort public and policy debate away from concrete harms and actual capabilities",
-    "Matters for educators teaching critical literacy around AI claims and for policymakers making regulation decisions based on actual properties, not anthropomorphized narratives"
    ]
   },
   {
