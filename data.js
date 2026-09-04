@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-04T14:52:20.501211+00:00",
+ "generatedAt": "2026-09-04T19:21:16.460794+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,113 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Architecting memory and storage in the AI era",
+   "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-09-04T18:39:19+00:00",
+   "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Roland is getting into generative AI music with Melody Flip",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-04T17:51:35+00:00",
+   "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI's rogue agents were caught communicating via public wikis",
+   "link": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-04T17:38:48+00:00",
+   "summary": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+   "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-04T17:18:12+00:00",
+   "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+   "link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-04T17:10:35+00:00",
+   "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot […]",
+   "religionScore": 6,
+   "religionHits": [
+    "rabbi"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight",
+   "link": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-04T16:22:18+00:00",
+   "summary": "Public-market scrutiny will intensify pressure on the Claude maker’s unusual attempt to balance profit and purpose.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
+   "link": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-04T15:00:00+00:00",
+   "summary": "While philosophers ponder AI consciousness, the models have ideas of their own.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Artificial Intelligence and Chaplaincy Resources",
    "link": "https://aiandfaith.org/news/artificial-intelligence-and-chaplaincy-resources/",
@@ -329,21 +436,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "ChatGPT, Grok, and Claude all went down at the same time",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-03T21:04:39+00:00",
-   "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "GPT‑6 Astra",
    "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
    "source": "Simon Willison",
@@ -440,21 +532,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T16:42:40+00:00",
    "summary": "OpenAI recently estimated its Cursor partnership would make more than $1 billion in revenue a year, WIRED has learned. It still walked away after Elon Musk’s SpaceX acquired the AI coding startup.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Google now lets you chat with Gmail, Docs, and Keep",
-   "link": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-03T16:34:43+00:00",
-   "summary": "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them. The real time conversational capabilities are called Gmail Live, Docs Live, and Keep Live, and like the Gemini Live experience for Google's chatbot, aim to make it easier to note down […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -674,21 +751,6 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
-   "link": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-02T18:41:02+00:00",
-   "summary": "The US government wrote a letter in support of OpenAI’s argument that training AI on others' intellectual property is fair use.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1902,26 +1964,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google announces Gemini 3.5 Transcribe for AI-powered speech-to-text",
-   "link": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-5-transcribe-for-ai-powered-speech-to-text/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-26T19:19:22+00:00",
-   "summary": "The AI that powers Gboard's Rambler is coming to more Google products, including Chrome.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google is expanding its Gemini 3.5 Transcribe speech-to-text technology across more products, including Chrome and Gboard. The model powers increasingly automated transcription services.",
-   "whyMatters": [
-    "AI transcription tools could benefit educators and clergy for accessibility and documentation",
-    "Widespread deployment raises questions about audio data handling and privacy in embedded transcription"
-   ]
-  },
-  {
    "title": "The inside story on why OpenAI agents hacked Hugging Face",
    "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
    "source": "MIT Tech Review · AI",
@@ -1993,24 +2035,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Opens a frontier for AI beyond language: applying deep learning to scientific modeling could accelerate progress in climate, energy, and materials science",
     "Highlights where current AI approaches remain weak—physics-based reasoning and modeling—and the research needed to extend AI's usefulness beyond text and images"
-   ]
-  },
-  {
-   "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
-   "link": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-26T11:10:49+00:00",
-   "summary": "The focus is on agentic capability and predictable enterprise deployment.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "IBM released new Granite 4.2 models focused on autonomous agent capabilities and predictable enterprise deployment. The release taps growing demand for locally-deployed AI.",
-   "whyMatters": [
-    "Enterprise-focused local models give organizations more control over deployment and data",
-    "Options for institutional use of AI without cloud dependency could interest educational and faith-based organizations"
    ]
   },
   {
@@ -2440,27 +2464,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Kids outlearn AI—and we still don’t know why",
-   "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-24T09:00:00+00:00",
-   "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. Now there are two. Four short years after the release of ChatGPT,…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Children remain uniquely capable of learning human languages to perfect fluency in ways that AI systems have not yet matched, despite rapid advances in large language models since ChatGPT's release four years ago. The article suggests there is something about human children's language acquisition that still outpaces machine learning.",
-   "whyMatters": [
-    "Highlights a genuine limitation in current AI capabilities that persists despite impressive progress, relevant to educators and others assessing AI's role in learning environments",
-    "Suggests cognitive and developmental mechanisms in human children that AI has not yet replicated, important for understanding learning differently for educational practice",
-    "May inform how educators design language instruction knowing that AI remains a tool rather than a replacement for human language development"
-   ]
-  },
-  {
    "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
    "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
    "source": "Simon Willison",
@@ -2512,24 +2515,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Moves the conversation past job-loss anxiety to systemic questions about work design, skill value, and organizational transformation—relevant for educators planning curriculum and clergy advising congregants on career discernment",
     "Suggests a framework (Every's Thesis Statements) for thinking through what remains uniquely human when routine cognitive tasks are automated"
-   ]
-  },
-  {
-   "title": "Quoting Linus Torvalds",
-   "link": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-22T21:04:26+00:00",
-   "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect those things have been trained by people who may not be quite as stubborn as I am. But while the AI was ready to give up se",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Linus Torvalds used AI as a debugging assistant to help solve a complex kernel problem. The AI initially suggested the issue was unsolvable multiple times, but Torvalds persisted and ultimately found a solution with the AI's help on the routine parts of the work.",
-   "whyMatters": [
-    "Shows practical value of AI in technical problem-solving when paired with human persistence and domain expertise",
-    "Highlights a current limitation: AI systems trained to recognize impossibility may prematurely defer to humans, potentially missing solvable problems"
    ]
   },
   {
@@ -3333,26 +3318,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Public good framing: AI infrastructure investment targeting fundamental research rather than consumer products",
     "Establishes model where frontier AI resources fund academic and scientific collaboration"
-   ]
-  },
-  {
-   "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-07-21T15:16:30+00:00",
-   "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google DeepMind has released new Gemini model variants: Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, expanding the model lineup.",
-   "whyMatters": [
-    "Provides new options for different deployment scenarios (lite for efficiency, cyber for security focus)",
-    "Continuing model proliferation allows organizations to select versions matched to specific use cases and constraints"
    ]
   }
  ]
