@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-03T19:41:02.329822+00:00",
+ "generatedAt": "2026-09-04T00:52:25.426166+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,81 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+   "link": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-03T21:56:21+00:00",
+   "summary": "ChatGPT, Claude, and Grok all suffered outages at nearly the exact same time for reasons that remain murky.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Prediction Market Betting Is Getting People Banned and Arrested",
+   "link": "https://www.wired.com/story/prediction-market-betting-is-getting-people-banned-and-arrested/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-03T21:48:24+00:00",
+   "summary": "This week on Uncanny Valley, we dig into the latest prediction market buzz, Flock’s AI-powered police search tool, and how tech bros don’t know how to talk about “rouge” AI agents",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+   "link": "https://www.latent.space/p/astra",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-03T21:09:41+00:00",
+   "summary": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!1Mu3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff60dbb10-9849-49e5-8569-5dfba8440b9c_2486x1390.png",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "ChatGPT, Grok, and Claude all went down at the same time",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-03T21:04:39+00:00",
+   "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "GPT‑6 Astra",
+   "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-03T20:18:41+00:00",
+   "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "AI in the News and Current Affairs: AI Governance, AI Creativity and More #71",
    "link": "https://aiandfaith.org/aif-podcast/ai-news-governance-creativity/",
    "source": "AI and Faith",
@@ -139,21 +214,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T18:06:24+00:00",
    "summary": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "ChatGPT, Grok, and Claude all went down at the same time",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-03T18:03:46+00:00",
-   "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -272,6 +332,21 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+   "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-03T13:15:00+00:00",
+   "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
    "link": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
    "source": "Wired · AI",
@@ -293,6 +368,36 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T12:43:09+00:00",
    "summary": "The long-rumored deal will give the chip giant access to—and help it promote—a huge repository of open-source AI models and data sets.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-03T12:00:00+00:00",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-03T12:00:00+00:00",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -353,6 +458,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T01:32:02+00:00",
    "summary": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment with Hatch, its most advanced AI project yet.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Safety overview: GPT-6 Astra",
+   "link": "https://openai.com/index/safety-overview-gpt-6-astra",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-03T00:00:00+00:00",
+   "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -573,23 +693,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "The Logical End Point of AI Job Interviews Is Two Bots Talking to Each Other",
-   "link": "https://www.wired.com/story/bot-vs-bot-job-interview-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-02T15:51:46+00:00",
-   "summary": "Christopher was sick of being ghosted by AI recruiters. So he unleashed ChatGPT on his robot interviewer.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "The Republican Nominee for New York Governor Made a Creepy, AI-Generated Video of Mamdani and Hochul",
    "link": "https://www.404media.co/bruce-blakeman-ai-campaign-video-mamdani-hochul/",
    "source": "404 Media",
@@ -656,21 +759,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-02T12:00:00+00:00",
    "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
-   "link": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-02T10:00:00+00:00",
-   "summary": "Meet the AI police who can make or break careers—in publishing and beyond.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2384,24 +2472,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "More than just code review",
-   "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-22T15:56:54+00:00",
-   "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Effective use of coding agents requires developers to give clear instructions and verify outputs, but line-by-line code review isn't always the best verification method. Simon Willison argues that developers need confidence in both directing the agent's work and validating the results, though there are alternative approaches beyond traditional code review.",
-   "whyMatters": [
-    "Understanding how to work productively with AI coding assistants is becoming a core skill for modern developers, shifting from pure coding ability to human-AI collaboration",
-    "This reflects a broader pattern in AI tools: the bottleneck is increasingly human judgment and oversight rather than the AI's capability"
-   ]
-  },
-  {
    "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
    "link": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
    "source": "Latent Space",
@@ -2586,21 +2656,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing Intelligence Age",
-   "link": "https://openai.com/index/introducing-intelligence-age",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-20T07:00:00+00:00",
-   "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
    "link": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
    "source": "Latent Space",
@@ -2616,26 +2671,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals a paradigm shift in AI training methodology—moving away from parameter scaling as the primary bottleneck, which affects how labs allocate compute resources and R&D strategy",
     "Directly relevant to understanding current frontier model capabilities and the economic/technical foundations of modern AI systems that educators and technologists should grasp"
-   ]
-  },
-  {
-   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-   "link": "https://openai.com/index/stampli",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-20T00:00:00+00:00",
-   "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Stampli, a fintech company, used OpenAI's Codex and ChatGPT Work to compress weeks of production work into days for a product launch with a fixed deadline.",
-   "whyMatters": [
-    "This is a straightforward case study of AI significantly accelerating time-to-market for commercial products when resources are constrained",
-    "For business leaders and project managers, it illustrates concrete ROI from AI tooling—not speculative benefits, but measurable compression of release cycles"
    ]
   },
   {
@@ -2677,26 +2712,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Offering Zero Data Retention for frontier models",
-   "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-19T19:00:00+00:00",
-   "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI is reaffirming and expanding its zero data retention policy for eligible API customers and introducing Private Safety Processing, which performs AI safety checks without retaining user data.",
-   "whyMatters": [
-    "Addresses privacy concerns from enterprise customers who are hesitant to use frontier models with proprietary data",
-    "Moves safety evaluation offline-path so compliance and security can coexist with strict confidentiality guarantees"
-   ]
-  },
-  {
    "title": "[AINews] Memory prices up 500% in 12 months",
    "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
    "source": "Latent Space",
@@ -2712,26 +2727,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Threatens to make AI model training and deployment substantially more expensive, potentially slowing innovation and widening the cost gap between well-funded and independent researchers",
     "May force difficult tradeoffs in AI development priorities and accessibility for organizations with limited hardware budgets"
-   ]
-  },
-  {
-   "title": "Replit expands access to software creation with GPT-5.6 Luna",
-   "link": "https://openai.com/index/replit",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-19T07:00:00+00:00",
-   "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Replit announced Free Mode powered by GPT-5.6 Luna, allowing anyone to generate working software without token costs. The platform aims to remove cost barriers to software creation.",
-   "whyMatters": [
-    "Lowers barriers to entry for coding and software creation, potentially democratizing access to AI-assisted development for students and educators",
-    "Relevant to tech education: removes financial friction that has limited students and educators from hands-on experience with code-generation tools"
    ]
   },
   {
@@ -2768,24 +2763,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Model routing is becoming a practical tool for enterprises managing multiple frontier models and their costs",
     "Demonstrates how organizations are operationalizing AI tool selection rather than defaulting to single large models"
-   ]
-  },
-  {
-   "title": "[AINews] Stripe buys OpenRouter for $7B",
-   "link": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-17T23:13:41+00:00",
-   "summary": "No GPUs, no Agents, just really, really, really good infra and distribution.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/QHBjufYK8TA",
-   "themes": [],
-   "aiSummary": "Stripe has acquired OpenRouter, an AI infrastructure and routing platform, for $7 billion. The acquisition focuses on OpenRouter's strengths in API infrastructure and distribution rather than novel AI models or agent capabilities.",
-   "whyMatters": [
-    "Consolidates AI infrastructure layers—Stripe gains control over a key distribution point for AI model access, reshaping how developers route requests across different providers",
-    "Signals prioritization of operational foundation over frontier capabilities—the deal values reliable plumbing and market access over cutting-edge model development"
    ]
   },
   {
