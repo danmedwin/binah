@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-05T00:46:24.953188+00:00",
+ "generatedAt": "2026-09-05T08:53:18.844952+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -95,7 +95,7 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/gpt-6-and-5-6-pelicans-html.webp",
+   "image": "https://static.simonwillison.net/static/2026/astra-grid-3.webp",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
@@ -706,6 +706,23 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "GPT-6 Astra: A new generation of intelligence",
+   "link": "https://openai.com/index/gpt-6-astra",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-03T11:00:00+00:00",
+   "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2067,24 +2084,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
-   "whyMatters": [
-    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
-    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
-   ]
-  },
-  {
    "title": "Learning never stops: How AI makes learning continuous",
    "link": "https://openai.com/index/learning-never-stops",
    "source": "OpenAI News",
@@ -2100,6 +2099,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
     "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
+   ]
+  },
+  {
+   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
+   "whyMatters": [
+    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
+    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
    ]
   },
   {
@@ -2454,24 +2471,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Educators need practical frameworks for integrating or restricting AI tools in ways that support learning goals rather than undermine them",
     "Schools are actively grappling with how to set sustainable AI policies as a core education policy matter"
-   ]
-  },
-  {
-   "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-   "link": "https://openai.com/index/gpt-5-6-in-kiro",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-24T12:00:00+00:00",
-   "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released GPT-5.6 as an option in Kiro, its platform for developers to plan, build, review, and test software with improved cost-performance characteristics.",
-   "whyMatters": [
-    "This represents a continued refinement of OpenAI's pricing and performance tradeoffs for developers using their platform",
-    "It signals OpenAI's ongoing focus on making models more accessible to developers through better economic efficiency"
    ]
   },
   {
