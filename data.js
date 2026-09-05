@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-05T13:00:59.290382+00:00",
+ "generatedAt": "2026-09-05T13:46:56.552316+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -3290,24 +3290,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses whether AI can substitute for human spiritual care in vulnerable moments—central to religious and educational ethics",
     "Questions what 'presence' means theologically and pastorally, important for clergy and faith communities considering AI tools in ministry"
-   ]
-  },
-  {
-   "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-   "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-07-22T13:38:54+00:00",
-   "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind is committing $40 million in AI compute credits to support the Genesis Mission, a program accelerating scientific discovery.",
-   "whyMatters": [
-    "Public good framing: AI infrastructure investment targeting fundamental research rather than consumer products",
-    "Establishes model where frontier AI resources fund academic and scientific collaboration"
    ]
   }
  ]
