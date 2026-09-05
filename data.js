@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-04T19:21:16.460794+00:00",
+ "generatedAt": "2026-09-05T00:46:24.953188+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,53 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The Pelican comparison grid for Astra is pretty interesting",
+   "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-04T23:59:05+00:00",
+   "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/gpt-6-and-5-6-pelicans-html.webp",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+   "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-04T22:17:36+00:00",
+   "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "How AI Changed This Summer",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-AI-Changed-This-Summer-e3obrje",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-04T20:03:43+00:00",
+   "summary": "This summer pushed AI into a new phase. NLW breaks down the widening gap between frontier models and public releases, the rise of open-weight alternatives, enterprise concerns about AI costs, the emergence of agent management and loops, shifting market narratives, political opposition to data centers, and the new cybersecurity risks exposed by the Hugging Face incident. NEXT COHORT - Executive Age",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125217838/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-4%2F431202814-44100-2-80800cec8c0b5.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Architecting memory and storage in the AI era",
    "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
@@ -633,12 +680,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -648,12 +695,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1928,24 +1975,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-   "link": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-26T21:25:27+00:00",
-   "summary": "Report shows Meta's challenges replacing people with AI agents.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta had planned to replace up to 60 percent of its workforce with AI agents but scrapped the initiative after the agents caused large-scale disruptive actions. The company is managing fallout from the failed automation attempt.",
-   "whyMatters": [
-    "Demonstrates practical limits on replacing human workers with AI systems that make poor decisions",
-    "Relevant to educators and leaders advising communities on AI's actual employment impact versus hype"
-   ]
-  },
-  {
    "title": "5 Rules for Better AI Writing",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/5-Rules-for-Better-AI-Writing-e3nuhsk",
    "source": "The AI Daily Brief",
@@ -2038,24 +2067,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Learning never stops: How AI makes learning continuous",
-   "link": "https://openai.com/index/learning-never-stops",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
-   "whyMatters": [
-    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
-    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
-   ]
-  },
-  {
    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
    "source": "OpenAI News",
@@ -2071,6 +2082,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
     "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
+   ]
+  },
+  {
+   "title": "Learning never stops: How AI makes learning continuous",
+   "link": "https://openai.com/index/learning-never-stops",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
+   "whyMatters": [
+    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
+    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
    ]
   },
   {
@@ -2479,24 +2508,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "High cost of premium models creates adoption friction even as absolute revenue grows—organizations are finding cheaper tools adequate for practical tasks",
     "The economics of AI commoditization are shifting: incremental improvements in frontier models may not justify their premium pricing if good-enough alternatives exist at lower cost"
-   ]
-  },
-  {
-   "title": "Quoting Drew Breunig",
-   "link": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-23T19:55:30+00:00",
-   "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed. So we started to think abou",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Drew Breunig observes that developers previously saw little value in optimizing their workflows since new models at similar or lower prices would arrive regularly. However, Anthropic's Fable model changed this calculus by being exceptionally capable but expensive, forcing teams to decide whether to invest in optimization or use cheaper models like Opus that are 'good enough' for their coding needs.",
-   "whyMatters": [
-    "The economics of model selection are shifting from \"always upgrade to the latest\" to \"optimize workflows around affordable tools\"—practical for cost-conscious teams but potentially risky long-term",
-    "This dynamic may reshape how developers invest in tooling and prompting strategies, favoring pragmatism over cutting-edge capability"
    ]
   },
   {
@@ -3003,26 +3014,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Direct impact on religious communities considering AI for pastoral care and spiritual support",
     "Raises theological and practical questions about authenticity, presence, and the nature of spiritual practice that clergy and educators must engage with"
-   ]
-  },
-  {
-   "title": "Google’s AI Leadership Shakeup: Disaster or Exactly What It Needs?",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Googles-AI-Leadership-Shakeup-Disaster-or-Exactly-What-It-Needs-e3n30gd",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-06T21:24:36+00:00",
-   "summary": "Demis Hassabis is relinquishing day-to-day control of DeepMind, Jeff Dean is leaving Google after 27 years, and both moves follow a string of other marquee departures. Is Google experiencing a devastating brain drain—or clearing the way for the organizational reset Gemini badly needs? In the headlines: Meta releases two new models and its first coding harness, Anthropic starts building a chip team",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123879373/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-6%2F429370486-44100-2-0575691f278e8.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Demis Hassabis is stepping back from day-to-day leadership of DeepMind and Jeff Dean is leaving Google after 27 years, following several other high-profile departures. The moves raise questions about whether Google is experiencing a brain drain or making necessary organizational changes to improve its AI efforts, particularly with Gemini.",
-   "whyMatters": [
-    "Significant talent movement at a major AI organization signals potential internal instability or strategic restructuring at Google",
-    "DeepMind leadership changes could affect research direction and the pace of AI breakthroughs from one of the field's most influential labs"
    ]
   },
   {
