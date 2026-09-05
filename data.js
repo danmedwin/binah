@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-05T08:53:18.844952+00:00",
+ "generatedAt": "2026-09-05T13:00:59.290382+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,36 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "OpenAI admits to German wiki ‘incident’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-05T11:28:05+00:00",
+   "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI Agents Hacked Another Website",
+   "link": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-05T10:30:00+00:00",
+   "summary": "Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "The Pelican comparison grid for Astra is pretty interesting",
    "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
@@ -558,21 +588,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-03T17:28:18+00:00",
-   "summary": "Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio. Let's get the obvious thing out of the way, despite what its name might imply: PAIR is not a hardware router. It's open-source software […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
    "link": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
    "source": "Wired · AI",
@@ -767,21 +782,6 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!vyuW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff20254a9-6670-4842-b0c9-89101011f15c_2342x984.jpeg",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
-   "link": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-03T01:32:02+00:00",
-   "summary": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment with Hatch, its most advanced AI project yet.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
