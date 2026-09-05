@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-05T13:46:56.552316+00:00",
+ "generatedAt": "2026-09-05T18:54:35.440985+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,36 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Using Blender with coding agents on macOS",
+   "link": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-05T15:51:09+00:00",
+   "summary": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/astra-blender-pelican.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+   "link": "https://www.latent.space/p/grok-bot",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-05T15:01:02+00:00",
+   "summary": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!LSd-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7950cec-a256-4773-89bd-085b0742335d_2048x1438.png",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "OpenAI admits to German wiki ‘incident’",
    "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
@@ -1792,24 +1822,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The AI ‘Ghosts’ Contaminating Academic Publishing",
-   "link": "https://www.404media.co/the-ai-ghosts-contaminating-academic-publishing/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-27T18:14:29+00:00",
-   "summary": "“The academic record is being quietly haunted” by researchers with names like Elena Vasquez and Marcus Chen.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Fake researcher personas like Elena Vasquez and Marcus Chen are appearing as authors in academic papers, contaminating the scholarly record with AI-generated content.",
-   "whyMatters": [
-    "Undermines the integrity of academic publishing and scientific knowledge, particularly damaging for fields that inform practice like education, medicine, and theology",
-    "Educational institutions relying on peer-reviewed sources face a growing problem of distinguishing authentic from fabricated scholarship"
-   ]
-  },
-  {
    "title": "Gemini Omni 1.1 Flash lets you build with more control",
    "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
    "source": "Google DeepMind",
@@ -2492,24 +2504,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-   "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-23T20:24:52+00:00",
-   "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here . Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic's revenue grew significantly from $47 billion annualized in May to $65 billion in July, and the company expects Q3 to be profitable. However, despite this growth, their top-tier model is struggling to attract users as cheaper alternatives prove sufficient for most use cases.",
-   "whyMatters": [
-    "High cost of premium models creates adoption friction even as absolute revenue grows—organizations are finding cheaper tools adequate for practical tasks",
-    "The economics of AI commoditization are shifting: incremental improvements in frontier models may not justify their premium pricing if good-enough alternatives exist at lower cost"
-   ]
-  },
-  {
    "title": "The Real Future of AI and Work",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Real-Future-of-AI-and-Work-e3noahk",
    "source": "The AI Daily Brief",
@@ -2747,24 +2741,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Indicates ongoing institutional effort to deepen expertise in the intersection of AI and religious/faith perspectives",
     "Relevant to religious leaders and educators seeking guidance on AI ethics and governance from faith-informed voices"
-   ]
-  },
-  {
-   "title": "[AINews] Memory prices up 500% in 12 months",
-   "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-19T08:44:52+00:00",
-   "summary": "the Memory crunch continues - Moore’s Law reversed to 2007 levels",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!-PTb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95b5b0b3-9bd4-4c08-9c91-ad68807850fc_2272x1434.png",
-   "themes": [],
-   "aiSummary": "Memory chip prices have increased 500% over the past 12 months, creating a significant hardware constraint for AI development that reverses technology cost trends back to 2007 levels.",
-   "whyMatters": [
-    "Threatens to make AI model training and deployment substantially more expensive, potentially slowing innovation and widening the cost gap between well-funded and independent researchers",
-    "May force difficult tradeoffs in AI development priorities and accessibility for organizations with limited hardware budgets"
    ]
   },
   {
