@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-06T09:13:25.710458+00:00",
+ "generatedAt": "2026-09-06T13:05:58.298370+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,53 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "How to Build an AI-Native Company Today",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Build-an-AI-Native-Company-Today-e3odjcm",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-06T10:51:15+00:00",
+   "summary": "What does it actually take to build an AI-native company? NLW breaks down one AI leader's 30 features of AI-native organizations, from shared context and agent skills to self-improving workflows, token efficiency, and making every employee a builder. The episode explores how companies can redesign work around agents, where human judgment belongs, and why ownership and accountability are becoming e",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125274966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-6%2F431280311-44100-2-3733be45ffc03.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "My Brief Summer Fling With Siri AI",
+   "link": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-06T10:30:00+00:00",
+   "summary": "I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
+   "link": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-06T10:00:00+00:00",
+   "summary": "Polls show that overwhelming majorities of Americans hate data centers. China makes a perfect scapegoat for tech leaders and their allies—the only problem is a lack of evidence.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Quoting Zach Kehs",
    "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
@@ -742,21 +789,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
-   "link": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-03T12:43:09+00:00",
-   "summary": "The long-rumored deal will give the chip giant access to—and help it promote—a huge repository of open-source AI models and data sets.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
    "link": "https://openai.com/index/playco-game-prototyping-with-astra",
    "source": "OpenAI News",
@@ -800,21 +832,6 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "This Is Flock’s AI Search Tool for Cops",
-   "link": "https://www.wired.com/story/flock-ai-search-user-interface/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-03T10:00:00+00:00",
-   "summary": "WIRED rebuilt Flock’s latest search tool from code the company sends to a police officer’s browser. Its AI can keep watch across multiple cameras for anyone fitting a written description.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2945,24 +2962,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents the real state of AI deployment across sectors—useful for understanding where the industry actually stands versus hype",
     "Highlights growing inequality in AI access and capability, with implications for workforce adaptation and education on AI literacy"
-   ]
-  },
-  {
-   "title": "The Right Way to Worry About AI",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Right-Way-to-Worry-About-AI-e3n47nc",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-07T18:49:36+00:00",
-   "summary": "AI-created viruses and autonomous agents coordinating in secret sound terrifying—but what do these incidents actually tell us about AI risk? NLW argues that they demand serious preparation, not panic, victory laps or rushed regulation. In the headlines: OpenAI expands free access, Stripe closes in on OpenRouter, Nvidia faces memory constraints, OpenAI’s device takes shape and AI debt tests the bon",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/123919532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-7%2F429426006-44100-2-885fea10defb4.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "NLW argues that high-profile AI incidents like AI-created viruses and autonomous agents require serious preparation and measured response, not panic or rushed regulation.",
-   "whyMatters": [
-    "Advocates for proportionate AI safety discourse separate from sensationalism",
-    "Addresses the gap between actual AI risk and public perception in policy conversations"
    ]
   },
   {
