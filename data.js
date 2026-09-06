@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-06T14:03:06.064345+00:00",
+ "generatedAt": "2026-09-06T18:57:37.268668+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,21 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "The purpose of DNS is to spread scams",
+   "link": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-06T14:40:07+00:00",
+   "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blo",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "How to Build an AI-Native Company Today",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Build-an-AI-Native-Company-Today-e3odjcm",
    "source": "The AI Daily Brief",
@@ -133,12 +148,42 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "An Alien Mind",
+   "link": "https://openai.com/index/an-alien-mind",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-06T09:00:00+00:00",
+   "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Quoting Zach Kehs",
    "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-09-06T08:42:49+00:00",
    "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Research acceleration: The view inside OpenAI",
+   "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-06T08:00:00+00:00",
+   "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -789,12 +834,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -804,12 +849,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2145,24 +2190,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Learning never stops: How AI makes learning continuous",
-   "link": "https://openai.com/index/learning-never-stops",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
-   "whyMatters": [
-    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
-    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
-   ]
-  },
-  {
    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
    "source": "OpenAI News",
@@ -2178,6 +2205,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
     "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
+   ]
+  },
+  {
+   "title": "Learning never stops: How AI makes learning continuous",
+   "link": "https://openai.com/index/learning-never-stops",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
+   "whyMatters": [
+    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
+    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
    ]
   },
   {
@@ -2288,24 +2333,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows practical economic impact: AI lowering barriers to software creation and accelerating product iteration",
     "Relevant to education and workforce training—raises questions about what skills workers need when AI handles coding tasks"
-   ]
-  },
-  {
-   "title": "EVE Online: The Move to Python 3 Begins!",
-   "link": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-25T22:59:30+00:00",
-   "summary": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, foll",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "EVE Online, the long-running multiplayer game built on Stackless Python since 2003, is beginning a major upgrade to Python 3 using automated tooling (futurize) on its 2.4 million lines of code. The game's last major Python version update was 16 years ago to Python 2.7.",
-   "whyMatters": [
-    "Demonstrates large-scale software maintenance challenges in production systems that have run unmaintained for decades",
-    "Relevant to understanding technical debt and upgrade strategies in systems built on aging infrastructure"
    ]
   },
   {
@@ -2437,44 +2464,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI engineering as a discipline is becoming prominent enough to warrant dedicated coverage from major figures",
     "This reflects the field's maturation from research-focused to production-focused concerns"
-   ]
-  },
-  {
-   "title": "Disrupting a new covert influence campaign from Russia",
-   "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-25T00:00:00+00:00",
-   "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI removed Russia-linked accounts that used AI to promote disinformation through a fake Israel-based think tank and a \"sovereignty\" index designed to praise Russia and criticize the West. The action disrupted a coordinated influence campaign.",
-   "whyMatters": [
-    "Shows AI-enabled disinformation at scale and demonstrates one company's enforcement against state-sponsored manipulation",
-    "Relevant to educators and civic leaders concerned with teaching critical evaluation of AI-generated content and information integrity"
-   ]
-  },
-  {
-   "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-   "link": "https://openai.com/index/introducing-admin-plugin",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-25T00:00:00+00:00",
-   "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI released an Admin plugin for ChatGPT Work and Codex that lets administrators analyze workspace usage, manage members and permissions, adjust resource limits, and process admin requests.",
-   "whyMatters": [
-    "Enterprise feature for organizational governance: enables oversight and control in workplace AI deployments",
-    "Addresses practical need for compliance, access management, and resource allocation in scaled team environments"
    ]
   },
   {
