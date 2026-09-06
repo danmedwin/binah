@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-06T00:44:47.624214+00:00",
+ "generatedAt": "2026-09-06T09:13:25.710458+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,21 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Quoting Zach Kehs",
+   "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-06T08:42:49+00:00",
+   "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Introducing GPT-6 Astra for developers",
    "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
@@ -2464,25 +2479,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "llm-anthropic 0.27",
-   "link": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-24T16:27:04+00:00",
-   "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - re",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The llm-anthropic plugin version 0.27 was released to maintain compatibility with Anthropic's new v1.0.0 Python library, which changed its underlying HTTP client from httpx to httpx2. This mirrors a similar migration OpenAI completed in their v3.0.0 release.",
-   "whyMatters": [
-    "This is a routine maintenance update for developers using the Anthropic plugin; major library version bumps can cause integration friction across the ecosystem"
-   ]
-  },
-  {
    "title": "How to encourage smarter AI use in the classroom",
    "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
    "source": "MIT Tech Review · AI",
@@ -3227,24 +3223,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses the gap between AI industry ethics and religious/faith community engagement—a core concern for educators and clergy navigating AI's impact",
     "Argues for institutional integration of religious ethical frameworks into AI governance, not as afterthought but as foundational voices"
-   ]
-  },
-  {
-   "title": "Surviving the New Economics of a Post-Agentic World",
-   "link": "https://share.transistor.fm/s/8a2e4fc0",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-07-23T09:00:00+00:00",
-   "summary": "The agentic transformation isn’t coming. It has already begun. Companies are deploying thousands — and sometimes tens of thousands — of AI agents. Enterprise software giants are watching their old economic moats erode. Capital is moving, productivity is being redefined, and human labor is being repriced in real time. In this Fully Connected episode, Daniel and Chris explore the new economics of a ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/8a2e4fc0/e08735dd.mp3",
-   "image": "https://img.transistorcdn.com/TmDpJWeO5WG82YkCzAts4GM9yMR0WUuJCfhEQDuH3IY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wNzRi/NTFhMzQxNTUxZWNm/YWNmNzMwYmI3YTg2/MzJjOC5wbmc.jpg",
-   "themes": [],
-   "aiSummary": "According to this episode of Practical AI, AI agents are already being deployed at scale across enterprises—not in some future scenario. The shift is disrupting traditional software business models, capital allocation patterns, and the pricing of human labor in real time.",
-   "whyMatters": [
-    "Documents the accelerating pace of agent-based automation replacing earlier software economics and competitive advantages",
-    "Indicates immediate practical pressure on workforce and business model adaptation, not theoretical future concerns"
    ]
   }
  ]
