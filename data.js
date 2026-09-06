@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-05T18:54:35.440985+00:00",
+ "generatedAt": "2026-09-06T00:44:47.624214+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,23 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Introducing GPT-6 Astra for developers",
+   "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-05T23:27:48+00:00",
+   "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026-09-05/astra-video-pelican.webp",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Using Blender with coding agents on macOS",
    "link": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
@@ -2486,24 +2503,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Your executable is a SQLite database",
-   "link": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-24T11:38:15+00:00",
-   "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a numb",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Farid Zakaria describes a Linux technique that embeds SQLite database files directly as executable binaries by setting the SQLite application ID field to 'SELF' (Structured Executable & Linkable Format) and arranging ELF executable components within the database structure.",
-   "whyMatters": [
-    "This is a technical proof-of-concept showing creative use of file format overlap, with potential implications for binary distribution and execution patterns",
-    "The technique has limited practical application but illustrates how low-level system design assumptions can be creatively repurposed"
-   ]
-  },
-  {
    "title": "The Real Future of AI and Work",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Real-Future-of-AI-and-Work-e3noahk",
    "source": "The AI Daily Brief",
@@ -3246,26 +3245,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents the accelerating pace of agent-based automation replacing earlier software economics and competitive advantages",
     "Indicates immediate practical pressure on workforce and business model adaptation, not theoretical future concerns"
-   ]
-  },
-  {
-   "title": "Can a Chatbot Be Present? Why Comfort Is Not the Same as Accompaniment",
-   "link": "https://aiandfaith.org/insights/can-a-chatbot-be-present/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-07-22T19:24:07+00:00",
-   "summary": "A chaplain was paged to the bedside of a woman whose husband had just died. No warning. By the time the chaplain got there, the woman was standing in the",
-   "religionScore": 5,
-   "religionHits": [
-    "chaplain"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A chaplain reflects on the difference between comfort and accompaniment in grief, examining whether a chatbot can provide genuine spiritual presence at moments of loss. The piece draws on real pastoral experience.",
-   "whyMatters": [
-    "Directly addresses whether AI can substitute for human spiritual care in vulnerable moments—central to religious and educational ethics",
-    "Questions what 'presence' means theologically and pastorally, important for clergy and faith communities considering AI tools in ministry"
    ]
   }
  ]
