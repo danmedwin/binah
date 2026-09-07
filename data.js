@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-07T15:13:04.625206+00:00",
+ "generatedAt": "2026-09-07T16:19:48.371209+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -102,7 +102,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "The complex corporate web behind a $3.2 billion AI data center",
-   "link": "https://arstechnica.com/ai/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
+   "link": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
    "source": "Ars Technica · AI",
    "category": "ai",
    "date": "2026-09-07T11:00:03+00:00",
