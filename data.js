@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-06T18:57:37.268668+00:00",
+ "generatedAt": "2026-09-07T00:48:07.801246+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,36 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Research acceleration: The view inside OpenAI",
+   "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-06T23:57:40+00:00",
+   "summary": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much ev",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-06T23:43:53+00:00",
+   "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "The purpose of DNS is to spread scams",
    "link": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
    "source": "Simon Willison",
@@ -148,6 +178,21 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "There's No Limit to How Bad Code Can Get",
+   "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-06T09:08:06+00:00",
+   "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target:",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "An Alien Mind",
    "link": "https://openai.com/index/an-alien-mind",
    "source": "OpenAI News",
@@ -169,21 +214,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-06T08:42:49+00:00",
    "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Research acceleration: The view inside OpenAI",
-   "link": "https://openai.com/index/research-acceleration-view-inside-openai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-06T08:00:00+00:00",
-   "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -486,23 +516,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-04T11:16:10+00:00",
-   "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2080,24 +2093,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Qwen3.8-Flash-Next",
-   "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-26T23:52:58+00:00",
-   "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B parameters but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried t",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026-08-27/IMG_7667.png",
-   "themes": [],
-   "aiSummary": "Qwen released Qwen3.8-Flash-Next, a multimodal mixture-of-experts (MoE) model with 125B total parameters but only 6B active parameters, serving as an early preview of Qwen4 architecture.",
-   "whyMatters": [
-    "Open-weights models with efficient MoE architecture make advanced AI capabilities more accessible to researchers and educators with limited compute budgets",
-    "The design preview signals architectural trends toward sparse models that balance capability with efficiency"
-   ]
-  },
-  {
    "title": "5 Rules for Better AI Writing",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/5-Rules-for-Better-AI-Writing-e3nuhsk",
    "source": "The AI Daily Brief",
@@ -2259,24 +2254,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates concrete gaps in current AI reasoning and problem-solving, useful for understanding model limitations",
     "Relevant for educators assessing what skills remain distinctly human and how to teach critical thinking in an AI era"
-   ]
-  },
-  {
-   "title": "Quoting Paul Dix",
-   "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-26T08:07:55+00:00",
-   "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling t",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A developer notes that AI successfully wrote 1 million lines of code which was then refined over months to create reliable software now running on millions of machines. The observation highlights AI's capability in large-scale code generation and iterative improvement.",
-   "whyMatters": [
-    "Shows AI's practical impact on software production at scale, not just proof-of-concept",
-    "Demonstrates the shift toward AI-assisted development workflows and what that means for developer skills and training"
    ]
   },
   {
