@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-07T16:19:48.371209+00:00",
+ "generatedAt": "2026-09-07T20:23:59.101380+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -1769,26 +1769,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects ongoing tension between AI-enabled wearables and privacy rights—a concern for communities wary of surveillance",
     "Incomplete privacy fixes suggest need for stronger regulatory frameworks around recording technology"
-   ]
-  },
-  {
-   "title": "ICE Plans to Spend Millions on Boston Dynamics Dog Robots",
-   "link": "https://www.404media.co/ice-plans-to-spends-millions-on-boston-dynamics-dog-robots/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-08-28T14:04:55+00:00",
-   "summary": "ICE wants the robot dogs to improve “officer safety.”",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "U.S. Immigration and Customs Enforcement is planning to spend millions on Boston Dynamics' robot dogs, citing improved officer safety. The deployment of robotic surveillance and enforcement tools raises questions about their use in enforcement operations.",
-   "whyMatters": [
-    "Impacts vulnerable communities and raises concerns about surveillance technology deployment by government agencies",
-    "Relevant for educators and religious communities engaged in social justice and civil liberties questions"
    ]
   },
   {
