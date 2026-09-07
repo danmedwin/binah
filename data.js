@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-07T00:48:07.801246+00:00",
+ "generatedAt": "2026-09-07T10:01:51.317255+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,21 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Supporting independent journalism in Ukraine",
+   "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-07T00:00:00+00:00",
+   "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Research acceleration: The view inside OpenAI",
    "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
@@ -2185,24 +2200,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
-   "whyMatters": [
-    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
-    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
-   ]
-  },
-  {
    "title": "Learning never stops: How AI makes learning continuous",
    "link": "https://openai.com/index/learning-never-stops",
    "source": "OpenAI News",
@@ -2218,6 +2215,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
     "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
+   ]
+  },
+  {
+   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
+   "whyMatters": [
+    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
+    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
    ]
   },
   {
@@ -2405,24 +2420,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates the integrated systems thinking required to maintain competitive advantage—it's not one breakthrough but compounding improvements across hardware and software",
     "Cost reduction at scale directly affects accessibility of AI tools for educators, nonprofits, and communities that depend on affordability"
-   ]
-  },
-  {
-   "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-   "link": "https://openai.com/index/jalapeno-first-results",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-25T07:00:00+00:00",
-   "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI's Jalapeño chip delivers faster inference with lower power consumption and reduced latency while maintaining high throughput on modern AI models.",
-   "whyMatters": [
-    "Customized inference hardware becomes critical as AI inference costs grow—faster, efficient inference is central to scaling AI services",
-    "Lower power consumption and latency improvements matter for deployment in resource-constrained settings, including educational and nonprofit environments"
    ]
   },
   {
