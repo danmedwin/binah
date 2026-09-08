@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-08T01:02:18.987645+00:00",
+ "generatedAt": "2026-09-08T09:27:56.678107+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,23 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "llm 0.35",
+   "link": "https://simonwillison.net/2026/Sep/7/llm/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-07T23:54:54+00:00",
+   "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Creepy crawlies",
    "link": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
@@ -1457,23 +1474,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!s9oN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ec85997-40a7-4337-b20d-a3574ba4707e_1280x720.png",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "datasette-mcp 0.2",
-   "link": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-01T15:30:12+00:00",
-   "summary": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. #1 Now depends on mcp>=2.1.1 . This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself. Tags: datasette , model-cont",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
