@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-07T20:23:59.101380+00:00",
+ "generatedAt": "2026-09-08T01:02:18.987645+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,81 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Creepy crawlies",
+   "link": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-07T23:08:58+00:00",
+   "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there a",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Quoting Jakub Pachocki",
+   "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-07T22:26:25+00:00",
+   "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+   "link": "https://www.latent.space/p/aeo",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-07T21:32:37+00:00",
+   "summary": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!iyRI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8e4ec6-5470-4b1e-831c-cbdd0b864f2b_2910x1598.png",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Video compressor",
+   "link": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-07T18:29:07+00:00",
+   "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , video , webassembly , claude , claude-code , claude-mythos-fable",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026-09-07/video-compressor.webp",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Mercator ↔ Equal Earth",
+   "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-07T16:24:16+00:00",
+   "summary": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "The Multiplayer AI Sprint: Build Your Team’s First Shared Agent",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Multiplayer-AI-Sprint-Build-Your-Teams-First-Shared-Agent-e3of7al",
@@ -984,6 +1059,40 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "llm-openrouter 0.7.1",
+   "link": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-02T20:23:26+00:00",
+   "summary": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "llm 0.34",
+   "link": "https://simonwillison.net/2026/Sep/2/llm/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-02T19:23:52+00:00",
+   "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 . Tags: llm",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Why Fable 5.1 Is Worth the Upgrade",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Fable-5-1-Is-Worth-the-Upgrade-e3o8i62",
    "source": "The AI Daily Brief",
@@ -1007,6 +1116,23 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-02T18:13:54+00:00",
    "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "llm-anthropic 0.28",
+   "link": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-02T17:59:32+00:00",
+   "summary": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , anthropic , claude , claude-mythos-fable",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1352,21 +1478,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Python 3.15.0 candidate 2 is here!",
-   "link": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-01T14:59:18+00:00",
-   "summary": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Pyt",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "This 'Digital Camouflage' Shirt Confuses AI-Powered Surveillance Cameras",
    "link": "https://www.404media.co/this-digital-camouflage-shirt-confuses-ai-powered-surveillance-cameras/",
    "source": "404 Media",
@@ -1444,36 +1555,6 @@ window.NEWS_DATA = {
    "themes": [
     "ethics"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Introducing wrapture",
-   "link": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-31T23:59:36+00:00",
-   "summary": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a differ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Quoting Andrew Digby",
-   "link": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-31T22:25:02+00:00",
-   "summary": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort. — Andrew Digby , providing the best news of the year Tags: kakapo",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1600,26 +1681,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Understanding ChatGPT Work",
-   "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-30T23:59:47+00:00",
-   "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026-08-30/IMG_7741.jpeg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI launched ChatGPT Work, a product that Simon Willison breaks down as actually consisting of two distinct offerings, with the cloud-based version accessible through chatgpt.com and mobile apps being the more significant one. Willison notes the product has been rapidly iterated on since its July announcement and describes it as both confusing and powerful.",
-   "whyMatters": [
-    "Clarifies the actual structure and capabilities of ChatGPT Work for users trying to understand what OpenAI is offering, cutting through marketing confusion",
-    "Matters for educators and organizations evaluating whether ChatGPT Work is suitable for their use cases, given Willison's reputation for technical accuracy"
-   ]
-  },
-  {
    "title": "Inside Meta’s push to put robots to work in data centers",
    "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
    "source": "Ars Technica · AI",
@@ -1637,26 +1698,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects broader industry shift toward physical automation in infrastructure; data center labor costs and supply chain constraints drive investment in robotic systems",
     "May reshape data center employment models and technical workforce demand in the AI infrastructure space"
-   ]
-  },
-  {
-   "title": "Introducing Hy4 Preview",
-   "link": "https://simonwillison.net/2026/Aug/29/hy4/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-29T23:53:13+00:00",
-   "summary": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities. H",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Tencent released Hy4 Preview, an open-weight language model with 770B total parameters and 49B active parameters, featuring a 1M token context window. This represents a significant scaling up from their previous Hy3 model released in July, which had 295B total and 21B active parameters.",
-   "whyMatters": [
-    "The larger active parameter count and expanded context window expand what open-weight models can handle, relevant to developers and organizations evaluating alternatives to closed proprietary models",
-    "Chinese AI development continues to advance significantly in scale, affecting the global competitive landscape for LLM capabilities"
    ]
   },
   {
@@ -1693,24 +1734,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Personal disputes between AI industry leaders are creating practical disruptions for downstream users",
     "Highlights fragility of AI ecosystem dependent on relationships between competing figures"
-   ]
-  },
-  {
-   "title": "Just a rumour of a bug is enough to find a security exploit these days",
-   "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-28T22:12:02+00:00",
-   "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a rel",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Cambridge computer science professor Anil Madhavapeddy reports that OCaml compiler projects are experiencing exploit attempts within minutes of security patches being discussed—a significant acceleration from the typical few-day lag before organized exploitation.",
-   "whyMatters": [
-    "Reveals a critical shift in the threat landscape: public disclosure windows for vulnerabilities have collapsed to near-zero, forcing developers to coordinate patches extremely carefully",
-    "Highlights tension between transparency (discussing fixes) and security (preventing weaponization), directly affecting open-source maintainers' ability to coordinate safe responses"
    ]
   },
   {
@@ -1841,26 +1864,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to global education deployment of AI, particularly in emerging markets",
     "Shows framing of AI adoption in education and health as a development priority, with emphasis on trustworthiness as a selling point"
-   ]
-  },
-  {
-   "title": "Breaking Claude Code Opus 5 Auto Mode",
-   "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-08-27T22:50:25+00:00",
-   "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which",
-   "religionScore": 2,
-   "religionHits": [
-    "faith"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic made Claude Code's auto mode the default setting, claiming it protects against prompt injection attacks. However, respected prompt injection researcher Johann Rehberger has discovered a working attack against that auto mode.",
-   "whyMatters": [
-    "Undermines Anthropic's security claims for their coding agent product at a critical moment of wider deployment",
-    "Highlights that even well-intentioned AI safety measures can have exploitable gaps, relevant to broader concerns about autonomous AI agents in production systems"
    ]
   },
   {
@@ -2652,24 +2655,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Offers a practical AI-assisted method for project planning and scoping, reducing time spent on initial direction-setting",
     "Useful for educators teaching strategic thinking and planning alongside AI tools"
-   ]
-  },
-  {
-   "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
-   "link": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-20T05:17:12+00:00",
-   "summary": "Every lab CEO is on X now",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!Xdc0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b1d78e9-d676-408c-9f84-8c9f244ef898_864x1821.png",
-   "themes": [],
-   "aiSummary": "Latent Space published an interview or news piece about Z.ai CEO Jie Tang discussing GLM 5.3 and post-training scaling laws in the context of what they call 'the death of params.' The piece reflects on the shift in how AI labs approach model development and scaling.",
-   "whyMatters": [
-    "Signals a paradigm shift in AI training methodology—moving away from parameter scaling as the primary bottleneck, which affects how labs allocate compute resources and R&D strategy",
-    "Directly relevant to understanding current frontier model capabilities and the economic/technical foundations of modern AI systems that educators and technologists should grasp"
    ]
   },
   {
