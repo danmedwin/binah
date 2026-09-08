@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-08T13:50:29.826776+00:00",
+ "generatedAt": "2026-09-08T15:00:32.206592+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,51 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Google’s Atlas of the human genome could pave the way for new treatments",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-08T14:19:23+00:00",
+   "summary": "Google DeepMind has unveiled an AI tool that its scientists claim could help unravel the mysteries of the human genome and transform our understanding of biology, accelerating scientific research and ultimately paving the way for new treatments for diseases. The platform, called AlphaGenome Atlas, contains a \"predictive map of every possible DNA letter change in […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+   "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-09-08T14:00:15+00:00",
+   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Why AI food looks like that",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-08T13:32:08+00:00",
+   "summary": "There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut shrimp, Reubens from the deep, wormlike noodles, and noodle-like pastries and stringy chicken. There's also construction material masquerading as ice cream, ice cream masquerading […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "The Work Now Within Reach",
    "link": "https://openai.com/index/the-work-now-within-reach",
    "source": "OpenAI News",
@@ -122,6 +167,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-08T09:07:57+00:00",
    "summary": "Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever leaving the project timeline. The generators themselves aren't entirely new; the big change is how easily you can access them without breaking […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+   "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-08T00:00:00+00:00",
+   "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -685,23 +745,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-04T11:33:40+00:00",
-   "summary": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and described it as the start of \"the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
    "link": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
    "source": "The Verge · AI",
@@ -969,21 +1012,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Why AI food looks like that",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-03T14:08:47+00:00",
-   "summary": "There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut shrimp, Reubens from the deep, wormlike noodles, and noodle-like pastries and stringy chicken. There's also construction material masquerading as ice cream, ice cream masquerading […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
    "link": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
    "source": "Ars Technica · AI",
@@ -1014,12 +1042,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1029,12 +1057,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2332,24 +2360,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "OpenAI's public commitment to improve safety practices signals recognition that industry-wide standards for responsible AI testing and containment are essential",
     "The roadmap may influence how other AI organizations approach security and monitoring, affecting best practices across the field"
-   ]
-  },
-  {
-   "title": "How loveholidays is making everyone a builder with Codex",
-   "link": "https://openai.com/index/loveholidays",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T00:00:00+00:00",
-   "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Travel company loveholidays uses OpenAI's Codex to democratize software development, enabling non-engineers across the business to build products faster. The case study highlights how AI coding tools are expanding who can participate in development.",
-   "whyMatters": [
-    "Shows practical economic impact: AI lowering barriers to software creation and accelerating product iteration",
-    "Relevant to education and workforce training—raises questions about what skills workers need when AI handles coding tasks"
    ]
   },
   {
