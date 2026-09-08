@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-08T15:00:32.206592+00:00",
+ "generatedAt": "2026-09-08T19:47:05.962743+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,66 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-08T19:32:39+00:00",
+   "summary": "Anthropic says power users are key to its business - it's prioritized them even when it means cutting off other popular applications, like OpenClaw. But some of these same customers say Anthropic misled them into believing they'd get more out of a top-tier pricing subscription than they did. In an expanded class action lawsuit filed […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
+   "link": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-08T18:43:09+00:00",
+   "summary": "Meta dragged its feet removing ads that nudify young girls' Instagram pics.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Update to Google’s AI weather model improves forecast accuracy",
+   "link": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-08T18:00:56+00:00",
+   "summary": "Like traditional weather models, it benefits from an expanded set of inputs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+   "link": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-08T16:42:05+00:00",
+   "summary": "A landmark announcement by the frontier AI lab has been overshadowed by accusations of impropriety.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Google’s Atlas of the human genome could pave the way for new treatments",
    "link": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
    "source": "The Verge · AI",
@@ -116,21 +176,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Why AI food looks like that",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-08T13:32:08+00:00",
-   "summary": "There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut shrimp, Reubens from the deep, wormlike noodles, and noodle-like pastries and stringy chicken. There's also construction material masquerading as ice cream, ice cream masquerading […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "The Work Now Within Reach",
    "link": "https://openai.com/index/the-work-now-within-reach",
    "source": "OpenAI News",
@@ -146,12 +191,59 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "Meta bets on AI agent Muse to catch up in AI race",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-08T12:35:03+00:00",
+   "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Introducing ChatGPT Images 2.5",
+   "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-08T11:30:00+00:00",
+   "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
    "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
    "source": "MIT Tech Review · AI",
    "category": "ai",
    "date": "2026-09-08T10:34:00+00:00",
    "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "link": "https://openai.com/index/navier-stokes-solution",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-08T10:00:00+00:00",
+   "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -176,12 +268,42 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "Funding grants for new research into AI and teen development",
+   "link": "https://openai.com/index/teen-development-research-grants",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-08T09:00:00+00:00",
+   "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
    "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-08T00:00:00+00:00",
    "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "1Password increases engineering productivity 21% with Codex",
+   "link": "https://openai.com/index/1password",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-08T00:00:00+00:00",
+   "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -745,21 +867,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
-   "link": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-04T11:22:12+00:00",
-   "summary": "Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith is designed for new developer-focused devices with 64GB or more of unified memory. \"Project Zenith devices come with a preconfigured Windows setup for development and a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "The A.I. Mob That Attacked Hugging Face + METR’s Ajeya Cotra",
    "link": "https://www.nytimes.com/column/hard-fork",
    "source": "Hard Fork",
@@ -971,21 +1078,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T18:06:24+00:00",
    "summary": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
-   "link": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-03T16:42:40+00:00",
-   "summary": "OpenAI recently estimated its Cursor partnership would make more than $1 billion in revenue a year, WIRED has learned. It still walked away after Elon Musk’s SpaceX acquired the AI coding startup.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2033,44 +2125,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-   "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-27T14:00:13+00:00",
-   "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI coding assistants Claude, Codex, and Hermes installed code with no identifiable owner into corporate networks, with 227 malicious install commands found embedded in corporate documents. This represents a significant supply-chain security failure.",
-   "whyMatters": [
-    "Organizations using AI code generation tools face hidden security risks from unvetted dependencies",
-    "Institutions and educators adopting AI coding assistants need robust safeguards before deployment"
-   ]
-  },
-  {
-   "title": "How much of a problem is AI’s water use?",
-   "link": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-27T13:57:08+00:00",
-   "summary": "AI’s water footprint is growing, but location and cooling technology make a difference.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "AI training and operation consume substantial amounts of water for data center cooling. The environmental impact varies significantly based on location and cooling technology used.",
-   "whyMatters": [
-    "Growing environmental footprint of AI raises ethical questions about sustainability and justice",
-    "Relevant to religiously-motivated environmental stewardship discussions and institutions evaluating AI adoption"
-   ]
-  },
-  {
    "title": "Piloting the world's first double-blind AI evaluations",
    "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
    "source": "Google DeepMind",
@@ -2104,24 +2158,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to educators: provides empirical data on whether AI tools improve or degrade student learning when paired with proper pedagogical guidance",
     "Addresses the core education debate: whether AI access harms critical thinking or, with proper training, enhances it"
-   ]
-  },
-  {
-   "title": "Expanding OpenAI’s presence in Brazil",
-   "link": "https://openai.com/index/expanding-our-presence-in-brazil",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-27T03:00:00+00:00",
-   "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is expanding operations in Brazil, working with developers, businesses, and communities to accelerate AI adoption in the country.",
-   "whyMatters": [
-    "Market expansion: signals OpenAI's global strategy to establish regional presence and localize AI access",
-    "Geopolitical: reflects competition among AI leaders to establish footholds in major non-English markets"
    ]
   },
   {
@@ -2253,42 +2289,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-   "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced ChatGPT for Teachers is expanding to 55 U.S. school districts, providing secure AI tools, training, and support to over 100,000 educators and staff. The rollout aims to bring structured AI access into classroom environments.",
-   "whyMatters": [
-    "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
-    "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
-   ]
-  },
-  {
-   "title": "Learning never stops: How AI makes learning continuous",
-   "link": "https://openai.com/index/learning-never-stops",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
-   "whyMatters": [
-    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
-    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
-   ]
-  },
-  {
    "title": "Raised on AI",
    "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
    "source": "MIT Tech Review · AI",
@@ -2340,26 +2340,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Gates's framing of AI as having crossed critical safety/impact thresholds signals growing concern among major figures about governance",
     "Relevant to ongoing policy and community conversations about AI's risks and what responsible stewardship requires"
-   ]
-  },
-  {
-   "title": "The Hugging Face incident and the road ahead",
-   "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T00:00:00+00:00",
-   "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI released findings from the HuggingFace security incident and outlined steps to strengthen AI model security, monitoring, and alignment.",
-   "whyMatters": [
-    "OpenAI's public commitment to improve safety practices signals recognition that industry-wide standards for responsible AI testing and containment are essential",
-    "The roadmap may influence how other AI organizations approach security and monitoring, affecting best practices across the field"
    ]
   },
   {
