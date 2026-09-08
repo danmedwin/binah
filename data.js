@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-08T09:27:56.678107+00:00",
+ "generatedAt": "2026-09-08T13:50:29.826776+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,51 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The Work Now Within Reach",
+   "link": "https://openai.com/index/the-work-now-within-reach",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-08T13:00:00+00:00",
+   "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+   "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-09-08T10:34:00+00:00",
+   "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+   "link": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-08T09:07:57+00:00",
+   "summary": "Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever leaving the project timeline. The generators themselves aren't entirely new; the big change is how easily you can access them without breaking […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "llm 0.35",
    "link": "https://simonwillison.net/2026/Sep/7/llm/",
@@ -689,21 +734,6 @@ window.NEWS_DATA = {
     "Social media age-ban policy affects youth education and how congregations reach teens.",
     "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
    ]
-  },
-  {
-   "title": "This NAS company wants to run your local smart home",
-   "link": "https://www.theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-04T10:38:39+00:00",
-   "summary": "Ugreen, known for its phone power banks, chargers, and NAS storage solutions, is moving into the smart home - in a big way. This week at the IFA tech show, the company launched its HomeAgent smart home platform that combines security camera storage, on-device AI, and smart home control in one system, managed by a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
   },
   {
    "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
@@ -2195,24 +2225,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Learning never stops: How AI makes learning continuous",
-   "link": "https://openai.com/index/learning-never-stops",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-26T10:00:00+00:00",
-   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
-   "whyMatters": [
-    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
-    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
-   ]
-  },
-  {
    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
    "source": "OpenAI News",
@@ -2228,6 +2240,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Direct integration of generative AI into mainstream K-12 education; creates real-world test cases for how AI supports or reshapes teaching practice and learning outcomes",
     "Raises educator training and policy questions—how teachers use AI, what safeguards are needed, and whether this shapes curriculum and pedagogy in sustainable ways"
+   ]
+  },
+  {
+   "title": "Learning never stops: How AI makes learning continuous",
+   "link": "https://openai.com/index/learning-never-stops",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-08-26T10:00:00+00:00",
+   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released a report examining how students and educators use ChatGPT to enable continuous learning beyond traditional classroom hours and boundaries. The report documents patterns in how AI is reshaping the learning experience.",
+   "whyMatters": [
+    "Documents shift in educational models: AI enables personalized, asynchronous support that extends learning beyond institutional gatekeeping, with both promise and equity concerns",
+    "Relevant to educators and clergy: raises questions about how continuous, AI-mediated learning affects student agency, community, and the role of human guidance in education and spiritual growth"
    ]
   },
   {
@@ -2400,24 +2430,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The full stack behind abundant intelligence",
-   "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-25T07:05:00+00:00",
-   "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI's CFO outlines how the company is advancing AI through integrated improvements across custom chips, compute infrastructure, model design, and product features to increase intelligence at scale while reducing costs.",
-   "whyMatters": [
-    "Demonstrates the integrated systems thinking required to maintain competitive advantage—it's not one breakthrough but compounding improvements across hardware and software",
-    "Cost reduction at scale directly affects accessibility of AI tools for educators, nonprofits, and communities that depend on affordability"
-   ]
-  },
-  {
    "title": "[AINews] Andrew Ng gets into AI Engineering",
    "link": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
    "source": "Latent Space",
@@ -2451,26 +2463,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The AI market is fragmenting: enterprises must now think about model selection as a portfolio strategy rather than a single-model choice",
     "This trend affects developers and organizations building AI applications, requiring more complex technical and economic decision-making"
-   ]
-  },
-  {
-   "title": "How to encourage smarter AI use in the classroom",
-   "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-24T14:20:19+00:00",
-   "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "MIT Technology Review examines strategies for schools to develop more thoughtful policies around AI chatbot use in classrooms, recognizing that students now have access to powerful LLM tools that caught many educators off guard upon their release.",
-   "whyMatters": [
-    "Educators need practical frameworks for integrating or restricting AI tools in ways that support learning goals rather than undermine them",
-    "Schools are actively grappling with how to set sustainable AI policies as a core education policy matter"
    ]
   },
   {
