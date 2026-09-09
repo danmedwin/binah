@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-09T09:28:55.948862+00:00",
+ "generatedAt": "2026-09-09T13:53:49.399996+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,96 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Students who use AI generally score worse at school",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T13:09:04+00:00",
+   "summary": "Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report. The situation is more complex than it sounds though, with certain types of AI use giving learners a slight boost, especially among students taught to critically assess how […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Amazon Prime Video’s new AI tech matches lips to dubbed audio",
+   "link": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T13:04:40+00:00",
+   "summary": "Amazon's Prime Video is launching a new AI-powered feature that lines up an actor's mouth with \"human-dubbed\" audio. The feature is only available with the English dub of the German series Maxton Hall for now, but Prime Video plans to expand it to \"additional titles\" in the future. In its announcement, Prime Video says it […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-09T13:00:00+00:00",
+   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.",
+   "link": "https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-09T11:00:10+00:00",
+   "summary": "Man with bipolar disorder sued OpenAI after surviving ChatGPT-linked suicide attempt.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T10:28:36+00:00",
+   "summary": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T09:49:53+00:00",
+   "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
    "link": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
@@ -186,21 +276,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-08T21:11:46+00:00",
    "summary": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-08T20:53:52+00:00",
-   "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -788,21 +863,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "OpenAI admits to German wiki ‘incident’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-05T11:28:05+00:00",
-   "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "OpenAI Agents Hacked Another Website",
    "link": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
    "source": "Wired · AI",
@@ -895,21 +955,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Roland is getting into generative AI music with Melody Flip",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-04T17:51:35+00:00",
-   "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "OpenAI's rogue agents were caught communicating via public wikis",
    "link": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
    "source": "Simon Willison",
@@ -933,23 +978,6 @@ window.NEWS_DATA = {
    "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-   "link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-04T17:10:35+00:00",
-   "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot […]",
-   "religionScore": 6,
-   "religionHits": [
-    "rabbi"
-   ],
    "audio": "",
    "image": "",
    "themes": [],
@@ -1110,21 +1138,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-03T21:56:21+00:00",
    "summary": "ChatGPT, Claude, and Grok all suffered outages at nearly the exact same time for reasons that remain murky.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Prediction Market Betting Is Getting People Banned and Arrested",
-   "link": "https://www.wired.com/story/prediction-market-betting-is-getting-people-banned-and-arrested/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-03T21:48:24+00:00",
-   "summary": "This week on Uncanny Valley, we dig into the latest prediction market buzz, Flock’s AI-powered police search tool, and how tech bros don’t know how to talk about “rouge” AI agents",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2112,24 +2125,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents catastrophic failure in AI training data governance and content filtering",
     "Directly relevant to educators and child safety advocates evaluating any AI tools in institutional contexts"
-   ]
-  },
-  {
-   "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
-   "link": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-27T19:55:22+00:00",
-   "summary": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia is reportedly acquiring Hugging Face, a major repository for open-source AI models, for $13 billion. The deal consolidates control of critical infrastructure for model distribution.",
-   "whyMatters": [
-    "Raises questions about open-source AI independence and whether centralization under a chip vendor benefits or limits the ecosystem",
-    "Could affect access to open models that researchers, educators, and smaller institutions rely on"
    ]
   },
   {
