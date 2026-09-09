@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-09T15:03:12.404790+00:00",
+ "generatedAt": "2026-09-09T19:38:03.689713+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,165 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
+   "link": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T19:30:12+00:00",
+   "summary": "Apple is launching a new way to prove that the picture you took isn't manipulated by AI. A new feature, called \"Reference Image,\" will arrive with the iPhone 18 Pro lineup later this month and is supposed to use the device's new camera sensor to \"sign every pixel it sees.\" The iPhone 18 Pro and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "I Let an AI Agent Hack All My Gadgets—and I’d Do It Again",
+   "link": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-09T18:30:00+00:00",
+   "summary": "After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC. But it also told me how to make everything a lot more secure.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Microsoft has new AI privacy rules for schools",
+   "link": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T17:07:48+00:00",
+   "summary": "Microsoft agreed to a set of safety and privacy principles for AI in schools a week after two major school systems announced a ban on student-facing AI. In a new agreement with the American Federation of Teachers (AFT), the second-largest teachers union in the US, and its New York City affiliate the United Federation of […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Paul Christiano joins OpenAI Foundation Board",
+   "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-09T17:00:00+00:00",
+   "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+   "religionScore": 4,
+   "religionHits": [
+    "christian"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+   "link": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-09T16:59:40+00:00",
+   "summary": "\"We really do earnestly believe AI could kill all humans!\"",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "We’re losing control of AI. Is Judaism the key to keeping it from killing us?",
+   "link": "https://forward.com/culture/835118/ai-alignment-rsi-talmud-torah-judaism-halakha/",
+   "source": "The Forward",
+   "category": "religion",
+   "date": "2026-09-09T16:43:54+00:00",
+   "summary": "Editor’s note: This article was originally published on July 1, 2026. In light of recent events, we have updated it. AI researchers are sounding the alarm about their creation. This week, a researcher at Anthropic, the company behind Claude, quit. Jacob Coxon posted in a thread on X that he believes the company is “gambling...",
+   "religionScore": 6,
+   "religionHits": [
+    "judaism"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Podcast: DHS’ Secretive ‘Predictive Policing’ Unit Pulling People Over",
+   "link": "https://www.404media.co/podcast-dhs-secretive-predictive-policing-unit-pulling-people-over/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-09T16:37:02+00:00",
+   "summary": "Secretive predictive policing units; a funk shirt designed to fool AI; and our third anniversary party.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Google's AI genome system evaluates every possible one-base change",
+   "link": "https://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-09T16:34:18+00:00",
+   "summary": "Most one-base changes to the human genome do nothing, but a few are significant.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "First ‘Take It Down Act’ Sentencing Puts Man Behind Bars for 15 Years",
+   "link": "https://www.404media.co/first-take-it-down-act-sentencing-case/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-09T15:57:52+00:00",
+   "summary": "James Strahler was sentenced to 15 years in prison for “cybercrimes that included both real and AI-generated sexually explicit images and threats of violence to numerous victims.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "A Report on the Florence Workshop & Conference",
+   "link": "https://aiandfaith.org/insights/florence-workshop-report/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-09-09T15:25:24+00:00",
+   "summary": "Integrating Virtual Technologies into Jesuit Spiritual and Apostolic Formation A group of 40 Jesuits from diverse socio-cultural, regional, and academic background gathered in the Florence Campus of Gonzaga University, Italy,",
+   "religionScore": 5,
+   "religionHits": [
+    "ritual",
+    "spiritual"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "'Tell Everyone:' A Man Died by Suicide After Talking to ChatGPT. His Former Partner Wants to Warn the World About AI",
    "link": "https://www.404media.co/austin-gordon-chatgpt-suicide-openai-lawsuit/",
@@ -482,21 +641,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
-   "link": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-08T09:07:57+00:00",
-   "summary": "Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever leaving the project timeline. The generators themselves aren't entirely new; the big change is how easily you can access them without breaking […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Funding grants for new research into AI and teen development",
    "link": "https://openai.com/index/teen-development-research-grants",
    "source": "OpenAI News",
@@ -704,21 +848,6 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-06T23:43:53+00:00",
-   "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
@@ -1147,21 +1276,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
-   "link": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-03T21:56:21+00:00",
-   "summary": "ChatGPT, Claude, and Grok all suffered outages at nearly the exact same time for reasons that remain murky.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
    "link": "https://www.latent.space/p/astra",
    "source": "Latent Space",
@@ -1529,21 +1643,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "The Republican Nominee for New York Governor Made a Creepy, AI-Generated Video of Mamdani and Hochul",
-   "link": "https://www.404media.co/bruce-blakeman-ai-campaign-video-mamdani-hochul/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-09-02T15:09:02+00:00",
-   "summary": "The video makes Zohran Mamdani and Kathy Hochul look like they're hanging out in a prescription medication commercial.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
    "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
    "source": "Simon Willison",
@@ -1565,21 +1664,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-02T14:00:00+00:00",
    "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Podcast: We Spoke to an Amazon Worker Destroying Books for AI",
-   "link": "https://www.404media.co/podcast-we-spoke-to-an-amazon-worker-destroying-books-for-ai/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-09-02T12:47:45+00:00",
-   "summary": "A follow up to the Amazon destroying books for AI story, why a bunch of names keep appearing in AI-generated papers, and ICE's latest spending spree.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1714,23 +1798,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!s9oN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ec85997-40a7-4337-b20d-a3574ba4707e_1280x720.png",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "This 'Digital Camouflage' Shirt Confuses AI-Powered Surveillance Cameras",
-   "link": "https://www.404media.co/this-digital-camouflage-shirt-confuses-ai-powered-surveillance-cameras/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-09-01T13:27:26+00:00",
-   "summary": "I watched Simon Weckert's 'digital camouflage' in action.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2086,60 +2153,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects emerging corporate policy: AI companies are now using exclusivity decisions as business/geopolitical levers tied to acquirer identity",
     "Illustrates the practical stakes of consolidation in AI tooling—exclusive licensing can reshape developer ecosystems overnight"
-   ]
-  },
-  {
-   "title": "Supporting Thailand’s next generation of AI startups",
-   "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-28T02:00:00+00:00",
-   "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI and Thailand's Ministry of Higher Education, Science and Innovation launched an eight-week accelerator program for 10 startups focused on health, wellness, and education applications of AI. The program aims to help teams develop trusted AI products.",
-   "whyMatters": [
-    "Directly relevant to global education deployment of AI, particularly in emerging markets",
-    "Shows framing of AI adoption in education and health as a development priority, with emphasis on trustworthiness as a selling point"
-   ]
-  },
-  {
-   "title": "Anthropic's new hardware standard lets AI agents control the physical world",
-   "link": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-27T22:15:43+00:00",
-   "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic has proposed a standardized hardware interface that allows AI agents to control physical devices and coordinate with other machines. The standard aims to improve interoperability.",
-   "whyMatters": [
-    "Moves AI from software-only systems to real-world device control, raising safety and accountability questions",
-    "Standardization could either democratize AI access or concentrate control depending on adoption and governance"
-   ]
-  },
-  {
-   "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
-   "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-27T20:52:31+00:00",
-   "summary": "xAI accused of training Grok on real and AI-generated child pornography.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A lawsuit alleges that xAI trained its Grok models on child sexual abuse material, including both real and AI-generated imagery. The accusation raises severe ethical and legal concerns.",
-   "whyMatters": [
-    "Represents catastrophic failure in AI training data governance and content filtering",
-    "Directly relevant to educators and child safety advocates evaluating any AI tools in institutional contexts"
    ]
   },
   {
