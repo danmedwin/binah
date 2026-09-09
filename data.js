@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-08T19:47:05.962743+00:00",
+ "generatedAt": "2026-09-09T01:07:08.478178+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,147 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Quoting Terence Tao",
+   "link": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-09T00:20:17+00:00",
+   "summary": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potenti",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "link": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-08T23:55:12+00:00",
+   "summary": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mat",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Why GPT-6 Astra Is So Significant and So Confounding",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-GPT-6-Astra-Is-So-Significant-and-So-Confounding-e3oib9i",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-08T23:40:13+00:00",
+   "summary": "GPT-6 Astra has produced spectacular 3D worlds, autonomous computer use and eye-popping demonstrations—but surprisingly mixed reactions from everyday users. NLW explains why Astra is so difficult to evaluate, what its unusual strengths reveal about OpenAI’s strategy, and why it may represent something bigger than a better model: a fundamental expansion of what people can do with AI. Multiplayer AI",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125430514/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-8%2F431484578-44100-2-75e04d20ee323.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Introducing ChatGPT Images 2.5",
+   "link": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-08T22:46:33+00:00",
+   "summary": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/racoon-chart.webp",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Why this month's Microsoft patch release is a doozy",
+   "link": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-08T21:11:46+00:00",
+   "summary": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-08T20:53:52+00:00",
+   "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-08T20:16:09+00:00",
+   "summary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Muse, Meta’s New Personal AI Agent, Needs You to Trust It",
+   "link": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-08T20:12:51+00:00",
+   "summary": "Designed to compete with OpenClaw and Instinct, the company says Muse can do everything from sell your car to book you a plane ticket.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Meta bets on AI agent Muse to catch up in AI race",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-08T20:06:40+00:00",
+   "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch up […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court",
    "link": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
    "source": "The Verge · AI",
@@ -122,6 +263,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-08T18:00:56+00:00",
    "summary": "Like traditional weather models, it benefits from an expanded set of inputs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+   "link": "https://openai.com/index/codex-quantum-computing-experiments",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-08T17:00:00+00:00",
+   "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -191,59 +347,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Meta bets on AI agent Muse to catch up in AI race",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-08T12:35:03+00:00",
-   "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Introducing ChatGPT Images 2.5",
-   "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-08T11:30:00+00:00",
-   "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
    "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
    "source": "MIT Tech Review · AI",
    "category": "ai",
    "date": "2026-09-08T10:34:00+00:00",
    "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "On the Navier–Stokes Millennium Prize Problem",
-   "link": "https://openai.com/index/navier-stokes-solution",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-08T10:00:00+00:00",
-   "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -838,7 +947,7 @@ window.NEWS_DATA = {
    "source": "AI and Faith",
    "category": "religion",
    "date": "2026-09-04T14:49:38+00:00",
-   "summary": "There is no excerpt because this is a protected post.",
+   "summary": "",
    "religionScore": 5,
    "religionHits": [
     "chaplain"
@@ -846,23 +955,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-04T14:46:39+00:00",
-   "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1042,42 +1134,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Instagram’s AI detection is a mess (again)",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-03T18:37:50+00:00",
-   "summary": "Instagram's visible AI labels are supposed to help people quickly spot synthetically generated content at a glance. Over the last few weeks, however, users have been reporting that the system has gone haywire. They say Meta has been automatically applying an \"AI Content\" label to images that they didn't create or edit using generative AI […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Four major AI models suffer rare overlapping downtime",
    "link": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
    "source": "Ars Technica · AI",
    "category": "ai",
    "date": "2026-09-03T18:10:19+00:00",
    "summary": "Service interruptions hit ChatGPT, Claude, Grok, and Gemini practically simultaneously.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
-   "link": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-03T18:06:24+00:00",
-   "summary": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1536,36 +1598,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Codex bundles LibreOffice",
-   "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-01T19:03:01+00:00",
-   "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forke",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/codex-primay-runtime.webp",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "GeoJSON Map Viewer",
-   "link": "https://simonwillison.net/2026/Sep/1/geojson/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-01T18:05:45+00:00",
-   "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we go",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/geojson-tool.webp",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Introducing agentic video understanding with Gemini",
    "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
    "source": "Google DeepMind",
@@ -1579,21 +1611,6 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Quoting Tarn Adams",
-   "link": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-01T17:01:11+00:00",
-   "summary": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes — Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2089,24 +2106,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI industry says Trump plans to tax chips in the “single dumbest way imaginable”",
-   "link": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-27T18:57:08+00:00",
-   "summary": "Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The AI industry is criticizing Trump administration plans to tax data center chips as a strategy to win the AI race. Industry leaders call the approach counterproductive.",
-   "whyMatters": [
-    "Policy disputes over AI infrastructure funding could affect availability and cost of AI tools",
-    "Misguided regulation risks slowing innovation in areas where the US aims to compete"
-   ]
-  },
-  {
    "title": "Gemini Omni 1.1 Flash lets you build with more control",
    "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
    "source": "Google DeepMind",
@@ -2140,24 +2139,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Double-blind evaluation reduces bias in AI performance assessment, improving the reliability of claims about model capabilities",
     "Methodological rigor in AI evaluation is essential for trustworthy public claims about AI safety and performance"
-   ]
-  },
-  {
-   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-   "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-27T09:00:00+00:00",
-   "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published results from a randomized study of over 1,000 students examining how ChatGPT combined with critical-thinking instruction affects performance on real university assignments. The study measures impacts on student thinking, originality, and actual academic outcomes.",
-   "whyMatters": [
-    "Directly relevant to educators: provides empirical data on whether AI tools improve or degrade student learning when paired with proper pedagogical guidance",
-    "Addresses the core education debate: whether AI access harms critical thinking or, with proper training, enhances it"
    ]
   },
   {
@@ -2848,24 +2829,6 @@ window.NEWS_DATA = {
     "Trust gap: influential AI industry figures struggling to persuade broader public despite technical optimism",
     "Policy and narrative implications: public confidence in AI development shaped as much by messenger credibility as message substance",
     "Reveals tension between industry confidence-building and earned trust deficit with non-technical audiences"
-   ]
-  },
-  {
-   "title": "What the Heck is Graph Engineering?",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Heck-is-Graph-Engineering-e3n80cn",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-10T21:10:55+00:00",
-   "summary": "Graph engineering is AI’s latest buzzy term—but it offers a useful framework for organizing agents, tools, knowledge and humans into working systems. NLW explains the evolution from prompts to graphs. In the headlines: OpenAI delays Astra, ByteDance trains a massive model, open-weight AI tests revenue sharing and Claude Code embraces Auto Mode. AIDB's AI Summer Adventure: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://summ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124043095/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-10%2F429594264-44100-2-ed4318aa908a2.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Graph engineering is explained as a framework for organizing AI agents, tools, knowledge, and humans into coordinated systems—an evolution from earlier prompt-based approaches. The piece covers the conceptual arc and current industry developments.",
-   "whyMatters": [
-    "Represents a shift in how AI systems are architected, moving toward more structured, orchestrated multi-component systems rather than single-model approaches",
-    "Has implications for educators building AI-assisted systems and for understanding how AI can integrate human judgment into workflows"
    ]
   },
   {
