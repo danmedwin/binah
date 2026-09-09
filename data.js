@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-09T01:07:08.478178+00:00",
+ "generatedAt": "2026-09-09T09:28:55.948862+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,36 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+   "link": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-09T05:04:51+00:00",
+   "summary": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!zHsu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHRtS_iLboAUUlYv.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "What OpenAI’s latest controversy tells us about the future of math",
+   "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-09-09T03:10:08+00:00",
+   "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Quoting Terence Tao",
    "link": "https://simonwillison.net/2026/Sep/9/terence-tao/",
@@ -651,7 +681,7 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
+   "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can’t Quit",
    "link": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
    "source": "Wired · AI",
    "category": "ai",
@@ -783,6 +813,21 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
+   "link": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-05T04:32:00+00:00",
+   "summary": "AI News for 9/2/2026-9/3/2026.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!g0iZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHRYUNuoXUAAUuKN.jpg",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
@@ -2363,26 +2408,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-   "link": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-25T09:00:00+00:00",
-   "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "MIT Technology Review documents a humanoid robot event in Shanghai where China is advancing embodied AI—integrating AI into physical robotic systems as part of its national five-year plan. The country is becoming a world leader in humanoid robotics deployment.",
-   "whyMatters": [
-    "China's strategic integration of AI into physical infrastructure reflects a different policy approach than Western frameworks focused on regulation",
-    "Affects global AI development trajectory and raises questions about workforce and labor displacement at scale"
-   ]
-  },
-  {
    "title": "AI Proficiency: From Users to Builders",
    "link": "https://share.transistor.fm/s/0f57c0bc",
    "source": "Practical AI",
@@ -2547,24 +2572,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-   "link": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-21T05:45:21+00:00",
-   "summary": "Yes, we’re confused too.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!mQfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a668ad4-aca6-4c1c-ac78-5132b8f3d7a8_834x844.png",
-   "themes": [],
-   "aiSummary": "Poolside, an AI startup, has been acquired by NVIDIA in a deal valued at $12 billion, with the Poolside founders receiving $1 billion in retention packages while employees receive $6 billion. NVIDIA is also scaling infrastructure to 7 gigawatts for what it calls 'neocloud' services.",
-   "whyMatters": [
-    "Reflects aggressive consolidation in AI talent and capabilities as large chip companies acquire AI software companies to control full stacks",
-    "Shows NVIDIA's expansion beyond hardware into software and services, signaling major shifts in AI market concentration"
-   ]
-  },
-  {
    "title": "The Golden Rule and the Narrow Path: Building AI That Keeps Its Word #70",
    "link": "https://aiandfaith.org/aif-podcast/ai-that-keeps-its-word/",
    "source": "AI and Faith",
@@ -2600,24 +2607,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses practitioner-level skill gaps as AI capabilities advance faster than many professionals can track",
     "Practical guidance for educators and professionals who need to stay current with working methods, not just theory"
-   ]
-  },
-  {
-   "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-   "link": "https://www.latent.space/p/wayfinder-skill",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-20T20:59:09+00:00",
-   "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!gjWE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png",
-   "themes": [],
-   "aiSummary": "Matt Pocock describes a /wayfinder skill—an AI prompt technique designed to help clarify strategy and direction when project scope is uncertain or when starting from scratch. It addresses the challenge of planning when the path forward is ambiguous.",
-   "whyMatters": [
-    "Offers a practical AI-assisted method for project planning and scoping, reducing time spent on initial direction-setting",
-    "Useful for educators teaching strategic thinking and planning alongside AI tools"
    ]
   },
   {
