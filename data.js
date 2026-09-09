@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-09T13:53:49.399996+00:00",
+ "generatedAt": "2026-09-09T15:03:12.404790+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,21 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "'Tell Everyone:' A Man Died by Suicide After Talking to ChatGPT. His Former Partner Wants to Warn the World About AI",
+   "link": "https://www.404media.co/austin-gordon-chatgpt-suicide-openai-lawsuit/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-09T14:00:50+00:00",
+   "summary": "After allegedly becoming emotionally reliant on ChatGPT, Austin died at 40 years old, leaving behind family and friends who loved him. Megan wants everyone to know what happened.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Students who use AI generally score worse at school",
    "link": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
