@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-09T19:38:03.689713+00:00",
+ "generatedAt": "2026-09-10T00:55:50.357601+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,12 +86,136 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": ".blend URL Viewer",
+   "link": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-09T23:58:32+00:00",
+   "summary": "Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL ). As a big fan of the Imperial Fabergé Easter eggs , I've always thought it would be fun to make some new ones that celebrate popular culture. Yesterday I decided to try out the new ChatGPT Images 2.5 by running this prompt : Generate a photo of a faberge egg that's themed after the TV show Plurib",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/pluribus-egg.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+   "link": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-09T22:11:55+00:00",
+   "summary": "Jacob Coxon talks to WIRED about the “mini Manhattan project” inside Anthropic, the problem with alignment, and why AI labs have just a few years left to make their systems safe.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Suno releases its first AI music model made with record industry help",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T21:47:02+00:00",
+   "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" The data includes content licensed […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "AI Model Month Is Off to a Blistering Start",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Model-Month-Is-Off-to-a-Blistering-Start-e3ok1na",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-09T21:20:58+00:00",
+   "summary": "September’s model boom brings Gemini 3.8 Flash, Meta’s MuSpark 1.3, the Muse personal agent, and ChatGPT Images 2.5. NLW explores why faster, cheaper, more specialized AI makes model selection critical. In the headlines: OpenAI’s disputed Navier-Stokes breakthrough, a Claude usage-limits lawsuit, ElevenLabs’ IPO preparations, and Cognition’s $48 billion valuation. Multiplayer AI Sprint - ⁠⁠https:/",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125486250/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-9%2F431557150-44100-2-d98fdce1d32e7.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T21:16:34+00:00",
+   "summary": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming mathematics. But before it was even formally announced, the breakthrough had been complicated by the unusual […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+   "link": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-09T21:15:27+00:00",
+   "summary": "The City Attorney’s Office has asked Meta to explain how the harmful ads repeatedly ran on Facebook and Instagram. The company claims the ads are not under the city’s jurisdiction.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Read the Apple document explaining how new listening features still protect your privacy",
+   "link": "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-09T20:44:43+00:00",
+   "summary": "At Wednesday's iPhone Duo launch event, Apple announced a handful of new Siri AI Audio Intelligence features, including Siri Recap, Live Rewind, Sound Recognition, and Music Recognition. Alongside its announcement, Apple released a document laying out how it plans to balance AI \"ambient listening\" and users' privacy. It says the raw audio from the new […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
    "link": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-09-09T19:30:12+00:00",
+   "date": "2026-09-09T20:21:17+00:00",
    "summary": "Apple is launching a new way to prove that the picture you took isn't manipulated by AI. A new feature, called \"Reference Image,\" will arrive with the iPhone 18 Pro lineup later this month and is supposed to use the device's new camera sensor to \"sign every pixel it sees.\" The iPhone 18 Pro and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
+   "link": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-09T20:06:28+00:00",
+   "summary": "US urges AI firms to ID, then secretly switch, Chinese users to less-capable models.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -305,12 +429,42 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "The AI policy window is open. We need to act.",
+   "link": "https://openai.com/index/ai-policy-window",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-09T13:00:00+00:00",
+   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.",
    "link": "https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus/",
    "source": "Ars Technica · AI",
    "category": "ai",
    "date": "2026-09-09T11:00:10+00:00",
    "summary": "Man with bipolar disorder sued OpenAI after surviving ChatGPT-linked suicide attempt.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "GPT-6 Astra: The next generation in intelligence for work",
+   "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-09T11:00:00+00:00",
+   "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -491,36 +645,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Meta bets on AI agent Muse to catch up in AI race",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-08T20:06:40+00:00",
-   "summary": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch up […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-08T19:32:39+00:00",
-   "summary": "Anthropic says power users are key to its business - it's prioritized them even when it means cutting off other popular applications, like OpenClaw. But some of these same customers say Anthropic misled them into believing they'd get more out of a top-tier pricing subscription than they did. In an expanded class action lawsuit filed […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
    "link": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/",
    "source": "Ars Technica · AI",
@@ -572,21 +696,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-08T16:42:05+00:00",
    "summary": "A landmark announcement by the frontier AI lab has been overshadowed by accusations of impropriety.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Google’s Atlas of the human genome could pave the way for new treatments",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-08T14:19:23+00:00",
-   "summary": "Google DeepMind has unveiled an AI tool that its scientists claim could help unravel the mysteries of the human genome and transform our understanding of biology, accelerating scientific research and ultimately paving the way for new treatments for diseases. The platform, called AlphaGenome Atlas, contains a \"predictive map of every possible DNA letter change in […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1144,21 +1253,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
-   "link": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-04T15:00:00+00:00",
-   "summary": "While philosophers ponder AI consciousness, the models have ideas of their own.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Artificial Intelligence and Chaplaincy Resources",
    "link": "https://aiandfaith.org/news/artificial-intelligence-and-chaplaincy-resources/",
    "source": "AI and Faith",
@@ -1193,21 +1287,6 @@ window.NEWS_DATA = {
     "Social media age-ban policy affects youth education and how congregations reach teens.",
     "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
    ]
-  },
-  {
-   "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
-   "link": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-04T10:00:00+00:00",
-   "summary": "Job seekers are trying to game the application process using AI. It’s not working, and not for the reasons you might think.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
   },
   {
    "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
@@ -1383,12 +1462,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1398,12 +1477,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1626,23 +1705,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Texas Police Used AI to Write Report About Using Flock to Search for Woman Who Had Abortion",
-   "link": "https://www.404media.co/texas-police-used-ai-to-write-report-about-using-flock-to-search-for-woman-who-had-abortion/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-09-02T15:57:29+00:00",
-   "summary": "The incident shows how quickly police departments have come to use AI surveillance tools even in critically sensitive cases.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
    "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
    "source": "Simon Willison",
@@ -1716,23 +1778,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Claude Fable 5.1 made me a really nice animated pelican",
-   "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-01T23:57:28+00:00",
-   "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 an",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/fable-5.1-low.png",
-   "themes": [
-    "updates"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1973,21 +2018,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "A milestone in expanding access to AI",
-   "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-31T04:00:00+00:00",
-   "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Inside Meta’s push to put robots to work in data centers",
    "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
    "source": "Ars Technica · AI",
@@ -2084,24 +2114,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
-   "link": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-28T15:42:24+00:00",
-   "summary": "Meta fixes AI glasses to stop recording any time users cover up the safety light.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta has modified its AI glasses to stop recording when users cover the safety light, addressing concerns about nonconsensual video capture. However, privacy risks remain.",
-   "whyMatters": [
-    "Reflects ongoing tension between AI-enabled wearables and privacy rights—a concern for communities wary of surveillance",
-    "Incomplete privacy fixes suggest need for stronger regulatory frameworks around recording technology"
-   ]
-  },
-  {
    "title": "Building the Foundation for the Agentic AI Era",
    "link": "https://share.transistor.fm/s/123da941",
    "source": "Practical AI",
@@ -2135,24 +2147,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects claims about timelines for transformative AI capabilities from a leading industry lab",
     "Relevant for educators and community leaders considering long-term implications of AGI-level systems"
-   ]
-  },
-  {
-   "title": "Our decision on Cursor following its acquisition by SpaceX",
-   "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-28T06:00:00+00:00",
-   "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced it is ending its contract to provide models to Cursor, the AI code editor, following Cursor's acquisition by SpaceX.",
-   "whyMatters": [
-    "Reflects emerging corporate policy: AI companies are now using exclusivity decisions as business/geopolitical levers tied to acquirer identity",
-    "Illustrates the practical stakes of consolidation in AI tooling—exclusive licensing can reshape developer ecosystems overnight"
    ]
   },
   {
@@ -2822,25 +2816,6 @@ window.NEWS_DATA = {
     "Provides genuine accessibility benefit by removing communication barriers for Deaf users",
     "Demonstrates practical AI application in inclusion and universal design",
     "May significantly improve digital and workplace accessibility if deployed widely and reliably"
-   ]
-  },
-  {
-   "title": "AI Optimism Has a Trust Problem",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Optimism-Has-a-Trust-Problem-e3n9egg",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-11T19:50:24+00:00",
-   "summary": "Mark Zuckerberg is making the AI industry’s most aggressive case yet for an optimistic future—one built around personal empowerment, open models, new jobs and a different relationship between labs and government. But can one of tech’s least trusted messengers persuade a public that increasingly sees Silicon Valley as out of touch? NLW examines Zuckerberg’s manifesto, Meta’s new open model and $1 b",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124090320/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-11%2F429659390-44100-2-5bb359a8340ba.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Mark Zuckerberg is making an aggressive public case for optimistic AI futures centered on personal empowerment and open models, but faces credibility challenges given Meta's reputation and public skepticism of Silicon Valley tech leaders.",
-   "whyMatters": [
-    "Trust gap: influential AI industry figures struggling to persuade broader public despite technical optimism",
-    "Policy and narrative implications: public confidence in AI development shaped as much by messenger credibility as message substance",
-    "Reveals tension between industry confidence-building and earned trust deficit with non-technical audiences"
    ]
   },
   {
