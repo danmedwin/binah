@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-10T13:47:30.166810+00:00",
+ "generatedAt": "2026-09-10T14:55:38.924019+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,21 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Why the current tech backlash feels different",
+   "link": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-10T13:49:45+00:00",
+   "summary": "This interview has been lightly edited for length and clarity. Nick Statt: Hello and welcome to Decoder, Nilay’s show about big ideas and other problems. This is Nick Statt, senior producer. And I’m joined by our brand-new supervising producer, Greg Ott. Greg Ott: Good day, everyone. And Hi, Nilay. Nilay is here too. He is […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Mathematicians want proof OpenAI didn’t use their work",
    "link": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
@@ -607,21 +622,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-09T10:28:36+00:00",
    "summary": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-09T09:49:53+00:00",
-   "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
