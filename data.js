@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-10T00:55:50.357601+00:00",
+ "generatedAt": "2026-09-10T09:27:41.122305+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,51 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Computer-Use Agents and the Future of the Agentic Internet",
+   "link": "https://share.transistor.fm/s/72586f97",
+   "source": "Practical AI",
+   "category": "podcast",
+   "date": "2026-09-10T09:00:00+00:00",
+   "summary": "Longtime followers of Practical AI know that multi-repeat guest and friend Demetrios Brinkmann combines brilliant insight and playful banter into one fun-filled show, and this conversion with Chris was no different. They had a blast! As AI agents become more capable of using computers, interacting with software, and taking action on behalf of users, what does that mean for the way we work and inte",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/72586f97/42471284.mp3",
+   "image": "https://img.transistorcdn.com/UYtAJJAR7kmhGYgVZKu6hZTGGLhubmA_gpRGKEq41jo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zZGUz/ODRhYzcyMWI3YzU5/NTgwNTc2ZTJlNjk2/YzBlNC5wbmc.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "[AINews] not much happened today",
+   "link": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-10T03:33:12+00:00",
+   "summary": "a quiet day",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Quoting Calif Research",
+   "link": "https://simonwillison.net/2026/Sep/10/calif-research/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-10T00:56:41+00:00",
+   "summary": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": ".blend URL Viewer",
    "link": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
@@ -1767,21 +1812,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Quoting Rick Brewster",
-   "link": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-02T05:50:57+00:00",
-   "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dl",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "OpenClaw 2.0 Shows Where AI Agents Are Going Next",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/OpenClaw-2-0-Shows-Where-AI-Agents-Are-Going-Next-e3o74t6",
    "source": "The AI Daily Brief",
@@ -2530,24 +2560,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents a fundamental shift in how AI systems are organized and deployed, collapsing the distinction between model and control layer",
     "Raises questions about where agency and decision-making actually reside as models become more autonomous in their behavior"
-   ]
-  },
-  {
-   "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
-   "link": "https://www.latent.space/p/simile",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-21T23:37:38+00:00",
-   "summary": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/212197985/bfb37479177211a59519fff64084acf8.mp3",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Joon Sung Park, CEO of Simile AI, discusses how simulation has become a new scaling law for AI development, building on his earlier work with Generative Agents. The company is now focused on creating digital twins and scaling this approach from experimental exploration into serious commercial applications.",
-   "whyMatters": [
-    "Represents a shift in how the AI industry thinks about training and optimization—moving from text scaling to simulation as the primary frontier",
-    "Has implications for modeling human behavior at scale, relevant to educators and community leaders trying to understand how AI systems will interact with real populations"
    ]
   },
   {
