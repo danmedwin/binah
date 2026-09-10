@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-10T14:55:38.924019+00:00",
+ "generatedAt": "2026-09-10T19:29:19.662920+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,81 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Panic builds over bankrupt Spirit’s looming data sale to Google",
+   "link": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-10T18:14:14+00:00",
+   "summary": "\"Bankruptcy cannot become the new land grab for AI.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Universal Music is launching an AI music platform with ElevenLabs",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-10T16:06:36+00:00",
+   "summary": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thursday. The record label is developing the platform through a multiyear licensing agreement with ElevenLabs, a company that specializes […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+   "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-10T16:00:00+00:00",
+   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Meta’s Muse AI works and creeps me out",
+   "link": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-10T15:19:29+00:00",
+   "summary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Now everyone can put data to work",
+   "link": "https://openai.com/index/put-data-to-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-10T15:00:00+00:00",
+   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Why the current tech backlash feels different",
    "link": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
@@ -198,6 +273,38 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "Introducing ChatGPT for Financial Services",
+   "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-10T07:00:00+00:00",
+   "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+   "link": "https://openai.com/index/expanding-ai-access-us-government",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-10T07:00:00+00:00",
+   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "[AINews] not much happened today",
    "link": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
    "source": "Latent Space",
@@ -219,6 +326,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-10T00:56:41+00:00",
    "summary": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-10T00:00:00+00:00",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -526,21 +648,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Students who use AI generally score worse at school",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-09T13:09:04+00:00",
-   "summary": "Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report. The situation is more complex than it sounds though, with certain types of AI use giving learners a slight boost, especially among students taught to critically assess how […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Amazon Prime Video’s new AI tech matches lips to dubbed audio",
    "link": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
    "source": "The Verge · AI",
@@ -556,12 +663,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
-   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
-   "source": "Wired · AI",
+   "title": "The AI policy window is open. We need to act.",
+   "link": "https://openai.com/index/ai-policy-window",
+   "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-09T13:00:00+00:00",
-   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
+   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -571,12 +678,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "The AI policy window is open. We need to act.",
-   "link": "https://openai.com/index/ai-policy-window",
-   "source": "OpenAI News",
+   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+   "source": "Wired · AI",
    "category": "ai",
    "date": "2026-09-09T13:00:00+00:00",
-   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -607,21 +714,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-09T11:00:00+00:00",
    "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Worried Anthropic researchers warn that AI ‘could kill all humans’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-09T10:28:36+00:00",
-   "summary": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot control. In a post on […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -850,7 +942,7 @@ window.NEWS_DATA = {
    "source": "MIT Tech Review · AI",
    "category": "ai",
    "date": "2026-09-08T10:34:00+00:00",
-   "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+   "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visited, earlier this year, there’s only one other person there, and little in the way of furniture. But what it lacks in decor,…",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1542,12 +1634,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1557,12 +1649,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1912,38 +2004,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Path to Astra: critical capabilities and frontier safeguards",
-   "link": "https://openai.com/index/path-to-astra",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-01T13:00:00+00:00",
-   "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-   "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-01T12:00:00+00:00",
-   "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
    "link": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
    "source": "Latent Space",
@@ -1955,23 +2015,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!hV5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHQ7UHClW4AA2I6L.jpg",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-   "link": "https://openai.com/index/gilbert-tobin",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-01T01:00:00+00:00",
-   "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2042,38 +2085,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-08-31T10:00:34+00:00",
    "summary": "Interactive mobile \"gizmos\" are easy to make, hard to share outside Meta's platform.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI supports California’s bill to advance youth AI safety",
-   "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-31T07:00:00+00:00",
-   "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Polimill builds Japan's next-generation public AI infrastructure",
-   "link": "https://openai.com/index/polimill",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-08-31T07:00:00+00:00",
-   "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2156,26 +2167,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Practical tooling improvements lower friction for everyday users and professionals integrating AI into workflows",
     "The pace of feature releases from multiple vendors (Anthropic, OpenAI, Google, xAI) shows intensifying competition in accessible AI interfaces and integrations"
-   ]
-  },
-  {
-   "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
-   "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-28T18:07:55+00:00",
-   "summary": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "A federal judge ruled that an attempted blacklisting of Anthropic by the Trump administration was illegal. Anthropic had refused to support lethal autonomous weapons and mass surveillance systems.",
-   "whyMatters": [
-    "Establishes legal precedent protecting companies that refuse to enable harmful AI applications",
-    "Affirms that corporate ethical positions on AI use cases cannot be punished through government action"
    ]
   },
   {
@@ -3081,30 +3072,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a milestone in embodied AI capability—extending from speech/text into coordinated physical action",
     "Opens new applications in manufacturing, care work, and other physical domains while raising questions about displacement and safety oversight"
-   ]
-  },
-  {
-   "title": "Foundations, Frameworks and Faith(s)",
-   "link": "https://aiandfaith.org/insights/foundations-frameworks-and-faiths/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-07-27T18:25:39+00:00",
-   "summary": "A reflection on the slow power of ethical discourse, and the persisting need for religious AI ethics. To be, or not to be, ethical? In both public discourse and in",
-   "religionScore": 7,
-   "religionHits": [
-    "ethic",
-    "faith",
-    "religio"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "This piece reflects on the role of ethical discourse in AI development and argues for the continued importance of religious and faith-based perspectives in AI ethics conversations. It examines how slow, deliberative ethical frameworks rooted in religious traditions remain necessary even as AI progresses rapidly.",
-   "whyMatters": [
-    "Directly addresses the gap between AI industry ethics and religious/faith community engagement—a core concern for educators and clergy navigating AI's impact",
-    "Argues for institutional integration of religious ethical frameworks into AI governance, not as afterthought but as foundational voices"
    ]
   }
  ]
