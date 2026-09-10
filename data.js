@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-10T09:27:41.122305+00:00",
+ "generatedAt": "2026-09-10T13:47:30.166810+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,88 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Mathematicians want proof OpenAI didn’t use their work",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-10T11:19:44+00:00",
+   "summary": "Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward accusing the AI giant of unethical and \"dishonest\" behavior and a lack of transparency about the origins […]",
+   "religionScore": 1,
+   "religionHits": [
+    "ethic"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Powering AI is an architecture problem",
+   "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-09-10T11:00:00+00:00",
+   "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Attacks on Mamdani test Jewish efforts to confront Islamophobia as 9/11 anniversary nears",
+   "link": "https://forward.com/news/849506/mamdani-911-attacks-islamophobia-jewish/",
+   "source": "The Forward",
+   "category": "religion",
+   "date": "2026-09-10T10:48:33+00:00",
+   "summary": "The image was vintage AI slopcraft: New York Mayor Zohran Mamdani in his trademark black suit, holding a sealed cardboard package labeled 9/11 MEMORIAL. “Honey,” the cartoon Mamdani calls, “where’s my box cutter?” The cartoon, shared Sunday on social media by the Orthodox Jewish comedy account Heimish Humor and referencing the weapon used in the...",
+   "religionScore": 10,
+   "religionHits": [
+    "islam",
+    "jewish"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Everything New You Can Do With Siri AI",
+   "link": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-10T10:30:00+00:00",
+   "summary": "When iOS 27 arrives, it will bring with it a fully revamped assistant for your iPhone.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
+   "link": "https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-10T10:00:00+00:00",
+   "summary": "InquiryIQ, a previously unreported prototype, tested a model from xAI, maker of Grok, to surface associates, social accounts, and other information about people identified through Clearview.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Computer-Use Agents and the Future of the Agentic Internet",
    "link": "https://share.transistor.fm/s/72586f97",
@@ -658,23 +740,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-08T20:16:09+00:00",
-   "summary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Muse, Meta’s New Personal AI Agent, Needs You to Trust It",
    "link": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
    "source": "Wired · AI",
@@ -1054,21 +1119,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can’t Quit",
-   "link": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-06T10:00:00+00:00",
-   "summary": "Polls show that overwhelming majorities of Americans hate data centers. China makes a perfect scapegoat for tech leaders and their allies—the only problem is a lack of evidence.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "There's No Limit to How Bad Code Can Get",
    "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
    "source": "Simon Willison",
@@ -1156,21 +1206,6 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://substackcdn.com/image/fetch/$s_!LSd-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7950cec-a256-4773-89bd-085b0742335d_2048x1438.png",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI Agents Hacked Another Website",
-   "link": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-05T10:30:00+00:00",
-   "summary": "Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
@@ -2395,24 +2430,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates concrete gaps in current AI reasoning and problem-solving, useful for understanding model limitations",
     "Relevant for educators assessing what skills remain distinctly human and how to teach critical thinking in an AI era"
-   ]
-  },
-  {
-   "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
-   "link": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-08-26T07:01:00+00:00",
-   "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates Ventures conference room overlooks the Carillon Point Marina, where a flotilla of expensive boats bob in…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Bill Gates says humanity has passed certain danger thresholds with AI and discusses what should happen next. The article is set in an affluent Seattle location but details of his specific claims are not provided in the excerpt.",
-   "whyMatters": [
-    "Gates's framing of AI as having crossed critical safety/impact thresholds signals growing concern among major figures about governance",
-    "Relevant to ongoing policy and community conversations about AI's risks and what responsible stewardship requires"
    ]
   },
   {
