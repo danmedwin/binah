@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-11T13:48:27.760604+00:00",
+ "generatedAt": "2026-09-11T14:55:36.776523+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,51 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+   "link": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-11T14:48:06+00:00",
+   "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters, as reported earlier by Futurism. In a statement to The Verge, Meta spokesperson Dina El-Kassaby says the company \"missed the mark,\" adding that \"the feature never should […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Soft-deprecating re.match()",
+   "link": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-11T14:47:57+00:00",
+   "summary": "Soft-deprecating re.match() Python has a concept of soft deprecation , where APIs are marked as \"should no longer be used to write new code\" without any promise/threat to remove them in the future. Python 3.15 release manager Hugo van Kemenade describes how in the upcoming 3.15 release soft deprecation has come for the venerable but deeply confusing re.match() function. It's now available with the",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Don't sleep on wrapture",
+   "link": "https://simonwillison.net/2026/Sep/11/wrapture/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-11T13:51:32+00:00",
+   "summary": "Graham Dumpleton's new monkey patching package wrapture is shaping up to be an indispensable tool for Python developers. I'm not sure why I've seen so little buzz about it! Graham has been posting new tutorials for it almost daily since the initial release on August 31st. Here's everything he's published so far: Introducing wrapture - a new monkey patching library that serves both testing and obse",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "‘We Did Not Invite You.’ Citizens Rage at Town Hall Over Proposed Nuclear AI Data Center",
    "link": "https://www.404media.co/we-did-not-invite-you-citizens-rage-at-town-hall-over-proposed-nuclear-ai-data-center/",
@@ -651,21 +696,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-09T20:44:43+00:00",
    "summary": "At Wednesday's iPhone Duo launch event, Apple announced a handful of new Siri AI Audio Intelligence features, including Siri Recap, Live Rewind, Sound Recognition, and Music Recognition. Alongside its announcement, Apple released a document laying out how it plans to balance AI \"ambient listening\" and users' privacy. It says the raw audio from the new […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
-   "link": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-09T20:21:17+00:00",
-   "summary": "Apple is launching a new way to prove that the picture you took isn't manipulated by AI. A new feature, called \"Reference Image,\" will arrive with the iPhone 18 Pro lineup later this month and is supposed to use the device's new camera sensor to \"sign every pixel it sees.\" The iPhone 18 Pro and […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1846,40 +1876,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "llm-openrouter 0.7.1",
-   "link": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-02T20:23:26+00:00",
-   "summary": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "llm 0.34",
-   "link": "https://simonwillison.net/2026/Sep/2/llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-02T19:23:52+00:00",
-   "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 . Tags: llm",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
