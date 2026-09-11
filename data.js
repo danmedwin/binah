@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-11T09:25:56.312502+00:00",
+ "generatedAt": "2026-09-11T13:48:27.760604+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,72 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "‘We Did Not Invite You.’ Citizens Rage at Town Hall Over Proposed Nuclear AI Data Center",
+   "link": "https://www.404media.co/we-did-not-invite-you-citizens-rage-at-town-hall-over-proposed-nuclear-ai-data-center/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-11T13:40:59+00:00",
+   "summary": "The University of Michigan is partnering with Los Alamos National Labs to build a massive data center in a small Michigan township. The residents say they were never consulted.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Claude users found ways around safeguards for bioweapons research",
+   "link": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-11T13:02:35+00:00",
+   "summary": "Some dangerous biology looks much like legitimate research, complicating AI safeguards.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Meta’s Muse AI works and creeps me out",
+   "link": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-11T12:10:52+00:00",
+   "summary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The Ezra Klein Show: The A.I. Revolt Is Here",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-09-11T11:00:00+00:00",
+   "summary": "The “Hard Fork” team is away this week. But while we’re away, we’re bringing you a recent episode of “The Ezra Klein Show.” In this episode, Ezra talks with the journalist Jasmine Sun about her recent reporting trip through the Midwest, where she explored how the data center backlash is playing out on the ground. Ezra and Jasmine discuss the strange political coalitions that are coming together to",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/2b8dc18d-eab0-483e-93f5-d514b87bd7a6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=2b8dc18d-eab0-483e-93f5-d514b87bd7a6&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
   {
    "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
    "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
@@ -272,21 +338,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-10T16:00:00+00:00",
    "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Meta’s Muse AI works and creeps me out",
-   "link": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-10T15:19:29+00:00",
-   "summary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -783,12 +834,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "The AI policy window is open. We need to act.",
-   "link": "https://openai.com/index/ai-policy-window",
-   "source": "OpenAI News",
+   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+   "source": "Wired · AI",
    "category": "ai",
    "date": "2026-09-09T13:00:00+00:00",
-   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -798,12 +849,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
-   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
-   "source": "Wired · AI",
+   "title": "The AI policy window is open. We need to act.",
+   "link": "https://openai.com/index/ai-policy-window",
+   "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-09T13:00:00+00:00",
-   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
+   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1534,25 +1585,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "The A.I. Mob That Attacked Hugging Face + METR’s Ajeya Cotra",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-09-04T11:00:00+00:00",
-   "summary": "This week, we’re diving into two new reports about the OpenAI-Hugging Face hack. We discuss what’s new and how they fundamentally change our understanding of what happened. Then we’re joined by Ajeya Cotra, one of the investigators at METR, to discuss the rogue agents’ message board and chain-of-thought transcripts and how the world should respond. Guests: Ajeya Cotra, co-author of the METR and Re",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/3189e217-df81-47e5-8084-f93f19459dfa/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=3189e217-df81-47e5-8084-f93f19459dfa&feed=l2i9YnTd",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
-   ]
-  },
-  {
    "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
    "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
    "source": "MIT Tech Review · AI",
@@ -2120,26 +2152,6 @@ window.NEWS_DATA = {
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
-  },
-  {
-   "title": "Inside Meta’s push to put robots to work in data centers",
-   "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-30T11:03:47+00:00",
-   "summary": "The company is testing robots on tasks that can performed by technicians.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Meta is testing robots to perform routine data center tasks that human technicians currently handle. The company is piloting automation in its facilities to handle manual technical work.",
-   "whyMatters": [
-    "Reflects broader industry shift toward physical automation in infrastructure; data center labor costs and supply chain constraints drive investment in robotic systems",
-    "May reshape data center employment models and technical workforce demand in the AI infrastructure space"
-   ]
   },
   {
    "title": "How to Start AI Coding If You Haven’t Yet",
@@ -3062,26 +3074,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates rapid advancement in creative AI capabilities affecting music production and composition",
     "Expands AI's reach into artistic domains that many consider distinctly human expression"
-   ]
-  },
-  {
-   "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-   "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-07-28T13:21:37+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Gemini Robotics 2 brings coordinated whole-body intelligence to robots, enabling complex physical tasks previously limited to upper-body control.",
-   "whyMatters": [
-    "Marks a milestone in embodied AI capability—extending from speech/text into coordinated physical action",
-    "Opens new applications in manufacturing, care work, and other physical domains while raising questions about displacement and safety oversight"
    ]
   }
  ]
