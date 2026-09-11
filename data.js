@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-10T19:29:19.662920+00:00",
+ "generatedAt": "2026-09-11T00:52:46.453054+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,126 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Any Nix package, live in your browser",
+   "link": "https://simonwillison.net/2026/Sep/10/trynix/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-10T23:44:15+00:00",
+   "summary": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with any Nix package from the past 13 years. They are URL addressable, so you can navigate to this page: https://trynix.dev/?pkg=python3",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
+   "link": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-10T23:28:42+00:00",
+   "summary": "AI leaders worry antitrust law could stand in the way of what they view as an increasingly urgent push to coordinate a slowdown in AI development.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Slack can now vibe-code interactive charts and reports inside chats",
+   "link": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-10T21:29:59+00:00",
+   "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps, like Google Drive or Salesforce, to […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Native is now the future of mobile at Shopify",
+   "link": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-10T21:11:15+00:00",
+   "summary": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time sh",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Anthropic-Researcher-Says-AI-Has-Over-a-10-Chance-of-Killing-All-Humans-e3om9i3",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-10T21:03:22+00:00",
+   "summary": "An Anthropic researcher puts the chance of AI killing all humans at more than 10% within the next decade. Why is this warning breaking through now? NLW examines the viral posts reigniting the AI extinction debate, the political and media incentives amplifying them, and the growing push to ban superintelligence—with a focus on specific risks, workable policy, and room for agreement beyond the outra",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125559811/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-10%2F431651702-44100-2-4faca71262dbe.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Is AI Actually Going to Kill Us All?",
+   "link": "https://www.wired.com/story/uncanny-valley-podcast-is-ai-actually-going-to-kill-us-all/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-10T20:30:37+00:00",
+   "summary": "This week on “Uncanny Valley,” we dig into a former Anthropic researcher’s AI doomsday warning, the latest upgrades from Apple’s event, and the census report that claimed Trump won the 2020 election.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Schools are catching on to Big Tech’s playbook",
+   "link": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-10T19:49:38+00:00",
+   "summary": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schools on […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-10T19:45:43+00:00",
+   "summary": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming mathematics. But before it was even formally announced, the breakthrough had been complicated by the unusual […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Panic builds over bankrupt Spirit’s looming data sale to Google",
    "link": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
@@ -335,6 +455,21 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "Introducing the Agents API",
+   "link": "https://openai.com/index/introducing-the-agents-api",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-10T00:00:00+00:00",
+   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
    "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
    "source": "OpenAI News",
@@ -414,21 +549,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-09T21:16:34+00:00",
-   "summary": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming mathematics. But before it was even formally announced, the breakthrough had been complicated by the unusual […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
    "link": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
    "source": "Wired · AI",
@@ -495,21 +615,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-09T18:30:00+00:00",
    "summary": "After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC. But it also told me how to make everything a lot more secure.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Microsoft has new AI privacy rules for schools",
-   "link": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-09T17:07:48+00:00",
-   "summary": "Microsoft agreed to a set of safety and privacy principles for AI in schools a week after two major school systems announced a ban on student-facing AI. In a new agreement with the American Federation of Teachers (AFT), the second-largest teachers union in the US, and its New York City affiliate the United Federation of […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -648,12 +753,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Amazon Prime Video’s new AI tech matches lips to dubbed audio",
-   "link": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
-   "source": "The Verge · AI",
+   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+   "source": "Wired · AI",
    "category": "ai",
-   "date": "2026-09-09T13:04:40+00:00",
-   "summary": "Amazon's Prime Video is launching a new AI-powered feature that lines up an actor's mouth with \"human-dubbed\" audio. The feature is only available with the English dub of the German series Maxton Hall for now, but Prime Video plans to expand it to \"additional titles\" in the future. In its announcement, Prime Video says it […]",
+   "date": "2026-09-09T13:00:00+00:00",
+   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -669,21 +774,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-09T13:00:00+00:00",
    "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
-   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-09T13:00:00+00:00",
-   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -770,17 +860,19 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "title": "Some thoughts on the Navier–Stokes Millennium Prize Problem",
    "link": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-09-08T23:55:12+00:00",
-   "summary": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mat",
+   "summary": "On the Navier–Stokes Millennium Prize Problem introduces an impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmast",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [],
+   "themes": [
+    "updates"
+   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -943,6 +1035,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-08T10:34:00+00:00",
    "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visited, earlier this year, there’s only one other person there, and little in the way of furniture. But what it lacks in decor,…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "link": "https://openai.com/index/navier-stokes-solution",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-08T10:00:00+00:00",
+   "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1119,21 +1226,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Whispering Complaints Into Your Phone May Be the Future of Customer Feedback",
-   "link": "https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-07T10:30:00+00:00",
-   "summary": "Forget email surveys or long calls spent on hold. Voicebox lets people send customer feedback by recording a voice note on their phone.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Supporting independent journalism in Ukraine",
    "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
    "source": "OpenAI News",
@@ -1192,21 +1284,6 @@ window.NEWS_DATA = {
    "themes": [
     "ethics"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "My Brief Summer Fling With Siri AI",
-   "link": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-06T10:30:00+00:00",
-   "summary": "I was initially enamored with the beta version of Apple’s revamped smartphone assistant. As the full release approaches, I’ve forgotten Siri AI even exists.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1634,12 +1711,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1649,12 +1726,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1828,23 +1905,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "llm-gemini 0.34",
-   "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-02T16:39:38+00:00",
-   "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: F",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026-09-02/image.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Proactive cyber defense for governments and enterprises",
    "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
    "source": "Google DeepMind",
@@ -1873,21 +1933,6 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-   "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-02T14:16:42+00:00",
-   "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026-09-01/IMG_7797.jpeg",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -1970,21 +2015,6 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "How AI-native companies turn workflows into operating capability",
-   "link": "https://openai.com/index/ai-native-company-workflows",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-01T17:00:00+00:00",
-   "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2797,24 +2827,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Continues Google's rapid iteration cycle in generative AI models",
     "Reflects competitive pressure to release model improvements frequently"
-   ]
-  },
-  {
-   "title": "The AI Agent Platform for Everyone",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-Agent-Platform-for-Everyone-e3navt9",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-12T20:10:24+00:00",
-   "summary": "Grok Bot packages persistent computers, coordinated agent teams, workflow learning, and computer use into a remarkably simple interface. NLW explores why it could finally unlock widespread AI-agent adoption—and the cost, reliability, and trust issues that could hold it back. In the headlines: Anthropic’s controversial text watermarks, Gemini hits one billion users, and Nvidia reshapes data-center ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124140905/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-12%2F429730192-44100-2-8e39630ef7295.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Grok Bot combines persistent computers, coordinated agent teams, workflow learning, and computer use into a simplified interface aimed at making AI agents accessible to mainstream users. The episode examines both the potential for widespread adoption and the practical obstacles around cost, reliability, and trust that could limit its impact.",
-   "whyMatters": [
-    "Simplified AI-agent platforms could reshape how organizations and individuals automate work, affecting everything from business processes to education and administrative tasks that rabbis and Jewish institutions currently handle manually",
-    "Trust and reliability concerns with AI agents directly matter to religious and educational communities considering whether to adopt such tools for member communication, learning support, or institutional operations"
    ]
   },
   {
