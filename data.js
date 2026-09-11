@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-11T00:52:46.453054+00:00",
+ "generatedAt": "2026-09-11T09:25:56.312502+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,36 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+   "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-11T09:00:00+00:00",
+   "summary": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Datasette 1.0a39 and 0.65.4 security releases",
+   "link": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-11T03:27:16+00:00",
+   "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables. Following issues r",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Any Nix package, live in your browser",
    "link": "https://simonwillison.net/2026/Sep/10/trynix/",
@@ -455,12 +485,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Introducing the Agents API",
-   "link": "https://openai.com/index/introducing-the-agents-api",
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-10T00:00:00+00:00",
-   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -470,12 +500,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "title": "Introducing the Agents API",
+   "link": "https://openai.com/index/introducing-the-agents-api",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-10T00:00:00+00:00",
-   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -753,12 +783,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
-   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
-   "source": "Wired · AI",
+   "title": "The AI policy window is open. We need to act.",
+   "link": "https://openai.com/index/ai-policy-window",
+   "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-09T13:00:00+00:00",
-   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
+   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -768,12 +798,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "The AI policy window is open. We need to act.",
-   "link": "https://openai.com/index/ai-policy-window",
-   "source": "OpenAI News",
+   "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+   "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+   "source": "Wired · AI",
    "category": "ai",
    "date": "2026-09-09T13:00:00+00:00",
-   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+   "summary": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks that have sent memory prices surging.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -975,21 +1005,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-08T17:00:00+00:00",
    "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
-   "link": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-08T16:42:05+00:00",
-   "summary": "A landmark announcement by the frontier AI lab has been overshadowed by accusations of impropriety.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1711,12 +1726,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1726,12 +1741,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1860,23 +1875,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-02T18:13:54+00:00",
    "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "llm-anthropic 0.28",
-   "link": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-02T17:59:32+00:00",
-   "summary": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , anthropic , claude , claude-mythos-fable",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
