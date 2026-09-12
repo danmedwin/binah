@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-12T09:07:38.762818+00:00",
+ "generatedAt": "2026-09-12T13:06:36.537896+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -101,6 +101,38 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
+   "title": "I spent $4,000 on a robot dog from China",
+   "link": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-12T11:00:53+00:00",
+   "summary": "Unitree might be the world’s most important robotics company.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+   "link": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-12T10:30:00+00:00",
+   "summary": "Plus: The US disrupts the internet’s biggest black market, a Conti ransomware hacker gets prison time, Meta fails to stop AI-generated videos of child abuse.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
    "link": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
    "source": "Latent Space",
@@ -137,6 +169,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-11T23:38:19+00:00",
    "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters, as reported earlier by Futurism. In a statement to The Verge, Meta spokesperson Dina El-Kassaby says the company \"missed the mark,\" adding that \"the feature never should […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI just wants to win",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-11T23:35:48+00:00",
+   "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. Instead, many mathematicians have watched OpenAI's relentless advance with […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -945,23 +992,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Suno releases its first AI music model made with record industry help",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-09T21:47:02+00:00",
-   "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" The data includes content licensed […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "AI Model Month Is Off to a Blistering Start",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Model-Month-Is-Off-to-a-Blistering-Start-e3ok1na",
    "source": "The AI Daily Brief",
@@ -998,21 +1028,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-09T20:06:28+00:00",
    "summary": "US urges AI firms to ID, then secretly switch, Chinese users to less-capable models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "I Let an AI Agent Hack All My Gadgets—and I’d Do It Again",
-   "link": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-09T18:30:00+00:00",
-   "summary": "After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household devices and hacked into a PC. But it also told me how to make everything a lot more secure.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2182,21 +2197,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-08-31T18:00:00+00:00",
    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "ChatGPT and Reddit now face EU's toughest online safety rules",
-   "link": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-08-31T13:41:40+00:00",
-   "summary": "Explosive growth comes with a new regulatory burden in the European Union.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
