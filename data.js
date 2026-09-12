@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-12T13:56:02.941906+00:00",
+ "generatedAt": "2026-09-12T19:04:24.170348+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -97,6 +97,70 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Quoting Paul Ford",
+   "link": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-12T18:00:21+00:00",
+   "summary": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-12T16:23:40+00:00",
+   "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+   "link": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-12T15:01:19+00:00",
+   "summary": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!5LAd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9ad2af0-b40a-433d-bd78-0514683c9eb4_2560x1440.png",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Trump is giving data centers a pass to pollute",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-12T14:41:27+00:00",
+   "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a \"Data Center Health Protection […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -223,7 +287,7 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Roundtables: AI’s apocalypse crisis",
+   "title": "Roundtables: Could AI really kill us all?",
    "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
    "source": "MIT Tech Review · AI",
    "category": "ai",
@@ -749,38 +813,6 @@ window.NEWS_DATA = {
    "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Why the current tech backlash feels different",
-   "link": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-10T13:49:45+00:00",
-   "summary": "This interview has been lightly edited for length and clarity. Nick Statt: Hello and welcome to Decoder, Nilay’s show about big ideas and other problems. This is Nick Statt, senior producer. And I’m joined by our brand-new supervising producer, Greg Ott. Greg Ott: Good day, everyone. And Hi, Nilay. Nilay is here too. He is […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Mathematicians want proof OpenAI didn’t use their work",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-10T11:19:44+00:00",
-   "summary": "Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward accusing the AI giant of unethical and \"dishonest\" behavior and a lack of transparency about the origins […]",
-   "religionScore": 1,
-   "religionHits": [
-    "ethic"
-   ],
    "audio": "",
    "image": "",
    "themes": [],
@@ -1609,21 +1641,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Research acceleration: The view inside OpenAI",
-   "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-06T23:57:40+00:00",
-   "summary": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much ev",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "How to Build an AI-Native Company Today",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Build-an-AI-Native-Company-Today-e3odjcm",
    "source": "The AI Daily Brief",
@@ -1647,6 +1664,21 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-06T09:00:00+00:00",
    "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Research acceleration: The view inside OpenAI",
+   "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-06T08:00:00+00:00",
+   "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2609,24 +2641,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-   "link": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-22T07:36:00+00:00",
-   "summary": "Did you think RSI stopped at model training?",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!Vw9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc661e612-544b-4eaa-9603-78e5f28276b7_1956x1228.png",
-   "themes": [],
-   "aiSummary": "The piece argues that simulation—using cheaper, faster models to approximate or stand in for expensive ones—is becoming a dominant strategy in AI development, extending beyond just training into broader workflows. The trade-off being explored is accepting slightly worse performance in exchange for massive cost and speed gains.",
-   "whyMatters": [
-    "Shifts economic incentives in AI development toward accessibility over raw capability, potentially lowering barriers for smaller organizations and researchers",
-    "May reshape which problems get solved first: speed and cost could become more valuable than marginal quality improvements for many real-world applications"
-   ]
-  },
-  {
    "title": "Why Everyone Suddenly Hates AI Data Centers",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Suddenly-Hates-AI-Data-Centers-e3nnhjb",
    "source": "The AI Daily Brief",
@@ -3036,42 +3050,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Helps readers—including educators and clergy—develop critical thinking skills when encountering futurism and worst-case narratives in AI discussions",
     "Relevant to faith communities navigating AI ethics: speculative framing often carries implicit values and worldviews that merit scrutiny before influencing institutional decisions"
-   ]
-  },
-  {
-   "title": "Artificial Intelligence and Governance Resources",
-   "link": "https://aiandfaith.org/news/artificial-intelligence-and-governance-resources/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-07-29T17:22:21+00:00",
-   "summary": "",
-   "religionScore": 5,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI and Faith has published or curated resources on artificial intelligence and governance.",
-   "whyMatters": [
-    "Directly relevant to educators and religious leaders seeking to understand AI policy and ethical frameworks",
-    "Addresses the intersection of AI development with governance and institutional decision-making"
-   ]
-  },
-  {
-   "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-   "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-07-29T16:02:10+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind released Lyria 3.5, an upgraded music generation model integrated into Google Flow, with improvements to musicality, lyrics, vocal quality, and user control.",
-   "whyMatters": [
-    "Demonstrates rapid advancement in creative AI capabilities affecting music production and composition",
-    "Expands AI's reach into artistic domains that many consider distinctly human expression"
    ]
   }
  ]
