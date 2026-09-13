@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-13T14:51:37.427841+00:00",
+ "generatedAt": "2026-09-13T19:15:09.768355+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -2987,26 +2987,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly engages religious educators and pastoral leaders in bioethical questions raised by AI systems",
     "Demonstrates religious communities are actively working at the intersection of AI, ethics, and practice"
-   ]
-  },
-  {
-   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-   "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-07-30T15:00:59+00:00",
-   "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Gemini Robotics ER 2 enables robots to understand video, orchestrate tasks, and collaborate with other robots to solve real-world problems. The model represents a significant step in video understanding and multi-robot coordination.",
-   "whyMatters": [
-    "Demonstrates progress in AI systems that can coordinate multiple agents toward shared goals—a foundational capability for complex real-world deployment",
-    "Expands robotics beyond single-task, single-robot scenarios toward more flexible, collaborative systems"
    ]
   }
  ]
