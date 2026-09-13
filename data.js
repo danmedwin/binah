@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-13T10:05:03.548579+00:00",
+ "generatedAt": "2026-09-13T13:52:36.686550+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -96,6 +96,21 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "10 Ways to Think Bigger with Opportunity AI",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/10-Ways-to-Think-Bigger-with-Opportunity-AI-e3opfqe",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-13T11:33:49+00:00",
+   "summary": "AI can help you work faster, but it can also expand what you’re capable of doing in the first place. NLW explores ten ways to think bigger with “opportunity AI,” from building video production pipelines and interactive client proposals to turning your expertise into a product, with a companion experience to help you find possibilities in your own work. Multiplayer AI Sprint - ⁠⁠⁠⁠⁠https://multipla",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125664526/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-13%2F431794046-44100-2-7fa581c7906a.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
@@ -2809,26 +2824,6 @@ window.NEWS_DATA = {
     "Workforce deskilling and loss of human expertise are particularly relevant to educators and clergy who must think carefully about how AI tools affect learning and professional development in their communities",
     "Rising operational costs and uneven productivity gains indicate that AI adoption is not uniformly beneficial—relevant for organizations making significant AI investments",
     "The problem of AI-generated low-quality content (slop) affects information ecosystems that educators and religious leaders depend on for teaching and guidance"
-   ]
-  },
-  {
-   "title": "How to Decide What Work AI Should Do for You: The AI Deputization Audit",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Decide-What-Work-AI-Should-Do-for-You-The-AI-Deputization-Audit-e3ndv48",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-14T21:57:48+00:00",
-   "summary": "OpenAI’s Computer History and GrokBot’s “teach a task” feature point to a new phase of AI: tools that learn how you work so they can take more work off your plate. NLW introduces the AI Deputization Audit, a simple framework for deciding what to hand over, what to do alongside AI, and what to keep for yourself. In the headlines: Gemini 3.7 Flash, the true cost of cheaper models, GPT-5.6 Sol’s ultr",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124238408/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-14%2F429864343-44100-2-18aa36cf02186.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI's Computer History and GrokBot features show AI systems learning how users work to automate more tasks. NLW proposes the AI Deputization Audit, a framework for deciding which work to delegate to AI, which to do alongside it, and which to keep entirely human.",
-   "whyMatters": [
-    "Helps individuals and organizations make intentional choices about AI automation rather than defaulting to full delegation",
-    "Relevant to educators and clergy who must decide which aspects of their work—teaching, mentoring, pastoral care—can be augmented versus those requiring human judgment and presence"
    ]
   },
   {
