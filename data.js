@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-14T11:27:52.210770+00:00",
+ "generatedAt": "2026-09-14T15:59:22.746368+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,66 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Fighting for the Future of Libraries (With Jennie Rose Halperin)",
+   "link": "https://www.404media.co/fighting-for-the-future-of-libraries-with-jennie-rose-halperin/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-14T15:25:14+00:00",
+   "summary": "Censorship, AI, and the role of librarians in a country with crumbling public institutions.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Quoting Laurie Voss",
+   "link": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-14T14:34:29+00:00",
+   "summary": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no cei",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats",
+   "link": "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-14T14:22:43+00:00",
+   "summary": "Humans are reading ChatGPT users’ prompts to improve OpenAI’s models, and those chats can include sensitive, personal information, according to leaked internal documents and real prompts seen by 404 Media.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+   "link": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-14T13:35:55+00:00",
+   "summary": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
    "link": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
@@ -852,21 +912,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Slack can now vibe-code interactive charts and reports inside chats",
-   "link": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-10T21:29:59+00:00",
-   "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps, like Google Drive or Salesforce, to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
    "title": "Native is now the future of mobile at Shopify",
    "link": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
    "source": "Simon Willison",
@@ -1171,23 +1216,6 @@ window.NEWS_DATA = {
    "summary": "\"We really do earnestly believe AI could kill all humans!\"",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "We’re losing control of AI. Is Judaism the key to keeping it from killing us?",
-   "link": "https://forward.com/culture/835118/ai-alignment-rsi-talmud-torah-judaism-halakha/",
-   "source": "The Forward",
-   "category": "religion",
-   "date": "2026-09-09T16:43:54+00:00",
-   "summary": "Editor’s note: This article was originally published on July 1, 2026. In light of recent events, we have updated it. AI researchers are sounding the alarm about their creation. This week, a researcher at Anthropic, the company behind Claude, quit. Jacob Coxon posted in a thread on X that he believes the company is “gambling...",
-   "religionScore": 6,
-   "religionHits": [
-    "judaism"
-   ],
    "audio": "",
    "image": "",
    "themes": [],
@@ -1575,23 +1603,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "llm 0.35",
-   "link": "https://simonwillison.net/2026/Sep/7/llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-07T23:54:54+00:00",
-   "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
