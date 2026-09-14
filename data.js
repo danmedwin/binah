@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-13T19:15:09.768355+00:00",
+ "generatedAt": "2026-09-14T00:50:47.605134+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,12 +86,72 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "commit-rewriter 0.1",
+   "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-14T00:28:10+00:00",
+   "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/r",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/commit-rewriter.webp",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
    "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-14T00:00:00+00:00",
    "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "shot-scraper 1.12",
+   "link": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-13T23:58:14+00:00",
+   "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in fi",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "OpenAI’s rogue AI tried to hack another company in May",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-13T20:54:00+00:00",
+   "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Trump and Mike Johnson think the AI industry is overreacting",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-13T19:41:48+00:00",
+   "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -141,21 +201,6 @@ window.NEWS_DATA = {
    "religionHits": [],
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/5k-route.webp",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "OpenAI’s rogue AI tried to hack another company in May",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-12T21:41:36+00:00",
-   "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
    "themes": [],
    "aiSummary": "",
    "whyMatters": []
@@ -811,21 +856,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-10T20:30:37+00:00",
    "summary": "This week on “Uncanny Valley,” we dig into a former Anthropic researcher’s AI doomsday warning, the latest upgrades from Apple’s event, and the census report that claimed Trump won the 2020 election.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Schools are catching on to Big Tech’s playbook",
-   "link": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-10T19:49:38+00:00",
-   "summary": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schools on […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1562,36 +1592,6 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Creepy crawlies",
-   "link": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-07T23:08:58+00:00",
-   "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there a",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Quoting Jakub Pachocki",
-   "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-07T22:26:25+00:00",
-   "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
    "aiSummary": "",
    "whyMatters": []
   },
@@ -2964,29 +2964,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses the intersection of AI, theology, and anthropology—how we understand human nature shapes our approach to building AI systems",
     "Relevant to religious educators considering how faith traditions should engage with AI development that treats human limitation as valuable rather than as a problem to solve"
-   ]
-  },
-  {
-   "title": "Two Chaplains Discuss Artificial Intelligence and Bioethics #68",
-   "link": "https://aiandfaith.org/aif-podcast/chaplains-discuss-ai-bioethics/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-07-30T20:03:47+00:00",
-   "summary": "In this conversation, we were joined by Tracy Trothen and Jason Weiner, a Christian and a Jewish chaplain on the front lines of bioethics. We discussed how each of them",
-   "religionScore": 11,
-   "religionHits": [
-    "chaplain",
-    "christian",
-    "ethic",
-    "jewish"
-   ],
-   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-6-30/428924994-44100-2-b4a094b0400c4.m4a",
-   "image": "https://aiandfaith.org/wp-content/uploads/2026/07/AIF-PODCAST-pod-image-Trothen-and-Weiner-Gilad_result-300x300.webp",
-   "themes": [],
-   "aiSummary": "A podcast conversation between a Christian chaplain (Tracy Trothen) and a Jewish chaplain (Jason Weiner) explored the intersection of AI and bioethics from faith perspectives.",
-   "whyMatters": [
-    "Directly engages religious educators and pastoral leaders in bioethical questions raised by AI systems",
-    "Demonstrates religious communities are actively working at the intersection of AI, ethics, and practice"
    ]
   }
  ]
