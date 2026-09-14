@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-14T15:59:22.746368+00:00",
+ "generatedAt": "2026-09-14T16:08:56.733347+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -86,6 +86,21 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Why you should work on AI for AI Research — Richard Socher of Recursive",
+   "link": "https://www.latent.space/p/recursive",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-14T16:04:16+00:00",
+   "summary": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/215289811/2fb38b11f6378b842e98c121de6c47e9.mp3",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "Fighting for the Future of Libraries (With Jennie Rose Halperin)",
    "link": "https://www.404media.co/fighting-for-the-future-of-libraries-with-jennie-rose-halperin/",
    "source": "404 Media",
@@ -151,7 +166,7 @@ window.NEWS_DATA = {
    "source": "Wired · AI",
    "category": "ai",
    "date": "2026-09-14T11:00:00+00:00",
-   "summary": "Sam Altman and Elon Musk this weekend backed a call for restraint, after Dario Amodei called on Washington to slow AI development. Donald Trump, meanwhile, wants the US to maintain its lead over China.",
+   "summary": "Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s weekend plea for regulation. The White House seems unlikely to oblige.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -520,21 +535,6 @@ window.NEWS_DATA = {
    "category": "ai",
    "date": "2026-09-11T20:44:25+00:00",
    "summary": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons $5,000 and held him in contempt for failing to \"verify the factual claims and legal […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Roundtables: Could AI really kill us all?",
-   "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-09-11T20:05:06+00:00",
-   "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction…",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2556,6 +2556,21 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "AI models flub these intelligence tests. Can you fare any better?",
+   "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-08-26T09:00:00+00:00",
+   "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
    "title": "What the Top AI Users Are Doing Differently",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Top-AI-Users-Are-Doing-Differently-e3nsrnp",
    "source": "The AI Daily Brief",
@@ -2610,24 +2625,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Relevant to educators and organizational leaders designing curricula and training for AI literacy across skill levels",
     "Addresses how institutions can systematically help staff and students develop genuine AI competency rather than compliance"
-   ]
-  },
-  {
-   "title": "[AINews] Andrew Ng gets into AI Engineering",
-   "link": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-25T02:50:57+00:00",
-   "summary": "An industry legend starts covering the inevitable!",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!2Hw4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3107842a-995c-42c3-a41a-592339e041f8_1002x1182.png",
-   "themes": [],
-   "aiSummary": "Andrew Ng has launched coverage of AI engineering topics. The article announces that an established industry figure is now focusing on this area of the AI field.",
-   "whyMatters": [
-    "AI engineering as a discipline is becoming prominent enough to warrant dedicated coverage from major figures",
-    "This reflects the field's maturation from research-focused to production-focused concerns"
    ]
   },
   {
