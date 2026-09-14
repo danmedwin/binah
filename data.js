@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-14T10:27:06.031688+00:00",
+ "generatedAt": "2026-09-14T11:27:52.210770+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,38 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
+   "link": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-14T11:00:00+00:00",
+   "summary": "Sam Altman and Elon Musk this weekend backed a call for restraint, after Dario Amodei called on Washington to slow AI development. Donald Trump, meanwhile, wants the US to maintain its lead over China.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
+   "link": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-14T11:00:00+00:00",
+   "summary": "An analysis of 160 deepfake websites reveals politicians in 22 countries appear on them. Nearly all of them are women.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "‘I Like My Big Rat Wife’: Meet the People Using Chatbots to Write Custom Fiction",
    "link": "https://www.wired.com/story/chatbot-generated-fiction-i-like-my-big-rat-wife/",
@@ -953,36 +985,6 @@ window.NEWS_DATA = {
     "islam",
     "jewish"
    ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Everything New You Can Do With Siri AI",
-   "link": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-10T10:30:00+00:00",
-   "summary": "When iOS 27 arrives, it will bring with it a fully revamped assistant for your iPhone.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
-   "link": "https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-10T10:00:00+00:00",
-   "summary": "InquiryIQ, a previously unreported prototype, tested a model from xAI, maker of Grok, to surface associates, social accounts, and other information about people identified through Clearview.",
-   "religionScore": 0,
-   "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
