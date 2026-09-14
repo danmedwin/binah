@@ -2,8 +2,15 @@
 """Add AI summaries + "why this matters" bullets to items in data.js.
 
 Stdlib only. Reads ANTHROPIC_API_KEY from the environment (locally: export it;
-on GitHub: a repo Actions secret). If the key is absent the script exits
-cleanly so the refresh pipeline still works — items just show their feed blurb.
+on GitHub: a repo Actions secret).
+
+Exits non-zero when the front-page Brief could not be regenerated — a missing
+or invalid key, or a run where every Claude call failed. An invalid key once
+went unnoticed for 14 days because this script treated total API failure as a
+normal day and republished a stale Brief; the run stayed green. data.js is
+still written on a failed run (the feed refresh is worth keeping, and the
+commit step runs with `if: always()`), but the job fails so the breakage is
+visible. Set ALLOW_STALE_BRIEF=1 for a deliberate feed-only run with no key.
 
 Only items missing an aiSummary are sent (fetch_news.py carries prior
 enrichment over by link), so a routine refresh summarizes ~a few dozen new
@@ -19,6 +26,7 @@ import re
 import sys
 import time
 import urllib.error
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -26,6 +34,10 @@ HERE = Path(__file__).resolve().parent
 API_URL = "https://api.anthropic.com/v1/messages"
 MODEL = "claude-haiku-4-5"
 BATCH_SIZE = 15
+# Refuse to call a run successful if the Brief it leaves behind is older than
+# this. Refreshes run every 6h and the digest daily, so anything past 48h means
+# regeneration has been failing for a while, whatever the reason.
+MAX_BRIEF_AGE_HOURS = 48
 
 SYSTEM = (
     "You summarize AI-news items for a dashboard read by a tech-savvy rabbi and "
@@ -241,10 +253,20 @@ def build_brief(api_key, items, previous=None, taste=None):
 
 
 def main():
+    # A local run without a key is fine (items just show feed blurbs); the same
+    # state in CI is the rot this guard exists to catch, so it has to be asked
+    # for explicitly. ALLOW_STALE_BRIEF=1 also suppresses the checks below.
+    allow_stale = os.environ.get("ALLOW_STALE_BRIEF", "").strip() == "1"
     api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not api_key:
-        print("ANTHROPIC_API_KEY not set — skipping enrichment (items keep feed blurbs).")
-        return
+        msg = "ANTHROPIC_API_KEY not set — no enrichment and no Brief regeneration."
+        if allow_stale:
+            print(f"{msg} (ALLOW_STALE_BRIEF=1, continuing.)")
+            return 0
+        print(f"!! {msg}", file=sys.stderr)
+        print("!! Set the secret, or pass ALLOW_STALE_BRIEF=1 for a feed-only run.",
+              file=sys.stderr)
+        return 1
 
     path = HERE / "data.js"
     raw = path.read_text(encoding="utf-8")
@@ -253,6 +275,7 @@ def main():
     todo = [i for i in items if not i.get("aiSummary")]
     by_link = {i["link"]: i for i in items}
     done = 0
+    batches_run = batches_failed = 0
     if todo:
         print(f"Enriching {len(todo)} of {len(items)} items with {MODEL}...")
         for start in range(0, len(todo), BATCH_SIZE):
@@ -263,6 +286,9 @@ def main():
                 ensure_ascii=False,
             )
             res = call_claude(api_key, SYSTEM, SCHEMA, user)
+            batches_run += 1
+            if res is None:
+                batches_failed += 1
             for row in (res or {}).get("items", []):
                 it = by_link.get(row.get("link"))
                 if it and row.get("summary"):
@@ -287,18 +313,58 @@ def main():
     # Dashboard refreshes (no flag) keep the day's top stories regardless —
     # a dashboard visitor never saw the "previous" brief.
     prev_digest = data.get("lastDigestBrief") if os.environ.get("DIGEST_RUN") else None
+    problems = []
+    if batches_run and batches_failed == batches_run:
+        problems.append(
+            f"every enrichment batch failed ({batches_failed}/{batches_run}); "
+            f"{len(todo)} items kept their raw feed blurb"
+        )
+
     brief = build_brief(api_key, items, previous=prev_digest, taste=data.get("tasteProfile"))
     if brief:
         data["highlights"] = brief
         n_links = sum(len(b["links"]) for b in brief["bullets"])
         print(f"Brief regenerated: {len(brief['bullets'])} takeaways, {n_links} story links.")
     else:
-        print("Brief unchanged (generation failed or returned empty).")
+        print("!! Brief regeneration failed — highlights left at the stored version.",
+              file=sys.stderr)
+        problems.append("the Brief could not be regenerated")
 
+    # Rot guard. Whatever happened above, the run is not a success if the Brief
+    # the dashboard and the digest will actually serve is stale — this catches
+    # failure modes the branches above do not anticipate.
+    stamp = (data.get("highlights") or {}).get("generatedAt")
+    age_note = "age unknown"
+    if not stamp:
+        problems.append("the Brief carries no generatedAt stamp")
+    else:
+        try:
+            age_h = (datetime.now(timezone.utc)
+                     - datetime.fromisoformat(stamp)).total_seconds() / 3600
+        except ValueError:
+            problems.append(f"the Brief has an unparseable generatedAt ({stamp!r})")
+        else:
+            age_note = f"{age_h:.1f}h old"
+            if age_h > MAX_BRIEF_AGE_HOURS:
+                problems.append(
+                    f"the Brief is {age_h:.1f}h old (limit {MAX_BRIEF_AGE_HOURS}h)"
+                )
+
+    # Written even on a failed run: the feed refresh still has value, and the
+    # workflows commit it with `if: always()`.
     payload = "window.NEWS_DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"
     path.write_text(payload, encoding="utf-8")
-    print(f"Wrote data.js: {done} items enriched.")
+    print(f"Wrote data.js: {done} items enriched. Brief {age_note}.")
+
+    if problems and not allow_stale:
+        print("\n!! REFRESH DEGRADED — " + "; ".join(problems), file=sys.stderr)
+        print("!! Failing the run so this cannot rot silently. "
+              "Check ANTHROPIC_API_KEY first.", file=sys.stderr)
+        return 1
+    if problems:
+        print("Degraded, but ALLOW_STALE_BRIEF=1: " + "; ".join(problems))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

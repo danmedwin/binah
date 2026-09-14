@@ -38,6 +38,9 @@ jobs:
         run: python3 send_digest.py
 
       - name: Commit refreshed data
+        # Runs even when enrichment fails: the feed refresh is still worth
+        # keeping, and the job's failure is what raises the alarm.
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "binah-bot"
           git config user.email "actions@users.noreply.github.com"
