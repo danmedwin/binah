@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-14T00:50:47.605134+00:00",
+ "generatedAt": "2026-09-14T10:27:06.031688+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-08-31T01:15:17.066474+00:00",
@@ -85,6 +85,21 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "‘I Like My Big Rat Wife’: Meet the People Using Chatbots to Write Custom Fiction",
+   "link": "https://www.wired.com/story/chatbot-generated-fiction-i-like-my-big-rat-wife/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-14T09:00:00+00:00",
+   "summary": "While the publishing industry frets over how authors are using AI, many readers are taking things into their own hands.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "commit-rewriter 0.1",
    "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
@@ -1052,12 +1067,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "title": "Introducing the Agents API",
+   "link": "https://openai.com/index/introducing-the-agents-api",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-10T00:00:00+00:00",
-   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1067,12 +1082,12 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Introducing the Agents API",
-   "link": "https://openai.com/index/introducing-the-agents-api",
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-09-10T00:00:00+00:00",
-   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -1093,23 +1108,6 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/pluribus-egg.jpg",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
-   "link": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-09T22:11:55+00:00",
-   "summary": "Jacob Coxon talks to WIRED about the “mini Manhattan project” inside Anthropic, the problem with alignment, and why AI labs have just a few years left to make their systems safe.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
    "aiSummary": "",
    "whyMatters": []
   },
