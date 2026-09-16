@@ -1,43 +1,45 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-16T16:56:05.841992+00:00",
+ "generatedAt": "2026-09-16T19:55:27.386582+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-16T16:56:26.232501+00:00",
+  "generatedAt": "2026-09-16T19:55:44.303752+00:00",
   "bullets": [
    {
-    "text": "Major AI leaders agreed to slow development citing safety concerns, but competitors and politicians question whether this is genuine coordination or protectionism—with China rejecting the call as a tactic to preserve U.S. dominance.",
+    "text": "Major AI labs including OpenAI, Anthropic, and Xai endorsed the AEF-1 evaluation standard and a coordinated slowdown in frontier development, though geopolitical tensions persist as China dismisses safety arguments as protectionism.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+     "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
      "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
-     "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
+     "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei"
     ]
    },
    {
-    "text": "Autonomous AI agents are actively flooding the internet with spam, fraudulent scams, and low-quality generated content at scale, degrading platform quality in real time.",
+    "text": "Google's integration of Model Context Protocol into Home and Anthropic's merged Claude interface signal platform consolidation enabling third-party AI agents to control smart homes and manage persistent user work.",
     "links": [
-     "https://www.404media.co/ai-agent-platform-reinvents-spam-floods-inboxes-worldwide/",
-     "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-     "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/"
+     "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+     "https://simonwillison.net/2026/Sep/16/one-claude/",
+     "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides"
     ]
    },
    {
-    "text": "OpenAI's human contractors review sensitive ChatGPT conversations as part of model improvement, raising privacy concerns for users unaware their chats are read by staff.",
-    "links": [
-     "https://www.404media.co/podcast-humans-are-reading-your-chatgpt-conversations/",
-     "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats/"
-    ]
-   },
-   {
-    "text": "New York authorities seized 12 deepfake websites hosting non-consensual explicit synthetic images of roughly 1,200 people, with similar operations targeting 100+ European politicians.",
+    "text": "Manhattan prosecutors seized 12 deepfake sites generating sexually explicit synthetic imagery of 1,200 victims; European analysis identified 160 sites targeting 100+ politicians across 22 countries, nearly all women.",
     "links": [
      "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites/",
      "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/"
     ]
    },
    {
-    "text": "Religious leaders convened to examine AI's potential harms to humanity, highlighting faith communities' concerns about technology's societal and ethical costs.",
+    "text": "OpenAI's internal \"Project Lily\" involves human contractors reading ChatGPT conversations containing sensitive personal data; separate fraud cases show AI agents generating fake dating profiles and spam at scale.",
     "links": [
-     "https://religionnews.com/2026/09/15/at-ai-conference-religious-leaders-confront-what-technology-could-cost-humanity/"
+     "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats/",
+     "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+     "https://www.404media.co/ai-agent-platform-reinvents-spam-floods-inboxes-worldwide/"
+    ]
+   },
+   {
+    "text": "Public opposition to AI data centers remains strong (61% disapproval in NYT poll); Apple is reportedly re-entering server manufacturing with Nvidia to capture AI compute demand despite infrastructure skepticism.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+     "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia"
     ]
    }
   ]
@@ -92,6 +94,96 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "I Trained a Fly’s Brain to Generate WIRED Story Ideas",
+   "link": "https://www.wired.com/story/i-trained-a-fly-on-wired-story-ideas/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-16T19:00:00+00:00",
+   "summary": "I used an open-source map of a fruit fly’s brain to vibe code a website called PitchFly. Its headline suggestions were delightfully bananas.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Wired writer used an open-source map of a fruit fly's brain to build a website called PitchFly that generates story ideas. The system produced unusual and creative headline suggestions by simulating neural patterns from the fly brain.",
+   "whyMatters": [
+    "Demonstrates unconventional creative use of neuroscience data and AI, showing how biological systems can inspire novel approaches to generative tasks",
+    "Illustrative of the current moment where accessible tools and open models enable playful experimentation across domains"
+   ]
+  },
+  {
+   "title": "Google will now let any AI agent run your smart home",
+   "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-16T18:41:15+00:00",
+   "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol. Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and act on […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is integrating the Model Context Protocol into Google Home, allowing third-party AI agents like Claude and Open Claw to control and monitor connected smart home devices. This standardized integration opens Google's smart home ecosystem to tools beyond Google's own AI systems.",
+   "whyMatters": [
+    "Expands competitive landscape for AI agents in home automation by removing proprietary lock-in",
+    "Raises practical questions about data access, privacy, and control when multiple third-party AI systems can manage home devices"
+   ]
+  },
+  {
+   "title": "Claude Cowork and chat are now one Claude",
+   "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-16T18:09:49+00:00",
+   "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic is merging its Claude Cowork and Claude Chat interfaces into a single Claude product. Users can now bring either quick questions or longer tasks to the same interface, with Claude handling persistence and ongoing work across sessions.",
+   "whyMatters": [
+    "Simplifies Anthropic's product surface and reduces user confusion from multiple Claude offerings",
+    "Reflects a trend toward agentic AI that can handle both interactive chat and autonomous task execution without context switching"
+   ]
+  },
+  {
+   "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+   "link": "https://www.latent.space/p/aiuc",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-16T18:07:45+00:00",
+   "summary": "We sit down with AIUC’s CEO on their Series A!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/215893904/498e50787a4f6e12e12b40465b0792de.mp3",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Latent Space published an interview with the CEO of AIUC about their Series A funding. AIUC appears to be building AI agents or services with a focus on accountability and legal liability.",
+   "whyMatters": [
+    "Indicates venture interest in creating AI systems with clear legal responsibility and liability frameworks, addressing a governance gap",
+    "Reflects emerging market need for AI tools where organizations can understand and manage risk"
+   ]
+  },
+  {
+   "title": "Apple might make servers again to cash in on the AI rush",
+   "link": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-16T17:41:18+00:00",
+   "summary": "According to The Information, Apple is planning to get back into the server game and might just pair up with Nvidia to make it happen. Apple retired its Xserve line in 2011 and has largely left enterprise machines to other manufacturers since. But the growing demand for compute power as the AI industry continues to […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple is reportedly planning to re-enter the server business and may partner with Nvidia to build AI-focused servers. Apple discontinued its Xserve line in 2011 but sees opportunity in the growing demand for compute power from AI workloads.",
+   "whyMatters": [
+    "Signals a major tech company shifting strategy to capitalize on enterprise AI infrastructure demand",
+    "Potential collaboration with Nvidia would consolidate power in the GPU+systems layer of AI compute, with implications for competition and supply chain"
+   ]
+  },
   {
    "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
    "link": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
@@ -262,6 +354,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "How to connect AI usage to business value",
+   "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-16T12:00:00+00:00",
+   "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced new analytics features in ChatGPT Work and Codex that help organizations track AI usage, spending, and outcomes. These tools aim to help teams measure adoption patterns and connect AI spending to business results.",
+   "whyMatters": [
+    "Addresses a key pain point for enterprise customers: ROI measurement and justification of AI spending",
+    "Part of OpenAI's shift toward serving organizational customers rather than individual users, with transparency on usage and value"
+   ]
+  },
+  {
    "title": "AI and data centers are incredibly unpopular in every poll",
    "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
    "source": "The Verge · AI",
@@ -351,28 +461,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Major AI labs are converging on speech-to-speech interfaces as a core product, indicating this is becoming table-stakes for AI assistants",
     "Real-time voice interaction removes friction in how people access large language models"
-   ]
-  },
-  {
-   "title": "At AI conference, religious leaders confront what technology could cost humanity",
-   "link": "https://religionnews.com/2026/09/15/at-ai-conference-religious-leaders-confront-what-technology-could-cost-humanity/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-09-15T21:40:33+00:00",
-   "summary": "WASHINGTON (RNS) — The dangers of AI hung heavy over Tuesday's conference, including the faith-focused panel with evangelical, Catholic and LDS leaders.",
-   "religionScore": 8,
-   "religionHits": [
-    "catholic",
-    "faith",
-    "religio"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Religious leaders from evangelical, Catholic, and LDS traditions gathered at a Washington AI conference to discuss the potential harms and costs of AI technology to humanity. The event highlighted faith communities' concerns about AI's societal impact.",
-   "whyMatters": [
-    "Religious institutions are formally engaging with AI policy and safety questions, bringing ethical and theological frameworks to technical conversations",
-    "This signals that clergy and faith leaders see AI as requiring explicit moral reckoning, not just technical oversight"
    ]
   },
   {
@@ -653,26 +741,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Unusual industry alignment on slowing progress suggests widespread concern about safety risks is becoming mainstream among AI developers.",
     "The fact that competitors are backing a proposal from a rival indicates this may reflect genuine safety worries rather than just competitive positioning."
-   ]
-  },
-  {
-   "title": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
-   "link": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-14T22:48:52+00:00",
-   "summary": "Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast's All-In Summit. It's not the first time Huang has taken a call from the president during work, but this time he put Trump on speakerphone before a big crowd. During the call, the president launched into his […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Nvidia CEO Jensen Huang received a call from President Trump during the All-In Summit and put him on speakerphone to address the crowd about AI and robotics.",
-   "whyMatters": [
-    "Highlights direct political engagement with major AI industry leaders on public stage",
-    "Signals access and relationship between executive and political power on AI policy matters"
    ]
   },
   {
@@ -992,24 +1060,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Privacy and data governance concern: users' potentially sensitive chats are accessed by third parties",
     "Highlights the gap between public perception of AI systems and behind-the-scenes human labor practices"
-   ]
-  },
-  {
-   "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
-   "link": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-14T13:35:55+00:00",
-   "summary": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Microsoft has published a 37-page \"humanist AI code of conduct\" in response to growing safety concerns. This comes amid calls from AI leaders, including Anthropic CEO Dario Amodei, for slowing AI development to address safety risks.",
-   "whyMatters": [
-    "Major tech company is attempting to formalize AI safety and ethics commitments through a code of conduct",
-    "Reflects industry-wide acknowledgment that model progress is outpacing safety verification capabilities"
    ]
   },
   {
@@ -1485,24 +1535,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
-   "link": "https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-11T15:00:00+00:00",
-   "summary": "Timnit Gebru argues that AI companies are stoking fears of extinction to avoid discussing actual harms, like autonomous weapons.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Timnit Gebru contends that AI companies and some technologists deliberately amplify 'extinction-level' AI risk narratives to distract attention from present-day concrete harms, such as autonomous weapons development and labor displacement.",
-   "whyMatters": [
-    "Challenges the discourse landscape around AI risks and priorities among technologists, ethicists, and media",
-    "Raises concern about where resources and advocacy are focused—immediate policy harm versus speculative futures"
-   ]
-  },
-  {
    "title": "Soft-deprecating re.match()",
    "link": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
    "source": "Simon Willison",
@@ -1902,21 +1934,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Calif Research",
-   "link": "https://simonwillison.net/2026/Sep/10/calif-research/",
-   "source": "Simon Willison",
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "source": "OpenAI News",
    "category": "ai",
-   "date": "2026-09-10T00:56:41+00:00",
-   "summary": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two ",
+   "date": "2026-09-10T00:00:00+00:00",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "Researchers, working with AI, discovered and created WeWorm, the first zero-click exploit that spreads through WeChat calls without requiring user interaction, working across iOS and Android.",
+   "aiSummary": "OpenAI introduced GPT-Live-1, enabling full-duplex natural voice conversations in the API with better instruction-following, custom voices, and phone integration.",
    "whyMatters": [
-    "Demonstrates AI's capability to identify and weaponize zero-day vulnerabilities at scale",
-    "Raises urgent security implications for communications platforms and highlights risks of AI-assisted exploitation"
+    "Makes voice AI more natural and conversational; enables voice interfaces for customer service, accessibility, and automated telephony",
+    "Shifts AI interaction from text-centric to voice-first in enterprise and consumer applications"
    ]
   },
   {
@@ -1935,24 +1967,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Lowers barrier for developers to build agentic systems; accelerates shift from chatbots to autonomous task execution",
     "Infrastructure move that will proliferate agent-based applications across industry"
-   ]
-  },
-  {
-   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-10T00:00:00+00:00",
-   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI introduced GPT-Live-1, enabling full-duplex natural voice conversations in the API with better instruction-following, custom voices, and phone integration.",
-   "whyMatters": [
-    "Makes voice AI more natural and conversational; enables voice interfaces for customer service, accessibility, and automated telephony",
-    "Shifts AI interaction from text-centric to voice-first in enterprise and consumer applications"
    ]
   },
   {
@@ -2486,24 +2500,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides practical framework for organizational transformation around agentic AI",
     "Addresses where human judgment and ownership belong as workflows become agent-centric"
-   ]
-  },
-  {
-   "title": "An Alien Mind",
-   "link": "https://openai.com/index/an-alien-mind",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-06T09:00:00+00:00",
-   "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI researcher Jakub Pachocki reflects on increasingly capable AI systems and the challenge of keeping them aligned, calling for stronger safeguards and international coordination.",
-   "whyMatters": [
-    "AI safety and alignment increasingly urgent at frontier capabilities",
-    "Explicitly calls for governance structures beyond individual company implementation"
    ]
   },
   {
@@ -3085,24 +3081,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Double-blind evaluation reduces bias in AI performance assessment, improving the reliability of claims about model capabilities",
     "Methodological rigor in AI evaluation is essential for trustworthy public claims about AI safety and performance"
-   ]
-  },
-  {
-   "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-   "link": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-27T01:50:54+00:00",
-   "summary": "Open Source wins!",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!FSM7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa61da113-3d9b-4206-81c1-06da7b4a9a0c_1362x1278.png",
-   "themes": [],
-   "aiSummary": "NVIDIA has acquired HuggingFace for $13 billion. OpenAI has published a retrospective report on the HuggingFace security incident.",
-   "whyMatters": [
-    "NVIDIA's acquisition of a major open-source AI platform consolidates hardware and software ecosystems under one company, reshaping the competitive landscape",
-    "The incident retrospective signals growing attention to AI safety and responsible disclosure in the industry"
    ]
   },
   {
