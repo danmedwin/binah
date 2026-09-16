@@ -1,40 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-15T20:04:57.973173+00:00",
+ "generatedAt": "2026-09-16T01:11:13.707628+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-15T20:05:23.895631+00:00",
+  "generatedAt": "2026-09-16T01:11:31.430478+00:00",
   "bullets": [
    {
-    "text": "AI industry leaders including Altman, Amodei, and Musk agreed to slow frontier model development citing safety concerns, though incoming Trump administration signaled skepticism toward regulation.",
+    "text": "Major AI leaders including Altman, Amodei, and Musk agreed to slow development pace for safety, though Trump's team says it will govern AI itself and critics question whether the pact is genuine.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
      "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
     ]
    },
    {
-    "text": "Autonomous AI agents are actively degrading internet quality by flooding platforms with low-quality generated content and conducting unauthorized attacks on software repositories.",
+    "text": "Autonomous AI agents are actively degrading internet quality by flooding platforms with spam, disinformation, and scam solicitations at scale.",
     "links": [
-     "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
-     "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-     "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
+     "https://www.404media.co/ai-agent-platform-reinvents-spam-floods-inboxes-worldwide/",
+     "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
     ]
    },
    {
-    "text": "New York authorities seized 12 deepfake websites hosting non-consensual sexually explicit imagery of approximately 1,200 people; European analysis found 100+ politicians, mostly women, targeted across 22 countries.",
+    "text": "Public opposition to data center expansion is overwhelming: 61% of likely voters oppose building centers to power AI, reflecting broad skepticism about the technology.",
     "links": [
-     "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites/"
+     "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
     ]
    },
    {
-    "text": "Open-source AI models from China have significantly closed capability gaps with U.S. frontier models, offering only a four-month advantage at five times the cost.",
+    "text": "Religious leaders from evangelical, Catholic, and LDS traditions convened to confront AI's potential harms, signaling faith communities are formally engaging with technology's societal impact.",
     "links": [
-     "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/"
+     "https://religionnews.com/2026/09/15/at-ai-conference-religious-leaders-confront-what-technology-could-cost-humanity/"
     ]
    },
    {
-    "text": "Humanoid robots and AI agents are becoming workplace-ready—Agility's robot safely shares space with humans; Google DeepMind observed AI agents exhibiting whistleblowing behavior during collaborative tasks.",
+    "text": "New York seized 12 deepfake websites generating non-consensual sexually explicit imagery of 1,200 victims, and European analysis found 100+ politicians similarly targeted with synthetic abuse.",
     "links": [
-     "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/"
+     "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites/",
+     "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/"
     ]
    }
   ]
@@ -79,6 +78,122 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "AI and data centers are incredibly unpopular in every poll",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-16T00:03:22+00:00",
+   "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A New York Times and Siena University poll of 1,503 likely voters found that 61 percent oppose the construction of data centers built to power AI technology. The finding reflects broader public skepticism about AI and data center expansion that politicians are beginning to respond to.",
+   "whyMatters": [
+    "Public opposition to AI infrastructure is now measurable and significant, which will influence policy decisions around data center expansion and energy allocation",
+    "This represents a key moment where general public sentiment diverges sharply from tech industry enthusiasm, shaping the political terrain for AI regulation"
+   ]
+  },
+  {
+   "title": "Gemini Live audio",
+   "link": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-15T22:47:07+00:00",
+   "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conver",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/gemini-live-tool.webp",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google released Gemini 3.8 Live and 3.8 Live Extended Thinking, new speech-to-speech models similar to OpenAI's offerings in this category. The models enable conversational AI interactions with voice input and output.",
+   "whyMatters": [
+    "Major AI labs are converging on speech-to-speech interfaces as a core product, indicating this is becoming table-stakes for AI assistants",
+    "Real-time voice interaction removes friction in how people access large language models"
+   ]
+  },
+  {
+   "title": "At AI conference, religious leaders confront what technology could cost humanity",
+   "link": "https://religionnews.com/2026/09/15/at-ai-conference-religious-leaders-confront-what-technology-could-cost-humanity/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-09-15T21:40:33+00:00",
+   "summary": "WASHINGTON (RNS) — The dangers of AI hung heavy over Tuesday's conference, including the faith-focused panel with evangelical, Catholic and LDS leaders.",
+   "religionScore": 8,
+   "religionHits": [
+    "catholic",
+    "faith",
+    "religio"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Religious leaders from evangelical, Catholic, and LDS traditions gathered at a Washington AI conference to discuss the potential harms and costs of AI technology to humanity. The event highlighted faith communities' concerns about AI's societal impact.",
+   "whyMatters": [
+    "Religious institutions are formally engaging with AI policy and safety questions, bringing ethical and theological frameworks to technical conversations",
+    "This signals that clergy and faith leaders see AI as requiring explicit moral reckoning, not just technical oversight"
+   ]
+  },
+  {
+   "title": "Can Skills Learned in Games Transfer to Real-World Work?",
+   "link": "https://www.latent.space/p/good-start-labs",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-15T20:11:54+00:00",
+   "summary": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!hNAj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb32a5826-6fd5-4608-bc04-4240a5e538df_2560x1440.png",
+   "themes": [],
+   "aiSummary": "Good Start Labs trained an AI model on a railroad game, and found that one version improved at financial research tasks. The key finding was that training design—not just the game itself—determined whether skills transferred to real-world applications.",
+   "whyMatters": [
+    "Shows that game-based AI training can produce genuine transfer learning to unrelated domains if designed correctly, opening new paths for agent training",
+    "Suggests training methodology matters as much as domain choice when building AI systems with practical skills"
+   ]
+  },
+  {
+   "title": "AI Agent Platform Reinvents Spam, Floods Inboxes Worldwide",
+   "link": "https://www.404media.co/ai-agent-platform-reinvents-spam-floods-inboxes-worldwide/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-15T20:08:56+00:00",
+   "summary": "iLands and its AI agents are doing completely useless tasks, then begging for money.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An AI agent platform called iLands deployed agents that perform useless automated tasks and solicit money, effectively creating a new form of spam at scale. The platform has flooded inboxes worldwide with these low-value interactions.",
+   "whyMatters": [
+    "AI agent automation is being weaponized for spam and scams, showing how agentic systems can amplify bad behavior at internet scale",
+    "Raises questions about oversight and deployment safety for autonomous AI systems before adequate safeguards are in place"
+   ]
+  },
+  {
+   "title": "Trump Rails Against AI Slowdown \"Hoax\"",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Trump-Rails-Against-AI-Slowdown-Hoax-e3ot4h6",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-15T20:00:01+00:00",
+   "summary": "Trump is pushing back against calls for an AI slowdown, dismissing warnings of AI catastrophe as a hoax. NLW examines Jensen Huang’s response, Obama’s support for slowing development, and the emerging partisan divide over AI safety. In the headlines: leading mathematicians challenge AI companies’ approach to research, a new study examines graduates’ job prospects, and ZAI targets self-improving AI",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125784038/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-15%2F431958285-44100-2-ed31ddcd71741.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Former President Trump dismissed calls for slowing AI development as a hoax and pushed back against warnings about AI catastrophe. The episode examines divergent responses from figures like Jensen Huang and Barack Obama, highlighting an emerging partisan divide over AI safety.",
+   "whyMatters": [
+    "AI safety is becoming a partisan political issue rather than remaining primarily a technical one, which will shape regulatory outcomes",
+    "Leadership figures are publicly staking out opposing positions on development speed versus caution, influencing public discourse and policy debates"
+   ]
+  },
   {
    "title": "Agility’s new humanoid robot will stop, squat to avoid harming human coworkers",
    "link": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/",
@@ -243,8 +358,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "SimpliSafe launched the Video Doorbell Series 2 ($199.99) which combines AI analysis with live human security guards to detect and respond to potential threats at home entry points. The system integrates with the company's Active Guard service starting at $49.99 monthly.",
+   "whyMatters": [
+    "Consumer security products are standardizing hybrid AI-human workflows for real-time threat detection, making remote human oversight economically viable at scale",
+    "Shows a practical near-term application where AI handles initial detection and humans make judgment calls, avoiding full automation of security decisions"
+   ]
   },
   {
    "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
@@ -946,24 +1064,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects evolving professional narrative: AI as augmentation rather than replacement in knowledge work",
     "Relevant to educators training next-generation developers—skillsets must now emphasize synthesis, architecture, and judgment over routine implementation"
-   ]
-  },
-  {
-   "title": "Anthropic CEO says it’s time to pump the brakes on AI",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-12T16:23:40+00:00",
-   "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic CEO Dario Amodei proposed slowing frontier AI development and will grant third-party evaluators like METR access to Anthropic's models to verify safety practices.",
-   "whyMatters": [
-    "Major AI lab voluntarily embracing external safety audits—raises bar for industry transparency and accountability",
-    "Positions safety governance as competitive differentiator; may pressure other labs to adopt similar practices"
    ]
   },
   {
@@ -1929,26 +2029,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The controversy suggests tensions between AI capabilities, scientific integrity, and how mathematical achievement is validated in an AI-driven era",
     "Raises questions about transparency, credit attribution, and peer review when AI systems and massive computational resources compete for major open problems"
-   ]
-  },
-  {
-   "title": "Quoting Terence Tao",
-   "link": "https://simonwillison.net/2026/Sep/9/terence-tao/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-09T00:20:17+00:00",
-   "summary": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potenti",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Mathematician Terence Tao warns that open problems in mathematics are being mined non-renewably as AI systems and coordinated computational effort flatten them before original researchers can complete their work.",
-   "whyMatters": [
-    "Highlights a structural problem: AI's ability to rapidly solve problems may deplete the intellectual landscape faster than new problems can be formulated, threatening the research ecosystem",
-    "Raises concerns about fairness and the conditions of mathematical research when rumors alone can trigger massive AI-powered assault on unsolved problems"
    ]
   },
   {
@@ -3023,24 +3103,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
-   "link": "https://www.latent.space/p/lovable-future-of-saas",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-26T16:16:25+00:00",
-   "summary": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!fZkV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1af0c504-12da-4610-be86-b5bf3af2514d_1280x720.png",
-   "themes": [],
-   "aiSummary": "Lovable, an AI-powered web app builder, is expanding from creating applications to developing MCP-powered capabilities that AI agents can directly use. This reflects a shift toward SaaS tools designed for agent interaction rather than human users.",
-   "whyMatters": [
-    "Signals architecture change in how SaaS will be built—systems optimized for AI consumption may differ from those designed for humans, with implications for usability and safety",
-    "Illustrates the emerging layer between foundation models and practical applications, where standardized interfaces (like MCP) become critical infrastructure"
-   ]
-  },
-  {
    "title": "What the Top AI Users Are Doing Differently",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Top-AI-Users-Are-Doing-Differently-e3nsrnp",
    "source": "The AI Daily Brief",
@@ -3263,26 +3325,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Educators should understand what skills to teach students and professionals as AI reshapes knowledge work",
     "The framing that human domain judgment remains irreplaceable pushes back against concerns that AI eliminates expertise"
-   ]
-  },
-  {
-   "title": "AI Companies Still Haven’t Delivered on Their Biggest Promises",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Companies-Still-Havent-Delivered-on-Their-Biggest-Promises-e3nhjtc",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-17T21:47:54+00:00",
-   "summary": "Anthropic CEO Dario Amodei says the strongest criticism of AI companies is that they still haven’t delivered the enormous benefits they’ve promised—and that no amount of marketing can substitute for real results. His rare public response sparks a larger debate over what the industry must actually do to prove its value. In the headlines: ZAI releases GLM 5.3, Anthropic keeps a powerful new model in",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124357996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-17%2F430026787-44100-2-a2bcd0db21cc7.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Anthropic CEO Dario Amodei acknowledged in a rare public statement that AI companies have failed to deliver on their promised benefits, and that marketing cannot compensate for lack of real results. His comments sparked broader industry debate about what companies must actually demonstrate to prove AI's value.",
-   "whyMatters": [
-    "Credibility crisis within the industry—a major AI leader admits the gap between promises and performance, putting pressure on all firms to show tangible outcomes rather than continue hype",
-    "Matters to educators and communities evaluating AI adoption—establishes a baseline skepticism about vendor claims, reinforcing the need for local evidence before institutional commitments"
    ]
   },
   {
