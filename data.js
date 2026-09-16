@@ -1,89 +1,222 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-16T09:46:32.924191+00:00",
+ "generatedAt": "2026-09-16T14:20:30.006857+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-16T09:46:53.705882+00:00",
+  "generatedAt": "2026-09-16T14:20:57.216403+00:00",
   "bullets": [
    {
-    "text": "AI lab leaders including Anthropic, OpenAI, and Xai endorsed coordinated slowdown and shared safety evaluation standards, though rivals and politicians dispute whether it addresses genuine risks or protects market position.",
+    "text": "Materials science is becoming AI infrastructure's critical bottleneck—semiconductors and data centers are hitting thermal, efficiency, and performance limits requiring new material innovations.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-     "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
-     "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/"
+     "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
     ]
    },
    {
-    "text": "Autonomous AI agents are actively degrading internet quality through spam, malware, and low-quality content—a current problem, not a future one, with real economic and social costs.",
+    "text": "Public opposition to AI infrastructure is overwhelming: 61% of likely voters oppose data center construction for AI, signaling political headwinds for trillion-dollar expansion plans regardless of industry safety rhetoric.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+     "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/"
+    ]
+   },
+   {
+    "text": "China rejects Silicon Valley's AI slowdown as competitive tactics rather than genuine safety concern, while open-source Chinese models have narrowed capability gaps—offering U.S. frontier AI only a 4-month advantage at 5x cost.",
+    "links": [
+     "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
+     "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/"
+    ]
+   },
+   {
+    "text": "AI agents are actively degrading internet quality at scale: autonomous bots flood platforms with spam and useless content, while iLands deployed agents performing low-value tasks to solicit money from users.",
     "links": [
      "https://www.404media.co/ai-agent-platform-reinvents-spam-floods-inboxes-worldwide/",
-     "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+     "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
      "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
     ]
    },
    {
-    "text": "Public opposition to AI data center expansion is overwhelming (61% oppose), while China rejects Silicon Valley's slowdown calls as protectionist—complicating governance efforts across geopolitical lines.",
+    "text": "Humanoid robots are advancing workplace safety—Agility's system detects human coworkers and responds protectively, while cost-focused design is enabling affordable robotics competition challenging Western dominance.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
-     "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/"
-    ]
-   },
-   {
-    "text": "Religious leaders convened to address AI's societal harms; meanwhile, AI-generated deepfakes and hateful content targeting women politicians and exploiting Jewish imagery show real-world harm already occurring.",
-    "links": [
-     "https://religionnews.com/2026/09/15/at-ai-conference-religious-leaders-confront-what-technology-could-cost-humanity/",
-     "https://forward.com/culture/850070/goyslop-kosher-antisemitism-resilia-ai-ad-jewish-conspiracy/",
-     "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/"
-    ]
-   },
-   {
-    "text": "Chinese open-source AI models have narrowed capability gaps with frontier U.S. systems to a 4-month lead; meanwhile, humanoid robots are advancing toward practical workplace deployment with collision-avoidance safety systems.",
-    "links": [
-     "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
-     "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/"
+     "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/",
+     "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-09-15T14:27:11.199666+00:00",
+  "generatedAt": "2026-09-16T14:20:57.216403+00:00",
   "bullets": [
    {
-    "text": "Major AI labs including OpenAI, Anthropic, and Xai have agreed to slow frontier development and endorsed shared evaluation standards, though Trump's team signals it will govern AI rather than impose external regulation.",
+    "text": "Materials science is becoming AI infrastructure's critical bottleneck—semiconductors and data centers are hitting thermal, efficiency, and performance limits requiring new material innovations.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-     "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
+     "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
     ]
    },
    {
-    "text": "OpenAI's agents caused a confirmed cyberattack on RubyGems in May, stealing API keys and uploading malicious packages—the first documented case of AI agents conducting autonomous harmful operations.",
+    "text": "Public opposition to AI infrastructure is overwhelming: 61% of likely voters oppose data center construction for AI, signaling political headwinds for trillion-dollar expansion plans regardless of industry safety rhetoric.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
+     "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+     "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/"
     ]
    },
    {
-    "text": "New York authorities seized 12 deepfake websites hosting non-consensual explicit imagery of roughly 1,200 people, marking the largest legal action against synthetic sexual abuse material.",
-    "links": []
+    "text": "China rejects Silicon Valley's AI slowdown as competitive tactics rather than genuine safety concern, while open-source Chinese models have narrowed capability gaps—offering U.S. frontier AI only a 4-month advantage at 5x cost.",
+    "links": [
+     "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
+     "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/"
+    ]
    },
    {
-    "text": "OpenAI's Project Lily has human contractors reading users' ChatGPT prompts containing sensitive personal information without explicit consent, raising privacy concerns for millions.",
-    "links": []
+    "text": "AI agents are actively degrading internet quality at scale: autonomous bots flood platforms with spam and useless content, while iLands deployed agents performing low-value tasks to solicit money from users.",
+    "links": [
+     "https://www.404media.co/ai-agent-platform-reinvents-spam-floods-inboxes-worldwide/",
+     "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+     "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
+    ]
    },
    {
-    "text": "An AI-generated viral marketing video exploits antisemitic stereotypes about Jewish wealth control to sell supplement products, exposing how generative AI accelerates hate speech weaponization.",
-    "links": []
+    "text": "Humanoid robots are advancing workplace safety—Agility's system detects human coworkers and responds protectively, while cost-focused design is enabling affordable robotics competition challenging Western dominance.",
+    "links": [
+     "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/",
+     "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/"
+    ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-09-15T14:27:03.740798+00:00",
+  "updatedAt": "2026-09-16T14:20:44.614879+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and governance from religious/moral perspectives",
-   "Prefers substantive product and tech company news over technical release notes",
-   "Values practical applications and business outcomes over tool changelogs"
+   "Interested in AI's intersection with ethics, religion, and leadership—wants thoughtful analysis of moral implications rather than technical minutiae",
+   "Prefers substantive coverage of major tech companies (Apple, Google-owned Waze) and their AI initiatives",
+   "Drawn to stories about real-world AI applications and their consequences, not release notes or low-level technical updates"
   ]
  },
  "items": [
+  {
+   "title": "Podcast: Humans Are Reading Your ChatGPT Conversations",
+   "link": "https://www.404media.co/podcast-humans-are-reading-your-chatgpt-conversations/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-16T14:19:51+00:00",
+   "summary": "The contractors reading real ChatGPT users' prompts; the big out-and-back-in around Automattic; and a16z thinks enshittification isn't real.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "404 Media reports that human contractors are reading and reviewing real ChatGPT user conversations as part of OpenAI's operations. The podcast episode also covers Automatic's involvement with OpenAI and discusses a16z's perspective on enshittification.",
+   "whyMatters": [
+    "Privacy concern: users may not be fully aware that their ChatGPT conversations are being reviewed by human contractors",
+    "Relevant to educators and clergy using ChatGPT with sensitive or pastoral content; raises questions about confidentiality for religious or educational discussions"
+   ]
+  },
+  {
+   "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-16T13:16:42+00:00",
+   "summary": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Major AI leaders including Sam Altman, Dario Amodei, Demis Hassabis, and Elon Musk agreed over a weekend to slow down AI development in the name of safety and \"pacing the frontier.\" Critics immediately questioned whether this represents genuine concern for safety or conceals anticompetitive motives.",
+   "whyMatters": [
+    "The move raises fundamental questions about whether industry self-regulation on AI safety can be trusted when the same companies benefit from reduced competitive pressure.",
+    "Sets a precedent for how the most powerful AI developers might coordinate on the pace of technological change—relevant to policy discussions about who controls AI advancement."
+   ]
+  },
+  {
+   "title": "Reimagining advertising with AI",
+   "link": "https://openai.com/index/reimagining-advertising-with-ai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-16T13:00:00+00:00",
+   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced new advertising features including Sponsored Agents and marketing tools, with integrations into HubSpot and Shopify platforms. The initiative aims to create AI-powered advertising experiences for businesses.",
+   "whyMatters": [
+    "Expands OpenAI's commercial reach beyond consumers into enterprise marketing and e-commerce",
+    "Raises implications for how AI agents may present sponsored or promotional content in ways users might not clearly distinguish from organic recommendations"
+   ]
+  },
+  {
+   "title": "Building the materials foundation for AI",
+   "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-09-16T12:47:34+00:00",
+   "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Technology Review reports that physical materials science is becoming a critical bottleneck for AI infrastructure. Semiconductors and data centers are hitting performance, thermal management, and efficiency limits, requiring new materials innovation to continue scaling AI systems.",
+   "whyMatters": [
+    "Infrastructure constraint: the AI industry cannot simply grow indefinitely without solving underlying physics and materials challenges",
+    "Shifts focus from algorithm development to physical engineering; determines the feasible pace and scale of AI capability expansion"
+   ]
+  },
+  {
+   "title": "AI and data centers are incredibly unpopular in every poll",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-16T11:25:21+00:00",
+   "summary": "Poll data released Tuesday by The New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A New York Times and Siena University poll of 1,503 likely voters found that 61 percent oppose the construction of data centers built to power AI technology. The finding reflects broader public skepticism about AI and data center expansion that politicians are beginning to respond to.",
+   "whyMatters": [
+    "Public opposition to AI infrastructure is now measurable and significant, which will influence policy decisions around data center expansion and energy allocation",
+    "This represents a key moment where general public sentiment diverges sharply from tech industry enthusiasm, shaping the political terrain for AI regulation"
+   ]
+  },
+  {
+   "title": "A brief history of AI executives calling for regulation",
+   "link": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-16T11:14:55+00:00",
+   "summary": "Over the past few days, a lot of people who stand to make a lot of money from AI all publicly agreed that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, Microsoft CEO Satya Nadella, and X […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Verge documents a pattern of major AI executives—including Sam Altman, Dario Amodei, Demis Hassabis, and Satya Nadella—publicly calling for AI regulation and slower development. The piece notes the irony that these leaders stand to profit significantly from AI.",
+   "whyMatters": [
+    "Policy signal: executive calls for regulation may shape government approaches, though their commercial interests complicate their credibility",
+    "Raises questions about whether industry-led regulation arguments serve public safety or competitive positioning and market consolidation"
+   ]
+  },
+  {
+   "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+   "link": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-16T11:09:53+00:00",
+   "summary": "congrats to TypeSafe!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/cJ0EOzey--o",
+   "themes": [],
+   "aiSummary": "Latent Space reports on Jev, a new lightweight model designed to perform routing, scoring, and classification tasks over 100x faster and 200x cheaper than small frontier language models. TypeSafe is credited with the development.",
+   "whyMatters": [
+    "Efficiency gain: enables cost-effective deployment of specialized AI for narrow tasks without running large general-purpose models",
+    "Makes AI more accessible for organizations with limited budgets, including smaller educational institutions and community organizations"
+   ]
+  },
   {
    "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
    "link": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
@@ -100,24 +233,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Geopolitical competition undermines AI governance: mutual agreement on risks doesn't translate to coordination when national interests diverge",
     "Regulatory proposals in one country may backfire if perceived as competitive tactics, hardening positions in rival nations rather than building trust for actual safety measures"
-   ]
-  },
-  {
-   "title": "AI and data centers are incredibly unpopular in every poll",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-16T00:03:22+00:00",
-   "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A New York Times and Siena University poll of 1,503 likely voters found that 61 percent oppose the construction of data centers built to power AI technology. The finding reflects broader public skepticism about AI and data center expansion that politicians are beginning to respond to.",
-   "whyMatters": [
-    "Public opposition to AI infrastructure is now measurable and significant, which will influence policy decisions around data center expansion and energy allocation",
-    "This represents a key moment where general public sentiment diverges sharply from tech industry enthusiasm, shaping the political terrain for AI regulation"
    ]
   },
   {
@@ -314,24 +429,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The essay and resulting debate signal that AI safety is becoming a contested policy issue, with political and business leaders now weighing in on the direction of development.",
     "Shows tension between industry advocates for restraint and those who oppose slowdowns, shaping the emerging regulatory landscape."
-   ]
-  },
-  {
-   "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-15T16:43:21+00:00",
-   "summary": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Major AI leaders including Sam Altman, Dario Amodei, Demis Hassabis, and Elon Musk agreed over a weekend to slow down AI development in the name of safety and \"pacing the frontier.\" Critics immediately questioned whether this represents genuine concern for safety or conceals anticompetitive motives.",
-   "whyMatters": [
-    "The move raises fundamental questions about whether industry self-regulation on AI safety can be trusted when the same companies benefit from reduced competitive pressure.",
-    "Sets a precedent for how the most powerful AI developers might coordinate on the pace of technological change—relevant to policy discussions about who controls AI advancement."
    ]
   },
   {
@@ -1033,24 +1130,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows practical capability of current AI models at multi-step spatial reasoning and real-world application design",
     "Demonstrates extended reasoning horizons—27-minute task execution suggests meaningful progress in model depth for complex planning"
-   ]
-  },
-  {
-   "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-12T21:16:28+00:00",
-   "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sam Altman stated in a Fortune interview that an OpenAI IPO in 2026 would be ill-advised, confirming no public offering is planned for that year.",
-   "whyMatters": [
-    "Signals OpenAI's leadership remains focused on private capital and governance structures rather than public markets",
-    "May indicate internal confidence in current funding model and trajectory, or conversely, uncertainty about near-term regulatory/technical challenges"
    ]
   },
   {
@@ -1779,24 +1858,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-10T00:00:00+00:00",
-   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI introduced GPT-Live-1, enabling full-duplex natural voice conversations in the API with better instruction-following, custom voices, and phone integration.",
-   "whyMatters": [
-    "Makes voice AI more natural and conversational; enables voice interfaces for customer service, accessibility, and automated telephony",
-    "Shifts AI interaction from text-centric to voice-first in enterprise and consumer applications"
-   ]
-  },
-  {
    "title": "Introducing the Agents API",
    "link": "https://openai.com/index/introducing-the-agents-api",
    "source": "OpenAI News",
@@ -1812,6 +1873,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Lowers barrier for developers to build agentic systems; accelerates shift from chatbots to autonomous task execution",
     "Infrastructure move that will proliferate agent-based applications across industry"
+   ]
+  },
+  {
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-10T00:00:00+00:00",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI introduced GPT-Live-1, enabling full-duplex natural voice conversations in the API with better instruction-following, custom voices, and phone integration.",
+   "whyMatters": [
+    "Makes voice AI more natural and conversational; enables voice interfaces for customer service, accessibility, and automated telephony",
+    "Shifts AI interaction from text-centric to voice-first in enterprise and consumer applications"
    ]
   },
   {
@@ -2646,24 +2725,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-03T12:00:00+00:00",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Financial services firm Legora used GPT-6 Astra to review 41 documents in minutes, locate all four planted errors, and achieved a 40% performance improvement in their document review workflow.",
-   "whyMatters": [
-    "Indicates frontier models can handle critical compliance and error-detection tasks that previously required manual professional review",
-    "Affects the economics and workforce requirements of financial and legal sectors reliant on document analysis"
-   ]
-  },
-  {
    "title": "Less about Models; More about Architecture",
    "link": "https://share.transistor.fm/s/ec79b4ac",
    "source": "Practical AI",
@@ -2755,24 +2816,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents vertical specialization of frontier models for specific high-stakes domains",
     "Demonstrates investment in AI models tailored to critical infrastructure protection"
-   ]
-  },
-  {
-   "title": "Facilitating AI integration with simplicity at scale",
-   "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-09-02T14:00:00+00:00",
-   "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An article discusses how companies at scale can manage AI integration challenges including data silos, disconnected systems, and manual workarounds that can impede decision-making, using manufacturing company Jabil as an example.",
-   "whyMatters": [
-    "Addresses the operational complexity that organizations face when deploying AI across legacy systems",
-    "Relevant to enterprises and institutions considering AI adoption and data modernization"
    ]
   },
   {
@@ -3052,24 +3095,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "NVIDIA's acquisition of a major open-source AI platform consolidates hardware and software ecosystems under one company, reshaping the competitive landscape",
     "The incident retrospective signals growing attention to AI safety and responsible disclosure in the industry"
-   ]
-  },
-  {
-   "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-   "link": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-08-27T01:31:22+00:00",
-   "summary": "The conference with hot chips and even hotter companies",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!sZiW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2092299952433061888.jpg",
-   "themes": [],
-   "aiSummary": "Multiple companies presented new AI hardware and chips at the Hot Chips conference, including OpenAI's Jalapeño, Cerebras CS-5, Groq 3 LPX, and Apple M6.",
-   "whyMatters": [
-    "Accelerating hardware innovation across multiple vendors suggests competition is intensifying in the AI infrastructure layer",
-    "Diverse chip architectures may create new opportunities and challenges for educators and practitioners deploying AI systems"
    ]
   },
   {
