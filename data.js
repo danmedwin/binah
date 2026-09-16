@@ -1,39 +1,45 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-16T01:11:13.707628+00:00",
+ "generatedAt": "2026-09-16T09:46:32.924191+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-16T01:11:31.430478+00:00",
+  "generatedAt": "2026-09-16T09:46:53.705882+00:00",
   "bullets": [
    {
-    "text": "Major AI leaders including Altman, Amodei, and Musk agreed to slow development pace for safety, though Trump's team says it will govern AI itself and critics question whether the pact is genuine.",
+    "text": "AI lab leaders including Anthropic, OpenAI, and Xai endorsed coordinated slowdown and shared safety evaluation standards, though rivals and politicians dispute whether it addresses genuine risks or protects market position.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+     "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+     "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+     "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/"
     ]
    },
    {
-    "text": "Autonomous AI agents are actively degrading internet quality by flooding platforms with spam, disinformation, and scam solicitations at scale.",
+    "text": "Autonomous AI agents are actively degrading internet quality through spam, malware, and low-quality content—a current problem, not a future one, with real economic and social costs.",
     "links": [
      "https://www.404media.co/ai-agent-platform-reinvents-spam-floods-inboxes-worldwide/",
+     "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
      "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
     ]
    },
    {
-    "text": "Public opposition to data center expansion is overwhelming: 61% of likely voters oppose building centers to power AI, reflecting broad skepticism about the technology.",
+    "text": "Public opposition to AI data center expansion is overwhelming (61% oppose), while China rejects Silicon Valley's slowdown calls as protectionist—complicating governance efforts across geopolitical lines.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+     "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+     "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/"
     ]
    },
    {
-    "text": "Religious leaders from evangelical, Catholic, and LDS traditions convened to confront AI's potential harms, signaling faith communities are formally engaging with technology's societal impact.",
+    "text": "Religious leaders convened to address AI's societal harms; meanwhile, AI-generated deepfakes and hateful content targeting women politicians and exploiting Jewish imagery show real-world harm already occurring.",
     "links": [
-     "https://religionnews.com/2026/09/15/at-ai-conference-religious-leaders-confront-what-technology-could-cost-humanity/"
-    ]
-   },
-   {
-    "text": "New York seized 12 deepfake websites generating non-consensual sexually explicit imagery of 1,200 victims, and European analysis found 100+ politicians similarly targeted with synthetic abuse.",
-    "links": [
-     "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites/",
+     "https://religionnews.com/2026/09/15/at-ai-conference-religious-leaders-confront-what-technology-could-cost-humanity/",
+     "https://forward.com/culture/850070/goyslop-kosher-antisemitism-resilia-ai-ad-jewish-conspiracy/",
      "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/"
+    ]
+   },
+   {
+    "text": "Chinese open-source AI models have narrowed capability gaps with frontier U.S. systems to a 4-month lead; meanwhile, humanoid robots are advancing toward practical workplace deployment with collision-avoidance safety systems.",
+    "links": [
+     "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
+     "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/"
     ]
    }
   ]
@@ -78,6 +84,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
+   "link": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-16T09:30:00+00:00",
+   "summary": "The US and China agree that advanced AI poses serious risks. But Beijing is deeply skeptical of a deal that prioritizes keeping US companies ahead.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The US and China both acknowledge serious risks from advanced AI, but China rejects calls from Silicon Valley for an AI slowdown. Beijing suspects such proposals are designed to preserve American technological advantage rather than genuinely address safety concerns.",
+   "whyMatters": [
+    "Geopolitical competition undermines AI governance: mutual agreement on risks doesn't translate to coordination when national interests diverge",
+    "Regulatory proposals in one country may backfire if perceived as competitive tactics, hardening positions in rival nations rather than building trust for actual safety measures"
+   ]
+  },
   {
    "title": "AI and data centers are incredibly unpopular in every poll",
    "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
@@ -1443,24 +1467,6 @@ window.NEWS_DATA = {
    "aiSummary": "OpenAI published technical details on how it scaled Habitat from a Python library into a globally distributed storage platform serving over 1 billion ChatGPT users and handling 22 million requests per second.",
    "whyMatters": [
     "Primarily an infrastructure and scaling technical achievement; indicates ChatGPT's massive operational footprint"
-   ]
-  },
-  {
-   "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
-   "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-11T09:00:00+00:00",
-   "summary": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers at major AI labs are increasingly concerned about existential risks from AI systems, citing rapid capability advances, recursive self-improvement potential, and the emergence of agentic swarms as genuine sources of worry within the industry.",
-   "whyMatters": [
-    "Signals growing internal concern within leading AI organizations that current trajectories may pose civilization-scale risks",
-    "Reflects debate over whether AI development speed and coordination mechanisms are adequate for managing potential catastrophic outcomes"
    ]
   },
   {
