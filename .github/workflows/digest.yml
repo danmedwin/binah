@@ -2,8 +2,22 @@ name: Daily digest email
 
 on:
   schedule:
-    # 9:45 UTC = 5:45am Atlanta in summer (4:45am in winter — fixed UTC cron).
-    - cron: "45 9 * * *"
+    # Target: in Dan's inbox before his 6:45am Atlanta commute (10:45 UTC in
+    # summer). This cron is deliberately ~7h earlier than that, because
+    # GitHub does not run scheduled workflows on time.
+    #
+    # Through 2026-08-26 it was punctual — 11min-1h late, landing 05:55-06:45
+    # EDT. From 2026-08-27 onward every scheduled run in this repo (refresh
+    # too, so it is not specific to this workflow) has been 3.3-11.2h late,
+    # median 4.1h. Offsetting for the median puts ~86% of days in the inbox
+    # before 6:45am; the long-tail days cannot be fixed from here.
+    #
+    # Kept 80min clear of refresh.yml's slots (05/11/17/23) so the two jobs'
+    # `git push` steps don't collide — neither pulls or retries.
+    #
+    # If GitHub's scheduler recovers to its pre-Aug-27 punctuality, move this
+    # back toward 09:45 or the digest will arrive around midnight.
+    - cron: "40 3 * * *"
   workflow_dispatch: {}
 
 permissions:
