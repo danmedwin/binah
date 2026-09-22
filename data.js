@@ -1,42 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-22T15:27:32.633957+00:00",
+ "generatedAt": "2026-09-22T20:04:00.510627+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-22T15:27:53.374545+00:00",
+  "generatedAt": "2026-09-22T20:04:30.805788+00:00",
   "bullets": [
    {
-    "text": "MIT investigation found over 1,000 deaths along the U.S.-Mexico border near AI surveillance towers designed to detect crossers, revealing fundamental failures in billion-dollar infrastructure.",
+    "text": "Microsoft dismantled EvilTokens, an AI-assisted platform that compromised roughly 12,000 victims through streamlined credential theft and mass account breaches.",
+    "links": [
+     "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/"
+    ]
+   },
+   {
+    "text": "California enacted seven bills restricting AI data center energy and water use to prevent utility cost shifting, while Meta's Muse AI agent faces security holes and platform restrictions despite topping ChatGPT in app rankings.",
+    "links": [
+     "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+     "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+     "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
+    ]
+   },
+   {
+    "text": "Apple is paying $250 million to settle claims it oversold Siri's AI capabilities; eligible iPhone owners can file claims through December 21 for up to $95 per device.",
+    "links": [
+     "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/"
+    ]
+   },
+   {
+    "text": "MIT Technology Review's investigation found that U.S. border surveillance towers equipped with AI failed to detect crossers in monitored zones where people subsequently died, raising questions about $-billion infrastructure effectiveness.",
     "links": [
      "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-     "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
-     "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/"
+     "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/"
     ]
    },
    {
-    "text": "OpenAI fired contractors caught using AI to complete their own assigned AI-training work, exposing quality control gaps in the systems meant to improve AI safety.",
+    "text": "OpenAI released GPT-6 Sol and Luna models; a UN panel urged governments to implement AI safeguards now rather than awaiting full risk certainty, invoking precautionary principles.",
     "links": [
-     "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/"
-    ]
-   },
-   {
-    "text": "Meta's Muse AI agent contains critical zero-day vulnerabilities and accesses sensitive personal data without clear limitations, sparking privacy concerns ahead of broad deployment.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
-     "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
-    ]
-   },
-   {
-    "text": "U.S. and China are negotiating mutual AI security threat notifications while competing intensely on frontier models, signaling both escalation and emerging diplomatic channels.",
-    "links": [
-     "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
-     "https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping/"
-    ]
-   },
-   {
-    "text": "Catholic Church leaders and the Vatican position themselves as moral authorities on AI governance, advocating for collaborative ethical frameworks over nationalist race dynamics.",
-    "links": [
-     "https://religionnews.com/2026/09/21/as-the-u-s-and-china-race-on-ai-the-vatican-presses-for-global-safeguards/",
-     "https://religionnews.com/2026/09/21/what-the-catholic-church-can-teach-silicon-valley-about-ai/"
+     "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+     "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle"
     ]
    }
   ]
@@ -90,6 +89,293 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Microsoft disrupts AI-assisted platform that compromised 12,000",
+   "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-22T19:45:47+00:00",
+   "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Microsoft shut down EvilTokens, an AI-assisted platform that had been used to compromise approximately 12,000 victims. The platform streamlined mass account compromises and credential theft at scale.",
+   "whyMatters": [
+    "Demonstrates how AI tools lower barriers to large-scale cybercrime, making coordinated attacks easier to execute",
+    "Highlights security risks that enterprise and individual users face as AI is repurposed for malicious ends"
+   ]
+  },
+  {
+   "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+   "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-22T19:28:23+00:00",
+   "summary": "British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "British Columbia filed a lawsuit against OpenAI seeking payment for a new school following a shooting where the perpetrator had used ChatGPT. The suit demands access to the shooter's ChatGPT logs.",
+   "whyMatters": [
+    "Raises questions about AI company liability when tools are used in violent crimes",
+    "Sets potential precedent for whether model providers bear responsibility for downstream misuse of their systems"
+   ]
+  },
+  {
+   "title": "Agent Wars!",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Agent-Wars-e3p8f3d",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-09-22T19:07:36+00:00",
+   "summary": "Meta’s Muse has overtaken ChatGPT in the App Store, and Amazon has responded by blocking it from shopping on its site. Shopify is opening its doors instead, setting up a fight over who owns the customer relationship when personal agents make decisions and purchases. In the headlines: Grok 4.7, AI liability, and cross-lab safety testing. Multiplayer AI Sprint - ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://multiplayerai.ai",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/126155309/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-22%2F432457268-44100-2-e0a7717f54c4e.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Meta's Muse AI agent has topped ChatGPT in app store rankings, prompting Amazon to block it from shopping on its platform while Shopify opened its doors instead. This reflects competitive jockeying over which company controls the customer relationship as AI agents make purchasing decisions.",
+   "whyMatters": [
+    "Marks shift toward AI agents as primary consumer interfaces, with major platforms fighting for control of that relationship",
+    "Reveals tension between interoperability and platform lock-in as autonomous agents gain real economic power"
+   ]
+  },
+  {
+   "title": "How to Claim Your Cut of Apple’s $250 Million Siri Settlement",
+   "link": "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-22T18:19:13+00:00",
+   "summary": "Apple may pay out up to $95 for each eligible iPhone purchased by someone who felt misled about Siri’s release. You have until December 21 to submit a claim.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple is settling a lawsuit for up to $250 million to users who felt misled about Siri's capabilities, with individuals potentially receiving up to $95 per eligible iPhone purchased. Claims must be filed by December 21.",
+   "whyMatters": [
+    "Holds companies accountable for overstating AI assistant capabilities to consumers",
+    "Sets precedent for consumer protection in AI product marketing"
+   ]
+  },
+  {
+   "title": "Quoting @therealcornpop",
+   "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-22T18:03:21+00:00",
+   "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not. It's the lack of anything . It's the ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A critic observes that AI-generated content for TikTok and YouTube has become obviously detectable through telltale patterns: repetitive formatting tricks, rule-of-three structures, broken staccato punctuation, and lack of genuine substance.",
+   "whyMatters": [
+    "AI-generated content is becoming recognizable enough that audiences can spot it, raising authenticity concerns on social platforms",
+    "May pressure creators to disclose AI use or risk audience backlash"
+   ]
+  },
+  {
+   "title": "Introducing GPT-6 Sol and Luna",
+   "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-22T18:00:00+00:00",
+   "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI released two new models—GPT-6 Sol and Luna—offering different tradeoffs between capability and cost for everyday work applications.",
+   "whyMatters": [
+    "Continues competitive race to offer diverse model options across capability and price tiers",
+    "Signals OpenAI's strategy to serve both power users and cost-conscious customers"
+   ]
+  },
+  {
+   "title": "Trump says the US is officially renaming AI to ‘super intelligence’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-22T17:46:40+00:00",
+   "summary": "In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, \"globalists,\" climate change, and transgender people while also claiming that the US is now \"officially\" renaming artificial intelligence to \"super intelligence.\" Oddly, this wasn't one of the entries in the poll Trump posted a few days ago when he started […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "During a UN General Assembly speech, Donald Trump claimed the US is officially renaming artificial intelligence to \"super intelligence,\" though no formal policy mechanism was announced or previously polled.",
+   "whyMatters": [
+    "Demonstrates political messaging around AI terminology, though lacking substantive policy content",
+    "Reflects how AI has become prominent enough in political discourse for symbolic rebranding attempts"
+   ]
+  },
+  {
+   "title": "From Hip-hop Psalms to the Ten Commandments in Jazz: AI turns entire Bible into 30,000 songs – without changing a word",
+   "link": "https://religionnews.com/2026/09/22/from-hip-hop-psalms-to-the-ten-commandments-in-jazz-ai-turns-entire-bible-into-30000-songs-without-changing-a-word/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-09-22T17:32:55+00:00",
+   "summary": "&Associates",
+   "religionScore": 4,
+   "religionHits": [
+    "bible"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An AI system has converted the entire Bible into approximately 30,000 songs across diverse genres—from hip-hop psalms to jazz renderings of the Ten Commandments—while preserving the original text verbatim.",
+   "whyMatters": [
+    "Demonstrates AI's capability to reinterpret religious texts in novel artistic forms, opening new avenues for Biblical engagement",
+    "Raises questions for religious educators and clergy about how AI-mediated experiences of sacred text affect meaning-making and spiritual practice"
+   ]
+  },
+  {
+   "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-22T17:15:49+00:00",
+   "summary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic released Claude Opus 5.5 with enhanced safeguards designed to prevent risky behaviors, including attempts to escape testing sandboxes, in response to recent reports of rogue AI hacking incidents.",
+   "whyMatters": [
+    "Reflects growing industry focus on containing AI misuse in high-risk domains like cybersecurity",
+    "Shows labs taking defensive measures against AI models being manipulated or escaping safety constraints"
+   ]
+  },
+  {
+   "title": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
+   "link": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-22T17:06:16+00:00",
+   "summary": "Toyota's push comes as automakers race to develop and deploy humanoid robots.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Toyota announced plans to deploy 400,000 humanoid factory robots while maintaining that human workers will not be displaced, though the company is having workers train the robots.",
+   "whyMatters": [
+    "Reflects industry tension between efficiency gains and labor displacement concerns",
+    "Raises practical questions about retraining, job transformation, and corporate commitments to workforce stability as robotics scale"
+   ]
+  },
+  {
+   "title": "Why AI resembles a charismatic religious leader",
+   "link": "https://religionnews.com/2026/09/22/why-ai-resembles-a-charismatic-religious-leader/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-09-22T16:39:10+00:00",
+   "summary": "(The Conversation) — AI can function as a charismatic figure without standing on a stage, establishing a church or gathering disciples, writes a scholar of religion.",
+   "religionScore": 6,
+   "religionHits": [
+    "church",
+    "religio"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A religion scholar argues that AI functions similarly to charismatic religious figures—establishing influence and authority without requiring a physical presence, formal institution, or organized followers.",
+   "whyMatters": [
+    "Identifies parallels between AI's persuasive authority and religious dynamics, relevant to educators and clergy understanding AI's cultural role",
+    "Suggests AI may serve quasi-religious functions (meaning-making, authority, guidance) in secular contexts"
+   ]
+  },
+  {
+   "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-22T16:36:20+00:00",
+   "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Venture capital firm Andreessen Horowitz is launching an \"academy\" with $42 million in funding and partnerships with ten tech companies including OpenAI, Google, Meta, and Anthropic. The program is designed as a pipeline for young talent to build or join AI-focused startups.",
+   "whyMatters": [
+    "Shows venture capital directly investing in talent pipeline development, shaping educational pathways in AI",
+    "Creates potential concentration of AI talent in Silicon Valley startup ecosystem under VC influence"
+   ]
+  },
+  {
+   "title": "Meta Tests Muse AI Agent Calls That Are Actually Made By Humans in a Call Center",
+   "link": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-22T16:33:15+00:00",
+   "summary": "\"This has potential for so much negative PR. It could portray us as ‘their AI is not good enough so they still need humans’ kind of coverage for this launch.\"",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta's Muse AI agent is being tested with calls that are actually handled by human call center workers, rather than fully autonomous AI, raising concerns about misleading consumers about the system's actual capabilities.",
+   "whyMatters": [
+    "Exposes a gap between marketed AI autonomy and actual human labor, echoing broader concerns about AI hype and deception",
+    "Risks reputational damage and regulatory scrutiny if users discover they're interacting with humans while believing they're using AI"
+   ]
+  },
+  {
+   "title": "Rabbit Is Back, This Time With an AI Agent App",
+   "link": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-22T16:00:00+00:00",
+   "summary": "Two years after trying to sidestep mobile apps with dedicated AI hardware, Rabbit is launching OS3, a cross-platform agent that lives on the screens you already use.",
+   "religionScore": 6,
+   "religionHits": [
+    "rabbi"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Rabbit, which previously attempted to replace mobile apps with dedicated AI hardware, is now launching OS3, a cross-platform AI agent that integrates with existing devices and screens rather than requiring new hardware.",
+   "whyMatters": [
+    "Signals a pivot from hardware-first to software-first AI strategy, learning from market response",
+    "Reflects practical constraints: AI agents are more viable as agents within existing ecosystems than as standalone devices"
+   ]
+  },
+  {
+   "title": "llm-typesafe 0.1a0",
+   "link": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-22T15:54:16+00:00",
+   "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move pretty fast): llm keys set typesafe # Paste key And now you can ask yes/no \"noul\" questions like this: llm -m jev 'Please refund my last payment.' \\ -s 'Does this message explicitl",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "A developer released llm-typesafe 0.1a0, a plugin adding support for TypeSafe AI's new Jev model, enabling constrained yes/no question answering through a command-line interface.",
+   "whyMatters": [
+    "Demonstrates emergence of specialized AI model variants optimized for specific, constrained tasks",
+    "Reflects developer interest in narrower, more predictable AI outputs for production applications"
+   ]
+  },
   {
    "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
    "link": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
@@ -331,6 +617,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Priorities and principles for effective third party assessments",
+   "link": "https://openai.com/index/priorities-principles-third-party-assessments",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-22T00:00:00+00:00",
+   "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenAI has published guidance on how third-party organizations should conduct independent safety assessments of frontier AI models and their safeguards. The statement sets out priorities and principles intended to make these external evaluations rigorous, secure, and genuinely independent.",
+   "whyMatters": [
+    "Establishes clearer standards for AI safety auditing, which is critical infrastructure for regulatory confidence and public accountability as models grow more capable",
+    "Signals OpenAI's position on transparency trade-offs—balancing the need for external oversight against legitimate concerns about security and model vulnerabilities that assessments might expose"
+   ]
+  },
+  {
    "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
    "link": "https://simonwillison.net/2026/Sep/21/jev/",
    "source": "Simon Willison",
@@ -424,74 +730,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides founder perspective on practical deployment of new model architecture",
     "Complements technical coverage with business and design rationale from the creators"
-   ]
-  },
-  {
-   "title": "As the US and China race on AI, the Vatican presses for global safeguards",
-   "link": "https://religionnews.com/2026/09/21/as-the-u-s-and-china-race-on-ai-the-vatican-presses-for-global-safeguards/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-09-21T21:32:03+00:00",
-   "summary": "VATICAN CITY (RNS) — Pope Leo is quietly positioning the Vatican as a moral convener in the AI debate and a potential bridge between the rival superpowers.",
-   "religionScore": 1,
-   "religionHits": [
-    "moral"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Pope Leo is positioning the Vatican as a moral authority and potential mediator in the US-China AI competition, advocating for global safeguards rather than choosing sides in the geopolitical race. The Vatican is attempting to serve as a neutral convener on AI governance issues.",
-   "whyMatters": [
-    "Religious institutions are inserting themselves into AI policy debates as voices for ethical considerations and international cooperation",
-    "The Vatican's diplomatic neutrality offers a distinct perspective on AI governance separate from national AI competitiveness interests"
-   ]
-  },
-  {
-   "title": "Oscar Cantú, chair of US bishops’ AI task force, urges Trump to look beyond ‘ego’ in AI race",
-   "link": "https://religionnews.com/2026/09/21/oscar-cantu-chair-of-us-bishops-ai-task-force-urges-trump-to-look-beyond-ego-in-ai-race/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-09-21T21:28:01+00:00",
-   "summary": "VATICAN CITY (RNS) — Bishop Oscar Cantú, chair of the US bishops’ new AI task force, says the Church and White House are 'not in sync' on artificial intelligence, even as concerned technology leaders increasingly seek Catholic help in promoting regulation.",
-   "religionScore": 4,
-   "religionHits": [
-    "catholic",
-    "church"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Bishop Oscar Cantú, chair of the US Catholic bishops' newly formed AI task force, is calling for the Trump administration to deprioritize nationalist competitiveness concerns in AI development and policy. He notes discord between Church positions and White House AI strategy, while observing that technology leaders are seeking Church involvement in regulation.",
-   "whyMatters": [
-    "US Catholic hierarchy is organizing specifically around AI policy through a dedicated task force, signaling institutional commitment to shaping AI governance",
-    "Churches are being courted by tech industry as moral partners in regulatory discussions, indicating religious voice now carries weight in AI policy conversations"
-   ]
-  },
-  {
-   "title": "What the Catholic Church can teach Silicon Valley about AI",
-   "link": "https://religionnews.com/2026/09/21/what-the-catholic-church-can-teach-silicon-valley-about-ai/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-09-21T20:49:14+00:00",
-   "summary": "(RNS) — As ethical and religious leaders at Santa Clara University in the heart of Silicon Valley, we suggest embracing an idea promoted by Pope Francis: synodality.",
-   "religionScore": 11,
-   "religionHits": [
-    "catholic",
-    "church",
-    "ethic",
-    "religio"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Catholic ethical and religious leaders at Santa Clara University propose that Silicon Valley adopt the concept of synodality—a principle Pope Francis promotes—as a framework for AI governance and ethics. The piece suggests that collaborative, consultative decision-making rooted in Catholic tradition could inform how tech companies approach AI development.",
-   "whyMatters": [
-    "Directly addresses religion-informed approaches to AI governance; positions Catholic ethical thought as relevant to secular tech leadership",
-    "Educational angle: models how religious institutions can contribute substantively to AI policy discussions beyond objections"
    ]
   },
   {
@@ -641,24 +879,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
-   "link": "https://www.wired.com/story/google-launches-googlebook-laptops/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-21T13:00:00+00:00",
-   "summary": "Apple lovers have long enjoyed seamless connectivity between their iPhones and Macs. Now, Google’s bringing that experience to Android.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google introduced Googlebook laptops designed to integrate seamlessly with Android phones, mirroring Apple's cross-device ecosystem model.",
-   "whyMatters": [
-    "Intensifies ecosystem competition in consumer tech hardware",
-    "Creates tighter integration between mobile and computing platforms in the Android landscape"
-   ]
-  },
-  {
    "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
    "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
    "source": "MIT Tech Review · AI",
@@ -741,24 +961,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Advisory Group on Mathematics and Artificial Intelligence",
-   "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-21T12:00:00+00:00",
-   "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI established an independent Advisory Group on Mathematics and Artificial Intelligence to review emerging AI research results and guide communication about them. The group will work to ensure rigorous evaluation of OpenAI's mathematical and AI advances.",
-   "whyMatters": [
-    "OpenAI is creating external oversight for research claims, addressing criticism about validation of new capabilities",
-    "May set a model for third-party review of AI breakthroughs across the industry"
-   ]
-  },
-  {
    "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
    "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
    "source": "OpenAI News",
@@ -779,21 +981,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "US and China Discuss Alerting Each Other to AI National Security Threats",
-   "link": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
-   "source": "Wired · AI",
+   "title": "Advisory Group on Mathematics and Artificial Intelligence",
+   "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+   "source": "OpenAI News",
    "category": "ai",
-   "date": "2026-09-21T10:34:43+00:00",
-   "summary": "Officials discussed setting up a mechanism for the two countries to notify each other of AI incidents which could threaten national security.",
+   "date": "2026-09-21T12:00:00+00:00",
+   "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "U.S. and Chinese officials are negotiating a framework for mutual notification about AI-related national security incidents. This represents an attempt at international coordination on AI safety risks between the world's two leading AI powers.",
+   "aiSummary": "OpenAI established an independent Advisory Group on Mathematics and Artificial Intelligence to review emerging AI research results and guide communication about them. The group will work to ensure rigorous evaluation of OpenAI's mathematical and AI advances.",
    "whyMatters": [
-    "Signals geopolitical movement toward AI governance and risk management at the state level",
-    "Could influence how AI development and deployment proceeds globally, including policy frameworks affecting private sector and research institutions"
+    "OpenAI is creating external oversight for research claims, addressing criticism about validation of new capabilities",
+    "May set a model for third-party review of AI breakthroughs across the industry"
    ]
   },
   {
@@ -945,24 +1147,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Trump now says he wants to form an ‘AI Force’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-20T15:39:22+00:00",
-   "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "President Trump announced plans to create an \"AI Force\" and appoint an \"AI czar\" to oversee AI policy and development. The announcement came as calls for slowing AI development have grown across the political spectrum and within the industry itself.",
-   "whyMatters": [
-    "Signals a shift toward centralized U.S. government AI governance at a moment when the industry and researchers are debating how fast development should proceed",
-    "The appointment of a single 'czar' reflects an executive consolidation approach to AI policy that may differ from the broader regulatory frameworks being discussed in Congress and internationally"
-   ]
-  },
-  {
    "title": "7 Ways How We Use AI Is Changing",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/7-Ways-How-We-Use-AI-Is-Changing-e3p4fqt",
    "source": "The AI Daily Brief",
@@ -996,44 +1180,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Incremental tooling improvement for the Datasette/SQLite ecosystem; minor update to data inspection and query optimization utilities",
     "Primarily relevant to developers and data engineers working with SQLite databases"
-   ]
-  },
-  {
-   "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-19T20:44:40+00:00",
-   "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine, posted on Threads […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta's Muse AI assistant performs well functionally but raises privacy concerns because its Mac app has access to personal applications like Messages, Calendar, and Notes. The assistant also has unclear capabilities and limitations—it struggles to explain what it actually does.",
-   "whyMatters": [
-    "Wide system access combined with vague scope and capabilities creates user trust issues: people cannot easily understand what the tool can see or do with their data",
-    "Highlights a recurring problem with consumer AI: functional effectiveness does not address underlying transparency and consent gaps"
-   ]
-  },
-  {
-   "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
-   "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-19T20:28:15+00:00",
-   "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Energy infrastructure systems remain highly vulnerable to cyberattack, with human actors (not AI) posing the primary current threat. Experts note that these systems were already in a weak defensive position before recent AI-related security alarmism entered the conversation.",
-   "whyMatters": [
-    "Grounds AI risk conversations in concrete reality: actual threats to critical infrastructure are from known human attackers exploiting existing weaknesses, not speculative AI scenarios",
-    "Suggests policy focus should address immediate cybersecurity gaps rather than hypothetical AI-driven attacks on energy systems"
    ]
   },
   {
@@ -2062,24 +2208,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI Agent Platform Reinvents Spam, Floods Inboxes Worldwide",
-   "link": "https://www.404media.co/ai-agent-platform-reinvents-spam-floods-inboxes-worldwide/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-09-15T20:08:56+00:00",
-   "summary": "iLands and its AI agents are doing completely useless tasks, then begging for money.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An AI agent platform called iLands deployed agents that perform useless automated tasks and solicit money, effectively creating a new form of spam at scale. The platform has flooded inboxes worldwide with these low-value interactions.",
-   "whyMatters": [
-    "AI agent automation is being weaponized for spam and scams, showing how agentic systems can amplify bad behavior at internet scale",
-    "Raises questions about oversight and deployment safety for autonomous AI systems before adequate safeguards are in place"
-   ]
-  },
-  {
    "title": "Trump Rails Against AI Slowdown \"Hoax\"",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Trump-Rails-Against-AI-Slowdown-Hoax-e3ot4h6",
    "source": "The AI Daily Brief",
@@ -2284,62 +2412,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
-   "link": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-09-14T19:45:13+00:00",
-   "summary": "Musk stops attacking Apple over ChatGPT integration but not OpenAI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Elon Musk withdrew Apple from his antitrust lawsuit but continues pursuing OpenAI, suggesting a settlement or agreement was reached with Apple while his case against OpenAI remains active.",
-   "whyMatters": [
-    "Shows fracturing in antitrust strategy; Apple negotiated exit while OpenAI faces continued litigation",
-    "Indicates evolving business dynamics and potential antitrust vulnerabilities within the AI industry"
-   ]
-  },
-  {
-   "title": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
-   "link": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-09-14T19:38:46+00:00",
-   "summary": "Wang Xingxing micromanaged Unitree to success—will his leadership style scale?",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Unitree's founder Wang Xingxing's focus on aggressive cost reduction enabled the company to lead in affordable humanoid robotics, though questions remain about whether that leadership style can scale.",
-   "whyMatters": [
-    "Demonstrates how manufacturing discipline and cost discipline drive market advantage in robotics",
-    "Raises questions about sustainability of cost-focused strategies as companies mature and complexity increases"
-   ]
-  },
-  {
-   "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
-   "link": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-09-14T19:28:42+00:00",
-   "summary": "This is also the last version of macOS to support Rosetta for Intel apps.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple released iOS 27 and macOS Golden Gate 27 with enhanced Siri AI capabilities and improvements to Liquid Glass technology. This macOS version will be the last to support Rosetta translation for Intel applications.",
-   "whyMatters": [
-    "Marks Apple's deeper AI integration into core operating systems affecting millions of users",
-    "End of Intel app support signals completion of architecture transition and shifts computing baseline for developers"
-   ]
-  },
-  {
    "title": "The Urgency of Reclaiming Human Agency",
    "link": "https://aiandfaith.org/insights/urgency-of-reclaiming-human-agency/",
    "source": "AI and Faith",
@@ -2414,24 +2486,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "commit-rewriter 0.1",
-   "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-14T00:28:10+00:00",
-   "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/r",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/commit-rewriter.webp",
-   "themes": [],
-   "aiSummary": "Simon Willison released commit-rewriter 0.1, a web app that cleans up Git commit messages generated by AI coding agents. He used it to remove AI cruft and private repository references from Datasette security release commits.",
-   "whyMatters": [
-    "Practical tool addressing a real problem: AI agents generate verbose, messy code artifacts that need human editing",
-    "Demonstrates that even as AI automates coding tasks, human review and cleanup remain necessary"
-   ]
-  },
-  {
    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
    "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
    "source": "OpenAI News",
@@ -2447,24 +2501,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals enterprise confidence in newer models to handle autonomous systems work with reduced human-in-the-loop checks",
     "Indicates models are being deployed in critical operational roles, raising stakes for reliability and error detection"
-   ]
-  },
-  {
-   "title": "shot-scraper 1.12",
-   "link": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-13T23:58:14+00:00",
-   "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in fi",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison added WebP image format support to shot-scraper, a screenshot automation tool. WebP offers significant file size reductions compared to other formats while supporting both lossless and quality-adjustable compression.",
-   "whyMatters": [
-    "Minor developer tooling improvement addressing efficiency in automated image capture workflows",
-    "Reflects incremental optimization in AI-adjacent infrastructure as adoption scales"
    ]
   },
   {
@@ -2685,24 +2721,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-10T00:00:00+00:00",
-   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI introduced GPT-Live-1, enabling full-duplex natural voice conversations in the API with better instruction-following, custom voices, and phone integration.",
-   "whyMatters": [
-    "Makes voice AI more natural and conversational; enables voice interfaces for customer service, accessibility, and automated telephony",
-    "Shifts AI interaction from text-centric to voice-first in enterprise and consumer applications"
-   ]
-  },
-  {
    "title": "Introducing the Agents API",
    "link": "https://openai.com/index/introducing-the-agents-api",
    "source": "OpenAI News",
@@ -2757,24 +2775,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Religious communities are actively examining how AI and virtual tools fit into spiritual practice and formation, not viewing these as external to their work",
     "Demonstrates a deliberate educational and pastoral engagement with technology rather than passive adoption"
-   ]
-  },
-  {
-   "title": "The AI policy window is open. We need to act.",
-   "link": "https://openai.com/index/ai-policy-window",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-09T13:00:00+00:00",
-   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI executive Chris Lehane argues that advancing AI capabilities require stronger safety evidence, shared safety standards, and durable policy frameworks while political conditions allow.",
-   "whyMatters": [
-    "OpenAI is publicly calling for proactive regulation rather than reactive bans, positioning comprehensive safety standards as necessary for the industry's long-term viability",
-    "Reflects tension between rapid capability advancement and the need for institutional guardrails before problems emerge at scale"
    ]
   },
   {
@@ -3411,24 +3411,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Relevant to educators and organizational leaders designing curricula and training for AI literacy across skill levels",
     "Addresses how institutions can systematically help staff and students develop genuine AI competency rather than compliance"
-   ]
-  },
-  {
-   "title": "The AI Model Tier List",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-Model-Tier-List-e3nr9cb",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-08-24T19:26:22+00:00",
-   "summary": "A viral AI model tier list reveals how much harder it has become to name the “best” model. This episode breaks down where today’s leading models belong, why cost and speed increasingly matter alongside intelligence, and how businesses are assembling model stacks that combine premium and open models. In the headlines: Hugging Face explores a sale, NVIDIA expands its open-model ambitions, and Dr. Dr",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/124674891/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-24%2F430457183-44100-2-24feca95167de.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "A viral tier list of AI models shows that selecting a single \"best\" model has become harder as the landscape diversifies. Businesses increasingly combine multiple models—premium options alongside open-source alternatives—based on speed, cost, and capability rather than raw performance alone.",
-   "whyMatters": [
-    "The AI market is fragmenting: enterprises must now think about model selection as a portfolio strategy rather than a single-model choice",
-    "This trend affects developers and organizations building AI applications, requiring more complex technical and economic decision-making"
    ]
   },
   {
