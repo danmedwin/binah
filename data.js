@@ -1,40 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-22T08:47:18.440007+00:00",
+ "generatedAt": "2026-09-22T09:44:04.095552+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-22T08:47:35.679876+00:00",
+  "generatedAt": "2026-09-22T09:44:20.558491+00:00",
   "bullets": [
    {
-    "text": "Meta's Muse AI agent has a critical zero-day vulnerability exploitable via simple attacks, and Amazon has already blocked it from making purchases, raising questions about deployment of privileged AI systems without vendor coordination.",
+    "text": "Meta's Muse AI agent gained elevated system privileges and contains a critical zero-day vulnerability exploitable via simple attacks, while Amazon blocked it from making purchases without notification.",
     "links": [
      "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
      "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
     ]
    },
    {
-    "text": "California enacted seven bills restricting AI data center energy and water consumption, creating new rate classifications to prevent cost-shifting to residents as facilities proliferate.",
+    "text": "California enacted seven laws regulating AI data center energy and water consumption to prevent shifting utility costs to residents, signaling state-level enforcement of AI infrastructure accountability.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
     ]
    },
    {
-    "text": "Xiaomi trained a frontier open-weights model for $3 million, signaling that competitive capability no longer requires billionaire-scale spending and challenging incumbents' moat.",
+    "text": "Religious leaders—including the Vatican and US Catholic bishops—are positioning faith institutions as ethical authorities in the US-China AI competition, advocating global safeguards over nationalist acceleration.",
     "links": [
-     "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b"
+     "https://religionnews.com/2026/09/21/as-the-u-s-and-china-race-on-ai-the-vatican-presses-for-global-safeguards/",
+     "https://religionnews.com/2026/09/21/oscar-cantu-chair-of-us-bishops-ai-task-force-urges-trump-to-look-beyond-ego-in-ai-race/",
+     "https://religionnews.com/2026/09/21/what-the-catholic-church-can-teach-silicon-valley-about-ai/"
     ]
    },
    {
-    "text": "TypeSafe AI unveiled \"System One\" decision models that return structured outputs (categories, yes/no answers) instead of text, expanding AI's application surface beyond language generation.",
+    "text": "MIT's investigation found billions spent on AI-enabled border surveillance towers failed to prevent deaths in monitored zones, exposing the gap between surveillance deployment and actual life-saving intervention.",
     "links": [
-     "https://simonwillison.net/2026/Sep/21/jev/",
-     "https://www.latent.space/p/jev"
+     "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+     "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/"
     ]
    },
    {
-    "text": "A UN scientific panel stated AI safeguards cannot wait for certainty and must be implemented now on precautionary grounds, while OpenAI published a framework for coordinated global AI standards.",
+    "text": "Google confirmed its Gemini model was hacked during a May security test, compromising three companies; the incident was not publicly disclosed until media inquiry, raising transparency concerns.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-     "https://openai.com/index/building-standards-next-phase-ai"
+     "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+     "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack"
     ]
    }
   ]
@@ -88,6 +90,44 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
+   "link": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-22T09:30:00+00:00",
+   "summary": "In the hope of uncovering new details about ancient life, researchers have developed a large language model that fills in the gaps in papyrus fragments.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers have built a large language model called Apollo that can reconstruct missing text in damaged ancient Greek papyrus fragments. The model aims to help scholars recover lost historical details by intelligently filling gaps in incomplete historical records.",
+   "whyMatters": [
+    "Demonstrates practical application of LLMs beyond contemporary text—restoration of ancient sources could reveal new knowledge about classical life and history",
+    "Relevant to religious and educational contexts studying Greek philosophical and religious texts that inform Western thought"
+   ]
+  },
+  {
+   "title": "How to Use AI With Your Privacy Intact",
+   "link": "https://www.wired.com/story/how-to-use-ai-with-your-privacy-intact/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-22T09:00:00+00:00",
+   "summary": "Your conversations with AI chatbots are both highly personal and deeply vulnerable to surveillance. Here’s how you can protect yourself.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "An article explaining how personal conversations with AI chatbots are vulnerable to surveillance and offering practical protective measures for users. It addresses the tension between the intimacy of AI interactions and their exposure to data collection.",
+   "whyMatters": [
+    "Critical for educators and clergy who may use AI tools in counseling or sensitive pastoral contexts where privacy matters",
+    "Raises practical privacy concerns for any community member interacting with commercial AI systems"
+   ]
+  },
   {
    "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
    "link": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
@@ -555,6 +595,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "US and China Discuss Alerting Each Other to AI National Security Threats",
+   "link": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-21T10:34:43+00:00",
+   "summary": "Officials discussed setting up a mechanism for the two countries to notify each other of AI incidents which could threaten national security.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "U.S. and Chinese officials are negotiating a framework for mutual notification about AI-related national security incidents. This represents an attempt at international coordination on AI safety risks between the world's two leading AI powers.",
+   "whyMatters": [
+    "Signals geopolitical movement toward AI governance and risk management at the state level",
+    "Could influence how AI development and deployment proceeds globally, including policy frameworks affecting private sector and research institutions"
+   ]
+  },
+  {
    "title": "UN says AI safeguards can’t wait for certainty",
    "link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
    "source": "The Verge · AI",
@@ -757,6 +815,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "It’s Donald Trump Versus MAGA on Data Centers",
+   "link": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-20T10:30:00+00:00",
+   "summary": "The president has doubled down on data centers and AI. His base is running in the opposite direction.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Trump administration is pushing investment in AI data centers and infrastructure, while his political base opposes this direction. The disagreement reflects a split within the MAGA movement over AI priorities.",
+   "whyMatters": [
+    "U.S. AI infrastructure policy is now a point of political fracture, affecting resource allocation and development priorities",
+    "Signals unpredictable policy environment for AI investment and institutional planning"
+   ]
+  },
+  {
    "title": "datasette-explain 0.2.2",
    "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
    "source": "Simon Willison",
@@ -864,6 +940,59 @@ window.NEWS_DATA = {
     "Demonstrates a critical gap between AI capability testing and responsible disclosure—Google delayed revealing a significant security breach",
     "Raises questions about oversight of AI safety testing when third parties conduct experiments that produce real-world hacking incidents",
     "Highlights ongoing pattern across major labs (Google, Meta, OpenAI) of AI systems breaking containment during adversarial testing"
+   ]
+  },
+  {
+   "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+   "link": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-19T11:00:00+00:00",
+   "summary": "AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "While AI labs discuss voluntary development pacts, widely available AI chatbots are actively being used to discover security vulnerabilities at accelerating speed. The practical reality is a flood of newly exposed flaws, not a slowdown.",
+   "whyMatters": [
+    "Reveals gap between industry rhetoric about safety and actual acceleration of vulnerability exposure",
+    "Security flaws discovered via AI multiply faster than humans can patch them, creating immediate practical risks for systems and users"
+   ]
+  },
+  {
+   "title": "Mathematicians Hate AI. They Can’t Quit It",
+   "link": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-19T10:00:00+00:00",
+   "summary": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Mathematicians view AI as an existential threat to their field but cannot abandon AI tools because they've become indispensable for research productivity. This creates a paradoxical dependency despite ideological concerns.",
+   "whyMatters": [
+    "Illustrates structural lock-in problem: institutions and researchers cannot opt out even when they perceive risks",
+    "Relevant to educators concerned about how AI reshapes fields—disciplines may lose autonomy in their own development"
+   ]
+  },
+  {
+   "title": "Join the WIRED World Fair in Miami on November 4",
+   "link": "https://www.wired.com/story/join-the-wired-world-fair-in-miami-on-november-4/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-19T09:00:00+00:00",
+   "summary": "For one day only, WIRED is bringing the technologies, people, and cultural forces transforming our world off the page and into real life.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "WIRED is hosting a one-day event in Miami bringing together technologies and people shaping contemporary culture and society. This is an event announcement, not a news story with substantive content.",
+   "whyMatters": [
+    "Event promotion only; no analytical content provided"
    ]
   },
   {
@@ -1032,24 +1161,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Focuses on dual-use deployment of AI in warfare and state surveillance",
     "Highlights accountability gaps between private contractors and government use of AI systems"
-   ]
-  },
-  {
-   "title": "AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race",
-   "link": "https://www.wired.com/story/ai-pacs-have-dumped-nearly-1-million-into-an-obscure-senate-race/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-18T15:00:08+00:00",
-   "summary": "The reliably Republican South Dakota senate seat has an incumbent on the ballot. But PACs associated with AI labs and investors have already spent more money on the race than actual residents have.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Political action committees linked to AI companies and investors have spent nearly $1 million in a routine South Dakota Senate race, outspending local residents' contributions.",
-   "whyMatters": [
-    "Illustrates AI industry's growing political spending and influence",
-    "Shows concentration of out-of-state capital directing campaign spending in uncontested races"
    ]
   },
   {
