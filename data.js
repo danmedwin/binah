@@ -1,11 +1,11 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-23T09:49:39.508987+00:00",
+ "generatedAt": "2026-09-23T15:22:14.575603+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-23T09:49:49.277523+00:00",
+  "generatedAt": "2026-09-23T15:22:33.729928+00:00",
   "bullets": [
    {
-    "text": "Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol/Luna models launched simultaneously with 40-50% price cuts, shifting frontier AI competition from capability to cost.",
+    "text": "Anthropic and OpenAI released new flagship models (Claude Opus 5.5, GPT-6 Sol/Luna) with 40–50% price cuts, intensifying competition and shifting frontier AI toward cost efficiency over capability leaps.",
     "links": [
      "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
      "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
@@ -13,32 +13,31 @@ window.NEWS_DATA = {
     ]
    },
    {
-    "text": "OpenAI established an independent advisory panel of elite mathematicians to review AI research claims responsibly, following controversial mathematical assertions.",
+    "text": "Meta's Muse AI agent shipped with a critical zero-day vulnerability allowing full machine control; separately, Meta is testing calls actually handled by humans while marketing them as AI, raising deception concerns.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-     "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+     "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+     "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/"
     ]
    },
    {
-    "text": "MIT Technology Review investigation found billion-dollar U.S. border surveillance towers with AI capabilities failed to detect migrants in monitored areas before deaths occurred.",
+    "text": "OpenAI established an independent mathematics advisory panel after controversial claims about AI research; separately, the company fired contractors caught using AI to complete AI-training work instead of doing it manually.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+     "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/"
+    ]
+   },
+   {
+    "text": "MIT Technology Review investigation found the U.S. spent billions on AI-enabled border surveillance towers that failed to prevent deaths in areas they monitored, raising questions about real-world deployment efficacy.",
     "links": [
      "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
      "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/"
     ]
    },
    {
-    "text": "Meta's Muse AI agent contains critical zero-day vulnerabilities allowing local attackers to hijack the system; separate investigation reveals Muse test calls are handled by human call-center workers, not autonomous AI.",
+    "text": "OpenAI extended its Daybreak cybersecurity program to Ukraine's government to defend civilian infrastructure; separately, a biosecurity startup frames AI genome research as essential to an arms race dynamic.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-     "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
-     "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/"
-    ]
-   },
-   {
-    "text": "Apple is paying $250 million to iPhone owners over unfulfilled Siri AI capabilities; claims deadline is December 21 with eligible users receiving up to $95 per device.",
-    "links": [
-     "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/",
-     "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
+     "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+     "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric"
     ]
    }
   ]
@@ -92,6 +91,152 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Two years of OpenAI Academy",
+   "link": "https://openai.com/index/two-years-of-openai-academy",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-23T16:00:00+00:00",
+   "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI Academy has operated for two years and is expanding its reach to additional communities. The program provides AI skills training to broader populations.",
+   "whyMatters": [
+    "Directly relevant to educators: training programs are scaling AI literacy beyond traditional tech hubs",
+    "Expands access to AI knowledge for communities that may otherwise lack such resources"
+   ]
+  },
+  {
+   "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+   "link": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-23T13:27:18+00:00",
+   "summary": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/216723291/8511fc2825689ad610a1ca70864be49f.mp3",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Radical Numerics uses AI techniques including biological chain-of-thought reasoning and multimodal perception to advance biosecurity and genome design. The company is framing biological research as an arms race where AI capabilities are essential.",
+   "whyMatters": [
+    "Highlights AI's expanding role in high-stakes scientific and security domains",
+    "Raises questions about dual-use AI technology and oversight in biology research"
+   ]
+  },
+  {
+   "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+   "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-23T13:00:00+00:00",
+   "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is extending its Daybreak cybersecurity program to Ukraine's government to help defend civilian infrastructure from cyber attacks. This is a concrete deployment of AI for national defense and civilian protection.",
+   "whyMatters": [
+    "Demonstrates AI being applied to real-world geopolitical crisis response",
+    "Raises questions about AI companies' role in military and national security contexts"
+   ]
+  },
+  {
+   "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+   "link": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-23T12:54:58+00:00",
+   "summary": "Meta says it issued a fix for the Muse zero-day vulnerability that would have let attackers do “whatever” they wanted on a victim’s Mac, highlighting the inherent dangers of AI helpers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta released its Muse AI assistant with a zero-day vulnerability that could have allowed attackers full control of a Mac computer. Meta issued a fix after identifying the flaw.",
+   "whyMatters": [
+    "Demonstrates fundamental security risks in rapidly deployed AI assistant products",
+    "Underscores tension between speed-to-market and security testing for AI tools"
+   ]
+  },
+  {
+   "title": "Portland Trust pilots program to move wounded IDF reservists into lucrative tech careers",
+   "link": "https://ejewishphilanthropy.com/portland-trust-pilots-program-to-move-wounded-idf-reservists-into-lucrative-tech-careers/",
+   "source": "eJewishPhilanthropy",
+   "category": "religion",
+   "date": "2026-09-23T11:47:56+00:00",
+   "summary": "In late 2023, as artificial intelligence and cybersecurity rapidly reshaped the needs and dynamics of Israels tech-focused economy, hundreds of thousands of Israelis —most of them young —put their careers on hold to serve in Gaza and Lebanon. Most were in their 20s, fresh out of university or just beginning their careers. When they came...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Portland Trust is piloting a program to help wounded IDF reservists transition into careers in Israel's growing tech and AI sectors. The initiative responds to Israel's tech workforce needs, particularly as thousands of workers paused careers to serve in military roles.",
+   "whyMatters": [
+    "Directly relevant to Jewish community and Israeli economic concerns post-2023 mobilization",
+    "Shows how AI and tech industries are reshaping workforce development and veteran reintegration in Israel"
+   ]
+  },
+  {
+   "title": "Americans Fear AI Will Make the World Worse, Love It Anyway",
+   "link": "https://www.404media.co/americans-love-to-use-ai-but-fear-it-will-make-the-world-worse-according-to-new-study/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-09-23T11:13:53+00:00",
+   "summary": "Wealthy countries with many daily AI users tended to fear more for the future in what Gallup called the 'Paradox of the Worried West.'",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Gallup study found that Americans and citizens of other wealthy countries use AI regularly but simultaneously worry it will harm the world—a phenomenon Gallup calls the 'Paradox of the Worried West.' People embrace the technology while fearing its societal impact.",
+   "whyMatters": [
+    "Reveals public skepticism about AI despite adoption, relevant to education and trust-building efforts",
+    "Highlights the gap between AI literacy and confidence in AI's societal direction"
+   ]
+  },
+  {
+   "title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-23T11:02:39+00:00",
+   "summary": "OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, co-founder and technology chief Sam Yam announced on X that he's joining OpenAI to lead Creator Product. He's also bringing Patreon's former product head Drew Rowny and engineering head Shannon Ma with […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI has hired three former Patreon executives, including co-founder Sam Yam, to lead its creator product strategy. This signals OpenAI's push into tools and services for content creators and creative professionals.",
+   "whyMatters": [
+    "Shows OpenAI shifting focus toward creator economy, potentially challenging existing platforms",
+    "May affect how educators and religious content creators access and monetize AI tools"
+   ]
+  },
+  {
+   "title": "AT&T Is Automating Away Jobs—and Its Old Telecom Empire",
+   "link": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-09-23T10:15:00+00:00",
+   "summary": "The telecom giant is eager to show Wall Street that it can do more with less. That means fewer employees, less electricity, and increased automation.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "AT&T is accelerating automation and reducing headcount to demonstrate operational efficiency to Wall Street. The company is using AI and automation to maintain service levels with fewer employees and less infrastructure.",
+   "whyMatters": [
+    "Concrete example of AI-driven workforce reduction in a major U.S. industry",
+    "Raises labor and employment concerns relevant to education and workforce preparation discussions"
+   ]
+  },
+  {
    "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
    "link": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
    "source": "Latent Space",
@@ -143,6 +288,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals OpenAI taking public accountability seriously after past mistakes damaged trust in the AI industry",
     "May influence how AI companies approach research transparency and claim verification going forward"
+   ]
+  },
+  {
+   "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+   "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-23T00:00:00+00:00",
+   "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI and Grab (a Southeast Asian ride-hailing and services company) launched GO Forward with AI, a regional program training 30,000 partners across Southeast Asia in practical AI skills. The initiative aims to build AI capabilities in the region.",
+   "whyMatters": [
+    "Expands AI literacy initiatives to emerging markets outside wealthy Western nations",
+    "Addresses skill gaps in growing economies where AI adoption is accelerating"
    ]
   },
   {
@@ -789,26 +952,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How to Use AI With Your Privacy Intact",
-   "link": "https://www.wired.com/story/how-to-use-ai-with-your-privacy-intact/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-22T09:00:00+00:00",
-   "summary": "Your conversations with AI chatbots are both highly personal and deeply vulnerable to surveillance. Here’s how you can protect yourself.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "An article explaining how personal conversations with AI chatbots are vulnerable to surveillance and offering practical protective measures for users. It addresses the tension between the intimacy of AI interactions and their exposure to data collection.",
-   "whyMatters": [
-    "Critical for educators and clergy who may use AI tools in counseling or sensitive pastoral contexts where privacy matters",
-    "Raises practical privacy concerns for any community member interacting with commercial AI systems"
-   ]
-  },
-  {
    "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
    "link": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
    "source": "Latent Space",
@@ -976,24 +1119,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Educational and ethical concern: AI may reshape how people develop interpersonal and empathetic skills, with long-term developmental implications",
     "Relevant to educators and clergy concerned with formation and human development in an AI-saturated environment"
-   ]
-  },
-  {
-   "title": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping",
-   "link": "https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-21T18:33:02+00:00",
-   "summary": "Washington and Beijing have grown ever more linked in the AI boom, making hardware exports and technological restrictions hefty bargaining chips in negotiations.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Hardware exports, rare minerals, and AI technology restrictions are emerging as major bargaining chips in U.S.-China negotiations. Washington and Beijing's growing interconnection in the AI supply chain makes these issues central to upcoming Trump-Xi talks.",
-   "whyMatters": [
-    "AI infrastructure is now a primary lever in geopolitical negotiations, reshaping trade policy and supply chains",
-    "Control of AI hardware and rare earth materials is consolidating power in fewer hands, affecting who shapes AI development globally"
    ]
   },
   {
@@ -1188,24 +1313,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "OpenAI is creating external oversight for research claims, addressing criticism about validation of new capabilities",
     "May set a model for third-party review of AI breakthroughs across the industry"
-   ]
-  },
-  {
-   "title": "UN says AI safeguards can’t wait for certainty",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-21T10:18:06+00:00",
-   "summary": "Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization's first major assessment of OpenAI's hack of Hugging Face earlier this year. The report cements AI's place on the global diplomatic agenda this week as leaders gather in New York […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A UN scientific panel warned that governments must implement AI safeguards now rather than waiting for full understanding of risks, citing the need for precautionary action. The report, responding to the Hugging Face security breach, establishes AI as a priority on the global diplomatic agenda.",
-   "whyMatters": [
-    "UN endorsement of precautionary principle signals international consensus that AI governance cannot wait for certainty about all risks",
-    "Sets expectation that governments will act on AI regulation regardless of scientific consensus, potentially accelerating policy without full evidence"
    ]
   },
   {
@@ -2219,24 +2326,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Podcast: Humans Are Reading Your ChatGPT Conversations",
-   "link": "https://www.404media.co/podcast-humans-are-reading-your-chatgpt-conversations/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-09-16T14:19:51+00:00",
-   "summary": "The contractors reading real ChatGPT users' prompts; the big out-and-back-in around Automattic; and a16z thinks enshittification isn't real.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media reports that human contractors are reading and reviewing real ChatGPT user conversations as part of OpenAI's operations. The podcast episode also covers Automatic's involvement with OpenAI and discusses a16z's perspective on enshittification.",
-   "whyMatters": [
-    "Privacy concern: users may not be fully aware that their ChatGPT conversations are being reviewed by human contractors",
-    "Relevant to educators and clergy using ChatGPT with sensitive or pastoral content; raises questions about confidentiality for religious or educational discussions"
-   ]
-  },
-  {
    "title": "Reimagining advertising with AI",
    "link": "https://openai.com/index/reimagining-advertising-with-ai",
    "source": "OpenAI News",
@@ -2711,42 +2800,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-   "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-10T16:00:00+00:00",
-   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A researcher's lab is using Codex and ChatGPT to search genomic databases for antimicrobial compounds, identifying candidates from living and extinct genomes to address drug-resistant infections.",
-   "whyMatters": [
-    "Demonstrates practical biomedical application of AI code models in drug discovery",
-    "Applies LLMs to existing scientific problems like antimicrobial resistance without requiring new training data"
-   ]
-  },
-  {
-   "title": "Now everyone can put data to work",
-   "link": "https://openai.com/index/put-data-to-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-10T15:00:00+00:00",
-   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "ChatGPT Work introduced a Data agent feature allowing users to connect company data, generate insights, and build interactive dashboards using natural language queries.",
-   "whyMatters": [
-    "Brings conversational AI to enterprise data analysis, democratizing data exploration beyond SQL expertise",
-    "Addresses business productivity use case where AI reduces barrier to extracting value from internal data"
-   ]
-  },
-  {
    "title": "Computer-Use Agents and the Future of the Agentic Internet",
    "link": "https://share.transistor.fm/s/72586f97",
    "source": "Practical AI",
@@ -2762,26 +2815,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals a major shift in AI capability—agents moving from conversation to independent task execution in professional settings",
     "Impacts how workers and organizations will need to adapt to AI handling operational workflows"
-   ]
-  },
-  {
-   "title": "Introducing ChatGPT for Financial Services",
-   "link": "https://openai.com/index/introducing-chatgpt-financial-services",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-10T07:00:00+00:00",
-   "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI released ChatGPT for Financial Services, integrating built-in financial data and the GPT-6 Astra model for research, modeling, and client materials.",
-   "whyMatters": [
-    "Extends AI's reach into regulated industries with high stakes for accuracy and compliance",
-    "Financial sector adoption accelerates AI integration into professional decision-making"
    ]
   },
   {
@@ -3007,26 +3040,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to religious and pastoral practice: chaplains increasingly need frameworks for understanding AI's role in spiritual care and counseling",
     "Represents growing recognition that clergy and faith communities must engage with AI as a practical tool in their work"
-   ]
-  },
-  {
-   "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-   "link": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-09-04T05:18:11+00:00",
-   "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!75mH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e58156f-49e2-48e8-af49-ce5edd8e68b6_1118x1118.png",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI launched GPT-6 Astra, its largest frontier model, featuring significantly improved computer use and coding capabilities. It costs 2.5x more per token but is much cheaper per completed task, though it is harder to monitor.",
-   "whyMatters": [
-    "Major shift in AI economics: models are becoming more cost-effective on real-world tasks despite higher per-token pricing",
-    "Tradeoff between capability/cost and interpretability/control; less monitorable systems may pose governance challenges"
    ]
   },
   {
