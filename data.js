@@ -1,96 +1,128 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-23T01:20:42.366701+00:00",
+ "generatedAt": "2026-09-23T08:48:42.727445+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-23T01:21:00.664235+00:00",
+  "generatedAt": "2026-09-23T08:48:58.715120+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic released new frontier models—GPT-6 Sol/Luna and Claude Opus 5.5—at substantially lower costs, signaling a shift from capability racing to price competition in the AI market.",
+    "text": "Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol and Luna launched simultaneously with 40-50% price cuts, intensifying competition in frontier AI and signaling a shift from capability races to cost competition.",
     "links": [
+     "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
      "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
      "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/"
     ]
    },
    {
-    "text": "MIT Technology Review investigated border surveillance towers costing billions in AI investment that failed to prevent at least 1,000 deaths, exposing a gap between surveillance presence and actual life-saving capability.",
+    "text": "OpenAI assembled an independent advisory group of elite mathematicians to oversee AI research claims after controversies over unverified mathematical accomplishments, addressing credibility gaps in frontier AI announcements.",
     "links": [
-     "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-     "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/"
+     "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
     ]
    },
    {
-    "text": "OpenAI established an independent advisory group of elite mathematicians after controversial incidents over inflated claims, addressing broader credibility concerns about industry hype around AI capabilities.",
+    "text": "Microsoft disrupted EvilTokens, an AI-assisted platform that compromised approximately 12,000 accounts through streamlined credential theft, exposing risks of AI tools accelerating cybercriminal operations at scale.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-     "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
+     "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/"
     ]
    },
    {
-    "text": "Meta's Muse AI agent, tested with human call-center workers mislabeled as AI, faces critical security vulnerabilities and top app-store competition from newer agents, raising questions about autonomous AI claims.",
+    "text": "Apple is settling a $250 million Siri lawsuit over misled capability claims; eligible iPhone owners can now file claims for up to $95 per device with a December 21 deadline.",
     "links": [
-     "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Agent-Wars-e3p8f3d",
-     "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent"
+     "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/",
+     "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
     ]
    },
    {
-    "text": "California enacted strict data-center regulations on AI infrastructure energy and water use, and a UN panel called for precautionary AI safeguards without waiting for certainty about risks.",
+    "text": "OpenAI fired contractors hired to improve AI models after they used AI tools to complete training work instead of doing it manually, revealing tensions between AI automation and human-in-the-loop quality assurance.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
-     "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle"
+     "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-09-22T08:47:35.679876+00:00",
+  "generatedAt": "2026-09-23T08:48:58.715120+00:00",
   "bullets": [
    {
-    "text": "Meta's Muse AI agent has a critical zero-day vulnerability exploitable via simple attacks, and Amazon has already blocked it from making purchases, raising questions about deployment of privileged AI systems without vendor coordination.",
+    "text": "Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol and Luna launched simultaneously with 40-50% price cuts, intensifying competition in frontier AI and signaling a shift from capability races to cost competition.",
     "links": [
-     "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-     "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
+     "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+     "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+     "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/"
     ]
    },
    {
-    "text": "California enacted seven bills restricting AI data center energy and water consumption, creating new rate classifications to prevent cost-shifting to residents as facilities proliferate.",
+    "text": "OpenAI assembled an independent advisory group of elite mathematicians to oversee AI research claims after controversies over unverified mathematical accomplishments, addressing credibility gaps in frontier AI announcements.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+     "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
     ]
    },
    {
-    "text": "Xiaomi trained a frontier open-weights model for $3 million, signaling that competitive capability no longer requires billionaire-scale spending and challenging incumbents' moat.",
+    "text": "Microsoft disrupted EvilTokens, an AI-assisted platform that compromised approximately 12,000 accounts through streamlined credential theft, exposing risks of AI tools accelerating cybercriminal operations at scale.",
     "links": [
-     "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b"
+     "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/"
     ]
    },
    {
-    "text": "TypeSafe AI unveiled \"System One\" decision models that return structured outputs (categories, yes/no answers) instead of text, expanding AI's application surface beyond language generation.",
+    "text": "Apple is settling a $250 million Siri lawsuit over misled capability claims; eligible iPhone owners can now file claims for up to $95 per device with a December 21 deadline.",
     "links": [
-     "https://simonwillison.net/2026/Sep/21/jev/",
-     "https://www.latent.space/p/jev"
+     "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/",
+     "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
     ]
    },
    {
-    "text": "A UN scientific panel stated AI safeguards cannot wait for certainty and must be implemented now on precautionary grounds, while OpenAI published a framework for coordinated global AI standards.",
+    "text": "OpenAI fired contractors hired to improve AI models after they used AI tools to complete training work instead of doing it manually, revealing tensions between AI automation and human-in-the-loop quality assurance.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-     "https://openai.com/index/building-standards-next-phase-ai"
+     "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-09-22T08:47:23.488723+00:00",
+  "updatedAt": "2026-09-23T08:48:51.373248+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics, policy, and moral/religious dimensions of technology",
-   "Drawn to substantive product analysis and technical legacies (e.g., how failed projects shape innovation)",
-   "Prefers accessible consumer-facing AI applications and mainstream tech news",
-   "Dislikes overly technical release notes and low-level developer tool updates without broader context"
+   "Interested in AI ethics and moral/religious perspectives on technology leadership",
+   "Appreciates practical AI applications and product developments (especially Apple)",
+   "Prefers substantive stories over technical release notes and software updates"
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+   "link": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-23T06:41:41+00:00",
+   "summary": "overshadowing more efficient GPT6 models from OpenAI",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!tLrK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2102432417352929280.jpg",
+   "themes": [],
+   "aiSummary": "Anthropic released Claude Opus 5.5, which has become the default model for AINews coverage. Simultaneously, major AI providers cut their model prices by 40-50%, with OpenAI's GPT-6 models being positioned as more efficient alternatives.",
+   "whyMatters": [
+    "Marks a significant shift in which frontier model dominates developer attention and industry benchmarking",
+    "Aggressive price competition across the sector signals consolidation pressure and changing economics for AI application builders"
+   ]
+  },
+  {
+   "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+   "link": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-23T02:53:19+00:00",
+   "summary": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Simon Willison is hosting a Birds of a Feather session on October 14th in San Francisco for builders working with and on top of AI coding agents. The event is positioned as a show-and-tell for people experimenting with agentic systems.",
+   "whyMatters": [
+    "Reflects growing community interest in practical agentic engineering as a distinct discipline separate from monolithic LLM deployment",
+    "Creates networking space for practitioners to share techniques and learnings around agent architecture and behavior"
+   ]
+  },
   {
    "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
    "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
@@ -2308,26 +2340,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Gemini Live audio",
-   "link": "https://simonwillison.net/2026/Sep/15/gemini-live/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-15T22:47:07+00:00",
-   "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conver",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/gemini-live-tool.webp",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google released Gemini 3.8 Live and 3.8 Live Extended Thinking, new speech-to-speech models similar to OpenAI's offerings in this category. The models enable conversational AI interactions with voice input and output.",
-   "whyMatters": [
-    "Major AI labs are converging on speech-to-speech interfaces as a core product, indicating this is becoming table-stakes for AI assistants",
-    "Real-time voice interaction removes friction in how people access large language models"
-   ]
-  },
-  {
    "title": "Can Skills Learned in Games Transfer to Real-World Work?",
    "link": "https://www.latent.space/p/good-start-labs",
    "source": "Latent Space",
@@ -3029,24 +3041,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Practical education for professionals on using AI agents to augment knowledge work",
     "Highlights emerging best practices for managing autonomous AI systems in business settings"
-   ]
-  },
-  {
-   "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
-   "link": "https://www.latent.space/p/astra",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-09-03T21:09:41+00:00",
-   "summary": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!1Mu3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff60dbb10-9849-49e5-8569-5dfba8440b9c_2486x1390.png",
-   "themes": [],
-   "aiSummary": "A deep exploration of GPT-6 Astra based on 20 billion+ tokens of API usage, framing it as an automated AI engineer available at under $6 per hour for certain tasks.",
-   "whyMatters": [
-    "Economic impact: AI systems are now competitive on labor-intensive technical work at commodity pricing",
-    "Raises questions about employment displacement in knowledge work and the skill requirements for humans supervising these systems"
    ]
   },
   {
