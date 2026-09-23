@@ -1,11 +1,11 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-23T08:48:42.727445+00:00",
+ "generatedAt": "2026-09-23T09:49:39.508987+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-23T08:48:58.715120+00:00",
+  "generatedAt": "2026-09-23T09:49:49.277523+00:00",
   "bullets": [
    {
-    "text": "Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol and Luna launched simultaneously with 40-50% price cuts, intensifying competition in frontier AI and signaling a shift from capability races to cost competition.",
+    "text": "Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol/Luna models launched simultaneously with 40-50% price cuts, shifting frontier AI competition from capability to cost.",
     "links": [
      "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
      "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
@@ -13,28 +13,32 @@ window.NEWS_DATA = {
     ]
    },
    {
-    "text": "OpenAI assembled an independent advisory group of elite mathematicians to oversee AI research claims after controversies over unverified mathematical accomplishments, addressing credibility gaps in frontier AI announcements.",
+    "text": "OpenAI established an independent advisory panel of elite mathematicians to review AI research claims responsibly, following controversial mathematical assertions.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
+     "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+     "https://openai.com/index/advisory-group-on-mathematics-and-ai"
     ]
    },
    {
-    "text": "Microsoft disrupted EvilTokens, an AI-assisted platform that compromised approximately 12,000 accounts through streamlined credential theft, exposing risks of AI tools accelerating cybercriminal operations at scale.",
+    "text": "MIT Technology Review investigation found billion-dollar U.S. border surveillance towers with AI capabilities failed to detect migrants in monitored areas before deaths occurred.",
     "links": [
-     "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/"
+     "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+     "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/"
     ]
    },
    {
-    "text": "Apple is settling a $250 million Siri lawsuit over misled capability claims; eligible iPhone owners can now file claims for up to $95 per device with a December 21 deadline.",
+    "text": "Meta's Muse AI agent contains critical zero-day vulnerabilities allowing local attackers to hijack the system; separate investigation reveals Muse test calls are handled by human call-center workers, not autonomous AI.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+     "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
+     "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/"
+    ]
+   },
+   {
+    "text": "Apple is paying $250 million to iPhone owners over unfulfilled Siri AI capabilities; claims deadline is December 21 with eligible users receiving up to $95 per device.",
     "links": [
      "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/",
      "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
-    ]
-   },
-   {
-    "text": "OpenAI fired contractors hired to improve AI models after they used AI tools to complete training work instead of doing it manually, revealing tensions between AI automation and human-in-the-loop quality assurance.",
-    "links": [
-     "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/"
     ]
    }
   ]
