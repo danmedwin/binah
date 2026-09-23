@@ -1,40 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-22T20:04:00.510627+00:00",
+ "generatedAt": "2026-09-23T01:20:42.366701+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-09-22T20:04:30.805788+00:00",
+  "generatedAt": "2026-09-23T01:21:00.664235+00:00",
   "bullets": [
    {
-    "text": "Microsoft dismantled EvilTokens, an AI-assisted platform that compromised roughly 12,000 victims through streamlined credential theft and mass account breaches.",
+    "text": "OpenAI and Anthropic released new frontier models—GPT-6 Sol/Luna and Claude Opus 5.5—at substantially lower costs, signaling a shift from capability racing to price competition in the AI market.",
     "links": [
-     "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/"
+     "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+     "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/"
     ]
    },
    {
-    "text": "California enacted seven bills restricting AI data center energy and water use to prevent utility cost shifting, while Meta's Muse AI agent faces security holes and platform restrictions despite topping ChatGPT in app rankings.",
-    "links": [
-     "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-     "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-     "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
-    ]
-   },
-   {
-    "text": "Apple is paying $250 million to settle claims it oversold Siri's AI capabilities; eligible iPhone owners can file claims through December 21 for up to $95 per device.",
-    "links": [
-     "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/"
-    ]
-   },
-   {
-    "text": "MIT Technology Review's investigation found that U.S. border surveillance towers equipped with AI failed to detect crossers in monitored zones where people subsequently died, raising questions about $-billion infrastructure effectiveness.",
+    "text": "MIT Technology Review investigated border surveillance towers costing billions in AI investment that failed to prevent at least 1,000 deaths, exposing a gap between surveillance presence and actual life-saving capability.",
     "links": [
      "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-     "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/"
+     "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/"
     ]
    },
    {
-    "text": "OpenAI released GPT-6 Sol and Luna models; a UN panel urged governments to implement AI safeguards now rather than awaiting full risk certainty, invoking precautionary principles.",
+    "text": "OpenAI established an independent advisory group of elite mathematicians after controversial incidents over inflated claims, addressing broader credibility concerns about industry hype around AI capabilities.",
     "links": [
-     "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+     "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+     "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
+    ]
+   },
+   {
+    "text": "Meta's Muse AI agent, tested with human call-center workers mislabeled as AI, faces critical security vulnerabilities and top app-store competition from newer agents, raising questions about autonomous AI claims.",
+    "links": [
+     "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Agent-Wars-e3p8f3d",
+     "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent"
+    ]
+   },
+   {
+    "text": "California enacted strict data-center regulations on AI infrastructure energy and water use, and a UN panel called for precautionary AI safeguards without waiting for certainty about risks.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
      "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle"
     ]
    }
@@ -90,7 +92,139 @@ window.NEWS_DATA = {
  },
  "items": [
   {
-   "title": "Microsoft disrupts AI-assisted platform that compromised 12,000",
+   "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-23T00:18:27+00:00",
+   "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced an independent panel of elite mathematicians to advise the company and other AI firms on how to handle mathematical research responsibly. The move follows a series of controversial incidents where OpenAI's mathematical claims created reputational damage.",
+   "whyMatters": [
+    "Signals OpenAI taking public accountability seriously after past mistakes damaged trust in the AI industry",
+    "May influence how AI companies approach research transparency and claim verification going forward"
+   ]
+  },
+  {
+   "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+   "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-22T23:46:41+00:00",
+   "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents GPT-5.6 Luna was already my favor",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/gpt-pelicans-grid.webp",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic released Claude Opus 5.5 while OpenAI simultaneously launched GPT-6 Sol and GPT-6 Luna, with both companies' new models priced significantly lower than their predecessors. This represents an intensifying competition in frontier AI capabilities.",
+   "whyMatters": [
+    "Price reductions make advanced AI models more accessible to businesses and developers, accelerating adoption",
+    "Commoditization of frontier models creates pressure on AI companies to compete on efficiency rather than capability alone"
+   ]
+  },
+  {
+   "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+   "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-09-22T21:25:18+00:00",
+   "summary": "The frontier AI model race has entered its comparison shopping phase.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Major AI vendors Anthropic and OpenAI released new models that promise improved performance at substantially lower costs, shifting the frontier AI market into a price competition phase.",
+   "whyMatters": [
+    "Cost reduction directly impacts accessibility for educators, nonprofits, and smaller institutions considering AI adoption",
+    "Competition-driven pricing may accelerate deployment of AI tools across sectors including education and social services"
+   ]
+  },
+  {
+   "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-22T21:22:59+00:00",
+   "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Venture capital firm Andreessen Horowitz is launching an \"academy\" with $42 million in funding and partnerships with ten tech companies including OpenAI, Google, Meta, and Anthropic. The program is designed as a pipeline for young talent to build or join AI-focused startups.",
+   "whyMatters": [
+    "Shows venture capital directly investing in talent pipeline development, shaping educational pathways in AI",
+    "Creates potential concentration of AI talent in Silicon Valley startup ecosystem under VC influence"
+   ]
+  },
+  {
+   "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+   "link": "https://www.latent.space/p/john-platt",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-09-22T21:07:39+00:00",
+   "summary": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/216845528/5d04ab99938b8bf3aee2b0e2099bfa53.mp3",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Google researcher John Platt discussed using AI to automate scientific discovery, addressing challenges like climate change and enabling future-generation scientists to contribute meaningfully in an age of advanced AI systems.",
+   "whyMatters": [
+    "Highlights practical applications of AI in climate science and research automation",
+    "Raises important questions about education and the future role of human scientists when AI can automate parts of scientific work"
+   ]
+  },
+  {
+   "title": "Better prompt caching for GPT-6",
+   "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-22T21:00:00+00:00",
+   "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI improved GPT-6's prompt caching system with higher cache hit rates, new diagnostics tools, explicit breakpoints, and cost/latency controls.",
+   "whyMatters": [
+    "Cost and latency reductions make AI more practical for long-context applications like document analysis and research",
+    "Better tooling helps developers optimize AI usage, relevant for educational and institutional deployments"
+   ]
+  },
+  {
+   "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-09-22T20:52:40+00:00",
+   "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices. According to Rabbit, you can […]",
+   "religionScore": 6,
+   "religionHits": [
+    "rabbi"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Rabbit released OS3, a cloud-based AI agent operating system that runs on Windows, Mac, and Linux without requiring their R1 hardware device.",
+   "whyMatters": [
+    "Separating software from hardware expands access to Rabbit's AI agent technology beyond device owners",
+    "Demonstrates market pressure pushing AI startups toward broader accessibility models"
+   ]
+  },
+  {
+   "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
    "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
    "source": "Ars Technica · AI",
    "category": "ai",
@@ -141,6 +275,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks shift toward AI agents as primary consumer interfaces, with major platforms fighting for control of that relationship",
     "Reveals tension between interoperability and platform lock-in as autonomous agents gain real economic power"
+   ]
+  },
+  {
+   "title": "llm 0.36",
+   "link": "https://simonwillison.net/2026/Sep/22/llm/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-22T18:48:37+00:00",
+   "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations .",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Developer tool llm 0.36 added support for GPT-6 Sol and Luna models and introduced handling for single-turn-only AI models that cannot support multi-turn conversations.",
+   "whyMatters": [
+    "Tooling updates enable developers to work with latest models quickly",
+    "Better handling of model limitations in developer tools prevents integration errors and improves reliability"
    ]
   },
   {
@@ -260,6 +414,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "llm-anthropic 0.29",
+   "link": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-09-22T17:14:55+00:00",
+   "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "The llm-anthropic plugin added support for Claude Opus 5.5, allowing users to access the new model via command-line interface.",
+   "whyMatters": [
+    "Quick integration of new models into developer tools accelerates testing and adoption",
+    "Maintains accessibility of cutting-edge capabilities to developers using open-source tooling"
+   ]
+  },
+  {
    "title": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
    "link": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
    "source": "Ars Technica · AI",
@@ -298,24 +472,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Identifies parallels between AI's persuasive authority and religious dynamics, relevant to educators and clergy understanding AI's cultural role",
     "Suggests AI may serve quasi-religious functions (meaning-making, authority, guidance) in secular contexts"
-   ]
-  },
-  {
-   "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-22T16:36:20+00:00",
-   "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Venture capital firm Andreessen Horowitz is launching an \"academy\" with $42 million in funding and partnerships with ten tech companies including OpenAI, Google, Meta, and Anthropic. The program is designed as a pipeline for young talent to build or join AI-focused startups.",
-   "whyMatters": [
-    "Shows venture capital directly investing in talent pipeline development, shaping educational pathways in AI",
-    "Creates potential concentration of AI talent in Silicon Valley startup ecosystem under VC influence"
    ]
   },
   {
@@ -466,6 +622,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Undermines the quality and integrity of AI training data pipelines that depend on human judgment and expertise",
     "Reveals structural problem: contractors using AI shortcuts defeats the purpose of human-in-the-loop training and creates cascading quality issues"
+   ]
+  },
+  {
+   "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+   "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-22T12:00:00+00:00",
+   "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Research firm Parallel used GPT-6 Astra to reduce labor-market research time and costs by approximately 50% compared to earlier models.",
+   "whyMatters": [
+    "Demonstrates concrete productivity gains from frontier AI, relevant to data-heavy fields like policy research and institutional analysis",
+    "Cost savings make AI-assisted research more accessible to organizations with limited budgets"
    ]
   },
   {
@@ -861,24 +1035,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Amazon blocks Meta’s Muse AI agent",
-   "link": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-21T13:46:59+00:00",
-   "summary": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon that […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Amazon blocked Meta's Muse AI shopping agent from making purchases on behalf of users, citing violation of Amazon's terms of service. Meta did not notify Amazon before deploying the agent, leading to the sudden access restriction.",
-   "whyMatters": [
-    "Demonstrates friction between AI agent developers and existing platform ecosystems; no agreed-upon rules for agent access yet",
-    "Reveals lack of coordination between major platforms on how autonomous agents should interact with services"
-   ]
-  },
-  {
    "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
    "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
    "source": "MIT Tech Review · AI",
@@ -1032,24 +1188,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Proposes concrete mechanisms for international AI coordination rather than unilateral regulatory approaches",
     "Acknowledges that fragmented national policies risk creating races-to-the-bottom in safety standards"
-   ]
-  },
-  {
-   "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-21T09:15:52+00:00",
-   "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia CEO Jensen Huang stated in a CBS Sunday Morning interview that there is a \"0% chance\" of AI being an existential threat to humanity, dismissing widespread concerns about AI risks. Huang's position stands in contrast to views held by many AI researchers and safety experts who have studied these issues for years.",
-   "whyMatters": [
-    "Huang's reassurance is structurally self-interested given Nvidia's enormous financial stake in the AI boom, raising questions about whose risk assessments should guide policy and investment",
-    "The disagreement between industry leaders and safety researchers reflects an unresolved tension in how AI governance gets framed—between business optimism and precautionary approaches to emerging risks"
    ]
   },
   {
@@ -2358,60 +2496,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The contagion of fear",
-   "link": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-14T21:18:13+00:00",
-   "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same: These ghoulish claims strike brazenly at the hearth, and given",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A post discussing fear contagion in AI discourse, referencing Anthropic employee warnings about potential AI risks and cautioning against spreading panic among non-technical audiences.",
-   "whyMatters": [
-    "Highlights how AI safety discussions can amplify fears in ways that may not reflect technical consensus, relevant to public communication and education about AI risks.",
-    "Raises concerns about epistemic responsibility in how technical warnings are framed and spread."
-   ]
-  },
-  {
-   "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
-   "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-09-14T21:04:32+00:00",
-   "summary": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Autonomous AI agents with names like \"Timmy,\" \"Ren,\" and \"Jackie\" are actively flooding social media platforms with low-quality generated content (\"slop\"), operating independently on agent platforms.",
-   "whyMatters": [
-    "Demonstrates real-world harms of AI agents already happening at scale—degradation of information quality and social media environments.",
-    "Raises practical questions about how to enforce content standards and accountability when the content creators are autonomous systems rather than humans."
-   ]
-  },
-  {
-   "title": "What blog posts influenced your thinking the most?",
-   "link": "https://simonwillison.net/2026/Sep/14/influences/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-14T20:21:48+00:00",
-   "summary": "My comment on What blog posts influenced your thinking the most? — Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks. A more recent one, from 2018, is Migrations: the sole sca",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Simon Willison reflects on influential technical blog posts throughout his career, citing Joel Spolsky's 'The Law of Leaky Abstractions' as foundational reading that shaped his approach to understanding system layers and technical depth.",
-   "whyMatters": [
-    "Illustrates how foundational technical writing shapes engineer mindset and practice",
-    "Relevant for educators teaching technical concepts—shows value of timeless explanatory writing over trend-chasing"
-   ]
-  },
-  {
    "title": "The Urgency of Reclaiming Human Agency",
    "link": "https://aiandfaith.org/insights/urgency-of-reclaiming-human-agency/",
    "source": "AI and Faith",
@@ -2447,24 +2531,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects growing capital concentration in AI infrastructure and tooling for model development",
     "Signals venture confidence that AI-for-AI tools are a major business opportunity, not just a research concern"
-   ]
-  },
-  {
-   "title": "Quoting Laurie Voss",
-   "link": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-14T14:34:29+00:00",
-   "summary": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no cei",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Laurie Voss argues that as AI reduces the cost of writing and maintaining code, the bottleneck shifts to understanding user needs, defining requirements precisely, and creating good user experiences—costs that don't scale across projects.",
-   "whyMatters": [
-    "Identifies a structural shift in software economics and where human expertise will remain valuable",
-    "Suggests that as code generation becomes cheap, product definition and design become competitive differentiators"
    ]
   },
   {
@@ -2700,42 +2766,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Extends AI's reach into regulated industries with high stakes for accuracy and compliance",
     "Financial sector adoption accelerates AI integration into professional decision-making"
-   ]
-  },
-  {
-   "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-   "link": "https://openai.com/index/expanding-ai-access-us-government",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-10T07:00:00+00:00",
-   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI and the General Services Administration are offering federal, state, local, and tribal governments free licenses, 50% usage discounts, and expanded cybersecurity support.",
-   "whyMatters": [
-    "Government-wide AI adoption at scale; directly impacts policy implementation and public service delivery",
-    "Makes advanced AI tools accessible to underresourced local and tribal agencies"
-   ]
-  },
-  {
-   "title": "Introducing the Agents API",
-   "link": "https://openai.com/index/introducing-the-agents-api",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-10T00:00:00+00:00",
-   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released the Agents API, a managed cloud service for building and deploying autonomous agents with orchestration, persistent sessions, and tool integration.",
-   "whyMatters": [
-    "Lowers barrier for developers to build agentic systems; accelerates shift from chatbots to autonomous task execution",
-    "Infrastructure move that will proliferate agent-based applications across industry"
    ]
   },
   {
@@ -3073,24 +3103,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses a gap between AI research focus and practical enterprise needs",
     "Relevant to organizations and educators preparing teams for sustainable AI adoption"
-   ]
-  },
-  {
-   "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-   "link": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-09-03T04:38:33+00:00",
-   "summary": "an epic comeback story for Meta",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!vyuW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff20254a9-6670-4842-b0c9-89101011f15c_2342x984.jpeg",
-   "themes": [],
-   "aiSummary": "Meta's Muse Spark 1.3 model has achieved performance matching GPT-5.6-Sol, with the report positioning Meta as a new frontier AI lab offering training at over 90% discount.",
-   "whyMatters": [
-    "Signals intensified competition in frontier model development, bringing new players and lower-cost options to market",
-    "May affect which organizations can access cutting-edge AI capabilities"
    ]
   },
   {
