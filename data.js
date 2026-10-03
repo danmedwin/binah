@@ -1,41 +1,32 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-03T10:17:06.502055+00:00",
+ "generatedAt": "2026-10-03T15:05:23.589415+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-03T10:17:14.172730+00:00",
+  "generatedAt": "2026-10-03T15:05:34.857905+00:00",
   "bullets": [
    {
-    "text": "Apple restricts AI agent file-system access on Mac, responding to security risks that autonomous agents could exploit broad permissions to harvest sensitive user data.",
+    "text": "OpenAI safety researcher David Robinson quit and publicly warned about the company's safety practices in The Atlantic, signaling internal concerns about how major models are being evaluated before release.",
     "links": [
-     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
+     "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
     ]
    },
    {
-    "text": "OpenAI and Meta release competing consumer AI agent platforms (Dots and Muse) amid broadening enterprise deployment; KPMG finds real returns tied to revenue outcomes, not efficiency metrics alone.",
+    "text": "Meta's Muse AI agent, downloaded by millions, creates detailed profiles of users' friends and family members while performing tasks, raising significant privacy concerns about what data AI systems are collecting and retaining.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
-     "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/What-the-Best-Business-AI-Users-Are-Doing-Different-e3pp6f5"
+     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
     ]
    },
    {
-    "text": "Hospital AI scheduling software is degrading care quality and worker safety through errors and overwork, raising questions about whether optimization logic serves human welfare.",
+    "text": "Apple and major AI companies are implementing stricter security controls to prevent AI agents from exploiting broad file-access permissions to reach sensitive user data across devices.",
+    "links": [
+     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+    ]
+   },
+   {
+    "text": "AI scheduling software at hospitals is creating serious errors and overwork that staff say threatens patient safety, illustrating how AI optimization can degrade real-world outcomes when deployed without adequate safeguards.",
     "links": [
      "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/"
-    ]
-   },
-   {
-    "text": "Federal judge dismisses antitrust lawsuits against Google's AI search features; Trump administration secures non-binding voluntary AI safety commitments from major tech companies lacking enforcement.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-     "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/"
-    ]
-   },
-   {
-    "text": "US arrests tech CEO for allegedly smuggling $300 million in Nvidia chips to China, continuing enforcement around controlled AI infrastructure exports amid geopolitical competition.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
     ]
    }
   ]
@@ -82,6 +73,44 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "An OpenAI safety employee has quit and is sounding the alarm",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-03T14:31:56+00:00",
+   "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "David Robinson, who wrote OpenAI's safety reports for major model releases, has resigned and published an editorial in The Atlantic warning about AI dangers. His departure and public criticism suggest internal concerns about safety practices at the company.",
+   "whyMatters": [
+    "Signals potential conflict between OpenAI's safety commitments and actual practices, raising questions about transparency in AI governance",
+    "Demonstrates ongoing debate within the industry itself about responsible AI development and disclosure"
+   ]
+  },
+  {
+   "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+   "link": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-03T12:00:00+00:00",
+   "summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta's AI agent Muse, downloaded by millions, creates detailed profiles of users' friends and family members while performing requested tasks. The convenience comes with significant privacy implications.",
+   "whyMatters": [
+    "Illustrates the privacy trade-offs embedded in consumer AI tools—data collection happens as a byproduct of normal use",
+    "Raises questions about consent and data practices in widely-adopted AI applications"
+   ]
+  },
   {
    "title": "[AINews] not much happened today",
    "link": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
@@ -242,6 +271,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Agent platforms are moving from research and chat interfaces into direct competition for workplace automation; Dots' emphasis on enterprise rather than consumer appeal signals market differentiation",
     "Design choices (polished UI vs. consumer appeal) reflect different visions for how AI agents should integrate into work and business practices"
+   ]
+  },
+  {
+   "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+   "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-02T17:19:41+00:00",
+   "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the curious.) Before that, Kakul held executive roles […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Splice CEO Kakul Srivastava suggests that AI-generated emails are degrading the quality of human conversation and connection. Splice is a major platform for music samples used in production.",
+   "whyMatters": [
+    "Reflects concerns about AI eroding human communication practices, even from leaders in adjacent tech sectors",
+    "Touches on broader question of whether AI tools optimize for efficiency at the cost of meaningful interaction"
    ]
   },
   {
@@ -664,44 +711,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Voluntary corporate safety pledges represent an alternative governance model to regulation, with unclear enforcement mechanisms",
     "The intersection of AI agents, accessible AI tools, and political disinformation is becoming a practical concern in electoral contexts"
-   ]
-  },
-  {
-   "title": "Google’s new Guided Vision feature can help you read the fine print",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-01T19:47:51+00:00",
-   "summary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google launched Guided Vision in Gemini Live on Android, an AI feature that provides real-time audio descriptions of anything the user's camera points at, including reading small text and identifying objects. The tool is available now on compatible devices.",
-   "whyMatters": [
-    "Accessibility impact: directly aids users with vision impairments or reading difficulties",
-    "Practical AI application: moves beyond text-based interfaces to multimodal perception in real time"
-   ]
-  },
-  {
-   "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
-   "link": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-01T17:17:36+00:00",
-   "summary": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google's side in a ruling on Wednesday, writing that PMC […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A federal judge dismissed antitrust lawsuits from Chegg and Penske Media challenging Google's AI Overviews feature, ruling in Google's favor. The plaintiffs had claimed the search summaries diverted traffic away from their sites.",
-   "whyMatters": [
-    "Legal precedent: signals courts may not treat AI-powered search features as anticompetitive, at least under current antitrust doctrine",
-    "Business impact: reduces immediate legal risk for Google's AI integration into search, allowing continued deployment without court-ordered changes"
    ]
   },
   {
@@ -1291,26 +1300,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Consolidation of AI talent and research (particularly Fei-Fei Li's work) into chip maker AMD signals effort to compete with Nvidia's AI dominance",
     "Reflects the high valuation of foundation model research and technical expertise in the competitive AI hardware race"
-   ]
-  },
-  {
-   "title": "OpenAI Gets Sued Over the Hugging Face Hack",
-   "link": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-29T19:05:00+00:00",
-   "summary": "A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "A California nonprofit is suing OpenAI over responsibility for actions taken by OpenAI's agents in the Hugging Face security breach. Hugging Face itself has not pursued legal action.",
-   "whyMatters": [
-    "Establishes emerging legal precedent for AI agent liability—unclear who bears responsibility when autonomous systems cause harm",
-    "May shape future expectations around corporate accountability for agent behavior and incident response"
    ]
   },
   {
