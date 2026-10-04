@@ -1,41 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-03T19:43:09.995517+00:00",
+ "generatedAt": "2026-10-04T02:28:18.810577+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-03T19:43:44.751700+00:00",
+  "generatedAt": "2026-10-04T02:28:30.970334+00:00",
   "bullets": [
    {
-    "text": "OpenAI safety researcher David Robinson quit and publicly warned about AI dangers, signaling internal dissent over the company's safety practices.",
+    "text": "OpenAI safety researcher David Robinson quit and publicly warned about the company's AI safety practices, signaling internal concerns at a major AI lab.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-     "https://www.wired.com/story/whatever-ai-safety-looks-like-its-not-this/"
+     "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
     ]
    },
    {
-    "text": "Apple tightened Mac disk-access permissions to block AI agents from broadly exploiting file-system access to sensitive user data.",
-    "links": [
-     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
-    ]
-   },
-   {
-    "text": "Meta's Muse AI agent—downloaded by millions—profiles users' friends and family while completing tasks, raising significant privacy concerns.",
+    "text": "Meta's Muse AI agent creates detailed profiles of users' friends and family while performing tasks, raising major privacy concerns as millions adopt the tool.",
     "links": [
      "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
      "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
     ]
    },
    {
-    "text": "AI-driven hospital scheduling software is producing errors and staff overwork, with nurses flagging safety risks from optimization failures in healthcare settings.",
+    "text": "Apple and industry observers are tightening AI agent disk access permissions to prevent autonomous AI systems from exploiting broad file-system access to steal sensitive user data.",
+    "links": [
+     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+    ]
+   },
+   {
+    "text": "Hospital staff report Palantir's AI scheduling software creates errors and unsafe nurse overwork, showing real-world harm when optimization algorithms ignore human safety factors.",
     "links": [
      "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/"
     ]
    },
    {
-    "text": "Trump's voluntary AI safety accord with six tech companies lacks binding enforcement, amounts to non-binding commitment despite public framing as serious safeguard.",
+    "text": "AI infrastructure demand is raising hardware costs across consumer products: Nvidia raised the seven-year-old Shield TV price by $100 due to AI-driven memory competition.",
     "links": [
-     "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-     "https://www.wired.com/story/uncanny-valley-podcast-trumps-pinky-swear-ai-safety-accord-an-ai-agent-worth-the-risk/"
+     "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+     "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/"
     ]
    }
   ]
@@ -82,6 +81,45 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "We're going to need default hard budget caps on pretty much everything",
+   "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-03T23:34:02+00:00",
+   "summary": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and per",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Simon Willison argues that AI service providers need to implement hard budget caps as a default feature—strict spending limits that cut off service after a threshold is reached, rather than soft caps that merely send warning emails. He emphasizes this is critical as coding agents and autonomous systems become more prevalent and can incur unexpected costs at scale.",
+   "whyMatters": [
+    "Protects users from runaway costs when autonomous AI agents make repeated API calls without human oversight",
+    "Addresses a practical safety and financial risk as AI systems become more capable and self-directed in production environments",
+    "Reflects growing need for guardrails in AI infrastructure as the industry scales beyond manual cost management"
+   ]
+  },
+  {
+   "title": "September sponsors-only newsletter",
+   "link": "https://simonwillison.net/2026/Oct/3/newsletter/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-03T22:00:31+00:00",
+   "summary": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison published his September sponsors-only newsletter covering topics including new Fable class models, pricing competition among AI providers, LLM advances in mathematics, security vulnerabilities, and his personal software releases.",
+   "whyMatters": [
+    "Curates emerging trends in AI (model pricing, capability areas, security) for informed technologists",
+    "Provides insider perspective on real-world deployment concerns like accidental cyberattacks and the 'vulnapocalypse' affecting open-source tools"
+   ]
+  },
   {
    "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
    "link": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
@@ -1017,24 +1055,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Gemini 4 Argon: our next era of frontier intelligence",
-   "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-30T20:01:45+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind announced Gemini 4 Argon as the next generation of its frontier AI model. No details are provided in the blurb.",
-   "whyMatters": [
-    "Google is advancing its core LLM capabilities to remain competitive in the frontier AI race",
-    "Naming convention suggests this may represent a significant capability jump in reasoning or scale"
-   ]
-  },
-  {
    "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
    "link": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
    "source": "Ars Technica · AI",
@@ -1198,24 +1218,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Enables tracking of AI-generated biological materials to prevent misuse in dual-use research",
     "Addresses a critical gap in biosecurity as AI protein design becomes more accessible and powerful"
-   ]
-  },
-  {
-   "title": "Introducing SynthID Bio",
-   "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-30T15:03:07+00:00",
-   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind introduced SynthID Bio, a watermarking technique that embeds identifying markers into AI-generated proteins while maintaining their biological function. This allows detection of which proteins were AI-designed.",
-   "whyMatters": [
-    "Protein design is a high-stakes domain where attribution and safety tracking matter for medical and research integrity",
-    "Watermarking adds a verification layer for synthetic biology, enabling better tracking of AI-generated biological materials in research and clinical pipelines"
    ]
   },
   {
@@ -2290,26 +2292,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-24T16:20:39+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google announced Gemini 3.8 Live with Live Avatar, adding a visual avatar interface to the real-time conversation capability of Gemini. No additional details provided in the blurb.",
-   "whyMatters": [
-    "Adds embodied, face-to-face interaction to AI assistants, moving beyond text toward more anthropomorphic UX",
-    "May affect how educators and users relate to AI tools through increased perceived presence and engagement"
-   ]
-  },
-  {
    "title": "Foundries vs Navigators: Lowering the Cost of Science",
    "link": "https://www.latent.space/p/foundries-vs-navigators-lowering",
    "source": "Latent Space",
@@ -2441,24 +2423,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-23T16:00:57+00:00",
-   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google expanded its Private AI Compute offering by adding secure, server-side memory that preserves user privacy. This allows AI systems to retain context across sessions without storing data on user devices or in standard cloud logs.",
-   "whyMatters": [
-    "Privacy-preserving AI infrastructure is critical for sensitive applications in health, finance, and education",
-    "Enables personalization and multi-turn reasoning while addressing legitimate privacy concerns that have limited AI adoption in regulated sectors"
-   ]
-  },
-  {
    "title": "Two years of OpenAI Academy",
    "link": "https://openai.com/index/two-years-of-openai-academy",
    "source": "OpenAI News",
@@ -2474,23 +2438,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to educators: training programs are scaling AI literacy beyond traditional tech hubs",
     "Expands access to AI knowledge for communities that may otherwise lack such resources"
-   ]
-  },
-  {
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-23T15:25:14+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google introduced improved text-to-speech capabilities for Gemini 3.8, likely enhancing voice quality or naturalness. No further details provided.",
-   "whyMatters": [
-    "Accessibility and multimodal interfaces expand who can use AI tools, including educators working with students with different learning modalities"
    ]
   },
   {
@@ -2714,26 +2661,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-   "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-22T23:46:41+00:00",
-   "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents GPT-5.6 Luna was already my favor",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/gpt-pelicans-grid.webp",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Anthropic released Claude Opus 5.5 while OpenAI simultaneously launched GPT-6 Sol and GPT-6 Luna, with both companies' new models priced significantly lower than their predecessors. This represents an intensifying competition in frontier AI capabilities.",
-   "whyMatters": [
-    "Price reductions make advanced AI models more accessible to businesses and developers, accelerating adoption",
-    "Commoditization of frontier models creates pressure on AI companies to compete on efficiency rather than capability alone"
-   ]
-  },
-  {
    "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
    "link": "https://www.latent.space/p/john-platt",
    "source": "Latent Space",
@@ -2769,26 +2696,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks shift toward AI agents as primary consumer interfaces, with major platforms fighting for control of that relationship",
     "Reveals tension between interoperability and platform lock-in as autonomous agents gain real economic power"
-   ]
-  },
-  {
-   "title": "llm 0.36",
-   "link": "https://simonwillison.net/2026/Sep/22/llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-22T18:48:37+00:00",
-   "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations .",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Developer tool llm 0.36 added support for GPT-6 Sol and Luna models and introduced handling for single-turn-only AI models that cannot support multi-turn conversations.",
-   "whyMatters": [
-    "Tooling updates enable developers to work with latest models quickly",
-    "Better handling of model limitations in developer tools prevents integration errors and improves reliability"
    ]
   },
   {
@@ -3019,26 +2926,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-15T17:05:57+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google announced Gemini 3.8 Live with Extended Thinking, combining real-time conversation with deeper reasoning capabilities. Extended Thinking allows the model to work through complex problems before responding.",
-   "whyMatters": [
-    "Extended reasoning can improve AI reliability for educational and professional applications requiring step-by-step justification",
-    "Real-time + reasoning creates a tool suited to tutoring, professional guidance, and complex problem-solving contexts"
-   ]
-  },
-  {
    "title": "Even Other AI Labs Are Rallying Around Anthropic’s Slowdown Proposal",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Even-Other-AI-Labs-Are-Rallying-Around-Anthropics-Slowdown-Proposal-e3orsav",
    "source": "The AI Daily Brief",
@@ -3206,24 +3093,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-08T14:00:15+00:00",
-   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind released AlphaGenome Atlas, a computational model that maps the effects of all 9 billion possible single-letter DNA variants on human biology. This provides predictions for how genetic changes affect molecular function.",
-   "whyMatters": [
-    "Genomic AI represents a frontier in precision medicine, enabling better prediction of disease risk and treatment response",
-    "Raises ethical questions about genetic knowledge, privacy, and informed consent in medical and research contexts that educators and religious leaders should engage with"
-   ]
-  },
-  {
    "title": "The Multiplayer AI Sprint: Build Your Team’s First Shared Agent",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Multiplayer-AI-Sprint-Build-Your-Teams-First-Shared-Agent-e3of7al",
    "source": "The AI Daily Brief",
@@ -3320,26 +3189,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-   "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-03T15:02:08+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google released WeatherNext 3, an updated weather forecasting AI model claiming improved accuracy and global coverage. No details provided on specific improvements.",
-   "whyMatters": [
-    "AI-driven weather prediction improves preparedness for climate-related disasters, affecting public safety and resource planning",
-    "More accurate forecasts support agricultural, logistics, and emergency-response decisions at scale"
-   ]
-  },
-  {
    "title": "Less about Models; More about Architecture",
    "link": "https://share.transistor.fm/s/ec79b4ac",
    "source": "Practical AI",
@@ -3358,64 +3207,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Proactive cyber defense for governments and enterprises",
-   "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-02T16:24:24+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google announced AI capabilities for proactive cybersecurity, helping organizations identify and prevent threats before they exploit vulnerabilities. No technical details provided.",
-   "whyMatters": [
-    "AI-driven defense shifts cybersecurity from reactive to predictive, reducing breach risk for critical infrastructure and institutions",
-    "Institutions serving religious or educational communities depend on this to protect sensitive data and operations"
-   ]
-  },
-  {
-   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-02T16:18:31+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google introduced Gemini 3.8 Flash, a fast, efficient model, and Gemini 3.8 Flash Cyber, a specialized version for cybersecurity tasks. The Flash line prioritizes speed and cost over peak capability.",
-   "whyMatters": [
-    "Faster, cheaper models democratize AI access for smaller organizations and resource-constrained use cases",
-    "Specialization for cybersecurity suggests domain-specific model tuning is becoming standard practice"
-   ]
-  },
-  {
-   "title": "Introducing agentic video understanding with Gemini",
-   "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-01T17:08:51+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google announced agentic video understanding for Gemini, allowing the model to autonomously interpret video content and take actions based on it. This moves beyond analyzing video frames toward agent-like behavior.",
-   "whyMatters": [
-    "Autonomous video analysis enables monitoring, quality control, and content moderation at scale without manual review",
-    "Educational applications could include automated accessibility features (captions, description), but also raises surveillance concerns in classroom and institutional settings"
-   ]
-  },
-  {
    "title": "Building the Foundation for the Agentic AI Era",
    "link": "https://share.transistor.fm/s/123da941",
    "source": "Practical AI",
@@ -3431,60 +3222,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Focuses on infrastructure and standards for the next phase of AI development—agentic systems that operate autonomously",
     "Relevant to understanding how AI systems will be integrated into organizations and ecosystems"
-   ]
-  },
-  {
-   "title": "Gemini Omni 1.1 Flash lets you build with more control",
-   "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-08-27T16:11:32+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google released Gemini Omni 1.1 Flash, positioning it as a developer-focused model offering greater control over model behavior and outputs. No specific control mechanisms are described.",
-   "whyMatters": [
-    "Developer control is essential for enterprises and institutions building AI systems aligned with their values and use cases",
-    "Gives educators and organizations more ability to customize AI tools for specific teaching and learning contexts"
-   ]
-  },
-  {
-   "title": "Piloting the world's first double-blind AI evaluations",
-   "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-08-27T12:59:16+00:00",
-   "summary": "Piloting the world's first double-blind AI evaluations",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind is launching double-blind evaluation procedures for AI systems, where evaluators assess AI outputs without knowing which model produced them. This methodology aims to reduce bias in how different AI systems are compared and rated.",
-   "whyMatters": [
-    "Addresses a critical methodological gap in AI benchmarking—human evaluator bias can skew results toward preferred vendors or model families, affecting which systems are deemed superior",
-    "Matters for policy and procurement decisions: governments, enterprises, and research institutions rely on evaluations to choose AI systems, so more rigorous methodology affects real deployment choices"
-   ]
-  },
-  {
-   "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-   "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-08-26T17:01:00+00:00",
-   "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google is releasing Gemini 3.5 Transcribe, a speech-to-text tool that uses LLM capabilities to produce more accurate and contextually aware transcriptions. The system appears to leverage language understanding beyond basic acoustic matching.",
-   "whyMatters": [
-    "Practical impact on accessibility and documentation: better transcription helps educators, clergy, and content creators capture and share spoken material more reliably",
-    "Builds on foundation models to reduce manual correction work, lowering friction for institutions that need to archive sermons, lectures, or community recordings"
    ]
   },
   {
@@ -3524,24 +3261,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Relevant to educators and organizational leaders designing curricula and training for AI literacy across skill levels",
     "Addresses how institutions can systematically help staff and students develop genuine AI competency rather than compliance"
-   ]
-  },
-  {
-   "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-   "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-08-21T11:59:48+00:00",
-   "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind is collaborating with game studios to prototype advanced AI agents that can play complex games like EVE Online, applying 15 years of AI research from earlier game-focused work. The effort demonstrates how AI has progressed from simple Atari-era games to handling massive multiplayer environments.",
-   "whyMatters": [
-    "Shows maturation of embodied AI reasoning in complex, dynamic, multi-agent environments—skills that transfer to real-world planning and decision-making problems",
-    "Game research partnerships signal industry investment in AI agents that operate with ambiguity and social interaction, relevant to future autonomous systems in professional and educational contexts"
    ]
   },
   {
