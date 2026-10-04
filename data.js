@@ -1,83 +1,72 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-04T02:28:18.810577+00:00",
+ "generatedAt": "2026-10-04T10:03:31.834660+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-04T02:28:30.970334+00:00",
+  "generatedAt": "2026-10-04T10:03:40.129871+00:00",
   "bullets": [
    {
-    "text": "OpenAI safety researcher David Robinson quit and publicly warned about the company's AI safety practices, signaling internal concerns at a major AI lab.",
+    "text": "OpenAI's safety lead David Robinson has quit and publicly warned in The Atlantic about AI safety practices at the company, signaling potential internal dissent over risk mitigation approaches.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
     ]
    },
    {
-    "text": "Meta's Muse AI agent creates detailed profiles of users' friends and family while performing tasks, raising major privacy concerns as millions adopt the tool.",
+    "text": "Meta's Muse AI agent creates detailed profiles of users' friends and family while performing tasks, raising major privacy concerns despite millions of downloads.",
     "links": [
-     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
-     "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
     ]
    },
    {
-    "text": "Apple and industry observers are tightening AI agent disk access permissions to prevent autonomous AI systems from exploiting broad file-system access to steal sensitive user data.",
-    "links": [
-     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
-    ]
-   },
-   {
-    "text": "Hospital staff report Palantir's AI scheduling software creates errors and unsafe nurse overwork, showing real-world harm when optimization algorithms ignore human safety factors.",
+    "text": "Hospital staff report that Palantir's AI scheduling software produces errors and overwork, degrading care quality and worker safety—suggesting optimization algorithms may harm outcomes without human oversight.",
     "links": [
      "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/"
     ]
    },
    {
-    "text": "AI infrastructure demand is raising hardware costs across consumer products: Nvidia raised the seven-year-old Shield TV price by $100 due to AI-driven memory competition.",
+    "text": "AI chip export controls are being enforced: a tech CEO was arrested for allegedly smuggling $300 million in Nvidia chips to China, continuing enforcement on controlled semiconductor transfers.",
     "links": [
-     "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
-     "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/"
+     "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-03T09:24:44.328615+00:00",
+  "generatedAt": "2026-10-04T10:03:40.129871+00:00",
   "bullets": [
    {
-    "text": "Apple is restricting full-disk access permissions on Mac to prevent AI agents from exploiting broad file-system access to steal sensitive user data—a security architecture response to autonomous agent risks.",
+    "text": "OpenAI's safety lead David Robinson has quit and publicly warned in The Atlantic about AI safety practices at the company, signaling potential internal dissent over risk mitigation approaches.",
     "links": [
-     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+     "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
     ]
    },
    {
-    "text": "Meta open-sourced Muse AI agent code; OpenAI launched Dots; both platforms enable developers and businesses to build custom autonomous workflows—the agent layer is becoming accessible infrastructure rather than closed lab research.",
+    "text": "Meta's Muse AI agent creates detailed profiles of users' friends and family while performing tasks, raising major privacy concerns despite millions of downloads.",
     "links": [
-     "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-     "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
     ]
    },
    {
-    "text": "Google's Gemini 4 Argon reached frontier capability (1M output tokens) but remains restricted to government and defense users, signaling deliberate staged deployment and competitive pressure on frontier model access.",
+    "text": "Hospital staff report that Palantir's AI scheduling software produces errors and overwork, degrading care quality and worker safety—suggesting optimization algorithms may harm outcomes without human oversight.",
     "links": [
-     "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
-     "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+     "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/"
     ]
    },
    {
-    "text": "AI has defeated the world's best Stratego player by using a second neural network to infer hidden opponent information—a milestone for incomplete-information games, unlike chess or Go where perfect information enabled earlier breakthroughs.",
+    "text": "AI chip export controls are being enforced: a tech CEO was arrested for allegedly smuggling $300 million in Nvidia chips to China, continuing enforcement on controlled semiconductor transfers.",
     "links": [
-     "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+     "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-03T09:24:37.352246+00:00",
+  "updatedAt": "2026-10-04T10:03:35.428938+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the intersection of AI with moral/religious leadership and values",
-   "Drawn to substantive tech product stories with real-world impact (Apple chips, Waze features)",
-   "Wants depth and broad applicability; skips niche technical release notes and tools lacking clear relevance"
+   "Interested in AI ethics and religious/moral perspectives on technology",
+   "Prefers substantive AI developments (products, chips, capabilities) over technical release notes",
+   "Drawn to stories about established tech companies (Apple, Google/Waze) and their AI initiatives",
+   "Values practical applications over low-level technical documentation"
   ]
  },
  "items": [
