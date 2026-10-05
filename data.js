@@ -1,32 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-05T10:49:02.376779+00:00",
+ "generatedAt": "2026-10-05T12:08:34.527028+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-05T10:49:18.036246+00:00",
+  "generatedAt": "2026-10-05T12:08:39.951225+00:00",
   "bullets": [
    {
-    "text": "Apple is restricting full-disk access permissions on Macs to prevent AI agents from exploiting broad file-system permissions and accessing sensitive user data—a security measure responding to autonomous agent risks.",
+    "text": "OpenAI safety researcher David Robinson quit and publicly warned about the company's AI safety practices, signaling internal concerns at a leading frontier lab.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+    ]
+   },
+   {
+    "text": "Apple is restricting full-disk access permissions on Mac and iOS to prevent AI agents from exploiting broad file-system access to steal sensitive user data.",
     "links": [
      "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
      "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
     ]
    },
    {
-    "text": "OpenAI introduced new advertising formats and measurement tools within ChatGPT, positioning the platform as an advertising channel with attribution and brand-suitability controls for enterprise buyers.",
+    "text": "Meta's Muse AI agent creates detailed profiles of users' friends and family to perform tasks, raising significant privacy concerns despite growing adoption.",
+    "links": [
+     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
+    ]
+   },
+   {
+    "text": "OpenAI introduced new advertising formats and measurement tools within ChatGPT, integrating commercial infrastructure directly into the consumer AI platform.",
     "links": [
      "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
     ]
    },
    {
-    "text": "Global AI enterprise investment is projected to reach $2.5 trillion in 2026—a 44% increase—as model capabilities advance faster than organizations can operationally integrate them, creating a scale-and-integration gap.",
+    "text": "Industry leaders conceptualize the mind through computational models, but current educational frameworks may not equip us to understand the implications of AI systems built on these assumptions.",
     "links": [
-     "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/"
-    ]
-   },
-   {
-    "text": "OpenAI published a practical guide for building with GPT-6 models, covering model selection, reasoning tuning, and production workflows as frontier models see wider startup deployment.",
-    "links": [
-     "https://openai.com/index/practical-guide-building-gpt-6"
+     "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought"
     ]
    }
   ]
