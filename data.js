@@ -1,82 +1,154 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-05T01:45:29.602468+00:00",
+ "generatedAt": "2026-10-05T10:49:02.376779+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-05T01:45:35.023286+00:00",
+  "generatedAt": "2026-10-05T10:49:18.036246+00:00",
   "bullets": [
    {
-    "text": "OpenAI safety researcher David Robinson quit and publicly warned about AI dangers in The Atlantic, signaling internal concerns about safety practices at frontier labs.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
-    ]
-   },
-   {
-    "text": "Apple is restricting full-disk access permissions for AI agents on Macs to prevent them from exploiting broad file-system access to steal sensitive user data.",
+    "text": "Apple is restricting full-disk access permissions on Macs to prevent AI agents from exploiting broad file-system permissions and accessing sensitive user data—a security measure responding to autonomous agent risks.",
     "links": [
      "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
      "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
     ]
    },
    {
-    "text": "Meta's Muse AI agent creates detailed profiles of users' friends and family members while performing tasks, raising significant privacy concerns despite its convenience.",
+    "text": "OpenAI introduced new advertising formats and measurement tools within ChatGPT, positioning the platform as an advertising channel with attribution and brand-suitability controls for enterprise buyers.",
     "links": [
-     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
+     "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
     ]
    },
    {
-    "text": "Hospital scheduling software powered by Palantir is causing scheduling errors and staff burnout, suggesting AI optimization may degrade healthcare worker safety and patient care quality.",
+    "text": "Global AI enterprise investment is projected to reach $2.5 trillion in 2026—a 44% increase—as model capabilities advance faster than organizations can operationally integrate them, creating a scale-and-integration gap.",
     "links": [
-     "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/"
+     "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/"
     ]
    },
    {
-    "text": "Simon Willison argues AI providers must implement hard spending caps as default—strict limits that cut off service rather than soft warnings—to prevent runaway costs.",
+    "text": "OpenAI published a practical guide for building with GPT-6 models, covering model selection, reasoning tuning, and production workflows as frontier models see wider startup deployment.",
     "links": [
-     "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+     "https://openai.com/index/practical-guide-building-gpt-6"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-04T10:03:40.129871+00:00",
+  "generatedAt": "2026-10-05T10:49:18.036246+00:00",
   "bullets": [
    {
-    "text": "OpenAI's safety lead David Robinson has quit and publicly warned in The Atlantic about AI safety practices at the company, signaling potential internal dissent over risk mitigation approaches.",
+    "text": "Apple is restricting full-disk access permissions on Macs to prevent AI agents from exploiting broad file-system permissions and accessing sensitive user data—a security measure responding to autonomous agent risks.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
     ]
    },
    {
-    "text": "Meta's Muse AI agent creates detailed profiles of users' friends and family while performing tasks, raising major privacy concerns despite millions of downloads.",
+    "text": "OpenAI introduced new advertising formats and measurement tools within ChatGPT, positioning the platform as an advertising channel with attribution and brand-suitability controls for enterprise buyers.",
     "links": [
-     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
+     "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
     ]
    },
    {
-    "text": "Hospital staff report that Palantir's AI scheduling software produces errors and overwork, degrading care quality and worker safety—suggesting optimization algorithms may harm outcomes without human oversight.",
+    "text": "Global AI enterprise investment is projected to reach $2.5 trillion in 2026—a 44% increase—as model capabilities advance faster than organizations can operationally integrate them, creating a scale-and-integration gap.",
     "links": [
-     "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/"
+     "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/"
     ]
    },
    {
-    "text": "AI chip export controls are being enforced: a tech CEO was arrested for allegedly smuggling $300 million in Nvidia chips to China, continuing enforcement on controlled semiconductor transfers.",
+    "text": "OpenAI published a practical guide for building with GPT-6 models, covering model selection, reasoning tuning, and production workflows as frontier models see wider startup deployment.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+     "https://openai.com/index/practical-guide-building-gpt-6"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-04T10:03:35.428938+00:00",
+  "updatedAt": "2026-10-05T10:49:13.428036+00:00",
   "voteCount": 7,
   "bullets": [
    "Interested in AI ethics and religious/moral perspectives on technology",
-   "Prefers substantive AI developments (products, chips, capabilities) over technical release notes",
-   "Drawn to stories about established tech companies (Apple, Google/Waze) and their AI initiatives",
-   "Values practical applications over low-level technical documentation"
+   "Prefers substantive tech stories with real-world impact over niche developer tool updates",
+   "Drawn to major tech company developments (Apple, Google/Waze) rather than obscure open-source releases"
   ]
  },
  "items": [
+  {
+   "title": "Our minds aren’t equipped to handle AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-05T10:16:05+00:00",
+   "summary": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google's Demis Hassabis calls the brain \"a biological approximation to a Turing machine.\" Elon Musk puts it more bluntly, […]",
+   "religionScore": 1,
+   "religionHits": [
+    "god"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Verge article examines how AI industry leaders conceptualize the mind through computational models—from Demis Hassabis describing the brain as \"a biological approximation to a Turing machine\" to Elon Musk's framing. The piece argues that our current cognitive frameworks, shaped by computer science, may not be adequate for understanding or engaging with AI at the scale it now operates.",
+   "whyMatters": [
+    "Educational relevance: challenges educators to examine what mental models students are taught about cognition and AI, especially when those models are mechanistic oversimplifications",
+    "Raises questions about whether our philosophical and educational categories for thinking about intelligence are fit for purpose in the AI era"
+   ]
+  },
+  {
+   "title": "Building advertising for the way people use AI",
+   "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-05T10:00:00+00:00",
+   "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI introduced new advertising tools within ChatGPT, including a visual ad format and expanded measurement capabilities, attribution partnerships, and brand-suitability controls for advertisers.",
+   "whyMatters": [
+    "Signals OpenAI's pivot toward monetization and commercialization of ChatGPT as a consumer platform",
+    "Raises questions about appropriate spaces for advertising and data collection in AI interfaces widely used by students and general audiences"
+   ]
+  },
+  {
+   "title": "People really hate AI, so why can’t they get enough?",
+   "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-10-05T08:00:00+00:00",
+   "summary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review explores a paradox in public AI adoption: despite widespread skepticism and criticism of AI, usage remains high. The article highlights startups like Springboards building LLMs that intentionally generate more varied responses, framing themselves ironically as \"self-loathing AI\" that resist the homogeneity of mainstream models.",
+   "whyMatters": [
+    "Reveals tension between public rhetoric about AI risks and actual user behavior—relevant for educators and clergy discussing honest adoption and critique",
+    "Shows market innovation responding to user desire for less corporate-seeming, more diverse AI outputs"
+   ]
+  },
+  {
+   "title": "A Jewish take on AI and social media",
+   "link": "https://ejewishphilanthropy.com/a-jewish-take-on-ai-and-social-media/",
+   "source": "eJewishPhilanthropy",
+   "category": "religion",
+   "date": "2026-10-05T06:51:59+00:00",
+   "summary": "Humanity’s struggle to adapt to technology is hardly new — it has been with us since at least the dawn of the Industrial Revolution. As early as 1936, for instance, Charlie Chaplin’s “Modern Times” — his last silent film and one of the most iconic movies of all time — offered a commentary on the...",
+   "religionScore": 6,
+   "religionHits": [
+    "jewish"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The article contextualizes current anxieties about AI and social media within a longer historical arc of technological disruption, referencing Charlie Chaplin's 1936 film \"Modern Times\" as an example of how societies have grappled with technological transformation for nearly a century.",
+   "whyMatters": [
+    "Directly religious and educational: frames AI anxiety through Jewish and humanistic perspectives on technology and adaptation",
+    "Suggests that contemporary concerns about AI follow patterns familiar to educators and faith communities navigating past technological shifts"
+   ]
+  },
   {
    "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
@@ -1033,24 +1105,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI hallucinations are making entitled customers even worse",
-   "link": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-09-30T20:55:58+00:00",
-   "summary": "Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked that her last name be withheld to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI-generated hallucinations in customer service interactions are creating safety risks and escalating customer behavior. Servers report instances where customers cite false information provided by AI systems, leading to near-miss incidents such as allergy-related errors.",
-   "whyMatters": [
-    "Documents real-world harm from AI hallucination in high-stakes customer safety contexts",
-    "Raises liability and worker protection questions as enterprises deploy unreliable AI systems in direct-contact roles"
-   ]
-  },
-  {
    "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
    "link": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
    "source": "Wired · AI",
@@ -1528,26 +1582,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Firefox's redesign directly challenges Chrome's market dominance, affecting browser competition and user privacy options in the AI era",
     "Mozilla's stated AI skepticism signals an alternative industry stance worth noting for those concerned about responsible AI deployment"
-   ]
-  },
-  {
-   "title": "If we’re going to fund AI, let’s fund it right",
-   "link": "https://ejewishphilanthropy.com/if-were-going-to-fund-ai-lets-fund-it-right/",
-   "source": "eJewishPhilanthropy",
-   "category": "religion",
-   "date": "2026-09-29T10:54:40+00:00",
-   "summary": "A Jewish Funders Network panel recently issued a challenge to Jewish philanthropy: We cannot afford to sit out the conversation about artificial intelligence. We agree. But as funders, we think there is a second question that deserves just as much attention: If we are going to get into the AI conversation, what exactly should we...",
-   "religionScore": 3,
-   "religionHits": [
-    "jewish"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Jewish Funders Network convened a panel urging Jewish philanthropy to engage in conversations about artificial intelligence rather than remain outside the discussion. The article argues that Jewish funders should not only participate in AI funding but do so strategically, with intentional approaches aligned to values.",
-   "whyMatters": [
-    "Directly relevant to Jewish community leadership and institutional decision-making around emerging technology",
-    "Raises question of what 'responsible' AI funding looks like from a values-based perspective, applicable to educational and religious institutions considering AI adoption"
    ]
   },
   {
@@ -2495,6 +2529,42 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+   "link": "https://openai.com/index/ringg",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-23T12:00:00+00:00",
+   "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Ringg deployed AI agents powered by GPT-5.6 to handle customer service calls and messages across multiple platforms (voice, chat, WhatsApp, web) in multiple languages, resolving up to 65% of calls at 90% lower cost than previous GPT-4.1 systems. The system significantly reduces customer service expenses.",
+   "whyMatters": [
+    "Demonstrates substantial cost reduction in labor-intensive business operations, signaling broader displacement of customer-facing roles",
+    "Raises questions about customer experience quality and job displacement in customer service sectors"
+   ]
+  },
+  {
+   "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+   "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-23T12:00:00+00:00",
+   "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Harvey, a legal tech company, is using OpenAI's GPT-6 Astra model to generate more structured and context-aware legal documents, allowing lawyers to focus on strategy rather than drafting. The model improves document quality and consistency.",
+   "whyMatters": [
+    "Accelerates legal document production, changing workflow for law firms and potentially affecting access to legal services",
+    "Raises questions about AI-generated legal documents' reliability and oversight in a high-stakes domain"
+   ]
+  },
+  {
    "title": "Sam Altman’s remarks at the United Nations Security Council",
    "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
    "source": "OpenAI News",
@@ -2515,24 +2585,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-   "link": "https://openai.com/index/ringg",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-23T12:00:00+00:00",
-   "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Ringg deployed AI agents powered by GPT-5.6 to handle customer service calls and messages across multiple platforms (voice, chat, WhatsApp, web) in multiple languages, resolving up to 65% of calls at 90% lower cost than previous GPT-4.1 systems. The system significantly reduces customer service expenses.",
-   "whyMatters": [
-    "Demonstrates substantial cost reduction in labor-intensive business operations, signaling broader displacement of customer-facing roles",
-    "Raises questions about customer experience quality and job displacement in customer service sectors"
-   ]
-  },
-  {
    "title": "How invideo improves color grading 3x with GPT‑6 Astra",
    "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
    "source": "OpenAI News",
@@ -2548,24 +2600,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Dramatically accelerates video content creation capabilities, affecting production timelines across education and media",
     "Relevant to educators creating video content but raises questions about creative labor displacement"
-   ]
-  },
-  {
-   "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-   "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-23T12:00:00+00:00",
-   "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Harvey, a legal tech company, is using OpenAI's GPT-6 Astra model to generate more structured and context-aware legal documents, allowing lawyers to focus on strategy rather than drafting. The model improves document quality and consistency.",
-   "whyMatters": [
-    "Accelerates legal document production, changing workflow for law firms and potentially affecting access to legal services",
-    "Raises questions about AI-generated legal documents' reliability and oversight in a high-stakes domain"
    ]
   },
   {
@@ -2659,26 +2693,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-   "link": "https://openai.com/index/airbnb-gpt-6-astra",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-23T01:00:00+00:00",
-   "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Airbnb expanded access to GPT-6 Astra and OpenAI frontier models for its engineering teams, using them to solve bugs, design systems, and accelerate development. The deployment demonstrates enterprise adoption of frontier models.",
-   "whyMatters": [
-    "Shows major corporations integrating frontier AI models directly into core engineering workflows",
-    "Reflects confidence in AI capabilities for software engineering tasks while indicating real-world business ROI"
-   ]
-  },
-  {
    "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
    "link": "https://www.latent.space/p/john-platt",
    "source": "Latent Space",
@@ -2714,24 +2728,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks shift toward AI agents as primary consumer interfaces, with major platforms fighting for control of that relationship",
     "Reveals tension between interoperability and platform lock-in as autonomous agents gain real economic power"
-   ]
-  },
-  {
-   "title": "Don’t be fooled by this summer of AI hype",
-   "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-09-22T11:04:51+00:00",
-   "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Technology Review warns against inflated AI claims being made in industry announcements, citing examples like Anthropic's claims about Claude Mythos finding software vulnerabilities and security incidents at multiple companies that initially went undisclosed.",
-   "whyMatters": [
-    "Highlights pattern of AI vendors overstating capabilities and delaying disclosure of security problems",
-    "Important for evaluating AI credibility: vendors make splash announcements while quietly addressing failures"
    ]
   },
   {
