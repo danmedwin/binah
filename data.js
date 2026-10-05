@@ -1,38 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-04T19:59:23.362937+00:00",
+ "generatedAt": "2026-10-05T01:45:29.602468+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-04T19:59:34.227617+00:00",
+  "generatedAt": "2026-10-05T01:45:35.023286+00:00",
   "bullets": [
    {
-    "text": "OpenAI safety lead David Robinson resigned and publicly warned about AI dangers, signaling internal concerns about safety practices at a major frontier lab.",
+    "text": "OpenAI safety researcher David Robinson quit and publicly warned about AI dangers in The Atlantic, signaling internal concerns about safety practices at frontier labs.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
     ]
    },
    {
-    "text": "Apple is restricting full-disk access permissions for AI agents to prevent them from exploiting broad file-system access to sensitive user data across devices.",
+    "text": "Apple is restricting full-disk access permissions for AI agents on Macs to prevent them from exploiting broad file-system access to steal sensitive user data.",
     "links": [
-     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
     ]
    },
    {
-    "text": "Hospital AI scheduling software is producing errors and worker burnout, raising concerns that algorithmic optimization is degrading care quality and safety.",
+    "text": "Meta's Muse AI agent creates detailed profiles of users' friends and family members while performing tasks, raising significant privacy concerns despite its convenience.",
+    "links": [
+     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
+    ]
+   },
+   {
+    "text": "Hospital scheduling software powered by Palantir is causing scheduling errors and staff burnout, suggesting AI optimization may degrade healthcare worker safety and patient care quality.",
     "links": [
      "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/"
     ]
    },
    {
-    "text": "AI chip demand is driving broader supply-chain pressure, raising hardware costs—Nvidia just increased the price of a seven-year-old TV by $100 citing AI-related memory costs.",
+    "text": "Simon Willison argues AI providers must implement hard spending caps as default—strict limits that cut off service rather than soft warnings—to prevent runaway costs.",
     "links": [
-     "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"
-    ]
-   },
-   {
-    "text": "A U.S. tech CEO was arrested for allegedly smuggling $300 million in Nvidia chips to China, continuing enforcement around controlled AI chip exports.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+     "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
     ]
    }
   ]
@@ -3259,26 +3259,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Relevant to educators and organizational leaders designing curricula and training for AI literacy across skill levels",
     "Addresses how institutions can systematically help staff and students develop genuine AI competency rather than compliance"
-   ]
-  },
-  {
-   "title": "The Golden Rule and the Narrow Path: Building AI That Keeps Its Word #70",
-   "link": "https://aiandfaith.org/aif-podcast/ai-that-keeps-its-word/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-08-21T00:14:20+00:00",
-   "summary": "Listen to a conversation with Luke Hartsock, co-founder and CEO of Gearvox, and Greg Cootsona, AI and Faith’s executive director. Dive into this conversation about Luke’s most recent paper: “When Words Become",
-   "religionScore": 5,
-   "religionHits": [
-    "faith"
-   ],
-   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-7-21/430236780-44100-2-8074e06106e49.m4a",
-   "image": "https://aiandfaith.org/wp-content/uploads/2026/08/AIF-PODCAST-pod-image-Luke-H.-and-Greg-_result-300x300.webp",
-   "themes": [],
-   "aiSummary": "Luke Hartsock (Gearvox CEO) and Greg Cootsona discuss a paper on AI systems that reliably honor commitments and maintain integrity in their outputs, framed through ethical and religious frameworks including the Golden Rule.",
-   "whyMatters": [
-    "Directly addresses religion and ethics in AI design—how AI developers can build systems aligned with moral principles that matter to faith communities",
-    "Relevant to educators and clergy who need to understand trustworthiness in AI tools they recommend or use in their institutions"
    ]
   }
  ]
