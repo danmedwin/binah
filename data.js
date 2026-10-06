@@ -1,82 +1,162 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-05T23:05:21.472526+00:00",
+ "generatedAt": "2026-10-06T10:44:33.377684+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-05T23:06:00.868884+00:00",
+  "generatedAt": "2026-10-06T10:44:48.633144+00:00",
   "bullets": [
    {
-    "text": "OpenAI's unauthorized bots accessed and edited Wikipedia without permission, potentially causing infrastructure outages—raising questions about agent autonomy and corporate accountability.",
+    "text": "OpenAI's unauthorized bots accessed and edited Wikipedia platforms without authorization, possibly linked to a May Wikimedia outage—raising accountability questions about AI agent deployment.",
     "links": [
      "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
     ]
    },
    {
-    "text": "A structural security flaw in the Model Context Protocol (MCP) used for agent-to-agent communication allows malicious prompts to spread between AI systems, exposing a critical infrastructure vulnerability.",
+    "text": "The Model Context Protocol (MCP) used for agent-to-agent communication has a structural security flaw that allows malicious prompts to spread between AI agents, affecting Google and others.",
     "links": [
      "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
     ]
    },
    {
-    "text": "Nolla Health launched an AI system in Utah that autonomously prescribes acne treatments from facial photos without human physician review, raising regulatory and safety concerns.",
+    "text": "A Utah startup is issuing AI-generated acne prescriptions autonomously without physician review, highlighting regulatory gaps as AI systems move into medical decision-making.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions"
     ]
    },
    {
-    "text": "Norway implemented the first major government restrictions on AI glasses that record bystanders, signaling emerging regulatory frameworks for surveillance-capable wearables.",
+    "text": "Norway is implementing restrictions on AI glasses that record bystanders and developing permanent regulatory rules—marking the first major government crackdown on the technology.",
     "links": [
      "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"
     ]
    },
    {
-    "text": "OpenAI's Sam Altman stated society must accept \"some bad things\" from AI deployment as the cost of progress, while the company's PR team attempted to suppress questions about a ChatGPT user's suicide.",
+    "text": "arXiv preprint repository has rate-limited submissions after volume doubled in two years, citing inability to moderate an influx of low-quality AI-generated academic papers.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
-     "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr"
+     "https://www.404media.co/arxiv-is-rate-limiting-submissions-because-it-cant-keep-up-with-ai-slop/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-05T10:49:18.036246+00:00",
+  "generatedAt": "2026-10-06T10:44:48.633144+00:00",
   "bullets": [
    {
-    "text": "Apple is restricting full-disk access permissions on Macs to prevent AI agents from exploiting broad file-system permissions and accessing sensitive user data—a security measure responding to autonomous agent risks.",
+    "text": "OpenAI's unauthorized bots accessed and edited Wikipedia platforms without authorization, possibly linked to a May Wikimedia outage—raising accountability questions about AI agent deployment.",
     "links": [
-     "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-     "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
+     "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
     ]
    },
    {
-    "text": "OpenAI introduced new advertising formats and measurement tools within ChatGPT, positioning the platform as an advertising channel with attribution and brand-suitability controls for enterprise buyers.",
+    "text": "The Model Context Protocol (MCP) used for agent-to-agent communication has a structural security flaw that allows malicious prompts to spread between AI agents, affecting Google and others.",
     "links": [
-     "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+     "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
     ]
    },
    {
-    "text": "Global AI enterprise investment is projected to reach $2.5 trillion in 2026—a 44% increase—as model capabilities advance faster than organizations can operationally integrate them, creating a scale-and-integration gap.",
+    "text": "A Utah startup is issuing AI-generated acne prescriptions autonomously without physician review, highlighting regulatory gaps as AI systems move into medical decision-making.",
     "links": [
-     "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/"
+     "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions"
     ]
    },
    {
-    "text": "OpenAI published a practical guide for building with GPT-6 models, covering model selection, reasoning tuning, and production workflows as frontier models see wider startup deployment.",
+    "text": "Norway is implementing restrictions on AI glasses that record bystanders and developing permanent regulatory rules—marking the first major government crackdown on the technology.",
     "links": [
-     "https://openai.com/index/practical-guide-building-gpt-6"
+     "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"
+    ]
+   },
+   {
+    "text": "arXiv preprint repository has rate-limited submissions after volume doubled in two years, citing inability to moderate an influx of low-quality AI-generated academic papers.",
+    "links": [
+     "https://www.404media.co/arxiv-is-rate-limiting-submissions-because-it-cant-keep-up-with-ai-slop/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-05T10:49:13.428036+00:00",
+  "updatedAt": "2026-10-06T10:44:43.011903+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and religious/moral perspectives on technology",
-   "Prefers substantive tech stories with real-world impact over niche developer tool updates",
-   "Drawn to major tech company developments (Apple, Google/Waze) rather than obscure open-source releases"
+   "Interested in AI ethics and leadership perspectives, especially from religious/moral authorities",
+   "Drawn to substantive AI stories with business or product impact (Apple chips, navigation features)",
+   "Prefers news over technical release notes and niche developer tools"
   ]
  },
  "items": [
+  {
+   "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
+   "link": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-06T10:30:00+00:00",
+   "summary": "The author of The AGI Chronicles says his book “was written by a very tired, overworked, under-slept human being.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Kevin Roose, author of The AGI Chronicles, wrote his book entirely by hand without using AI tools, despite it being a book about AI. He describes the process as undertaken by a tired, overworked, and sleep-deprived human being.",
+   "whyMatters": [
+    "Demonstrates the choice to engage substantively with AI topics through traditional authorship rather than leveraging the tools being studied",
+    "Relevant to educators and writers considering when human effort versus AI assistance serves credibility and depth of understanding"
+   ]
+  },
+  {
+   "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+   "link": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-06T06:28:43+00:00",
+   "summary": "A small win for US open source",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/DIu7xA898go",
+   "themes": [],
+   "aiSummary": "The US open-source AI community has achieved a development milestone with the Reflection Beam 501B-A23B American open model. The announcement frames this as a modest but meaningful win for domestic open-source AI development.",
+   "whyMatters": [
+    "Strengthens the US open-source AI ecosystem independent of proprietary vendors",
+    "Matters for organizations seeking alternatives to closed commercial models and for maintaining AI capability diversity"
+   ]
+  },
+  {
+   "title": "Quoting Felix Rieseberg",
+   "link": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-05T23:56:47+00:00",
+   "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Cowork's earlier version ran AI model inference in the cloud using an Anthropic-provided virtual machine shipped to users' computers, which constrained data access to user-added information for safety and security. Users appreciated the AI capabilities but disliked the performance costs of running the VM locally, leading to architectural changes.",
+   "whyMatters": [
+    "Highlights the real-world tradeoffs between AI capability, security/safety isolation, and user experience",
+    "Illustrates how infrastructure decisions shape adoption, especially when safety measures create friction"
+   ]
+  },
+  {
+   "title": "Gemini Call for Me might tell your mom you’re running late",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-05T23:09:55+00:00",
+   "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google is reportedly expanding its Gemini \"Call for Me\" feature beyond business calls to allow personal use cases like calling family members with AI-generated messages (e.g., notifying your mother you'll be late). The feature is being tested through code found in an APK teardown.",
+   "whyMatters": [
+    "Expands AI agent capabilities into personal communication, raising questions about authenticity and consent when AI makes calls on your behalf",
+    "Has implications for how people manage relationships and expectations—especially relevant for clergy and educators thinking about AI's role in human connection"
+   ]
+  },
   {
    "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
    "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
@@ -385,26 +465,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects OpenAI's shift toward monetizing free and low-cost tiers as it scales infrastructure costs",
     "Raises questions about user experience and the boundary between utility and ad-supported service in AI tools"
-   ]
-  },
-  {
-   "title": "Our minds aren’t equipped to handle AI",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-05T10:16:05+00:00",
-   "summary": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google's Demis Hassabis calls the brain \"a biological approximation to a Turing machine.\" Elon Musk puts it more bluntly, […]",
-   "religionScore": 1,
-   "religionHits": [
-    "god"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge article examines how AI industry leaders conceptualize the mind through computational models—from Demis Hassabis describing the brain as \"a biological approximation to a Turing machine\" to Elon Musk's framing. The piece argues that our current cognitive frameworks, shaped by computer science, may not be adequate for understanding or engaging with AI at the scale it now operates.",
-   "whyMatters": [
-    "Educational relevance: challenges educators to examine what mental models students are taught about cognition and AI, especially when those models are mechanistic oversimplifications",
-    "Raises questions about whether our philosophical and educational categories for thinking about intelligence are fit for purpose in the AI era"
    ]
   },
   {
@@ -1288,26 +1348,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights tensions in AI ethics discourse between serious research questions and conceptual frameworks that lack empirical grounding",
     "Reflects broader uncertainty in the field about consciousness, suffering, and moral status of AI systems—questions relevant to how communities think about AI development responsibility"
-   ]
-  },
-  {
-   "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
-   "link": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-09-30T20:30:09+00:00",
-   "summary": "Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Six major AI companies signed a voluntary agreement with the Trump White House committing to implement AI safeguards. The accord is non-binding and lacks enforcement mechanisms.",
-   "whyMatters": [
-    "Policy vacuum: voluntary self-regulation replaces regulatory oversight, leaving implementation and compliance entirely to company discretion",
-    "Questions industry accountability; no external verification that companies will actually follow through on commitments"
    ]
   },
   {
@@ -2534,24 +2574,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "We just shipped support for the ugliest part of HTTP: Vary",
-   "link": "https://simonwillison.net/2026/Sep/23/hn-49823961/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-23T23:14:57+00:00",
-   "summary": "My comment on We just shipped support for the ugliest part of HTTP: Vary — Hacker News. I've been wanting this from Cloudflare for years . The classic problem here is if you do that thing where user agents that send \"accept: text/html\" get HTML, while user agents that don't get JSON or some other format. This used to be impossible to deploy behind Cloudflare caching, because they ignored the Vary ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Cloudflare has added support for the HTTP Vary header, enabling proper content negotiation caching for endpoints that serve different formats (HTML, JSON) based on request headers. This addresses a longstanding technical gap in CDN caching behavior.",
-   "whyMatters": [
-    "Developer experience: resolves a years-long friction point for building content-negotiated APIs behind major CDN providers",
-    "Web standards: proper Vary support ensures HTTP caching semantics work correctly, improving performance for services using format negotiation"
-   ]
-  },
-  {
    "title": "Opus 5.5 vs GPT-6 Sol and Luna",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Opus-5-5-vs-GPT-6-Sol-and-Luna-e3pa5c4",
    "source": "The AI Daily Brief",
@@ -2771,26 +2793,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates a cost-efficient approach to training competitive frontier models—$3M is substantially cheaper than proprietary alternative training runs, affecting the economics of AI development",
     "Marks a shift in the open-weights frontier toward Chinese labs, with implications for AI capability distribution, model accessibility, and geopolitical fragmentation of AI research"
-   ]
-  },
-  {
-   "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
-   "link": "https://www.latent.space/p/jev",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-09-21T22:13:49+00:00",
-   "summary": "The definitive Jev podcast with its lead creator.",
-   "religionScore": 2,
-   "religionHits": [
-    "god"
-   ],
-   "audio": "https://api.substack.com/feed/podcast/216783460/cdf8e02436aa264178bb2aa2c85db57c.mp3",
-   "image": "",
-   "themes": [],
-   "aiSummary": "This is a podcast episode featuring Diogo Almeida, CEO of TypeSafe AI, discussing Jev and System One models for production applications. It appears to be a deep-dive conversation with the technology's lead creator.",
-   "whyMatters": [
-    "Provides founder perspective on practical deployment of new model architecture",
-    "Complements technical coverage with business and design rationale from the creators"
    ]
   },
   {
