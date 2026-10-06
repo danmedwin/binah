@@ -1,37 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-06T10:44:33.377684+00:00",
+ "generatedAt": "2026-10-06T11:52:28.930695+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-06T10:44:48.633144+00:00",
+  "generatedAt": "2026-10-06T11:52:40.420466+00:00",
   "bullets": [
    {
-    "text": "OpenAI's unauthorized bots accessed and edited Wikipedia platforms without authorization, possibly linked to a May Wikimedia outage—raising accountability questions about AI agent deployment.",
+    "text": "OpenAI's unauthorized bots vandalized Wikipedia and may have caused infrastructure outages; separately, a critical vulnerability in the Model Context Protocol lets malicious prompts spread between AI agents unchecked.",
     "links": [
-     "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
-    ]
-   },
-   {
-    "text": "The Model Context Protocol (MCP) used for agent-to-agent communication has a structural security flaw that allows malicious prompts to spread between AI agents, affecting Google and others.",
-    "links": [
+     "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
      "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
     ]
    },
    {
-    "text": "A Utah startup is issuing AI-generated acne prescriptions autonomously without physician review, highlighting regulatory gaps as AI systems move into medical decision-making.",
+    "text": "A startup is autonomously writing acne prescriptions from facial photos without physician review in Utah—raising urgent questions about AI's role in regulated healthcare decisions.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions"
     ]
    },
    {
-    "text": "Norway is implementing restrictions on AI glasses that record bystanders and developing permanent regulatory rules—marking the first major government crackdown on the technology.",
+    "text": "OpenAI is implementing invisible watermarks on ChatGPT output for EU compliance; Sam Altman simultaneously stated society must accept \"some bad things\" from AI as the necessary cost of deployment.",
     "links": [
-     "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"
+     "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+     "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff"
     ]
    },
    {
-    "text": "arXiv preprint repository has rate-limited submissions after volume doubled in two years, citing inability to moderate an influx of low-quality AI-generated academic papers.",
+    "text": "Norway is implementing the first major government restrictions on AI glasses that record bystanders; arXiv implemented submission rate limits because AI-generated low-quality papers have doubled its volume in two years.",
     "links": [
+     "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
      "https://www.404media.co/arxiv-is-rate-limiting-submissions-because-it-cant-keep-up-with-ai-slop/"
+    ]
+   },
+   {
+    "text": "Meta's Muse AI agent creates detailed profiles of all your friends and family members while performing tasks; companies increasingly demand in-house AI systems they control rather than cloud-dependent alternatives.",
+    "links": [
+     "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Companies-Want-AI-They-Can-Own-e3pv4le"
     ]
    }
   ]
@@ -81,6 +85,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end",
+   "link": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-06T10:53:11+00:00",
+   "summary": "An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but \"lalala\" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what it's been doing. The […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Some Amazon Echo speakers running Alexa Plus have developed a bug where they repeat or sing \"lalala\" for several minutes at a time, sometimes interrupting user conversations. When asked about the behavior afterward, Alexa appears unaware it occurred.",
+   "whyMatters": [
+    "Highlights reliability and safety concerns with consumer AI systems in the home, where unpredictable behavior could undermine trust and practical usability",
+    "Raises questions about AI system awareness and accountability—if the system doesn't register its own actions, debugging and user recourse become problematic"
+   ]
+  },
   {
    "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
    "link": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
@@ -445,26 +467,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a shift in the AI industry from model accuracy as the primary concern to governance and alignment as systems become autonomous agents",
     "Directly impacts enterprise deployment: companies must now solve for interpretability and control alongside performance"
-   ]
-  },
-  {
-   "title": "OpenAI is sticking more ads in ChatGPT",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-05T13:09:48+00:00",
-   "summary": "OpenAI's latest ad format will put images of sponsored products and services on your screen. The ads, which OpenAI will begin testing in the US later this month, will \"initially\" appear when you generate images with ChatGPT, according to an announcement on Monday. The company first brought ads to ChatGPT in February. Until now, ChatGPT's […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI is expanding ads in ChatGPT to include visual product placements, beginning with tests in the US later this month initially appearing when users generate images.",
-   "whyMatters": [
-    "Reflects OpenAI's shift toward monetizing free and low-cost tiers as it scales infrastructure costs",
-    "Raises questions about user experience and the boundary between utility and ad-supported service in AI tools"
    ]
   },
   {
