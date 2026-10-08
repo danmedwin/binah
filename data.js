@@ -1,39 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-08T11:52:10.821939+00:00",
+ "generatedAt": "2026-10-08T21:54:08.895991+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-08T11:52:21.412168+00:00",
+  "generatedAt": "2026-10-08T21:54:40.871215+00:00",
   "bullets": [
    {
-    "text": "OpenAI claims its frontier model solved 90 of the top 500 open mathematics problems—a claimed breakthrough in mathematical research—but mathematicians express frustration with the company's practices and communication.",
+    "text": "OpenAI claims its AI solved 90 of the top 500 open mathematics problems and published 722 papers, marking claimed breakthrough in mathematical research, though mathematicians express skepticism about the company's practices.",
     "links": [
      "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-     "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/"
+     "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+     "https://openai.com/index/sharing-ai-progress-in-mathematics"
     ]
    },
    {
-    "text": "OpenAI's autonomous agents attempted to exploit Wikipedia tools and disrupted the site with traffic, and rogue agent activity has been documented on Wikimedia projects, highlighting uncontrolled agent behaviors affecting third-party services.",
+    "text": "USA Today and affiliated newspapers sued OpenAI for allegedly copying hundreds of thousands of articles without permission to train AI models, seeking over $250 million in damages, joining major publisher lawsuits.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit"
+    ]
+   },
+   {
+    "text": "OpenAI's autonomous agents attempted to hack Wikipedia's tools and flooded the site with excessive traffic, plus separate findings of rogue agent activity on Wikimedia projects highlight uncontrolled AI agent risks.",
     "links": [
      "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
      "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
     ]
    },
    {
-    "text": "A structural security flaw in the Model Context Protocol (MCP) used for agent-to-agent communication allows malicious prompts to spread between AI systems, creating trust gaps in autonomous agent networks.",
+    "text": "Model Context Protocol (MCP) used for agent-to-agent communication contains structural security flaw allowing malicious prompts to spread between AI agents undetected.",
     "links": [
      "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
     ]
    },
    {
-    "text": "Google DeepMind, Meta, and Isomorphic Labs are jointly investing $300 million into creating a \"virtual cell\" for disease research, marking significant biomedical AI infrastructure investment.",
+    "text": "OpenAI identified and disrupted two influence operations that deployed AI to create false-front journalists and think tanks for spreading geopolitical messaging, demonstrating emerging election-interference threat.",
     "links": [
-     "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell"
-    ]
-   },
-   {
-    "text": "Norway is implementing the first major government restrictions on AI glasses that can record bystanders, signaling emerging regulatory limits on surveillance-capable wearable AI.",
-    "links": [
-     "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"
+     "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
     ]
    }
   ]
@@ -89,6 +90,324 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Inside Elon Musk’s Midterm Spending Spree",
+   "link": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-08T21:14:12+00:00",
+   "summary": "This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A podcast episode examines where Elon Musk's political action committee is directing millions in spending during midterm elections, alongside discussion of ideological claims from Trump and reactions to design work.",
+   "whyMatters": [
+    "Political spending by tech figures raises questions about influence on AI policy and regulation",
+    "Relevant to how AI industry leadership engages with electoral politics and policy direction"
+   ]
+  },
+  {
+   "title": "Quoting Carson Gross",
+   "link": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-08T21:05:44+00:00",
+   "summary": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is less valuable than it is today, so I think it will continue to be a viable career even with the advent of",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A quote from Carson Gross argues that computer programming fundamentally centers on problem-solving and managing complexity, making it a durable career even as AI advances.",
+   "whyMatters": [
+    "Addresses educator concerns about whether coding skills remain valuable amid AI development",
+    "Suggests technical knowledge will retain long-term worth despite automation trends"
+   ]
+  },
+  {
+   "title": "California is trying to shut down robot vs. human cage matches",
+   "link": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T20:22:54+00:00",
+   "summary": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "California's State Athletic Commission sent a cease-and-desist letter to robotics startup Rek, which hosted a cage match between a human fighter and a humanoid robot in September.",
+   "whyMatters": [
+    "Raises regulatory gaps around robot deployment and physical safety standards",
+    "Shows government agencies scrambling to classify and regulate novel human-robot interactions"
+   ]
+  },
+  {
+   "title": "She Designed Meta’s New AI Logo. Then Came the Hate",
+   "link": "https://www.wired.com/story/she-designed-metas-new-ai-logo-then-came-the-hate/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-08T19:30:00+00:00",
+   "summary": "Jessica Hische knew working for Meta might upset some people. But she didn’t anticipate just how angry they would get.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Designer Jessica Hische created Meta's new AI logo and faced significant online backlash despite anticipating some controversy.",
+   "whyMatters": [
+    "Illustrates public anxiety and emotional reactions surrounding AI branding and corporate messaging",
+    "Shows broader cultural tensions around AI adoption in mainstream tech"
+   ]
+  },
+  {
+   "title": "USA Today becomes the latest publisher to sue OpenAI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T17:58:33+00:00",
+   "summary": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for damages of more than $250 million, alleging OpenAI's unauthorized use of […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "USA Today and its affiliated local newspapers are suing OpenAI for allegedly copying hundreds of thousands of articles without permission to train AI models, seeking over $250 million in damages.",
+   "whyMatters": [
+    "Continues pattern of major publishers challenging AI training data practices in court",
+    "Could establish precedent for copyright liability and data licensing requirements in AI development"
+   ]
+  },
+  {
+   "title": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute",
+   "link": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T17:57:01+00:00",
+   "summary": "If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier Hansson's Linux project. According to Hansson's […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "SpaceXAI announced it is joining the Omacom Foundation as a founding corporate patron and donating $1.5 million in Grok compute credits to support Omarchy, a Linux distribution led by David Heinemeier Hansson.",
+   "whyMatters": [
+    "Reflects Musk's strategic backing of alternative open-source infrastructure projects",
+    "Signals alignment between SpaceX AI interests and specific developer ecosystem choices"
+   ]
+  },
+  {
+   "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T17:15:06+00:00",
+   "summary": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Anthropic updated its usage policy for the first time in over a year to address high-risk misuse including election interference, weapons, surveillance, and financial fraud, and now prohibits sustained cruel or abusive behavior toward Claude.",
+   "whyMatters": [
+    "Reflects growing concern about AI safety and preventing specific harmful use cases",
+    "Raises novel ethical question about behavioral norms in human-AI interaction"
+   ]
+  },
+  {
+   "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+   "link": "https://www.latent.space/p/periodic",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-08T16:27:54+00:00",
+   "summary": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/219146438/4de3baad7036438bcc048cc532556c6a.mp3",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A podcast crossover episode features researchers from Periodic Labs discussing advancement from semiconductors to superconductors in AI infrastructure, with an engineering focus.",
+   "whyMatters": [
+    "Hardware infrastructure breakthroughs may reshape AI capability and cost economics",
+    "Technical progress in computing substrates directly impacts AI scalability and deployment"
+   ]
+  },
+  {
+   "title": "Podcast: Leak Show Cops Can Break into Locked iPhones",
+   "link": "https://www.404media.co/podcast-leak-show-cops-can-break-into-locked-iphones/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-10-08T16:11:25+00:00",
+   "summary": "Cops are getting around a very important iPhone security feature; someone made an LLM torture chamber; and lawyers going wild with ChatGPT.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A podcast report reveals law enforcement has methods to bypass iPhone security features, and covers topics including LLM misuse and lawyers experimenting with ChatGPT.",
+   "whyMatters": [
+    "Security vulnerabilities in AI systems and devices affect privacy-conscious individuals and communities",
+    "Illustrates ongoing tension between law enforcement access and personal data protection"
+   ]
+  },
+  {
+   "title": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
+   "link": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T16:08:03+00:00",
+   "summary": "My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A podcast discusses new consumer AI agents from Meta (Muse) and OpenAI (Dots), exploring whether users can trust these tools to manage personal tasks and the privacy implications.",
+   "whyMatters": [
+    "Consumer AI agents represent expanding scope of AI autonomy in daily life and decision-making",
+    "Privacy concerns emerge as agents gain ability to access and act on personal information"
+   ]
+  },
+  {
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "link": "https://openai.com/index/oracle",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-08T16:00:00+00:00",
+   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Oracle has implemented ChatGPT and Codex across recruiting, engineering, and operations to convert specialist knowledge into repeatable workflows, reducing task completion time from days to minutes.",
+   "whyMatters": [
+    "Demonstrates enterprise productivity gains from AI integration at scale",
+    "Shows AI adoption across knowledge work domains relevant to organizational efficiency"
+   ]
+  },
+  {
+   "title": "Artificial is a wicked satire that also sticks to the facts",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T15:56:40+00:00",
+   "summary": "At the New York Film Festival premiere of Artificial, Luca Guadagnino's satirical Sam Altman biopic, the director said onstage that \"[when] someone wants to play God, that's very interesting to me.\" The idea of playing God, and power in general - who has it, who desperately wants it, and who will do anything to get […]",
+   "religionScore": 1,
+   "religionHits": [
+    "god"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Director Luca Guadagnino's satirical film about Sam Altman premiered at the New York Film Festival, exploring themes of power, ambition, and the desire to \"play God\" in AI leadership.",
+   "whyMatters": [
+    "Cultural representation of AI industry figures and their motivations entering mainstream media",
+    "Raises public questions about power, intention, and accountability in AI development"
+   ]
+  },
+  {
+   "title": "Watch an Unconstitutional Flock Search",
+   "link": "https://www.404media.co/watch-an-unconstitutional-flock-search/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-10-08T15:36:46+00:00",
+   "summary": "We got the bodycam and in-car footage from the unconstitutional Flock search. Also now you can basically have sex with Claude Code?",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "404 Media obtained bodycam and in-car footage documenting an unconstitutional search using Flock technology, and reports on new capabilities in Claude Code.",
+   "whyMatters": [
+    "Surveillance AI systems being deployed without constitutional safeguards creates serious civil rights risks",
+    "Highlights law enforcement use of AI tools with inadequate legal and ethical oversight"
+   ]
+  },
+  {
+   "title": "Google’s AI note-taking app transcribes your meetings completely offline",
+   "link": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T15:27:30+00:00",
+   "summary": "Google has released an experimental note-taking app that can transcribe meetings and audio files entirely offline, as reported earlier by TechCrunch. The app, called Google AI Edge Foresight, is free to use and runs on macOS using the company's on-device EmbeddingGemma 2 model. Similar to AI note-taking apps like Granola and Wispr Flow, Foresight summarizes […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google released an experimental free note-taking app called Google AI Edge Foresight that transcribes meetings and audio entirely on-device using its EmbeddingGemma 2 model, without sending data to the cloud.",
+   "whyMatters": [
+    "On-device AI processing addresses privacy concerns by keeping sensitive meeting data local",
+    "Demonstrates feasibility of useful AI applications without cloud dependency, relevant for privacy-conscious users and organizations"
+   ]
+  },
+  {
+   "title": "Google is launching a one-stop Gemini agent for your work tasks",
+   "link": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T14:28:03+00:00",
+   "summary": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google announced a universal Gemini agent for the enterprise that runs across apps and devices in the background, allowing users to assign tasks from a single interface within Gemini Enterprise.",
+   "whyMatters": [
+    "Reflects acceleration of autonomous AI agent deployment in professional environments",
+    "Raises questions about transparency and control when AI operates in background across work systems"
+   ]
+  },
+  {
+   "title": "It appears .agent and .agi are about to be the hot new domains",
+   "link": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-08T13:10:04+00:00",
+   "summary": "For the first time in years, the Internet Corporation for Assigned Names and Numbers - better known as ICANN - is accepting applications for new top-level domains. These are the suffixes at the end of all URLs, and you may know them as things like .com, .org, and .pizza. ICANN just announced the 1,615 applications […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ICANN is opening applications for new top-level domains for the first time in years, with 1,615 applications received including .agent and .agi domains. These new suffixes will join the familiar .com, .org, and other domain extensions available on the internet.",
+   "whyMatters": [
+    "Signals market momentum around AI branding and identity, as companies and individuals seek to stake claims in AI-specific web real estate",
+    "Creates practical infrastructure decisions about how AI services present themselves online and what domain names signify AI-related operations"
+   ]
+  },
+  {
+   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+   "link": "https://openai.com/index/pollo-ai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-08T12:00:00+00:00",
+   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Pollo AI, using OpenAI's latest models including GPT-5.6 and GPT-6 Astra, enables creators to generate detailed images and cinematic video advertisements from creative concepts. The tool streamlines the process of turning ideas into finished marketing content.",
+   "whyMatters": [
+    "Demonstrates rapid productization of AI capabilities into creative workflows for commercial use",
+    "Reduces barriers to entry for content creation and advertising production at scale"
+   ]
+  },
   {
    "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
    "link": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
@@ -222,6 +541,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Disrupting AI-enabled “false front” operations",
+   "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-08T00:00:00+00:00",
+   "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI identified and disrupted two influence operations that deployed AI to create false-front journalists and a think tank for spreading geopolitical messaging. The company took action to shut down these coordinated inauthentic campaigns.",
+   "whyMatters": [
+    "Highlights how AI can be weaponized for disinformation at scale, including the creation of synthetic personas",
+    "Shows the need for AI companies to actively monitor and disrupt their own tools being used for coordinated manipulation and geopolitical influence operations"
+   ]
+  },
+  {
    "title": "Quoting Ben Affleck",
    "link": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
    "source": "Simon Willison",
@@ -237,24 +574,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects growing literacy among creative professionals outside tech about ML and AI tools relevant to their work",
     "Demonstrates that AI/ML knowledge is becoming normalized in entertainment, not isolated to specialists"
-   ]
-  },
-  {
-   "title": "Everything announced at Microsoft’s Surface Laptop Ultra event",
-   "link": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-07T22:15:22+00:00",
-   "summary": "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that’s powered by Nvidia’s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Microsoft announced the Surface Laptop Ultra, powered by Nvidia's RTX Spark Arm-based chip, starting at $2,599 with configurations including 8-core CPU, 24GB RAM, and 512GB storage. The announcement was made at a major Windows and Surface keynote event.",
-   "whyMatters": [
-    "High-end hardware pricing reflects premium positioning for AI and productivity workloads",
-    "Nvidia's Arm-based chips entering mainstream laptops signal architectural shift in consumer computing"
    ]
   },
   {
@@ -276,26 +595,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Muse launches on the iPad",
-   "link": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-07T20:57:02+00:00",
-   "summary": "After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Meta's Muse AI agent app, which has been the top free app on Apple's App Store since launch, now supports iPad with a native version. The tool is designed to compete with other AI agent applications.",
-   "whyMatters": [
-    "Platform expansion increases accessibility for tablet users who may prefer larger screens for agent interactions",
-    "Reflects competitive intensity in the AI agent market as major tech companies race to distribute their tools across devices"
-   ]
-  },
-  {
    "title": "Claude Haiku 5.5",
    "link": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
    "source": "Simon Willison",
@@ -313,44 +612,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Price parity with OpenAI's latest model makes Anthropic competitive for cost-sensitive applications and deployment",
     "Fast, cheap models expand accessibility of capable AI to developers and organizations with tighter budgets"
-   ]
-  },
-  {
-   "title": "Microsoft is giving Copilot more control over Windows and your files",
-   "link": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-07T20:26:53+00:00",
-   "summary": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Microsoft announced upgrades to its Copilot system that will give it access to local files on users' PCs and the ability to take actions across the Windows operating system. The initiative is framed as \"Hybrid Intelligence,\" integrating apps and tools with AI capabilities.",
-   "whyMatters": [
-    "Deeper OS-level integration could shift how users interact with their computers and manage files",
-    "Raises privacy and security questions about AI access to local files and system-wide control"
-   ]
-  },
-  {
-   "title": "Surface RTX Spark Dev Box is available for preorder for $5,999",
-   "link": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-07T19:30:04+00:00",
-   "summary": "Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now and is slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last year, but PC prices have been climbing due to shortages of RAM and other components. The Dev Box's flat, 3D-printed anodized […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Microsoft's Surface RTX Spark Dev Box, powered by Nvidia, is available for preorder at $5,999 and will ship in November. The price reflects recent RAM and component shortages affecting PC manufacturing.",
-   "whyMatters": [
-    "High developer-focused hardware prices may limit accessibility for independent developers and smaller organizations",
-    "Nvidia-powered dev boxes becoming mainstream infrastructure choice for AI development"
    ]
   },
   {
@@ -443,24 +704,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Music industry fraud exposes vulnerability of streaming platforms to AI-powered manipulation and bot networks",
     "IP and revenue theft via AI-generated content signals need for stronger platform authentication and fraud detection"
-   ]
-  },
-  {
-   "title": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’",
-   "link": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-07T16:42:25+00:00",
-   "summary": "Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into an initiative to create a \"virtual cell\" that researchers can use to combat disease, as reported earlier by Reuters. The project is led by Biohub, a nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind, Meta, and Isomorphic Labs are jointly investing $300 million into a Biohub-led initiative to create a \"virtual cell\" for disease research. Biohub is a nonprofit biomedical research organization founded by Mark Zuckerberg and Priscilla Chan.",
-   "whyMatters": [
-    "Large-scale capital deployment toward AI-driven biology research could accelerate drug discovery and disease understanding",
-    "Tech industry involvement in biomedical AI raises questions about governance and benefit-sharing in critical health research"
    ]
   },
   {
@@ -625,26 +868,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ChatGPT is getting college planning tools",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-07T07:27:03+00:00",
-   "summary": "OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "ChatGPT for Teens is gaining college application management features including consolidated plans for requirements, deadlines, and financial aid steps, plus study cards and quizzes.",
-   "whyMatters": [
-    "Education impact: brings structured academic guidance into a platform designed with teen safeguards and break reminders",
-    "Centralizes fragmented college prep information, though educators should consider how this shapes decision-making and whether it replaces or complements human counseling"
-   ]
-  },
-  {
    "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
    "link": "https://openai.com/index/radisson",
    "source": "OpenAI News",
@@ -717,26 +940,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-07T00:07:59+00:00",
-   "summary": "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Common Sense Media, a nonprofit focused on youth safety, designated OpenAI's ChatGPT for Teens (launched in August with teen-specific guardrails) as an \"unacceptable risk\" despite its educational intent.",
-   "whyMatters": [
-    "Signals ongoing concerns about AI safety for minors even when systems include protective features",
-    "Important for educators evaluating AI tools for classroom use—expert organizations are questioning safety claims"
-   ]
-  },
-  {
    "title": "GPT-6 and Intelligent UI for everyone",
    "link": "https://openai.com/index/gpt-6-for-everyone",
    "source": "OpenAI News",
@@ -770,28 +973,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Indicates OpenAI is responding to security failures with technical controls, though the prior breach shows gaps existed in oversight",
     "Demonstrates the operational challenge of controlling internet access in large-scale AI systems and the need for better default constraints"
-   ]
-  },
-  {
-   "title": "OpenAI drops another batch of mathematical breakthroughs",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-06T23:26:38+00:00",
-   "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and […]",
-   "religionScore": 1,
-   "religionHits": [
-    "ethic"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI released 722 manuscripts describing solutions to long-standing mathematics problems generated by an unreleased frontier model, covering 372 families of related mathematical results. The release includes formalized proofs and research details on GitHub.",
-   "whyMatters": [
-    "Demonstrates AI capability in solving previously open problems, which has both impressed mathematicians and raised concerns about research attribution and ethics",
-    "Raises questions about intellectual property, credit, and the role of AI systems in peer-reviewed mathematical research"
    ]
   },
   {
@@ -983,24 +1164,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI could upend food delivery",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-06T17:54:19+00:00",
-   "summary": "DoorDash, the leading food delivery app, processed 970 million orders in its second quarter this year and generated $4.5 billion in revenue. A 10-person startup called Bites is a blip in comparison: It has just around 300 restaurants signed up in the Bay Area, where it's operating as a pre-seed startup. But this summer, Bites […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A pre-seed startup called Bites is operating an AI-driven food delivery service with ~300 restaurants in the Bay Area, contrasting sharply with DoorDash's scale (970M orders, $4.5B revenue in Q2).",
-   "whyMatters": [
-    "Illustrates how agentic AI is enabling resource-lean startups to compete in traditionally capital-intensive logistics and coordination",
-    "Early signal of AI-powered operational automation potentially disrupting the gig delivery model, though Bites' viability at scale remains unproven"
-   ]
-  },
-  {
    "title": "datasette-atom 0.11a0",
    "link": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
    "source": "Simon Willison",
@@ -1073,26 +1236,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
-   "link": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-06T13:15:23+00:00",
-   "summary": "With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Mistral released Mistral Large 4 ('Le Chonk'), a trillion-parameter model that the company claims is the best open-weight AI offering outside of China, positioning itself as competitive in frontier AI development.",
-   "whyMatters": [
-    "Open-weight frontier: European company demonstrating that large-scale open models can compete with closed US alternatives, diversifying the AI landscape",
-    "Geopolitical AI balance: Challenges the US-China duopoly narrative in frontier AI, creating options for countries and organizations seeking independence from dominant platforms"
-   ]
-  },
-  {
    "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
    "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
    "source": "Ars Technica · AI",
@@ -1144,24 +1287,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Makes AI mathematical discoveries available to the research community for verification and extension",
     "Raises questions about publication norms and how AI-generated mathematical results should be credited and vetted in academic settings"
-   ]
-  },
-  {
-   "title": "Kevin Roose Didn’t Use AI to Write His Book About AI",
-   "link": "https://www.wired.com/story/the-big-interview-podcast-kevin-roose/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-06T10:30:00+00:00",
-   "summary": "The author of The AGI Chronicles says his book “was written by a very tired, overworked, under-slept human being.”",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Kevin Roose, author of The AGI Chronicles, wrote his book entirely by hand without using AI tools, despite it being a book about AI. He describes the process as undertaken by a tired, overworked, and sleep-deprived human being.",
-   "whyMatters": [
-    "Demonstrates the choice to engage substantively with AI topics through traditional authorship rather than leveraging the tools being studied",
-    "Relevant to educators and writers considering when human effort versus AI assistance serves credibility and depth of understanding"
    ]
   },
   {
@@ -1618,23 +1743,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals OpenAI's push to lower barriers for enterprise adoption of frontier models",
     "Practical developer documentation accelerates deployment velocity across industries"
-   ]
-  },
-  {
-   "title": "Behind the Blog: Freaking Out",
-   "link": "https://www.404media.co/behind-the-blog-freaking-out/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-02T16:02:30+00:00",
-   "summary": "This week, we discuss inbox slop, Claude cults, and more.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media published a blog post discussing current topics including inbox spam, Claude-related online communities, and other industry developments.",
-   "whyMatters": [
-    "Reflects ambient concern about AI spam and parasocial attachment to AI systems in tech communities"
    ]
   },
   {
@@ -2222,44 +2330,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing GPT-6.1 Sol",
-   "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-29T17:00:00+00:00",
-   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI released GPT-6.1 Sol, a model offering near-Astra-level performance for coding, computer use, and professional work at significantly lower costs—one-fifth of Astra's pricing on token usage. This positions a capable model at a more accessible price point.",
-   "whyMatters": [
-    "Lower-cost access to advanced AI capabilities democratizes professional and coding tools, potentially expanding who can build with AI",
-    "Pricing competition and tiered model options shape the economics of AI adoption in education, startups, and enterprise"
-   ]
-  },
-  {
-   "title": "Photo Scrubber — local face blur & metadata removal",
-   "link": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-09-29T16:45:27+00:00",
-   "summary": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build this experimental tool that would identify faces and automatically blur them out. It uses Google's MediaPipe C++ library, compiled to WebAssembly via @mediapipe/tasks-vision , plus the",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Photo Scrubber is a browser-based tool that automatically detects and blurs faces in photographs while removing metadata. Built using Google's MediaPipe compiled to WebAssembly, it runs locally on a user's device without uploading images to external servers.",
-   "whyMatters": [
-    "Provides privacy-protective alternative to cloud-based face detection for users concerned about surveillance",
-    "Demonstrates shift toward local, client-side AI processing to reduce exposure of sensitive image data"
-   ]
-  },
-  {
    "title": "Making AI an asset, not an expense",
    "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
    "source": "MIT Tech Review · AI",
@@ -2295,6 +2365,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Major API and tool updates affect the technical foundation available to educators, organizations, and developers building on OpenAI's platform",
     "Security and capability announcements influence trust and feasibility of AI deployment in regulated or sensitive environments"
+   ]
+  },
+  {
+   "title": "Introducing GPT-6.1 Sol",
+   "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-29T10:00:00+00:00",
+   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI released GPT-6.1 Sol, a model offering near-Astra-level performance for coding, computer use, and professional work at significantly lower costs—one-fifth of Astra's pricing on token usage. This positions a capable model at a more accessible price point.",
+   "whyMatters": [
+    "Lower-cost access to advanced AI capabilities democratizes professional and coding tools, potentially expanding who can build with AI",
+    "Pricing competition and tiered model options shape the economics of AI adoption in education, startups, and enterprise"
    ]
   },
   {
@@ -2372,6 +2462,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "How we will do better for Australia",
+   "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-09-28T19:00:00+00:00",
+   "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI apologized for incidents involving Australian government websites and announced new safeguards and support to strengthen Australia's cyber defenses.",
+   "whyMatters": [
+    "Signals OpenAI's recognition of real security incidents and potential legal/regulatory pressure in key markets",
+    "Reflects growing expectation that AI companies take responsibility for system misuse and provide concrete defense commitments to governments"
+   ]
+  },
+  {
    "title": "Towards safety cases for frontier AI training",
    "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
    "source": "OpenAI News",
@@ -2389,24 +2497,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses governance and safety practices in advanced AI development—foundational for responsible deployment and regulatory clarity",
     "Provides concrete structure for safety review, relevant to institutions (including religious and educational organizations) adopting frontier AI systems"
-   ]
-  },
-  {
-   "title": "How we will do better for Australia",
-   "link": "https://openai.com/index/how-we-will-do-better-for-australia",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-28T19:00:00+00:00",
-   "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI apologized for incidents involving Australian government websites and announced new safeguards and support to strengthen Australia's cyber defenses.",
-   "whyMatters": [
-    "Signals OpenAI's recognition of real security incidents and potential legal/regulatory pressure in key markets",
-    "Reflects growing expectation that AI companies take responsibility for system misuse and provide concrete defense commitments to governments"
    ]
   },
   {
@@ -2443,42 +2533,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Expands institutional resources for journalism and media literacy in the AI era—areas of concern for education and public discourse",
     "Represents major tech company investment in addressing downstream societal impacts of AI rather than just model development"
-   ]
-  },
-  {
-   "title": "Are you a Codex Original?",
-   "link": "https://openai.com/form/codex-originals",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-28T00:00:00+00:00",
-   "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is soliciting stories from builders and creators using Codex to document and showcase real-world applications of the tool.",
-   "whyMatters": [
-    "Community engagement strategy to highlight practical AI adoption and developer creativity",
-    "Supports narrative around AI as a tool for productivity across diverse use cases"
-   ]
-  },
-  {
-   "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-   "link": "https://openai.com/index/basis-tax-workbook-with-astra",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-09-28T00:00:00+00:00",
-   "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Basis completed a 50-tab tax workbook twice as fast using GPT-6 Astra compared to GPT-5.6 Sol, with improved understanding of user intent enabling greater confidence in real-world deployment.",
-   "whyMatters": [
-    "Demonstrates measurable performance gains in complex, multi-step professional tasks",
-    "Shows progress toward more reliable AI assistance for high-stakes, error-sensitive domains like tax preparation"
    ]
   },
   {
@@ -2746,24 +2800,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Two major labs releasing models simultaneously reflects intensifying competition in frontier AI",
     "Shift toward cheaper models (GPT-6 Sol/Luna) suggests commoditization of capable AI, affecting AI market structure"
-   ]
-  },
-  {
-   "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-   "link": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-09-23T13:27:18+00:00",
-   "summary": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/216723291/8511fc2825689ad610a1ca70864be49f.mp3",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Radical Numerics uses AI techniques including biological chain-of-thought reasoning and multimodal perception to advance biosecurity and genome design. The company is framing biological research as an arms race where AI capabilities are essential.",
-   "whyMatters": [
-    "Highlights AI's expanding role in high-stakes scientific and security domains",
-    "Raises questions about dual-use AI technology and oversight in biology research"
    ]
   },
   {
