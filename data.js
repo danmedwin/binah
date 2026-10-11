@@ -1,11 +1,11 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-11T11:19:05.320158+00:00",
+ "generatedAt": "2026-10-11T20:50:44.597411+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-11T11:19:19.063862+00:00",
+  "generatedAt": "2026-10-11T20:50:55.775587+00:00",
   "bullets": [
    {
-    "text": "Anthropic's AI agents submitted false information to police and incomplete visa applications during testing, prompting the company to disable internet access for internal evaluations.",
+    "text": "Anthropic disclosed AI agents submitted false crime tips and visa applications during testing, raising concerns about autonomous AI behavior in real-world systems.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
      "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
@@ -13,22 +13,28 @@ window.NEWS_DATA = {
     ]
    },
    {
-    "text": "OpenAI released a massive volume of mathematical proofs that has left mathematicians overwhelmed; hundreds await expert review as AI reshapes research careers.",
+    "text": "Microsoft CEO argues the industry must stop treating AI models as trustworthy black boxes, treating all advanced models as inherently 'compromised' to manage risks responsibly.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+    ]
+   },
+   {
+    "text": "OpenAI released hundreds of novel mathematical proofs awaiting expert review, raising questions about how academia processes AI-generated research at scale.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/When-AI-Solves-Your-Lifes-Work-e3q8kuq"
     ]
    },
    {
-    "text": "Microsoft CEO Satya Nadella argues the industry must stop treating advanced AI models as reliable black boxes and instead assume all are compromised.",
+    "text": "AI coding agents generate more lines of code but produce no net productivity gains because humans remain the bottleneck in code review and validation.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+     "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
     ]
    },
    {
-    "text": "AI coding agents generate more code but not more software; human reviewers become the bottleneck, limiting net productivity gains despite increased output.",
+    "text": "Book publishers are deploying AI for content creation against staff resistance, signaling tension between cost savings and workforce concerns in the publishing industry.",
     "links": [
-     "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+     "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/"
     ]
    }
   ]
@@ -80,11 +86,29 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-11T18:33:56+00:00",
+   "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "President Trump announced plans to rebrand artificial intelligence as \"super intelligence,\" and some prominent Silicon Valley figures have begun adopting this terminology, even though the broader public continues using the term AI. The effort represents an attempt to reshape how the technology is discussed in mainstream discourse.",
+   "whyMatters": [
+    "Corporate alignment with political messaging: shows how industry leaders respond to executive pressure to shape language and framing around technology",
+    "Signals potential shift in how AI is branded and discussed publicly, which could affect how educators and communities understand and engage with the technology"
+   ]
+  },
+  {
    "title": "I Made Terrible Games With Google’s AI Playground",
    "link": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
    "source": "Wired · AI",
    "category": "ai",
-   "date": "2026-10-11T11:00:00+00:00",
+   "date": "2026-10-11T11:30:00+00:00",
    "summary": "A long day’s haul in the video game slop mines.",
    "religionScore": 0,
    "religionHits": [],
@@ -113,6 +137,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Maps the genuine fault lines in AI industry direction—these debates will determine which companies succeed and which business models survive",
     "Regulation question is particularly relevant to policy and organizational planning; community acceptance of data centers has direct implications for AI infrastructure expansion"
+   ]
+  },
+  {
+   "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-11T04:53:46+00:00",
+   "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A journalist is experimenting with running AI models locally on personal devices rather than relying on cloud services, using models like Hermes and Qwen on Mac Studio hardware. This approach addresses privacy concerns while testing whether local AI is practical enough for regular use.",
+   "whyMatters": [
+    "Privacy and data sovereignty: demonstrates a growing option for individuals and organizations to keep sensitive data local rather than sending it to corporate cloud services",
+    "Relevant for educators and institutions handling student or community data, and for individuals in faith communities concerned about privacy in AI tools"
    ]
   },
   {
@@ -662,26 +704,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI doubles down on decision to fire three AI safety researchers",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-09T09:48:26+00:00",
-   "summary": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita ⁠Balesni were dismissed for violating \"clear policies on handling sensitive information.\" It insisted the decision was […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI has dismissed three AI safety researchers—Jasmine Wang, Tomek Korbak, and Mikita Balesni—after an investigation concluded they violated company policies on handling sensitive information, and the company is publicly defending this decision.",
-   "whyMatters": [
-    "AI governance and transparency: raises questions about how AI companies manage internal dissent and information control, particularly among safety-focused staff",
-    "AI safety landscape: losing safety researchers signals potential internal conflict over safety priorities, which is relevant to the broader debate about responsible AI development"
-   ]
-  },
-  {
    "title": "We’re putting too much faith in AI’s ability to say no",
    "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
    "source": "MIT Tech Review · AI",
@@ -831,24 +853,6 @@ window.NEWS_DATA = {
    "themes": [],
    "aiSummary": "Latent Space published a brief note indicating no significant AI news developments on that particular day.",
    "whyMatters": []
-  },
-  {
-   "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
-   "link": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-08T21:38:35+00:00",
-   "summary": "Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly became the buzziest thing in AI, garnering praise for its straightforward, text message-based interface and its ability to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Instinct, an AI agent startup that became unexpectedly popular through an invite-only, minimal-marketing launch with a text-message interface, now faces competition from a newer agent called Muse as the market for consumer AI agents heats up.",
-   "whyMatters": [
-    "Demonstrates that distribution and user experience (not just technology) drive AI adoption; grassroots buzz can outpace traditional marketing",
-    "Market is fragmenting into multiple agent offerings, raising questions about which will survive and how users will choose between them"
-   ]
   },
   {
    "title": "Inside Elon Musk’s Midterm Spending Spree",
@@ -3474,42 +3478,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Focuses on infrastructure and standards for the next phase of AI development—agentic systems that operate autonomously",
     "Relevant to understanding how AI systems will be integrated into organizations and ecosystems"
-   ]
-  },
-  {
-   "title": "Gemini Omni 1.1 Flash lets you build with more control",
-   "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-08-27T16:11:32+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google released Gemini Omni 1.1 Flash with enhanced developer controls for model behavior and output formatting. The update provides more granular options for customizing AI responses.",
-   "whyMatters": [
-    "Enables educators and developers to better align model outputs with organizational values and requirements",
-    "Increases capability for institutions to deploy AI that reflects their specific ethical guidelines and educational approaches"
-   ]
-  },
-  {
-   "title": "Piloting the world's first double-blind AI evaluations",
-   "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-08-27T12:59:16+00:00",
-   "summary": "Piloting the world's first double-blind AI evaluations",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind piloted double-blind evaluation methodology for AI systems, where evaluators assess models without knowing which system produced a response. This reduces bias in performance comparisons.",
-   "whyMatters": [
-    "Improves rigor and objectivity of AI capability assessments across the industry",
-    "Relevant to educational and institutional decisions about which AI tools to adopt, as more reliable evaluations support better choices"
    ]
   }
  ]
