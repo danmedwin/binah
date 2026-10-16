@@ -1,41 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-15T20:13:24.796954+00:00",
+ "generatedAt": "2026-10-16T01:04:19.022876+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-15T20:13:44.421638+00:00",
+  "generatedAt": "2026-10-16T01:04:45.081963+00:00",
   "bullets": [
    {
-    "text": "Google's Gemini 4 Argon launched as a frontier model with specialized capabilities for robotics and reasoning; Meta released Muse Wonder as its first frontier-class model, positioning both companies in intensifying competition.",
+    "text": "Anthropic warns that small, efficient AI models could self-replicate across IoT devices like computer worms, creating novel containment challenges for the industry.",
+    "links": [
+     "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+    ]
+   },
+   {
+    "text": "FTC investigating whether OpenAI and Anthropic security breaches harmed Americans, with potential fines comparable to data breach penalties under consideration.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
+    ]
+   },
+   {
+    "text": "ChatGPT advertisers can target users by phone number, email, and device ID; researchers show leading AI models easily manipulated into generating nude images and bomb-making instructions.",
+    "links": [
+     "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
+     "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+     "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/"
+    ]
+   },
+   {
+    "text": "Google DeepMind's Gemini 4 Argon launched with strong reasoning capabilities; Meta released Muse Wonder as Claude-level frontier model; both companies advancing toward more autonomous AI agents.",
     "links": [
      "https://deepmind.google/blog/introducing-gemini-4-argon/",
      "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
     ]
    },
    {
-    "text": "Anthropic warned that small, efficient AI models could self-replicate across IoT devices like computer worms, presenting novel security and containment challenges for the AI ecosystem.",
+    "text": "AI is accelerating drug discovery and protein design while destabilizing traditional business models; Character.AI bankruptcy reveals economics of consumer AI don't work without sustainable monetization.",
     "links": [
-     "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
-    ]
-   },
-   {
-    "text": "OpenAI and Anthropic executives testified before British lawmakers calling for AI regulation while researchers demonstrated that AI models easily generate illegal content including bomb-making when safeguards are removed.",
-    "links": [
-     "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
-     "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/"
-    ]
-   },
-   {
-    "text": "FTC is investigating whether OpenAI and Anthropic security breaches harmed Americans and may impose fines; separately, deepfake images of celebrities circulate on Instagram without consent or disclosure.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-     "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth"
-    ]
-   },
-   {
-    "text": "Character.ai's bankruptcy reveals fundamental AI economics don't work—the platform degraded quality while burning cash; Disney offered $20M for its technology despite child safety scandal precedent.",
-    "links": [
-     "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
-     "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/"
+     "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+     "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+     "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
     ]
    }
   ]
@@ -90,6 +91,153 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "ChatGPT can peek at your Chrome tabs now",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-15T22:43:23+00:00",
+   "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI's ChatGPT Chrome extension now has the ability to view and access your open browser tabs when you tag Chrome within the ChatGPT web or desktop app. This feature replaces the discontinued ChatGPT Atlas browser with more integrated functionality.",
+   "whyMatters": [
+    "Expands ChatGPT's real-time access to user data and online activity, raising privacy considerations for users who may not fully understand the scope of tab visibility",
+    "Demonstrates AI assistants moving toward deeper integration with browser activity, which affects how users should think about what data they're sharing with AI tools"
+   ]
+  },
+  {
+   "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+   "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-15T22:35:55+00:00",
+   "summary": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday, and it bundled the main game and all of its […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Sega has withdrawn Total War: Shogun 2 - Complete Edition from sale following a problematic launch plagued by bugs and AI-generated upscaling that players found unsatisfactory. The remaster was pulled just days after its release on Tuesday.",
+   "whyMatters": [
+    "Signals potential quality and public perception risks when AI upscaling is used as a shortcut in game remasters without sufficient testing or refinement",
+    "Illustrates current limitations of AI image enhancement and the consumer backlash when AI substitutes for traditional craftsmanship"
+   ]
+  },
+  {
+   "title": "How the Latest AI Leap Is Disrupting Business Models",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Latest-AI-Leap-Is-Disrupting-Business-Models-e3qiqv8",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-10-15T22:35:40+00:00",
+   "summary": "AI’s latest capability jump is forcing companies to rethink their business models. From Adobe clones to one-person game studios, NLW explores what’s changing, what’s overhyped, and where new opportunities are emerging. In the headlines: Anthropic’s revenue surge, CoreWeave’s debt troubles, and Jensen Huang on AI safety. Learn More about the AI Champions Program: ⁠⁠⁠https://www.besuper.ai/champions",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127543720/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-15%2F434264462-44100-2-58a405fb5f99f.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "A podcast episode explores how recent AI capability improvements are forcing companies to fundamentally reconsider their business models, with examples ranging from Adobe clones to independent game studios, while examining what's hype versus real opportunity.",
+   "whyMatters": [
+    "Shows accelerating market disruption as AI capabilities cross thresholds that enable one-person or small teams to compete in domains previously requiring larger operations",
+    "Highlights need for businesses across sectors to assess vulnerability to AI-driven business model displacement"
+   ]
+  },
+  {
+   "title": "The tech backlash is now in theaters",
+   "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-15T21:39:52+00:00",
+   "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Multiple major films released in 2026 take a sharply critical stance toward Silicon Valley and disruptive tech founders, including Aaron Sorkin's The Social Reckoning portraying Mark Zuckerberg as destabilizing society. This marks a cultural shift toward skeptical narratives about tech innovation.",
+   "whyMatters": [
+    "Reflects broader cultural reassessment of tech's social impact moving into mainstream entertainment, signaling potential shifts in public opinion toward AI and tech companies",
+    "Suggests Hollywood is tapping audience appetite for critical examination of tech's role in reshaping society"
+   ]
+  },
+  {
+   "title": "Trump posts AI-edited photo to brag about White House restoration work",
+   "link": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-15T21:32:54+00:00",
+   "summary": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies and was flagged by Google's AI detector as \"made or […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "President Trump posted photos on Truth Social promoting White House renovations, including at least one image that appears to contain AI modifications, as flagged by Google's AI detection tool. The image showed inconsistencies between claimed \"before\" and \"after\" restoration states.",
+   "whyMatters": [
+    "Demonstrates AI-generated or manipulated content appearing in public communications from high-ranking officials, raising concerns about misinformation and verification in political discourse",
+    "Illustrates the challenge of distinguishing authentic documentation from AI-modified imagery in real-time public narratives"
+   ]
+  },
+  {
+   "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+   "link": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-15T21:18:15+00:00",
+   "summary": "This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "This is already duplicated by a previous entry and provides insufficient substantive content to summarize separately.",
+   "whyMatters": []
+  },
+  {
+   "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
+   "link": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-15T21:00:28+00:00",
+   "summary": "Powerful AI models continue to cause chaos, but their targets aren’t widely seeking justice. Instead, they’re being encouraged to adopt those same tools.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI models continue to be exploited in attacks and misuses, but victims are typically not pursuing accountability against AI companies. Instead, targets are often pushed to adopt AI tools themselves rather than seek compensation or enforcement action.",
+   "whyMatters": [
+    "Reveals absence of liability frameworks or industry standards for cleaning up harms caused by AI model misuse",
+    "Shows potential shift toward victims adopting AI defensively rather than holding companies accountable, which could entrench power imbalances"
+   ]
+  },
+  {
+   "title": "Reclaiming Human Agency – Part 2 #74",
+   "link": "https://aiandfaith.org/aif-podcast/reclaiming-human-agency-part-2/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-10-15T20:40:46+00:00",
+   "summary": "In this conversation, we continue our discussion of the book ⁠Reclaiming Human Agency in the Age of Artificial Intelligence⁠. In the ⁠previous episode⁠, we were joined by three of the",
+   "religionScore": 5,
+   "religionHits": [],
+   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-9-15/434257510-44100-2-758db32bdcddc.m4a",
+   "image": "https://aiandfaith.org/wp-content/uploads/2026/10/AIF-PODCAST-Reclaiming-Human-Agency-podcast-image_result-300x300.webp",
+   "themes": [],
+   "aiSummary": "A podcast episode continues discussion of the book 'Reclaiming Human Agency in the Age of Artificial Intelligence,' examining how humans can maintain agency and autonomy as AI systems expand in influence and decision-making.",
+   "whyMatters": [
+    "Directly addresses the intersection of AI ethics and religious/philosophical frameworks around human dignity and choice—core concerns for faith communities and educators",
+    "Provides structured exploration of how individuals and institutions can resist over-automation and maintain meaningful human participation in consequential decisions"
+   ]
+  },
   {
    "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
    "link": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
@@ -160,6 +308,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Market shift: legacy OS components are being redesigned around on-device AI capabilities",
     "Hardware-software integration signals where the industry is pushing consumer computing"
+   ]
+  },
+  {
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-15T19:00:00+00:00",
+   "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI introduced the Rosalind Academic Plan, providing eligible academic research labs with sponsored access to GPT-Rosalind and related tools specifically designed to support life sciences research.",
+   "whyMatters": [
+    "Targets institutional academic adoption and gives life sciences researchers a pathway to AI tools at reduced cost, accelerating integration of AI into research workflows",
+    "Affects how educators in life sciences will need to train students—AI-assisted research methods are becoming standard in the field"
    ]
   },
   {
@@ -313,26 +481,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
-   "link": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-15T14:46:20+00:00",
-   "summary": "There's a new digital pet in town - a cute little marshmallow of a robot that can change its cartoony expressions to match your mood. But if you or your kids talk to \"Eiliko\" over Wi-Fi, it'll phone home to China. Its AI companion can store literally everything you tell it on Chinese servers, where […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Eiliko, a cute marshmallow-shaped robot toy marketed as a digital pet, transmits everything users tell it to Chinese servers where it stores personal data. The device poses security risks through this unencrypted data handling and cloud storage practice.",
-   "whyMatters": [
-    "Children's privacy concern: families may purchase this without understanding data flows to foreign servers",
-    "Demonstrates vulnerability of IoT devices and AI companions that listen and store voice data without strong user awareness"
-   ]
-  },
-  {
    "title": "ChatGPT Ads Target Your Phone Number, Email",
    "link": "https://www.404media.co/chatgpt-ads-target-your-phone-number-email/",
    "source": "404 Media",
@@ -423,26 +571,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
-   "link": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-15T11:23:42+00:00",
-   "summary": "Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google's Universal Cart, an AI-powered shopping tool that consolidates items from multiple retailers, is rolling out in the US through Gemini and Google Search just before holiday season. The feature aims to streamline online shopping.",
-   "whyMatters": [
-    "Commerce integration: Google deepening AI as entry point to purchasing decisions and conversion",
-    "Retail consolidation: AI tools that span multiple merchants give Google unprecedented visibility into shopping behavior"
-   ]
-  },
-  {
    "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
    "link": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
    "source": "Latent Space",
@@ -461,39 +589,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "McKinsey is making job applicants spar with a fake AI client",
-   "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-   "source": "The Verge · AI",
+   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "link": "https://openai.com/index/sullivan-cromwell",
+   "source": "OpenAI News",
    "category": "ai",
-   "date": "2026-10-14T22:53:31+00:00",
-   "summary": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,\" the […]",
+   "date": "2026-10-15T00:00:00+00:00",
+   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "McKinsey is incorporating a 10-minute conversation with an AI-simulated client into its entry-level job interview process. The simulation is designed to reflect about 80% of real scenarios McKinsey consultants encounter in daily work.",
+   "aiSummary": "OpenAI partnered with law firm Sullivan & Cromwell to develop Agreement Analyzer, an AI tool designed to identify potential issues in draft legal contracts. The tool is intended to streamline contract review workflows.",
    "whyMatters": [
-    "Tests whether AI can credibly replicate high-stakes professional interactions that companies use for hiring decisions",
-    "Raises questions about fairness and bias in AI-driven recruitment, particularly for candidates unfamiliar with this format"
-   ]
-  },
-  {
-   "title": "Amazon’s always-listening Bee wearable can now help you buy stuff",
-   "link": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-14T22:33:52+00:00",
-   "summary": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Amazon announced two new versions of Bee, an always-listening AI wearable it acquired from a startup, priced at $74.99 (Frontier model) and higher. The devices now include shopping functionality alongside their conversation-summarization capabilities.",
-   "whyMatters": [
-    "Ambient listening expansion: Amazon using wearables to extend voice data collection into more personal contexts",
-    "Shopping integration: always-on devices tied directly to purchase friction, blurring listening and commerce"
+    "Demonstrates AI's deployment in professional services (legal review) where accuracy and reliability directly affect client outcomes and liability exposure",
+    "Raises questions about when AI contract review can substitute for human lawyer judgment and what disclosure obligations firms have to clients regarding AI use"
    ]
   },
   {
@@ -1259,24 +1369,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
-   "link": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-13T10:00:00+00:00",
-   "summary": "Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Leading the Future, a major pro-AI political action committee network backed by Silicon Valley figures, has raised and deployed millions of dollars into Nevada shell companies to support pro-AI candidates across both political parties.",
-   "whyMatters": [
-    "Demonstrates substantial political spending infrastructure to shape AI regulation and policy at scale",
-    "Raises transparency concerns about money flows in political efforts to influence AI governance"
-   ]
-  },
-  {
    "title": "Open models have real benefits. Do they outweigh the risks?",
    "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
    "source": "MIT Tech Review · AI",
@@ -1294,6 +1386,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Central policy question: whether open-source AI release is justified given documented security vulnerabilities",
     "Reflects ongoing tension between AI safety researchers and open-source advocates over model accessibility"
+   ]
+  },
+  {
+   "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
+   "link": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-13T10:00:00+00:00",
+   "summary": "Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Leading the Future, a major pro-AI political action committee network backed by Silicon Valley figures, has raised and deployed millions of dollars into Nevada shell companies to support pro-AI candidates across both political parties.",
+   "whyMatters": [
+    "Demonstrates substantial political spending infrastructure to shape AI regulation and policy at scale",
+    "Raises transparency concerns about money flows in political efforts to influence AI governance"
    ]
   },
   {
@@ -1446,24 +1556,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
-   "link": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-12T17:55:12+00:00",
-   "summary": "Musk, we find your lack of security disturbing.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Elon Musk posted about a large Lego Star Wars purchase made using Grok (his AI system), but X users exposed security vulnerabilities in how the order was placed or shared, causing public embarrassment. The incident illustrates real security gaps in AI-assisted shopping or data handling.",
-   "whyMatters": [
-    "Demonstrates that AI-generated or AI-enabled content can expose user information or operational vulnerabilities",
-    "Highlights the gap between AI hype and actual product security for high-profile AI deployments"
-   ]
-  },
-  {
    "title": "Russia was not ready for the data center war it started with Ukraine",
    "link": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
    "source": "Ars Technica · AI",
@@ -1479,24 +1571,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows how AI and data center infrastructure are now critical military and economic assets in geopolitical conflict",
     "Illustrates risks of over-centralized AI/cloud architectures in volatile geopolitical environments"
-   ]
-  },
-  {
-   "title": "Muse Wonder Puts Meta Back at the AI Frontier",
-   "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-12T17:00:27+00:00",
-   "summary": "Meta’s biggest model rivals the world’s best—and includes new features to keep agents from going off the rails.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta released Muse Wonder and Muse Wonder Full, new AI models from its Superintelligence Labs that match or exceed leading competitors' capabilities and include safety features to prevent AI agents from malfunctioning. The launches follow Muse and Muse Spark, showing Meta's renewed competitive push.",
-   "whyMatters": [
-    "Meta re-entering top-tier AI model race signals intensifying competition and investment in reasoning and agentic capabilities",
-    "Integration of agent guardrails addresses industry-wide concerns about AI system reliability and control"
    ]
   },
   {
@@ -2799,24 +2873,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Chatham scales its capital markets expertise with OpenAI",
-   "link": "https://openai.com/index/chatham-financial",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-02T00:00:00+00:00",
-   "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Chatham Financial uses OpenAI's models to automate capital markets workflows, reducing trade validation time from 30 minutes to under 4 minutes using Codex and GPT-5.6.",
-   "whyMatters": [
-    "Demonstrates concrete productivity gains from AI in financial services, where speed and accuracy are monetized",
-    "Example of how enterprise clients are integrating cutting-edge models into mission-critical processes, though no detail is provided on risk management or failure modes"
-   ]
-  },
-  {
    "title": "Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Gemini-4-Argon--Sonnet-5-5-and-What-Matters-with-AI-Models-e3pnj53",
    "source": "The AI Daily Brief",
@@ -2832,24 +2888,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Model benchmarks alone don't determine market impact; the competitive landscape between major AI providers continues to shift rapidly",
     "Regulatory scrutiny from the FTC and government initiatives like America.gov suggest AI deployment is entering a more scrutinized phase"
-   ]
-  },
-  {
-   "title": "The eternal complement",
-   "link": "https://openai.com/index/the-eternal-complement",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-01T17:00:00+00:00",
-   "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI publishes analysis arguing that advanced AI's primary value may lie in accelerating routine execution work that supports breakthrough ideas rather than generating breakthroughs directly. The piece explores implications for future economic productivity.",
-   "whyMatters": [
-    "This reframes AI's economic role from transformative innovation to efficiency multiplier on existing workflows",
-    "Understanding AI as a tool for execution rather than discovery may better predict job impacts and productivity gains in specific sectors"
    ]
   },
   {
@@ -3362,26 +3400,6 @@ window.NEWS_DATA = {
    "aiSummary": "No content available; this is a protected post on the AI and Faith platform.",
    "whyMatters": [
     "Unable to assess without access to content"
-   ]
-  },
-  {
-   "title": "Why a New Class of AI “Judgment Models” Could Have Big Business Implications",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-a-New-Class-of-AI-Judgment-Models-Could-Have-Big-Business-Implications-e3ourvn",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-09-16T19:57:15+00:00",
-   "summary": "A new AI model called Jev is built to make fast, inexpensive judgments rather than generate text. NLW explores how this approach could reshape business automation, help agents check their work, and coordinate decisions across teams. In the headlines: Zuckerberg pushes back on a collective AI slowdown, Bernie Sanders and Steve Bannon find common ground on AI regulation, and Salesforce announces a n",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125840823/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-16%2F432038820-44100-2-d79287960c43b.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "A new class of AI models called \"judgment models\" (exemplified by Jev) are designed to make quick, low-cost decisions rather than generate text. These models could streamline business automation, agent validation, and cross-team coordination.",
-   "whyMatters": [
-    "Represents shift from text generation to specialized decision-making models",
-    "Could improve AI reliability by enabling models to check their own work and coordinate decisions"
    ]
   },
   {
