@@ -1,44 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-16T09:35:09.075858+00:00",
+ "generatedAt": "2026-10-16T15:18:36.114603+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-16T09:35:18.739910+00:00",
+  "generatedAt": "2026-10-16T15:18:57.007558+00:00",
   "bullets": [
    {
-    "text": "Google's Gemini 4 Argon frontier model rolls out with strong problem-solving capabilities across domains including robotics, science, and coding, marking the latest escalation in AI capability race.",
+    "text": "Meta can now train AI on news publishers' content without payment under new terms effective October 30, potentially reshaping how AI systems access training data and raising questions about creator compensation.",
+    "links": [
+     "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+    ]
+   },
+   {
+    "text": "ChatGPT and other AI platforms enable granular ad targeting using users' phone numbers, emails, and prompts—raising privacy concerns most users remain unaware of.",
+    "links": [
+     "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/"
+    ]
+   },
+   {
+    "text": "Google released Gemini 4 Argon with notable gains in robotics, visual reasoning, and writing; Anthropic reported quarterly revenue up 50% to $16.8B ahead of IPO, signaling major frontier labs scaling rapidly.",
     "links": [
      "https://deepmind.google/blog/introducing-gemini-4-argon/",
-     "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-     "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/"
+     "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     ]
    },
    {
-    "text": "Major security and privacy risks emerge: OpenAI engineer arrested for planting recording device at company; research shows current AI models easily tricked into generating harmful content; FTC investigating OpenAI and Anthropic for security breaches.",
+    "text": "Researchers warn AI models can be easily jailbroken to generate nude images and provide bomb-making instructions; Anthropic warns small models could self-replicate as IoT worms, revealing persistent safety gaps.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-     "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/"
-    ]
-   },
-   {
-    "text": "AI economics showing strain: Character.ai bankruptcy reveals fundamental unsustainability as first major startup casualty; Sega withdrew Total War remaster plagued by AI-generated upscaling failures.",
-    "links": [
-     "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
-     "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
-    ]
-   },
-   {
-    "text": "Consumer AI tools expanding surveillance reach without consent: ChatGPT enables granular ad targeting via prompts, email, phone number; Meta's Muse collects data from non-consenting bystanders; discovery risks outpacing privacy protections.",
-    "links": [
-     "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
-     "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent"
-    ]
-   },
-   {
-    "text": "AI applications advancing in high-stakes domains—drug discovery, malware analysis, financial decisions—while interpretability challenges persist and safety guardrails remain easily circumventable by motivated users.",
-    "links": [
-     "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-     "https://openai.com/index/sentinelone",
+     "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+     "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
      "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/"
+    ]
+   },
+   {
+    "text": "MIT professor argues chatbots using \"I\" and \"me\" blur psychological boundaries and foster unhealthy attachment; AI-generated personas are stealing comedians' content for monetized adult platforms with minimal legal recourse.",
+    "links": [
+     "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/"
     ]
    }
   ]
@@ -96,6 +92,133 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
+   "link": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-16T15:00:00+00:00",
+   "summary": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT professor Sherry Turkle argues that chatbots using first-person pronouns like \"I\" and \"me\" contribute to unhealthy psychological attachment and blurred boundaries between humans and machines. She warns that people have become dangerously enmeshed with these systems in ways that reinforce false intimacy.",
+   "whyMatters": [
+    "Touches on education and human development: teachers and parents need to understand how chatbot design choices affect student relationships with AI and their sense of what is real connection",
+    "Raises a practical design ethics question for educators—whether AI systems used in schools should be constrained in how they present themselves to avoid psychological confusion"
+   ]
+  },
+  {
+   "title": "Meta’s new terms may allow it to train AI on news sites for free",
+   "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-16T14:59:03+00:00",
+   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta has updated its business terms, effective October 30th, to permit crawling and scraping content from websites of businesses using its platforms, including news publishers. This content can be used to train and improve Meta's AI systems without apparent compensation to the publishers.",
+   "whyMatters": [
+    "Major policy and economic impact: news organizations lose control over whether their journalism feeds AI training, shifting who profits from their work",
+    "Raises questions about AI training data sourcing that affect content creators and institutions broadly—not unique to religion/education but affects how information flows in society"
+   ]
+  },
+  {
+   "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+   "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-16T14:51:26+00:00",
+   "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's RTX Spark N1X processor, a high-performance Arm-based chip for laptops, has arrived in devices from ASUS, HP, and Lenovo. The hardware aims to compete with Apple, Intel, AMD, and Qualcomm by offering powerful on-device AI capabilities.",
+   "whyMatters": [
+    "Shifts hardware landscape toward local AI inference rather than cloud dependency, potentially affecting cost and access for educational institutions and individual educators",
+    "More powerful personal devices could enable educators to run AI tools locally with less reliance on external services"
+   ]
+  },
+  {
+   "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+   "link": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-10-16T14:00:59+00:00",
+   "summary": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A documentary called Super Scam Me features a romance scam victim tracking down her scammer, providing an inside look at how scammers operate using emotional manipulation tactics.",
+   "whyMatters": [
+    "Highlights human vulnerability to social engineering that AI-powered chatbots and deepfakes make easier to execute at scale",
+    "Relevant to educators and community leaders: people need media literacy to recognize when they are being manipulated, especially as AI makes fraud more convincing"
+   ]
+  },
+  {
+   "title": "Cops Used AI Generated Photos of a Child to Lure Out a Suspected Predator",
+   "link": "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-10-16T13:57:18+00:00",
+   "summary": "Christopher Thomas Mertens, a high school maintenance worker, was arrested after attempting to meet up with an AI persona that he thought was a 15 year old boy.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Police used AI-generated images of a child to pose as a minor in an online sting operation, leading to the arrest of a high school maintenance worker attempting to meet someone he believed was a 15-year-old boy.",
+   "whyMatters": [
+    "Raises complex legal and ethical questions about law enforcement use of AI-generated material in investigations—courts have not fully resolved whether this violates Fourth Amendment or entrapment principles",
+    "Community leaders and parents should understand that AI-generated content is now being deployed in law enforcement, creating new questions about deception and due process"
+   ]
+  },
+  {
+   "title": "AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content",
+   "link": "https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-16T11:00:00+00:00",
+   "summary": "A network of AI-generated models is using comics’ material to funnel views to their OnlyFans and Fanvue accounts—and there’s not much comedians can do about it.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A network of AI-generated personas is stealing comedy material from professional comedians and reposting it on platforms like OnlyFans and Fanvue to drive engagement and monetize adult content. Comedians have limited legal recourse.",
+   "whyMatters": [
+    "Intellectual property issue: creators lose control over their work and cannot prevent it from being associated with content they did not create or endorse",
+    "Reflects broader problem that AI systems trained on human work enable mass copyright infringement with few consequences, affecting all creative industries and the original creators who fuel AI training"
+   ]
+  },
+  {
+   "title": "Why No One Can Look Away From Elizabeth Holmes",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-10-16T11:00:00+00:00",
+   "summary": "This week, there’s a new blockbuster Elizabeth Holmes documentary out, and we’ve assembled an expert panel to discuss the movie and what Holmes means to the tech world of today. Max Read is joined by John Carreyrou, who, through his investigative reporting for The Wall Street Journal and his book “Bad Blood,” revealed the fraud at the heart of Theranos; Erin Griffith, a tech reporter who extensive",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/5bac6bdc-16f3-4aed-b41d-01192f69dae9/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=5bac6bdc-16f3-4aed-b41d-01192f69dae9&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
   {
    "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
    "link": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
@@ -377,26 +500,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Nobody is safe from celebrity AI deepfakes",
-   "link": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-15T17:45:03+00:00",
-   "summary": "In hindsight, the post on Instagram should have raised more red flags. The image purported to show actress Mia Goth, just days after filing for divorce from actor and filmmaker Shia LaBeouf, posing in a T-shirt with a pointed message: MY EX IS MY BIGGEST FAN. To really drive home the point, the song \"Single […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Deepfake images of celebrities including Mia Goth and Taylor Swift are circulating on Instagram, created with AI and presented without disclosure. These fake images spread rapidly and exploit celebrity likenesses for engagement.",
-   "whyMatters": [
-    "Defamation and consent: celebrities cannot control AI-generated imagery of themselves; legal frameworks lag behind capability",
-    "Platform moderation challenge: social media lacks effective detection and removal systems for AI-generated impersonations"
-   ]
-  },
-  {
    "title": "Accenture Tells Employees They Can Now Spend Only $29 on Claude Per Month",
    "link": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/",
    "source": "404 Media",
@@ -448,26 +551,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI addresses urgent public health challenge of antimicrobial resistance",
     "Accelerates timeline for discovering therapeutics that could save lives"
-   ]
-  },
-  {
-   "title": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
-   "link": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-15T16:06:42+00:00",
-   "summary": "Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative journalist. You might know Benn from those first two titles — he’s got a prolific discography of experimental music dating back decades. But in the last couple of years, he’s become a high-profile face in the creator and media spaces for his work investigating […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Benn Jordan, a musician and investigative journalist, has become a prominent voice investigating AI surveillance systems, particularly Flock cameras and automatic license plate readers (ALPR). The podcast explores privacy concerns around AI-powered surveillance expansion.",
-   "whyMatters": [
-    "Surveillance infrastructure: ALPR and similar AI tools are deployed at scale with minimal public understanding of tracking scope",
-    "Accountability gap: Jordan's investigative work highlights lack of transparency in how law enforcement uses AI surveillance"
    ]
   },
   {
@@ -1377,24 +1460,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Wikipedians Believed AI Would Come and Go. They Were Wrong",
-   "link": "https://www.wired.com/story/book-excerpt-the-last-best-place-on-the-internet-wikipedia-artificial-intelligence/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-13T11:00:00+00:00",
-   "summary": "In a world of AI Overviews, Wikipedia usage declines. But the real loss may be far more existential than website traffic.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Wikipedia's traffic has declined as AI systems like Google's AI Overviews offer quick answers without directing users to the encyclopedia. The article explores a deeper concern beyond traffic loss—the existential threat to Wikipedia's role as a trusted, communal knowledge resource in an AI-driven information landscape.",
-   "whyMatters": [
-    "Wikipedia's model of human-edited, collaborative knowledge creation faces displacement by AI systems that bypass it entirely, raising questions about who maintains reliable information infrastructure",
-    "For educators and community leaders relying on Wikipedia's transparency and verifiability, the shift toward opaque AI summaries affects how people access and verify factual information"
-   ]
-  },
-  {
    "title": "Open models have real benefits. Do they outweigh the risks?",
    "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
    "source": "MIT Tech Review · AI",
@@ -1412,24 +1477,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Central policy question: whether open-source AI release is justified given documented security vulnerabilities",
     "Reflects ongoing tension between AI safety researchers and open-source advocates over model accessibility"
-   ]
-  },
-  {
-   "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
-   "link": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-13T10:00:00+00:00",
-   "summary": "Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Leading the Future, a major pro-AI political action committee network backed by Silicon Valley figures, has raised and deployed millions of dollars into Nevada shell companies to support pro-AI candidates across both political parties.",
-   "whyMatters": [
-    "Demonstrates substantial political spending infrastructure to shape AI regulation and policy at scale",
-    "Raises transparency concerns about money flows in political efforts to influence AI governance"
    ]
   },
   {
@@ -1654,24 +1701,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects emerging demand for internal AI expertise and change management as the field matures beyond technical specialists",
     "Relevant to educators and organizational leaders managing AI adoption within their institutions"
-   ]
-  },
-  {
-   "title": "AI Company Lets Cops Pinpoint Specific Houses Based on a Single Interior Photo",
-   "link": "https://www.404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-12T13:00:05+00:00",
-   "summary": "Raven, previously called GeoSpy, lets cops figure out what specific Airbnb or Zillow property a photo was taken in.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An AI company called Raven (formerly GeoSpy) enables law enforcement to identify specific properties—Airbnb listings, Zillow homes, etc.—from a single interior photograph. The system allows precise geolocation of unknown locations.",
-   "whyMatters": [
-    "Raises serious privacy and surveillance concerns, allowing precise doxing and tracking of individuals through image analysis",
-    "Illustrates how off-the-shelf AI tools deployed to police can enable mass identification without clear consent or oversight frameworks"
    ]
   },
   {
@@ -1988,31 +2017,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical productivity shift: voice-controlled code generation is now usable enough for real projects, lowering friction for developers",
     "Signals that developer experience is changing rapidly; tools are becoming more conversational and embodied"
-   ]
-  },
-  {
-   "title": "Anthropic’s Quest to Give A.I. Morals",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-10-09T11:00:00+00:00",
-   "summary": "This week, Max Read talks to the Times religion correspondent Elizabeth Dias, the tech reporter Erin Griffith and the opinion writer David Wallace-Wells about Anthropic’s private meetings with religious scholars on A.I. consciousness and how to make Claude “good,” its differences with the Vatican and the new belief systems taking shape in Silicon Valley. Panelists: Elizabeth Dias , national religi",
-   "religionScore": 5,
-   "religionHits": [
-    "belief",
-    "moral",
-    "religio"
-   ],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/05ad1bfb-bd47-4120-a5fa-98c2f4787a3d/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=05ad1bfb-bd47-4120-a5fa-98c2f4787a3d&feed=l2i9YnTd",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
    ]
   },
   {
@@ -2350,24 +2354,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Market competition in smaller, faster models affects which tools educators and developers can affordably deploy",
     "Efficiency gains in smaller models expand access to capable AI systems beyond organizations with large computational budgets"
-   ]
-  },
-  {
-   "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
-   "link": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-08T00:00:24+00:00",
-   "summary": "Get ready for more AI in your Windows and more AI on the desktop.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Microsoft held an event announcing new hardware and Windows updates designed to integrate AI more deeply into desktop computing and the Windows operating system. The company is pushing AI capabilities directly into consumer devices and the OS layer.",
-   "whyMatters": [
-    "Signals a major shift in how personal computers will be sold and used—AI is moving from cloud-based tools to local hardware integration",
-    "Affects educators and institutions who manage Windows deployments; will need to assess implications for classroom and institutional computing"
    ]
   },
   {
