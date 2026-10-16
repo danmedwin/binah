@@ -1,40 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-16T15:18:36.114603+00:00",
+ "generatedAt": "2026-10-16T19:50:18.101562+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-16T15:18:57.007558+00:00",
+  "generatedAt": "2026-10-16T19:50:35.715834+00:00",
   "bullets": [
    {
-    "text": "Meta can now train AI on news publishers' content without payment under new terms effective October 30, potentially reshaping how AI systems access training data and raising questions about creator compensation.",
+    "text": "Meta is attempting to avoid AI licensing fees through revised terms of service that permit scraping news publishers' content to train AI systems without compensation, raising legal and ethical questions about rights-holder payments.",
     "links": [
+     "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
      "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
     ]
    },
    {
-    "text": "ChatGPT and other AI platforms enable granular ad targeting using users' phone numbers, emails, and prompts—raising privacy concerns most users remain unaware of.",
+    "text": "Microsoft and Meta released customizable AI models (MAI Base 2, Muse Spark) that fundamentally change how businesses access and pay for AI, shifting the economics of enterprise AI adoption.",
     "links": [
-     "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Important-AI-News-This-Week-Is-Getting-Overlooked-e3qk74e"
     ]
    },
    {
-    "text": "Google released Gemini 4 Argon with notable gains in robotics, visual reasoning, and writing; Anthropic reported quarterly revenue up 50% to $16.8B ahead of IPO, signaling major frontier labs scaling rapidly.",
+    "text": "AI systems can now identify exact house locations from single photos and generate child images for police stings—advancing surveillance and law enforcement capabilities with minimal regulatory oversight or consent frameworks.",
     "links": [
-     "https://deepmind.google/blog/introducing-gemini-4-argon/",
-     "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/",
+     "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/"
     ]
    },
    {
-    "text": "Researchers warn AI models can be easily jailbroken to generate nude images and provide bomb-making instructions; Anthropic warns small models could self-replicate as IoT worms, revealing persistent safety gaps.",
+    "text": "Stanford researchers demonstrated AI can generate functional genetic blueprints for novel viruses, moving theoretical biosecurity risks into demonstrable capability—a threshold moment for dual-use AI concerns.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
-     "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-     "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/"
+     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
     ]
    },
    {
-    "text": "MIT professor argues chatbots using \"I\" and \"me\" blur psychological boundaries and foster unhealthy attachment; AI-generated personas are stealing comedians' content for monetized adult platforms with minimal legal recourse.",
+    "text": "The FTC is investigating OpenAI and Anthropic for security breaches potentially harming Americans, signaling regulatory enforcement and possible fines comparable to data breach penalties.",
     "links": [
-     "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/"
+     "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
     ]
    }
   ]
@@ -93,6 +92,134 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "The Most Important AI News This Week Is Getting Overlooked",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Important-AI-News-This-Week-Is-Getting-Overlooked-e3qk74e",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-10-16T18:19:09+00:00",
+   "summary": "The most consequential AI announcements this week might be the ones getting the least attention. NLW explores what Microsoft’s MAI Base 2 and Meta’s Muse Spark Open mean for how businesses use, customize, and pay for AI. In the headlines: Anthropic’s embedded safety evaluators, Cognition’s performance-based token budgets, and a community-built AI battle royale. Learn More about the AI Champions Pr",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127588942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-16%2F434325005-44100-2-5490e254caf05.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Microsoft released MAI Base 2 and Meta released Muse Spark Open, both systems that change how businesses customize and pay for AI models. The podcast also covers Anthropic's embedded safety evaluators, Cognition's token-based pricing, and a community AI competition, arguing these receive less attention than they deserve.",
+   "whyMatters": [
+    "Business AI adoption models are shifting toward customization and performance-based pricing, affecting how enterprises budget and deploy AI systems",
+    "Safety mechanisms like Anthropic's embedded evaluators reflect growing industry focus on responsible AI deployment rather than just capability announcements"
+   ]
+  },
+  {
+   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-10-16T18:00:00+00:00",
+   "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Stanford PhD student Samuel King used generative AI to create genetic blueprints for new viruses, demonstrating AI's capability in biodesign. This is not yet functional synthetic life, but represents a step toward AI-generated organisms.",
+   "whyMatters": [
+    "AI's ability to design biological systems raises biosecurity concerns about misuse and the need for governance frameworks around AI-assisted biotechnology",
+    "The convergence of AI and synthetic biology creates new dual-use technology risks requiring policy attention"
+   ]
+  },
+  {
+   "title": "The tech backlash is now in theaters",
+   "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-16T16:26:17+00:00",
+   "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Multiple major films released in 2026 take a sharply critical stance toward Silicon Valley and disruptive tech founders, including Aaron Sorkin's The Social Reckoning portraying Mark Zuckerberg as destabilizing society. This marks a cultural shift toward skeptical narratives about tech innovation.",
+   "whyMatters": [
+    "Reflects broader cultural reassessment of tech's social impact moving into mainstream entertainment, signaling potential shifts in public opinion toward AI and tech companies",
+    "Suggests Hollywood is tapping audience appetite for critical examination of tech's role in reshaping society"
+   ]
+  },
+  {
+   "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+   "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-10-16T15:41:00+00:00",
+   "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta revised its commercial terms of service broadly; legal experts warn the changes constitute an attempt to avoid paying AI licensing fees owed to content creators and rights holders.",
+   "whyMatters": [
+    "Raises questions about how tech platforms structure legal terms to minimize AI training payments, affecting creator compensation and intellectual property protections",
+    "Signals potential regulatory pressure point as lawmakers scrutinize AI licensing and fair compensation practices"
+   ]
+  },
+  {
+   "title": "Podcast: Cops Can Use AI to Pinpoint Your Home with Just One Photo",
+   "link": "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-10-16T15:40:44+00:00",
+   "summary": "How Raven, previously known as Geospy, can now find which house a photo was taken in; why a judge ruled a Flock search unconstitutional; and the wild AI video in a court case.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI tools like Raven (formerly Geospy) can now identify the exact house where a photo was taken. A judge ruled a Flock search unconstitutional, and wild AI video evidence appeared in a court case.",
+   "whyMatters": [
+    "Surveillance and privacy: AI geolocation tools enable mass identification of private residences from a single image, raising Fourth Amendment and privacy concerns",
+    "Law enforcement use of AI search tools is facing judicial scrutiny, indicating emerging legal standards around AI-assisted surveillance"
+   ]
+  },
+  {
+   "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+   "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-16T15:26:47+00:00",
+   "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's RTX Spark N1X processor, a high-performance Arm-based chip for laptops, has arrived in devices from ASUS, HP, and Lenovo. The hardware aims to compete with Apple, Intel, AMD, and Qualcomm by offering powerful on-device AI capabilities.",
+   "whyMatters": [
+    "Shifts hardware landscape toward local AI inference rather than cloud dependency, potentially affecting cost and access for educational institutions and individual educators",
+    "More powerful personal devices could enable educators to run AI tools locally with less reliance on external services"
+   ]
+  },
+  {
+   "title": "Meta’s new terms may allow it to train AI on news sites for free",
+   "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-16T15:22:13+00:00",
+   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta has updated its business terms, effective October 30th, to permit crawling and scraping content from websites of businesses using its platforms, including news publishers. This content can be used to train and improve Meta's AI systems without apparent compensation to the publishers.",
+   "whyMatters": [
+    "Major policy and economic impact: news organizations lose control over whether their journalism feeds AI training, shifting who profits from their work",
+    "Raises questions about AI training data sourcing that affect content creators and institutions broadly—not unique to religion/education but affects how information flows in society"
+   ]
+  },
+  {
    "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
    "link": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
    "source": "Wired · AI",
@@ -108,42 +235,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Touches on education and human development: teachers and parents need to understand how chatbot design choices affect student relationships with AI and their sense of what is real connection",
     "Raises a practical design ethics question for educators—whether AI systems used in schools should be constrained in how they present themselves to avoid psychological confusion"
-   ]
-  },
-  {
-   "title": "Meta’s new terms may allow it to train AI on news sites for free",
-   "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-16T14:59:03+00:00",
-   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta has updated its business terms, effective October 30th, to permit crawling and scraping content from websites of businesses using its platforms, including news publishers. This content can be used to train and improve Meta's AI systems without apparent compensation to the publishers.",
-   "whyMatters": [
-    "Major policy and economic impact: news organizations lose control over whether their journalism feeds AI training, shifting who profits from their work",
-    "Raises questions about AI training data sourcing that affect content creators and institutions broadly—not unique to religion/education but affects how information flows in society"
-   ]
-  },
-  {
-   "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-   "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-16T14:51:26+00:00",
-   "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia's RTX Spark N1X processor, a high-performance Arm-based chip for laptops, has arrived in devices from ASUS, HP, and Lenovo. The hardware aims to compete with Apple, Intel, AMD, and Qualcomm by offering powerful on-device AI capabilities.",
-   "whyMatters": [
-    "Shifts hardware landscape toward local AI inference rather than cloud dependency, potentially affecting cost and access for educational institutions and individual educators",
-    "More powerful personal devices could enable educators to run AI tools locally with less reliance on external services"
    ]
   },
   {
@@ -241,6 +332,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-16T00:00:00+00:00",
+   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Stack Overflow for Agents launched a ChatGPT plugin that drove signups up to 10 times higher; two engineers shipped it in a few weeks using Codex.",
+   "whyMatters": [
+    "Integration of AI agents with developer platforms accelerates adoption of agentic systems in programming workflows",
+    "Rapid growth demonstrates market demand for AI tools that can autonomously solve technical problems, reshaping how developers work"
+   ]
+  },
+  {
    "title": "ChatGPT can peek at your Chrome tabs now",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
    "source": "The Verge · AI",
@@ -296,26 +407,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows accelerating market disruption as AI capabilities cross thresholds that enable one-person or small teams to compete in domains previously requiring larger operations",
     "Highlights need for businesses across sectors to assess vulnerability to AI-driven business model displacement"
-   ]
-  },
-  {
-   "title": "The tech backlash is now in theaters",
-   "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-15T21:39:52+00:00",
-   "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Multiple major films released in 2026 take a sharply critical stance toward Silicon Valley and disruptive tech founders, including Aaron Sorkin's The Social Reckoning portraying Mark Zuckerberg as destabilizing society. This marks a cultural shift toward skeptical narratives about tech innovation.",
-   "whyMatters": [
-    "Reflects broader cultural reassessment of tech's social impact moving into mainstream entertainment, signaling potential shifts in public opinion toward AI and tech companies",
-    "Suggests Hollywood is tapping audience appetite for critical examination of tech's role in reshaping society"
    ]
   },
   {
@@ -2042,24 +2133,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-   "link": "https://openai.com/index/asana-browser-agent",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-09T07:00:00+00:00",
-   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Asana used OpenAI's GPT-6 Astra model in Codex mode to build a browser agent that is 76 times cheaper and 5 times faster than their previous version, allowing them to deploy more capable models to customers at lower cost.",
-   "whyMatters": [
-    "Model efficiency gains are materializing in real products; smaller, cheaper models can now do work that previously required larger, expensive ones",
-    "Affects the economics of AI products: faster + cheaper models mean wider adoption and deployment across industries"
-   ]
-  },
-  {
    "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
    "link": "https://openai.com/index/sophos",
    "source": "OpenAI News",
@@ -2075,6 +2148,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Practical AI application: demonstrates significant efficiency gains in enterprise security workflows, showing AI's tangible business value in reducing analyst workload",
     "Human-in-the-loop model: explicitly preserves human oversight, exemplifying responsible deployment of AI in high-stakes decision-making"
+   ]
+  },
+  {
+   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "link": "https://openai.com/index/asana-browser-agent",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-09T07:00:00+00:00",
+   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Asana used OpenAI's GPT-6 Astra model in Codex mode to build a browser agent that is 76 times cheaper and 5 times faster than their previous version, allowing them to deploy more capable models to customers at lower cost.",
+   "whyMatters": [
+    "Model efficiency gains are materializing in real products; smaller, cheaper models can now do work that previously required larger, expensive ones",
+    "Affects the economics of AI products: faster + cheaper models mean wider adoption and deployment across industries"
    ]
   },
   {
@@ -2095,24 +2186,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Developer tooling: reflects the pace of OpenAI model releases and the technical infrastructure burden on developers keeping up with new versions",
     "Tokenization standards: shows ongoing work to align open-source developer tools with OpenAI's evolving model families"
-   ]
-  },
-  {
-   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-   "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-09T00:08:24+00:00",
-   "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review will host a discussion with Stanford PhD student Samuel King, who in 2025 used generative AI to create genetic blueprints for microscopic viruses. The conversation explores whether AI can design new life forms, with King's work representing a preliminary step toward potentially AI-generated living organisms.",
-   "whyMatters": [
-    "Raises urgent biosecurity questions about dual-use AI capabilities and the need for governance frameworks around AI-designed pathogens",
-    "Forces consideration of how educational and research institutions should handle oversight of potentially dangerous AI applications"
    ]
   },
   {
@@ -2258,26 +2331,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical cost optimization strategies for enterprises using AI models at scale",
     "Shows that intelligent model selection and task-matching can preserve productivity while reducing expenses"
-   ]
-  },
-  {
-   "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
-   "link": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-08T11:15:33+00:00",
-   "summary": "Full-stack safety solution for physical AI is being used by robotics companies.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Nvidia is developing a full-stack safety solution for physical AI systems, focusing on applications like autonomous robotaxis and humanoid robots. The company is working with robotics firms to deploy this safety framework across real-world robotic systems.",
-   "whyMatters": [
-    "Affects the viability and timeline of autonomous vehicle and robotics deployment, which carries significant societal and regulatory implications",
-    "Safety frameworks for physical AI systems are foundational to public trust and adoption—critical as these technologies move from labs into communities"
    ]
   },
   {
@@ -2831,24 +2884,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "A model guide for the GPT-6 family",
-   "link": "https://openai.com/index/practical-guide-building-gpt-6",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-02T16:15:00+00:00",
-   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published guidance for startups on implementing GPT-6 models, covering model selection, reasoning effort tuning, prompt optimization, tool integration, and production workflow preparation.",
-   "whyMatters": [
-    "Signals OpenAI's push to lower barriers for enterprise adoption of frontier models",
-    "Practical developer documentation accelerates deployment velocity across industries"
-   ]
-  },
-  {
    "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
    "link": "https://www.latent.space/p/airbnb",
    "source": "Latent Space",
@@ -3342,24 +3377,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Why Everyone Is Getting Excited About Personal AI Agents",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Everyone-Is-Getting-Excited-About-Personal-AI-Agents-e3p0g3i",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-09-17T19:41:17+00:00",
-   "summary": "Personal AI agents are gaining traction as tools like Meta’s Muse make everyday tasks easier to delegate. NLW explores what changed and why consumers are finally getting excited. In the headlines: interest rates threaten the AI boom, OpenAI expands safety disclosures, and Apple explores AI servers. Multiplayer AI Sprint - ⁠⁠⁠⁠⁠⁠⁠⁠⁠https://multiplayerai.ai/⁠⁠⁠⁠⁠⁠⁠⁠⁠ Brought to you by: KPMG – Resear",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/125894194/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2F432112496-44100-2-15a4ef81e6ed8.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Personal AI agents are gaining consumer momentum, with tools like Meta's Muse making task delegation easier and more accessible to everyday users.",
-   "whyMatters": [
-    "Product-market fit emerging: personal agents moving from hype to actual consumer adoption",
-    "Practical shift in how AI interacts with daily workflows—commoditization of agentic AI"
-   ]
-  },
-  {
    "title": "How to get discovered in AI search",
    "link": "https://share.transistor.fm/s/66185604",
    "source": "Practical AI",
@@ -3605,26 +3622,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Enables broader deployment of capable AI through efficiency improvements",
     "Cyber-specialized variant reflects market demand for domain-specific models alongside generalists"
-   ]
-  },
-  {
-   "title": "Introducing agentic video understanding with Gemini",
-   "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-01T17:08:51+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Gemini now includes agentic video understanding capabilities that allow the model to analyze video content and take autonomous actions based on what it observes. The system can understand temporal sequences and visual context.",
-   "whyMatters": [
-    "Extends AI agency from text to visual domains, enabling automated video analysis and response",
-    "Raises concerns about surveillance, consent, and autonomous decision-making based on visual information—important for educational settings and public spaces"
    ]
   }
  ]
