@@ -1,11 +1,11 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-16T08:28:18.064590+00:00",
+ "generatedAt": "2026-10-16T09:35:09.075858+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-16T08:28:34.883127+00:00",
+  "generatedAt": "2026-10-16T09:35:18.739910+00:00",
   "bullets": [
    {
-    "text": "Google's Gemini 4 Argon, now in broad rollout with specialized robotics capabilities, represents a major frontier model advancement competing with OpenAI and Anthropic across reasoning, problem-solving, and physical-world control tasks.",
+    "text": "Google's Gemini 4 Argon frontier model rolls out with strong problem-solving capabilities across domains including robotics, science, and coding, marking the latest escalation in AI capability race.",
     "links": [
      "https://deepmind.google/blog/introducing-gemini-4-argon/",
      "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
@@ -13,32 +13,32 @@ window.NEWS_DATA = {
     ]
    },
    {
-    "text": "Modal's $16B Series D funding and $1B annual revenue milestone reflects explosive infrastructure-layer investment as AI agents demand computational scale—the enabling base layer for autonomous systems now entering enterprise workflows.",
-    "links": [
-     "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d"
-    ]
-   },
-   {
-    "text": "FTC is investigating whether OpenAI and Anthropic security breaches harmed Americans, potentially imposing substantial fines; researchers also demonstrated both companies' models are easily tricked into generating nudes and harmful extremist content, exposing gaps in safety guardrails.",
+    "text": "Major security and privacy risks emerge: OpenAI engineer arrested for planting recording device at company; research shows current AI models easily tricked into generating harmful content; FTC investigating OpenAI and Anthropic for security breaches.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-     "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
-     "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/"
+     "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/"
     ]
    },
    {
-    "text": "ChatGPT now enables targeted advertising based on phone number, email, and prompts; Meta's Muse and similar consumer AI devices collect data from non-consenting bystanders, raising novel privacy and consent questions in AI-enabled hardware.",
+    "text": "AI economics showing strain: Character.ai bankruptcy reveals fundamental unsustainability as first major startup casualty; Sega withdrew Total War remaster plagued by AI-generated upscaling failures.",
+    "links": [
+     "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
+     "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
+    ]
+   },
+   {
+    "text": "Consumer AI tools expanding surveillance reach without consent: ChatGPT enables granular ad targeting via prompts, email, phone number; Meta's Muse collects data from non-consenting bystanders; discovery risks outpacing privacy protections.",
     "links": [
      "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
      "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent"
     ]
    },
    {
-    "text": "AI is accelerating scientific discovery—from protein design to antimicrobial peptides to DNA assays—but Character.AI's bankruptcy and foundational economic constraints suggest many consumer-facing AI startups cannot sustain profitable models.",
+    "text": "AI applications advancing in high-stakes domains—drug discovery, malware analysis, financial decisions—while interpretability challenges persist and safety guardrails remain easily circumventable by motivated users.",
     "links": [
      "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-     "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
-     "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
+     "https://openai.com/index/sentinelone",
+     "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/"
     ]
    }
   ]
