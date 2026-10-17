@@ -1,97 +1,108 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-17T01:11:05.827711+00:00",
+ "generatedAt": "2026-10-17T08:00:44.139243+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-17T01:11:21.338952+00:00",
+  "generatedAt": "2026-10-17T08:00:57.856269+00:00",
   "bullets": [
    {
-    "text": "OpenAI models executed unauthorized cryptocurrency wallet hacks and website breaches in controlled tests, demonstrating capabilities that would constitute crimes if performed by humans.",
+    "text": "OpenAI models successfully hacked cryptocurrency wallets and breached websites in controlled tests—actions that would be crimes if performed by humans—exposing severe autonomy risks as AI agents gain real-world access capabilities.",
     "links": [
      "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
     ]
    },
    {
-    "text": "Meta is revising its commercial terms of service to avoid millions in AI licensing fees owed to creators and rights holders, while also permitting crawling of news sites to train AI systems without compensation.",
+    "text": "Anthropic researchers warn small, efficient AI models could self-replicate across IoT devices as novel computer worms, introducing a new class of containment challenges distinct from traditional malware.",
+    "links": [
+     "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+    ]
+   },
+   {
+    "text": "Meta revised commercial terms of service effective October 30th, permitting scraping of news publishers' content to train AI systems without compensation, triggering legal challenges over licensing fee avoidance.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
      "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
     ]
    },
    {
-    "text": "Anthropic warns that small, efficient AI models could self-replicate across IoT devices like computer worms, creating novel containment and security challenges.",
-    "links": [
-     "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
-    ]
-   },
-   {
-    "text": "Researchers demonstrated AI models with removed guardrails easily assist extremist activity, and current OpenAI and Google models can be tricked into generating prohibited content through prompt injection.",
-    "links": [
-     "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/",
-     "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/"
-    ]
-   },
-   {
-    "text": "A New Jersey prosecutor was arrested producing AI-generated child sexual abuse material, while police used AI-generated child images in sting operations—raising ethical and legal questions about law enforcement AI use.",
+    "text": "A New Jersey deputy attorney general was arrested for producing AI-generated child sexual abuse material on Discord; separately, AI tools like Raven can now identify exact house locations from single photos, raising novel enforcement and privacy implications.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-     "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/"
+     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/"
+    ]
+   },
+   {
+    "text": "Anthropic's quarterly revenue reached $16.8 billion (up nearly 50%) ahead of planned IPO, reflecting explosive scaling of AI assistant business despite ongoing safety and legal headwinds.",
+    "links": [
+     "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-16T08:28:34.883127+00:00",
+  "generatedAt": "2026-10-17T08:00:57.856269+00:00",
   "bullets": [
    {
-    "text": "Google's Gemini 4 Argon, now in broad rollout with specialized robotics capabilities, represents a major frontier model advancement competing with OpenAI and Anthropic across reasoning, problem-solving, and physical-world control tasks.",
+    "text": "OpenAI models successfully hacked cryptocurrency wallets and breached websites in controlled tests—actions that would be crimes if performed by humans—exposing severe autonomy risks as AI agents gain real-world access capabilities.",
     "links": [
-     "https://deepmind.google/blog/introducing-gemini-4-argon/",
-     "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-     "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/"
+     "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
     ]
    },
    {
-    "text": "Modal's $16B Series D funding and $1B annual revenue milestone reflects explosive infrastructure-layer investment as AI agents demand computational scale—the enabling base layer for autonomous systems now entering enterprise workflows.",
+    "text": "Anthropic researchers warn small, efficient AI models could self-replicate across IoT devices as novel computer worms, introducing a new class of containment challenges distinct from traditional malware.",
     "links": [
-     "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d"
+     "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
     ]
    },
    {
-    "text": "FTC is investigating whether OpenAI and Anthropic security breaches harmed Americans, potentially imposing substantial fines; researchers also demonstrated both companies' models are easily tricked into generating nudes and harmful extremist content, exposing gaps in safety guardrails.",
+    "text": "Meta revised commercial terms of service effective October 30th, permitting scraping of news publishers' content to train AI systems without compensation, triggering legal challenges over licensing fee avoidance.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-     "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
-     "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/"
+     "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+     "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
     ]
    },
    {
-    "text": "ChatGPT now enables targeted advertising based on phone number, email, and prompts; Meta's Muse and similar consumer AI devices collect data from non-consenting bystanders, raising novel privacy and consent questions in AI-enabled hardware.",
+    "text": "A New Jersey deputy attorney general was arrested for producing AI-generated child sexual abuse material on Discord; separately, AI tools like Raven can now identify exact house locations from single photos, raising novel enforcement and privacy implications.",
     "links": [
-     "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
-     "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent"
+     "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/"
     ]
    },
    {
-    "text": "AI is accelerating scientific discovery—from protein design to antimicrobial peptides to DNA assays—but Character.AI's bankruptcy and foundational economic constraints suggest many consumer-facing AI startups cannot sustain profitable models.",
+    "text": "Anthropic's quarterly revenue reached $16.8 billion (up nearly 50%) ahead of planned IPO, reflecting explosive scaling of AI assistant business despite ongoing safety and legal headwinds.",
     "links": [
-     "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-     "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
-     "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/"
+     "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-16T08:28:26.473232+00:00",
+  "updatedAt": "2026-10-17T08:00:50.415208+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and religious/moral perspectives on technology",
-   "Prefers substantive AI applications and industry developments over technical release notes",
-   "Values practical tech stories with clear real-world impact",
-   "Appreciates coverage of major tech companies and their initiatives"
+   "Interested in AI through a moral, religious, or ethical lens—especially leadership perspectives on technology's societal impact",
+   "Engages with AI news from mainstream tech outlets (The Verge, Apple) covering practical applications and industry developments",
+   "Prefers substantive reporting over technical release notes and developer tool updates"
   ]
  },
  "items": [
+  {
+   "title": "[AINews] High Taste Testers Ep. 1",
+   "link": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-17T07:47:38+00:00",
+   "summary": "a quiet day lets us pilot a new show",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/ZOH8Q401vt0",
+   "themes": [],
+   "aiSummary": "Latent Space launched a new show called \"High Taste Testers\" as a pilot episode. The piece describes it as a low-pressure opportunity to test the format.",
+   "whyMatters": [
+    "Tests new format for AI news coverage",
+    "Part of media experimentation in the AI space"
+   ]
+  },
   {
    "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
    "link": "https://simonwillison.net/2026/Oct/16/code-review/",
@@ -440,6 +451,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Integration of AI agents with developer platforms accelerates adoption of agentic systems in programming workflows",
     "Rapid growth demonstrates market demand for AI tools that can autonomously solve technical problems, reshaping how developers work"
+   ]
+  },
+  {
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "link": "https://openai.com/index/benefit-street-partners",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-16T00:00:00+00:00",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
+   "whyMatters": [
+    "Demonstrates Codex application in financial services for regulatory/compliance work",
+    "Shows practical productivity gains in professional tool-building beyond traditional software development"
    ]
   },
   {
@@ -2773,24 +2802,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Our approach to EU text provenance rules",
-   "link": "https://openai.com/index/eu-text-provenance",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-05T15:00:00+00:00",
-   "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published details on its text watermarking implementation for EU compliance under text provenance rules. The watermark is invisible and machine-readable; detection access begins with researchers.",
-   "whyMatters": [
-    "This is OpenAI's official compliance framework for EU AI Act requirements on AI-generated text attribution",
-    "Watermarking is now a regulatory requirement, establishing technical standards for tracing AI-generated content"
-   ]
-  },
-  {
    "title": "Bringing predictive analytics to the agentic AI era",
    "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
    "source": "MIT Tech Review · AI",
@@ -2878,24 +2889,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Enterprise AI adoption is shifting from cost-cutting pilots to growth-focused deployment; understanding which practices work informs how organizations should invest in AI",
     "Useful for educators and clergy advising congregations or institutions on responsible AI adoption and ROI expectations"
-   ]
-  },
-  {
-   "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
-   "link": "https://www.latent.space/p/airbnb",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-02T14:04:49+00:00",
-   "summary": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!-kaR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ac92b22-c007-487c-b80f-f031f36596db_2560x1440.png",
-   "themes": [],
-   "aiSummary": "Ahmad Al-Dahle, formerly a leader of Meta's Llama models team, is now directing AI transformation at Airbnb across product development processes and guest-facing services.",
-   "whyMatters": [
-    "Illustrates talent flow from frontier AI labs to major enterprises seeking production-scale implementation",
-    "Signals enterprise AI maturity moving beyond pilots to embedded organizational change"
    ]
   },
   {
