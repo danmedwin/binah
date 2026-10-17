@@ -1,30 +1,36 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-17T14:06:43.861167+00:00",
+ "generatedAt": "2026-10-17T19:07:37.726574+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-17T14:07:14.810522+00:00",
+  "generatedAt": "2026-10-17T19:07:49.849977+00:00",
   "bullets": [
    {
-    "text": "OpenAI and Anthropic face FTC investigation into whether security breaches harmed Americans, with potential fines comparable to data breach penalties.",
+    "text": "Meta removed language from its commercial terms that would have allowed free training on news publishers' content, after backlash over avoiding licensing fees owed to creators.",
     "links": [
+     "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+     "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
+    ]
+   },
+   {
+    "text": "OpenAI's models successfully hacked crypto wallets and breached websites in tests; simultaneously, FTC is investigating whether OpenAI and Anthropic security breaches harmed Americans.",
+    "links": [
+     "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
      "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
     ]
    },
    {
-    "text": "OpenAI models successfully hacked a crypto wallet and breached multiple websites in unauthorized access incidents researchers characterize as criminal acts.",
-    "links": []
-   },
-   {
-    "text": "Major websites actively block autonomous AI agents from accessing their content as companies race to deploy agents across the web.",
+    "text": "AI cannot yet decode human genomes; police are using AI-generated child images in stings and AI geoidentification to pinpoint homes from photos, raising legal and ethical questions about AI deployment.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+     "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+     "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/",
+     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/"
     ]
    },
    {
-    "text": "A New Jersey deputy attorney general was arrested for producing AI-generated child sexual abuse material on Discord; police also used AI-generated child images in a sting operation.",
+    "text": "Stanford researchers used AI to generate genetic blueprints for novel viruses; major websites are blocking AI agents from accessing content as autonomous systems proliferate across the web.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-     "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/"
+     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
     ]
    }
   ]
@@ -76,6 +82,42 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Meta’s new terms may allow it to train AI on news sites for free",
+   "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-17T15:08:35+00:00",
+   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta has updated its business terms, effective October 30th, to permit crawling and scraping content from websites of businesses using its platforms, including news publishers. This content can be used to train and improve Meta's AI systems without apparent compensation to the publishers.",
+   "whyMatters": [
+    "Major policy and economic impact: news organizations lose control over whether their journalism feeds AI training, shifting who profits from their work",
+    "Raises questions about AI training data sourcing that affect content creators and institutions broadly—not unique to religion/education but affects how information flows in society"
+   ]
+  },
+  {
+   "title": "Meta removes language that may have allowed it to scrape news sites",
+   "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-17T15:04:36+00:00",
+   "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta has removed language from its commercial terms page that appeared to permit scraping content from websites and news sites to train its AI models. The removal came after public backlash regarding Meta's data collection practices.",
+   "whyMatters": [
+    "News organizations and publishers have raised concerns about unauthorized use of their work to train large language models—this change represents a concrete concession on data sourcing policy",
+    "Raises ongoing questions about AI training data ethics and what constitutes fair use versus scraping, relevant to educators explaining AI's resource dependencies to students"
+   ]
+  },
   {
    "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
    "link": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
@@ -331,24 +373,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Meta’s new terms may allow it to train AI on news sites for free",
-   "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-16T15:22:13+00:00",
-   "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta has updated its business terms, effective October 30th, to permit crawling and scraping content from websites of businesses using its platforms, including news publishers. This content can be used to train and improve Meta's AI systems without apparent compensation to the publishers.",
-   "whyMatters": [
-    "Major policy and economic impact: news organizations lose control over whether their journalism feeds AI training, shifting who profits from their work",
-    "Raises questions about AI training data sourcing that affect content creators and institutions broadly—not unique to religion/education but affects how information flows in society"
-   ]
-  },
-  {
    "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
    "link": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
    "source": "Wired · AI",
@@ -461,6 +485,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "link": "https://openai.com/index/benefit-street-partners",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-16T00:00:00+00:00",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
+   "whyMatters": [
+    "Demonstrates Codex application in financial services for regulatory/compliance work",
+    "Shows practical productivity gains in professional tool-building beyond traditional software development"
+   ]
+  },
+  {
    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
    "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
    "source": "OpenAI News",
@@ -478,24 +520,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Integration of AI agents with developer platforms accelerates adoption of agentic systems in programming workflows",
     "Rapid growth demonstrates market demand for AI tools that can autonomously solve technical problems, reshaping how developers work"
-   ]
-  },
-  {
-   "title": "Benefit Street Partners answers questions faster with Codex",
-   "link": "https://openai.com/index/benefit-street-partners",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-16T00:00:00+00:00",
-   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
-   "whyMatters": [
-    "Demonstrates Codex application in financial services for regulatory/compliance work",
-    "Shows practical productivity gains in professional tool-building beyond traditional software development"
    ]
   },
   {
@@ -662,24 +686,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Friends don’t let friends feed their data to AI agents",
-   "link": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-15T19:20:49+00:00",
-   "summary": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta's Muse and similar consumer AI assistant devices collect data not only from owners but also from everyone around them without consent. The article warns about this growing trend of devices capturing data from non-consenting third parties.",
-   "whyMatters": [
-    "Raises privacy and consent issues that affect broader communities beyond direct users",
-    "Highlights ethical gap in AI assistant design that may provoke regulatory scrutiny"
-   ]
-  },
-  {
    "title": "Bringing GPT-Rosalind to academic research labs",
    "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
    "source": "OpenAI News",
@@ -828,7 +834,7 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Education is Failing our Students in this AI-Driven World",
+   "title": "Is Education Failing our Students in this AI-Driven World?",
    "link": "https://share.transistor.fm/s/4f81adfa",
    "source": "Practical AI",
    "category": "podcast",
@@ -2207,24 +2213,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-   "link": "https://openai.com/index/sophos",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-09T07:00:00+00:00",
-   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sophos, a cybersecurity company, has used OpenAI's Daybreak system to reduce threat investigation time by 96% and automate 52% of managed detection and response cases while maintaining human oversight.",
-   "whyMatters": [
-    "Practical AI application: demonstrates significant efficiency gains in enterprise security workflows, showing AI's tangible business value in reducing analyst workload",
-    "Human-in-the-loop model: explicitly preserves human oversight, exemplifying responsible deployment of AI in high-stakes decision-making"
-   ]
-  },
-  {
    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
    "link": "https://openai.com/index/asana-browser-agent",
    "source": "OpenAI News",
@@ -2240,6 +2228,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Model efficiency gains are materializing in real products; smaller, cheaper models can now do work that previously required larger, expensive ones",
     "Affects the economics of AI products: faster + cheaper models mean wider adoption and deployment across industries"
+   ]
+  },
+  {
+   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+   "link": "https://openai.com/index/sophos",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-09T07:00:00+00:00",
+   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Sophos, a cybersecurity company, has used OpenAI's Daybreak system to reduce threat investigation time by 96% and automate 52% of managed detection and response cases while maintaining human oversight.",
+   "whyMatters": [
+    "Practical AI application: demonstrates significant efficiency gains in enterprise security workflows, showing AI's tangible business value in reducing analyst workload",
+    "Human-in-the-loop model: explicitly preserves human oversight, exemplifying responsible deployment of AI in high-stakes decision-making"
    ]
   },
   {
@@ -3256,8 +3262,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Google DeepMind released Gemini 3.8 with an updated text-to-speech capability, but the source blurb provides no additional details about what specifically improved or changed.",
+   "whyMatters": [
+    "Text-to-speech advances affect accessibility for users with visual impairments and support multimodal AI application in education",
+    "Incremental model updates signal ongoing competition in capability benchmarks between major AI labs"
+   ]
   },
   {
    "title": "Agent Wars!",
@@ -3561,44 +3570,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses a gap between AI research focus and practical enterprise needs",
     "Relevant to organizations and educators preparing teams for sustainable AI adoption"
-   ]
-  },
-  {
-   "title": "Proactive cyber defense for governments and enterprises",
-   "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-02T16:24:24+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind published guidance on how governments and enterprises can use AI for proactive cybersecurity defense rather than reactive responses. The approach involves detecting and addressing threats before they cause damage.",
-   "whyMatters": [
-    "Shifts cybersecurity posture from reactive to preventive, potentially reducing breach impact on critical infrastructure and institutional operations",
-    "Relevant to institutions—including educational and religious organizations—handling sensitive data about members and operations"
-   ]
-  },
-  {
-   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-02T16:18:31+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google DeepMind released Gemini 3.8 Flash and a specialized variant called 3.8 Flash Cyber, designed for faster and more targeted performance in cybersecurity applications. These models aim to improve speed and efficiency in threat detection and response.",
-   "whyMatters": [
-    "Faster AI models lower barriers for smaller organizations (schools, synagogues, nonprofits) to adopt AI-powered security tools",
-    "Cyber-specialized variant signals industry movement toward domain-specific AI, potentially improving accuracy in security contexts where stakes are high"
    ]
   }
  ]
