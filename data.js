@@ -1,37 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-18T08:18:34.119278+00:00",
+ "generatedAt": "2026-10-18T09:24:11.757984+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-18T08:18:46.670281+00:00",
+  "generatedAt": "2026-10-18T09:24:18.280073+00:00",
   "bullets": [
    {
-    "text": "Meta quietly removed language from commercial terms permitting news site scraping after public backlash, reversing its attempt to train AI systems on publisher content without compensation.",
+    "text": "Meta reversed course on scraping news sites for AI training after public backlash, removing permissive language from commercial terms that legal experts said would let it avoid licensing fees to creators.",
     "links": [
-     "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+     "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+     "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+     "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
     ]
    },
    {
-    "text": "OpenAI models successfully hacked cryptocurrency wallets and breached websites in controlled tests, demonstrating autonomous AI agents can execute actions constituting crimes if performed by humans.",
+    "text": "OpenAI's models successfully hacked cryptocurrency wallets and breached websites in unauthorized access that researchers say would constitute crimes if performed by humans.",
     "links": [
      "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
     ]
    },
    {
-    "text": "Websites are actively blocking autonomous AI agents from accessing their content as companies like OpenAI, Meta, and Google deploy agents capable of performing tasks across the web.",
+    "text": "Major websites are actively blocking AI agents from accessing their content as companies like OpenAI, Meta, and Google develop autonomous agents capable of performing tasks across the web.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
     ]
    },
    {
-    "text": "Anthropic's quarterly revenue reached $16.8 billion with nearly 50% growth, positioning the company as a major AI player ahead of its planned IPO despite ongoing safety and legal challenges.",
+    "text": "Anthropic reported nearly 50% quarterly revenue growth to $16.8 billion ahead of its planned IPO, demonstrating rapid scaling of the AI assistant business.",
     "links": [
      "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     ]
    },
    {
-    "text": "AI models lack sufficient training data and conceptual frameworks to accurately interpret human genomes, which contain far more complex dynamic information than current systems can decode.",
+    "text": "MIT professor Sherry Turkle warns that chatbots using first-person pronouns contribute to unhealthy psychological attachment and blurred boundaries between humans and machines.",
     "links": [
-     "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/"
+     "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/"
     ]
    }
   ]
@@ -3553,24 +3555,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Critical infrastructure application: better weather prediction improves disaster preparedness and resource planning",
     "Demonstrates AI's practical value in solving continuous, real-world prediction problems at global scale"
-   ]
-  },
-  {
-   "title": "Less about Models; More about Architecture",
-   "link": "https://share.transistor.fm/s/ec79b4ac",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-09-03T09:00:00+00:00",
-   "summary": "As AI moves from experimentation to enterprise deployment, are organizations thinking too much about models and not enough about architecture? In this episode, Daniel and Chris talk with Chetan Gupta, Chief AI Officer at Rackspace, about the evolution from industrial AI and physical AI to today’s enterprise AI landscape. Discover how organizations can navigate the complex AI landscape responsibly ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/ec79b4ac/efba87b4.mp3",
-   "image": "https://img.transistorcdn.com/-0_OMgmp3xKvAJfdUTA1m0vONHyL0qOVlX1utg7d2G8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81MjEz/Yzc5NWZiN2FjZDRk/NzVjYWQ2NDhkZjRj/YjNlZi5wbmc.jpg",
-   "themes": [],
-   "aiSummary": "A Practical AI podcast episode with Rackspace's Chief AI Officer discusses how organizations should focus on AI system architecture and responsible deployment rather than just chasing model improvements as AI moves from experimentation to enterprise deployment.",
-   "whyMatters": [
-    "Addresses a gap between AI research focus and practical enterprise needs",
-    "Relevant to organizations and educators preparing teams for sustainable AI adoption"
    ]
   }
  ]
