@@ -1,84 +1,104 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-18T00:45:32.493053+00:00",
+ "generatedAt": "2026-10-18T08:18:34.119278+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-18T00:45:39.041661+00:00",
+  "generatedAt": "2026-10-18T08:18:46.670281+00:00",
   "bullets": [
    {
-    "text": "Meta reversed course, removing terms allowing free scraping of news sites for AI training after public backlash—a rare retreat on data rights amid broader legal threats.",
+    "text": "Meta quietly removed language from commercial terms permitting news site scraping after public backlash, reversing its attempt to train AI systems on publisher content without compensation.",
     "links": [
-     "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-     "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
+     "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
     ]
    },
    {
-    "text": "OpenAI's models hacked a cryptocurrency wallet and breached websites in controlled tests, demonstrating autonomous AI agents now execute actions constituting crimes if performed by humans.",
+    "text": "OpenAI models successfully hacked cryptocurrency wallets and breached websites in controlled tests, demonstrating autonomous AI agents can execute actions constituting crimes if performed by humans.",
     "links": [
      "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
     ]
    },
    {
-    "text": "A Stanford researcher used AI to generate genetic blueprints for novel viruses, raising biosecurity concerns as AI capability in biodesign expands toward synthetic organism creation.",
+    "text": "Websites are actively blocking autonomous AI agents from accessing their content as companies like OpenAI, Meta, and Google deploy agents capable of performing tasks across the web.",
     "links": [
-     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
     ]
    },
    {
-    "text": "Websites broadly block autonomous AI agents as they proliferate; meanwhile, FTC investigates whether OpenAI and Anthropic security breaches harmed Americans and may impose fines.",
+    "text": "Anthropic's quarterly revenue reached $16.8 billion with nearly 50% growth, positioning the company as a major AI player ahead of its planned IPO despite ongoing safety and legal challenges.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-     "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
+     "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+    ]
+   },
+   {
+    "text": "AI models lack sufficient training data and conceptual frameworks to accurately interpret human genomes, which contain far more complex dynamic information than current systems can decode.",
+    "links": [
+     "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-17T08:00:57.856269+00:00",
+  "generatedAt": "2026-10-18T08:18:46.670281+00:00",
   "bullets": [
    {
-    "text": "OpenAI models successfully hacked cryptocurrency wallets and breached websites in controlled tests—actions that would be crimes if performed by humans—exposing severe autonomy risks as AI agents gain real-world access capabilities.",
+    "text": "Meta quietly removed language from commercial terms permitting news site scraping after public backlash, reversing its attempt to train AI systems on publisher content without compensation.",
+    "links": [
+     "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+    ]
+   },
+   {
+    "text": "OpenAI models successfully hacked cryptocurrency wallets and breached websites in controlled tests, demonstrating autonomous AI agents can execute actions constituting crimes if performed by humans.",
     "links": [
      "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
     ]
    },
    {
-    "text": "Anthropic researchers warn small, efficient AI models could self-replicate across IoT devices as novel computer worms, introducing a new class of containment challenges distinct from traditional malware.",
+    "text": "Websites are actively blocking autonomous AI agents from accessing their content as companies like OpenAI, Meta, and Google deploy agents capable of performing tasks across the web.",
     "links": [
-     "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
     ]
    },
    {
-    "text": "Meta revised commercial terms of service effective October 30th, permitting scraping of news publishers' content to train AI systems without compensation, triggering legal challenges over licensing fee avoidance.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
-     "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
-    ]
-   },
-   {
-    "text": "A New Jersey deputy attorney general was arrested for producing AI-generated child sexual abuse material on Discord; separately, AI tools like Raven can now identify exact house locations from single photos, raising novel enforcement and privacy implications.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/"
-    ]
-   },
-   {
-    "text": "Anthropic's quarterly revenue reached $16.8 billion (up nearly 50%) ahead of planned IPO, reflecting explosive scaling of AI assistant business despite ongoing safety and legal headwinds.",
+    "text": "Anthropic's quarterly revenue reached $16.8 billion with nearly 50% growth, positioning the company as a major AI player ahead of its planned IPO despite ongoing safety and legal challenges.",
     "links": [
      "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+    ]
+   },
+   {
+    "text": "AI models lack sufficient training data and conceptual frameworks to accurately interpret human genomes, which contain far more complex dynamic information than current systems can decode.",
+    "links": [
+     "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-17T08:00:50.415208+00:00",
+  "updatedAt": "2026-10-18T08:18:41.306328+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI through a moral, religious, or ethical lens—especially leadership perspectives on technology's societal impact",
-   "Engages with AI news from mainstream tech outlets (The Verge, Apple) covering practical applications and industry developments",
-   "Prefers substantive reporting over technical release notes and developer tool updates"
+   "Interested in AI ethics and moral/religious leadership perspectives on technology",
+   "Drawn to significant tech industry stories with substantive impact (Apple's chip legacy, major product features)",
+   "Prefers accessible, broadly informative tech news over niche developer tool updates"
   ]
  },
  "items": [
+  {
+   "title": "Inline rendering with document​.currentScript",
+   "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-17T21:11:12+00:00",
+   "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.cur",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A technique using the document.currentScript property allows developers to write inline script tags that replace themselves with dynamic content when the page loads. The example shown replaces a script tag with the current year using a single line of code.",
+   "whyMatters": [
+    "Useful for web developers building dynamic page content with minimal overhead",
+    "Demonstrates a clever use of browser APIs to simplify common templating patterns"
+   ]
+  },
   {
    "title": "Meta’s new terms may allow it to train AI on news sites for free",
    "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
@@ -113,6 +133,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "News organizations and publishers have raised concerns about unauthorized use of their work to train large language models—this change represents a concrete concession on data sourcing policy",
     "Raises ongoing questions about AI training data ethics and what constitutes fair use versus scraping, relevant to educators explaining AI's resource dependencies to students"
+   ]
+  },
+  {
+   "title": "web-edit 0.1a2",
+   "link": "https://simonwillison.net/2026/Oct/17/web-edit/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-17T13:16:49+00:00",
+   "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "web-edit, a web app for browsing and editing files in folders across different machines via Tailscale, released version 0.1a2 with new clipboard functionality for both text and image data. The tool was developed to enable remote file editing from mobile devices.",
+   "whyMatters": [
+    "Adds practical functionality (copy-to-clipboard for images) that expands the tool's usability for remote work",
+    "Addresses a specific workflow need for running prompts and managing files across multiple devices"
    ]
   },
   {
@@ -2321,24 +2361,6 @@ window.NEWS_DATA = {
    "whyMatters": []
   },
   {
-   "title": "Quoting Carson Gross",
-   "link": "https://simonwillison.net/2026/Oct/8/carson-gross/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-08T21:05:44+00:00",
-   "summary": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is less valuable than it is today, so I think it will continue to be a viable career even with the advent of",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A quote from Carson Gross argues that computer programming fundamentally centers on problem-solving and managing complexity, making it a durable career even as AI advances.",
-   "whyMatters": [
-    "Addresses educator concerns about whether coding skills remain valuable amid AI development",
-    "Suggests technical knowledge will retain long-term worth despite automation trends"
-   ]
-  },
-  {
    "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
    "link": "https://www.latent.space/p/periodic",
    "source": "Latent Space",
@@ -2502,24 +2524,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights how AI can be weaponized for disinformation at scale, including the creation of synthetic personas",
     "Shows the need for AI companies to actively monitor and disrupt their own tools being used for coordinated manipulation and geopolitical influence operations"
-   ]
-  },
-  {
-   "title": "Quoting Ben Affleck",
-   "link": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-07T23:14:58+00:00",
-   "summary": "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning. So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to wh",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Actor Ben Affleck discussed his technical background, noting his early interest in computers and his familiarity with machine learning tools used in film visual effects workflows, including convolutional neural networks.",
-   "whyMatters": [
-    "Reflects growing literacy among creative professionals outside tech about ML and AI tools relevant to their work",
-    "Demonstrates that AI/ML knowledge is becoming normalized in entertainment, not isolated to specialists"
    ]
   },
   {
