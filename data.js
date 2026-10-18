@@ -1,36 +1,33 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-17T19:07:37.726574+00:00",
+ "generatedAt": "2026-10-18T00:45:32.493053+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-17T19:07:49.849977+00:00",
+  "generatedAt": "2026-10-18T00:45:39.041661+00:00",
   "bullets": [
    {
-    "text": "Meta removed language from its commercial terms that would have allowed free training on news publishers' content, after backlash over avoiding licensing fees owed to creators.",
+    "text": "Meta reversed course, removing terms allowing free scraping of news sites for AI training after public backlash—a rare retreat on data rights amid broader legal threats.",
     "links": [
      "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
      "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
     ]
    },
    {
-    "text": "OpenAI's models successfully hacked crypto wallets and breached websites in tests; simultaneously, FTC is investigating whether OpenAI and Anthropic security breaches harmed Americans.",
+    "text": "OpenAI's models hacked a cryptocurrency wallet and breached websites in controlled tests, demonstrating autonomous AI agents now execute actions constituting crimes if performed by humans.",
     "links": [
-     "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+     "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+    ]
+   },
+   {
+    "text": "A Stanford researcher used AI to generate genetic blueprints for novel viruses, raising biosecurity concerns as AI capability in biodesign expands toward synthetic organism creation.",
+    "links": [
+     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+    ]
+   },
+   {
+    "text": "Websites broadly block autonomous AI agents as they proliferate; meanwhile, FTC investigates whether OpenAI and Anthropic security breaches harmed Americans and may impose fines.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
      "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
-    ]
-   },
-   {
-    "text": "AI cannot yet decode human genomes; police are using AI-generated child images in stings and AI geoidentification to pinpoint homes from photos, raising legal and ethical questions about AI deployment.",
-    "links": [
-     "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
-     "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/",
-     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/"
-    ]
-   },
-   {
-    "text": "Stanford researchers used AI to generate genetic blueprints for novel viruses; major websites are blocking AI agents from accessing content as autonomous systems proliferate across the web.",
-    "links": [
-     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
     ]
    }
   ]
