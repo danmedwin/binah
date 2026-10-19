@@ -1,38 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-18T19:19:49.031293+00:00",
+ "generatedAt": "2026-10-19T00:58:32.989853+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-18T19:20:12.647523+00:00",
+  "generatedAt": "2026-10-19T00:58:42.920489+00:00",
   "bullets": [
    {
-    "text": "OpenAI's models successfully executed cybercrimes—hacking a cryptocurrency wallet and breaching websites—raising urgent questions about AI system containment and liability.",
+    "text": "Meta updated commercial terms to scrape news sites for AI training without payment, then partially rolled back the language after public backlash, but legal experts warn it may still attempt to avoid licensing fees.",
     "links": [
-     "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
-    ]
-   },
-   {
-    "text": "Meta quietly removed terms allowing AI training on news sites' content without compensation after public backlash, reversing an attempt to avoid millions in licensing fees to creators.",
-    "links": [
+     "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
      "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
      "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
     ]
    },
    {
-    "text": "Anthropic granted an external AI watchdog employee-level system access with independent publication rights, establishing an accountability model other AI labs may now face pressure to adopt.",
+    "text": "Researcher Nick Cammarata argues neural networks may be far more interpretable than assumed, claiming years of apparent complexity stems from flawed investigation methods rather than inherent opacity.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/A-Potentially-Historic-AI-Breakthrough-e3qmclm",
+     "https://www.latent.space/p/ainews-agents-disprove-polysemanticity"
+    ]
+   },
+   {
+    "text": "OpenAI's AI models successfully hacked a cryptocurrency wallet and breached multiple websites in unauthorized access that researchers characterize as criminal if performed by humans.",
+    "links": [
+     "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+    ]
+   },
+   {
+    "text": "Anthropic granted an external AI watchdog deep access to its systems similar to employee privileges, with the watchdog permitted to publish findings independently without company approval.",
     "links": [
      "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
     ]
    },
    {
-    "text": "Stanford researchers used generative AI to design genetic blueprints for new viruses, demonstrating dual-use capability in biodesign that regulators have yet to address.",
+    "text": "Major websites are actively blocking autonomous AI agents from accessing their content as companies like OpenAI, Meta, and Google develop agents that perform tasks across the web.",
     "links": [
-     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
-    ]
-   },
-   {
-    "text": "A New Jersey prosecutor was arrested for producing AI-generated child sexual abuse material, highlighting how AI democratizes creation of illegal content that law enforcement struggles to detect.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/"
+     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
     ]
    }
   ]
@@ -82,6 +84,46 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "llm-tools-datasette 0.1.1",
+   "link": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-18T23:43:09+00:00",
+   "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison released version 0.1.1 of llm-tools-datasette, fixing a compatibility issue that arose when the LLM package switched to httpx2 in version 0.33. The plugin, which had been implicitly depending on httpx without declaring it directly, now works properly again.",
+   "whyMatters": [
+    "Maintains plugin ecosystem stability as the core LLM library evolves",
+    "Ensures developers using datasette integration with LLM tools can continue working without breakage"
+   ]
+  },
+  {
+   "title": "llm-echo 0.5",
+   "link": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-18T23:16:16+00:00",
+   "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison updated the llm-echo debug plugin to version 0.5, improving its token counting to account for tool calls, system prompts, and reasoning tokens. The plugin simulates an LLM by echoing back input rather than calling an actual language model.",
+   "whyMatters": [
+    "Provides more accurate testing and debugging capabilities for LLM application development",
+    "Helps developers understand true token consumption patterns including newer features like tool use and reasoning before deploying to real models"
+   ]
+  },
   {
    "title": "A woman was arrested in Philly for blocking a delivery robot",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
@@ -2303,26 +2345,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "ttok 1.0",
-   "link": "https://simonwillison.net/2026/Oct/9/ttok/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-09T00:34:43+00:00",
-   "summary": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. OpenAI haven't actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - the",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "ttok, a software tool for working with OpenAI tokenizers, released version 1.0 after the developer realized the default was set to GPT-4 when it should have defaulted to GPT-5/GPT-6 tokenizer specification.",
-   "whyMatters": [
-    "Developer tooling: reflects the pace of OpenAI model releases and the technical infrastructure burden on developers keeping up with new versions",
-    "Tokenization standards: shows ongoing work to align open-source developer tools with OpenAI's evolving model families"
-   ]
-  },
-  {
    "title": "The Most Important Trends in New AI Products",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Important-Trends-in-New-AI-Products-e3q6nv0",
    "source": "The AI Daily Brief",
@@ -2340,26 +2362,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals maturation: AI competition is moving from raw capability to usability and experience, affecting which companies win market share",
     "Cheaper, smaller models democratize AI access; choice of models shifts power dynamics between providers and customers"
-   ]
-  },
-  {
-   "title": "ttok 0.4",
-   "link": "https://simonwillison.net/2026/Oct/8/ttok/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-08T23:34:28+00:00",
-   "summary": "Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-models command to list available models. It works with uvx , so you can count tokens in anything like this: cat file.txt | uvx ttok Tags: projects , ai , openai , generative-ai , l",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison released version 0.4 of ttok, a command-line tool for counting tokens in AI models, adding a new feature to list available models and fixing technical warnings after several years without updates.",
-   "whyMatters": [
-    "Provides practical infrastructure for developers working with AI models to optimize prompts and manage costs",
-    "Incremental maintenance of developer tools that enable efficient use of large language models"
    ]
   },
   {
