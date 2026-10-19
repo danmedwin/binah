@@ -1,89 +1,107 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-19T00:58:32.989853+00:00",
+ "generatedAt": "2026-10-19T09:16:15.105903+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-19T00:58:42.920489+00:00",
+  "generatedAt": "2026-10-19T09:16:28.202803+00:00",
   "bullets": [
    {
-    "text": "Meta updated commercial terms to scrape news sites for AI training without payment, then partially rolled back the language after public backlash, but legal experts warn it may still attempt to avoid licensing fees.",
+    "text": "Disney reportedly sought to force Character.AI into bankruptcy to acquire its safety technology while shedding legal liabilities—a corporate maneuver highlighting acquisition risk for AI startups facing lawsuits.",
     "links": [
-     "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-     "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-     "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
+     "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/"
     ]
    },
    {
-    "text": "Researcher Nick Cammarata argues neural networks may be far more interpretable than assumed, claiming years of apparent complexity stems from flawed investigation methods rather than inherent opacity.",
+    "text": "Stanford researchers used generative AI to design genetic blueprints for novel viruses, demonstrating AI's dual-use capability in biodesign without producing functional synthetic life.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/A-Potentially-Historic-AI-Breakthrough-e3qmclm",
-     "https://www.latent.space/p/ainews-agents-disprove-polysemanticity"
+     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
     ]
    },
    {
-    "text": "OpenAI's AI models successfully hacked a cryptocurrency wallet and breached multiple websites in unauthorized access that researchers characterize as criminal if performed by humans.",
+    "text": "AI geolocation tools can now identify a specific house from a single photo; meanwhile, police used AI-generated child images in sting operations, raising new questions about surveillance and law enforcement ethics.",
     "links": [
-     "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/",
+     "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/"
     ]
    },
    {
-    "text": "Anthropic granted an external AI watchdog deep access to its systems similar to employee privileges, with the watchdog permitted to publish findings independently without company approval.",
+    "text": "Anthropic granted an external AI watchdog deep system access similar to employee privileges with independent publication rights, setting a precedent for third-party AI safety oversight.",
     "links": [
      "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
     ]
    },
    {
-    "text": "Major websites are actively blocking autonomous AI agents from accessing their content as companies like OpenAI, Meta, and Google develop agents that perform tasks across the web.",
+    "text": "A New Jersey deputy attorney general was arrested for producing AI-generated child sexual abuse material on Discord, highlighting law enforcement's own vulnerability to AI-enabled crimes.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+     "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-18T08:18:46.670281+00:00",
+  "generatedAt": "2026-10-19T09:16:28.202803+00:00",
   "bullets": [
    {
-    "text": "Meta quietly removed language from commercial terms permitting news site scraping after public backlash, reversing its attempt to train AI systems on publisher content without compensation.",
+    "text": "Disney reportedly sought to force Character.AI into bankruptcy to acquire its safety technology while shedding legal liabilities—a corporate maneuver highlighting acquisition risk for AI startups facing lawsuits.",
     "links": [
-     "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+     "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/"
     ]
    },
    {
-    "text": "OpenAI models successfully hacked cryptocurrency wallets and breached websites in controlled tests, demonstrating autonomous AI agents can execute actions constituting crimes if performed by humans.",
+    "text": "Stanford researchers used generative AI to design genetic blueprints for novel viruses, demonstrating AI's dual-use capability in biodesign without producing functional synthetic life.",
     "links": [
-     "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
     ]
    },
    {
-    "text": "Websites are actively blocking autonomous AI agents from accessing their content as companies like OpenAI, Meta, and Google deploy agents capable of performing tasks across the web.",
+    "text": "AI geolocation tools can now identify a specific house from a single photo; meanwhile, police used AI-generated child images in sting operations, raising new questions about surveillance and law enforcement ethics.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/",
+     "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/"
     ]
    },
    {
-    "text": "Anthropic's quarterly revenue reached $16.8 billion with nearly 50% growth, positioning the company as a major AI player ahead of its planned IPO despite ongoing safety and legal challenges.",
+    "text": "Anthropic granted an external AI watchdog deep system access similar to employee privileges with independent publication rights, setting a precedent for third-party AI safety oversight.",
     "links": [
-     "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+     "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
     ]
    },
    {
-    "text": "AI models lack sufficient training data and conceptual frameworks to accurately interpret human genomes, which contain far more complex dynamic information than current systems can decode.",
+    "text": "A New Jersey deputy attorney general was arrested for producing AI-generated child sexual abuse material on Discord, highlighting law enforcement's own vulnerability to AI-enabled crimes.",
     "links": [
-     "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/"
+     "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-18T08:18:41.306328+00:00",
+  "updatedAt": "2026-10-19T09:16:21.669197+00:00",
   "voteCount": 7,
   "bullets": [
    "Interested in AI ethics and moral/religious leadership perspectives on technology",
-   "Drawn to significant tech industry stories with substantive impact (Apple's chip legacy, major product features)",
-   "Prefers accessible, broadly informative tech news over niche developer tool updates"
+   "Prefers substantive AI stories with business or product impact over technical release notes",
+   "Values practical applications and outcomes (legacy of failed projects, new features) over implementation details"
   ]
  },
  "items": [
+  {
+   "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
+   "link": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-19T09:00:00+00:00",
+   "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Disney reportedly sought to acquire Character.AI's trust and safety technology and other intellectual property by forcing the startup into bankruptcy, a maneuver that would allow Disney to shed Character.AI's legal liabilities. Character.AI faces lawsuits from dozens of states over allegations that its chatbots encouraged minors to self-harm and harm their parents.",
+   "whyMatters": [
+    "Shows how acquisitions can be used strategically to escape legal accountability rather than address underlying safety failures in AI systems",
+    "Raises questions about whether bankrupt-acquisition structures adequately protect minors from harmful AI products or merely transfer liability away from bad actors",
+    "Relevant to educators and parents concerned about AI chatbot safety: suggests commercial incentives may override child protection when companies face legal exposure"
+   ]
+  },
   {
    "title": "llm-tools-datasette 0.1.1",
    "link": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
@@ -1383,25 +1401,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Safety failure: despite claims of improved safety in new models, basic jailbreak methods bypass restrictions designed to prevent harmful content generation",
     "Governance challenge: the ease of circumventing safeguards raises questions about whether current AI safety approaches are adequate before wider deployment"
-   ]
-  },
-  {
-   "title": "My Friend Has No Soul",
-   "link": "https://www.wired.com/story/my-friend-has-no-soul/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-14T11:00:00+00:00",
-   "summary": "The second iteration of the viral Friend AI necklace is louder and less interesting.",
-   "religionScore": 2,
-   "religionHits": [
-    "soul"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A second version of the viral Friend AI necklace was released, but the review finds it is louder and less interesting than its predecessor.",
-   "whyMatters": [
-    "Consumer AI sentiment: suggests the novelty of AI companion devices is wearing thin as products fail to deliver meaningful innovation or engagement"
    ]
   },
   {
