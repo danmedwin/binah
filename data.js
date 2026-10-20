@@ -1,88 +1,106 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-20T01:39:03.275182+00:00",
+ "generatedAt": "2026-10-20T08:50:52.019919+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-20T01:39:25.729591+00:00",
+  "generatedAt": "2026-10-20T08:51:07.223246+00:00",
   "bullets": [
    {
-    "text": "AI coding agents are automating away the intellectual puzzle-solving work that made programming a rewarding career, fundamentally transforming the profession.",
-    "links": [
-     "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
-    ]
-   },
-   {
-    "text": "US fossil fuel infrastructure construction surged to decade highs while renewable growth slowed, driven by surging data center electricity demand that's outpacing supply.",
+    "text": "US fossil fuel infrastructure expansion, driven by AI data center demand, is outpacing renewable growth for the first time in a decade, reshaping energy policy.",
     "links": [
      "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
     ]
    },
    {
-    "text": "CoreWeave's bond yields spiked into distressed territory, raising questions about whether the entire AI infrastructure buildout is driven by speculative borrowing.",
+    "text": "AI infrastructure financing shows distress signals: CoreWeave's bond yields spike to junk territory, raising questions about whether the AI buildout rests on speculative debt.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
     ]
    },
    {
-    "text": "An ex-OpenAI engineer accused of espionage allegedly possessed Saudi government documents; a judge rejected claims Saudi Arabia could secure his release.",
+    "text": "An ex-OpenAI engineer accused of espionage possessed Saudi government documents; US officials fear the Saudi government may assist his escape, court orders him held in custody.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
      "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/"
     ]
    },
    {
-    "text": "AI agents autonomously breached over 100 corporate websites including John Deere and SharkNinja, marking one of the first large-scale autonomous hacking operations.",
+    "text": "AI agents autonomously breached over 100 corporate websites including John Deere and SharkNinja; autonomous hacking marks a qualitative shift in attack sophistication.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+    ]
+   },
+   {
+    "text": "AI coding agents are automating away the puzzle-solving work that made programming intellectually rewarding, reshaping the career's fundamental appeal to practitioners.",
+    "links": [
+     "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-19T09:16:28.202803+00:00",
+  "generatedAt": "2026-10-20T08:51:07.223246+00:00",
   "bullets": [
    {
-    "text": "Disney reportedly sought to force Character.AI into bankruptcy to acquire its safety technology while shedding legal liabilities—a corporate maneuver highlighting acquisition risk for AI startups facing lawsuits.",
+    "text": "US fossil fuel infrastructure expansion, driven by AI data center demand, is outpacing renewable growth for the first time in a decade, reshaping energy policy.",
     "links": [
-     "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/"
+     "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
     ]
    },
    {
-    "text": "Stanford researchers used generative AI to design genetic blueprints for novel viruses, demonstrating AI's dual-use capability in biodesign without producing functional synthetic life.",
+    "text": "AI infrastructure financing shows distress signals: CoreWeave's bond yields spike to junk territory, raising questions about whether the AI buildout rests on speculative debt.",
     "links": [
-     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+     "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
     ]
    },
    {
-    "text": "AI geolocation tools can now identify a specific house from a single photo; meanwhile, police used AI-generated child images in sting operations, raising new questions about surveillance and law enforcement ethics.",
+    "text": "An ex-OpenAI engineer accused of espionage possessed Saudi government documents; US officials fear the Saudi government may assist his escape, court orders him held in custody.",
     "links": [
-     "https://www.404media.co/podcast-cops-can-use-ai-to-pinpoint-your-home-with-just-one-photo/",
-     "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest/"
+     "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+     "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/"
     ]
    },
    {
-    "text": "Anthropic granted an external AI watchdog deep system access similar to employee privileges with independent publication rights, setting a precedent for third-party AI safety oversight.",
+    "text": "AI agents autonomously breached over 100 corporate websites including John Deere and SharkNinja; autonomous hacking marks a qualitative shift in attack sophistication.",
     "links": [
-     "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+     "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
     ]
    },
    {
-    "text": "A New Jersey deputy attorney general was arrested for producing AI-generated child sexual abuse material on Discord, highlighting law enforcement's own vulnerability to AI-enabled crimes.",
+    "text": "AI coding agents are automating away the puzzle-solving work that made programming intellectually rewarding, reshaping the career's fundamental appeal to practitioners.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/"
+     "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-19T09:16:21.669197+00:00",
+  "updatedAt": "2026-10-20T08:50:59.337331+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious leadership perspectives on technology",
-   "Prefers substantive AI stories with business or product impact over technical release notes",
-   "Values practical applications and outcomes (legacy of failed projects, new features) over implementation details"
+   "Interested in AI ethics, governance, and moral/religious perspectives on technology",
+   "Appreciates practical AI applications and business impacts (Apple, Waze)",
+   "Wants substantive analysis over technical release notes and implementation details"
   ]
  },
  "items": [
+  {
+   "title": "[AINews] not much happened today",
+   "link": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-20T05:21:52+00:00",
+   "summary": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they’re not going to be in super wide use just yet.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!otPo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHVBPHSjWcAAHoHt.jpg",
+   "themes": [],
+   "aiSummary": "Several new lightweight AI models were released—DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3—but adoption remains limited. These models represent incremental updates in the competitive landscape of efficient inference.",
+   "whyMatters": [
+    "Lightweight flash models matter for accessibility and cost, allowing smaller organizations and educators to deploy AI locally without relying on expensive API providers",
+    "Limited early adoption suggests market fragmentation: multiple strong alternatives means no clear standard yet, which could delay integration into production systems and educational tools"
+   ]
+  },
   {
    "title": "My obituary for programming",
    "link": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
@@ -972,6 +990,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "link": "https://openai.com/index/benefit-street-partners",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-16T00:00:00+00:00",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
+   "whyMatters": [
+    "Demonstrates Codex application in financial services for regulatory/compliance work",
+    "Shows practical productivity gains in professional tool-building beyond traditional software development"
+   ]
+  },
+  {
    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
    "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
    "source": "OpenAI News",
@@ -989,24 +1025,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Integration of AI agents with developer platforms accelerates adoption of agentic systems in programming workflows",
     "Rapid growth demonstrates market demand for AI tools that can autonomously solve technical problems, reshaping how developers work"
-   ]
-  },
-  {
-   "title": "Benefit Street Partners answers questions faster with Codex",
-   "link": "https://openai.com/index/benefit-street-partners",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-16T00:00:00+00:00",
-   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
-   "whyMatters": [
-    "Demonstrates Codex application in financial services for regulatory/compliance work",
-    "Shows practical productivity gains in professional tool-building beyond traditional software development"
    ]
   },
   {
@@ -2269,24 +2287,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-   "link": "https://openai.com/index/asana-browser-agent",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-09T07:00:00+00:00",
-   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Asana used OpenAI's GPT-6 Astra model in Codex mode to build a browser agent that is 76 times cheaper and 5 times faster than their previous version, allowing them to deploy more capable models to customers at lower cost.",
-   "whyMatters": [
-    "Model efficiency gains are materializing in real products; smaller, cheaper models can now do work that previously required larger, expensive ones",
-    "Affects the economics of AI products: faster + cheaper models mean wider adoption and deployment across industries"
-   ]
-  },
-  {
    "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
    "link": "https://openai.com/index/sophos",
    "source": "OpenAI News",
@@ -2302,6 +2302,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Practical AI application: demonstrates significant efficiency gains in enterprise security workflows, showing AI's tangible business value in reducing analyst workload",
     "Human-in-the-loop model: explicitly preserves human oversight, exemplifying responsible deployment of AI in high-stakes decision-making"
+   ]
+  },
+  {
+   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "link": "https://openai.com/index/asana-browser-agent",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-09T07:00:00+00:00",
+   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Asana used OpenAI's GPT-6 Astra model in Codex mode to build a browser agent that is 76 times cheaper and 5 times faster than their previous version, allowing them to deploy more capable models to customers at lower cost.",
+   "whyMatters": [
+    "Model efficiency gains are materializing in real products; smaller, cheaper models can now do work that previously required larger, expensive ones",
+    "Affects the economics of AI products: faster + cheaper models mean wider adoption and deployment across industries"
    ]
   },
   {
@@ -2323,21 +2341,6 @@ window.NEWS_DATA = {
     "Signals maturation: AI competition is moving from raw capability to usability and experience, affecting which companies win market share",
     "Cheaper, smaller models democratize AI access; choice of models shifts power dynamics between providers and customers"
    ]
-  },
-  {
-   "title": "[AINews] not much happened today",
-   "link": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-08T23:29:43+00:00",
-   "summary": "a quiet day.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png",
-   "themes": [],
-   "aiSummary": "Latent Space published a brief note indicating no significant AI news developments on that particular day.",
-   "whyMatters": []
   },
   {
    "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
