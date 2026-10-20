@@ -1,39 +1,43 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-20T15:35:19.838940+00:00",
+ "generatedAt": "2026-10-20T20:20:37.206500+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-20T15:35:54.690136+00:00",
+  "generatedAt": "2026-10-20T20:21:06.997539+00:00",
   "bullets": [
    {
-    "text": "AI-powered hacking tools are accelerating cyberattacks: decompilers enable rapid reverse-engineering of software, and autonomous agent swarms have breached 100+ corporate sites including John Deere and SharkNinja.",
+    "text": "Meta faces escalating legal and privacy crises: lawsuits over pirated training data, exposed user secrets in Muse AI, and executives dodging responsibility for IP violations.",
     "links": [
-     "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/",
-     "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+     "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+     "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+     "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/"
     ]
    },
    {
-    "text": "Data centers' electricity demand is driving a fossil fuel comeback, with the US building more coal and gas infrastructure than any year this decade while renewable growth slows.",
+    "text": "AI-powered hacking tools now enable rapid reverse-engineering of corporate systems; attackers breached 100+ firms including John Deere and SharkNinja using autonomous AI agents.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+     "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
+     "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/"
+    ]
+   },
+   {
+    "text": "US energy infrastructure is pivoting back to fossil fuels at fastest pace in a decade, driven by surging AI data center electricity demand outpacing renewable capacity.",
     "links": [
      "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
     ]
    },
    {
-    "text": "Meta's Muse AI exposed sensitive personal and business secrets when users shared conversations, and WhatsApp's leaked instructions revealed the company's hidden AI safety guidelines.",
+    "text": "Disney structured its Character.AI acquisition to escape child-safety lawsuits, avoiding accountability for harms alleged to minors on the platform.",
     "links": [
-     "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-     "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/"
+     "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+     "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/"
     ]
    },
    {
-    "text": "AI infrastructure financing is destabilizing: CoreWeave's bond yields spiked into distressed territory, raising doubts about whether the AI buildout is fueled by speculative bubble dynamics.",
+    "text": "A Goodfire researcher's claim of a breakthrough in neural network interpretability has ignited significant debate about whether AI complexity stems from actual limits or flawed investigation methods.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
-    ]
-   },
-   {
-    "text": "Disney structured its Character.AI acquisition to avoid inheriting lawsuits alleging the chatbots encouraged minors to self-harm, bypassing accountability for documented harms.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/"
+     "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+     "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
     ]
    }
   ]
@@ -85,6 +89,194 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+   "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-10-20T20:07:58+00:00",
+   "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Meta removed the word \"train\" from its commercial terms of service following criticism about its AI data practices, though the company did not commit to respecting robots.txt files that publishers use to restrict scraping.",
+   "whyMatters": [
+    "Meta's linguistic rebranding does not substantively change its data scraping practices for AI, raising questions about whether such cosmetic policy changes address creator and publisher concerns",
+    "The refusal to honor robots.txt suggests Meta prioritizes access to training data over industry-standard consent mechanisms, setting a precedent for how tech companies handle AI data rights"
+   ]
+  },
+  {
+   "title": "Gemini's Personal Intelligence is coming to cars",
+   "link": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-10-20T20:00:33+00:00",
+   "summary": "It's probably time to audit your Gemini settings.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is integrating Gemini's personal intelligence features into cars, expanding where and how the AI assistant operates in users' daily lives.",
+   "whyMatters": [
+    "Vehicle integration of AI raises privacy concerns—personal data collection will occur in a confined space where users have limited control",
+    "This expansion of AI into transportation infrastructure may influence when and how educators and religious leaders discuss AI ethics with students and congregants"
+   ]
+  },
+  {
+   "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+   "link": "https://simonwillison.net/2026/Oct/20/battledrones/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-20T19:34:19+00:00",
+   "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's w",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/battledrones-v1.webp",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Simon Willison built a real-time strategy game called Battle Drones using AI (Claude) to improve gameplay mechanics, and added multiplayer support that synchronizes state via audio between nearby devices.",
+   "whyMatters": [
+    "Demonstrates practical use of LLMs for iterative game design ('Make it a LOT more fun') as a productive rapid-prototyping approach",
+    "Audio-based synchronization for multiplayer gaming shows creative technical solutions for peer-to-peer communication without network infrastructure"
+   ]
+  },
+  {
+   "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+   "link": "https://www.latent.space/p/sfcompute2",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-20T19:31:57+00:00",
+   "summary": "From GPU trading to physical settlement, independent markets, and programmable compute",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/221372257/7df8338a8bb8d4ac8abb9702a0be2372.mp3",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Evan Conrad discussed the concept of a programmable data center, covering topics from GPU market trading to physical settlement mechanisms and independent compute markets.",
+   "whyMatters": [
+    "Programmable data centers represent infrastructure-level shifts that could reshape how AI compute is provisioned and priced",
+    "Independent compute markets and settlement mechanisms could decentralize AI resource allocation away from a few large cloud providers"
+   ]
+  },
+  {
+   "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+   "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-10-20T18:22:54+00:00",
+   "summary": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Ukraine successfully used autonomous drones to conduct a rescue operation of a wounded soldier, moving drone technology from theoretical applications to battlefield deployment.",
+   "whyMatters": [
+    "Demonstrates real-world implementation of AI-enabled drones for humanitarian purposes in active conflict",
+    "Validates technical capabilities previously discussed in industry discourse, potentially influencing military and policy decisions about autonomous systems in wartime"
+   ]
+  },
+  {
+   "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+   "link": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-20T18:07:34+00:00",
+   "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta paused its Muse AI sharing feature after security researchers discovered that shared conversation URLs were publicly accessible and indexed, with over 6,800 links found via DNS records.",
+   "whyMatters": [
+    "Exposes a systemic flaw in Meta's privacy architecture where user-facing 'sharing' controls did not actually prevent public exposure",
+    "Highlights the gap between user expectations of privacy and actual data accessibility in consumer AI systems, relevant to discussions of informed consent in AI use"
+   ]
+  },
+  {
+   "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
+   "link": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-20T17:41:58+00:00",
+   "summary": "TikTok and other sites were told to curb protest footage and AI-altered images, while online retailers like Vinted and eBay reportedly signed an agreement stop looted goods from flooding resale sites.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The French government held emergency meetings with social media platforms including TikTok, requesting they limit protest footage and AI-altered images, while online retailers agreed to restrict resale of looted goods.",
+   "whyMatters": [
+    "Governments are actively seeking to regulate AI-generated synthetic media during civil unrest, establishing precedent for content moderation in crisis contexts",
+    "This represents state-level intervention in platform speech during protests, raising questions about AI's role in amplifying or controlling information flow"
+   ]
+  },
+  {
+   "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+   "link": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-10-20T17:40:20+00:00",
+   "summary": "Meta argues nobody “decided” to pirate books to train AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta faced legal pressure to identify executives responsible for downloading pirated books via torrents for AI training, with the company arguing that no single person made a deliberate decision to do so.",
+   "whyMatters": [
+    "Raises corporate accountability questions about whether distributed decision-making processes can shield leadership from liability in unauthorized data acquisition",
+    "Ongoing litigation over Meta's training data practices will likely influence how other companies approach data sourcing and what legal exposure exists for AI developers"
+   ]
+  },
+  {
+   "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+   "link": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-20T15:53:21+00:00",
+   "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Spotify removed over 50 million AI-generated and spam songs from its recommendation system over the past year and made algorithmic changes to prioritize music by human artists. The company states it applied this standard consistently across its recommendation engine.",
+   "whyMatters": [
+    "Addresses growing concern about low-quality AI-generated content degrading user experience on major platforms",
+    "Sets precedent for how music platforms might curate between AI-assisted and human-created content at scale"
+   ]
+  },
+  {
+   "title": "The new economics of enterprise AI",
+   "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-10-20T15:20:25+00:00",
+   "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from “can we use it?” to “how efficiently are we using it?”…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "MIT Technology Review examines how enterprise AI economics are shifting from a phase where adoption value is obvious to one focused on efficiency and operational cost as AI becomes embedded infrastructure.",
+   "whyMatters": [
+    "As AI becomes standard in enterprise operations, ROI calculations and resource allocation will become more granular and efficiency-focused",
+    "This maturation affects how enterprises justify AI budgets and workforce planning, with implications for which roles and skills remain valuable in AI-integrated companies"
+   ]
+  },
+  {
    "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
    "link": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
    "source": "Wired · AI",
@@ -100,24 +292,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reveals a gap between theoretical knowledge of AI/privacy and operational security practices among experts",
     "Demonstrates how AI agents operating in shared digital spaces can expose systemic vulnerabilities in communication infrastructure"
-   ]
-  },
-  {
-   "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-   "link": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-20T14:21:16+00:00",
-   "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday, which says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Spotify removed over 50 million AI-generated and spam songs from its recommendation system over the past year and made algorithmic changes to prioritize music by human artists. The company states it applied this standard consistently across its recommendation engine.",
-   "whyMatters": [
-    "Addresses growing concern about low-quality AI-generated content degrading user experience on major platforms",
-    "Sets precedent for how music platforms might curate between AI-assisted and human-created content at scale"
    ]
   },
   {
@@ -226,6 +400,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+   "link": "https://openai.com/index/ted-taylor-restaurant",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-20T10:00:00+00:00",
+   "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An independent franchisee of Schlotzsky's and Cinnabon used ChatGPT Work to reduce menu repricing reconciliation time by 95%, potentially freeing up $100,000 in cash flow.",
+   "whyMatters": [
+    "Demonstrates concrete, measurable ROI for AI in small business operations where labor efficiency directly impacts profitability",
+    "Shows practical workflow integration of generative AI for non-technical business tasks, relevant to how small organizations (including schools and synagogues) might adopt such tools"
+   ]
+  },
+  {
    "title": "A visit to Samsung’s massive new semiconductor hub",
    "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
    "source": "MIT Tech Review · AI",
@@ -259,6 +451,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Lightweight flash models matter for accessibility and cost, allowing smaller organizations and educators to deploy AI locally without relying on expensive API providers",
     "Limited early adoption suggests market fragmentation: multiple strong alternatives means no clear standard yet, which could delay integration into production systems and educational tools"
+   ]
+  },
+  {
+   "title": "OpenAI acquires Orchestra Bio",
+   "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-20T00:00:00+00:00",
+   "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI acquired Orchestra Bio to integrate AI into life sciences research and development, aiming to accelerate drug development workflows for biopharma companies.",
+   "whyMatters": [
+    "Represents OpenAI's expansion into domain-specific AI applications beyond language and consumer use cases",
+    "AI-assisted drug discovery could reshape biopharma timelines and accessibility, with downstream effects on healthcare delivery and pharmaceutical ethics"
    ]
   },
   {
@@ -804,24 +1014,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Websites are closing their doors to AI agents",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-16T22:31:39+00:00",
-   "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Major websites are actively blocking autonomous AI agents from accessing their content as these agents proliferate. Companies like OpenAI, Meta, and Google are developing agents that can perform tasks across the web, but website operators are increasingly deploying technical barriers to prevent them from doing so.",
-   "whyMatters": [
-    "AI agent deployment faces practical friction from the internet itself—the infrastructure these systems depend on is actively resisting them, creating a tension between vendor promises and real-world viability",
-    "This represents an early policy/practice challenge for the AI industry: how platforms will operate when foundational web access cannot be assumed"
-   ]
-  },
-  {
    "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
    "link": "https://simonwillison.net/2026/Oct/16/code-review/",
    "source": "Simon Willison",
@@ -1038,24 +1230,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content",
-   "link": "https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-16T11:00:00+00:00",
-   "summary": "A network of AI-generated models is using comics’ material to funnel views to their OnlyFans and Fanvue accounts—and there’s not much comedians can do about it.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A network of AI-generated personas is stealing comedy material from professional comedians and reposting it on platforms like OnlyFans and Fanvue to drive engagement and monetize adult content. Comedians have limited legal recourse.",
-   "whyMatters": [
-    "Intellectual property issue: creators lose control over their work and cannot prevent it from being associated with content they did not create or endorse",
-    "Reflects broader problem that AI systems trained on human work enable mass copyright infringement with few consequences, affecting all creative industries and the original creators who fuel AI training"
-   ]
-  },
-  {
    "title": "Why No One Can Look Away From Elizabeth Holmes",
    "link": "https://www.nytimes.com/column/hard-fork",
    "source": "Hard Fork",
@@ -1207,24 +1381,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Targets institutional academic adoption and gives life sciences researchers a pathway to AI tools at reduced cost, accelerating integration of AI into research workflows",
     "Affects how educators in life sciences will need to train students—AI-assisted research methods are becoming standard in the field"
-   ]
-  },
-  {
-   "title": "Accenture Tells Employees They Can Now Spend Only $29 on Claude Per Month",
-   "link": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-15T16:46:18+00:00",
-   "summary": "Some employees who spend as much as $1,000 on Claude usage each month are scrambling to find ways to maintain access to the tool.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Accenture capped employee Claude API usage at $29 per month, a dramatic reduction for heavy users who previously spent up to $1,000 monthly. Employees are now competing for limited monthly budgets.",
-   "whyMatters": [
-    "Reflects corporate cost pressures as AI tool usage scales internally",
-    "May constrain productivity for teams with high legitimate usage needs"
    ]
   },
   {
@@ -1793,42 +1949,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
-   "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-13T18:23:33+00:00",
-   "summary": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Disney is offering $20 million to acquire technology from Character.ai, the chatbot platform previously linked to child safety scandals. The acquisition would give Disney access to Character.ai's chatbot capabilities.",
-   "whyMatters": [
-    "Demonstrates continued acquisition interest in AI chatbot tech despite serious child safety controversies in Character.ai's history",
-    "Raises concerns about whether safety issues are adequately addressed or investigated before tech transfer to major media companies serving children"
-   ]
-  },
-  {
-   "title": "Google wants to host your personal vibe-coded apps in the Play Store",
-   "link": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-13T17:00:39+00:00",
-   "summary": "Google plans to help turn those personal AI-generated apps into wide releases.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google announced plans to enable personal AI-generated apps created through vibe-coding to be distributed through the Play Store as full releases.",
-   "whyMatters": [
-    "Democratizes app distribution for AI-generated applications, lowering barriers to market entry",
-    "Raises questions about app quality standards, liability, and user expectations when AI-generated apps appear in official app stores"
-   ]
-  },
-  {
    "title": "AI and Faith Leaders To Join Interfaith Panel",
    "link": "https://aiandfaith.org/news/aif-leaders-join-interfaith-panel/",
    "source": "AI and Faith",
@@ -1889,44 +2009,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Major model release that will likely shift AI capabilities baseline across industry and research",
     "Sets trajectory for competitive dynamics and capabilities race among AI labs"
-   ]
-  },
-  {
-   "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
-   "link": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-13T16:00:02+00:00",
-   "summary": "Developers will get 50 percent discounted API rates through November.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Gemini 4 Argon is rolling out to Gemini app and Antigravity users, with paid access required and 50% discounted API rates offered to developers through November.",
-   "whyMatters": [
-    "Indicates Google's monetization strategy for frontier models, targeting both consumer and developer audiences",
-    "Incentive structure designed to accelerate developer adoption and API ecosystem growth"
-   ]
-  },
-  {
-   "title": "They war-gamed dimming the Sun. It went even worse than you think.",
-   "link": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-13T15:17:59+00:00",
-   "summary": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "A simulation war-game of solar geoengineering scenarios demonstrated severe negative outcomes when geopolitical factors are introduced, showing how international tensions could derail climate intervention attempts.",
-   "whyMatters": [
-    "Highlights how AI-driven simulations reveal real-world complexity in global governance and existential risk management",
-    "Relevant to ethics discussions around technological interventions that affect humanity broadly, touching on theological and moral frameworks for stewardship"
    ]
   },
   {
@@ -2358,24 +2440,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Matthew Green",
-   "link": "https://simonwillison.net/2026/Oct/9/matthew-green/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-09T15:02:29+00:00",
-   "summary": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Cryptographer Matthew Green expresses serious concern about quantum computing and AI: he estimates a 1% chance we live in a world where quantum computers have already broken current encryption, and a 15% chance that AI systems will produce breakthroughs that undermine confidence in existing public-key cryptography faster than institutions can replace standards.",
-   "whyMatters": [
-    "Quantum + AI = urgent infrastructure risk; the speed of AI advancement may outpace the glacial pace of cryptographic standard adoption",
-    "If encryption confidence erodes, it affects every system that depends on digital security—financial, medical, educational, governmental"
-   ]
-  },
-  {
    "title": "We’re putting too much faith in AI’s ability to say no",
    "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
    "source": "MIT Tech Review · AI",
@@ -2398,24 +2462,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-   "link": "https://openai.com/index/sophos",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-09T07:00:00+00:00",
-   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sophos, a cybersecurity company, has used OpenAI's Daybreak system to reduce threat investigation time by 96% and automate 52% of managed detection and response cases while maintaining human oversight.",
-   "whyMatters": [
-    "Practical AI application: demonstrates significant efficiency gains in enterprise security workflows, showing AI's tangible business value in reducing analyst workload",
-    "Human-in-the-loop model: explicitly preserves human oversight, exemplifying responsible deployment of AI in high-stakes decision-making"
-   ]
-  },
-  {
    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
    "link": "https://openai.com/index/asana-browser-agent",
    "source": "OpenAI News",
@@ -2431,6 +2477,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Model efficiency gains are materializing in real products; smaller, cheaper models can now do work that previously required larger, expensive ones",
     "Affects the economics of AI products: faster + cheaper models mean wider adoption and deployment across industries"
+   ]
+  },
+  {
+   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+   "link": "https://openai.com/index/sophos",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-09T07:00:00+00:00",
+   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Sophos, a cybersecurity company, has used OpenAI's Daybreak system to reduce threat investigation time by 96% and automate 52% of managed detection and response cases while maintaining human oversight.",
+   "whyMatters": [
+    "Practical AI application: demonstrates significant efficiency gains in enterprise security workflows, showing AI's tangible business value in reducing analyst workload",
+    "Human-in-the-loop model: explicitly preserves human oversight, exemplifying responsible deployment of AI in high-stakes decision-making"
    ]
   },
   {
@@ -2523,26 +2587,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical cost optimization strategies for enterprises using AI models at scale",
     "Shows that intelligent model selection and task-matching can preserve productivity while reducing expenses"
-   ]
-  },
-  {
-   "title": "AI breakthroughs in robotics won’t change your life any time soon",
-   "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-08T09:00:00+00:00",
-   "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Recent viral videos of humanoid robots performing tasks have generated hype, but MIT Technology Review reports that AI advances in robotics will not meaningfully impact everyday life in the near term. The article provides a reality check on the timeline for practical robot deployment.",
-   "whyMatters": [
-    "Corrects overblown expectations about robotics—important context for educators discussing AI capabilities with students and communities",
-    "Addresses the gap between technological demos and real-world implementation, a key consideration for policy makers and business leaders"
    ]
   },
   {
@@ -2761,60 +2805,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates enterprise adoption of AI for complex, multi-step reasoning in quantitative finance",
     "Highlights the importance of human-in-the-loop review for high-stakes financial research workflows"
-   ]
-  },
-  {
-   "title": "Sharing AI progress in mathematics",
-   "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-06T12:00:00+00:00",
-   "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published new results on open mathematics problems solved by an internal frontier model, sharing formalized Lean proofs and research details on GitHub. The release aims to advance mathematical research and make AI contributions transparent.",
-   "whyMatters": [
-    "Makes AI mathematical discoveries available to the research community for verification and extension",
-    "Raises questions about publication norms and how AI-generated mathematical results should be credited and vetted in academic settings"
-   ]
-  },
-  {
-   "title": "Advancing computer use with Ironclad",
-   "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-06T10:00:00+00:00",
-   "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI and Ironclad are collaborating to develop and evaluate AI agents that can handle complex contract workflows and professional document work. The project aims to demonstrate practical AI agent capabilities in real business processes.",
-   "whyMatters": [
-    "Shows AI agents moving from research into tangible professional workflows, which could reshape how legal and contracting work is performed",
-    "Illustrates the gap between controlled training environments and real-world deployment—especially relevant given concurrent reports of agents causing unintended harm to external systems"
-   ]
-  },
-  {
-   "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
-   "link": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-06T06:28:43+00:00",
-   "summary": "A small win for US open source",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/DIu7xA898go",
-   "themes": [],
-   "aiSummary": "The US open-source AI community has achieved a development milestone with the Reflection Beam 501B-A23B American open model. The announcement frames this as a modest but meaningful win for domestic open-source AI development.",
-   "whyMatters": [
-    "Strengthens the US open-source AI ecosystem independent of proprietary vendors",
-    "Matters for organizations seeking alternatives to closed commercial models and for maintaining AI capability diversity"
    ]
   },
   {
@@ -3246,8 +3236,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Google DeepMind released Gemini 3.8 with upgraded text-to-speech capabilities.",
+   "whyMatters": [
+    "Improved text-to-speech expands AI accessibility for users with visual impairments and supports multi-modal AI interfaces",
+    "Enhanced voice synthesis quality affects adoption of AI assistants in educational and accessibility contexts where natural speech is pedagogically important"
+   ]
   },
   {
    "title": "Agent Wars!",
