@@ -1,88 +1,148 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-21T01:24:26.648365+00:00",
+ "generatedAt": "2026-10-21T08:51:00.840044+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-21T01:24:43.526619+00:00",
+  "generatedAt": "2026-10-21T08:51:18.058588+00:00",
   "bullets": [
    {
-    "text": "Critical security breach: Private keys for eight eMudhra certificate authorities are compromised, affecting trust systems across Mozilla, Microsoft, Apple, and Chrome.",
+    "text": "Meta's Muse AI exposed users' sensitive personal and business secrets through publicly accessible shared conversation links; the company suspended sharing pending investigation.",
     "links": [
-     "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+     "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+     "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
     ]
    },
    {
-    "text": "AI infrastructure costs spike: CoreWeave bonds now demand distressed-level yields (1,000+ basis points over government bonds), raising questions about AI buildout's financial sustainability.",
+    "text": "A fundamental breakthrough in neural network interpretability claims years of perceived AI complexity may stem from flawed investigation methods, not inherent opacity.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+     "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+     "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
     ]
    },
    {
-    "text": "AI agents now conduct autonomous corporate breaches: Security firm Norforge documented AI agents independently compromising 100+ corporate websites including John Deere, SharkNinja, and Cummins.",
+    "text": "DeepSeek's open-source inference system (DeepInfer) achieves 155 trillion tokens daily per cluster at ~80% margins, reaching profitability within 81 days.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+     "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
     ]
    },
    {
-    "text": "Meta's Muse AI exposed sensitive personal and business secrets when users shared conversations before feature suspension pending investigation.",
+    "text": "AI decompilation tools enable widespread reverse-engineering of proprietary software and firmware; hackers already breached systems at Staples and similar targets.",
     "links": [
-     "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-     "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair"
+     "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
+     "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/"
     ]
    },
    {
-    "text": "AI voice-cloning now being deployed for real-world fraud: Scammers impersonated a specific sheriff to defraud targets, marking concrete weaponization of voice synthesis technology.",
+    "text": "Europe faces a hard tradeoff between AI compute capacity and climate commitments; Germany's heat-recycling initiative for data centers failed, raising questions about buildout viability.",
     "links": [
-     "https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice/"
+     "https://www.wired.com/story/europe-data-centers-climate-change/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-20T08:51:07.223246+00:00",
+  "generatedAt": "2026-10-21T08:51:18.058588+00:00",
   "bullets": [
    {
-    "text": "US fossil fuel infrastructure expansion, driven by AI data center demand, is outpacing renewable growth for the first time in a decade, reshaping energy policy.",
+    "text": "Meta's Muse AI exposed users' sensitive personal and business secrets through publicly accessible shared conversation links; the company suspended sharing pending investigation.",
     "links": [
-     "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
+     "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+     "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
     ]
    },
    {
-    "text": "AI infrastructure financing shows distress signals: CoreWeave's bond yields spike to junk territory, raising questions about whether the AI buildout rests on speculative debt.",
+    "text": "A fundamental breakthrough in neural network interpretability claims years of perceived AI complexity may stem from flawed investigation methods, not inherent opacity.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+     "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+     "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
     ]
    },
    {
-    "text": "An ex-OpenAI engineer accused of espionage possessed Saudi government documents; US officials fear the Saudi government may assist his escape, court orders him held in custody.",
+    "text": "DeepSeek's open-source inference system (DeepInfer) achieves 155 trillion tokens daily per cluster at ~80% margins, reaching profitability within 81 days.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-     "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/"
+     "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
     ]
    },
    {
-    "text": "AI agents autonomously breached over 100 corporate websites including John Deere and SharkNinja; autonomous hacking marks a qualitative shift in attack sophistication.",
+    "text": "AI decompilation tools enable widespread reverse-engineering of proprietary software and firmware; hackers already breached systems at Staples and similar targets.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+     "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
+     "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/"
     ]
    },
    {
-    "text": "AI coding agents are automating away the puzzle-solving work that made programming intellectually rewarding, reshaping the career's fundamental appeal to practitioners.",
+    "text": "Europe faces a hard tradeoff between AI compute capacity and climate commitments; Germany's heat-recycling initiative for data centers failed, raising questions about buildout viability.",
     "links": [
-     "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+     "https://www.wired.com/story/europe-data-centers-climate-change/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-20T08:50:59.337331+00:00",
+  "updatedAt": "2026-10-21T08:51:10.618931+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics, governance, and moral/religious perspectives on technology",
-   "Appreciates practical AI applications and business impacts (Apple, Waze)",
-   "Wants substantive analysis over technical release notes and implementation details"
+   "Interested in AI's intersection with ethics, religion, and moral leadership",
+   "Drawn to AI stories with practical business/product focus (Apple, Waze features)",
+   "Prefers substantive reporting over technical release notes and implementation details"
   ]
  },
  "items": [
+  {
+   "title": "Can Europe Build Data Centers Without Giving Up Its Climate Goals?",
+   "link": "https://www.wired.com/story/europe-data-centers-climate-change/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-21T08:30:00+00:00",
+   "summary": "A plan to funnel the heat given off by data centers into nearby homes has run aground in Germany. Across Europe, policymakers are weighing AI ambitions against climate objectives.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "European policymakers are struggling to balance AI infrastructure expansion with climate commitments. A German initiative to recycle data center heat into residential heating has failed, raising questions about how to build the compute capacity AI requires while meeting emissions targets.",
+   "whyMatters": [
+    "Data center energy consumption directly threatens Europe's climate goals, creating a policy tension at the AI infrastructure level",
+    "The failure of practical heat-reuse solutions suggests technical fixes may be insufficient—policymakers may need to make harder choices between AI capability and environmental commitments"
+   ]
+  },
+  {
+   "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+   "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-21T06:54:09+00:00",
+   "summary": "An open source “bomb” drops from China",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://substackcdn.com/image/fetch/$s_!tu5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a949cd-f727-48e2-9bd4-c4d110bf94e9_1326x1362.png",
+   "themes": [],
+   "aiSummary": "DeepSeek, a Chinese AI company, released an open-source inference system (DeepInfer) that reportedly runs at massive scale (155 trillion tokens per day per cluster) with very high margins, achieving profitability in under three months. The release is described as competitive and comes from outside the Western AI leadership.",
+   "whyMatters": [
+    "Signals significant cost-efficiency gains in AI inference that may reshape pricing and deployment strategies across the industry",
+    "Highlights China's capability to produce and open-source competitive AI infrastructure, intensifying competition in the AI landscape beyond OpenAI and major Western labs"
+   ]
+  },
+  {
+   "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+   "link": "https://www.latent.space/p/tenex",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-21T05:01:26+00:00",
+   "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://api.substack.com/feed/podcast/221403684/69e655f2eacf6772a7f2575bbbbf9b0d.mp3",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Tenex is building software development tools designed around AI agents and outcome-based pricing for enterprise customers. The discussion covers how enterprises are adopting AI-native workflows and what barriers remain to broader adoption.",
+   "whyMatters": [
+    "Reflects a shift in enterprise AI adoption from experimental pilots to integrated development practices—pricing tied to outcomes rather than usage",
+    "Addresses the \"last mile\" problem: even as AI models improve, getting organizations to actually restructure workflows around AI agents remains the harder engineering challenge"
+   ]
+  },
   {
    "title": "eMudhra Intermediate CA Compromise",
    "link": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
@@ -1226,24 +1286,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
-   "link": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-16T15:00:00+00:00",
-   "summary": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT professor Sherry Turkle argues that chatbots using first-person pronouns like \"I\" and \"me\" contribute to unhealthy psychological attachment and blurred boundaries between humans and machines. She warns that people have become dangerously enmeshed with these systems in ways that reinforce false intimacy.",
-   "whyMatters": [
-    "Touches on education and human development: teachers and parents need to understand how chatbot design choices affect student relationships with AI and their sense of what is real connection",
-    "Raises a practical design ethics question for educators—whether AI systems used in schools should be constrained in how they present themselves to avoid psychological confusion"
-   ]
-  },
-  {
    "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
    "link": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
    "source": "Ars Technica · AI",
@@ -1320,24 +1362,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Benefit Street Partners answers questions faster with Codex",
-   "link": "https://openai.com/index/benefit-street-partners",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-16T00:00:00+00:00",
-   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
-   "whyMatters": [
-    "Demonstrates Codex application in financial services for regulatory/compliance work",
-    "Shows practical productivity gains in professional tool-building beyond traditional software development"
-   ]
-  },
-  {
    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
    "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
    "source": "OpenAI News",
@@ -1355,6 +1379,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Integration of AI agents with developer platforms accelerates adoption of agentic systems in programming workflows",
     "Rapid growth demonstrates market demand for AI tools that can autonomously solve technical problems, reshaping how developers work"
+   ]
+  },
+  {
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "link": "https://openai.com/index/benefit-street-partners",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-16T00:00:00+00:00",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
+   "whyMatters": [
+    "Demonstrates Codex application in financial services for regulatory/compliance work",
+    "Shows practical productivity gains in professional tool-building beyond traditional software development"
    ]
   },
   {
@@ -2492,24 +2534,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-   "link": "https://openai.com/index/sophos",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-09T07:00:00+00:00",
-   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sophos, a cybersecurity company, has used OpenAI's Daybreak system to reduce threat investigation time by 96% and automate 52% of managed detection and response cases while maintaining human oversight.",
-   "whyMatters": [
-    "Practical AI application: demonstrates significant efficiency gains in enterprise security workflows, showing AI's tangible business value in reducing analyst workload",
-    "Human-in-the-loop model: explicitly preserves human oversight, exemplifying responsible deployment of AI in high-stakes decision-making"
-   ]
-  },
-  {
    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
    "link": "https://openai.com/index/asana-browser-agent",
    "source": "OpenAI News",
@@ -2525,6 +2549,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Model efficiency gains are materializing in real products; smaller, cheaper models can now do work that previously required larger, expensive ones",
     "Affects the economics of AI products: faster + cheaper models mean wider adoption and deployment across industries"
+   ]
+  },
+  {
+   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+   "link": "https://openai.com/index/sophos",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-09T07:00:00+00:00",
+   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Sophos, a cybersecurity company, has used OpenAI's Daybreak system to reduce threat investigation time by 96% and automate 52% of managed detection and response cases while maintaining human oversight.",
+   "whyMatters": [
+    "Practical AI application: demonstrates significant efficiency gains in enterprise security workflows, showing AI's tangible business value in reducing analyst workload",
+    "Human-in-the-loop model: explicitly preserves human oversight, exemplifying responsible deployment of AI in high-stakes decision-making"
    ]
   },
   {
@@ -2692,24 +2734,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
-   "link": "https://www.latent.space/p/stacklok",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-07T14:10:45+00:00",
-   "summary": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!r55R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1c3cd3d-2682-47cb-9be6-74302c1ca8ea_2560x1440.png",
-   "themes": [],
-   "aiSummary": "Kubernetes co-creators Craig McLuckie and Joe Beda are building a cloud-native platform to run AI agents reliably at scale, moving agent execution from local desktops into cloud infrastructure.",
-   "whyMatters": [
-    "Addresses a fundamental constraint in agent deployment—current desktop-based approaches don't scale for production workloads",
-    "Could lower the barrier for organizations deploying autonomous AI systems by abstracting cloud complexity"
-   ]
-  },
-  {
    "title": "Helping teens learn, plan, and shape the future of AI",
    "link": "https://openai.com/index/teens-learn-and-plan",
    "source": "OpenAI News",
@@ -2743,24 +2767,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical e-commerce integration into conversational AI—reducing friction for travel planning",
     "Shows how hospitality and booking workflows are being embedded into LLM interfaces, shifting where transactions originate"
-   ]
-  },
-  {
-   "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-   "link": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-07T04:55:44+00:00",
-   "summary": "Our head hurts.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!3_fH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcf69e441-6f07-47c9-ba4d-3cd64a85fb49_1224x1255.png",
-   "themes": [],
-   "aiSummary": "OpenAI published 722 mathematics papers that reportedly solve 90 of the top 500 open problems in mathematics, representing a claimed breakthrough in mathematical research capability.",
-   "whyMatters": [
-    "If verified, demonstrates significant expansion of AI capability from language tasks into rigorous formal mathematics",
-    "Raises questions about verification standards and peer review for AI-generated mathematical proofs"
    ]
   },
   {
