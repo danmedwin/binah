@@ -48,7 +48,8 @@ SYSTEM = (
     "bullets on why it matters, concrete and specific (impact on the AI landscape, "
     "on educators/clergy/communities, on policy or practice). When an item touches "
     "religion or education, say so plainly in the bullets; otherwise do not force "
-    "that angle. Base everything only on the provided text — never invent facts."
+    "that angle. Base everything only on the provided text — never invent facts. "
+    "Return each item's id exactly as given."
 )
 
 SCHEMA = {
@@ -59,11 +60,11 @@ SCHEMA = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "link": {"type": "string"},
+                    "id": {"type": "string"},
                     "summary": {"type": "string"},
                     "why": {"type": "array", "items": {"type": "string"}},
                 },
-                "required": ["link", "summary", "why"],
+                "required": ["id", "summary", "why"],
                 "additionalProperties": False,
             },
         }
@@ -80,9 +81,9 @@ BRIEF_SYSTEM = (
     "4-5 'what you need to know' takeaways, ordered by importance. Each takeaway "
     "has: text — one plain sentence under ~35 words, concrete, no hype; group "
     "related items into one takeaway (e.g. several model launches = one "
-    "frontier-model bullet); and links — the 1-3 links (verbatim from the "
-    "provided list) of the stories that takeaway is drawn from. Base everything "
-    "only on the provided text."
+    "frontier-model bullet); and ids — the ids of the 1-3 stories that takeaway "
+    "is drawn from. Check each id's title actually reports the takeaway's facts. "
+    "Base everything only on the provided text."
 )
 
 BRIEF_SCHEMA = {
@@ -94,9 +95,9 @@ BRIEF_SCHEMA = {
                 "type": "object",
                 "properties": {
                     "text": {"type": "string"},
-                    "links": {"type": "array", "items": {"type": "string"}},
+                    "ids": {"type": "array", "items": {"type": "string"}},
                 },
-                "required": ["text", "links"],
+                "required": ["text", "ids"],
                 "additionalProperties": False,
             },
         },
@@ -161,6 +162,27 @@ def build_taste_profile(api_key, votes, previous):
             "voteCount": len(votes), "bullets": bullets[:6]}
 
 
+def with_id_enum(schema, ids):
+    """Copy of schema with every "id"/"ids" field limited to the given ids.
+
+    The model used to echo article URLs back verbatim, and a near-identical
+    sibling URL from the same outlet (Verge 1015316 vs 1015843) slipped through
+    the "is it a real link" check — a takeaway shipped pointing at the wrong
+    story. Short ids pinned by enum can't be mistyped into a different item.
+    """
+    if isinstance(schema, list):
+        return [with_id_enum(v, ids) for v in schema]
+    if not isinstance(schema, dict):
+        return schema
+    out = {k: with_id_enum(v, ids) for k, v in schema.items()}
+    props = out.get("properties") or {}
+    if "id" in props:
+        props["id"] = {"type": "string", "enum": list(ids)}
+    if "ids" in props:
+        props["ids"] = {"type": "array", "items": {"type": "string", "enum": list(ids)}}
+    return out
+
+
 def call_claude(api_key, system, schema, user_content):
     payload = {
         "model": MODEL,
@@ -202,8 +224,10 @@ def build_brief(api_key, items, previous=None, taste=None):
     recent = [i for i in items if i.get("date") and i["date"] >= cutoff]
     if len(recent) < 10:  # thin news window — use the newest 40 instead
         recent = sorted(items, key=lambda x: x.get("date") or "", reverse=True)[:40]
-    payload = [{"link": i["link"], "title": i["title"], "source": i["source"],
-                "blurb": (i.get("aiSummary") or i["summary"])[:250]} for i in recent]
+    by_id = {f"s{n}": i for n, i in enumerate(recent, 1)}
+    payload = [{"id": k, "title": i["title"], "source": i["source"],
+                "blurb": (i.get("aiSummary") or i["summary"])[:250]}
+               for k, i in by_id.items()]
     # Anti-repetition: show the model the brief the reader already received
     # (yesterday's emailed digest) so consecutive digests don't re-cover the
     # same stories — slow news days made back-to-back emails nearly identical.
@@ -230,13 +254,12 @@ def build_brief(api_key, items, previous=None, taste=None):
             "preference:\n- " + "\n- ".join(taste_bullets)
         )
     res = call_claude(
-        api_key, BRIEF_SYSTEM, BRIEF_SCHEMA,
+        api_key, BRIEF_SYSTEM, with_id_enum(BRIEF_SCHEMA, by_id),
         "Write today's brief from these items:\n\n"
         + json.dumps(payload, ensure_ascii=False) + taste_note + prev_note,
     )
     if not res or not res.get("bullets"):
         return None
-    valid = {i["link"] for i in recent}
     bullets = []
     for b in res["bullets"]:
         text = (b.get("text") or "").strip()
@@ -244,7 +267,8 @@ def build_brief(api_key, items, previous=None, taste=None):
             continue
         bullets.append({
             "text": text,
-            "links": [l for l in b.get("links", []) if l in valid][:3],
+            "links": list(dict.fromkeys(
+                by_id[k]["link"] for k in b.get("ids", []) if k in by_id))[:3],
         })
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
@@ -273,24 +297,24 @@ def main():
     data = json.loads(re.sub(r"^window\.NEWS_DATA = |;\s*$", "", raw.strip()))
     items = data["items"]
     todo = [i for i in items if not i.get("aiSummary")]
-    by_link = {i["link"]: i for i in items}
     done = 0
     batches_run = batches_failed = 0
     if todo:
         print(f"Enriching {len(todo)} of {len(items)} items with {MODEL}...")
         for start in range(0, len(todo), BATCH_SIZE):
             batch = todo[start:start + BATCH_SIZE]
+            by_id = {f"s{n}": i for n, i in enumerate(batch, 1)}
             user = "Summarize each of these news items:\n\n" + json.dumps(
-                [{"link": i["link"], "title": i["title"], "source": i["source"],
-                  "blurb": i["summary"]} for i in batch],
+                [{"id": k, "title": i["title"], "source": i["source"],
+                  "blurb": i["summary"]} for k, i in by_id.items()],
                 ensure_ascii=False,
             )
-            res = call_claude(api_key, SYSTEM, SCHEMA, user)
+            res = call_claude(api_key, SYSTEM, with_id_enum(SCHEMA, by_id), user)
             batches_run += 1
             if res is None:
                 batches_failed += 1
             for row in (res or {}).get("items", []):
-                it = by_link.get(row.get("link"))
+                it = by_id.get(row.get("id"))
                 if it and row.get("summary"):
                     it["aiSummary"] = row["summary"].strip()
                     it["whyMatters"] = [w.strip() for w in row.get("why", []) if w.strip()][:3]
