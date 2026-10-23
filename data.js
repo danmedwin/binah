@@ -1,35 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-23T08:48:43.505723+00:00",
+ "generatedAt": "2026-10-23T09:50:03.400245+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-23T08:48:54.954553+00:00",
+  "generatedAt": "2026-10-23T09:50:35.239729+00:00",
   "bullets": [
    {
-    "text": "Microsoft claims its AI diagnostic tool outperforms human doctors by up to 4x in accuracy, marking a long-promised but rarely demonstrated healthcare application of frontier AI.",
+    "text": "Critical PHP vulnerabilities affecting 70% of the web were exploited for days before patches released; OpenAI's Patch the Planet program coordinated responsible disclosure.",
+    "links": [
+     "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+     "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+     "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/"
+    ]
+   },
+   {
+    "text": "Microsoft claims its AI diagnostic tool achieves four times better medical accuracy than human doctors, marking AI's first major healthcare delivery success.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
     ]
    },
    {
-    "text": "Meta's Muse AI assistant exposed users' confidential documents and business data through a flawed share-link design, forcing Meta to suspend sharing; legal experts say Meta's revised terms still permit scraping news sites for AI training.",
-    "links": [
-     "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
-     "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
-     "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
-    ]
-   },
-   {
-    "text": "OpenAI, Anthropic, and Nvidia each spent record quarterly lobbying amounts ($1.5M–$2.2M in Q3 2024), far exceeding traditional tech giants as AI companies seek to shape federal policy.",
-    "links": [
-     "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records"
-    ]
-   },
-   {
-    "text": "Enterprise AI advantage increasingly derives from infrastructure, data strategy, and governance systems built around models rather than from which model companies choose—a shift from years of focus on model capability alone.",
+    "text": "Enterprise AI value now hinges on infrastructure and operational systems around models rather than model choice itself—a fundamental shift in competitive advantage.",
     "links": [
      "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-     "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
      "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
+    ]
+   },
+   {
+    "text": "Hackers are circumventing AI safety guardrails and using AI decompilation tools to reverse-engineer software at scale, outpacing traditional defenses.",
+    "links": [
+     "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+     "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/"
     ]
    }
   ]
@@ -397,20 +397,20 @@ window.NEWS_DATA = {
   },
   {
    "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-   "link": "https://www.latent.space/p/modal-d",
+   "link": "https://latent.space/p/modal-d/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-22T17:40:57+00:00",
    "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/221647996/5d4e5f71cd623bb63fd2aff5db9a1836.mp3",
-   "image": "",
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a16579-8537-79c0-86b7-c9fb7a723041/01a16579-85f9-7405-b65b-7eeb25ff90b0.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/42ffcabc-02c3-4715-ba2c-bd338dd3b064/podcast_artwork_20261022-270-vcw8st.jpg?t=1792703827",
    "themes": [],
-   "aiSummary": "Latent Space podcast episode discusses why AI compute infrastructure is standardized around rectangular form factors, covering elastic GPUs, sandboxing, and the emerging agent cloud economics.",
+   "aiSummary": "Erik Bernhardsson, Modal's CEO, discusses why compute infrastructure is sold in standardized rectangular form factors and explores the economics of elastic GPUs and sandbox-based cloud services. The talk covers infrastructure design choices in the emerging agent cloud.",
    "whyMatters": [
-    "Technical infrastructure choices are shaping the compute layer for agentic AI systems",
-    "Understanding economics of compute is central to predicting which AI application models become viable"
+    "Infrastructure standardization affects how enterprises and developers access AI compute resources",
+    "Modal's sandbox approach is reshaping how companies think about deploying agents at scale"
    ]
   },
   {
@@ -486,24 +486,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-22T14:30:24+00:00",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind has created a global forest classification map that categorizes every 10-meter patch of land on Earth into specific forest types.",
-   "whyMatters": [
-    "Demonstrates environmental monitoring at unprecedented scale and granularity using AI/ML",
-    "Provides data infrastructure for climate, conservation, and land-use policy"
-   ]
-  },
-  {
    "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
    "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
    "source": "404 Media",
@@ -541,20 +523,20 @@ window.NEWS_DATA = {
   },
   {
    "title": "You are the Team — Anekha Sokhal, Moshi",
-   "link": "https://www.latent.space/p/moshi",
+   "link": "https://latent.space/p/moshi/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-22T14:03:40+00:00",
    "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/221404681/24bc30266ea9e301325cdc415de8189b.mp3",
-   "image": "",
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1641c-6022-751d-84e7-ce1521a0983d/01a1641c-605f-7675-a60f-8606f3ed51a6.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/8ec659ae-dc45-474f-ad8d-e734f41ae197/podcast_artwork_20261022-259-a9sit4.jpg?t=1792680945",
    "themes": [],
-   "aiSummary": "Moshi transforms market data into actionable trading insights, and successful AI tools must integrate into traders' existing workflows rather than forcing new behavior.",
+   "aiSummary": "Anekha Sokhal from Moshi explains how the platform converts market data into actionable trading insights using AI tools designed specifically for trader workflows. The focus is on building AI systems that integrate naturally with how professionals already work.",
    "whyMatters": [
-    "Illustrates practical constraint in AI adoption: tools must fit human work patterns, not replace them wholesale",
-    "Shows how AI's utility in high-stakes domains depends on workflow integration and user trust"
+    "Demonstrates practical workflow integration rather than replacing human decision-makers",
+    "Shows how domain-specific AI design matters for professional adoption in high-stakes environments"
    ]
   },
   {
@@ -578,24 +560,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Making the case for context-aware AI",
-   "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-22T10:00:00+00:00",
-   "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review explores why enterprise AI systems struggle in real-world deployment: powerful models can make poor decisions when they lack understanding of business constraints, relationships, and operational context.",
-   "whyMatters": [
-    "Identifies critical gap between AI capability and business value—raw model power is insufficient without contextual knowledge",
-    "Matters for organizations trying to move AI from pilot projects to production, requiring investment in domain understanding alongside model development"
-   ]
-  },
-  {
    "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
    "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
    "source": "Wired · AI",
@@ -611,6 +575,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Democratizes access to AI-assisted genomics research by offering an open model rather than proprietary tools",
     "Accelerates scientific discovery by making it easier for researchers to model genetic effects without building their own infrastructure"
+   ]
+  },
+  {
+   "title": "Making the case for context-aware AI",
+   "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-10-22T10:00:00+00:00",
+   "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review explores why enterprise AI systems struggle in real-world deployment: powerful models can make poor decisions when they lack understanding of business constraints, relationships, and operational context.",
+   "whyMatters": [
+    "Identifies critical gap between AI capability and business value—raw model power is insufficient without contextual knowledge",
+    "Matters for organizations trying to move AI from pilot projects to production, requiring investment in domain understanding alongside model development"
    ]
   },
   {
@@ -653,7 +635,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-   "link": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+   "link": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-22T07:42:44+00:00",
@@ -661,12 +643,12 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!Ak4o!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f193200-5a32-4d16-8cef-d36ab44b0848_1440x1290.png",
+   "image": "",
    "themes": [],
-   "aiSummary": "OpenAI's Patch the Planet program and one other party discovered PHP2Shell vulnerabilities in core PHP (which powers approximately 70% of the web), using GPT-5.6 Sol, with a coordinated 2-month response to patch the flaws.",
+   "aiSummary": "OpenAI's Patch the Planet program, alongside another party, discovered critical PHP2Shell vulnerabilities affecting approximately 70% of the web using GPT-5.6 Sol, coordinating a two-month responsible disclosure response. This represents organized AI-assisted security work at global infrastructure scale.",
    "whyMatters": [
-    "AI systems are actively being deployed to identify critical security vulnerabilities in fundamental internet infrastructure",
-    "Coordinated vulnerability disclosure processes ensure critical bugs affecting the majority of websites receive proper remediation before public exploitation"
+    "AI systems are now actively identifying vulnerabilities in widely-deployed software affecting billions of systems",
+    "Demonstrates necessity for coordinated disclosure processes as AI capabilities in security research advance"
    ]
   },
   {
@@ -1016,7 +998,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "Claude Mods: Flipping the Harness Inside Out",
-   "link": "https://www.latent.space/p/claude-mods",
+   "link": "https://latent.space/p/claude-mods/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-21T13:04:19+00:00",
@@ -1024,12 +1006,12 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!Kjjn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc61f4d99-31a9-4e4c-aa02-65e5b5db1799_1280x720.png",
+   "image": "",
    "themes": [],
-   "aiSummary": "Claude Mods represents an early implementation of an Attention Interface that reverses the traditional agent harness model, shifting control from machine-oriented to human-oriented design. The architectural change aims to give users more direct influence over agent behavior.",
+   "aiSummary": "Claude Mods represents a shift in how AI agent interfaces are designed, moving from a harness paradigm centered on machine control to one centered on human needs and attention. The feature flips the traditional agent architecture inside-out.",
    "whyMatters": [
-    "Design philosophy shift: moves toward interfaces that keep humans centrally in control of agent systems",
-    "Relevant to questions of AI transparency and user agency in increasingly autonomous systems"
+    "Reflects evolving thinking about human-AI interaction design in agent systems",
+    "Addresses usability and control concerns by reorienting the interface toward human workflows"
    ]
   },
   {
@@ -1124,7 +1106,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
-   "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+   "link": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-21T06:54:09+00:00",
@@ -1132,30 +1114,30 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!tu5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a949cd-f727-48e2-9bd4-c4d110bf94e9_1326x1362.png",
+   "image": "",
    "themes": [],
-   "aiSummary": "DeepSeek, a Chinese AI company, released an open-source inference system (DeepInfer) that reportedly runs at massive scale (155 trillion tokens per day per cluster) with very high margins, achieving profitability in under three months. The release is described as competitive and comes from outside the Western AI leadership.",
+   "aiSummary": "DeepSeek released DeepInfer, an open-source inference system running 155 trillion tokens per day across clusters with approximately 80% margins and an 81-day payback period. The release represents significant open-source competition in AI inference infrastructure.",
    "whyMatters": [
-    "Signals significant cost-efficiency gains in AI inference that may reshape pricing and deployment strategies across the industry",
-    "Highlights China's capability to produce and open-source competitive AI infrastructure, intensifying competition in the AI landscape beyond OpenAI and major Western labs"
+    "Open-source inference systems at this scale lower barriers to entry for organizations building AI applications",
+    "Economics demonstrate viable business models for high-volume inference without closed-garden lock-in"
    ]
   },
   {
    "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
-   "link": "https://www.latent.space/p/tenex",
+   "link": "https://latent.space/p/tenex/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-21T05:01:26+00:00",
-   "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+   "summary": "Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/221403684/69e655f2eacf6772a7f2575bbbbf9b0d.mp3",
-   "image": "",
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a15fdf-6b2e-7a7d-bae0-b96d9be4f029/01a15fdf-6bbf-7640-849c-1c76853011b3.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/2bf1c2dd-c0ac-4aaf-8574-ac648ca1724c/podcast_artwork_20261021-197-6j31d8.jpg?t=1792609845",
    "themes": [],
-   "aiSummary": "Tenex is building software development tools designed around AI agents and outcome-based pricing for enterprise customers. The discussion covers how enterprises are adopting AI-native workflows and what barriers remain to broader adoption.",
+   "aiSummary": "Alex Lieberman and CJ Hess present how Tenex builds an AI-native software development lifecycle for large enterprises, focusing on outcome-based pricing and agent-driven development. The talk addresses enterprise adoption challenges in the practical last mile of AI deployment.",
    "whyMatters": [
-    "Reflects a shift in enterprise AI adoption from experimental pilots to integrated development practices—pricing tied to outcomes rather than usage",
-    "Addresses the \"last mile\" problem: even as AI models improve, getting organizations to actually restructure workflows around AI agents remains the harder engineering challenge"
+    "Enterprise software development is being reshaped by agent-based automation and outcome-based purchasing models",
+    "Speaks to how Fortune 2000 companies are moving beyond pilot projects to production AI systems"
    ]
   },
   {
@@ -1308,20 +1290,20 @@ window.NEWS_DATA = {
   },
   {
    "title": "The Programmable Data Center — Evan Conrad, SF Compute",
-   "link": "https://www.latent.space/p/sfcompute2",
+   "link": "https://latent.space/p/sfcompute2/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-20T19:31:57+00:00",
    "summary": "From GPU trading to physical settlement, independent markets, and programmable compute",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/221372257/7df8338a8bb8d4ac8abb9702a0be2372.mp3",
-   "image": "",
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a15fdf-6a69-7b58-8a9c-954c7b49da6f/01a15fdf-6b96-7008-b50f-08adb32aa676.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/07e9a0bb-0dfe-48c5-9715-e232e6cbdd0e/podcast_artwork_20261021-274-fhz228.jpg?t=1792609844",
    "themes": [],
-   "aiSummary": "Evan Conrad discussed the concept of a programmable data center, covering topics from GPU market trading to physical settlement mechanisms and independent compute markets.",
+   "aiSummary": "Evan Conrad from SF Compute discusses programmable data centers that enable GPU trading and physical compute settlement through independent markets. The vision extends to fully programmable infrastructure for compute allocation.",
    "whyMatters": [
-    "Programmable data centers represent infrastructure-level shifts that could reshape how AI compute is provisioned and priced",
-    "Independent compute markets and settlement mechanisms could decentralize AI resource allocation away from a few large cloud providers"
+    "Represents emerging market structures for compute resources similar to financial derivatives",
+    "May reshape how organizations access specialized hardware at scale and cost"
    ]
   },
   {
@@ -1510,7 +1492,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[AINews] not much happened today",
-   "link": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+   "link": "https://latent.space/p/ainews-not-much-happened-today-f09/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-20T05:21:52+00:00",
@@ -1518,12 +1500,12 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!otPo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHVBPHSjWcAAHoHt.jpg",
+   "image": "",
    "themes": [],
-   "aiSummary": "Several new lightweight AI models were released—DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3—but adoption remains limited. These models represent incremental updates in the competitive landscape of efficient inference.",
+   "aiSummary": "A brief update noting that while DeepSeek V4.1 Flash, MiniMax M3.1 Flash, and Mercury 3 released updates, none are expected to see extremely wide adoption yet. Described as a slow news day in the AI space.",
    "whyMatters": [
-    "Lightweight flash models matter for accessibility and cost, allowing smaller organizations and educators to deploy AI locally without relying on expensive API providers",
-    "Limited early adoption suggests market fragmentation: multiple strong alternatives means no clear standard yet, which could delay integration into production systems and educational tools"
+    "Incremental model improvements continue but without breakthrough adoption drivers",
+    "Suggests market is maturing toward consolidation around specific platforms"
    ]
   },
   {
@@ -1845,7 +1827,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[AINews] High Taste Testers Ep. 1",
-   "link": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+   "link": "https://latent.space/p/ainews-high-taste-testers-ep-1/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-17T07:47:38+00:00",
@@ -1853,12 +1835,12 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/ZOH8Q401vt0",
+   "image": "",
    "themes": [],
-   "aiSummary": "Latent Space launched a new show called \"High Taste Testers\" as a pilot episode. The piece describes it as a low-pressure opportunity to test the format.",
+   "aiSummary": "Latent Space piloted a new show format called \"High Taste Testers\" in response to a quiet news cycle, exploring how media adapts to varying AI news volume. Details on the show's content are not provided in this summary.",
    "whyMatters": [
-    "Tests new format for AI news coverage",
-    "Part of media experimentation in the AI space"
+    "Format innovation in tech media",
+    "Reflects the rhythm of AI news cycles and editorial adaptation"
    ]
   },
   {
@@ -2008,7 +1990,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
-   "link": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+   "link": "https://latent.space/p/ainews-agents-disprove-polysemanticity/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-16T04:16:45+00:00",
@@ -2016,15 +1998,14 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!riZI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50483d29-b6d4-485b-b93a-5b6a14e29ce6_2028x1228.png",
+   "image": "",
    "themes": [
     "ethics"
    ],
-   "aiSummary": "Nick Cammarata has made claims challenging the polysemanticity theory—the idea that individual neurons in neural networks encode multiple unrelated concepts. He argues agents can improve interpretability and alignment by working against this model. The specific technical evidence and mechanisms behind these claims are not detailed in the blurb.",
+   "aiSummary": "Nick Cammarata presented research claiming agents disprove the polysemanticity hypothesis and significantly improve interpretability and alignment in neural networks. The announcement was framed as major claims requiring scrutiny.",
    "whyMatters": [
-    "Questions a widely-held assumption in mechanistic interpretability research, which affects how researchers understand and trust AI model internals",
-    "If correct, could enable better alignment techniques by allowing clearer mapping of what model components actually do",
-    "Interpretability breakthroughs directly matter to those building and deploying AI systems responsibly"
+    "Directly addresses mechanistic interpretability, a core concern in AI safety research",
+    "If substantiated, could reshape understanding of how neural networks encode information and enable better alignment approaches"
    ]
   },
   {
@@ -2160,24 +2141,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-15T16:08:03+00:00",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind announced use of its Antigravity system to accelerate discovery of new antimicrobial peptides, which could lead to novel treatments for bacterial infections.",
-   "whyMatters": [
-    "Applies AI to drug discovery acceleration, potentially addressing urgent medical need for new antimicrobial compounds",
-    "Demonstrates practical application of AI infrastructure to scientific problems with immediate health implications"
-   ]
-  },
-  {
    "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
    "link": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
    "source": "Ars Technica · AI",
@@ -2269,7 +2232,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
-   "link": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+   "link": "https://latent.space/p/ainews-modals-1b-arr-16b-series-d/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-15T10:08:08+00:00",
@@ -2277,12 +2240,12 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/J-smU_ImO5g",
+   "image": "",
    "themes": [],
-   "aiSummary": "Modal, an AI infrastructure platform, reached $1 billion in annual recurring revenue and raised $16 billion in Series D funding, valuing it as New York's first AI infrastructure decacorn. The company has grown 3x in usage and valuation in five months and 15x in one year.",
+   "aiSummary": "Modal reached $1 billion in annual recurring revenue and $16 billion valuation in its Series D, becoming New York's newest AI infrastructure decacorn with 3x usage growth and 3x valuation growth in five months. The company's sandbox infrastructure attracted rapid scaling.",
    "whyMatters": [
-    "Infrastructure market maturation: developer platforms and compute infrastructure are reaching scale comparable to major SaaS companies",
-    "Funding concentration: massive capital flows to underlying AI infrastructure rather than consumer-facing applications"
+    "Modal's growth exemplifies infrastructure-layer consolidation in AI",
+    "Validates developer-focused sandbox model as critical infrastructure for AI applications and agents"
    ]
   },
   {
@@ -2323,7 +2286,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
-   "link": "https://www.latent.space/p/crossing-the-threshold",
+   "link": "https://latent.space/p/crossing-the-threshold/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-14T21:40:52+00:00",
@@ -2331,12 +2294,12 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!rtS2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4aa91ce4-8821-4844-aa0f-56d4bd3c8d7e_1280x720.jpeg",
+   "image": "",
    "themes": [],
-   "aiSummary": "Frontier AI labs like OpenAI and Anthropic are collaborating with financial firms to develop autonomous agents that balance useful decision-making authority with human control over critical financial decisions.",
+   "aiSummary": "OpenAI and Anthropic presented frameworks for giving financial agents useful autonomy while maintaining human control over consequential decisions at AI Engineer New York. The discussion balanced agent capabilities with financial risk management requirements.",
    "whyMatters": [
-    "Addresses practical governance of high-stakes AI agents in consequential domains where safety oversight is non-negotiable",
-    "Shows industry moving beyond pure capability development toward frameworks that stakeholders (finance, regulators) can actually deploy"
+    "Financial sector adoption of agents requires solving autonomy-control tradeoffs",
+    "Frontier labs and enterprises are actively working on safety and governance frameworks for high-stakes agent deployment"
    ]
   },
   {
@@ -2359,20 +2322,20 @@ window.NEWS_DATA = {
   },
   {
    "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-   "link": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+   "link": "https://latent.space/p/lab-in-the-loop-at-compute-speed/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-14T20:35:09+00:00",
    "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/220316507/088d386ca7b830a53c64e1cd2678e427.mp3",
-   "image": "",
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a15fdf-75d0-7979-85d4-17bb65ed0842/01a15fdf-7633-7e4d-a6ce-fbb8cdd309b7.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/020fa02e-8131-47b5-ab6d-95a5f30476f8/podcast_artwork_20261021-197-jbmnvu.jpg?t=1792609846",
    "themes": [],
-   "aiSummary": "Leash Bio used AI agents to work with DNA-encoded library (DEL) assays at scale, enabling the company to identify when AI models were producing inaccurate outputs and generating training data for AI agents to learn chemistry thinking patterns.",
+   "aiSummary": "Ian Quigley from Leash Bio describes how the company integrated Display of Enrichment List (DEL) assay data with AI agents to improve model validation and teach agents to reason like chemists. The approach combines wet lab experiments with agent learning.",
    "whyMatters": [
-    "Demonstrates how wet-lab biology can generate ground truth data for training and validating AI systems in scientific domains",
-    "Shows practical feedback loops between lab experiments and AI model refinement in drug discovery workflows"
+    "Demonstrates AI-driven scientific instrument integration and laboratory automation",
+    "Shows practical application of agents in empirical research contexts where validation is critical"
    ]
   },
   {
@@ -2449,7 +2412,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
-   "link": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+   "link": "https://latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-14T05:40:28+00:00",
@@ -2457,30 +2420,12 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/akEqiXFo3GM",
-   "themes": [],
-   "aiSummary": "Google released Gemini 4 Argon to general availability. Independent benchmarks like CursorBench confirm Google's own performance claims for the model.",
-   "whyMatters": [
-    "Marks another incremental release in Google's Gemini lineup with validated performance characteristics",
-    "Reinforces competitive positioning of Google's AI models in the market"
-   ]
-  },
-  {
-   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-   "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-14T02:00:14+00:00",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "Google DeepMind partnered with Singapore's GovTech to deploy lightweight Gemma AI models on-device to detect conversational scams in real-time, without sending data to cloud servers.",
+   "aiSummary": "Gemini 4 Argon achieved general availability, but benchmarks like CursorBench independently confirm previously announced performance claims. The release received minimal new attention as coverage was already provided two weeks prior.",
    "whyMatters": [
-    "Balances AI capability with privacy by using on-device processing instead of cloud data transmission",
-    "Practical application of AI to consumer protection; scam detection is immediate public safety concern"
+    "Large model releases are becoming routine with diminishing news impact",
+    "Independent benchmarking provides verification but no surprising new capabilities"
    ]
   },
   {
@@ -2525,23 +2470,22 @@ window.NEWS_DATA = {
   },
   {
    "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
-   "link": "https://www.latent.space/p/dyna",
+   "link": "https://latent.space/p/dyna/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-13T22:25:55+00:00",
    "summary": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
    "religionScore": 0,
    "religionHits": [],
-   "audio": "https://api.substack.com/feed/podcast/220234130/c77b90e7331c0fabae60105d2325e9a0.mp3",
-   "image": "",
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a15fdf-6bed-7aec-a3d4-c7a6fb3293c1/01a15fdf-6e99-7492-9734-734d2e73a397.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/c6997100-66e4-4df3-a8a6-2f56a566b043/podcast_artwork_20261021-274-gbd21r.jpg?t=1792609844",
    "themes": [
     "robots"
    ],
-   "aiSummary": "Dyna Robotics released Dyna-2, a general-purpose robotic agent demonstrating hour-long autonomy in physical tasks. The company is betting on World Action Models as a foundational approach to physical AI.",
+   "aiSummary": "Jason Ma from Dyna Robotics discussed Dyna-2, a physical AI system demonstrating hour-long autonomous operation through World Action Models. The research positions robotics as the next frontier for embodied AI agents.",
    "whyMatters": [
-    "Robotics represents the next frontier for AI commercialization—moving from language/reasoning tasks to embodied, real-world action in unconstrained environments",
-    "Hour-long autonomous operation is a notable threshold suggesting progress toward practical deployment rather than lab demonstrations",
-    "World Action Models as a architectural bet differ from current LLM approaches and may define competing paradigms in physical AI development"
+    "Physical AI and robotics represent next phase beyond language and reasoning agents",
+    "World models and extended autonomy are critical for practical robot deployment in real-world tasks"
    ]
   },
   {
@@ -2560,24 +2504,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights ongoing tension between how AI benchmarks perform versus practical utility for end users",
     "Indicates that model selection increasingly depends on understanding nuanced performance tradeoffs rather than headline metrics"
-   ]
-  },
-  {
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-13T19:43:07+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind published information on responsible and safe development practices for Gemini 4 Argon, their next-generation AI model.",
-   "whyMatters": [
-    "Signals company commitment to safety considerations in frontier model development",
-    "Relevant to broader discussions about AI governance and the integration of safety practices into capability scaling"
    ]
   },
   {
@@ -2606,44 +2532,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Gemini 4 Argon for Robotics",
-   "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-13T16:01:58+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Google DeepMind announced Gemini 4 Argon capabilities for robotics applications.",
-   "whyMatters": [
-    "Indicates advancement in multimodal AI for embodied systems that can perceive and act in physical environments",
-    "Combines language understanding with robotics; implications for automation across industries"
-   ]
-  },
-  {
-   "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-13T16:01:52+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind presented Gemini 4 Argon as a next-generation frontier AI model designed to tackle difficult problems across various domains.",
-   "whyMatters": [
-    "Represents capability escalation in general-purpose AI systems",
-    "Marks competitive milestone in AI capability race among major labs"
-   ]
-  },
-  {
    "title": "Quoting Geoffrey Huntley",
    "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
    "source": "Simon Willison",
@@ -2663,7 +2551,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
-   "link": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+   "link": "https://latent.space/p/ainews-meta-muse-wonder-and-wonder/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-13T09:37:04+00:00",
@@ -2671,11 +2559,13 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!RofT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHUck_odaQAA3OF2.jpg",
+   "image": "",
    "themes": [],
-   "aiSummary": "Latent Space reports that Meta's emergence as a frontier AI lab is now complete, with news about MSL's Claude-level frontier model.",
+   "aiSummary": "Meta's frontier AI lab (MSL) has reached maturity as an independent AI research entity, developing Claude 5.5-tier level frontier models. The announcement marks Meta's establishment as a major player in cutting-edge AI research alongside other frontier labs.",
    "whyMatters": [
-    "Marks Meta's consolidation as a top-tier AI research organization competing with OpenAI and Anthropic"
+    "Signals increased competition in frontier model development among major tech companies",
+    "Affects the landscape of available advanced AI models and their commercial deployment",
+    "Represents organizational shifts in how large tech companies structure AI research"
    ]
   },
   {
@@ -2722,7 +2612,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)",
-   "link": "https://www.latent.space/p/claude-dynamic-workflows",
+   "link": "https://latent.space/p/claude-dynamic-workflows/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-12T18:18:17+00:00",
@@ -2730,12 +2620,13 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substack-post-media.s3.amazonaws.com/public/images/dda42c05-6ce1-4e54-b544-f7d1557f04b2_1280x720.jpeg",
+   "image": "",
    "themes": [],
-   "aiSummary": "Anthropic presented its Dynamic Workflows system at AI Engineer New York, drawing design principles from Unix and Linux to enable multiple Claude agents to coordinate on larger projects. The approach aims to help developers manage complex multi-agent tasks without overwhelming orchestration.",
+   "aiSummary": "Anthropic demonstrated how Claude agents can coordinate complex multi-step projects through a dynamic workflows framework inspired by Unix and Linux architecture principles. The approach aims to enable agents to handle larger problems while keeping developer complexity manageable.",
    "whyMatters": [
-    "Demonstrates progress in agent orchestration, a key technical challenge for practical AI deployment",
-    "Unix/Linux design philosophy applied to AI systems suggests maturation of agent frameworks toward production viability"
+    "Addresses practical challenge of deploying multi-agent AI systems at scale",
+    "Framework design influences how developers will architect AI applications going forward",
+    "Makes agent-based AI more accessible to developers familiar with traditional systems thinking"
    ]
   },
   {
@@ -2794,7 +2685,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
-   "link": "https://www.latent.space/p/nyc2026",
+   "link": "https://latent.space/p/nyc2026/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-10T22:07:17+00:00",
@@ -2802,16 +2693,17 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!_nLY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e5a4f6f-c772-404a-b4cd-1d7a17df970e_800x800.jpeg",
+   "image": "",
    "themes": [],
-   "aiSummary": "Latent Space is hosting subscriber meetups in New York City tomorrow and Tuesday for its audience.",
+   "aiSummary": "Latent Space is organizing subscriber meetups in NYC on two consecutive days.",
    "whyMatters": [
-    "Community-building event with no bearing on AI landscape, policy, or technical practice"
+    "Community building around AI news and insights",
+    "Networking opportunity for subscribers interested in AI industry"
    ]
   },
   {
    "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-   "link": "https://www.latent.space/p/standard-bots",
+   "link": "https://latent.space/p/standard-bots/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-10T14:04:11+00:00",
@@ -2819,19 +2711,20 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!yzyh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe58f7268-94a0-42f5-b0fc-9ecf300bb03d_2560x1440.png",
+   "image": "",
    "themes": [
     "robots"
    ],
-   "aiSummary": "Standard Bots is developing industrial robotics AI that combines pretrained models with learning from live factory demonstrations and real-world corrections to improve task execution. The approach integrates general AI capabilities with domain-specific refinement for reliable deployment.",
+   "aiSummary": "Standard Bots uses pretrained AI models to learn factory tasks from human demonstrations, then improves performance through real-world deployment corrections and feedback. The approach combines pre-training with iterative learning from actual industrial deployments.",
    "whyMatters": [
-    "Demonstrates a practical method for making AI reliable in real manufacturing environments rather than just labs",
-    "Shows how iterative learning from actual deployments can improve AI system performance beyond initial training"
+    "Demonstrates practical path for deploying AI in high-stakes manufacturing environments",
+    "Shows how robotics companies are solving reliability and execution problems critical for industrial adoption",
+    "Learning from real corrections improves model robustness in ways that matter for safety-sensitive applications"
    ]
   },
   {
    "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
-   "link": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+   "link": "https://latent.space/p/ainews-typesafejev-at-100m-arr-75b/",
    "source": "Latent Space",
    "category": "podcast",
    "date": "2026-10-10T06:45:57+00:00",
@@ -2839,12 +2732,13 @@ window.NEWS_DATA = {
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
-   "image": "https://substackcdn.com/image/fetch/$s_!JxMf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2108594586310631424.jpg",
+   "image": "",
    "themes": [],
-   "aiSummary": "A company called TypeSafe or Jev reached over $100 million in annual recurring revenue and a $7.5 billion valuation just three weeks after launching. The source expresses surprise at this rapid growth trajectory.",
+   "aiSummary": "TypeSafe/Jev reached over $100M annual recurring revenue and a $7.5B valuation within three weeks of launch.",
    "whyMatters": [
-    "Demonstrates extreme market enthusiasm and capital concentration in AI startups, raising questions about valuation sustainability and bubble risk in the sector",
-    "Illustrative of how quickly new AI tools can capture commercial traction if they address perceived demand, relevant to understanding current AI market dynamics"
+    "Indicates extreme market demand for a new AI product or service",
+    "Represents one of the fastest valuations in recent startup history",
+    "Signals where investor capital is flowing in the current AI landscape"
    ]
   },
   {
@@ -2940,24 +2834,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Business model question: Challenges the venture-backed assumption that consumers will pay for AI, with major platform companies themselves reducing spending",
     "Market reality check: Suggests gap between AI industry's growth narrative and actual consumer willingness to fund AI services"
-   ]
-  },
-  {
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-06T19:57:04+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind released EmbeddingGemma 2, an open-source lightweight model that generates embeddings for both text and images.",
-   "whyMatters": [
-    "Open-source release democratizes access to multimodal embedding technology",
-    "Lightweight design reduces barriers to deployment on resource-constrained systems"
    ]
   },
   {
@@ -3071,24 +2947,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Gemini 4 Argon: our next era of frontier intelligence",
-   "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-30T20:01:45+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind announced Gemini 4 Argon as representing a new era in frontier AI intelligence.",
-   "whyMatters": [
-    "Marks significant capability advancement in general-purpose AI systems",
-    "Signals investment and progress in developing more capable models"
-   ]
-  },
-  {
    "title": "The Most Important New AI Tools from OpenAI DevDay",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Important-New-AI-Tools-from-OpenAI-DevDay-e3pl7uv",
    "source": "The AI Daily Brief",
@@ -3106,24 +2964,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shift toward persistent, always-on agents and team collaboration; marks move away from discrete query-response interaction",
     "Price competition and broader app integration suggest AI is becoming infrastructure layer rather than standalone product"
-   ]
-  },
-  {
-   "title": "Introducing SynthID Bio",
-   "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-30T15:03:07+00:00",
-   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind introduced SynthID Bio, a proof-of-concept system for watermarking AI-generated protein sequences while maintaining their biological function.",
-   "whyMatters": [
-    "Addresses need to identify AI-generated biological content, relevant as AI becomes tool for protein design",
-    "Watermarking provides traceability without compromising utility of generated sequences"
    ]
   },
   {
@@ -3300,26 +3140,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-24T16:20:39+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google DeepMind introduced Gemini 3.8 Live with Live Avatar, enabling real-time conversational AI with animated visual representation.",
-   "whyMatters": [
-    "Enhances conversational AI with multimodal presence, potentially more engaging for users",
-    "Raises questions about authenticity and disclosure when AI interactions become more human-like in appearance"
-   ]
-  },
-  {
    "title": "From AGENTS.md to Enterprise Deployment",
    "link": "https://share.transistor.fm/s/74934e48",
    "source": "Practical AI",
@@ -3337,42 +3157,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Enterprise deployment of agents represents a shift from research to operational reality, raising concrete questions about identity management, data governance, and system reliability",
     "Organizations need new architectural patterns and tools to safely run AI agents alongside traditional applications without compromising security or compliance"
-   ]
-  },
-  {
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-23T16:00:57+00:00",
-   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind advanced its Private AI Compute system by adding secure server-side memory capabilities that remain private during computation.",
-   "whyMatters": [
-    "Enables more complex AI tasks while preserving privacy guarantees",
-    "Addresses technical barrier to privacy-preserving AI at scale"
-   ]
-  },
-  {
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-23T15:25:14+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind released Gemini 3.8 text-to-speech capabilities.",
-   "whyMatters": [
-    "Expands accessibility of AI by enabling voice-based interaction",
-    "Advances multimodal AI capabilities for diverse user interfaces"
    ]
   },
   {
@@ -3433,26 +3217,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-15T17:05:57+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google DeepMind announced Gemini 3.8 Live and 3.8 Live Extended Thinking models. The blurb provided contains no details about what these models do or their capabilities.",
-   "whyMatters": [
-    "Insufficient information in source material to assess impact",
-    "Would require additional context about model capabilities and use cases to evaluate significance"
-   ]
-  },
-  {
    "title": "The Urgency of Reclaiming Human Agency",
    "link": "https://aiandfaith.org/insights/urgency-of-reclaiming-human-agency/",
    "source": "AI and Faith",
@@ -3509,24 +3273,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Religious communities are actively examining how AI and virtual tools fit into spiritual practice and formation, not viewing these as external to their work",
     "Demonstrates a deliberate educational and pastoral engagement with technology rather than passive adoption"
-   ]
-  },
-  {
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-08T14:00:15+00:00",
-   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind released AlphaGenome Atlas, a computational tool that maps the functional effects of approximately 9 billion single-letter DNA variants across the human genome. This creates a predictive map for understanding how genetic variations affect molecular biology.",
-   "whyMatters": [
-    "Advances genomic medicine by enabling researchers to predict disease risk and treatment responses across billions of genetic variants rather than the thousands previously understood",
-    "Could accelerate drug discovery and personalized medicine development, with implications for healthcare access and equity in genetic research"
    ]
   }
  ]
