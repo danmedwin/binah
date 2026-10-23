@@ -1,11 +1,11 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-23T09:50:03.400245+00:00",
+ "generatedAt": "2026-10-23T15:40:18.417134+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-23T09:50:35.239729+00:00",
+  "generatedAt": "2026-10-23T15:40:29.842537+00:00",
   "bullets": [
    {
-    "text": "Critical PHP vulnerabilities affecting 70% of the web were exploited for days before patches released; OpenAI's Patch the Planet program coordinated responsible disclosure.",
+    "text": "Critical PHP vulnerabilities affecting 70% of the web are actively exploited; OpenAI's security program helped discover them, but patches are still rolling out days after attackers gained access.",
     "links": [
      "https://latent.space/p/ainews-openais-patch-the-planet-program/",
      "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
@@ -13,23 +13,22 @@ window.NEWS_DATA = {
     ]
    },
    {
-    "text": "Microsoft claims its AI diagnostic tool achieves four times better medical accuracy than human doctors, marking AI's first major healthcare delivery success.",
+    "text": "Meta continues efforts to scrape news content for AI training despite publisher pressure; it removed explicit language but legal experts say broad contract terms enable the same practice.",
+    "links": [
+     "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+     "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
+    ]
+   },
+   {
+    "text": "Microsoft claims its AI diagnostic tool achieves 4x better accuracy than doctors; if validated, this represents a major milestone in AI's long-promised healthcare applications.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
     ]
    },
    {
-    "text": "Enterprise AI value now hinges on infrastructure and operational systems around models rather than model choice itself—a fundamental shift in competitive advantage.",
+    "text": "Criminal hackers are circumventing AI safety guardrails designed to prevent misuse, with determined adversaries successfully manipulating systems like Claude to assist in attacks.",
     "links": [
-     "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-     "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
-    ]
-   },
-   {
-    "text": "Hackers are circumventing AI safety guardrails and using AI decompilation tools to reverse-engineer software at scale, outpacing traditional defenses.",
-    "links": [
-     "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
-     "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/"
+     "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/"
     ]
    }
   ]
@@ -77,6 +76,115 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "AI Is Getting Good at Math. Here’s Why.",
+   "link": "https://latent.space/p/ai-is-getting-good-at-math/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-23T15:19:48+00:00",
+   "summary": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI models are improving at solving mathematical problems, and researchers have identified patterns in which types of problems they succeed at. This could help predict which mathematical challenges AI systems will tackle next.",
+   "whyMatters": [
+    "Demonstrates measurable progress in AI reasoning capabilities, relevant to understanding what problems LLMs can reliably solve",
+    "Pattern recognition in AI problem-solving could inform both AI development priorities and realistic expectations for educational and professional applications"
+   ]
+  },
+  {
+   "title": "Meta delays new business terms after publisher pushback on AI scraping",
+   "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-23T14:47:41+00:00",
+   "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta is postponing enforcement of new business terms after publishers objected that the terms could permit the company to scrape news content for training AI systems without additional publisher consent. The delay moves the effective date to November 20th.",
+   "whyMatters": [
+    "Reflects ongoing tension between AI companies' data needs and publishers' rights, with real commercial and legal stakes",
+    "Sets precedent for how large platforms will negotiate access to copyrighted content for AI training—outcome will affect news organizations and the AI supply chain"
+   ]
+  },
+  {
+   "title": "Retro gaming is being overrun with AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-23T13:52:15+00:00",
+   "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Retro video games are appearing in unexpected places—browser versions of Halo, mobile ports of Wind Waker, mixed reality versions of Super Smash Bros.—largely driven by new AI tools that have made these projects easier to create and have gone viral recently.",
+   "whyMatters": [
+    "Shows how AI tools are lowering barriers to game porting and emulation, enabling hobbyist projects at scale",
+    "Raises questions about copyright, preservation, and fan culture in an AI-accelerated landscape"
+   ]
+  },
+  {
+   "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-23T11:28:50+00:00",
+   "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree to which […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "SpaceX and Tesla have formed special committees to explore a potential merger, despite SpaceX's high credit risk from planned $40 billion in Nvidia chip spending. The article expresses skepticism about the strategic merits of combining the companies.",
+   "whyMatters": [
+    "Consolidation among major AI hardware purchasers could reshape GPU acquisition and market dynamics",
+    "Reflects ongoing financial pressures on capital-intensive AI infrastructure development"
+   ]
+  },
+  {
+   "title": "What’s the Deal With Billy Evans? A Spoiler-Filled Guide to ‘You Can See Everything’",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-10-23T11:00:00+00:00",
+   "summary": "This week, we focus on Billy Evans, the breakout character of the documentary “You Can See Everything,” and his Theranos-esque new blood-testing start-up. Rob Copeland, a New York Times finance reporter, and Erin Griffith, a tech reporter, join Max Read to discuss what Evans is like when the cameras are off, whether his start-up is a real company and how Silicon Valley is reacting to the film. The",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/72852413-419c-4509-90ec-ab167c241f50/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=72852413-419c-4509-90ec-ab167c241f50&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
+  {
+   "title": "[AINews] Black October",
+   "link": "https://latent.space/p/ainews-black-october/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-23T10:09:29+00:00",
+   "summary": "the Cyber onslaught continues.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "This is a placeholder headline referencing ongoing cybersecurity incidents. No substantive details are provided in the blurb.",
+   "whyMatters": [
+    "Insufficient information to assess impact or relevance",
+    "Source material does not contain actionable reporting"
+   ]
+  },
   {
    "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
    "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
@@ -133,24 +241,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals maturation of AI industry—commodity models mean differentiation moves to deployment, integration, and operational infrastructure",
     "Has implications for enterprise adoption and ROI; success depends on implementation quality rather than access to frontier models"
-   ]
-  },
-  {
-   "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-22T21:14:26+00:00",
-   "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree to which […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "SpaceX and Tesla have formed special committees to explore a potential merger, despite SpaceX's high credit risk from planned $40 billion in Nvidia chip spending. The article expresses skepticism about the strategic merits of combining the companies.",
-   "whyMatters": [
-    "Consolidation among major AI hardware purchasers could reshape GPU acquisition and market dynamics",
-    "Reflects ongoing financial pressures on capital-intensive AI infrastructure development"
    ]
   },
   {
@@ -360,24 +450,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
-   "link": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-22T18:12:48+00:00",
-   "summary": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were brought to life by a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Laika's new film Wildwood was created entirely through stop-motion craft using 230+ puppets, with the studio's director explicitly rejecting AI as incompatible with their creative philosophy and artisanal practice.",
-   "whyMatters": [
-    "Represents principled stance against AI in creative fields despite industry pressure",
-    "Demonstrates alternative model where craftsmanship and human labor remain central to artistic vision"
-   ]
-  },
-  {
    "title": "Donating Agent Skills to the Agentic AI Foundation",
    "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
    "source": "Simon Willison",
@@ -411,24 +483,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Infrastructure standardization affects how enterprises and developers access AI compute resources",
     "Modal's sandbox approach is reshaping how companies think about deploying agents at scale"
-   ]
-  },
-  {
-   "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
-   "link": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-22T17:36:30+00:00",
-   "summary": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to other Big Tech companies with long-established presences in Washington, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic, OpenAI, and Nvidia each spent record amounts on federal lobbying in Q3 2024—Nvidia ($2.2M), Anthropic ($2.1M), and OpenAI ($1.5M)—far outpacing established tech giants in quarterly spending.",
-   "whyMatters": [
-    "AI companies now prioritizing political influence at scale to shape regulatory environment",
-    "Policy landscape for AI governance will be heavily influenced by industry-funded advocacy"
    ]
   },
   {
@@ -560,24 +614,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-   "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-22T10:00:00+00:00",
-   "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Hugging Face released an open-source AI model trained on DNA that allows researchers to query genetic sequences and understand how specific changes affect gene activity and health outcomes.",
-   "whyMatters": [
-    "Democratizes access to AI-assisted genomics research by offering an open model rather than proprietary tools",
-    "Accelerates scientific discovery by making it easier for researchers to model genetic effects without building their own infrastructure"
-   ]
-  },
-  {
    "title": "Making the case for context-aware AI",
    "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
    "source": "MIT Tech Review · AI",
@@ -593,6 +629,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Identifies critical gap between AI capability and business value—raw model power is insufficient without contextual knowledge",
     "Matters for organizations trying to move AI from pilot projects to production, requiring investment in domain understanding alongside model development"
+   ]
+  },
+  {
+   "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+   "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-22T10:00:00+00:00",
+   "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Hugging Face released an open-source AI model trained on DNA that allows researchers to query genetic sequences and understand how specific changes affect gene activity and health outcomes.",
+   "whyMatters": [
+    "Democratizes access to AI-assisted genomics research by offering an open model rather than proprietary tools",
+    "Accelerates scientific discovery by making it easier for researchers to model genetic effects without building their own infrastructure"
    ]
   },
   {
@@ -758,23 +812,6 @@ window.NEWS_DATA = {
     "Companies can now pursue R&D in fields they lack expertise in, raising questions about competitive fairness and whether AI labs will eventually compete directly with their customers",
     "Access to AI tools is democratizing scientific work, potentially reshaping who can participate in drug discovery and biotech innovation"
    ]
-  },
-  {
-   "title": "The ‘Seinfeld’ cast reunites (but not really) to address Israel’s elections",
-   "link": "https://forward.com/opinion/857366/seinfeld-ai-video-netanyahu-israel-elections-deep-fake/",
-   "source": "The Forward",
-   "category": "religion",
-   "date": "2026-10-21T19:51:38+00:00",
-   "summary": "Jerry Seinfeld, Elaine Benes, George Costanza and Cosmo Kramer are weighing in on next week’s Israeli elections. AI deepfakes of them, that is, who appear in a new, three-minute clip, looking and sounding almost exactly like they did on the classic TV show. But unlike the torrent of noxious fakes from Prime Minister Benjamin Netanyahu...",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "This item was already summarized above.",
-   "whyMatters": []
   },
   {
    "title": "The new human-crafted Apple Music brand matters in an AI world",
@@ -1970,25 +2007,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Why No One Can Look Away From Elizabeth Holmes",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-10-16T11:00:00+00:00",
-   "summary": "This week, there’s a new blockbuster Elizabeth Holmes documentary out, and we’ve assembled an expert panel to discuss the movie and what Holmes means to the tech world of today. Max Read is joined by John Carreyrou, who, through his investigative reporting for The Wall Street Journal and his book “Bad Blood,” revealed the fraud at the heart of Theranos; Erin Griffith, a tech reporter who extensive",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/5bac6bdc-16f3-4aed-b41d-01192f69dae9/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=5bac6bdc-16f3-4aed-b41d-01192f69dae9&feed=l2i9YnTd",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
-   ]
-  },
-  {
    "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
    "link": "https://latent.space/p/ainews-agents-disprove-polysemanticity/",
    "source": "Latent Space",
@@ -2699,46 +2717,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Community building around AI news and insights",
     "Networking opportunity for subscribers interested in AI industry"
-   ]
-  },
-  {
-   "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-   "link": "https://latent.space/p/standard-bots/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-10T14:04:11+00:00",
-   "summary": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Standard Bots uses pretrained AI models to learn factory tasks from human demonstrations, then improves performance through real-world deployment corrections and feedback. The approach combines pre-training with iterative learning from actual industrial deployments.",
-   "whyMatters": [
-    "Demonstrates practical path for deploying AI in high-stakes manufacturing environments",
-    "Shows how robotics companies are solving reliability and execution problems critical for industrial adoption",
-    "Learning from real corrections improves model robustness in ways that matter for safety-sensitive applications"
-   ]
-  },
-  {
-   "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
-   "link": "https://latent.space/p/ainews-typesafejev-at-100m-arr-75b/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-10T06:45:57+00:00",
-   "summary": "Wow.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "TypeSafe/Jev reached over $100M annual recurring revenue and a $7.5B valuation within three weeks of launch.",
-   "whyMatters": [
-    "Indicates extreme market demand for a new AI product or service",
-    "Represents one of the fastest valuations in recent startup history",
-    "Signals where investor capital is flowing in the current AI landscape"
    ]
   },
   {
