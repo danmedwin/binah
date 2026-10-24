@@ -1,33 +1,36 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-24T08:22:34.398884+00:00",
+ "generatedAt": "2026-10-24T09:21:38.707204+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-24T08:22:54.946390+00:00",
+  "generatedAt": "2026-10-24T09:21:44.529470+00:00",
   "bullets": [
    {
-    "text": "OpenAI discovered critical PHP vulnerabilities affecting 70% of the web using AI-powered security tools; hackers exploited them four days before patches released.",
+    "text": "OpenAI trains frontier models offline after security breaches; partnering with Poland's NASK on AI safety research.",
     "links": [
-     "https://latent.space/p/ainews-openais-patch-the-planet-program/",
-     "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/"
+     "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+     "https://openai.com/index/openai-nask-ai-safety-security-partnership"
     ]
    },
    {
-    "text": "Google now permits using Gmail, Photos, and Drive content for ad targeting when users enable AI features, reversing prior privacy assurances.",
+    "text": "Critical PHP vulnerabilities affecting 70% of the web were discovered by OpenAI's Patch the Planet program using AI; hackers exploited them before patches released.",
     "links": [
+     "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+     "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+     "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/"
+    ]
+   },
+   {
+    "text": "Google's updated privacy policy now permits using Gmail and Photos data for ads when users enable AI features, reversing prior assurances.",
+    "links": [
+     "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
      "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
     ]
    },
    {
-    "text": "OpenAI trains frontier models offline with cached web data rather than live internet access to prevent hacking attacks on training infrastructure.",
+    "text": "Open-weights models are rapidly closing the capability gap with frontier AI; Kimi 3.1 Pro claims parity with closed-source systems within one month.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
-    ]
-   },
-   {
-    "text": "Meta delayed enforcing revised business terms after publishers objected that language still permits AI training on news content without additional consent.",
-    "links": [
-     "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-     "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
+     "https://latent.space/p/ainews-kimi-31/",
+     "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
     ]
    }
   ]
@@ -705,24 +708,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates active exploitation window before disclosure — a critical vulnerability disclosure timing problem",
     "Shows how zero-day exploitation can occur at scale given PHP's ubiquity"
-   ]
-  },
-  {
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-22T14:30:24+00:00",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind created a global forest classification map that categorizes every 10-meter patch of land on Earth into distinct forest types.",
-   "whyMatters": [
-    "Provides high-resolution environmental data for climate monitoring, conservation planning, and ecosystem research",
-    "Demonstrates AI's capability to process planetary-scale geospatial data with practical applications"
    ]
   },
   {
@@ -2326,24 +2311,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-15T16:08:03+00:00",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind announced acceleration of antimicrobial peptide discovery using their Antigravity system for scientific research.",
-   "whyMatters": [
-    "Applies AI to pharmaceutical and biodefense challenges, potentially expediting solutions to drug-resistant infections",
-    "Shows AI's role in addressing urgent public health problems"
-   ]
-  },
-  {
    "title": "Is Education Failing our Students in this AI-Driven World?",
    "link": "https://share.transistor.fm/s/4f81adfa",
    "source": "Practical AI",
@@ -2560,24 +2527,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-   "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-14T02:00:14+00:00",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind and Singapore's GovTech developed a lightweight on-device AI model using Gemma to detect conversational scams without sending data to cloud servers.",
-   "whyMatters": [
-    "Addresses cybersecurity threat (scam prevention) with privacy-preserving deployment",
-    "On-device processing sets precedent for government AI deployment balancing capability with citizen data protection"
-   ]
-  },
-  {
    "title": "Redesigning source control at Anthropic",
    "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
    "source": "Simon Willison",
@@ -2656,24 +2605,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-13T19:43:07+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind published guidance on developing Gemini 4 Argon with responsible AI and safety practices.",
-   "whyMatters": [
-    "Reflects industry standards for safe frontier model development",
-    "Relevant to educators and ethicists working on AI governance frameworks"
-   ]
-  },
-  {
    "title": "AI and Faith Leaders To Join Interfaith Panel",
    "link": "https://aiandfaith.org/news/aif-leaders-join-interfaith-panel/",
    "source": "AI and Faith",
@@ -2696,44 +2627,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents direct engagement between AI practitioners and religious scholars on implications of AI for religious study and practice",
     "Shows growing institutional recognition that interfaith dialogue is necessary to address AI's intersection with religious education and values"
-   ]
-  },
-  {
-   "title": "Gemini 4 Argon for Robotics",
-   "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-13T16:01:58+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Google DeepMind announced Gemini 4 Argon capabilities tailored for robotics applications.",
-   "whyMatters": [
-    "Extends frontier AI to embodied systems, affecting robotics and automation fields",
-    "Raises questions about AI decision-making in physical environments important to policy and ethics discussion"
-   ]
-  },
-  {
-   "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-13T16:01:52+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind described Gemini 4 Argon as a frontier intelligence model built to tackle complex problems.",
-   "whyMatters": [
-    "Marks release of next-generation model raising capability benchmarks",
-    "Affects competitive AI landscape and access considerations"
    ]
   },
   {
@@ -2945,24 +2838,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-06T19:57:04+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind released EmbeddingGemma 2, an open-source lightweight multimodal embedding model.",
-   "whyMatters": [
-    "Open-source release democratizes access to multimodal AI components for developers",
-    "Smaller footprint enables deployment in resource-constrained environments"
-   ]
-  },
-  {
    "title": "Why Companies Want AI They Can Own",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Companies-Want-AI-They-Can-Own-e3pv4le",
    "source": "The AI Daily Brief",
@@ -3073,24 +2948,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Gemini 4 Argon: our next era of frontier intelligence",
-   "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-30T20:01:45+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind positioned Gemini 4 Argon as their next frontier intelligence era.",
-   "whyMatters": [
-    "Signals major capability advancement in commercial AI systems",
-    "Affects competitive positioning and industry direction"
-   ]
-  },
-  {
    "title": "The Most Important New AI Tools from OpenAI DevDay",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Important-New-AI-Tools-from-OpenAI-DevDay-e3pl7uv",
    "source": "The AI Daily Brief",
@@ -3108,24 +2965,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shift toward persistent, always-on agents and team collaboration; marks move away from discrete query-response interaction",
     "Price competition and broader app integration suggest AI is becoming infrastructure layer rather than standalone product"
-   ]
-  },
-  {
-   "title": "Introducing SynthID Bio",
-   "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-30T15:03:07+00:00",
-   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind introduced SynthID Bio, a proof-of-concept watermarking system for AI-generated proteins that preserves their biological function.",
-   "whyMatters": [
-    "Addresses AI transparency and accountability in biotech by enabling tracing of synthetic biology origins",
-    "Important for bioethics, biosecurity, and distinguishing human-designed from AI-designed sequences"
    ]
   },
   {
@@ -3284,26 +3123,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-24T16:20:39+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google DeepMind announced Gemini 3.8 Live with Live Avatar, adding visual avatar capabilities to real-time interaction.",
-   "whyMatters": [
-    "Enhances user experience for conversational AI with embodied presence",
-    "Raises questions about avatar authenticity and appropriate use cases"
-   ]
-  },
-  {
    "title": "From AGENTS.md to Enterprise Deployment",
    "link": "https://share.transistor.fm/s/74934e48",
    "source": "Practical AI",
@@ -3321,42 +3140,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Enterprise deployment of agents represents a shift from research to operational reality, raising concrete questions about identity management, data governance, and system reliability",
     "Organizations need new architectural patterns and tools to safely run AI agents alongside traditional applications without compromising security or compliance"
-   ]
-  },
-  {
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-23T16:00:57+00:00",
-   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind introduced server-side memory to their Private AI Compute system, enabling persistent context while maintaining privacy.",
-   "whyMatters": [
-    "Improves privacy-preserving personal AI by allowing memory without cloud data storage",
-    "Relevant to users concerned with data retention and on-device AI practices"
-   ]
-  },
-  {
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-23T15:25:14+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind released Gemini 3.8 text-to-speech functionality.",
-   "whyMatters": [
-    "Expands multimodal capabilities of Gemini models for accessibility and voice-based interaction",
-    "Affects accessibility for users with visual or reading disabilities"
    ]
   },
   {
@@ -3414,26 +3197,6 @@ window.NEWS_DATA = {
    "aiSummary": "No content available; this is a protected post on the AI and Faith platform.",
    "whyMatters": [
     "Unable to assess without access to content"
-   ]
-  },
-  {
-   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-15T17:05:57+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google DeepMind launched Gemini 3.8 Live and 3.8 Live Extended Thinking, adding real-time capabilities with extended reasoning.",
-   "whyMatters": [
-    "Extended thinking in live mode enables deeper reasoning on complex problems in real-time",
-    "Affects use cases requiring nuanced problem-solving in interactive settings"
    ]
   },
   {
