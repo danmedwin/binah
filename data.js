@@ -1,33 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-25T08:41:45.817897+00:00",
+ "generatedAt": "2026-10-25T09:39:10.127539+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-25T08:41:54.080313+00:00",
+  "generatedAt": "2026-10-25T09:39:15.051609+00:00",
   "bullets": [
    {
-    "text": "Pennsylvania becomes first state to require AI-generated ad disclosures; Governor Shapiro signed law mandating labels on any significantly AI-modified or AI-generated advertisements across all formats.",
+    "text": "Pennsylvania becomes first U.S. state requiring disclosure labels on AI-generated ads; other jurisdictions likely to follow as regulatory pressure mounts.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
     ]
    },
    {
-    "text": "Open-weights AI models are narrowing the capability gap with closed-source systems to roughly one month, with Moonshot's Kimi K3.1 Pro matching frontier performance while planning open-source release by late 2026.",
-    "links": [
-     "https://latent.space/p/ainews-kimi-31/",
-     "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
-    ]
-   },
-   {
-    "text": "AI-powered vulnerability discovery is accelerating security risks: researchers used AI to find and exploit years-old PHP bugs, demonstrating that automated exploit development now outpaces patch deployment and defender response.",
+    "text": "AI systems now rapidly exploit decades-old software vulnerabilities, outpacing human defenders and forcing urgent reckoning with inherited security debt across internet infrastructure.",
     "links": [
      "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-vs-AI-Battle-for-the-Internet-e3qu3ad"
+     "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+     "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/"
     ]
    },
    {
-    "text": "Hugging Face released open-source DNA-querying AI model enabling researchers to chat with genetic sequences and predict how specific mutations affect gene activity and health—practical AI advancing biology research.",
+    "text": "Google's privacy policy now permits using Gmail and Google Photos data for ad targeting when users enable AI features, reversing previous commitments and intensifying concerns about data exploitation.",
     "links": [
-     "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"
+     "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+     "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+    ]
+   },
+   {
+    "text": "OpenAI trains frontier models offline using cached web content rather than live internet access, citing security concerns from hacking incidents and signaling new defensive posture industry-wide.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+     "https://openai.com/index/securing-our-frontier-model-training-environment"
     ]
    }
   ]
@@ -3194,24 +3196,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses impact on education and human agency in learning contexts, where algorithmic systems may be replacing rather than supporting human judgment and skill development.",
     "Frames AI's societal impact through a lens of human flourishing and dignity that resonates with faith and educational communities."
-   ]
-  },
-  {
-   "title": "Computer-Use Agents and the Future of the Agentic Internet",
-   "link": "https://share.transistor.fm/s/72586f97",
-   "source": "Practical AI",
-   "category": "podcast",
-   "date": "2026-09-10T09:00:00+00:00",
-   "summary": "Longtime followers of Practical AI know that multi-repeat guest and friend Demetrios Brinkmann combines brilliant insight and playful banter into one fun-filled show, and this conversion with Chris was no different. They had a blast! As AI agents become more capable of using computers, interacting with software, and taking action on behalf of users, what does that mean for the way we work and inte",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/72586f97/42471284.mp3",
-   "image": "https://img.transistorcdn.com/UYtAJJAR7kmhGYgVZKu6hZTGGLhubmA_gpRGKEq41jo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zZGUz/ODRhYzcyMWI3YzU5/NTgwNTc2ZTJlNjk2/YzBlNC5wbmc.jpg",
-   "themes": [],
-   "aiSummary": "A podcast episode explores how AI agents that can use computers, control software, and take autonomous action are reshaping work and business processes.",
-   "whyMatters": [
-    "Signals a major shift in AI capability—agents moving from conversation to independent task execution in professional settings",
-    "Impacts how workers and organizations will need to adapt to AI handling operational workflows"
    ]
   }
  ]
