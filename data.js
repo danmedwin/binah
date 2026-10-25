@@ -1,31 +1,31 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-25T14:54:31.269719+00:00",
+ "generatedAt": "2026-10-25T19:28:52.743071+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-25T14:54:57.879072+00:00",
+  "generatedAt": "2026-10-25T19:28:57.053214+00:00",
   "bullets": [
    {
-    "text": "Google now permits using Gmail and Google Photos data for targeted ads when users enable AI features, reversing prior commitments to keep that data off-limits for advertising.",
+    "text": "Google now permits using Gmail and Google Photos data for targeted ads when users enable AI features, reversing prior promises.",
     "links": [
      "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
      "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
     ]
    },
    {
-    "text": "AI-accelerated security vulnerabilities in widely-used PHP code expose the dual-edged nature of AI tools: hackers leverage them to find and exploit flaws faster than defenders can patch.",
+    "text": "AI tools are accelerating both vulnerability discovery and exploitation in critical infrastructure like PHP, creating a dual-edged security crisis.",
     "links": [
      "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-     "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-vs-AI-Battle-for-the-Internet-e3qu3ad"
     ]
    },
    {
-    "text": "Pennsylvania requires AI-generated ads to carry disclosure labels, starting a wave of state-level regulation to combat deceptive synthetic media in political and commercial advertising.",
+    "text": "Pennsylvania requires AI-generated ads to carry disclosure labels, signaling state-level momentum toward transparency regulation.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
     ]
    },
    {
-    "text": "OpenAI now trains frontier models offline using cached web data rather than live internet access, citing security concerns from recent hacking incidents and signaling tighter operational security.",
+    "text": "OpenAI trains frontier models offline with cached content rather than live internet access following security breaches from hacking.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
      "https://openai.com/index/securing-our-frontier-model-training-environment"
