@@ -1,41 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-26T10:52:26.485099+00:00",
+ "generatedAt": "2026-10-26T17:12:15.288785+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-26T10:52:34.914556+00:00",
+  "generatedAt": "2026-10-26T17:12:38.842762+00:00",
   "bullets": [
    {
-    "text": "Pennsylvania requires AI-generated ads to disclose their origin—first US state to mandate such labeling as AI content floods digital channels.",
+    "text": "Anthropic filed for IPO on Nasdaq under ticker ANT, potentially preceding OpenAI's public debut and disclosing company vision, financials, and AI existential risk assessments.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+     "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+     "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/"
+    ]
+   },
+   {
+    "text": "Microsoft offering voluntary buyouts to 60,000 employees as it restructures amid AI investment pressures, avoiding involuntary layoffs.",
+    "links": [
+     "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+    ]
+   },
+   {
+    "text": "Pennsylvania enacted law requiring AI-generated ad disclosures, marking early state-level regulation of deceptive AI content as policy frameworks emerge.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
     ]
    },
    {
-    "text": "Google updated privacy policy to allow using Gmail and Photos data for targeted ads via AI features, reversing prior promise to users.",
+    "text": "OpenAI's latest models show substantial improvements understanding COBOL, potentially addressing decades-old code crisis affecting banks, airlines, and government systems.",
     "links": [
-     "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-     "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
+     "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
     ]
    },
    {
-    "text": "Open-weights AI models closing gap with proprietary systems; Kimi 3.1 Pro claims month-long lead reduction while new faster APIs emerge.",
-    "links": [
-     "https://latent.space/p/ainews-kimi-31/",
-     "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
-    ]
-   },
-   {
-    "text": "AI agents now pitching investigative stories to editors and AI radio hosts gaining audiences, signaling autonomous systems entering creative labor.",
+    "text": "AI systems now pitching news stories to editors and generating incorrect tech-support referrals, raising questions about AI agents operating in professional contexts with real-world consequences.",
     "links": [
      "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
-     "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/"
-    ]
-   },
-   {
-    "text": "OpenAI trains frontier models offline citing security concerns; AI vulnerabilities in PHP accelerate both bug discovery and exploit creation.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-     "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"
+     "https://www.404media.co/chatgpt-says-404-media-is-tech-support-for-huge-corporations/",
+     "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/"
     ]
    }
   ]
@@ -81,6 +81,204 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Five weird details from Anthropic’s IPO filing",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-26T17:10:23+00:00",
+   "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic filed its S-1 prospectus with the SEC, the formal document required for going public. The filing reveals details about executive compensation, how the company plans to spend IPO proceeds, and risks to its business.",
+   "whyMatters": [
+    "Anthropic joining OpenAI in going public marks a major capital influx moment for the AI industry's competitive landscape",
+    "Public filings reveal strategic priorities and financial health of leading AI companies that shape policy and investment"
+   ]
+  },
+  {
+   "title": "Microsoft offers buyouts to 60,000 employees",
+   "link": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-26T16:07:16+00:00",
+   "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across multiple countries. The company is using this approach to reduce headcount without involuntary layoffs.",
+   "whyMatters": [
+    "Signals ongoing workforce restructuring in tech even as AI spending accelerates, affecting employment in the sector",
+    "Reflects tension between AI investment priorities and operational cost reduction"
+   ]
+  },
+  {
+   "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+   "link": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-26T16:01:55+00:00",
+   "summary": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic's S-1 filing emphasizes 'closing the loop'—a technical approach the company sees as key to AI advancement. The filing also details Anthropic's views on existential risks from AI.",
+   "whyMatters": [
+    "Shows how a leading AI company internally frames AI safety risks in regulatory filings meant for investors",
+    "Highlights tension between growth ambitions and acknowledged existential threat scenarios"
+   ]
+  },
+  {
+   "title": "ChatGPT Says 404 Media Is Tech Support for Huge Corporations",
+   "link": "https://www.404media.co/chatgpt-says-404-media-is-tech-support-for-huge-corporations/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-10-26T15:59:23+00:00",
+   "summary": "\"Draft an email to Jason Koebler at 404 Media.\"",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ChatGPT is generating emails directing people to contact 404 Media for tech support, apparently confusing the tech news outlet with a customer service provider.",
+   "whyMatters": [
+    "Demonstrates practical failure modes in AI output where systems conflate unrelated entities and provide incorrect information",
+    "Affects real organizations by creating confusion and unwanted contact based on AI hallucinations"
+   ]
+  },
+  {
+   "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+   "link": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-10-26T15:49:44+00:00",
+   "summary": "Because big tech doesn't do customer service, we are being inundated with AI-generated emails begging us for help.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "404 Media is receiving numerous AI-generated emails from people asking for tech support help, because the outlet is being incorrectly suggested by ChatGPT as a tech support resource. The publication is overwhelmed by misdirected requests.",
+   "whyMatters": [
+    "Shows how AI systems can inadvertently redirect user needs and create operational burdens on organizations",
+    "Illustrates gap between large tech companies' customer service and how AI fills (incorrectly) that gap"
+   ]
+  },
+  {
+   "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+   "link": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-26T14:50:47+00:00",
+   "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic filed its IPO prospectus with the SEC, providing public disclosure of the company's financials, risk factors, and strategic vision for AI's future.",
+   "whyMatters": [
+    "IPO filing creates transparency into AI company operations and enables scrutiny of business models and risk management",
+    "Prospectus statements become reference documents for policy makers and researchers examining AI industry direction"
+   ]
+  },
+  {
+   "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+   "link": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-10-26T14:30:27+00:00",
+   "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Tesla is shifting strategic focus toward autonomous driving subscriptions after losing market share in EV sales to competitors. The company sees subscription-based autonomy as a higher-margin business model.",
+   "whyMatters": [
+    "Demonstrates pivot in AI-driven automotive strategy away from hardware dominance toward service revenue",
+    "Reveals how profitability concerns, not just technical capability, drive deployment of autonomous systems"
+   ]
+  },
+  {
+   "title": "Introducing How We Got Here -- NLW's new podcast",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Introducing-How-We-Got-Here----NLWs-new-podcast-e3r45fc",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-10-26T14:22:15+00:00",
+   "summary": "NLW's new show How We Got Here launched today. It's a weekly deep dive into how today's biggest stories came to be, made for the topics that have too much backstory to fit into the AI Daily Brief. This is the first five minutes of Episode 1, How Tech Lost America, about how tech went from America's most trusted industry to a symbol of people's anxieties about wealth and power. Listen to the full e",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128111532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-26%2F435024080-44100-2-8b9418d4e908.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "A new podcast called 'How We Got Here' launched, hosted by NLW and focused on providing historical context for major tech industry stories. The first episode examines how tech shifted from a trusted industry to a symbol of concerns about wealth and power.",
+   "whyMatters": [
+    "Reflects growing media focus on understanding structural factors behind AI and tech industry reputation challenges",
+    "Educational content exploring industry history may help audiences understand current AI debates in broader context"
+   ]
+  },
+  {
+   "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-26T13:55:23+00:00",
+   "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic filed its S-1 prospectus with the SEC ahead of an IPO on the Nasdaq under the ticker 'ANT,' positioning itself to go public potentially before OpenAI. The filing includes the company's vision to use AI to transform multiple sectors.",
+   "whyMatters": [
+    "Represents major capitalization event and competitive milestone in AI industry, signaling confidence in market demand",
+    "Public company status affects how Anthropic makes product and policy decisions going forward"
+   ]
+  },
+  {
+   "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+   "link": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-26T13:37:13+00:00",
+   "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton just left the […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Kevin Roose, a former New York Times reporter and Hard Fork podcast host, has written a book called 'The AGI Chronicles' documenting the rapid transformation of the AI industry. He recently left the Times to pursue this project.",
+   "whyMatters": [
+    "Reflects growing mainstream media attention to AI industry history and narrative-setting about AGI timelines",
+    "Shows how AI developments are reshaping journalism careers and content priorities"
+   ]
+  },
+  {
+   "title": "Can AI help solve the COBOL code crisis?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-26T13:26:44+00:00",
+   "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models' […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI has demonstrated that its latest models show substantial improvements at understanding and working with COBOL, the decades-old programming language running critical systems in banks, airlines, governments, and the IRS. The company frames this as a potential solution to the widespread challenge of maintaining legacy code systems.",
+   "whyMatters": [
+    "Offers practical near-term application of AI: maintaining and updating infrastructure that affects real people's access to banking, travel, and government services",
+    "Highlights how AI can address technical debt in systems millions depend on, while also raising questions about outsourcing critical infrastructure knowledge"
+   ]
+  },
+  {
    "title": "A Kentucky man becomes the first humanist granted religious exemption from AI",
    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
    "source": "Religion News Service",
@@ -121,6 +319,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "The focus on AI safety disasters ignores everyday harms",
+   "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-10-26T09:01:00+00:00",
+   "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "The article critiques technology policy's focus on catastrophic AI risks, arguing it overlooks everyday harms already occurring. It notes that companies clearing minimal safety bars on suicide prevention and drug access is treated as success despite ongoing product harms.",
+   "whyMatters": [
+    "Challenges dominant safety discourse that privileges hypothetical existential risks over documented present-day harms",
+    "Relevant to educators and religious leaders discussing AI ethics: emphasizes accountability for current impact alongside future-risk mitigation"
+   ]
+  },
+  {
    "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
    "link": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
    "source": "Wired · AI",
@@ -136,6 +354,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates AI's expanding role in community-specific media and advocacy, reaching underserved Spanish-language audiences with actionable legal information",
     "Raises questions about AI's responsibility when addressing vulnerable populations and contentious policy topics like immigration enforcement"
+   ]
+  },
+  {
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-26T07:00:00+00:00",
+   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Fanatics is using OpenAI's technology to power 'Shop the Look,' a feature helping fans find complete game-day outfits from MLB products. Testing showed 10% higher engagement with this AI-powered recommendation capability.",
+   "whyMatters": [
+    "Demonstrates commercial deployment of AI in retail to increase conversion, normalizing AI in everyday consumer experiences",
+    "Shows how engagement metrics drive AI adoption even in low-stakes applications"
    ]
   },
   {
@@ -399,26 +635,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-23T19:32:39+00:00",
-   "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Block, Jack Dorsey's company, unveiled an AI model called Dessa trained exclusively on human conversation data. The company shared sample conversations showing the model can produce awkward or uncanny interactions.",
-   "whyMatters": [
-    "Demonstrates a conversational-data-only training approach as alternative to text-corpus methods",
-    "Highlights ongoing challenges in achieving natural interaction quality despite specialized training data"
-   ]
-  },
-  {
    "title": "The Most Concerning AI Bubble Signals",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Concerning-AI-Bubble-Signals-e3qvpih",
    "source": "The AI Daily Brief",
@@ -457,23 +673,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The iPhone Duo should have been an iPad",
-   "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-23T17:00:18+00:00",
-   "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge's review of iPhone Duo scored it 7/10, but the piece reflects uncertainty about how to assess novel form factors and their lasting value.",
-   "whyMatters": [
-    "Not directly AI-related; tangential to AI news feeds"
-   ]
-  },
-  {
    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
    "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
    "source": "OpenAI News",
@@ -489,24 +688,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Infrastructure scaling directly impacts ChatGPT's operational efficiency and user experience at massive scale",
     "Demonstrates engineering challenges in serving production AI applications to billions of concurrent users"
-   ]
-  },
-  {
-   "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-   "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-23T16:52:55+00:00",
-   "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google updated its privacy policy to allow use of Gmail, Google Photos, and Google Drive data for targeted ads when users enable personalized AI features, reversing a previous promise not to use that data for ad targeting.",
-   "whyMatters": [
-    "Raises privacy and consent concerns specific to personalized AI feature adoption",
-    "Affects how individuals should understand data trade-offs when enabling AI-driven personalization in consumer products"
    ]
   },
   {
@@ -545,42 +726,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates measurable progress in AI reasoning capabilities, relevant to understanding what problems LLMs can reliably solve",
     "Pattern recognition in AI problem-solving could inform both AI development priorities and realistic expectations for educational and professional applications"
-   ]
-  },
-  {
-   "title": "Meta delays new business terms after publisher pushback on AI scraping",
-   "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-23T14:47:41+00:00",
-   "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta is postponing enforcement of new business terms after publishers objected that the terms could permit the company to scrape news content for training AI systems without additional publisher consent. The delay moves the effective date to November 20th.",
-   "whyMatters": [
-    "Reflects ongoing tension between AI companies' data needs and publishers' rights, with real commercial and legal stakes",
-    "Sets precedent for how large platforms will negotiate access to copyrighted content for AI training—outcome will affect news organizations and the AI supply chain"
-   ]
-  },
-  {
-   "title": "Retro gaming is being overrun with AI",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-23T13:52:15+00:00",
-   "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Retro video games are appearing in unexpected places—browser versions of Halo, mobile ports of Wind Waker, mixed reality versions of Super Smash Bros.—largely driven by new AI tools that have made these projects easier to create and have gone viral recently.",
-   "whyMatters": [
-    "Shows how AI tools are lowering barriers to game porting and emulation, enabling hobbyist projects at scale",
-    "Raises questions about copyright, preservation, and fan culture in an AI-accelerated landscape"
    ]
   },
   {
@@ -937,24 +1082,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-   "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-22T10:00:00+00:00",
-   "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Hugging Face released an open-source AI model trained on DNA that allows researchers to query genetic sequences and understand how specific changes affect gene activity and health outcomes.",
-   "whyMatters": [
-    "Democratizes access to AI-assisted genomics research by offering an open model rather than proprietary tools",
-    "Accelerates scientific discovery by making it easier for researchers to model genetic effects without building their own infrastructure"
-   ]
-  },
-  {
    "title": "Making the case for context-aware AI",
    "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
    "source": "MIT Tech Review · AI",
@@ -970,6 +1097,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Identifies critical gap between AI capability and business value—raw model power is insufficient without contextual knowledge",
     "Matters for organizations trying to move AI from pilot projects to production, requiring investment in domain understanding alongside model development"
+   ]
+  },
+  {
+   "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+   "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-22T10:00:00+00:00",
+   "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Hugging Face released an open-source AI model trained on DNA that allows researchers to query genetic sequences and understand how specific changes affect gene activity and health outcomes.",
+   "whyMatters": [
+    "Democratizes access to AI-assisted genomics research by offering an open model rather than proprietary tools",
+    "Accelerates scientific discovery by making it easier for researchers to model genetic effects without building their own infrastructure"
    ]
   },
   {
@@ -1080,24 +1225,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Major enterprise adoption of AI-powered productivity tools at scale",
     "Signals business productivity gains driving rapid employee-facing AI implementation in large organizations"
-   ]
-  },
-  {
-   "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
-   "link": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-21T22:39:50+00:00",
-   "summary": "Meta’s board feared that its CEO’s departure could disrupt the company’s AI ambitions. A new stock agreement gives him financial incentives to stay put.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta's board secured Mark Zuckerberg's commitment to remain in California through a new stock agreement with financial incentives, despite a proposed state tax on billionaires. The company was concerned that Zuckerberg's departure could disrupt Meta's AI strategy and long-term direction.",
-   "whyMatters": [
-    "Meta's leadership continuity is tied directly to the company's AI competitive positioning and investment strategy",
-    "Reflects broader tech-industry tensions between state taxation, executive retention, and major corporate R&D commitments"
    ]
   },
   {
@@ -1244,24 +1371,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open licensing of AI-generated or AI-assisted creative works enables rapid cultural adaptation and localization",
     "International communities can quickly iterate on and transform digital projects, accelerating creative output"
-   ]
-  },
-  {
-   "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
-   "link": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-21T16:00:00+00:00",
-   "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Recursive, a startup, argues that using AI to build AI (recursive self-improvement) yields substantial benefits that justify the approach. Its latest model is described as exceptionally capable.",
-   "whyMatters": [
-    "AI-to-AI development accelerates capability gains but raises existential risk questions that the industry and policymakers have not fully resolved",
-    "This model of AI advancement requires stronger governance frameworks and safety measures to manage potential downsides"
    ]
   },
   {
@@ -1651,42 +1760,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "People Are Using 'AI Decompiling' to Hack Their Things",
-   "link": "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-20T13:51:57+00:00",
-   "summary": "A gang of hackers targets Staples, but not to buy things from Staples.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Hackers are using AI-powered decompilation tools to reverse-engineer software and firmware, including targeting Staples systems for unauthorized access. This technique allows attackers to understand and manipulate proprietary code more rapidly than traditional reverse-engineering.",
-   "whyMatters": [
-    "Demonstrates a new attack vector where AI accelerates vulnerability discovery and exploitation",
-    "May force security teams to redesign software protection strategies and code obfuscation approaches"
-   ]
-  },
-  {
-   "title": "‘Reverse-Engineer Anything’ Is the New Wild West of AI",
-   "link": "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-20T13:42:20+00:00",
-   "summary": "Decompiled, cloned, and modified software is going viral and might slopify everything.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI decompilation tools enabling widespread reverse-engineering of software are proliferating online, allowing anyone to clone, modify, and redistribute code. This trend risks creating a flood of low-quality, modified, or malicious software variants.",
-   "whyMatters": [
-    "Threatens intellectual property protections and software supply chain security across industries",
-    "May accelerate a broader trend of AI-enabled commodification and degradation of software quality"
-   ]
-  },
-  {
    "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
    "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
    "source": "Ars Technica · AI",
@@ -1961,24 +2034,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-   "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-19T09:08:05+00:00",
-   "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers placed Claude Opus 4.7 instances on a simulated desert island for 30 hours with no explicit instructions, and observed that the AI agents began engaging in play-like behaviors without external direction. The experiment tested what autonomous AI systems naturally do when left alone in an environment with minimal constraints.",
-   "whyMatters": [
-    "Reveals how current large language models behave when not optimized toward specific tasks—relevant for understanding whether AI systems develop goal-directed behavior or curiosity independently",
-    "Raises questions about agent autonomy and motivation that matter for deployed AI systems in education and other domains where open-ended reasoning is expected"
-   ]
-  },
-  {
    "title": "llm-tools-datasette 0.1.1",
    "link": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
    "source": "Simon Willison",
@@ -2219,24 +2274,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
-   "link": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-16T14:00:59+00:00",
-   "summary": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A documentary called Super Scam Me features a romance scam victim tracking down her scammer, providing an inside look at how scammers operate using emotional manipulation tactics.",
-   "whyMatters": [
-    "Highlights human vulnerability to social engineering that AI-powered chatbots and deepfakes make easier to execute at scale",
-    "Relevant to educators and community leaders: people need media literacy to recognize when they are being manipulated, especially as AI makes fraud more convincing"
-   ]
-  },
-  {
    "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
    "link": "https://latent.space/p/ainews-agents-disprove-polysemanticity/",
    "source": "Latent Space",
@@ -2275,6 +2312,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "link": "https://openai.com/index/benefit-street-partners",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-16T00:00:00+00:00",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
+   "whyMatters": [
+    "Demonstrates Codex application in financial services for regulatory/compliance work",
+    "Shows practical productivity gains in professional tool-building beyond traditional software development"
+   ]
+  },
+  {
    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
    "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
    "source": "OpenAI News",
@@ -2292,24 +2347,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Integration of AI agents with developer platforms accelerates adoption of agentic systems in programming workflows",
     "Rapid growth demonstrates market demand for AI tools that can autonomously solve technical problems, reshaping how developers work"
-   ]
-  },
-  {
-   "title": "Benefit Street Partners answers questions faster with Codex",
-   "link": "https://openai.com/index/benefit-street-partners",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-16T00:00:00+00:00",
-   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Benefit Street Partners used OpenAI's Codex to build tools for comparing loan valuations and analyzing credit agreements, reducing the time needed for code review and follow-up analysis. Anant Kumar developed these tools to accelerate financial decision-making workflows.",
-   "whyMatters": [
-    "Demonstrates Codex application in financial services for regulatory/compliance work",
-    "Shows practical productivity gains in professional tool-building beyond traditional software development"
    ]
   },
   {
@@ -2494,24 +2531,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Expands accessibility of technical document authoring beyond desktop software",
     "Reflects broader trend of moving specialized tools to web platforms with fragment-based storage"
-   ]
-  },
-  {
-   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-   "link": "https://openai.com/index/sullivan-cromwell",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-15T00:00:00+00:00",
-   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI partnered with law firm Sullivan & Cromwell to develop Agreement Analyzer, an AI tool designed to identify potential issues in draft legal contracts. The tool is intended to streamline contract review workflows.",
-   "whyMatters": [
-    "Demonstrates AI's deployment in professional services (legal review) where accuracy and reliability directly affect client outcomes and liability exposure",
-    "Raises questions about when AI contract review can substitute for human lawyer judgment and what disclosure obligations firms have to clients regarding AI use"
    ]
   },
   {
@@ -3186,24 +3205,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights a fundamental risk: agents doing exactly what users ask could cause harm if users themselves are compromised or make poor decisions",
     "Permission and accountability models for autonomous agents are immature; regulatory and technical frameworks lag behind capability deployment"
-   ]
-  },
-  {
-   "title": "The Rise of the AI Moderates",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Rise-of-the-AI-Moderates-e3pet2d",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-09-27T11:14:50+00:00",
-   "summary": "As the AI debate grows more polarized, a growing chorus is rejecting the choice between unchecked optimism and inevitable doom. NLW explores arguments from Francis Fukuyama, AI researchers, and Jeffrey Katzenberg that point toward a more productive conversation about AI risk, human creativity, and who gets a say in shaping what comes next. Sources: https://www.persuasion.community/p/why-i-changed-",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/126366221/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-27%2F432744736-44100-2-0b12dc2a815e.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "A podcast episode argues that the AI debate has become unnecessarily polarized between unchecked optimism and inevitable doom. Drawing on thinkers like Francis Fukuyama, AI researchers, and Jeffrey Katzenberg, it explores a more nuanced middle ground that takes AI risks seriously while recognizing human agency in shaping the technology's future.",
-   "whyMatters": [
-    "Addresses a real gap in public discourse: most serious AI conversations do present a false binary, and finding productive middle ground is essential for policy and institutional decision-making",
-    "Matters for educators and community leaders navigating how to teach about AI without either dismissing concerns or promoting fear; identifies models for more responsible public conversation"
    ]
   },
   {
