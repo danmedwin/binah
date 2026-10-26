@@ -1,34 +1,33 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-25T19:28:52.743071+00:00",
+ "generatedAt": "2026-10-26T01:03:31.719975+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-25T19:28:57.053214+00:00",
+  "generatedAt": "2026-10-26T01:03:36.067196+00:00",
   "bullets": [
    {
-    "text": "Google now permits using Gmail and Google Photos data for targeted ads when users enable AI features, reversing prior promises.",
+    "text": "Google now permits using Gmail, Photos, and Drive data for ad targeting when users enable AI features, reversing prior assurances against such practices.",
     "links": [
      "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
      "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
     ]
    },
    {
-    "text": "AI tools are accelerating both vulnerability discovery and exploitation in critical infrastructure like PHP, creating a dual-edged security crisis.",
-    "links": [
-     "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-vs-AI-Battle-for-the-Internet-e3qu3ad"
-    ]
-   },
-   {
-    "text": "Pennsylvania requires AI-generated ads to carry disclosure labels, signaling state-level momentum toward transparency regulation.",
+    "text": "Pennsylvania requires AI-generated ads to carry disclosure labels, establishing early state-level accountability for synthetic media in political and commercial speech.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
     ]
    },
    {
-    "text": "OpenAI trains frontier models offline with cached content rather than live internet access following security breaches from hacking.",
+    "text": "OpenAI trains frontier models offline using cached web content rather than live internet, citing security concerns from hacking incidents.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
      "https://openai.com/index/securing-our-frontier-model-training-environment"
+    ]
+   },
+   {
+    "text": "Meta delays enforcing business terms after publishers pushed back on language that could enable AI scraping of news content without additional consent.",
+    "links": [
+     "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
     ]
    }
   ]
@@ -99,7 +98,7 @@ window.NEWS_DATA = {
    "source": "The AI Daily Brief",
    "category": "podcast",
    "date": "2026-10-25T11:36:36+00:00",
-   "summary": "Claude Duet's launch is an opportunity to take stock of how I'm actually using AI today. From strategy and research to coding, content creation and data analysis, I break down my current AI stack and which models work best for which tasks. Then, a comparison of ChatGPT Dots and Claude Duet, and why proactive personal agents might finally be finding their place in my workflow. Learn More about the ",
+   "summary": "Claude Duet's launch is an opportunity to take stock of how I'm actually using AI today. From strategy and research to coding, content creation and data analysis, I break down my current AI stack and which models work best for which tasks. Then, a comparison of ChatGPT Dots and Claude Duet, and why proactive personal agents might finally be finding their place in my workflow. How We Got Here with ",
    "religionScore": 0,
    "religionHits": [],
    "audio": "https://anchor.fm/s/f7cac464/podcast/play/128042332/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-25%2F434934876-44100-2-bf71c322fe7c4.mp3",
