@@ -1,32 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-26T09:19:28.417397+00:00",
+ "generatedAt": "2026-10-26T10:52:26.485099+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-26T09:19:40.199652+00:00",
+  "generatedAt": "2026-10-26T10:52:34.914556+00:00",
   "bullets": [
    {
-    "text": "Google is now permitted to use Gmail, Photos, and Drive data to train advertising systems when users enable AI features, reversing its prior commitment to protect that data from ad targeting.",
+    "text": "Pennsylvania requires AI-generated ads to disclose their origin—first US state to mandate such labeling as AI content floods digital channels.",
     "links": [
-     "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+     "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
     ]
    },
    {
-    "text": "OpenAI trains frontier models in offline environments with cached internet content rather than live access, and is scaling storage infrastructure to support over 1 billion ChatGPT users at production scale.",
+    "text": "Google updated privacy policy to allow using Gmail and Photos data for targeted ads via AI features, reversing prior promise to users.",
+    "links": [
+     "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+     "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
+    ]
+   },
+   {
+    "text": "Open-weights AI models closing gap with proprietary systems; Kimi 3.1 Pro claims month-long lead reduction while new faster APIs emerge.",
+    "links": [
+     "https://latent.space/p/ainews-kimi-31/",
+     "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+    ]
+   },
+   {
+    "text": "AI agents now pitching investigative stories to editors and AI radio hosts gaining audiences, signaling autonomous systems entering creative labor.",
+    "links": [
+     "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+     "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/"
+    ]
+   },
+   {
+    "text": "OpenAI trains frontier models offline citing security concerns; AI vulnerabilities in PHP accelerate both bug discovery and exploit creation.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-     "https://openai.com/index/scaling-storage-one-billion-users-part-two"
-    ]
-   },
-   {
-    "text": "Google's AI-integrated search has substantially disrupted digital publishing economics and traffic patterns, altering how content sites reach audiences and generate revenue.",
-    "links": [
-     "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
-    ]
-   },
-   {
-    "text": "Meta is delaying enforcement of terms that would allow AI training on news content without additional publisher consent, after significant industry pushback over uncompensated scraping.",
-    "links": [
-     "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
+     "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"
     ]
    }
   ]
@@ -71,6 +80,46 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "A Kentucky man becomes the first humanist granted religious exemption from AI",
+   "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-10-26T10:00:55+00:00",
+   "summary": "(RNS) — David Durman, an administrator at the University of Kentucky, said using AI would cause him to offload his thinking and decision making, which would violate his humanist views. He hopes other Americans will rethink their views on AI, too.",
+   "religionScore": 4,
+   "religionHits": [
+    "religio"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "David Durman, a University of Kentucky administrator, obtained a religious exemption from using AI based on his humanist beliefs, arguing that relying on AI would cause him to outsource his thinking and decision-making in ways contrary to humanism. He is advocating for broader reconsideration of AI adoption among Americans.",
+   "whyMatters": [
+    "First known case of a humanist worldview being legally recognized as grounds for AI exemption, establishing precedent for conscience-based refusals in secular frameworks",
+    "Raises questions about how institutions should accommodate philosophical and ethical objections to AI use, relevant to educators and organizations developing AI policies",
+    "Connects to deeper debates about human agency, intellectual autonomy, and the proper role of technology in professional and educational settings"
+   ]
+  },
+  {
+   "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+   "link": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-26T09:30:00+00:00",
+   "summary": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI agents named Jayden, Sam, and Zack are actively pitching news stories and investigative features to editors. This represents AI systems attempting to perform actual journalism work rather than just assisting human reporters.",
+   "whyMatters": [
+    "Signals a potential shift in media industry labor, with AI moving from editorial support tools to competitors for journalism assignments",
+    "Raises practical questions about editorial standards, fact-checking accountability, and byline attribution if AI-generated content enters newsrooms",
+    "Tests whether newsrooms will adopt AI agents as reporters or draw lines around human editorial decision-making and reporting integrity"
+   ]
+  },
   {
    "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
    "link": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
@@ -888,24 +937,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Making the case for context-aware AI",
-   "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-22T10:00:00+00:00",
-   "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review explores why enterprise AI systems struggle in real-world deployment: powerful models can make poor decisions when they lack understanding of business constraints, relationships, and operational context.",
-   "whyMatters": [
-    "Identifies critical gap between AI capability and business value—raw model power is insufficient without contextual knowledge",
-    "Matters for organizations trying to move AI from pilot projects to production, requiring investment in domain understanding alongside model development"
-   ]
-  },
-  {
    "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
    "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
    "source": "Wired · AI",
@@ -921,6 +952,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Democratizes access to AI-assisted genomics research by offering an open model rather than proprietary tools",
     "Accelerates scientific discovery by making it easier for researchers to model genetic effects without building their own infrastructure"
+   ]
+  },
+  {
+   "title": "Making the case for context-aware AI",
+   "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-10-22T10:00:00+00:00",
+   "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review explores why enterprise AI systems struggle in real-world deployment: powerful models can make poor decisions when they lack understanding of business constraints, relationships, and operational context.",
+   "whyMatters": [
+    "Identifies critical gap between AI capability and business value—raw model power is insufficient without contextual knowledge",
+    "Matters for organizations trying to move AI from pilot projects to production, requiring investment in domain understanding alongside model development"
    ]
   },
   {
@@ -1231,26 +1280,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Healthcare accuracy matters—tools used in medical decision-making require validated performance, not just market valuation",
     "The ad-supported model creates potential conflicts of interest in clinical settings where unbiased information is critical"
-   ]
-  },
-  {
-   "title": "Jensen Huang’s Vision for Europe Runs on Plug-In Data Centers",
-   "link": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-21T15:02:15+00:00",
-   "summary": "At Nvidia’s GTC in Berlin, Huang unveiled the company’s new plug-in data center—the DSX Pod—as the key to unlocking Europe’s AI infrastructure lag. Oh, and autonomous humanoid robotics.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Nvidia CEO Jensen Huang announced the DSX Pod, a modular plug-in data center designed to help Europe address its AI infrastructure gaps. The announcement came at Nvidia's GTC conference in Berlin and includes plans for autonomous humanoid robotics deployment.",
-   "whyMatters": [
-    "Infrastructure investment indicates competitive positioning: Europe is attempting to catch up in AI compute capacity",
-    "Modular data center approach could affect where and how AI services are deployed globally"
    ]
   },
   {
