@@ -1,31 +1,30 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-26T01:03:31.719975+00:00",
+ "generatedAt": "2026-10-26T09:19:28.417397+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-26T01:03:36.067196+00:00",
+  "generatedAt": "2026-10-26T09:19:40.199652+00:00",
   "bullets": [
    {
-    "text": "Google now permits using Gmail, Photos, and Drive data for ad targeting when users enable AI features, reversing prior assurances against such practices.",
+    "text": "Google is now permitted to use Gmail, Photos, and Drive data to train advertising systems when users enable AI features, reversing its prior commitment to protect that data from ad targeting.",
     "links": [
-     "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-     "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/"
+     "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
     ]
    },
    {
-    "text": "Pennsylvania requires AI-generated ads to carry disclosure labels, establishing early state-level accountability for synthetic media in political and commercial speech.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
-    ]
-   },
-   {
-    "text": "OpenAI trains frontier models offline using cached web content rather than live internet, citing security concerns from hacking incidents.",
+    "text": "OpenAI trains frontier models in offline environments with cached internet content rather than live access, and is scaling storage infrastructure to support over 1 billion ChatGPT users at production scale.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-     "https://openai.com/index/securing-our-frontier-model-training-environment"
+     "https://openai.com/index/scaling-storage-one-billion-users-part-two"
     ]
    },
    {
-    "text": "Meta delays enforcing business terms after publishers pushed back on language that could enable AI scraping of news content without additional consent.",
+    "text": "Google's AI-integrated search has substantially disrupted digital publishing economics and traffic patterns, altering how content sites reach audiences and generate revenue.",
+    "links": [
+     "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+    ]
+   },
+   {
+    "text": "Meta is delaying enforcement of terms that would allow AI training on news content without additional publisher consent, after significant industry pushback over uncompensated scraping.",
     "links": [
      "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
     ]
@@ -33,47 +32,81 @@ window.NEWS_DATA = {
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-25T08:41:54.080313+00:00",
+  "generatedAt": "2026-10-26T09:19:40.199652+00:00",
   "bullets": [
    {
-    "text": "Pennsylvania becomes first state to require AI-generated ad disclosures; Governor Shapiro signed law mandating labels on any significantly AI-modified or AI-generated advertisements across all formats.",
+    "text": "Google is now permitted to use Gmail, Photos, and Drive data to train advertising systems when users enable AI features, reversing its prior commitment to protect that data from ad targeting.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+     "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
     ]
    },
    {
-    "text": "Open-weights AI models are narrowing the capability gap with closed-source systems to roughly one month, with Moonshot's Kimi K3.1 Pro matching frontier performance while planning open-source release by late 2026.",
+    "text": "OpenAI trains frontier models in offline environments with cached internet content rather than live access, and is scaling storage infrastructure to support over 1 billion ChatGPT users at production scale.",
     "links": [
-     "https://latent.space/p/ainews-kimi-31/",
-     "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+     "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+     "https://openai.com/index/scaling-storage-one-billion-users-part-two"
     ]
    },
    {
-    "text": "AI-powered vulnerability discovery is accelerating security risks: researchers used AI to find and exploit years-old PHP bugs, demonstrating that automated exploit development now outpaces patch deployment and defender response.",
+    "text": "Google's AI-integrated search has substantially disrupted digital publishing economics and traffic patterns, altering how content sites reach audiences and generate revenue.",
     "links": [
-     "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-vs-AI-Battle-for-the-Internet-e3qu3ad"
+     "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
     ]
    },
    {
-    "text": "Hugging Face released open-source DNA-querying AI model enabling researchers to chat with genetic sequences and predict how specific mutations affect gene activity and health—practical AI advancing biology research.",
+    "text": "Meta is delaying enforcement of terms that would allow AI training on news content without additional publisher consent, after significant industry pushback over uncompensated scraping.",
     "links": [
-     "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"
+     "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-25T08:41:49.136810+00:00",
+  "updatedAt": "2026-10-26T09:19:35.567445+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the intersection of faith/morality with technology",
-   "Prefers stories about real-world AI applications and commercial products over technical tool updates",
-   "Values consumer-facing AI developments (Apple, Waze) alongside thought leadership",
-   "Skips niche developer tools and low-utility technical releases"
+   "Interested in AI ethics and moral/religious perspectives on technology",
+   "Engaged with major tech company AI developments and product innovations",
+   "Prefers substantive analysis over technical release notes and low-level developer updates"
   ]
  },
  "items": [
+  {
+   "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+   "link": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-26T09:00:00+00:00",
+   "summary": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artificial personalities.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Coyotec is an AI radio host that broadcasts in Spanish, uses colloquial language including profanity, and provides practical advice to listeners about immigration enforcement and legal self-defense. The show is gaining audience traction as traditional broadcasters increasingly experiment with AI personalities for radio programming.",
+   "whyMatters": [
+    "Demonstrates AI's expanding role in community-specific media and advocacy, reaching underserved Spanish-language audiences with actionable legal information",
+    "Raises questions about AI's responsibility when addressing vulnerable populations and contentious policy topics like immigration enforcement"
+   ]
+  },
+  {
+   "title": "Seam Cutter",
+   "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-25T15:10:19+00:00",
+   "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wan",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Simon Willison created Seam Cutter, a specialized image cropping tool that allows users to make horizontal or vertical cuts through an image and slide the two resulting sections relative to each other, effectively removing a section from the middle. The tool addresses a specific workflow need he encountered when stitching multiple screenshots together.",
+   "whyMatters": [
+    "Represents practical, focused AI tool development addressing genuine user friction points rather than broad applications",
+    "Shows the iterative nature of tool-building where personal workflows inspire targeted solutions"
+   ]
+  },
   {
    "title": "r/opensource just banned AI, non-English speakers, and more",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
@@ -1218,24 +1251,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Infrastructure investment indicates competitive positioning: Europe is attempting to catch up in AI compute capacity",
     "Modular data center approach could affect where and how AI services are deployed globally"
-   ]
-  },
-  {
-   "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
-   "link": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-21T14:26:19+00:00",
-   "summary": "The PHP Foundation has revealed two serious vulnerabilities that could impact millions of websites. Security experts warn that failure to quickly patch the flaws could have dire consequences.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The PHP Foundation disclosed two critical vulnerabilities affecting millions of websites, with security experts warning that slow patching could cause widespread damage. The urgency suggests imminent or active exploitation.",
-   "whyMatters": [
-    "Web infrastructure risk: PHP powers significant portions of the internet; these flaws could expose user data at scale",
-    "Not AI-specific but relevant to AI systems deployed on PHP-based platforms"
    ]
   },
   {
@@ -2753,24 +2768,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a capability milestone in frontier AI development",
     "Performance advances influence what tasks AI can be deployed for across industries and institutions"
-   ]
-  },
-  {
-   "title": "Quoting Geoffrey Huntley",
-   "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-13T13:32:00+00:00",
-   "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten. — G",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Geoffrey Huntley discusses using git pre-commit hooks to enforce AI agent compliance with observability standards, injecting prompts to guide agents toward using proper diagnostics libraries.",
-   "whyMatters": [
-    "Exemplifies emerging developer practices for controlling AI agent behavior through infrastructure constraints and automated prompting",
-    "Addresses quality control in agentic AI systems where traditional testing may be insufficient"
    ]
   },
   {
