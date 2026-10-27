@@ -1,78 +1,96 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-27T01:54:59.163496+00:00",
+ "generatedAt": "2026-10-27T09:18:40.293246+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-27T01:55:31.208866+00:00",
+  "generatedAt": "2026-10-27T09:18:52.401130+00:00",
   "bullets": [
    {
-    "text": "Anthropic filed for IPO on Nasdaq under ticker 'ANT,' positioning the company to go public ahead of OpenAI with ambitious plans to transform multiple sectors through AI.",
+    "text": "Anthropic filed for IPO with $1B Q2 operating profit, 85% margins, and $134B cash reserves, positioning the company to go public before OpenAI amid AI industry consolidation.",
     "links": [
+     "https://latent.space/p/ainews-anthropic-s1/",
      "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
     ]
    },
    {
-    "text": "OpenAI announced three major scientific discoveries in mathematics, computer science, and physics while establishing new collaboration frameworks with external academic experts.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-     "https://openai.com/index/building-scientific-understanding-with-academic-communities"
-    ]
-   },
-   {
-    "text": "OpenAI released GPT-6.1 Terra, emphasizing visual reasoning and computer use capabilities for autonomous task automation.",
+    "text": "OpenAI released GPT-6.1 Terra with enhanced computer use and visual reasoning capabilities, and demonstrated three major scientific breakthroughs in mathematics, physics, and computer science using AI.",
     "links": [
      "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-     "https://openai.com/index/introducing-gpt-6-1-terra"
+     "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
     ]
    },
    {
-    "text": "AI is accelerating both discovery and exploitation of security vulnerabilities across critical systems, from PHP to COBOL legacy infrastructure running banks and government agencies.",
+    "text": "AI models now reliably understand and refactor COBOL, the decades-old language powering critical infrastructure in banking, government, and airlines—potentially addressing a major legacy-systems crisis.",
     "links": [
-     "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
      "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
+    ]
+   },
+   {
+    "text": "PHP vulnerability research shows AI tools dramatically accelerate both bug discovery and exploit development, raising urgent questions about asymmetric security risks as AI proliferates.",
+    "links": [
+     "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-26T09:19:40.199652+00:00",
+  "generatedAt": "2026-10-27T09:18:52.401130+00:00",
   "bullets": [
    {
-    "text": "Google is now permitted to use Gmail, Photos, and Drive data to train advertising systems when users enable AI features, reversing its prior commitment to protect that data from ad targeting.",
+    "text": "Anthropic filed for IPO with $1B Q2 operating profit, 85% margins, and $134B cash reserves, positioning the company to go public before OpenAI amid AI industry consolidation.",
     "links": [
-     "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+     "https://latent.space/p/ainews-anthropic-s1/",
+     "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
     ]
    },
    {
-    "text": "OpenAI trains frontier models in offline environments with cached internet content rather than live access, and is scaling storage infrastructure to support over 1 billion ChatGPT users at production scale.",
+    "text": "OpenAI released GPT-6.1 Terra with enhanced computer use and visual reasoning capabilities, and demonstrated three major scientific breakthroughs in mathematics, physics, and computer science using AI.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-     "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+     "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+     "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
     ]
    },
    {
-    "text": "Google's AI-integrated search has substantially disrupted digital publishing economics and traffic patterns, altering how content sites reach audiences and generate revenue.",
+    "text": "AI models now reliably understand and refactor COBOL, the decades-old language powering critical infrastructure in banking, government, and airlines—potentially addressing a major legacy-systems crisis.",
     "links": [
-     "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+     "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
     ]
    },
    {
-    "text": "Meta is delaying enforcement of terms that would allow AI training on news content without additional publisher consent, after significant industry pushback over uncompensated scraping.",
+    "text": "PHP vulnerability research shows AI tools dramatically accelerate both bug discovery and exploit development, raising urgent questions about asymmetric security risks as AI proliferates.",
     "links": [
-     "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
+     "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-26T09:19:35.567445+00:00",
+  "updatedAt": "2026-10-27T09:18:48.316236+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious perspectives on technology",
-   "Engaged with major tech company AI developments and product innovations",
-   "Prefers substantive analysis over technical release notes and low-level developer updates"
+   "Interested in AI ethics and religious/moral perspectives on technology leadership",
+   "Engaged with how major tech companies (Apple, Google/Waze) develop and deploy AI",
+   "Prefers substantive analysis over technical release notes or niche tool updates"
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+   "link": "https://latent.space/p/ainews-anthropic-s1/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-27T07:24:59+00:00",
+   "summary": "The S-1, the numbers, and the reactions.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic filed for an IPO with extraordinary financial metrics: 1400% growth rate, $1B operating profit in Q2, 85% margins, and $134B in cash reserves. The company generates 48% of its revenue through cloud partners and has a $10B lifetime operational burn.",
+   "whyMatters": [
+    "Demonstrates the capital intensity and profitability potential of frontier AI companies, signaling investor confidence in the AI sector's business model and Anthropic's competitive position",
+    "The IPO filing marks a major inflection point for AI safety-focused development—Anthropic's prominence in public markets could influence how the industry prioritizes responsible AI development and governance"
+   ]
+  },
   {
    "title": "GPT-6.1 Terra",
    "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
@@ -2843,25 +2861,6 @@ window.NEWS_DATA = {
     "Signals increased competition in frontier model development among major tech companies",
     "Affects the landscape of available advanced AI models and their commercial deployment",
     "Represents organizational shifts in how large tech companies structure AI research"
-   ]
-  },
-  {
-   "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)",
-   "link": "https://latent.space/p/claude-dynamic-workflows/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-12T18:18:17+00:00",
-   "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic demonstrated how Claude agents can coordinate complex multi-step projects through a dynamic workflows framework inspired by Unix and Linux architecture principles. The approach aims to enable agents to handle larger problems while keeping developer complexity manageable.",
-   "whyMatters": [
-    "Addresses practical challenge of deploying multi-agent AI systems at scale",
-    "Framework design influences how developers will architect AI applications going forward",
-    "Makes agent-based AI more accessible to developers familiar with traditional systems thinking"
    ]
   },
   {
