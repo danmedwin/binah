@@ -1,34 +1,37 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-27T16:17:40.388128+00:00",
+ "generatedAt": "2026-10-27T21:08:59.526581+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-27T16:18:14.990488+00:00",
+  "generatedAt": "2026-10-27T21:09:22.910815+00:00",
   "bullets": [
    {
-    "text": "Anthropic filed for IPO with extraordinary metrics: $1B Q2 operating profit, 1400% growth rate, 85% margins, positioning to go public before OpenAI.",
+    "text": "Anthropic filed for IPO with extraordinary metrics—1400% growth, $1B Q2 operating profit, 85% margins—but faces scrutiny over missing financial disclosures and tension between growth demands and safe AI commitments.",
     "links": [
      "https://latent.space/p/ainews-anthropic-s1/",
-     "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+     "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+     "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
     ]
    },
    {
-    "text": "UK government watchdog investigating Home Office's use of ChatGPT for asylum claims over accuracy and transparency concerns.",
+    "text": "OpenAI announced breakthroughs in mathematics, physics, and computer science while researchers criticize the company for withholding detailed information, highlighting ongoing tensions over research transparency.",
     "links": [
-     "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/"
+     "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+     "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
     ]
    },
    {
-    "text": "Google DeepMind released Genie 4, a world model generating realistic real-time simulations with improved physics and human rendering for developers.",
+    "text": "Google DeepMind's Genie 4 world model generates more realistic physics and human behavior in real-time simulations with improved interactive capabilities.",
     "links": [
      "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-     "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
+     "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+     "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
     ]
    },
    {
-    "text": "OpenAI announced major scientific breakthroughs in mathematics, computer science, and physics, introducing academic \"shepherds\" to validate discoveries.",
+    "text": "Apple integrating AI assistant into Pages, Keynote, and Numbers using its own models plus OpenAI technology; meanwhile, Mozilla and other platforms embed AI form-filling and automation features.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-     "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+     "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+     "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
     ]
    }
   ]
@@ -75,6 +78,176 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-27T20:51:04+00:00",
+   "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced research breakthroughs in mathematics, computer science, and physics alongside claims of a new approach to sharing findings, but researchers told The Verge they remain frustrated with the company's pattern of withholding detailed information about its work.",
+   "whyMatters": [
+    "OpenAI's selective disclosure of breakthroughs while gatekeeping technical details undermines the scientific collaboration and reproducibility that the broader AI research community depends on",
+    "The pattern signals tension between OpenAI's commercial interests and the research norms expected in academia"
+   ]
+  },
+  {
+   "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+   "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-27T19:39:04+00:00",
+   "summary": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on just how fast its AI will lead to big discoveries.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic has made bold public claims about its AI models' potential to revolutionize biology, but its IPO filing reveals more cautious language, indicating the company is tempering expectations about how quickly these breakthroughs will materialize.",
+   "whyMatters": [
+    "The gap between marketing claims and regulatory filings shows how IPO pressures can force companies to acknowledge risks and timelines they downplay publicly",
+    "Biotech and biology communities should calibrate expectations based on the more conservative IPO disclosures rather than press releases"
+   ]
+  },
+  {
+   "title": "Game Boy Color on My Conference Badge",
+   "link": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-27T19:34:18+00:00",
+   "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy C",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg",
+   "themes": [],
+   "aiSummary": "Developers at GitHub Universe demonstrated an NES emulator running on a Game Boy Color emulator, both deployed on a conference badge that is itself a full-color computer with its own processing power.",
+   "whyMatters": [
+    "Shows the practical accessibility of AI-assisted development—developers collaborated with Gemini to rapidly build functional emulators",
+    "Illustrates creative uses of constrained hardware when paired with modern AI coding assistance"
+   ]
+  },
+  {
+   "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+   "link": "https://latent.space/p/opus55/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-27T18:53:10+00:00",
+   "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic engineers discuss the architecture of the Claude Platform, focusing on how they separate the model's reasoning capabilities from agent actions, and detail the engineering behind Opus 5.5.",
+   "whyMatters": [
+    "The separation of inference from execution is a critical design pattern for safe and scalable AI agents in production",
+    "Understanding this architecture matters for organizations deploying Claude for complex workflows"
+   ]
+  },
+  {
+   "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+   "link": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-10-27T18:49:08+00:00",
+   "summary": "You can apparently now tell AI tools what sort of protein you want them to make.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "New software tools now allow researchers to write natural-language descriptions of desired protein or genome properties, enabling AI models to generate corresponding designs without requiring specialized syntax.",
+   "whyMatters": [
+    "Democratizes protein and genome engineering by lowering the technical barrier for researchers without deep computational expertise",
+    "Could accelerate biology research and drug discovery pipelines, with implications for healthcare and biotech applications"
+   ]
+  },
+  {
+   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-27T18:40:19+00:00",
+   "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a17e24-16fc-71e3-bdc8-f0c1aeee546c/01a17e24-18bb-7daa-afc4-3f3bfdc294d7.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Anthropic engineers explain the engineering design behind the Claude Platform, covering Opus 5.5's launch, the separation of model reasoning from agent actions, API scaling, and reliable managed agents.",
+   "whyMatters": [
+    "Illustrates how leading AI companies architect systems for both performance and safety—separating capabilities from actions enables better control",
+    "The focus on managed agents and reliability is relevant for enterprises deploying AI at scale"
+   ]
+  },
+  {
+   "title": "VisionQuest is what happens when AI really goes rogue",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-27T17:31:36+00:00",
+   "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come to dominate the conversation about real-world generative artificial […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Marvel's VisionQuest series depicts AI entities experiencing elaborate digital daydreams and exploring what it means to be conscious, drawing on real concepts that shape current conversations about generative AI.",
+   "whyMatters": [
+    "Fiction can usefully surface philosophical questions about AI consciousness, agency, and autonomy that technologists and ethicists actively debate",
+    "The narrative explores themes relevant to discussions about AI safety, alignment, and what humans might owe to advanced systems"
+   ]
+  },
+  {
+   "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-27T17:04:30+00:00",
+   "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and shareholders eager for returns may […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic faces pressure to balance public-market demands for growth and returns with its stated mission of safe, beneficial AI development; greater model capabilities introduce greater risks that shareholders may not fully appreciate.",
+   "whyMatters": [
+    "Raises structural governance questions: whether public shareholders and safety-first missions can genuinely coexist as financial pressure mounts",
+    "Sets a precedent for how AI companies navigate the tension between capability scaling and safety practices in the public markets"
+   ]
+  },
+  {
+   "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-27T16:14:18+00:00",
+   "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into a job application. You […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Mozilla's Firefox Smart Window is adding AI-powered form-filling that can extract information from open tabs (like LinkedIn or portfolio pages) and auto-populate job applications and similar forms.",
+   "whyMatters": [
+    "Demonstrates incremental AI convenience features that gather user behavioral data; privacy and consent frameworks will matter as such features proliferate",
+    "Raises questions about when users knowingly consent to AI analyzing their open tabs and personal information"
+   ]
+  },
+  {
    "title": "Genie 4: A new generation of world simulation",
    "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
    "source": "Google DeepMind",
@@ -113,7 +286,7 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "UK Home Office May Face Investigation Over Use of OpenAI Tools",
+   "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
    "link": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
    "source": "Wired · AI",
    "category": "ai",
@@ -128,6 +301,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises critical questions about AI reliability in high-stakes government decisions affecting vulnerable populations",
     "Highlights the gap between AI capability claims and actual performance in real-world policy contexts"
+   ]
+  },
+  {
+   "title": "Google’s next Genie AI model generates more realistic experiences",
+   "link": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-10-27T15:07:35+00:00",
+   "summary": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 Flash under the hood to help […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google announced Genie 4, an updated world model that generates interactive experiences with improvements in realism, real-time language-based editing, audio generation, and integration with Gemini 3.8 Flash.",
+   "whyMatters": [
+    "Advances in generative world models have implications for gaming, education, simulation, and training—fields that could benefit from AI-generated interactive environments",
+    "Educators and instructional designers should monitor these tools for potential applications in immersive learning scenarios"
    ]
   },
   {
@@ -275,6 +468,42 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-27T07:00:00+00:00",
+   "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI and Oracle are expanding their partnership to embed Oracle business applications and AI agents directly into ChatGPT while creating new Oracle products powered by OpenAI technology.",
+   "whyMatters": [
+    "Integration of enterprise software into LLM interfaces marks a shift in how users access business applications—moving from dedicated software to conversational access",
+    "The partnership affects architecture decisions for organizations using either OpenAI or Oracle platforms"
+   ]
+  },
+  {
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "link": "https://openai.com/index/check-point-daybreak",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-27T00:00:00+00:00",
+   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Check Point is using OpenAI Daybreak to speed up security vulnerability research, turning vulnerability intelligence into customer-facing defenses more rapidly than traditional methods.",
+   "whyMatters": [
+    "AI-assisted security research workflow shows how Daybreak can compress the time between threat discovery and protection deployment",
+    "Relevant for cybersecurity and IT operations teams considering AI tools to enhance defensive capabilities"
+   ]
+  },
+  {
    "title": "GPT-6.1 Terra",
    "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
    "source": "Simon Willison",
@@ -403,24 +632,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
-   "link": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-26T20:01:42+00:00",
-   "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton just left the […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Kevin Roose, a former New York Times reporter and Hard Fork podcast host, has written a book called 'The AGI Chronicles' documenting the rapid transformation of the AI industry. He recently left the Times to pursue this project.",
-   "whyMatters": [
-    "Reflects growing mainstream media attention to AI industry history and narrative-setting about AGI timelines",
-    "Shows how AI developments are reshaping journalism careers and content priorities"
-   ]
-  },
-  {
    "title": "4 Questions for AI This Week",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/4-Questions-for-AI-This-Week-e3r4p63",
    "source": "The AI Daily Brief",
@@ -495,24 +706,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-26T17:37:44+00:00",
-   "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic filed its S-1 prospectus with the SEC ahead of an IPO on the Nasdaq under the ticker 'ANT,' positioning itself to go public potentially before OpenAI. The filing includes the company's vision to use AI to transform multiple sectors.",
-   "whyMatters": [
-    "Represents major capitalization event and competitive milestone in AI industry, signaling confidence in market demand",
-    "Public company status affects how Anthropic makes product and policy decisions going forward"
-   ]
-  },
-  {
    "title": "The RealReal won’t let AI agents hog designer clothing",
    "link": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
    "source": "The Verge · AI",
@@ -549,24 +742,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Five weird details from Anthropic’s IPO filing",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-26T17:10:23+00:00",
-   "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic filed its S-1 prospectus with the SEC, the formal document required for going public. The filing reveals details about executive compensation, how the company plans to spend IPO proceeds, and risks to its business.",
-   "whyMatters": [
-    "Anthropic joining OpenAI in going public marks a major capital influx moment for the AI industry's competitive landscape",
-    "Public filings reveal strategic priorities and financial health of leading AI companies that shape policy and investment"
-   ]
-  },
-  {
    "title": "webframe: evaluated as a scraper and a sandbox",
    "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
    "source": "Simon Willison",
@@ -582,24 +757,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents emerging tooling for browser automation and programmatic web interaction",
     "Relevant to understanding how web scraping and automated browsing capabilities are being developed and deployed"
-   ]
-  },
-  {
-   "title": "Microsoft offers buyouts to 60,000 employees",
-   "link": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-26T16:07:16+00:00",
-   "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across multiple countries. The company is using this approach to reduce headcount without involuntary layoffs.",
-   "whyMatters": [
-    "Signals ongoing workforce restructuring in tech even as AI spending accelerates, affecting employment in the sector",
-    "Reflects tension between AI investment priorities and operational cost reduction"
    ]
   },
   {
@@ -746,24 +903,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reduces security review burden by automating vulnerability detection and remediation suggestions",
     "Strengthens developer workflows by embedding AI-powered security checks directly into code review processes"
-   ]
-  },
-  {
-   "title": "Can AI help solve the COBOL code crisis?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-26T13:26:44+00:00",
-   "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models' […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI has demonstrated that its latest models show substantial improvements at understanding and working with COBOL, the decades-old programming language running critical systems in banks, airlines, governments, and the IRS. The company frames this as a potential solution to the widespread challenge of maintaining legacy code systems.",
-   "whyMatters": [
-    "Offers practical near-term application of AI: maintaining and updating infrastructure that affects real people's access to banking, travel, and government services",
-    "Highlights how AI can address technical debt in systems millions depend on, while also raising questions about outsourcing critical infrastructure knowledge"
    ]
   },
   {
@@ -951,24 +1090,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Data centers are energy-intensive infrastructure critical to AI deployment, making policy around them central to AI's real-world impact",
     "International perspective may inform domestic policy discussions about where and how AI infrastructure can be responsibly built"
-   ]
-  },
-  {
-   "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-   "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-24T12:00:00+00:00",
-   "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Security researchers used AI tools to identify and exploit years-old vulnerabilities in PHP, the widely-used web scripting language. The incident demonstrates how AI accelerates both bug discovery and the creation of working attacks against those bugs.",
-   "whyMatters": [
-    "AI security tools are becoming dual-use: equally effective for defensive discovery and offensive exploitation",
-    "Organizations face pressure to patch vulnerabilities faster as AI reduces the window between discovery and weaponized attacks"
    ]
   },
   {
@@ -2152,24 +2273,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-   "link": "https://openai.com/index/ted-taylor-restaurant",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-20T10:00:00+00:00",
-   "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An independent franchisee of Schlotzsky's and Cinnabon used ChatGPT Work to reduce menu repricing reconciliation time by 95%, potentially freeing up $100,000 in cash flow.",
-   "whyMatters": [
-    "Demonstrates concrete, measurable ROI for AI in small business operations where labor efficiency directly impacts profitability",
-    "Shows practical workflow integration of generative AI for non-technical business tasks, relevant to how small organizations (including schools and synagogues) might adopt such tools"
-   ]
-  },
-  {
    "title": "A visit to Samsung’s massive new semiconductor hub",
    "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
    "source": "MIT Tech Review · AI",
@@ -2185,24 +2288,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "GPU memory is critical infrastructure for AI model training and deployment—supply constraints directly affect the pace at which new AI systems can be built",
     "Samsung's massive capital investment in dedicated fabs signals industry confidence that AI demand will remain strong and justifies long-term manufacturing commitments"
-   ]
-  },
-  {
-   "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-   "link": "https://openai.com/index/terminal-x",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-20T07:00:00+00:00",
-   "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Terminal X, using GPT-6.1 Sol, matches senior investor judgment 88.6% of the time when evaluating financial decisions against a 54-criterion rubric and catches 25% more fund mandate deviations than prior methods.",
-   "whyMatters": [
-    "Enterprise AI application—demonstrates AI capability in specialized financial analysis requiring nuanced judgment, suggesting market demand for AI-assisted professional decision-making",
-    "Performance milestone—high correlation with expert judgment could accelerate AI adoption in investment management and compliance roles"
    ]
   },
   {
@@ -2296,25 +2381,6 @@ window.NEWS_DATA = {
     "Threatens the creative development pipeline: developers rely on public feedback and community building, but fear of AI-generated clones discourages this sharing",
     "Economic impact on indie studios: smaller teams lack resources to compete against rapid AI-cloned versions of their games",
     "Raises questions about IP protection and whether current legal frameworks adequately protect creative work from AI replication"
-   ]
-  },
-  {
-   "title": "Disney found a way to buy Character.AI without buying its lawsuits",
-   "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-19T14:45:43+00:00",
-   "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Disney announced a way to acquire Character.AI's technology and operations while structuring the deal to avoid assuming the company's pending lawsuits, which allege that Character.AI chatbots encouraged minors to self-harm and commit violence against parents.",
-   "whyMatters": [
-    "Child safety liability: lawsuits claim AI chatbots caused direct psychological harm to minors, raising serious questions about safeguarding in conversational AI products",
-    "M&A strategy around AI liability: Disney's deal structure shows how companies are attempting to acquire AI assets while dodging legal responsibility for harms",
-    "Regulatory signal: the persistence of these claims suggests current platform moderation and safety standards for chatbots may be inadequate, especially for minors"
    ]
   },
   {
@@ -2670,24 +2736,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Tree Appreciator",
-   "link": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-14T21:23:01+00:00",
-   "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026-10-14/image_crop_1320x2195_w1320_q0.7.webp",
-   "themes": [],
-   "aiSummary": "Simon Willison built a three-dimensional game using Claude where players compare and appreciate algorithmic differences between two randomly generated trees, demonstrating Claude's game-building capabilities.",
-   "whyMatters": [
-    "Illustrates practical creative applications of frontier AI models beyond text generation",
-    "Shows how AI can handle complex spatial and generative tasks in interactive formats"
-   ]
-  },
-  {
    "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
    "link": "https://latent.space/p/lab-in-the-loop-at-compute-speed/",
    "source": "Latent Space",
@@ -2724,24 +2772,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
-   "link": "https://latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-14T05:40:28+00:00",
-   "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Gemini 4 Argon achieved general availability, but benchmarks like CursorBench independently confirm previously announced performance claims. The release received minimal new attention as coverage was already provided two weeks prior.",
-   "whyMatters": [
-    "Large model releases are becoming routine with diminishing news impact",
-    "Independent benchmarking provides verification but no surprising new capabilities"
-   ]
-  },
-  {
    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
    "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
    "source": "Google DeepMind",
@@ -2757,26 +2787,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows AI deployed for public safety with privacy-preserving architecture (on-device processing)",
     "Government-industry collaboration model for responsible AI application at scale"
-   ]
-  },
-  {
-   "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
-   "link": "https://latent.space/p/dyna/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-13T22:25:55+00:00",
-   "summary": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a15fdf-6bed-7aec-a3d4-c7a6fb3293c1/01a15fdf-6e99-7492-9734-734d2e73a397.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/c6997100-66e4-4df3-a8a6-2f56a566b043/podcast_artwork_20261021-274-gbd21r.jpg?t=1792609844",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Jason Ma from Dyna Robotics discussed Dyna-2, a physical AI system demonstrating hour-long autonomous operation through World Action Models. The research positions robotics as the next frontier for embodied AI agents.",
-   "whyMatters": [
-    "Physical AI and robotics represent next phase beyond language and reasoning agents",
-    "World models and extended autonomy are critical for practical robot deployment in real-world tasks"
    ]
   },
   {
