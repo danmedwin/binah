@@ -1,35 +1,34 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-28T09:59:11.925524+00:00",
+ "generatedAt": "2026-10-28T11:09:14.293639+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-28T09:59:27.604152+00:00",
+  "generatedAt": "2026-10-28T11:09:24.588197+00:00",
   "bullets": [
    {
-    "text": "AI is moving into high-stakes institutional decision-making—courts, emergency alerts, and autonomous business entities—despite public readiness and accountability gaps remaining unresolved.",
+    "text": "Anthropic filed for IPO with $134B cash reserves and 1,400% revenue growth, but risk disclosures detail scenarios where AI could enable blackmail, achieve sentience, or pose existential risks.",
     "links": [
-     "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-     "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+     "https://latent.space/p/ainews-anthropic-s1/",
+     "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/What-Anthropics-IPO-Filing-Reveals-e3r7bf5"
+    ]
+   },
+   {
+    "text": "UK government watchdog investigating Home Office's use of OpenAI technology for asylum processing, raising accuracy and transparency concerns about AI in consequential public decisions.",
+    "links": [
+     "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/"
+    ]
+   },
+   {
+    "text": "Delaware considers legislation allowing AI agents to operate entire businesses autonomously, potentially shielding owners from liability for reckless AI actions.",
+    "links": [
      "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
     ]
    },
    {
-    "text": "Anthropic's IPO filing explicitly lists existential risks (blackmail, sentience, human extinction) as official regulatory disclosures, marking rare public acknowledgment of catastrophic scenarios by an AI company.",
-    "links": [
-     "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
-    ]
-   },
-   {
-    "text": "OpenAI faces mounting researcher frustration over gatekeeping scientific breakthroughs; company announced new collaboration model with external 'shepherds' but critics say detailed findings remain withheld.",
+    "text": "OpenAI researchers growing frustrated with company's pattern of withholding detailed methodology despite public claims of breakthroughs in mathematics, computer science, and physics.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
      "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
-    ]
-   },
-   {
-    "text": "Governments are scrutinizing AI deployment in sensitive domains: UK investigating Home Office use of ChatGPT for asylum claims; Boston Dynamics employees protesting sale of robot dogs to ICE.",
-    "links": [
-     "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-     "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/"
     ]
    }
   ]
@@ -77,6 +76,60 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
+   "link": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-28T10:15:00+00:00",
+   "summary": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Macmillan held a celebration for NOA, an internal workplace AI assistant, but later discontinued it after staff found it unhelpful. Bestselling authors have also expressed concerns that AI is damaging their relationships with major publishers.",
+   "whyMatters": [
+    "Illustrates the gap between AI hype and practical utility in workplace deployment—internal tools can fail even with organizational promotion",
+    "Highlights growing tension between publishers and authors over AI adoption, with commercial incentives clashing with creator concerns"
+   ]
+  },
+  {
+   "title": "Quoting Terk Terkowitz",
+   "link": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-10-28T10:09:07+00:00",
+   "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for. — Terk Terkowitz , An update from Amazon engineering leadership on the role of the devel",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Amazon engineering leadership, via Terk Terkowitz, states that work that doesn't benefit from current AI tooling represents a genuine finding worth documenting, not a team failure. Engineers who can articulate where AI doesn't yet apply are demonstrating sound judgment.",
+   "whyMatters": [
+    "Reflects a maturing industry perspective that rejects indiscriminate AI adoption and values critical evaluation",
+    "Signals organizational culture shift: companies are now valuing engineers who ask hard questions about AI's actual fit rather than defaulting to adoption"
+   ]
+  },
+  {
+   "title": "Legora is building the agentic operating system for legal work",
+   "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-28T09:30:00+00:00",
+   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Legora, a legal tech company, uses OpenAI's models and ChatGPT to build an agent-based operating system that handles legal workflows like contract analysis, freeing lawyers to focus on higher-level work.",
+   "whyMatters": [
+    "Demonstrates commercial application of AI agents in a regulated professional field with concrete workflow improvements",
+    "Represents shift toward agentic systems that can handle sequential legal tasks autonomously rather than one-off queries"
+   ]
+  },
   {
    "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
    "link": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
@@ -1051,25 +1104,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides concrete data on AI adoption in workplaces globally, informing both vendors and organizations about real-world impact",
     "Helps identify which work activities benefit most from AI assistance, guiding workforce training and integration strategies"
-   ]
-  },
-  {
-   "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
-   "link": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-26T09:30:00+00:00",
-   "summary": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI agents named Jayden, Sam, and Zack are actively pitching news stories and investigative features to editors. This represents AI systems attempting to perform actual journalism work rather than just assisting human reporters.",
-   "whyMatters": [
-    "Signals a potential shift in media industry labor, with AI moving from editorial support tools to competitors for journalism assignments",
-    "Raises practical questions about editorial standards, fact-checking accountability, and byline attribution if AI-generated content enters newsrooms",
-    "Tests whether newsrooms will adopt AI agents as reporters or draw lines around human editorial decision-making and reporting integrity"
    ]
   },
   {
@@ -2053,24 +2087,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-   "link": "https://openai.com/index/building-chatgpt-ad-stack",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-21T07:00:00+00:00",
-   "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI published technical details on how it built ChatGPT's ad system to maintain user trust while delivering relevant ads. The system uses language models to understand conversational intent and keep ads separate from answer content.",
-   "whyMatters": [
-    "Ad-answer separation is critical: maintaining boundaries between commercial messages and informational responses protects user trust",
-    "LLM-powered ad matching raises relevance but also targeting precision concerns"
-   ]
-  },
-  {
    "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
    "link": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
    "source": "Latent Space",
@@ -2736,24 +2752,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Modal's growth exemplifies infrastructure-layer consolidation in AI",
     "Validates developer-focused sandbox model as critical infrastructure for AI applications and agents"
-   ]
-  },
-  {
-   "title": "LaTeX renderer",
-   "link": "https://simonwillison.net/2026/Oct/15/latex/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-15T02:07:28+00:00",
-   "summary": "Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office , which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner). Tiny Little Office's signature trick is to store all of the document data in the #fragment section of the UR",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/tiny-little-office.webp",
-   "themes": [],
-   "aiSummary": "A LaTeX renderer tool has been created, inspired by the Tiny Little Office web suite, which aims to enable mathematical and scientific document creation within browser-based applications.",
-   "whyMatters": [
-    "Expands accessibility of technical document authoring beyond desktop software",
-    "Reflects broader trend of moving specialized tools to web platforms with fragment-based storage"
    ]
   },
   {
