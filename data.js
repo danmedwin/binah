@@ -1,80 +1,136 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-28T02:04:26.107635+00:00",
+ "generatedAt": "2026-10-28T09:59:11.925524+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-28T02:04:40.612495+00:00",
+  "generatedAt": "2026-10-28T09:59:27.604152+00:00",
   "bullets": [
    {
-    "text": "Anthropic filed for IPO with extraordinary metrics—1400% growth, $1B operating profit in Q2, 85% margins—yet disclosed major AI risks including blackmail potential, possible sentience, and existential threats to humanity.",
+    "text": "AI is moving into high-stakes institutional decision-making—courts, emergency alerts, and autonomous business entities—despite public readiness and accountability gaps remaining unresolved.",
     "links": [
-     "https://latent.space/p/ainews-anthropic-s1/",
-     "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
-     "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
-    ]
-   },
-   {
-    "text": "Delaware is considering legislation that would allow AI agents to operate entire businesses autonomously, potentially shielding owners from liability for the AI's reckless actions.",
-    "links": [
+     "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+     "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
      "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
     ]
    },
    {
-    "text": "OpenAI announced major scientific breakthroughs in mathematics and physics but researchers remain frustrated with the company's pattern of withholding detailed findings despite public claims of transparency.",
+    "text": "Anthropic's IPO filing explicitly lists existential risks (blackmail, sentience, human extinction) as official regulatory disclosures, marking rare public acknowledgment of catastrophic scenarios by an AI company.",
+    "links": [
+     "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
+    ]
+   },
+   {
+    "text": "OpenAI faces mounting researcher frustration over gatekeeping scientific breakthroughs; company announced new collaboration model with external 'shepherds' but critics say detailed findings remain withheld.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
      "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
     ]
    },
    {
-    "text": "Data center expansion for AI infrastructure is becoming a galvanizing bipartisan political issue across American communities, with widespread local opposition emerging ahead of 2026 elections.",
+    "text": "Governments are scrutinizing AI deployment in sensitive domains: UK investigating Home Office use of ChatGPT for asylum claims; Boston Dynamics employees protesting sale of robot dogs to ICE.",
     "links": [
-     "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-     "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+     "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+     "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-27T09:18:52.401130+00:00",
+  "generatedAt": "2026-10-28T09:59:27.604152+00:00",
   "bullets": [
    {
-    "text": "Anthropic filed for IPO with $1B Q2 operating profit, 85% margins, and $134B cash reserves, positioning the company to go public before OpenAI amid AI industry consolidation.",
+    "text": "AI is moving into high-stakes institutional decision-making—courts, emergency alerts, and autonomous business entities—despite public readiness and accountability gaps remaining unresolved.",
     "links": [
-     "https://latent.space/p/ainews-anthropic-s1/",
-     "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+     "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+     "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+     "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
     ]
    },
    {
-    "text": "OpenAI released GPT-6.1 Terra with enhanced computer use and visual reasoning capabilities, and demonstrated three major scientific breakthroughs in mathematics, physics, and computer science using AI.",
+    "text": "Anthropic's IPO filing explicitly lists existential risks (blackmail, sentience, human extinction) as official regulatory disclosures, marking rare public acknowledgment of catastrophic scenarios by an AI company.",
     "links": [
-     "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+     "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
+    ]
+   },
+   {
+    "text": "OpenAI faces mounting researcher frustration over gatekeeping scientific breakthroughs; company announced new collaboration model with external 'shepherds' but critics say detailed findings remain withheld.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
      "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
     ]
    },
    {
-    "text": "AI models now reliably understand and refactor COBOL, the decades-old language powering critical infrastructure in banking, government, and airlines—potentially addressing a major legacy-systems crisis.",
+    "text": "Governments are scrutinizing AI deployment in sensitive domains: UK investigating Home Office use of ChatGPT for asylum claims; Boston Dynamics employees protesting sale of robot dogs to ICE.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
-    ]
-   },
-   {
-    "text": "PHP vulnerability research shows AI tools dramatically accelerate both bug discovery and exploit development, raising urgent questions about asymmetric security risks as AI proliferates.",
-    "links": [
-     "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"
+     "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+     "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-27T09:18:48.316236+00:00",
+  "updatedAt": "2026-10-28T09:59:22.843414+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and religious/moral perspectives on technology leadership",
-   "Engaged with how major tech companies (Apple, Google/Waze) develop and deploy AI",
-   "Prefers substantive analysis over technical release notes or niche tool updates"
+   "Interested in AI's intersection with ethics, leadership, and religious/moral frameworks",
+   "Prefers substantive AI stories over technical release notes and tool updates",
+   "Values reporting on major tech companies' AI initiatives and their broader implications"
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+   "link": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-28T08:50:30+00:00",
+   "summary": "Since coding is solved, why code for the job?",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic has stopped using coding interviews as part of their hiring process, reasoning that since coding ability is now well-demonstrated through existing work and projects, traditional coding assessments are unnecessary. The change reflects a shift in how the company evaluates technical talent, prioritizing demonstrated capability and drive over interview performance.",
+   "whyMatters": [
+    "Signals a major AI company's pragmatic reassessment of technical hiring practices based on changed capabilities in the field",
+    "May influence broader tech industry hiring approaches, moving away from standardized coding assessments toward portfolio-based evaluation"
+   ]
+  },
+  {
+   "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+   "link": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-28T08:30:00+00:00",
+   "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "As AI chatbots become tools for delivering emergency alerts and public safety information, a key challenge emerges: humans may not take AI-generated emergency communications seriously or may trust them less than traditional alerts. The article examines how to make AI emergency communications credible and effective when lives depend on people acting immediately.",
+   "whyMatters": [
+    "Raises critical questions about public trust and human behavior in safety-critical systems involving AI",
+    "Has direct implications for emergency management infrastructure and how communities will respond to AI-mediated warnings"
+   ]
+  },
+  {
+   "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+   "link": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-28T06:00:00+00:00",
+   "summary": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Geoffrey Vos, a senior English judge, has stated that AI systems could appropriately handle the adjudication of many civil court cases. The discussion centers on identifying which types of cases are suitable for AI decision-making versus those requiring human judicial judgment.",
+   "whyMatters": [
+    "Reflects emerging judicial perspectives on AI's role in the legal system and institutional decision-making",
+    "Raises significant questions about due process, accountability, and the nature of justice when algorithms determine civil case outcomes—concerns central to both legal practice and ethical governance"
+   ]
+  },
   {
    "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
    "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
@@ -1037,24 +1093,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
-   "link": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-26T09:00:00+00:00",
-   "summary": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artificial personalities.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Coyotec is an AI radio host that broadcasts in Spanish, uses colloquial language including profanity, and provides practical advice to listeners about immigration enforcement and legal self-defense. The show is gaining audience traction as traditional broadcasters increasingly experiment with AI personalities for radio programming.",
-   "whyMatters": [
-    "Demonstrates AI's expanding role in community-specific media and advocacy, reaching underserved Spanish-language audiences with actionable legal information",
-    "Raises questions about AI's responsibility when addressing vulnerable populations and contentious policy topics like immigration enforcement"
-   ]
-  },
-  {
    "title": "How Fanatics and OpenAI streamline the fan experience",
    "link": "https://openai.com/index/fanatics-streamline-fan-experience",
    "source": "OpenAI News",
@@ -1146,24 +1184,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical adoption patterns of AI tools by power users, useful for understanding which capabilities are gaining real-world traction",
     "The focus on task-specific model selection shows the industry moving beyond single-model strategies"
-   ]
-  },
-  {
-   "title": "What the US Movement Against Data Centers Can Learn From Abroad",
-   "link": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-25T10:00:00+00:00",
-   "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Paris Marx, author of Hyperscale, examines how other countries have managed data center development and what the US can learn from their approaches to addressing concerns about environmental and social impacts.",
-   "whyMatters": [
-    "Data centers are energy-intensive infrastructure critical to AI deployment, making policy around them central to AI's real-world impact",
-    "International perspective may inform domestic policy discussions about where and how AI infrastructure can be responsibly built"
    ]
   },
   {
@@ -1928,7 +1948,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-10-21T16:25:16+00:00",
-   "summary": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : dirigeables, Fardi",
+   "summary": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork by Gabriel Turpin which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : ",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -2752,24 +2772,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Financial sector adoption of agents requires solving autonomy-control tradeoffs",
     "Frontier labs and enterprises are actively working on safety and governance frameworks for high-stakes agent deployment"
-   ]
-  },
-  {
-   "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-   "link": "https://latent.space/p/lab-in-the-loop-at-compute-speed/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-14T20:35:09+00:00",
-   "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a15fdf-75d0-7979-85d4-17bb65ed0842/01a15fdf-7633-7e4d-a6ce-fbb8cdd309b7.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/020fa02e-8131-47b5-ab6d-95a5f30476f8/podcast_artwork_20261021-197-jbmnvu.jpg?t=1792609846",
-   "themes": [],
-   "aiSummary": "Ian Quigley from Leash Bio describes how the company integrated Display of Enrichment List (DEL) assay data with AI agents to improve model validation and teach agents to reason like chemists. The approach combines wet lab experiments with agent learning.",
-   "whyMatters": [
-    "Demonstrates AI-driven scientific instrument integration and laboratory automation",
-    "Shows practical application of agents in empirical research contexts where validation is critical"
    ]
   },
   {
