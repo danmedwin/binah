@@ -1,82 +1,140 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-29T02:14:21.562306+00:00",
+ "generatedAt": "2026-10-29T10:22:27.530895+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-10-29T02:14:31.688897+00:00",
+  "generatedAt": "2026-10-29T10:22:41.090171+00:00",
   "bullets": [
    {
-    "text": "Anthropic's IPO filing reveals $1B operating profit, 1400% growth, and $134B cash reserves—positioning it as a major challenger to OpenAI with extraordinary financial backing for compute infrastructure.",
+    "text": "Google's Gemini 4 Carbon reaches top benchmarks but remains restricted to authorized cybersecurity professionals, with initial access limited while broader public availability unclear.",
+    "links": [
+     "https://latent.space/p/ainews-gemini-4-carbon/",
+     "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+     "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
+    ]
+   },
+   {
+    "text": "Anthropic's IPO filing shows 1400% growth rate and $1B Q2 operating profit, but prospectus notably omits standard financial disclosures that investors typically expect in such filings.",
     "links": [
      "https://latent.space/p/ainews-anthropic-s1/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/What-Anthropics-IPO-Filing-Reveals-e3r7bf5"
+     "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/"
     ]
    },
    {
-    "text": "Google released Genie 4, an AI system generating interactive virtual worlds modifiable in real-time, marking progress toward AI systems that simulate and enable exploration of complex environments.",
+    "text": "GitHub reports merged pull requests tripled to 220 million monthly in under a year, attributed directly to agentic AI engineering reshaping developer workflows and code generation practices.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Can-Now-Create-Worlds-You-Can-Change-in-Real-Time-e3ra17q",
-     "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-     "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
+     "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
     ]
    },
    {
-    "text": "GitHub reports merged pull requests tripled to 220 million monthly, attributed to agentic AI engineering transforming code workflows—while coding interviews disappear from hiring as AI capability becomes tangible.",
+    "text": "Meta faces legal objection pathways for EU and UK users regarding AI training data use, while the company signals potential delays to controversial new business terms beyond the November deadline.",
     "links": [
-     "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-     "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
-    ]
-   },
-   {
-    "text": "Delaware proposed legislation allowing AI agents to operate entire businesses autonomously while shielding owners from liability—raising fundamental questions about legal responsibility and AI governance.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
+     "https://www.404media.co/meta-ai-training-uk-eu/",
+     "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-10-28T09:59:27.604152+00:00",
+  "generatedAt": "2026-10-29T10:22:41.090171+00:00",
   "bullets": [
    {
-    "text": "AI is moving into high-stakes institutional decision-making—courts, emergency alerts, and autonomous business entities—despite public readiness and accountability gaps remaining unresolved.",
+    "text": "Google's Gemini 4 Carbon reaches top benchmarks but remains restricted to authorized cybersecurity professionals, with initial access limited while broader public availability unclear.",
     "links": [
-     "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-     "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-     "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
+     "https://latent.space/p/ainews-gemini-4-carbon/",
+     "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+     "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
     ]
    },
    {
-    "text": "Anthropic's IPO filing explicitly lists existential risks (blackmail, sentience, human extinction) as official regulatory disclosures, marking rare public acknowledgment of catastrophic scenarios by an AI company.",
+    "text": "Anthropic's IPO filing shows 1400% growth rate and $1B Q2 operating profit, but prospectus notably omits standard financial disclosures that investors typically expect in such filings.",
     "links": [
-     "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
+     "https://latent.space/p/ainews-anthropic-s1/",
+     "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/"
     ]
    },
    {
-    "text": "OpenAI faces mounting researcher frustration over gatekeeping scientific breakthroughs; company announced new collaboration model with external 'shepherds' but critics say detailed findings remain withheld.",
+    "text": "GitHub reports merged pull requests tripled to 220 million monthly in under a year, attributed directly to agentic AI engineering reshaping developer workflows and code generation practices.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-     "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+     "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
     ]
    },
    {
-    "text": "Governments are scrutinizing AI deployment in sensitive domains: UK investigating Home Office use of ChatGPT for asylum claims; Boston Dynamics employees protesting sale of robot dogs to ICE.",
+    "text": "Meta faces legal objection pathways for EU and UK users regarding AI training data use, while the company signals potential delays to controversial new business terms beyond the November deadline.",
     "links": [
-     "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-     "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/"
+     "https://www.404media.co/meta-ai-training-uk-eu/",
+     "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-10-28T09:59:22.843414+00:00",
+  "updatedAt": "2026-10-29T10:22:36.169641+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI's intersection with ethics, leadership, and religious/moral frameworks",
-   "Prefers substantive AI stories over technical release notes and tool updates",
-   "Values reporting on major tech companies' AI initiatives and their broader implications"
+   "Interested in AI ethics and governance, especially from religious or moral leadership perspectives",
+   "Engaged with AI applications and product developments from major tech companies (Apple, Google/Waze)",
+   "Prefers substantive analysis over technical release notes or tool updates",
+   "Seeks stories with practical implications or real-world impact rather than purely technical minutiae"
   ]
  },
  "items": [
+  {
+   "title": "I Gave My Blood to the AI Death Clock",
+   "link": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-10-29T10:00:00+00:00",
+   "summary": "Death Clock promises to predict when you’re going to die and help you extend your time on Earth. After a month, I felt like it was sucking the life out of me.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Wired journalist tested Death Clock, an AI tool that predicts mortality and claims to help users live longer, and found the experience psychologically draining over a month of use. The article presents a personal account of how the tool affected the writer despite its health-optimization promises.",
+   "whyMatters": [
+    "Raises questions about the psychological and ethical impacts of AI mortality prediction tools on users",
+    "Illustrates how AI systems marketed as life-enhancing can create anxiety rather than agency—relevant to conversations about AI and human flourishing in communities of faith and practice"
+   ]
+  },
+  {
+   "title": "Abundant Intelligence at the Midwest AI Summit",
+   "link": "https://share.transistor.fm/s/37a0c3e9",
+   "source": "Practical AI",
+   "category": "podcast",
+   "date": "2026-10-29T09:00:00+00:00",
+   "summary": "In this special episode, we bring you highlights from three talks at the Midwest AI Summit. Heidi Porter explores how to build reliable AI-augmented workflows using the right tools, evaluations, and guardrails. Kevin Solorio shares why building AI with frontline workers, not just for them, is key to earning trust and driving adoption, emphasizing collaboration and continuous feedback. And Chris Sh",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/37a0c3e9/eecd5cc2.mp3",
+   "image": "https://img.transistorcdn.com/7ZxCZtnZOxqC3hZrGePeIRNvukM3-xS8vqDu1tTALeU/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iODgx/NzA2ZjE3ZDViY2Uw/ZmJhOWIwMjhlYzZh/Mjc5MS5wbmc.jpg",
+   "themes": [],
+   "aiSummary": "The Midwest AI Summit featured talks on building reliable AI workflows with proper evaluation tools, involving frontline workers directly in AI system design, and emphasizing trust-building through collaboration and feedback. The episode highlights practical approaches to AI deployment beyond top-down implementation.",
+   "whyMatters": [
+    "Demonstrates emerging best practices for responsible AI adoption in organizations, emphasizing participation over imposition",
+    "Relevant to educators and community leaders considering how to responsibly integrate AI into their work with proper stakeholder engagement"
+   ]
+  },
+  {
+   "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+   "link": "https://latent.space/p/ainews-gemini-4-carbon/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-10-29T05:55:19+00:00",
+   "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates",
+    "environment"
+   ],
+   "aiSummary": "Google released Gemini 4 Carbon, a new frontier AI model that performs well on independent benchmarks, with initial access restricted to authorized cybersecurity professionals. The model is positioned for defensive security applications.",
+   "whyMatters": [
+    "Shows competition heating up in frontier AI model capabilities and controlled deployment strategies for specialized domains",
+    "Access limitation to security-vetted users represents a governance model for high-capability AI systems rather than open release"
+   ]
+  },
   {
    "title": "Quoting Ted Sanders",
    "link": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
@@ -1226,24 +1284,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
-   "link": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-26T16:01:55+00:00",
-   "summary": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic's S-1 filing emphasizes 'closing the loop'—a technical approach the company sees as key to AI advancement. The filing also details Anthropic's views on existential risks from AI.",
-   "whyMatters": [
-    "Shows how a leading AI company internally frames AI safety risks in regulatory filings meant for investors",
-    "Highlights tension between growth ambitions and acknowledged existential threat scenarios"
-   ]
-  },
-  {
    "title": "ChatGPT Says 404 Media Is Tech Support for Huge Corporations",
    "link": "https://www.404media.co/chatgpt-says-404-media-is-tech-support-for-huge-corporations/",
    "source": "404 Media",
@@ -1949,24 +1989,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides unprecedented granular data for environmental monitoring, conservation, and climate research",
     "Enables better tracking of forest health and deforestation patterns globally"
-   ]
-  },
-  {
-   "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
-   "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-22T14:23:36+00:00",
-   "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Recent PHP vulnerabilities and related hacking incidents have left cybersecurity experts uncertain about the trajectory of AI-enabled attacks and their future impact on security.",
-   "whyMatters": [
-    "Signals a broader inflection point: AI is changing the threat model faster than defenders can adapt",
-    "Reflects genuine expert anxiety about losing strategic advantage in cybersecurity as AI lowers barriers to sophisticated attacks"
    ]
   },
   {
@@ -2819,24 +2841,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Education impact: curriculum decisions lag years behind technological change, leaving students unprepared for AI-integrated workplaces",
     "Foundational knowledge shift: AI literacy and critical thinking about AI systems may need to replace or supplement traditional skills"
-   ]
-  },
-  {
-   "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
-   "link": "https://latent.space/p/ainews-modals-1b-arr-16b-series-d/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-15T10:08:08+00:00",
-   "summary": "Sandboxes are all you need.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Modal reached $1 billion in annual recurring revenue and $16 billion valuation in its Series D, becoming New York's newest AI infrastructure decacorn with 3x usage growth and 3x valuation growth in five months. The company's sandbox infrastructure attracted rapid scaling.",
-   "whyMatters": [
-    "Modal's growth exemplifies infrastructure-layer consolidation in AI",
-    "Validates developer-focused sandbox model as critical infrastructure for AI applications and agents"
    ]
   },
   {
