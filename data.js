@@ -1,31 +1,37 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-02T13:15:30.189111+00:00",
+ "generatedAt": "2026-11-02T23:49:19.367351+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-02T13:15:39.718215+00:00",
+  "generatedAt": "2026-11-02T23:49:41.769192+00:00",
   "bullets": [
    {
-    "text": "Google admits AI-powered Search reduces revenue by an estimated $500 billion—the worst decline since its 2004 IPO—as AI chatbots cannibalize traditional search traffic.",
+    "text": "Google's AI Search mode is slashing revenue by an estimated 15% ($500 billion), the worst decline since its 2004 IPO, as AI-generated results cannibalize search traffic.",
     "links": [
      "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
     ]
    },
    {
-    "text": "AI agents are moving into high-stakes biomedical work: autonomous systems have successfully administered gene therapy injections directly into live animal brains, marking a concrete step beyond planning tasks.",
+    "text": "Autonomous AI agents are moving from theory to practice: one successfully injected gene therapy into a live mouse's brain, demonstrating real-world biomedical capability.",
     "links": [
      "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
     ]
    },
    {
-    "text": "A Claude AI agent was connected directly to Pentagon infrastructure without authorization, exposing critical gaps in military oversight of third-party AI deployment.",
+    "text": "Over 400 mundane AI apps secretly contain deepfake abuse features, enabling generation of violent and sexually explicit synthetic images and videos.",
     "links": [
-     "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/"
+     "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
     ]
    },
    {
-    "text": "Major AI labs—OpenAI, Google, Microsoft, Anthropic—agreed on a shared opt-out standard allowing publishers to block data scraping via a single signal across all four companies.",
+    "text": "The New York Times sued Brave browser for scraping content to train AI models and bypassing paywalls, escalating legal battles over AI training data.",
     "links": [
-     "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+     "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+    ]
+   },
+   {
+    "text": "Religious freedom frameworks are emerging as potential grounds for workplace exemptions from AI use, raising novel conscience-based accommodation questions.",
+    "links": [
+     "https://religionnews.com/2026/11/02/the-right-to-refuse-ai-when-thinking-for-yourself-is-a-religious-belief/"
     ]
    }
   ]
@@ -70,6 +76,249 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+   "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-02T23:20:01+00:00",
+   "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The New York Times and other major publications have sued Brave browser for allegedly scraping their content without permission to train AI models and enabling users to bypass paywalls.",
+   "whyMatters": [
+    "Directly impacts AI training practices and copyright enforcement—establishes legal precedent for whether scraping licensed content requires consent",
+    "Signals escalating tension between AI companies/tools and content creators over data rights and compensation"
+   ]
+  },
+  {
+   "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+   "link": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-02T23:01:02+00:00",
+   "summary": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Latent Space interviews Jacob Lauritzen, CTO of legal AI company Legora, about building AI agents for lawyers, including evaluation methods and challenges to the traditional billable-hour business model.",
+   "whyMatters": [
+    "Shows AI disruption of professional services; legal billing structure may need to shift as AI handles more work",
+    "Relevant to how AI adoption reshapes labor and pricing in knowledge work"
+   ]
+  },
+  {
+   "title": "Anthropic clamps down on Claude’s AI video game clones",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-02T22:57:16+00:00",
+   "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic updated Claude Code's system prompt to block users from recreating existing video games, though general game development remains allowed.",
+   "whyMatters": [
+    "Reflects attempts by AI creators to limit IP-infringing use cases while maintaining tool flexibility",
+    "Highlights the ongoing tension between AI capability and copyright/IP concerns"
+   ]
+  },
+  {
+   "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+   "link": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-02T22:54:03+00:00",
+   "summary": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a19df0-34a3-7307-96fc-48928908772b/01a19df0-35e0-7c61-90cc-3a37c8983d85.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/fd1ef59a-5e80-4c73-8d01-072e2c4b0027/podcast-cover.jpg?t=1793651584",
+   "themes": [],
+   "aiSummary": "Legora's CTO discusses the challenge of building and testing AI legal agents when the underlying data (client files) is confidential and inaccessible to developers.",
+   "whyMatters": [
+    "Exposes practical hurdle in deploying AI in regulated, privacy-sensitive domains like law",
+    "Relevant to how enterprises handle AI oversight and trust in high-stakes applications"
+   ]
+  },
+  {
+   "title": "The Right to Refuse AI: When Thinking for Yourself Is a Religious Belief",
+   "link": "https://religionnews.com/2026/11/02/the-right-to-refuse-ai-when-thinking-for-yourself-is-a-religious-belief/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-11-02T20:43:46+00:00",
+   "summary": "A workplace victory adds to questions about freedom of conscience — and the landscape of religious accommodation.",
+   "religionScore": 6,
+   "religionHits": [
+    "belief",
+    "religio"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Religion News Service reports on a workplace case involving religious exemption from AI use, raising broader questions about freedom of conscience as a basis for religious accommodation.",
+   "whyMatters": [
+    "Directly intersects AI with religious freedom and conscience rights—emerging legal/ethical frontier",
+    "Relevant to clergy and religious educators navigating AI policies in their communities"
+   ]
+  },
+  {
+   "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+   "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-02T18:32:21+00:00",
+   "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Apple is developing a $1,000 home robot expected in 2027, designed for basic tasks like FaceTime and light switching, per CEO direction.",
+   "whyMatters": [
+    "Shows major tech company bet on embodied AI despite unclear market demand",
+    "Consumer robotics remains capital-intensive and speculative"
+   ]
+  },
+  {
+   "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+   "link": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-02T18:05:31+00:00",
+   "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Ars Technica notes that Anthropic's restrictions on AI game cloning are limited in scope, as the broader AI-generated copy boom is too large for any single model maker to control.",
+   "whyMatters": [
+    "Underscores systemic challenge: individual AI safety guardrails cannot contain system-wide copyright/IP problems",
+    "Suggests need for industry-wide or regulatory approaches to AI-generated derivative works"
+   ]
+  },
+  {
+   "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-02T18:01:30+00:00",
+   "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "OpenAI announced a pilot 'Grid Protectors Program' to free up to 1,000 megawatts of data center power during emergencies, starting in Georgia.",
+   "whyMatters": [
+    "Addresses criticism of AI's energy consumption by positioning data centers as grid assets",
+    "Shows OpenAI attempting to build community/regulatory goodwill around power demands"
+   ]
+  },
+  {
+   "title": "Raising the quality of insights in agentic analytics",
+   "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-02T17:00:00+00:00",
+   "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "MIT Tech Review examines how agentic AI can automate enterprise analytics workflows, but notes current quality gaps in the insights agents produce.",
+   "whyMatters": [
+    "Highlights tension between AI automation promise and real-world performance for business-critical analytics",
+    "Relevant to educators and technologists evaluating AI readiness for mission-critical use"
+   ]
+  },
+  {
+   "title": "How to Deslopify Your AI",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Deslopify-Your-AI-e3rjbqk",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-02T17:00:00+00:00",
+   "summary": "AI slop shifts the burden of thinking from the person producing the work to whoever receives it. In this Operators’ Cut, Nufar Gaspar joins NLW to share practical habits for creating better work with AI, from developing your own point of view and teaching models your taste to building effective review checkpoints. NLW also breaks down how he uses AI to produce How We Got Here while keeping control",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128609556/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F435656622-44100-2-b076fe7f9adb1.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "The AI Daily Brief discusses 'AI slop'—low-quality AI-generated work that shifts cognitive burden to the reader—and practical habits for maintaining quality control when using AI, including developing personal taste and checkpoint review.",
+   "whyMatters": [
+    "Addresses growing concern about degraded information quality as AI-generated content floods digital spaces",
+    "Relevant to educators and knowledge workers who must teach critical evaluation of AI outputs"
+   ]
+  },
+  {
+   "title": "Voting in 2026 Is Getting an AI Slop 'I Voted' Sticker",
+   "link": "https://www.404media.co/voting-in-2026-is-getting-an-ai-slop-i-voted-sticker/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-11-02T16:33:20+00:00",
+   "summary": "My polling place was handing out AI slop to midterm voters.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "404 Media reports that polling places distributed AI-generated 'I Voted' stickers during 2026 midterm elections.",
+   "whyMatters": [
+    "Illustrates deployment of low-effort AI slop in civic contexts, raising concerns about quality standards in public-facing communications",
+    "Touches on public trust and the erosion of thoughtful, human-made institutional touchstones"
+   ]
+  },
+  {
+   "title": "Introducing the Grid Protectors Program",
+   "link": "https://openai.com/index/grid-protectors-program",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T15:00:00+00:00",
+   "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "OpenAI formally introduced the Grid Protectors Program, positioning AI data centers as resources to support grid reliability and stabilize consumer electricity costs.",
+   "whyMatters": [
+    "Strategic framing of AI compute infrastructure as community benefit rather than burden",
+    "Part of broader effort to build regulatory and public acceptance for massive power consumption"
+   ]
+  },
+  {
+   "title": "The U.S. Census Bureau and “Super Intelligence”",
+   "link": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-02T13:31:26+00:00",
+   "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis , and then to experiment with Claude's new Code Interpreter . I decided to t",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png",
+   "themes": [],
+   "aiSummary": "Simon Willison examined AI adoption rate data from the Census Bureau and used it to test GPT-5 and Claude's data analysis capabilities.",
+   "whyMatters": [
+    "Shows data ambiguity in AI adoption metrics—real trends are hard to isolate from hype",
+    "Relevant to educators assessing competing claims about AI deployment scale"
+   ]
+  },
   {
    "title": "Stop counting tokens, start counting what ships",
    "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
@@ -142,6 +391,42 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a fundamental shift in how humans and machines interact with information; agents performing tasks autonomously will reshape workflows across industries",
     "Creates new governance and safety challenges: autonomous agents making decisions on our behalf require clearer oversight, accountability, and ethical frameworks"
+   ]
+  },
+  {
+   "title": "LifeVal",
+   "link": "https://openai.com/index/lifeval",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T09:00:00+00:00",
+   "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI introduced LifeVal, a benchmark measuring how well AI assists people with everyday practical tasks like childcare, finances, and government paperwork.",
+   "whyMatters": [
+    "Establishes metrics for real-world utility beyond abstract capabilities",
+    "Relevant to educators and technologists evaluating actual AI value for end users"
+   ]
+  },
+  {
+   "title": "Qodo builds context into AI code review with Codex",
+   "link": "https://openai.com/index/qodo-codex-plugin",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Qodo released Codex, an AI code review tool that integrates company-specific knowledge and coding standards to catch critical bugs before pull requests.",
+   "whyMatters": [
+    "Shows AI tools tailored to organizational context and risk management in development workflows",
+    "Reflects shift from generic to domain-specific, compliance-aware AI deployment"
    ]
   },
   {
@@ -439,24 +724,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Silicon Valley wants you to invest in miracles",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T21:33:57+00:00",
-   "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Verge article examines the challenge of investing in AI given its range of potential outcomes—from existential catastrophe to transformative benefits. The piece explores how investors evaluate AI companies despite fundamental uncertainty about the technology's long-term impact.",
-   "whyMatters": [
-    "Highlights investor cognition gap: pricing in both utopian and catastrophic scenarios",
-    "Reflects broader cultural ambivalence about AI's future and how markets handle deep uncertainty"
-   ]
-  },
-  {
    "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
    "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
    "source": "Wired · AI",
@@ -673,26 +940,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Maine’s data center revolt will decide who controls the Senate",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T14:40:29+00:00",
-   "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to her Democratic challenger, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Maine voters are raising concerns about AI data centers' environmental impact—specifically water pollution and climate effects—during Senate campaign debates. Sen. Susan Collins dismissed these concerns and linked the questioner to her Democratic opponent, suggesting the issue is being weaponized in the midterm race.",
-   "whyMatters": [
-    "Data center energy consumption and water usage are becoming tangible political issues that could influence Senate races, signaling public concern about AI infrastructure's environmental costs",
-    "For educators and clergy engaged in discussions of AI ethics, environmental stewardship, and community impact, this shows how these concerns are moving from academic debates into electoral politics and community consciousness"
-   ]
-  },
-  {
    "title": "Speeding up planning decisions with AI",
    "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
    "source": "Google DeepMind",
@@ -708,24 +955,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Could significantly speed up infrastructure decisions and reduce bureaucratic delays that often slow community development",
     "Raises questions about ensuring AI-assisted planning decisions remain transparent, accountable to local communities, and don't inadvertently encode bias into land-use outcomes"
-   ]
-  },
-  {
-   "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T13:30:14+00:00",
-   "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sam Altman acknowledged mathematicians' frustration with the flood of AI-generated research but stated OpenAI will not reduce its volume of mathematical discoveries. He hinted the company has more output to release soon.",
-   "whyMatters": [
-    "Shows tension between AI's research productivity and academic community's ability to absorb and validate results",
-    "Raises questions about quality control and peer review under AI-scale output"
    ]
   },
   {
@@ -1754,24 +1983,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Marissa Mayer Can’t Keep Pretending 'Gender Doesn't Matter'",
-   "link": "https://www.404media.co/marissa-mayer-nyt-interview/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-27T13:08:07+00:00",
-   "summary": "The former CEO of Yahoo! and current founder of a chatbot app is going viral for using AI to list things she loves about her daughter. But what she has to say about women in tech in 2026 is worth talking about.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Former Yahoo CEO Marissa Mayer faced scrutiny for using AI to generate personalized content about her daughter, sparking discussion about gender dynamics in tech leadership and AI use.",
-   "whyMatters": [
-    "Illustrates tensions around AI applications in personal contexts and public perception of tech leaders",
-    "Reflects broader conversation about women's representation and voice in tech industry commentary"
-   ]
-  },
-  {
    "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
    "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
    "source": "MIT Tech Review · AI",
@@ -1879,24 +2090,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows practical application of advanced language models to developer tooling and workflow efficiency",
     "Integration of multiple model capabilities demonstrates how enterprises are layering AI systems for specialized tasks"
-   ]
-  },
-  {
-   "title": "Proton To ‘Re-Interview’ Staff About AI To See Who Gets To Keep Their Job",
-   "link": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-26T20:16:02+00:00",
-   "summary": "“These re-interviews are consequential,” a leaked email seen by 404 Media reads.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Proton is conducting \"re-interviews\" with staff to determine which employees will keep their jobs, according to a leaked internal email. The company describes these interviews as consequential to employment status.",
-   "whyMatters": [
-    "Reflects broader AI-driven workforce restructuring and employment uncertainty across tech companies",
-    "Example of how AI adoption internally can trigger rapid personnel changes and organizational upheaval"
    ]
   },
   {
@@ -2289,24 +2482,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-   "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-23T20:19:55+00:00",
-   "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google's updated privacy policy now permits using Gmail content for advertising purposes when users enable Personal Intelligence features.",
-   "whyMatters": [
-    "Raises privacy concerns for users and has direct implications for how organizations and individuals should consider their data exposure",
-    "Relevant to educators and institutions advising users on email privacy and institutional Google Workspace policies"
-   ]
-  },
-  {
    "title": "Introducing Kimi K3.1 Pro",
    "link": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
    "source": "Simon Willison",
@@ -2342,26 +2517,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Market fundamentals question: whether current AI spending levels are sustainable or speculative",
     "Could affect funding for both frontier labs and downstream AI applications if sentiment shifts"
-   ]
-  },
-  {
-   "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
-   "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-23T17:18:31+00:00",
-   "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Intel received a waiver from US export controls on foreign-made robotic vehicles used in semiconductor fabrication, citing their importance to domestic chip production.",
-   "whyMatters": [
-    "Policy exception signals tension between reshoring chip manufacturing and actual equipment dependencies",
-    "Reflects real-world constraints on AI infrastructure buildout when tied to geopolitical restrictions"
    ]
   },
   {
@@ -2439,44 +2594,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-   "link": "https://openai.com/index/anima",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-23T00:00:00+00:00",
-   "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anima clinic software using OpenAI's GPT-6 and GPT-Live models reduced patient call wait times by 75%, expanding care team capacity to respond to patient needs.",
-   "whyMatters": [
-    "Demonstrates measurable efficiency gains in healthcare administration through AI deployment",
-    "Directly impacts patient experience and clinic workflow in real clinical settings"
-   ]
-  },
-  {
-   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-   "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-23T00:00:00+00:00",
-   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI has announced a partnership with NASK, Poland's national cybersecurity research institute, to collaborate on AI safety, security, and technical research. The partnership aims to develop stronger safeguards for AI systems and build a more resilient digital infrastructure.",
-   "whyMatters": [
-    "Expands AI safety research beyond US companies to include European expertise and perspectives, relevant to global AI governance",
-    "Reflects growing emphasis on embedding security practices into AI development rather than treating it as an afterthought"
-   ]
-  },
-  {
    "title": "Designing an AI serving harness built to last",
    "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
    "source": "MIT Tech Review · AI",
@@ -2530,44 +2647,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Generative AI now used in mainstream creative production",
     "Demonstrates mainstream adoption of AI in entertainment and music industries"
-   ]
-  },
-  {
-   "title": "Build more responsive apps with the Decisions API",
-   "link": "https://openai.com/index/decisions-api",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-22T19:00:00+00:00",
-   "summary": "Fast, focused, low-cost decisions for any application.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI released a Decisions API designed to provide fast, focused, and cost-effective AI decision-making capabilities for applications.",
-   "whyMatters": [
-    "New technical primitive that makes AI inference more accessible and economical for developers",
-    "Lowers barrier to incorporating AI decision-making into production applications"
-   ]
-  },
-  {
-   "title": "The Foundations of Scalable AI",
-   "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-22T18:48:04+00:00",
-   "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "MIT Technology Review examined what it takes to build scalable AI systems in regulated environments, emphasizing the need for aligned governance, data strategy, engineering, platforms, and operating models working together.",
-   "whyMatters": [
-    "Addresses enterprise challenge of implementing AI responsibly in compliance-heavy sectors",
-    "Governance and institutional alignment becoming core technical requirement, not afterthought"
    ]
   },
   {
@@ -2733,26 +2812,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Panache — RTS Belle Époque pour mobile",
-   "link": "https://simonwillison.net/2026/Oct/21/panache/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-21T16:25:16+00:00",
-   "summary": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork by Gabriel Turpin which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/battledrones-french.jpg",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "A French-language open-source fork of the game Battle Drones was created, reskinning it as a real-time strategy game set in 1900s steampunk France with new animations. This shows rapid community remixing of open-licensed AI-assisted projects.",
-   "whyMatters": [
-    "Open licensing of AI-generated or AI-assisted creative works enables rapid cultural adaptation and localization",
-    "International communities can quickly iterate on and transform digital projects, accelerating creative output"
-   ]
-  },
-  {
    "title": "Claude Mods: Flipping the Harness Inside Out",
    "link": "https://latent.space/p/claude-mods/",
    "source": "Latent Space",
@@ -2768,42 +2827,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects evolving thinking about human-AI interaction design in agent systems",
     "Addresses usability and control concerns by reorienting the interface toward human workflows"
-   ]
-  },
-  {
-   "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
-   "link": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-21T06:54:09+00:00",
-   "summary": "An open source “bomb” drops from China",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "DeepSeek released DeepInfer, an open-source inference system running 155 trillion tokens per day across clusters with approximately 80% margins and an 81-day payback period. The release represents significant open-source competition in AI inference infrastructure.",
-   "whyMatters": [
-    "Open-source inference systems at this scale lower barriers to entry for organizations building AI applications",
-    "Economics demonstrate viable business models for high-volume inference without closed-garden lock-in"
-   ]
-  },
-  {
-   "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
-   "link": "https://latent.space/p/tenex/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-21T05:01:26+00:00",
-   "summary": "Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a15fdf-6b2e-7a7d-bae0-b96d9be4f029/01a15fdf-6bbf-7640-849c-1c76853011b3.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/2bf1c2dd-c0ac-4aaf-8574-ac648ca1724c/podcast_artwork_20261021-197-6j31d8.jpg?t=1792609845",
-   "themes": [],
-   "aiSummary": "Alex Lieberman and CJ Hess present how Tenex builds an AI-native software development lifecycle for large enterprises, focusing on outcome-based pricing and agent-driven development. The talk addresses enterprise adoption challenges in the practical last mile of AI deployment.",
-   "whyMatters": [
-    "Enterprise software development is being reshaped by agent-based automation and outcome-based purchasing models",
-    "Speaks to how Fortune 2000 companies are moving beyond pilot projects to production AI systems"
    ]
   },
   {
@@ -3236,24 +3259,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides accessible multimodal embedding technology for developers and researchers, lowering barriers to implementation",
     "Open-source release broadens adoption of embedding models across academic and commercial applications"
-   ]
-  },
-  {
-   "title": "Why Companies Want AI They Can Own",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-Companies-Want-AI-They-Can-Own-e3pv4le",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-05T20:33:05+00:00",
-   "summary": "Companies increasingly want AI they can customize, control, and run on their own terms. NLW explores how that demand could fuel an American open weight AI resurgence—and where safety and national security priorities collide. In the headlines: Amazon’s data center community pledge, Sam Altman on safety versus freedom, and DIY Muse gadgets. Brought to you by: KPMG – New KPMG and UT Austin research s",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/126898286/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433426135-44100-2-ac2ef5eb3e061.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Companies increasingly want customizable, controllable AI systems they can run independently rather than relying on third-party cloud providers. This demand is driving a potential resurgence in open-weight AI models, though it creates tensions with safety and national security priorities.",
-   "whyMatters": [
-    "Corporate demand for on-premises AI could fragment the AI landscape and reduce oversight of model deployment",
-    "Safety priorities and commercial control incentives are directly in conflict—companies want AI they govern, while regulators want uniform safety standards"
    ]
   },
   {
