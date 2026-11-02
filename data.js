@@ -1,42 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-01T21:01:16.848177+00:00",
+ "generatedAt": "2026-11-02T02:13:50.273789+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-01T21:01:27.871155+00:00",
+  "generatedAt": "2026-11-02T02:13:59.012091+00:00",
   "bullets": [
    {
-    "text": "Google's AI search mode is reducing revenue by an estimated $500 billion and 15%—the largest decline since 2004 IPO—as the company struggles with AI-powered results competing directly with its core business.",
+    "text": "Google Search's AI mode is eroding the company's revenue by an estimated $500 billion, marking its worst financial impact since the 2004 IPO and signaling potential broader market correction.",
     "links": [
      "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
     ]
    },
    {
-    "text": "A contractor deployed an AI agent directly into Pentagon systems without authorization, and an Anthropic extension was backdoored for 12 hours, exposing critical infrastructure and tooling vulnerabilities.",
+    "text": "A Claude AI agent was connected directly to Pentagon systems by a contractor this week, exposing critical gaps in military access control and third-party AI deployment oversight.",
     "links": [
-     "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-     "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+     "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/"
     ]
    },
    {
-    "text": "ChatGPT's HTML preview feature had security flaws allowing account takeovers, while hikers face dangerous consequences from inaccurate AI trail guidance, and AI-generated malware now auto-gathers personal data on victims.",
+    "text": "OpenAI, Google, Microsoft, and Anthropic agreed to a shared robots.txt standard allowing publishers to opt out of AI training data scraping across all four companies via a single signal.",
     "links": [
-     "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-     "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
-     "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/"
+     "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+     "https://openai.com/index/helping-websites-express-ai-training-preferences"
     ]
    },
    {
-    "text": "AI agents are proving genuinely useful for specific tasks: biotech deployed one to inject gene therapy in a mouse's brain, and financial institutions are using persistent agentic systems for complex multi-day workflows.",
+    "text": "An AI agent successfully injected gene therapy into a live mouse's brain autonomously, demonstrating AI systems moving from software into consequential real-world biological interventions.",
     "links": [
-     "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
-     "https://latent.space/p/arca/"
+     "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
     ]
    },
    {
-    "text": "Pope Francis called for AI to be \"disarmed\" and urged UN states to ban lethal autonomous weapons, while major AI labs agreed to standardized opt-out signals for training data scraping.",
+    "text": "Pope Francis called for AI to be \"disarmed\" and urged UN member states to ban lethal autonomous weapons, framing machines as tools requiring human moral direction rather than autonomous agents.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
-     "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+     "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
     ]
    }
   ]
@@ -81,6 +77,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "If in doubt, delete the uv.lock file",
+   "link": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-01T23:24:22+00:00",
+   "summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Simon Willison reports that Python 3.15 can produce confusing dependency errors, and he's found that deleting the uv.lock file often resolves them. He notes that libraries typically don't include uv.lock files to avoid constraining downstream dependencies, but running uv commands can generate them unexpectedly.",
+   "whyMatters": [
+    "This is a practical troubleshooting tip for Python developers migrating to 3.15, helping them avoid time spent debugging spurious dependency issues",
+    "Understanding lock file behavior matters for maintaining clean dependency management in libraries versus applications, affecting how Python projects should be structured"
+   ]
+  },
   {
    "title": "Quoting Kyle Kingsbury",
    "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
@@ -2726,24 +2740,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "eMudhra Intermediate CA Compromise",
-   "link": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-20T23:50:25+00:00",
-   "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates via this G",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Private keys for eight eMudhra intermediate CA certificates have been compromised, affecting certificates trusted by Mozilla, Microsoft, Apple, Chrome, and many other systems. This requires urgent updates across all software that bundles trusted certificate lists to prevent fraudulent use of these credentials.",
-   "whyMatters": [
-    "Critical infrastructure vulnerability—compromised certificate authorities could enable man-in-the-middle attacks and forged digital signatures across millions of systems",
-    "Widespread ecosystem impact—affects enterprises, browsers, and downstream trust stores that depend on these root programs for security validation"
-   ]
-  },
-  {
    "title": "Why AI Companies Are Betting Personality Beats Intelligence",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-AI-Companies-Are-Betting-Personality-Beats-Intelligence-e3qqj9k",
    "source": "The AI Daily Brief",
@@ -3222,26 +3218,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Enterprise deployment of agents represents a shift from research to operational reality, raising concrete questions about identity management, data governance, and system reliability",
     "Organizations need new architectural patterns and tools to safely run AI agents alongside traditional applications without compromising security or compliance"
-   ]
-  },
-  {
-   "title": "Living with AI: A Buddhist Perspective #72",
-   "link": "https://aiandfaith.org/aif-podcast/ai-a-buddhist-perspective/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-09-17T23:00:48+00:00",
-   "summary": "Listen to a conversation with Shoukei Matsumoto. He is a Buddhist monk and author of ⁠“A Monk’s Guide to a Clean House and Mind”⁠. Dive into his view on navigating",
-   "religionScore": 5,
-   "religionHits": [
-    "buddhis"
-   ],
-   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-8-17/432120758-44100-2-249ca5aad4429.m4a",
-   "image": "https://aiandfaith.org/wp-content/uploads/2026/09/AIF-PODCAST-Shoukei-Matsumoto-Pablo-podcast-image_result-300x300.webp",
-   "themes": [],
-   "aiSummary": "AI and Faith published a podcast episode featuring Shoukei Matsumoto, a Buddhist monk and author, discussing perspectives on living with AI during uncertain times.",
-   "whyMatters": [
-    "Directly addresses religion and AI—offers a Buddhist ethical lens on AI adoption and uncertainty, potentially valuable for educators and clergy thinking about contemplative approaches to technological change",
-    "Engages lived wisdom from a religious teacher rather than purely technical or secular framing, relevant to audiences integrating faith perspectives into AI discourse"
    ]
   }
  ]
