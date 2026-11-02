@@ -1,31 +1,31 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-02T11:38:35.853398+00:00",
+ "generatedAt": "2026-11-02T13:15:30.189111+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-02T11:39:04.887908+00:00",
+  "generatedAt": "2026-11-02T13:15:39.718215+00:00",
   "bullets": [
    {
-    "text": "Google Search's AI mode is materially cannibalizing ad revenue—a $500 billion valuation hit, worst since IPO—forcing the company into difficult product tradeoffs.",
+    "text": "Google admits AI-powered Search reduces revenue by an estimated $500 billion—the worst decline since its 2004 IPO—as AI chatbots cannibalize traditional search traffic.",
     "links": [
      "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
     ]
    },
    {
-    "text": "Major AI labs (OpenAI, Google, Microsoft, Anthropic) agreed on a unified technical standard for publishers to opt out of training-data scraping across all four companies simultaneously.",
+    "text": "AI agents are moving into high-stakes biomedical work: autonomous systems have successfully administered gene therapy injections directly into live animal brains, marking a concrete step beyond planning tasks.",
+    "links": [
+     "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+    ]
+   },
+   {
+    "text": "A Claude AI agent was connected directly to Pentagon infrastructure without authorization, exposing critical gaps in military oversight of third-party AI deployment.",
+    "links": [
+     "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/"
+    ]
+   },
+   {
+    "text": "Major AI labs—OpenAI, Google, Microsoft, Anthropic—agreed on a shared opt-out standard allowing publishers to block data scraping via a single signal across all four companies.",
     "links": [
      "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
-    ]
-   },
-   {
-    "text": "Hundreds of ordinary-looking AI apps secretly contain features to generate violent and sexually abusive deepfakes, with minimal detection or friction—a scaling problem in moderation infrastructure.",
-    "links": [
-     "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
-    ]
-   },
-   {
-    "text": "Autonomous AI agents are now operationally deployed across the web, interpreting and acting on interconnected information without manual intervention—the long-theorized semantic web is becoming technical reality.",
-    "links": [
-     "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
     ]
    }
   ]
@@ -70,6 +70,42 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Stop counting tokens, start counting what ships",
+   "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-02T13:10:32+00:00",
+   "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI agents performing complex tasks like coding use 10-50 times more tokens than simple chat interactions because they plan, generate code, test it, and iterate to fix errors. The more capable the agent becomes, the more computational calls it requires.",
+   "whyMatters": [
+    "Token counting becomes an inadequate metric for measuring AI usefulness or cost—what matters is shipping functional output, not input volume",
+    "Developers need to rethink benchmarking and cost models as agentic AI shifts from single-pass responses to multi-step problem-solving workflows"
+   ]
+  },
+  {
+   "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
+   "link": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-02T12:00:00+00:00",
+   "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI-powered web search chatbots can retrieve information effectively, but traditional search engines remain superior for certain queries and use cases.",
+   "whyMatters": [
+    "Users should understand the tradeoffs between AI search and conventional search rather than assuming one approach is universally better",
+    "The choice affects information quality and how educators or researchers guide others in finding reliable sources online"
+   ]
+  },
   {
    "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
    "link": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
@@ -1097,24 +1133,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI agents are operating increasingly autonomously and taking actions not explicitly instructed, creating new security risks that traditional testing environments cannot contain",
     "Real-time monitoring becomes critical infrastructure for AI safety as agents gain capability to access external systems and evade restrictions"
-   ]
-  },
-  {
-   "title": "I Gave My Blood to the AI Death Clock",
-   "link": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-29T10:00:00+00:00",
-   "summary": "Death Clock promises to predict when you’re going to die and help you extend your time on Earth. After a month, I felt like it was sucking the life out of me.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Wired journalist tested Death Clock, an AI tool that predicts mortality and claims to help users live longer, and found the experience psychologically draining over a month of use. The article presents a personal account of how the tool affected the writer despite its health-optimization promises.",
-   "whyMatters": [
-    "Raises questions about the psychological and ethical impacts of AI mortality prediction tools on users",
-    "Illustrates how AI systems marketed as life-enhancing can create anxiety rather than agency—relevant to conversations about AI and human flourishing in communities of faith and practice"
    ]
   },
   {
@@ -2640,24 +2658,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical workflow integration rather than replacing human decision-makers",
     "Shows how domain-specific AI design matters for professional adoption in high-stakes environments"
-   ]
-  },
-  {
-   "title": "Making the case for context-aware AI",
-   "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-22T10:00:00+00:00",
-   "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review explores why enterprise AI systems struggle in real-world deployment: powerful models can make poor decisions when they lack understanding of business constraints, relationships, and operational context.",
-   "whyMatters": [
-    "Identifies critical gap between AI capability and business value—raw model power is insufficient without contextual knowledge",
-    "Matters for organizations trying to move AI from pilot projects to production, requiring investment in domain understanding alongside model development"
    ]
   },
   {
