@@ -1,32 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-03T11:17:21.700968+00:00",
+ "generatedAt": "2026-11-03T12:41:27.727893+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-03T11:17:44.343764+00:00",
+  "generatedAt": "2026-11-03T12:41:33.092916+00:00",
   "bullets": [
    {
-    "text": "OpenAI is offering to make data centers supply 1,000 megawatts of power during electricity emergencies, converting AI infrastructure into grid-stabilization assets while lowering consumer costs.",
+    "text": "Researchers developed a 'reverse game theory' approach that makes rule-following AI's rational choice, potentially solving the core alignment problem for advanced systems.",
+    "links": [
+     "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
+    ]
+   },
+   {
+    "text": "LLMs can now read and write neural network weights directly, automating previously human-dependent AI research tasks and accelerating the development cycle.",
+    "links": [
+     "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+    ]
+   },
+   {
+    "text": "Hundreds of ostensibly ordinary AI apps secretly contain deepfake features enabling sexually abusive content generation, exposing a hidden abuse vector within mainstream tools.",
+    "links": [
+     "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+    ]
+   },
+   {
+    "text": "OpenAI is positioning data centers as grid infrastructure that frees 1,000+ megawatts during emergencies, reframing AI compute as a utility resource rather than purely commercial asset.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
      "https://openai.com/index/grid-protectors-program"
     ]
    },
    {
-    "text": "Researchers developed 'reverse game theory' to align advanced AI systems by making rule-following the rational choice for powerful models, directly addressing the alignment problem.",
+    "text": "A workplace religious exemption case raises whether refusal to use AI can constitute a protected religious belief, testing the boundaries of conscience-based accommodation.",
     "links": [
-     "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
-    ]
-   },
-   {
-    "text": "Large language models can now read and write neural network weights directly—automating parts of AI research previously requiring human intervention and accelerating the AI development cycle.",
-    "links": [
-     "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
-    ]
-   },
-   {
-    "text": "A security vulnerability in ChatGPT's HTML artifacts allowed attackers to take over user accounts through iframe sandbox gaps, exposing a critical flaw in sandboxed execution.",
-    "links": [
-     "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
+     "https://religionnews.com/2026/11/02/the-right-to-refuse-ai-when-thinking-for-yourself-is-a-religious-belief/"
     ]
    }
   ]
