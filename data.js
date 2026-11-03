@@ -1,38 +1,33 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-03T12:41:27.727893+00:00",
+ "generatedAt": "2026-11-03T22:14:13.986538+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-03T12:41:33.092916+00:00",
+  "generatedAt": "2026-11-03T22:14:48.489111+00:00",
   "bullets": [
    {
-    "text": "Researchers developed a 'reverse game theory' approach that makes rule-following AI's rational choice, potentially solving the core alignment problem for advanced systems.",
+    "text": "Google is blocking K-12 schools from using Search entirely if they reject its AI features, forcing adoption rather than offering genuine opt-out options.",
     "links": [
-     "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
+     "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+     "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
     ]
    },
    {
-    "text": "LLMs can now read and write neural network weights directly, automating previously human-dependent AI research tasks and accelerating the development cycle.",
+    "text": "ChatGPT now processes 20% of Google's search volume, representing a significant market shift in how people seek information online.",
     "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
+    ]
+   },
+   {
+    "text": "AI models can now directly read and write neural network weights, potentially automating parts of AI research previously requiring human intervention.",
+    "links": [
+     "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
      "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
     ]
    },
    {
-    "text": "Hundreds of ostensibly ordinary AI apps secretly contain deepfake features enabling sexually abusive content generation, exposing a hidden abuse vector within mainstream tools.",
+    "text": "Hundreds of seemingly ordinary AI apps secretly contain features enabling users to generate violent and sexually abusive deepfakes, raising urgent content moderation questions.",
     "links": [
      "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
-    ]
-   },
-   {
-    "text": "OpenAI is positioning data centers as grid infrastructure that frees 1,000+ megawatts during emergencies, reframing AI compute as a utility resource rather than purely commercial asset.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-     "https://openai.com/index/grid-protectors-program"
-    ]
-   },
-   {
-    "text": "A workplace religious exemption case raises whether refusal to use AI can constitute a protected religious belief, testing the boundaries of conscience-based accommodation.",
-    "links": [
-     "https://religionnews.com/2026/11/02/the-right-to-refuse-ai-when-thinking-for-yourself-is-a-religious-belief/"
     ]
    }
   ]
@@ -79,6 +74,334 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Indie games are missing launch dates because Steam is backed up",
+   "link": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T21:56:58+00:00",
+   "summary": "Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their planned launch dates. For example, Studio Daimon, the team behind an upcoming title called Food Devils, had planned to launch the game in […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Steam's approval process for indie games has experienced significant delays, causing some developers to miss their planned launch dates. Multiple indie developers have reported unexpectedly long wait times for game submission approvals on the platform.",
+   "whyMatters": [
+    "Directly impacts indie game developers' ability to ship products on schedule",
+    "Highlights infrastructure bottlenecks at major distribution platforms that affect business operations"
+   ]
+  },
+  {
+   "title": "Those Jeff Bezos hair transplant photos are very fake",
+   "link": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T21:09:00+00:00",
+   "summary": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they both have substantially more hair than their usual shaved […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI-generated fake images of Jeff Bezos and Jason Statham with full heads of hair have circulated on social media platforms like X, Threads, and Bluesky, despite both men being famously bald in reality. The images are entirely fabricated.",
+   "whyMatters": [
+    "Demonstrates ease and spread of convincing AI-generated deepfakes on social platforms",
+    "Relevant to content moderation and verification challenges as synthetic media becomes harder to distinguish from real images"
+   ]
+  },
+  {
+   "title": "Google is entirely disabling Search in schools that don’t want AI",
+   "link": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T20:54:30+00:00",
+   "summary": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and Google Search \"will be entirely off\" for K-12 student accounts […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is disabling Search entirely for K-12 student accounts at schools that reject its AI features, making access to Search, Gemini, and related tools completely unavailable rather than offering opt-out options. Schools choosing not to use Google's AI must forfeit all Search functionality.",
+   "whyMatters": [
+    "Critical education policy issue: restricts student access to research tools based on school AI adoption decisions",
+    "Raises concerns about tech vendor leverage in schools and whether bundling AI features with essential tools appropriately respects educator and parent choice"
+   ]
+  },
+  {
+   "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+   "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-03T20:39:55+00:00",
+   "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Russia is accelerating plans to build underground data centers in response to Ukrainian drone strikes targeting exposed Russian digital infrastructure. The military pressure is forcing reactive infrastructure decisions.",
+   "whyMatters": [
+    "Illustrates how physical security threats are reshaping tech infrastructure investment globally",
+    "Demonstrates real-world consequences of AI and computing infrastructure vulnerability to military action"
+   ]
+  },
+  {
+   "title": "Midterm elections 2026: all the news",
+   "link": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T20:36:28+00:00",
+   "summary": "The 2026 midterm elections will determine the scope of President Donald Trump’s power in his final two years in office, and signal what voters care about going into the 2028 presidential election. While this year’s races are expected to be most broadly defined by affordability issues, there are several topics impacting the tech industry that […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The 2026 U.S. midterm elections are expected to focus heavily on affordability issues, with several topics impacting the tech industry becoming electoral issues. The elections will shape President Trump's power in his final two years and signal voter priorities heading into 2028.",
+   "whyMatters": [
+    "Tech policy will be a factor in midterm elections, affecting AI regulation and industry oversight",
+    "Indicates growing voter and political attention to technology industry impacts on everyday life"
+   ]
+  },
+  {
+   "title": "Apple starts giving Siri AI access to third-party apps",
+   "link": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T20:19:55+00:00",
+   "summary": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context, process natural language prompts, and use on-screen awareness to […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple is expanding Siri's capabilities to third-party apps through iOS 27.3, allowing developers to integrate AI features that access personal context, process natural language, and use on-screen awareness. Siri can now perform actions across any app with these integrations.",
+   "whyMatters": [
+    "Shifts AI assistant functionality from Apple-only services to broader ecosystem, increasing AI's integration into user workflows",
+    "Reflects competitive pressure with OpenAI and Google in making AI capabilities more seamlessly available across devices"
+   ]
+  },
+  {
+   "title": "AI Lurches Toward Recursive Self-Improvement",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Lurches-Toward-Recursive-Self-Improvement-e3rmekk",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-03T20:15:43+00:00",
+   "summary": "Check out How We Got Here Ep. 2 - How We Made the Wrong Things Cheap ⁠⁠⁠⁠⁠⁠⁠⁠https://podcasts.apple.com/us/podcast/how-we-got-here-with-nlw/id6822359990⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠https://open.spotify.com/show/7h55KSq0XwIjdWzwF2zgNV?si=cb76360051ec48a0⁠⁠⁠⁠⁠⁠⁠⁠ Learn More about the AI Champions Program: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.besuper.ai/champions⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Brought to you by: KPMG – New KPMG a",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128710740/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F435791266-44100-2-59c5fdb59f162.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "The blurb does not provide substantive information about AI recursive self-improvement; it only contains podcast promotion and program links. No actual news event is described.",
+   "whyMatters": [
+    "Cannot assess based on provided text",
+    "Insufficient information to determine relevance"
+   ]
+  },
+  {
+   "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+   "link": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T18:52:30+00:00",
+   "summary": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation, and Live Rewind, which generates text transcripts of the last 15 […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple's watchOS 27.3 beta includes new Audio Intelligence features for Siri, including Siri Recap (which generates summaries from ambient listening) and Live Rewind (which creates text transcripts of the last 15 seconds of conversation). These allow Siri to actively listen and process watch audio.",
+   "whyMatters": [
+    "Represents Apple's expansion of on-device AI capabilities and ambient listening functionality",
+    "Raises privacy considerations regarding continuous audio monitoring on wearable devices"
+   ]
+  },
+  {
+   "title": "OpenAI says ChatGPT is catching up to Google in search",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T18:38:47+00:00",
+   "summary": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the announcement at a press event on Monday. He said […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI announced that ChatGPT now processes search queries equal to 20 percent of Google's search volume, indicating significant market shift in how people seek information. The announcement came from OpenAI's consumer product lead at a press event.",
+   "whyMatters": [
+    "Represents measurable challenge to Google's dominant search position as users turn to conversational AI",
+    "Signals potential reshape of information access patterns, with implications for content creators and traditional search workflows"
+   ]
+  },
+  {
+   "title": "Google will let schools skip AI tools, but they have to give up search, too",
+   "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-03T17:54:43+00:00",
+   "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is offering schools the option to use AI tools that do not provide direct answers, but schools that decline AI features must also forgo access to Google Search entirely. The framing presents AI adoption and search access as a bundled package.",
+   "whyMatters": [
+    "Education policy: forces schools into binary choice rather than modular selection of tools",
+    "Raises questions about whether tech companies should bundle essential services with new AI features as adoption strategy"
+   ]
+  },
+  {
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "link": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T17:28:14+00:00",
+   "summary": "Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch. The first of these experiments surfaces content based around themes, like \"Something Light,\" \"Family Movie Night,\" or \"Quick Watches.\" When you pick a theme, Netflix will show […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Netflix is introducing an \"AI Discover\" tab on its TV app that uses AI to surface content recommendations organized around themes like \"Something Light\" or \"Family Movie Night.\" This is the first of several experimental AI-powered features being tested.",
+   "whyMatters": [
+    "Shows AI recommendation systems expanding deeper into entertainment discovery",
+    "Continues trend of AI as primary interface for content surfacing alongside traditional browsing"
+   ]
+  },
+  {
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-03T17:01:49+00:00",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind is highlighting capabilities of Google Antigravity for cheminformatics applications in drug discovery, including compound search and generation of novel macrocycle structures. The tool accelerates specific drug discovery workflows.",
+   "whyMatters": [
+    "Demonstrates concrete AI application in scientific research with potential pharmaceutical impact",
+    "Shows AI systems being deployed for domain-specific tasks requiring technical expertise in chemistry"
+   ]
+  },
+  {
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-03T16:29:48+00:00",
+   "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A paper titled \"Sparks of Weight-Space Programming\" found that frontier models including GPT-6 Astra can directly interpret and modify raw neural network weights, and that smaller models like Qwen 3.8 27B can also perform this capability on a local computer. This suggests LLMs can operate at the level of model internals.",
+   "whyMatters": [
+    "Represents significant capability advance: LLMs can now read and modify other model weights, not just generate text",
+    "Raises questions about model reproducibility, modification, and security implications of weight-space programming"
+   ]
+  },
+  {
+   "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T16:08:35+00:00",
+   "summary": "People hate data centers. They're loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today's polarized political landscape: genuine bipartisan opposition. But what about \"compute campuses\"? Those sound lovely, right? OpenAI seems to be gambling that a quiet rebrand could be all it takes to defuse the growing […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is quietly rebranding data centers as \"compute campuses\" in what appears to be a public relations effort to address widespread community opposition to traditional data center projects. The company is attempting to make infrastructure expansion more politically palatable through terminology.",
+   "whyMatters": [
+    "Reflects ongoing challenge for tech companies in securing local permits and community acceptance for AI infrastructure",
+    "Shows how language and framing affect public reception of necessary but locally unpopular infrastructure projects"
+   ]
+  },
+  {
+   "title": "Apple is all in on AI — its own and everyone else’s",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T15:52:53+00:00",
+   "summary": "Apple's latest earnings show how it's continuing to capitalize on the AI boom without busting its budget on the infrastructure spending consuming its competitors. Overall, Apple posted its best-ever fiscal year for revenue and earnings per share. iPhone and Mac sales continued to grow strongly in the fourth quarter. iPhone revenue rose 17.5% from a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple reported its best-ever fiscal year for revenue and earnings per share, with iPhone and Mac sales continuing strong growth (iPhone revenue up 17.5% in Q4). Apple is capitalizing on the AI boom while spending less on infrastructure than competitors.",
+   "whyMatters": [
+    "Shows Apple maintaining profitability while competitors invest heavily in AI infrastructure",
+    "Indicates market confidence in Apple's AI strategy despite lower infrastructure spending relative to other tech giants"
+   ]
+  },
+  {
+   "title": "Here’s Why You Shouldn’t Use AI to Vote",
+   "link": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-03T14:45:08+00:00",
+   "summary": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Wired reports that AI chatbots like ChatGPT and Claude are unreliable tools for voter decision-making due to hallucinations and built-in partisan biases. The article advises against using these systems to help determine how to vote on Election Day.",
+   "whyMatters": [
+    "AI systems currently lack the accuracy and neutrality required for such consequential civic decisions",
+    "Reliance on biased or confabulating AI for voting undermines democratic deliberation and informed consent"
+   ]
+  },
+  {
+   "title": "World of Warcraft: Forever Is Already Overrun with AI Slop",
+   "link": "https://www.404media.co/world-of-warcraft-forever-is-already-overrun-with-ai-slop/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-11-03T14:00:00+00:00",
+   "summary": "The vibe-coded addon problem is getting so bad that Warcraft Logs is changing its API and developers are dealing with theft of their work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "World of Warcraft's addon ecosystem is being flooded with AI-generated content, prompting Warcraft Logs to change its API and developers to confront plagiarism of their work. The problem has become severe enough to degrade the quality of the community environment.",
+   "whyMatters": [
+    "AI-generated slop is eroding user experience and trust in community-driven gaming platforms",
+    "Developer intellectual property is being harvested and repurposed without consent, raising legal and ethical questions about AI training practices"
+   ]
+  },
+  {
+   "title": "Accelerating engineering for the physical world",
+   "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-03T12:00:00+00:00",
+   "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI announced that ChatGPT and Codex are being used by engineers to speed up work in computer-aided design, PCB design, simulation, and related physical-world engineering tasks. The announcement highlights productivity gains across multiple engineering workflows.",
+   "whyMatters": [
+    "AI coding and design assistance is seeing practical adoption in technical engineering, potentially shifting how CAD and simulation work is performed",
+    "This represents a concrete B2B use case where AI directly augments professional engineering practice"
+   ]
+  },
+  {
    "title": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
    "link": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
    "source": "Wired · AI",
@@ -102,7 +425,7 @@ window.NEWS_DATA = {
    "source": "MIT Tech Review · AI",
    "category": "ai",
    "date": "2026-11-03T10:43:41+00:00",
-   "summary": "A new approach known as “reverse game theory” aims to create incentives for powerful AI models that make following the rules the most rational choice. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
+   "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -112,6 +435,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI safety alignment is a core concern as models become more capable; this represents a novel technical approach to the problem",
     "If effective, could help prevent harmful AI behavior at the governance level rather than relying solely on training-time constraints"
+   ]
+  },
+  {
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "link": "https://openai.com/index/cisco-cyber",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-03T08:00:00+00:00",
+   "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Cisco has integrated OpenAI models with its network intelligence capabilities to improve enterprise cybersecurity defenses that operate at machine speed. The partnership enables more adaptive and responsive security responses.",
+   "whyMatters": [
+    "Enterprise security is adopting AI-powered automation to detect and respond to threats faster than human-only systems",
+    "This reflects a significant shift in how large corporations are embedding AI into critical infrastructure"
    ]
   },
   {
@@ -206,6 +547,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+   "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-03T00:00:00+00:00",
+   "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI appointed Jill Hazelbaker as Chief Corporate Affairs Officer, with responsibility for global communications and corporate strategy. This represents a senior organizational change focused on external positioning.",
+   "whyMatters": [
+    "The hire signals OpenAI's emphasis on navigating regulatory, political, and public-relations landscapes as the company matures",
+    "Corporate affairs leadership typically handles government relations and policy engagement, which matters for AI regulation"
+   ]
+  },
+  {
    "title": "llm 0.37",
    "link": "https://simonwillison.net/2026/Nov/2/llm/",
    "source": "Simon Willison",
@@ -225,24 +584,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
-   "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-02T23:20:01+00:00",
-   "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The New York Times and other major publications have sued Brave browser for allegedly scraping their content without permission to train AI models and enabling users to bypass paywalls.",
-   "whyMatters": [
-    "Directly impacts AI training practices and copyright enforcement—establishes legal precedent for whether scraping licensed content requires consent",
-    "Signals escalating tension between AI companies/tools and content creators over data rights and compensation"
-   ]
-  },
-  {
    "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
    "link": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
    "source": "Latent Space",
@@ -258,24 +599,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows AI disruption of professional services; legal billing structure may need to shift as AI handles more work",
     "Relevant to how AI adoption reshapes labor and pricing in knowledge work"
-   ]
-  },
-  {
-   "title": "Anthropic clamps down on Claude’s AI video game clones",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-02T22:57:16+00:00",
-   "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic updated Claude Code's system prompt to block users from recreating existing video games, though general game development remains allowed.",
-   "whyMatters": [
-    "Reflects attempts by AI creators to limit IP-infringing use cases while maintaining tool flexibility",
-    "Highlights the ongoing tension between AI capability and copyright/IP concerns"
    ]
   },
   {
@@ -356,23 +679,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-   "source": "The Verge · AI",
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "source": "OpenAI News",
    "category": "ai",
-   "date": "2026-11-02T18:01:30+00:00",
-   "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to […]",
+   "date": "2026-11-02T18:00:00+00:00",
+   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "OpenAI announced a pilot 'Grid Protectors Program' to free up to 1,000 megawatts of data center power during emergencies, starting in Georgia.",
+   "themes": [],
+   "aiSummary": "OpenAI is conducting a security sprint in partnership with Cathedral Systems to test and strengthen its defenses using AI-driven security testing. This is internal work to harden OpenAI's own infrastructure and systems.",
    "whyMatters": [
-    "Addresses criticism of AI's energy consumption by positioning data centers as grid assets",
-    "Shows OpenAI attempting to build community/regulatory goodwill around power demands"
+    "Reflects growing emphasis on AI-assisted security testing and defense",
+    "Shows major AI companies investing in their own security posture as systems become higher-stakes"
    ]
   },
   {
@@ -391,24 +712,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Incentive structure change: higher bounties may attract better security researchers and more rigorous testing",
     "Direct investment in external security oversight for a major AI system"
-   ]
-  },
-  {
-   "title": "Preparing our next security sprint to harden OpenAI",
-   "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-02T18:00:00+00:00",
-   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is conducting a security sprint in partnership with Cathedral Systems to test and strengthen its defenses using AI-driven security testing. This is internal work to harden OpenAI's own infrastructure and systems.",
-   "whyMatters": [
-    "Reflects growing emphasis on AI-assisted security testing and defense",
-    "Shows major AI companies investing in their own security posture as systems become higher-stakes"
    ]
   },
   {
@@ -614,24 +917,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Qodo builds context into AI code review with Codex",
-   "link": "https://openai.com/index/qodo-codex-plugin",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Qodo released Codex, an AI code review tool that integrates company-specific knowledge and coding standards to catch critical bugs before pull requests.",
-   "whyMatters": [
-    "Shows AI tools tailored to organizational context and risk management in development workflows",
-    "Reflects shift from generic to domain-specific, compliance-aware AI deployment"
-   ]
-  },
-  {
    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
    "link": "https://openai.com/index/dan-driscoll-joins-openai",
    "source": "OpenAI News",
@@ -649,6 +934,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows OpenAI embedding government relations and national security expertise at senior leadership level",
     "Reflects increased focus on AI's role in defense and diplomatic contexts"
+   ]
+  },
+  {
+   "title": "Qodo builds context into AI code review with Codex",
+   "link": "https://openai.com/index/qodo-codex-plugin",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Qodo released Codex, an AI code review tool that integrates company-specific knowledge and coding standards to catch critical bugs before pull requests.",
+   "whyMatters": [
+    "Shows AI tools tailored to organizational context and risk management in development workflows",
+    "Reflects shift from generic to domain-specific, compliance-aware AI deployment"
    ]
   },
   {
@@ -765,24 +1068,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "I built an AI Tamagotchi before Meta could",
-   "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-31T16:09:02+00:00",
-   "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A developer created an AI companion device similar to Meta's Muse Charm before Meta released theirs. The article compares a DIY AI Tamagotchi-style interface to Meta's upcoming holiday season product offering.",
-   "whyMatters": [
-    "Shows how accessible AI device prototyping has become for individual developers, not just major tech companies",
-    "Raises questions about differentiation in the consumer AI companion market as multiple players enter the space"
-   ]
-  },
-  {
    "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
    "link": "https://latent.space/p/arca/",
    "source": "Latent Space",
@@ -806,7 +1091,7 @@ window.NEWS_DATA = {
    "source": "Wired · AI",
    "category": "ai",
    "date": "2026-10-31T12:00:00+00:00",
-   "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+   "summary": "Named Volta-Autodoxer, the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -871,42 +1156,6 @@ window.NEWS_DATA = {
     "Reveals fundamental tension in AI integration: companies deploying AI features risk cannibalizing existing profitable business models, threatening investor confidence and market valuations",
     "Signals potential broader slowdown in AI adoption across tech sector if companies find AI features economically destructive rather than additive",
     "Raises questions about sustainable monetization for AI-powered products, relevant to how educational and faith-based organizations might approach AI tools that could displace existing revenue or engagement models"
-   ]
-  },
-  {
-   "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-   "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T22:32:53+00:00",
-   "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple is bringing Apple Intelligence features to China, starting with an iOS 27.3 beta on November 4th and a full release in December. This marks the first availability of Apple's AI features in the Chinese market.",
-   "whyMatters": [
-    "Expands Apple's AI rollout to a major market where regulatory approval was previously unclear",
-    "Signals competitive positioning in China's AI-driven device market against local competitors like Huawei and Xiaomi"
-   ]
-  },
-  {
-   "title": "The biggest names in AI are backing a new way to opt out of scraping",
-   "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T22:04:23+00:00",
-   "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI, Google, Microsoft, and Anthropic have agreed to support a shared standard allowing publishers to opt out of AI training data scraping across all four companies via a single signal. This standardized \"policy token\" streamlines opt-out across multiple platforms instead of requiring individual negotiations.",
-   "whyMatters": [
-    "Establishes first major cross-company data-use standard in AI industry",
-    "Addresses publisher concerns about training data governance without requiring separate agreements per company"
    ]
   },
   {
@@ -982,24 +1231,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T20:48:43+00:00",
-   "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lot of people want […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI CEO Sam Altman stated in an interview that RAM allocation should prioritize data centers over personal computers, characterizing personal PC RAM as inefficient. He framed this as a response to supply chain constraints and resource optimization.",
-   "whyMatters": [
-    "Reflects centralization argument: concentrating computing resources in cloud vs. local devices",
-    "Signals industry priorities around data center economics and GPU-adjacent resource management"
-   ]
-  },
-  {
    "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
    "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
    "source": "Ars Technica · AI",
@@ -1054,24 +1285,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google’s satellite AI server transmits its first response to Earth",
-   "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T18:21:38+00:00",
-   "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google successfully activated Tensor Processing Units aboard a satellite and ran its Gemma 4 AI model in orbit, generating a haiku about space as proof of concept. This marks the first on-orbit execution of an AI inference task on Google's space-based system.",
-   "whyMatters": [
-    "Demonstrates edge AI computing in space, expanding where AI inference can operate",
-    "Opens questions about satellite-based AI services and distributed computing across ground and orbital infrastructure"
-   ]
-  },
-  {
    "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
    "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
    "source": "Ars Technica · AI",
@@ -1087,24 +1300,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows traditional storage media gaining renewed relevance in AI era due to cost and security properties",
     "Reflects infrastructure demands of large-scale AI training and data management"
-   ]
-  },
-  {
-   "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T17:38:04+00:00",
-   "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Starbucks CEO announced plans to deploy AI at drive-thru locations to recognize returning customers and display personalized digital menus. The feature would streamline ordering and payment for identified customers.",
-   "whyMatters": [
-    "Example of consumer-facing AI moving into daily retail friction points",
-    "Raises data collection and privacy questions around customer recognition systems at scale"
    ]
   },
   {
@@ -1141,24 +1336,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Illustrates reputational and organizational risk of pushing AI without addressing workforce concerns",
     "Relevant to ethics of AI adoption in privacy-focused companies and leadership accountability"
-   ]
-  },
-  {
-   "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-10-30T15:14:37+00:00",
-   "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Pope Francis issued a papal address calling for AI to be \"disarmed\" and stating that humans must guide, modify, and reject AI applications as needed. He urged UN member states to take concrete steps toward banning lethal autonomous weapons.",
-   "whyMatters": [
-    "Major religious authority articulating ethical framework for AI governance and autonomous weapons",
-    "Signals Vatican position on human agency and moral responsibility in AI deployment, relevant to faith communities engaging AI ethics"
    ]
   },
   {
@@ -1453,24 +1630,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
-   "link": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-29T15:00:00+00:00",
-   "summary": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Startup &Truth is entering the formal verification automation market, aiming to streamline the mathematically rigorous process of proving software correctness.",
-   "whyMatters": [
-    "Formal verification could improve reliability of AI systems used in safety-critical contexts like healthcare or education",
-    "Addresses the 'vibe coding' problem—ensuring AI-generated code actually works as intended"
-   ]
-  },
-  {
    "title": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
    "link": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
    "source": "404 Media",
@@ -1736,6 +1895,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Evernote turns AI-driven discovery into paid subscriptions",
+   "link": "https://openai.com/ads/customers/evernote",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-10-28T19:40:49+00:00",
+   "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Evernote used ChatGPT Ads to market its note-taking app to AI users and tracked conversion rates from free trials to paid subscriptions. The campaign demonstrated a viable advertising channel for reaching AI-focused audiences.",
+   "whyMatters": [
+    "AI ad platforms are being used effectively for customer acquisition, showing a new revenue model for AI companies themselves",
+    "This illustrates how generative AI tools are integrated into broader business and marketing operations"
+   ]
+  },
+  {
    "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
    "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
    "source": "Ars Technica · AI",
@@ -1810,42 +1989,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides quantitative evidence of AI agents' impact on developer productivity and code generation at scale",
     "Illustrates rapid adoption of agentic workflows in professional software development, with direct implications for educator preparation"
-   ]
-  },
-  {
-   "title": "Objection, your honor",
-   "link": "https://www.404media.co/objection-your-honor/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-28T14:41:07+00:00",
-   "summary": "If you're in the EU or UK, you might be able to object to Meta's new AI scraping terms. Also: this week's pod's out and more from around the web.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta's new AI scraping terms face legal objection options for users in the EU and UK.",
-   "whyMatters": [
-    "Indicates geographic variation in AI governance and data protection, with EU/UK providing legal recourse unavailable in other regions",
-    "Reflects ongoing tension between AI training data needs and privacy-forward regulatory frameworks"
-   ]
-  },
-  {
-   "title": "If You're In the UK or EU, Here's How to Object to Meta's AI Training",
-   "link": "https://www.404media.co/meta-ai-training-uk-eu/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-10-28T14:18:35+00:00",
-   "summary": "In light of Meta's new terms that will allow it to scrape users' data for AI, people in the EU and UK have the option to \"object\" to certain uses of their information, for now.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta's new terms allow it to use user data for AI training, but EU and UK residents have a legal right to object to this data use under current regulations. The article explains how people in these regions can exercise that objection option.",
-   "whyMatters": [
-    "Data privacy: EU/UK users can retain some control over their information amid corporate AI training practices",
-    "Policy matters: demonstrates how regional regulations (GDPR, UK data law) create opt-out mechanisms absent in other jurisdictions"
    ]
   },
   {
@@ -2277,24 +2420,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-   "link": "https://openai.com/index/greptile-code-review-codex-astra",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-26T22:00:00+00:00",
-   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Greptile is using GPT-6 Astra to enhance bug detection and testing of user workflows, combining this with Daybreak for security and Codex for reducing rework. The tool moves bug detection beyond traditional code review approaches.",
-   "whyMatters": [
-    "Shows practical application of advanced language models to developer tooling and workflow efficiency",
-    "Integration of multiple model capabilities demonstrates how enterprises are layering AI systems for specialized tasks"
-   ]
-  },
-  {
    "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
    "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
    "source": "Ars Technica · AI",
@@ -2387,24 +2512,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
-   "link": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-26T17:26:36+00:00",
-   "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Highway thieves have stolen $100 million in data center equipment using GPS spoofing techniques. Investigators have documented how the spoofing scheme enables theft of equipment destined for data centers.",
-   "whyMatters": [
-    "Physical security risks to AI infrastructure supply chains represent material operational threats",
-    "Illustrates how AI infrastructure expansion creates new vectors for organized crime targeting high-value equipment shipments"
-   ]
-  },
-  {
    "title": "webframe: evaluated as a scraper and a sandbox",
    "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
    "source": "Simon Willison",
@@ -2423,42 +2530,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
-   "link": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-26T14:30:27+00:00",
-   "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Tesla is shifting strategic focus toward autonomous driving subscriptions after losing market share in EV sales to competitors. The company sees subscription-based autonomy as a higher-margin business model.",
-   "whyMatters": [
-    "Demonstrates pivot in AI-driven automotive strategy away from hardware dominance toward service revenue",
-    "Reveals how profitability concerns, not just technical capability, drive deployment of autonomous systems"
-   ]
-  },
-  {
-   "title": "Working with academic communities to build scientific understanding",
-   "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-26T14:30:00+00:00",
-   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI shared model research results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics, and explained how researchers can verify and build upon these results. The announcement emphasizes collaboration with academic communities.",
-   "whyMatters": [
-    "Continues OpenAI's positioning of AI models as tools for advancing mathematical and theoretical physics research",
-    "Academic collaboration model could establish frameworks for peer review and validation of AI-generated scientific work across the field"
-   ]
-  },
-  {
    "title": "Introducing How We Got Here -- NLW's new podcast",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Introducing-How-We-Got-Here----NLWs-new-podcast-e3r45fc",
    "source": "The AI Daily Brief",
@@ -2474,44 +2545,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects growing media focus on understanding structural factors behind AI and tech industry reputation challenges",
     "Educational content exploring industry history may help audiences understand current AI debates in broader context"
-   ]
-  },
-  {
-   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-   "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-26T13:45:00+00:00",
-   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-   "religionScore": 6,
-   "religionHits": [
-    "rabbi"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "CodeRabbit integrates GPT-6.1 Sol to scan codebases for security vulnerabilities and generate proposed fixes. The security agent helps developers review and act on identified risks across complex systems.",
-   "whyMatters": [
-    "Reduces security review burden by automating vulnerability detection and remediation suggestions",
-    "Strengthens developer workflows by embedding AI-powered security checks directly into code review processes"
-   ]
-  },
-  {
-   "title": "ChatGPT’s expanding world of work",
-   "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-26T10:00:00+00:00",
-   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI analyzed usage patterns from Signals data covering 165 work activities across nearly 100 countries to map how people use ChatGPT professionally. The analysis tracks usage trends over time to show evolving adoption patterns.",
-   "whyMatters": [
-    "Provides concrete data on AI adoption in workplaces globally, informing both vendors and organizations about real-world impact",
-    "Helps identify which work activities benefit most from AI assistance, guiding workforce training and integration strategies"
    ]
   },
   {
@@ -2699,24 +2732,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Cybersecurity landscape fundamentally shifting as both attack and defense become automated, requiring new business security strategies",
     "Companies must rapidly invest in AI infrastructure (as seen with Meta's stock move) to keep pace with the speed and scale of AI-driven threats"
-   ]
-  },
-  {
-   "title": "DE STAAT - FREEDOM (Official Music Video)",
-   "link": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-22T19:42:26+00:00",
-   "summary": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding-a-bicycle",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Dutch rock band De Staat's new music video features AI-generated visual effects created by an artist using generative AI tools.",
-   "whyMatters": [
-    "Generative AI now used in mainstream creative production",
-    "Demonstrates mainstream adoption of AI in entertainment and music industries"
    ]
   },
   {
@@ -3219,26 +3234,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides educators and organizations with concrete methodology for responsible AI adoption—moving beyond vendor claims to actual performance measurement",
     "Reflects research showing that high-impact AI users develop evaluation competencies; this skill set is increasingly necessary for institutional decision-making"
-   ]
-  },
-  {
-   "title": "Point-Counterpoint: Consumers Will Never Pay for AI",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Point-Counterpoint-Consumers-Will-Never-Pay-for-AI-e3q16j9",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-06T20:19:59+00:00",
-   "summary": "Nearly 98% of US households don’t pay for an AI subscription. Is that a massive untapped market or a sign that Silicon Valley is building for itself? NLW explores both sides of the consumer AI debate, from power-user spending to entertainment and advertising. In the headlines: Reflection unveils its American open model, and Microsoft and Meta cut their Claude spending. Brought to you by: KPMG – Ne",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/126965801/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F433513722-44100-2-69f494a7c8499.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "A debate examines whether the near-universal refusal of US households to pay for AI subscriptions (98% don't) represents a missed market opportunity or evidence that AI companies are building solutions without genuine consumer demand. News includes Reflection's open model and Microsoft/Meta cutting Claude spending.",
-   "whyMatters": [
-    "Business model question: Challenges the venture-backed assumption that consumers will pay for AI, with major platform companies themselves reducing spending",
-    "Market reality check: Suggests gap between AI industry's growth narrative and actual consumer willingness to fund AI services"
    ]
   },
   {
