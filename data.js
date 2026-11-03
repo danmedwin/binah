@@ -1,81 +1,223 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-02T23:49:19.367351+00:00",
+ "generatedAt": "2026-11-03T11:17:21.700968+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-02T23:49:41.769192+00:00",
+  "generatedAt": "2026-11-03T11:17:44.343764+00:00",
   "bullets": [
    {
-    "text": "Google's AI Search mode is slashing revenue by an estimated 15% ($500 billion), the worst decline since its 2004 IPO, as AI-generated results cannibalize search traffic.",
+    "text": "OpenAI is offering to make data centers supply 1,000 megawatts of power during electricity emergencies, converting AI infrastructure into grid-stabilization assets while lowering consumer costs.",
     "links": [
-     "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
+     "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+     "https://openai.com/index/grid-protectors-program"
     ]
    },
    {
-    "text": "Autonomous AI agents are moving from theory to practice: one successfully injected gene therapy into a live mouse's brain, demonstrating real-world biomedical capability.",
+    "text": "Researchers developed 'reverse game theory' to align advanced AI systems by making rule-following the rational choice for powerful models, directly addressing the alignment problem.",
     "links": [
-     "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+     "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
     ]
    },
    {
-    "text": "Over 400 mundane AI apps secretly contain deepfake abuse features, enabling generation of violent and sexually explicit synthetic images and videos.",
+    "text": "Large language models can now read and write neural network weights directly—automating parts of AI research previously requiring human intervention and accelerating the AI development cycle.",
     "links": [
-     "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+     "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
     ]
    },
    {
-    "text": "The New York Times sued Brave browser for scraping content to train AI models and bypassing paywalls, escalating legal battles over AI training data.",
+    "text": "A security vulnerability in ChatGPT's HTML artifacts allowed attackers to take over user accounts through iframe sandbox gaps, exposing a critical flaw in sandboxed execution.",
     "links": [
-     "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
-    ]
-   },
-   {
-    "text": "Religious freedom frameworks are emerging as potential grounds for workplace exemptions from AI use, raising novel conscience-based accommodation questions.",
-    "links": [
-     "https://religionnews.com/2026/11/02/the-right-to-refuse-ai-when-thinking-for-yourself-is-a-religious-belief/"
+     "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-02T11:39:04.887908+00:00",
+  "generatedAt": "2026-11-03T11:17:44.343764+00:00",
   "bullets": [
    {
-    "text": "Google Search's AI mode is materially cannibalizing ad revenue—a $500 billion valuation hit, worst since IPO—forcing the company into difficult product tradeoffs.",
+    "text": "OpenAI is offering to make data centers supply 1,000 megawatts of power during electricity emergencies, converting AI infrastructure into grid-stabilization assets while lowering consumer costs.",
     "links": [
-     "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
+     "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+     "https://openai.com/index/grid-protectors-program"
     ]
    },
    {
-    "text": "Major AI labs (OpenAI, Google, Microsoft, Anthropic) agreed on a unified technical standard for publishers to opt out of training-data scraping across all four companies simultaneously.",
+    "text": "Researchers developed 'reverse game theory' to align advanced AI systems by making rule-following the rational choice for powerful models, directly addressing the alignment problem.",
     "links": [
-     "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+     "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
     ]
    },
    {
-    "text": "Hundreds of ordinary-looking AI apps secretly contain features to generate violent and sexually abusive deepfakes, with minimal detection or friction—a scaling problem in moderation infrastructure.",
+    "text": "Large language models can now read and write neural network weights directly—automating parts of AI research previously requiring human intervention and accelerating the AI development cycle.",
     "links": [
-     "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+     "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
     ]
    },
    {
-    "text": "Autonomous AI agents are now operationally deployed across the web, interpreting and acting on interconnected information without manual intervention—the long-theorized semantic web is becoming technical reality.",
+    "text": "A security vulnerability in ChatGPT's HTML artifacts allowed attackers to take over user accounts through iframe sandbox gaps, exposing a critical flaw in sandboxed execution.",
     "links": [
-     "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
+     "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-02T11:39:00.270234+00:00",
+  "updatedAt": "2026-11-03T11:17:39.919415+00:00",
   "voteCount": 7,
   "bullets": [
    "Interested in AI ethics and religious/moral perspectives on technology",
-   "Values substantive reporting on major tech companies (Apple, Google, etc.) and their AI initiatives",
-   "Prefers practical AI applications and products over developer tools and technical release notes",
-   "Seeks stories with broader cultural or societal impact rather than niche technical updates"
+   "Likes substantive coverage of AI's real-world impact and legacy (e.g., technical breakthroughs from failed projects)",
+   "Values practical AI features in consumer products",
+   "Dislikes highly technical release notes and tool updates without broader context"
   ]
  },
  "items": [
+  {
+   "title": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
+   "link": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-03T11:00:00+00:00",
+   "summary": "Ahead of the midterms, WIRED talked to New York City’s mayor about data centers, AI in schools, and the future of the Democratic party.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "New York City's mayor discussed data centers, AI implementation in schools, and Democratic strategy ahead of midterm elections with WIRED. The conversation touched on how AI infrastructure and educational AI adoption fit into the city's and party's future plans.",
+   "whyMatters": [
+    "AI in schools is a direct education policy matter affecting how students learn and how educators work",
+    "Data center expansion has real infrastructure and energy implications for cities implementing AI at scale"
+   ]
+  },
+  {
+   "title": "How “reverse game theory” could keep AI agents in check",
+   "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-03T10:43:41+00:00",
+   "summary": "A new approach known as “reverse game theory” aims to create incentives for powerful AI models that make following the rules the most rational choice. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers are developing a 'reverse game theory' approach to AI safety that creates incentives for powerful AI models to follow rules as their most rational choice. This aims to solve the alignment problem—ensuring advanced AI systems act in accordance with human values rather than going rogue.",
+   "whyMatters": [
+    "AI safety alignment is a core concern as models become more capable; this represents a novel technical approach to the problem",
+    "If effective, could help prevent harmful AI behavior at the governance level rather than relying solely on training-time constraints"
+   ]
+  },
+  {
+   "title": "Heimstaden is changing residential real estate management with AI",
+   "link": "https://openai.com/index/heimstaden",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-03T08:00:00+00:00",
+   "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Heimstaden, a European property management company, is using OpenAI's ChatGPT Enterprise and Codex to automate residential real estate operations, reduce costs, and improve employee capabilities. The deployment spans their European property portfolio.",
+   "whyMatters": [
+    "Real-world commercial application of LLMs showing measurable business efficiency gains",
+    "Demonstrates how AI can augment rather than replace workers in property management roles"
+   ]
+  },
+  {
+   "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+   "link": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-03T05:35:00+00:00",
+   "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A new capability called 'Weight Space Programming' allows large language models to read and write neural network weights directly, potentially automating parts of AI research that previously required human intervention. Includes updates on DeepSeek's agent prototypes and the GDPx benchmark.",
+   "whyMatters": [
+    "Represents potential acceleration of AI research by reducing manual loops in the development process",
+    "If models can edit their own weights, it raises questions about how that scales AI capabilities and requires new safety considerations"
+   ]
+  },
+  {
+   "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+   "link": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-03T05:32:25+00:00",
+   "summary": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A researcher demonstrated a technique where imperceptible background airplane noise in video audio can be analyzed using Doppler curves and cross-referenced against flight tracking data (ADS-B) to pinpoint the exact location where a video was filmed. This is an OSINT (open-source intelligence) vulnerability present in videos across the internet.",
+   "whyMatters": [
+    "Privacy risk: any published video with background aircraft noise may leak precise location information",
+    "Demonstrates how publicly available data sources can be combined in unexpected ways to compromise privacy"
+   ]
+  },
+  {
+   "title": "October sponsors-only newsletter",
+   "link": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-03T05:28:59+00:00",
+   "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison published an October sponsors-only newsletter covering trends in AI-driven game development, security vulnerabilities, recent LLM releases, and his own software work. The full content is restricted to newsletter sponsors.",
+   "whyMatters": [
+    "Summary-level information only; no specific substantive claims available from the blurb"
+   ]
+  },
+  {
+   "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+   "link": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-03T04:18:47+00:00",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Following Trump's September executive order, government agencies are rebranding artificial intelligence as 'Super Intelligence.' The article examines which officials and organizations are complying with this terminology shift and what it signals about political alignment.",
+   "whyMatters": [
+    "Terminology and framing can shape how policymakers and the public understand AI capabilities and risks",
+    "Government rebranding suggests potential shifts in how AI is discussed in policy and national security contexts"
+   ]
+  },
+  {
+   "title": "llm 0.37",
+   "link": "https://simonwillison.net/2026/Nov/2/llm/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-02T23:49:30+00:00",
+   "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own defau",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison released version 0.37 of his LLM CLI tool and Python library, adding support for new GPT models, new commands for configuring OpenAI-compatible endpoints, and other accumulated features and fixes over two months of development.",
+   "whyMatters": [
+    "Developer tooling update; incremental improvement to open-source AI infrastructure"
+   ]
+  },
   {
    "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
    "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
@@ -228,6 +370,42 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Rewarding defenders with bigger bug bounties",
+   "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T18:00:00+00:00",
+   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI increased its Security Bug Bounty rewards and introduced new bonus structures for independent security researchers, including rewards for report quality, researcher loyalty, and priority campaigns. This aims to attract more security testing from external researchers.",
+   "whyMatters": [
+    "Incentive structure change: higher bounties may attract better security researchers and more rigorous testing",
+    "Direct investment in external security oversight for a major AI system"
+   ]
+  },
+  {
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T18:00:00+00:00",
+   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is conducting a security sprint in partnership with Cathedral Systems to test and strengthen its defenses using AI-driven security testing. This is internal work to harden OpenAI's own infrastructure and systems.",
+   "whyMatters": [
+    "Reflects growing emphasis on AI-assisted security testing and defense",
+    "Shows major AI companies investing in their own security posture as systems become higher-stakes"
+   ]
+  },
+  {
    "title": "Raising the quality of insights in agentic analytics",
    "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
    "source": "MIT Tech Review · AI",
@@ -279,6 +457,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Illustrates deployment of low-effort AI slop in civic contexts, raising concerns about quality standards in public-facing communications",
     "Touches on public trust and the erosion of thoughtful, human-made institutional touchstones"
+   ]
+  },
+  {
+   "title": "Scaling Git at OpenAI",
+   "link": "https://openai.com/index/scaling-git-at-openai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T15:30:00+00:00",
+   "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI built Pando, a Git-compatible backend infrastructure designed to handle the massive scale of software development that their Codex model enables. The system addresses version control challenges at unprecedented scale.",
+   "whyMatters": [
+    "Infrastructure challenge: AI models dramatically increase development velocity, requiring new tooling solutions",
+    "Technical enabler for AI-accelerated development workflows at enterprise scale"
    ]
   },
   {
@@ -427,6 +623,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows AI tools tailored to organizational context and risk management in development workflows",
     "Reflects shift from generic to domain-specific, compliance-aware AI deployment"
+   ]
+  },
+  {
+   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+   "link": "https://openai.com/index/dan-driscoll-joins-openai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenAI appointed Dan Driscoll as Senior Counselor for National Security Modernization to advise on responsible AI use in national security, cyber resilience, and allied collaboration. This is a new senior leadership role focused on government relationships.",
+   "whyMatters": [
+    "Shows OpenAI embedding government relations and national security expertise at senior leadership level",
+    "Reflects increased focus on AI's role in defense and diplomatic contexts"
    ]
   },
   {
@@ -1282,26 +1498,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Commentary on AI agent architectures and the Model Context Protocol becoming industry standard",
     "Highlights self-aware skepticism within the AI-agent community about universal automation claims"
-   ]
-  },
-  {
-   "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-   "link": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-10-29T14:00:00+00:00",
-   "summary": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Mistral released an open-weight AI model called Le Chonk that the company says matches or exceeds the performance of DeepSeek and Z.ai models in coding and cybersecurity tasks. The claim positions Mistral as competitive with Chinese AI labs in the open-source model landscape.",
-   "whyMatters": [
-    "Intensifies competition in open-weight models between Western and Chinese AI labs, affecting access to capable frontier models",
-    "Matters for organizations choosing between proprietary and open alternatives for AI deployment"
    ]
   },
   {
@@ -2313,82 +2509,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The focus on AI safety disasters ignores everyday harms",
-   "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-26T09:01:00+00:00",
-   "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "The article critiques technology policy's focus on catastrophic AI risks, arguing it overlooks everyday harms already occurring. It notes that companies clearing minimal safety bars on suicide prevention and drug access is treated as success despite ongoing product harms.",
-   "whyMatters": [
-    "Challenges dominant safety discourse that privileges hypothetical existential risks over documented present-day harms",
-    "Relevant to educators and religious leaders discussing AI ethics: emphasizes accountability for current impact alongside future-risk mitigation"
-   ]
-  },
-  {
-   "title": "How Fanatics and OpenAI streamline the fan experience",
-   "link": "https://openai.com/index/fanatics-streamline-fan-experience",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-26T07:00:00+00:00",
-   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Fanatics is using OpenAI's technology to power 'Shop the Look,' a feature helping fans find complete game-day outfits from MLB products. Testing showed 10% higher engagement with this AI-powered recommendation capability.",
-   "whyMatters": [
-    "Demonstrates commercial deployment of AI in retail to increase conversion, normalizing AI in everyday consumer experiences",
-    "Shows how engagement metrics drive AI adoption even in low-stakes applications"
-   ]
-  },
-  {
-   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-   "link": "https://openai.com/index/openai-cut-incident-investigation",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-26T07:00:00+00:00",
-   "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI engineers use Codex Ultrafast to investigate system incidents in minutes instead of hours. The tool accelerates security analysis, code refactoring, and debugging in daily engineering workflows.",
-   "whyMatters": [
-    "Dramatically reduces mean time to resolution for production incidents, improving system reliability and team efficiency",
-    "Demonstrates practical value of AI coding tools for operational work beyond initial development"
-   ]
-  },
-  {
-   "title": "Introducing GPT-6.1 Terra",
-   "link": "https://openai.com/index/introducing-gpt-6-1-terra",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-26T00:00:00+00:00",
-   "summary": "Bringing fast and capable computer use to everyone",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI released GPT-6.1 Terra, a model focused on enabling computer use capabilities. The release aims to make fast and capable computer automation accessible more broadly.",
-   "whyMatters": [
-    "Expands AI capability to interact with computer interfaces directly, opening new possibilities for automation and accessibility",
-    "Democratizes advanced AI features by making them available to a wider audience of users and developers"
-   ]
-  },
-  {
    "title": "Seam Cutter",
    "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
    "source": "Simon Willison",
@@ -2520,24 +2640,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-23T17:00:00+00:00",
-   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI detailed how it scaled its Habitat storage system to support over 1 billion ChatGPT users, achieving 12× faster read performance through multi-tenancy, global caching, and Azure Cosmos DB.",
-   "whyMatters": [
-    "Infrastructure scaling directly impacts ChatGPT's operational efficiency and user experience at massive scale",
-    "Demonstrates engineering challenges in serving production AI applications to billions of concurrent users"
-   ]
-  },
-  {
    "title": "AI Is Getting Good at Math. Here’s Why.",
    "link": "https://latent.space/p/ai-is-getting-good-at-math/",
    "source": "Latent Space",
@@ -2571,44 +2673,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Insufficient information to assess impact or relevance",
     "Source material does not contain actionable reporting"
-   ]
-  },
-  {
-   "title": "Securing our frontier model training environment",
-   "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-23T10:00:00+00:00",
-   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "OpenAI described security measures for frontier model training, including isolated offline environments and high-compute red-teaming to prevent unintended behavior.",
-   "whyMatters": [
-    "Addresses responsible AI development practices for most capable models",
-    "Details containment approaches relevant to alignment and safety in frontier model training"
-   ]
-  },
-  {
-   "title": "Designing an AI serving harness built to last",
-   "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-22T21:17:29+00:00",
-   "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "According to MIT Tech Review, competitive advantage in enterprise AI is increasingly determined not by which model companies choose but by the infrastructure and systems built around it. This marks a shift away from years of focus on model capabilities like size, reasoning, and benchmark performance.",
-   "whyMatters": [
-    "Signals maturation of AI industry—commodity models mean differentiation moves to deployment, integration, and operational infrastructure",
-    "Has implications for enterprise adoption and ROI; success depends on implementation quality rather than access to frontier models"
    ]
   },
   {
@@ -2650,24 +2714,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Donating Agent Skills to the Agentic AI Foundation",
-   "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-22T18:09:56+00:00",
-   "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I calle",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic is donating Agent Skills, its open standard for AI agents, to the Agentic AI Foundation under the Linux Foundation, alongside previously donating Model Context Protocol, promoting vendor-neutral agentic AI standards.",
-   "whyMatters": [
-    "Moves agentic AI toward open standards and community governance rather than proprietary control",
-    "Foundation model for how industry can collaboratively build shared infrastructure"
-   ]
-  },
-  {
    "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
    "link": "https://latent.space/p/modal-d/",
    "source": "Latent Space",
@@ -2683,24 +2729,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Infrastructure standardization affects how enterprises and developers access AI compute resources",
     "Modal's sandbox approach is reshaping how companies think about deploying agents at scale"
-   ]
-  },
-  {
-   "title": "Quoting Armin Ronacher",
-   "link": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-22T15:34:13+00:00",
-   "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Armin Ronacher observes that the proliferation of poor software built over decades is now creating security vulnerabilities that AI systems are exposing or exploiting.",
-   "whyMatters": [
-    "Highlights how legacy technical debt intersects with modern AI/LLM capabilities to amplify existing risks",
-    "Points to a structural problem: historical compromises in software engineering now pose asymmetric dangers"
    ]
   },
   {
@@ -2791,42 +2819,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Companies can now pursue R&D in fields they lack expertise in, raising questions about competitive fairness and whether AI labs will eventually compete directly with their customers",
     "Access to AI tools is democratizing scientific work, potentially reshaping who can participate in drug discovery and biotech innovation"
-   ]
-  },
-  {
-   "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-   "link": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-21T18:41:53+00:00",
-   "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "PHP released critical security updates across the 8.x line addressing two remote code execution vulnerabilities; exploits have already circulated due to a coordinated disclosure breach. Immediate upgrades are essential.",
-   "whyMatters": [
-    "A major disclosure process failure left systems exposed before patches were ready, highlighting vulnerability management risks",
-    "Developers and organizations using PHP need immediate action to prevent active exploitation"
-   ]
-  },
-  {
-   "title": "Claude Mods: Flipping the Harness Inside Out",
-   "link": "https://latent.space/p/claude-mods/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-21T13:04:19+00:00",
-   "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Claude Mods represents a shift in how AI agent interfaces are designed, moving from a harness paradigm centered on machine control to one centered on human needs and attention. The feature flips the traditional agent architecture inside-out.",
-   "whyMatters": [
-    "Reflects evolving thinking about human-AI interaction design in agent systems",
-    "Addresses usability and control concerns by reorienting the interface toward human workflows"
    ]
   },
   {
