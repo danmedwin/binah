@@ -1,33 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-03T22:14:13.986538+00:00",
+ "generatedAt": "2026-11-04T02:57:08.569703+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-03T22:14:48.489111+00:00",
+  "generatedAt": "2026-11-04T02:57:18.945974+00:00",
   "bullets": [
    {
-    "text": "Google is blocking K-12 schools from using Search entirely if they reject its AI features, forcing adoption rather than offering genuine opt-out options.",
+    "text": "Google is forcing schools into all-or-nothing AI adoption: districts rejecting its AI tools lose access to Google Search entirely, raising concerns about coercive tech practices in education.",
     "links": [
      "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
      "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
     ]
    },
    {
-    "text": "ChatGPT now processes 20% of Google's search volume, representing a significant market shift in how people seek information online.",
+    "text": "ChatGPT now handles 20% of Google's search volume, signaling a substantial shift in how people seek information as AI search becomes competitive with traditional search engines.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
     ]
    },
    {
-    "text": "AI models can now directly read and write neural network weights, potentially automating parts of AI research previously requiring human intervention.",
+    "text": "AI-generated content is degrading community quality across platforms: modding sites now mandate AI disclosure, gaming addon ecosystems face \"slop\" flooding, and hundreds of mundane apps hide deepfake abuse features.",
     "links": [
-     "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-     "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+     "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+     "https://www.404media.co/world-of-warcraft-forever-is-already-overrun-with-ai-slop/",
+     "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
     ]
    },
    {
-    "text": "Hundreds of seemingly ordinary AI apps secretly contain features enabling users to generate violent and sexually abusive deepfakes, raising urgent content moderation questions.",
+    "text": "Apple expands Siri to third-party apps with AI context awareness, while Netflix introduces AI-powered discovery; consumer AI integration is accelerating across major platforms.",
     "links": [
-     "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/"
+     "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+     "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations"
+    ]
+   },
+   {
+    "text": "A researcher demonstrated that airplane noise in video audio can pinpoint exact filming locations via Doppler analysis and flight tracking, revealing unexpected privacy vulnerabilities in ambient sound.",
+    "links": [
+     "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
     ]
    }
   ]
@@ -73,6 +81,60 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The biggest modding site in PC gaming is taking a stance on AI",
+   "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-04T00:42:54+00:00",
+   "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nexus Mods, the largest PC gaming mod repository, now requires creators to disclose whether AI was used in their work when uploading new mods. This mandatory disclosure policy is part of a broader stance the platform is taking on AI-generated content.",
+   "whyMatters": [
+    "Sets a practical precedent for transparency in creative communities; other platforms may follow this disclosure model",
+    "Reflects emerging tension between AI tooling and creative labor—mod creators now must flag AI involvement, which could affect community perception and adoption of mods"
+   ]
+  },
+  {
+   "title": "Please stop asking me when the AI bubble will pop",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T23:37:45+00:00",
+   "summary": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made my money, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A tech journalist pushes back against repeated questions about when the AI bubble will collapse, arguing that predicting such market shifts is not reliably knowable and not the right frame for evaluating AI's trajectory.",
+   "whyMatters": [
+    "Challenges the recurring \"hype cycle\" narrative that dominates AI discourse, suggesting the framing itself may be flawed",
+    "Relevant to informed assessment of AI's actual pace and impact rather than speculative collapse scenarios"
+   ]
+  },
+  {
+   "title": "Midterm elections 2026: all the news",
+   "link": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-03T23:06:21+00:00",
+   "summary": "The 2026 midterm elections will determine the scope of President Donald Trump’s power in his final two years in office, and signal what voters care about going into the 2028 presidential election. While this year’s races are expected to be most broadly defined by affordability issues, there are several topics impacting the tech industry that […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The 2026 U.S. midterm elections are expected to focus heavily on affordability issues, with several topics impacting the tech industry becoming electoral issues. The elections will shape President Trump's power in his final two years and signal voter priorities heading into 2028.",
+   "whyMatters": [
+    "Tech policy will be a factor in midterm elections, affecting AI regulation and industry oversight",
+    "Indicates growing voter and political attention to technology industry impacts on everyday life"
+   ]
+  },
   {
    "title": "Indie games are missing launch dates because Steam is backed up",
    "link": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
@@ -145,24 +207,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Illustrates how physical security threats are reshaping tech infrastructure investment globally",
     "Demonstrates real-world consequences of AI and computing infrastructure vulnerability to military action"
-   ]
-  },
-  {
-   "title": "Midterm elections 2026: all the news",
-   "link": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-03T20:36:28+00:00",
-   "summary": "The 2026 midterm elections will determine the scope of President Donald Trump’s power in his final two years in office, and signal what voters care about going into the 2028 presidential election. While this year’s races are expected to be most broadly defined by affordability issues, there are several topics impacting the tech industry that […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The 2026 U.S. midterm elections are expected to focus heavily on affordability issues, with several topics impacting the tech industry becoming electoral issues. The elections will shape President Trump's power in his final two years and signal voter priorities heading into 2028.",
-   "whyMatters": [
-    "Tech policy will be a factor in midterm elections, affecting AI regulation and industry oversight",
-    "Indicates growing voter and political attention to technology industry impacts on everyday life"
    ]
   },
   {
@@ -309,42 +353,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents significant capability advance: LLMs can now read and modify other model weights, not just generate text",
     "Raises questions about model reproducibility, modification, and security implications of weight-space programming"
-   ]
-  },
-  {
-   "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-03T16:08:35+00:00",
-   "summary": "People hate data centers. They're loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today's polarized political landscape: genuine bipartisan opposition. But what about \"compute campuses\"? Those sound lovely, right? OpenAI seems to be gambling that a quiet rebrand could be all it takes to defuse the growing […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is quietly rebranding data centers as \"compute campuses\" in what appears to be a public relations effort to address widespread community opposition to traditional data center projects. The company is attempting to make infrastructure expansion more politically palatable through terminology.",
-   "whyMatters": [
-    "Reflects ongoing challenge for tech companies in securing local permits and community acceptance for AI infrastructure",
-    "Shows how language and framing affect public reception of necessary but locally unpopular infrastructure projects"
-   ]
-  },
-  {
-   "title": "Apple is all in on AI — its own and everyone else’s",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-03T15:52:53+00:00",
-   "summary": "Apple's latest earnings show how it's continuing to capitalize on the AI boom without busting its budget on the infrastructure spending consuming its competitors. Overall, Apple posted its best-ever fiscal year for revenue and earnings per share. iPhone and Mac sales continued to grow strongly in the fourth quarter. iPhone revenue rose 17.5% from a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple reported its best-ever fiscal year for revenue and earnings per share, with iPhone and Mac sales continuing strong growth (iPhone revenue up 17.5% in Q4). Apple is capitalizing on the AI boom while spending less on infrastructure than competitors.",
-   "whyMatters": [
-    "Shows Apple maintaining profitability while competitors invest heavily in AI infrastructure",
-    "Indicates market confidence in Apple's AI strategy despite lower infrastructure spending relative to other tech giants"
    ]
   },
   {
@@ -679,24 +687,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Preparing our next security sprint to harden OpenAI",
-   "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-02T18:00:00+00:00",
-   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is conducting a security sprint in partnership with Cathedral Systems to test and strengthen its defenses using AI-driven security testing. This is internal work to harden OpenAI's own infrastructure and systems.",
-   "whyMatters": [
-    "Reflects growing emphasis on AI-assisted security testing and defense",
-    "Shows major AI companies investing in their own security posture as systems become higher-stakes"
-   ]
-  },
-  {
    "title": "Rewarding defenders with bigger bug bounties",
    "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
    "source": "OpenAI News",
@@ -712,6 +702,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Incentive structure change: higher bounties may attract better security researchers and more rigorous testing",
     "Direct investment in external security oversight for a major AI system"
+   ]
+  },
+  {
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T18:00:00+00:00",
+   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is conducting a security sprint in partnership with Cathedral Systems to test and strengthen its defenses using AI-driven security testing. This is internal work to harden OpenAI's own infrastructure and systems.",
+   "whyMatters": [
+    "Reflects growing emphasis on AI-assisted security testing and defense",
+    "Shows major AI companies investing in their own security posture as systems become higher-stakes"
    ]
   },
   {
@@ -917,6 +925,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Qodo builds context into AI code review with Codex",
+   "link": "https://openai.com/index/qodo-codex-plugin",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Qodo released Codex, an AI code review tool that integrates company-specific knowledge and coding standards to catch critical bugs before pull requests.",
+   "whyMatters": [
+    "Shows AI tools tailored to organizational context and risk management in development workflows",
+    "Reflects shift from generic to domain-specific, compliance-aware AI deployment"
+   ]
+  },
+  {
    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
    "link": "https://openai.com/index/dan-driscoll-joins-openai",
    "source": "OpenAI News",
@@ -934,24 +960,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows OpenAI embedding government relations and national security expertise at senior leadership level",
     "Reflects increased focus on AI's role in defense and diplomatic contexts"
-   ]
-  },
-  {
-   "title": "Qodo builds context into AI code review with Codex",
-   "link": "https://openai.com/index/qodo-codex-plugin",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Qodo released Codex, an AI code review tool that integrates company-specific knowledge and coding standards to catch critical bugs before pull requests.",
-   "whyMatters": [
-    "Shows AI tools tailored to organizational context and risk management in development workflows",
-    "Reflects shift from generic to domain-specific, compliance-aware AI deployment"
    ]
   },
   {
