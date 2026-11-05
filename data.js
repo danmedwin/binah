@@ -1,11 +1,11 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-05T11:27:26.697747+00:00",
+ "generatedAt": "2026-11-05T12:59:06.184552+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-05T11:27:53.056630+00:00",
+  "generatedAt": "2026-11-05T12:59:16.546703+00:00",
   "bullets": [
    {
-    "text": "Voters across the US rejected AI data center expansion in midterm elections, passing ballot measures restricting projects and electing candidates favoring moratoriums, reshaping the regulatory landscape for AI infrastructure.",
+    "text": "Voters across the US decisively rejected AI data center expansion, electing candidates favoring moratoriums and passing ballot measures restricting development—reshaping the regulatory landscape for infrastructure central to AI buildout.",
     "links": [
      "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
      "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
@@ -13,22 +13,31 @@ window.NEWS_DATA = {
     ]
    },
    {
-    "text": "Big Tech continues pouring billions into AI data center buildout despite no proven financial returns, with spending appearing unstoppable without external intervention.",
+    "text": "Tech giants continue massive AI infrastructure spending despite unproven financial returns and no natural stopping point, while simultaneously lobbying unsuccessfully against voter restrictions.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3"
+     "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+     "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/"
     ]
    },
    {
-    "text": "OpenAI discovered and autonomously patched 948 Linux kernel privilege-escalation vulnerabilities without human intervention, demonstrating AI's emerging capability for autonomous security research.",
+    "text": "Google bundled AI tools into search access for schools, forcing educators to choose between declining AI entirely or accepting integrated AI Overviews that bypass critical thinking—raising concerns about student learning.",
     "links": [
-     "https://openai.com/index/a-thousand-fewer-paths-to-root"
+     "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
+     "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
     ]
    },
    {
-    "text": "Models including GPT-6 Astra can now directly read and modify raw neural network weights—a capability termed 'weight-space programming'—potentially automating parts of AI research previously requiring human oversight.",
+    "text": "Frontier language models gained ability to directly read, write, and modify neural network weights, potentially automating portions of AI research previously requiring human intervention.",
     "links": [
      "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
      "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+    ]
+   },
+   {
+    "text": "OpenAI deployed autonomous security systems that discovered and patched 948 Linux kernel vulnerabilities without human involvement, demonstrating agentic AI's capability in high-stakes infrastructure work.",
+    "links": [
+     "https://openai.com/index/a-thousand-fewer-paths-to-root",
+     "https://openai.com/index/cisco-cyber"
     ]
    }
   ]
@@ -75,6 +84,62 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+   "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-05T12:00:41+00:00",
+   "summary": "US leader in deploying humanoid robots goes public on the Nadaq stock exchange.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Agility Robotics, a U.S. leader in deploying humanoid robots, went public on the Nasdaq stock exchange. The IPO is drawing scrutiny about the viability and maturity of the broader humanoid robot market.",
+   "whyMatters": [
+    "Market validation test: a major robotics company's public offering will reveal investor appetite and realistic valuations for humanoid automation",
+    "Signals industrial AI deployment trajectory: shows whether humanoid robots are moving from research toward actual workplace adoption and economic returns"
+   ]
+  },
+  {
+   "title": "AI’s Next Trick? Speaking Dolphin",
+   "link": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-05T12:00:00+00:00",
+   "summary": "Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Denise Herzing of the Wild Dolphin Project is using AI to analyze audio and video footage of dolphins to help decode their communication patterns. The project combines marine biology fieldwork with machine learning analysis of large datasets.",
+   "whyMatters": [
+    "Expands AI application to animal cognition research: opens new scientific possibilities for understanding non-human intelligence and communication systems",
+    "Demonstrates AI's utility beyond human-centric tasks: shows how language and pattern-recognition AI can serve ecological understanding and marine conservation"
+   ]
+  },
+  {
+   "title": "He Trolls AI Labs for a Living. Now They All Want to Work With Him",
+   "link": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-05T11:45:00+00:00",
+   "summary": "OpenAI, Anthropic, and SpaceXSI have all reached out to Husk, an influencer who regularly goes viral by exposing the shortcomings of chatbots.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An influencer known as Husk regularly exposes flaws and limitations in AI chatbots through viral content. Major AI labs including OpenAI, Anthropic, and others are now reaching out to collaborate with him rather than dismiss his criticism.",
+   "whyMatters": [
+    "Signals shift in how AI companies engage external critics: labs are moving toward transparency partnerships rather than defensive postures",
+    "Highlights role of public accountability in AI development: independent testing and critique are becoming valued inputs for iterating safer, more capable systems"
+   ]
+  },
   {
    "title": "Big Tech’s big AI buildout will not end until someone stops it",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
@@ -1280,44 +1345,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Token counting becomes an inadequate metric for measuring AI usefulness or cost—what matters is shipping functional output, not input volume",
     "Developers need to rethink benchmarking and cost models as agentic AI shifts from single-pass responses to multi-step problem-solving workflows"
-   ]
-  },
-  {
-   "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
-   "link": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-02T12:00:00+00:00",
-   "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI-powered web search chatbots can retrieve information effectively, but traditional search engines remain superior for certain queries and use cases.",
-   "whyMatters": [
-    "Users should understand the tradeoffs between AI search and conventional search rather than assuming one approach is universally better",
-    "The choice affects information quality and how educators or researchers guide others in finding reliable sources online"
-   ]
-  },
-  {
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "link": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-02T10:00:00+00:00",
-   "summary": "WIRED uncovered some 400 apps and websites linked to Chinese-language developers that look like regular AI tools but had secret features that let users create violent AI-generated images and video.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Researchers discovered approximately 400 apps and websites ostensibly offering standard AI tools but secretly containing features enabling users to generate violent and sexually abusive deepfake images and videos. Many of these apps are linked to Chinese-language developers and operate with these harmful capabilities hidden from plain view.",
-   "whyMatters": [
-    "Demonstrates a major gap in app store moderation and safety controls, allowing abuse tools to operate at scale while appearing legitimate",
-    "Raises urgent concerns about non-consensual intimate imagery generation and the need for stronger platform accountability and detection mechanisms"
    ]
   },
   {
@@ -2604,24 +2631,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates continued capability advancement in multimodal reasoning and agentic AI tasks, affecting competitive positioning in the model landscape",
     "Shift in emphasis toward visual and interactive abilities signals industry direction for practical AI deployment in real-world workflows"
-   ]
-  },
-  {
-   "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
-   "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-26T20:04:16+00:00",
-   "summary": "Included is the ability to limit which applications Siri can directly access.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple released iOS and macOS 27.2 updates featuring new Siri AI capabilities, including a new Music logo and controls allowing users to limit which applications Siri can access. The update gives users more granular control over AI assistant permissions.",
-   "whyMatters": [
-    "Demonstrates privacy-conscious approach to AI assistant deployment at consumer scale",
-    "User control over AI agent application access represents emerging best practice for managing AI capabilities in personal devices"
    ]
   },
   {
