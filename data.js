@@ -1,34 +1,36 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-06T11:25:46.436798+00:00",
+ "generatedAt": "2026-11-06T12:47:06.111267+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-06T11:25:57.351836+00:00",
+  "generatedAt": "2026-11-06T12:47:13.496408+00:00",
   "bullets": [
    {
-    "text": "Google is bundling AI search adoption with search access itself—schools cannot opt out of AI Overviews without losing Google Search entirely, effectively forcing AI adoption rather than offering genuine choice.",
+    "text": "Voters across the US overwhelmingly rejected AI data center expansion in midterm referendums, forcing tech companies to rethink infrastructure strategies and potentially shifting development away from key regions like Texas.",
+    "links": [
+     "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
+     "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli"
+    ]
+   },
+   {
+    "text": "Google is bundling AI search adoption with classroom access to Google Search, creating a take-it-or-leave-it choice that forces schools to either accept AI-generated answers or lose search entirely.",
     "links": [
      "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-     "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
      "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/"
     ]
    },
    {
-    "text": "OpenAI is stepping back from NDAs in data center projects with public officials, a policy reversal signaling deference to post-election voter backlash against AI infrastructure expansion.",
+    "text": "Meta paused its controversial AI training terms following widespread backlash from users and regulators; OpenAI shifted to transparency by declining NDAs with officials on data center projects.",
     "links": [
+     "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/",
      "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
     ]
    },
    {
-    "text": "Meta paused its controversial AI training policy after widespread backlash from users, regulators, and privacy advocates, returning to the drawing board to revise terms.",
+    "text": "Claude now directly integrates with users' bank accounts via Plaid for financial analysis, while OpenAI's GPT-6 Cyber model autonomously discovered and patched 948 Linux kernel vulnerabilities with minimal human intervention.",
     "links": [
-     "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/"
-    ]
-   },
-   {
-    "text": "Humanoid robots are now commercially viable for practical services; a new cleaning robot available in San Francisco demonstrates real-world deployment and consumer adoption beyond research stages.",
-    "links": [
-     "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-     "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/"
+     "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+     "https://openai.com/index/a-thousand-fewer-paths-to-root"
     ]
    }
   ]
@@ -75,6 +77,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Protesters break into Microsoft data center site in Amsterdam",
+   "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T12:01:25+00:00",
+   "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Approximately 100 protesters broke into a Microsoft data center construction site in Amsterdam, organized by the Geef Tegengas group opposing the building of three 85-meter data center towers on the city's outskirts.",
+   "whyMatters": [
+    "Data center expansion raises environmental concerns—energy consumption and resource demands of AI infrastructure are increasingly contested by local communities",
+    "The protest reflects growing public debate about who bears the costs of AI infrastructure development and where computational capacity should be located"
+   ]
+  },
   {
    "title": "Why the Tech Right Lost Big This Week",
    "link": "https://www.nytimes.com/column/hard-fork",
@@ -480,24 +500,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Platform skepticism: reflects growing concern about whether centralized social media models can sustain trust and authenticity as AI and bad-faith actors proliferate",
     "Content ecosystem questions: relevant to educators' thinking about where students should create and share work, and what platforms deserve institutional support"
-   ]
-  },
-  {
-   "title": "You can post AI music straight to SoundCloud from ElevenLabs",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-05T14:47:10+00:00",
-   "summary": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part of the partnership, SoundCloud Artist Pro subscribers are also getting three months […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "SoundCloud integrated ElevenLabs' AI music platform, allowing users to publish AI-generated audio directly to SoundCloud without downloading and re-uploading. SoundCloud Artist Pro subscribers receive three months of ElevenLabs credits as part of the partnership.",
-   "whyMatters": [
-    "Music creation democratization: lowers barriers for non-musicians to generate and publish audio, shifting creator economics and music market dynamics",
-    "Musician displacement concerns: raises questions about AI-generated music's impact on professional musicians and the attribution/crediting of works"
    ]
   },
   {
