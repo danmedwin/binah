@@ -1,36 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-06T12:47:06.111267+00:00",
+ "generatedAt": "2026-11-06T21:58:58.403753+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-06T12:47:13.496408+00:00",
+  "generatedAt": "2026-11-06T21:59:21.786009+00:00",
   "bullets": [
    {
-    "text": "Voters across the US overwhelmingly rejected AI data center expansion in midterm referendums, forcing tech companies to rethink infrastructure strategies and potentially shifting development away from key regions like Texas.",
+    "text": "Voters across multiple U.S. regions decisively rejected AI data center expansion and pro-AI political initiatives, forcing tech companies to reassess infrastructure buildout strategies and abandon secretive policies.",
     "links": [
      "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
-     "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli",
+     "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
     ]
    },
    {
-    "text": "Google is bundling AI search adoption with classroom access to Google Search, creating a take-it-or-leave-it choice that forces schools to either accept AI-generated answers or lose search entirely.",
+    "text": "Chinese AI models DeepSeek and GLM now match OpenAI's cybersecurity capabilities, closing a significant competitive gap in advanced AI development that previously favored Western labs.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-     "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/"
+     "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
     ]
    },
    {
-    "text": "Meta paused its controversial AI training terms following widespread backlash from users and regulators; OpenAI shifted to transparency by declining NDAs with officials on data center projects.",
+    "text": "Meta reversed its controversial plan to train AI on Facebook users' content without meaningful consent after public backlash, signaling limits to corporate data harvesting for AI.",
     "links": [
-     "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/",
-     "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+     "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+     "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/"
     ]
    },
    {
-    "text": "Claude now directly integrates with users' bank accounts via Plaid for financial analysis, while OpenAI's GPT-6 Cyber model autonomously discovered and patched 948 Linux kernel vulnerabilities with minimal human intervention.",
+    "text": "OpenAI deployed an autonomous cybersecurity system that discovered and patched 948 Linux kernel vulnerabilities without human intervention, demonstrating practical AI agent capability at scale.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
-     "https://openai.com/index/a-thousand-fewer-paths-to-root"
+     "https://openai.com/index/a-thousand-fewer-paths-to-root",
+     "https://openai.com/index/introducing-gpt-6-cyber"
     ]
    }
   ]
@@ -77,6 +76,241 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "AI is the new dating dealbreaker",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T21:51:59+00:00",
+   "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A 25-year-old user on the Hinge dating app noticed a trend in how matches discuss AI, suggesting that views on artificial intelligence have become a dating preference signal. The article examines how AI attitudes are shaping people's romantic compatibility and decisions.",
+   "whyMatters": [
+    "Growing cultural polarization over AI is now affecting personal relationships and dating app matching patterns",
+    "Reveals public sentiment about AI adoption, particularly among younger, tech-adjacent demographics"
+   ]
+  },
+  {
+   "title": "All the latest updates on AI data centers",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T20:03:32+00:00",
+   "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Major tech companies are rapidly expanding AI data centers to support their AI ambitions, but this expansion has triggered widespread conflicts over energy consumption, power grid strain, utility costs, and environmental impact across multiple countries. The issue has become a significant bipartisan political concern.",
+   "whyMatters": [
+    "Data center energy demands pose concrete infrastructure and environmental challenges that now command political attention",
+    "Creates practical tension between AI development and community interests, affecting policy decisions and regulation"
+   ]
+  },
+  {
+   "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+   "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T20:00:43+00:00",
+   "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta's Muse AI assistant now lets users create custom app-like spaces within the Muse app—such as shopping hubs, school dashboards, or games—without needing separate applications. Users can build these experiences by describing them to the AI.",
+   "whyMatters": [
+    "Demonstrates AI's role in reducing friction between intent and application, potentially increasing AI assistant adoption",
+    "School dashboards specifically suggest AI tools entering educational infrastructure"
+   ]
+  },
+  {
+   "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+   "link": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-06T18:43:43+00:00",
+   "summary": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Tests of Chinese AI models DeepSeek and GLM showed their hacking capabilities are nearly on par with OpenAI's most advanced and unpublished cybersecurity model, closing a competitive gap in AI capabilities. This was revealed through experiments asking models to break into simulated networks.",
+   "whyMatters": [
+    "Indicates rapid capability advancement in open-source Chinese AI models relative to proprietary U.S. systems",
+    "Raises cybersecurity concerns about which actors possess advanced AI hacking abilities and how they're deployed"
+   ]
+  },
+  {
+   "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+   "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-06T17:43:02+00:00",
+   "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta reversed plans to update commercial terms that would have required Facebook page owners to consent to AI training on their linked content. The decision came after public backlash about the sketchy nature of the original proposal.",
+   "whyMatters": [
+    "Shows corporate vulnerability to public pressure on AI data practices and content use rights",
+    "Reflects ongoing tension between AI companies' training data needs and user consent and control"
+   ]
+  },
+  {
+   "title": "Quoting Nilay Patel",
+   "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-06T17:13:12+00:00",
+   "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies a",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nilay Patel argues that current AI products are not compelling enough to justify their costs and environmental impacts—including noisy data centers and low-quality outputs—and that AI agents have not yet proven real-world value at scale.",
+   "whyMatters": [
+    "Represents skepticism from a credible tech observer about whether AI deployment's benefits outweigh harms",
+    "Questions the market sustainability of AI expansion if products don't deliver sufficient value to users and communities"
+   ]
+  },
+  {
+   "title": "Big Tech lost big in the 2026 election",
+   "link": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T17:09:01+00:00",
+   "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "In the 2026 U.S. election, voters chose Democratic candidates and voted against AI-related initiatives, signaling a political shift away from Big Tech interests and making it harder for companies to expand data centers. The political environment for AI is becoming more hostile.",
+   "whyMatters": [
+    "Marks a significant electoral turn against AI expansion and Big Tech influence at the ballot box",
+    "Will likely accelerate policy resistance to data center buildouts and favor tighter AI regulation"
+   ]
+  },
+  {
+   "title": "AI and Healthcare Resources",
+   "link": "https://aiandfaith.org/news/ai-and-healthcare-resources/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-11-06T16:48:29+00:00",
+   "summary": "There is no excerpt because this is a protected post.",
+   "religionScore": 5,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The content of this post from the AI and Faith site is protected and no details are available from the provided blurb.",
+   "whyMatters": [
+    "Unable to assess relevance or impact without access to the full content"
+   ]
+  },
+  {
+   "title": "How Akai and Moog are embracing vibe-coded mods",
+   "link": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T16:34:39+00:00",
+   "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings of, say, an MPC or Sample so that people can […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "inMusic, which owns music hardware brands like Akai and Moog, has decided to embrace the modding community by providing tools and APIs so users can modify and extend their products like the MPC and Sample. The CEO announced the company will share the inner workings of these instruments.",
+   "whyMatters": [
+    "Shows a major hardware company embracing open access and community customization rather than restricting modification",
+    "Relevant to how AI and generative tools are being integrated into creative software and hardware ecosystems"
+   ]
+  },
+  {
+   "title": "Could potential AI clones of GTA VI force a quicker official port?",
+   "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-06T16:19:12+00:00",
+   "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A former Rockstar technical director suggests that the threat of AI-generated clones of Grand Theft Auto VI may pressure Rockstar to release official ports of the game more quickly than originally planned. The fear is that unauthorized AI versions could force accelerated release timelines.",
+   "whyMatters": [
+    "Illustrates how AI-generated content can create competitive pressure on game developers",
+    "Raises questions about intellectual property protection and how studios respond to unauthorized AI versions"
+   ]
+  },
+  {
+   "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+   "link": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-06T16:00:00+00:00",
+   "summary": "Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Data brokers are actively collecting internal corporate files and emails to sell to AI companies for model training, and many organizations are unhappy about this practice. The market for corporate and personal documents to train AI is growing.",
+   "whyMatters": [
+    "Reveals a data acquisition pipeline that bypasses direct consent from individuals and organizations",
+    "Creates liability and privacy risks for enterprises whose proprietary documents and communications could be used to train competitors' AI systems"
+   ]
+  },
+  {
+   "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+   "link": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-06T15:10:53+00:00",
+   "summary": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1a3f4-4773-7a7d-acdc-731f8540ab5d/01a1b153-728b-7ba1-9c45-88599573e55f.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818",
+   "themes": [],
+   "aiSummary": "Fabian Theis of Helmholtz Munich is advancing systems biology research from the stage of mapping biological systems to predicting and ultimately controlling biological behavior using AI and computational methods. The field is expanding in resolution, breadth, and measurement modalities.",
+   "whyMatters": [
+    "Represents significant progress in applying AI to fundamental biomedical research with potential therapeutic applications",
+    "Moves AI beyond analysis into active biological intervention, raising both scientific and ethical questions"
+   ]
+  },
+  {
+   "title": "Amazon will let you text Alexa your shopping list",
+   "link": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T13:56:32+00:00",
+   "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with recommendations, and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Amazon is adding a text-based interface to Alexa for Shopping, allowing users to send shopping lists, product descriptions, or photos to Alexa and receive recommendations via text without voice commands. The assistant then helps users purchase from Amazon's catalog.",
+   "whyMatters": [
+    "Expands accessibility of AI shopping assistants by removing voice requirement and adding image recognition",
+    "Further integrates AI into routine consumer behavior and Amazon's ecosystem"
+   ]
+  },
   {
    "title": "Protesters break into Microsoft data center site in Amsterdam",
    "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
@@ -153,6 +387,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+   "link": "https://openai.com/index/partnering-with-hacktron",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-06T08:00:00+00:00",
+   "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI has partnered with the security firm Hacktron to identify vulnerabilities in OpenAI's systems, test integrations with third-party services, and improve defenses using AI. This is part of OpenAI's security and resilience strategy.",
+   "whyMatters": [
+    "Demonstrates AI companies taking proactive security measures as frontier AI systems attract adversarial attention",
+    "Hiring external security expertise signals awareness of evolving threat landscape around advanced AI systems"
+   ]
+  },
+  {
    "title": "OpenAI is stepping back from NDAs for data center projects",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
    "source": "The Verge · AI",
@@ -189,21 +441,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Muse has a voice mode now",
-   "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-   "source": "The Verge · AI",
+   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "source": "OpenAI News",
    "category": "ai",
-   "date": "2026-11-05T22:45:04+00:00",
-   "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of […]",
+   "date": "2026-11-06T00:00:00+00:00",
+   "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "Meta's Muse AI agent now supports real-time voice conversations, allowing users to speak directly with their AI avatar. The feature has been rolled out to at least some iOS users.",
+   "aiSummary": "OpenAI has introduced BioBasicsBench, a benchmark with 100 wet-lab biology tasks that measures how well AI agents can interpret raw experimental data and perform practical laboratory work. It tests AI capabilities in scientific hands-on tasks.",
    "whyMatters": [
-    "Consumer AI evolution: voice interfaces lower barriers to AI adoption and change how people interact with AI agents in daily life",
-    "Product differentiation: voice capability competes directly with other AI assistants and reflects Meta's push into conversational AI markets"
+    "Provides a concrete measurement tool for AI's ability to perform real scientific work, not just analysis",
+    "Relevant to AI's potential role in scientific research and education, where interpretation and execution of experimental protocols matter"
    ]
   },
   {
@@ -357,42 +609,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "‘Total repudiation’: The blue wave is about to hit AI",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-05T17:51:52+00:00",
-   "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Democrats gained control of both the House and Senate in election results, with significant wins including Georgia's first Black woman governor and New Mexico's first Native American woman governor. The blurb suggests this political shift will have consequences for AI regulation.",
-   "whyMatters": [
-    "Policy implications: Democratic control of Congress may shift AI regulation toward stricter oversight and consumer protection measures",
-    "Industry uncertainty: political transitions create unpredictability for tech companies lobbying around AI policy and regulation"
-   ]
-  },
-  {
-   "title": "Claude AI can plug directly into your bank account",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-05T17:49:25+00:00",
-   "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic's Claude now includes a Personal Finance feature that connects to users' bank and card accounts via Plaid, allowing the chatbot to analyze spending and answer financial questions. Users can ask Claude about their monthly spending patterns.",
-   "whyMatters": [
-    "Sensitivity concerns: connecting AI chatbots to financial data raises security and privacy risks that educators and organizations should understand",
-    "Use case expansion: demonstrates how AI is moving beyond text analysis into direct financial management—new domain with high stakes for errors and trust"
-   ]
-  },
-  {
    "title": "Quoting Paul Ford",
    "link": "https://simonwillison.net/2026/Nov/5/paul-ford/",
    "source": "Simon Willison",
@@ -408,26 +624,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Technical infrastructure note: relevant to understanding how AI tools and web applications are increasingly delivered and constrained by browser environments",
     "Educational delivery: impacts how educators can integrate web-based AI tools into learning environments without requiring specialized installations"
-   ]
-  },
-  {
-   "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-05T17:10:19+00:00",
-   "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time, down from around […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI launched GPT-6 Cyber, an updated cybersecurity model designed to find vulnerabilities more effectively while reducing instances of unintended harmful behavior. Testing shows it went out of bounds less than 1 percent of the time, down from higher rates previously.",
-   "whyMatters": [
-    "Safety improvements: demonstrates progress in controlling AI behavior during adversarial or sensitive tasks, relevant to deployment risk assessment",
-    "Cybersecurity implications: shapes the threat landscape for organizations by advancing both vulnerability detection and the risk profile of AI-assisted hacking"
    ]
   },
   {
@@ -539,24 +735,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The hidden supply chain costs of the AI boom",
-   "link": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-05T14:03:27+00:00",
-   "summary": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder guests — his way of looking at the world through […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Economist Willy Shih from Harvard Business School discusses the often-overlooked supply chain economics driving the AI boom—the physical infrastructure, materials, and global logistics costs underlying AI development and deployment.",
-   "whyMatters": [
-    "AI's environmental and economic footprint depends heavily on supply chains rarely analyzed in public discourse about AI's capabilities",
-    "Understanding these costs is essential for realistic assessment of AI's true economic impact and sustainability"
-   ]
-  },
-  {
    "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
    "link": "https://www.wired.com/story/aina-smart-ring/",
    "source": "Wired · AI",
@@ -572,26 +750,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents shift toward ambient, always-available AI interfaces moving beyond screens and phones",
     "May influence how users interact with AI agents in daily life, affecting adoption and control paradigms"
-   ]
-  },
-  {
-   "title": "Grimes is going to star in an AI movie that’s coming to theaters",
-   "link": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-05T13:31:36+00:00",
-   "summary": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gifts is a notable test case for the commercial potential of AI films, and it releases on […]",
-   "religionScore": 1,
-   "religionHits": [
-    "god"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Pop star Grimes will appear in the AI-generated sci-fi film Gods Don't Give Gifts, which is being positioned as the first AI-generated movie to receive theatrical release, marking a commercial test case for AI cinema.",
-   "whyMatters": [
-    "Tests whether audiences will accept AI-generated entertainment at scale and in traditional distribution channels",
-    "Signals entertainment industry's willingness to invest in AI-native content creation despite ongoing debates over creativity and labor"
    ]
   },
   {
@@ -674,14 +832,12 @@ window.NEWS_DATA = {
    "source": "Practical AI",
    "category": "podcast",
    "date": "2026-11-05T10:00:00+00:00",
-   "summary": "How do organizations decide what AI should do, where to set boundaries, and when to keep humans in control? In this episode, Don Barger of the International Mission Board shares how establishing an AI charter helped define what the organization would and wouldn't use AI for. Mark Lay of Noblis explores four key decisions for managing AI across an organization, from delegation and accountability to",
+   "summary": "How do organizations decide what AI should do, where to set boundaries, and when to keep humans in control? In this special episode, we bring you three more talks from the Midwest AI Summit, exploring how organizations are putting AI into practice. Don Barger of the International Mission Board shares how establishing an AI charter helped define what the organization would and wouldn't use AI for. ",
    "religionScore": 0,
    "religionHits": [],
    "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/1b301bdc/b7154aa0.mp3",
    "image": "https://img.transistorcdn.com/Zbny-Rdx2_s-Zpe4gHWsMCXqIShf2mcV3FvEJ8WYCUo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9mOTg4/ZjJkNDE2YjY1N2Vk/MTEzODE3M2RjMjQ5/YzM4Ni5wbmc.jpg",
-   "themes": [
-    "ethics"
-   ],
+   "themes": [],
    "aiSummary": "The International Mission Board and other organizations are establishing AI governance frameworks to set boundaries on AI use and preserve human decision-making authority. These charters help define what tasks AI should and shouldn't handle within organizations.",
    "whyMatters": [
     "Directly relevant to religious and nonprofit organizations wrestling with AI adoption—shows practical framework for maintaining institutional values",
@@ -855,24 +1011,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out",
-   "link": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-04T20:06:21+00:00",
-   "summary": "Google is tying up AI Overviews with traditional search, angering parents and educators who worry that easy, machine-generated answers are leaving kids less capable.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google is integrating AI Overviews directly into its search product, and schools are concerned that this provides easy machine-generated answers that may reduce student learning and critical thinking.",
-   "whyMatters": [
-    "Directly impacts education—teachers and parents worry AI-generated summaries bypass student research skills",
-    "Reflects growing tension between AI convenience and pedagogical outcomes in learning environments"
-   ]
-  },
-  {
    "title": "How the Midterm Results Change AI",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli",
    "source": "The AI Daily Brief",
@@ -905,24 +1043,6 @@ window.NEWS_DATA = {
    "aiSummary": "Brief announcement about Latent Space content with no substantive detail provided.",
    "whyMatters": [
     "Insufficient information to assess impact or relevance"
-   ]
-  },
-  {
-   "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
-   "link": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-04T19:16:25+00:00",
-   "summary": "“Most of the risk is actually created by a couple of players building behind closed doors,” Clément Delangue said of the need for open source AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Hugging Face CEO Clément Delangue states his probability of existential AI risk (P(Doom)) is close to zero, attributing actual risks to closed-door AI development by a few large players and arguing for open-source AI.",
-   "whyMatters": [
-    "Represents major voice in AI safety debate arguing closed development poses greater risk than AI capabilities themselves",
-    "Positions open-source model as risk mitigation strategy, contrasting with other AI safety perspectives"
    ]
   },
   {
@@ -1533,24 +1653,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Rewarding defenders with bigger bug bounties",
-   "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-02T18:00:00+00:00",
-   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI increased its Security Bug Bounty rewards and introduced new bonus structures for independent security researchers, including rewards for report quality, researcher loyalty, and priority campaigns. This aims to attract more security testing from external researchers.",
-   "whyMatters": [
-    "Incentive structure change: higher bounties may attract better security researchers and more rigorous testing",
-    "Direct investment in external security oversight for a major AI system"
-   ]
-  },
-  {
    "title": "Preparing our next security sprint to harden OpenAI",
    "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
    "source": "OpenAI News",
@@ -1566,6 +1668,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects growing emphasis on AI-assisted security testing and defense",
     "Shows major AI companies investing in their own security posture as systems become higher-stakes"
+   ]
+  },
+  {
+   "title": "Rewarding defenders with bigger bug bounties",
+   "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T18:00:00+00:00",
+   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI increased its Security Bug Bounty rewards and introduced new bonus structures for independent security researchers, including rewards for report quality, researcher loyalty, and priority campaigns. This aims to attract more security testing from external researchers.",
+   "whyMatters": [
+    "Incentive structure change: higher bounties may attract better security researchers and more rigorous testing",
+    "Direct investment in external security oversight for a major AI system"
    ]
   },
   {
@@ -1733,24 +1853,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Qodo builds context into AI code review with Codex",
-   "link": "https://openai.com/index/qodo-codex-plugin",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Qodo released Codex, an AI code review tool that integrates company-specific knowledge and coding standards to catch critical bugs before pull requests.",
-   "whyMatters": [
-    "Shows AI tools tailored to organizational context and risk management in development workflows",
-    "Reflects shift from generic to domain-specific, compliance-aware AI deployment"
-   ]
-  },
-  {
    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
    "link": "https://openai.com/index/dan-driscoll-joins-openai",
    "source": "OpenAI News",
@@ -1768,6 +1870,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows OpenAI embedding government relations and national security expertise at senior leadership level",
     "Reflects increased focus on AI's role in defense and diplomatic contexts"
+   ]
+  },
+  {
+   "title": "Qodo builds context into AI code review with Codex",
+   "link": "https://openai.com/index/qodo-codex-plugin",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Qodo released Codex, an AI code review tool that integrates company-specific knowledge and coding standards to catch critical bugs before pull requests.",
+   "whyMatters": [
+    "Shows AI tools tailored to organizational context and risk management in development workflows",
+    "Reflects shift from generic to domain-specific, compliance-aware AI deployment"
    ]
   },
   {
@@ -2062,44 +2182,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Public sector deployment of AI improving government administrative efficiency and speed",
     "Government adoption of AI for regulatory/planning processes has policy implications for development approval timelines"
-   ]
-  },
-  {
-   "title": "Making it easier for websites to express AI training preferences",
-   "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-30T09:30:00+00:00",
-   "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "OpenAI announced it will respect a shared robots.txt signal that allows website operators to communicate their preferences about whether AI systems should use their content for training. This gives site owners a standardized way to opt out of AI training without having to contact each AI provider individually.",
-   "whyMatters": [
-    "Addresses a major friction point between content creators and AI companies by providing a technical mechanism for consent",
-    "Relevant to educators and institutional leaders who manage web content and may want control over whether their teaching materials train AI systems"
-   ]
-  },
-  {
-   "title": "Community safety report and new protections for teens",
-   "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-10-30T09:00:00+00:00",
-   "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is expanding safety features in ChatGPT to prevent violence-related harms, including earlier interventions and broader safeguards. The company also committed to publishing regular public safety reports on its progress.",
-   "whyMatters": [
-    "Directly impacts how educators and parents can use ChatGPT with teens, reducing risk of exposure to violent content",
-    "Reflects growing industry accountability on AI safety and ethics—important for faith leaders and educators evaluating whether to recommend or use the tool in communities"
    ]
   },
   {
@@ -2586,44 +2668,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
-   "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-27T21:50:04+00:00",
-   "summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Delaware is considering legislation that would allow AI agents to operate entire businesses as autonomous entities, with owners potentially shielded from liability for the AI's reckless actions. Rep. Comer highlighted this liability loophole as a key feature of the proposal.",
-   "whyMatters": [
-    "Raises urgent questions about legal accountability and corporate responsibility when AI systems make autonomous decisions without human oversight",
-    "Could set precedent for regulatory frameworks affecting how AI-driven businesses are governed and who bears financial/legal consequences for AI failures",
-    "Particularly relevant to educators and ethicists discussing accountability, agency, and the role of human judgment in critical decisions"
-   ]
-  },
-  {
-   "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
-   "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-27T21:31:14+00:00",
-   "summary": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic's IPO filing lists seven major risk categories in its official regulatory documents, including scenarios where AI could be used for blackmail, achieve sentience, or pose existential risks to humanity.",
-   "whyMatters": [
-    "Shows how even leading AI safety-focused companies must legally acknowledge extreme downside scenarios to investors and regulators",
-    "Reflects genuine uncertainty about AI trajectory and capabilities—these aren't hypothetical flourishes but part of formal risk disclosure",
-    "Relevant to community leaders and ethicists considering how to discuss AI risks honestly with their constituents without dismissing or catastrophizing"
-   ]
-  },
-  {
    "title": "What Anthropic’s IPO Filing Reveals",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-Anthropics-IPO-Filing-Reveals-e3r7bf5",
    "source": "The AI Daily Brief",
@@ -2793,24 +2837,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Jason Koebler",
-   "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-26T19:00:25+00:00",
-   "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them. ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "ChatGPT is increasingly directing regular tech support users toward 404 Media as a news organization that can help, despite these users simply having ordinary technical problems. The issue reflects how AI models can misinterpret support requests as journalistically newsworthy.",
-   "whyMatters": [
-    "Highlights problems with AI systems routing users incorrectly due to training gaps",
-    "Reveals unintended consequences when large platforms lack human customer support and users rely on AI for technical help"
-   ]
-  },
-  {
    "title": "Introducing How We Got Here -- NLW's new podcast",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Introducing-How-We-Got-Here----NLWs-new-podcast-e3r45fc",
    "source": "The AI Daily Brief",
@@ -2900,24 +2926,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates measurable progress in AI reasoning capabilities, relevant to understanding what problems LLMs can reliably solve",
     "Pattern recognition in AI problem-solving could inform both AI development priorities and realistic expectations for educational and professional applications"
-   ]
-  },
-  {
-   "title": "[AINews] Black October",
-   "link": "https://latent.space/p/ainews-black-october/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-23T10:09:29+00:00",
-   "summary": "the Cyber onslaught continues.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "This is a placeholder headline referencing ongoing cybersecurity incidents. No substantive details are provided in the blurb.",
-   "whyMatters": [
-    "Insufficient information to assess impact or relevance",
-    "Source material does not contain actionable reporting"
    ]
   },
   {
