@@ -1,80 +1,137 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-06T03:17:52.039433+00:00",
+ "generatedAt": "2026-11-06T11:25:46.436798+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-06T03:18:19.939465+00:00",
+  "generatedAt": "2026-11-06T11:25:57.351836+00:00",
   "bullets": [
    {
-    "text": "Voters overwhelmingly rejected data center expansion in midterm elections, forcing major tech infrastructure plans to reset amid political backlash.",
-    "links": [
-     "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
-     "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli"
-    ]
-   },
-   {
-    "text": "Google is bundling AI adoption with search access in schools, offering no genuine choice—schools must accept AI Overviews or lose search entirely.",
+    "text": "Google is bundling AI search adoption with search access itself—schools cannot opt out of AI Overviews without losing Google Search entirely, effectively forcing AI adoption rather than offering genuine choice.",
     "links": [
      "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+     "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
      "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/"
     ]
    },
    {
-    "text": "Meta paused its controversial AI training policy after widespread backlash from users and regulators, returning to the drawing board on data practices.",
+    "text": "OpenAI is stepping back from NDAs in data center projects with public officials, a policy reversal signaling deference to post-election voter backlash against AI infrastructure expansion.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+    ]
+   },
+   {
+    "text": "Meta paused its controversial AI training policy after widespread backlash from users, regulators, and privacy advocates, returning to the drawing board to revise terms.",
     "links": [
      "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/"
     ]
    },
    {
-    "text": "Anthropic's Claude gains direct bank account access and financial analysis capabilities, raising questions about embedding AI deeper into sensitive personal decisions.",
+    "text": "Humanoid robots are now commercially viable for practical services; a new cleaning robot available in San Francisco demonstrates real-world deployment and consumer adoption beyond research stages.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+     "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+     "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-05T11:27:53.056630+00:00",
+  "generatedAt": "2026-11-06T11:25:57.351836+00:00",
   "bullets": [
    {
-    "text": "Voters across the US rejected AI data center expansion in midterm elections, passing ballot measures restricting projects and electing candidates favoring moratoriums, reshaping the regulatory landscape for AI infrastructure.",
+    "text": "Google is bundling AI search adoption with search access itself—schools cannot opt out of AI Overviews without losing Google Search entirely, effectively forcing AI adoption rather than offering genuine choice.",
     "links": [
-     "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
-     "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
-     "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+     "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+     "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+     "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/"
     ]
    },
    {
-    "text": "Big Tech continues pouring billions into AI data center buildout despite no proven financial returns, with spending appearing unstoppable without external intervention.",
+    "text": "OpenAI is stepping back from NDAs in data center projects with public officials, a policy reversal signaling deference to post-election voter backlash against AI infrastructure expansion.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3"
+     "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
     ]
    },
    {
-    "text": "OpenAI discovered and autonomously patched 948 Linux kernel privilege-escalation vulnerabilities without human intervention, demonstrating AI's emerging capability for autonomous security research.",
+    "text": "Meta paused its controversial AI training policy after widespread backlash from users, regulators, and privacy advocates, returning to the drawing board to revise terms.",
     "links": [
-     "https://openai.com/index/a-thousand-fewer-paths-to-root"
+     "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/"
     ]
    },
    {
-    "text": "Models including GPT-6 Astra can now directly read and modify raw neural network weights—a capability termed 'weight-space programming'—potentially automating parts of AI research previously requiring human oversight.",
+    "text": "Humanoid robots are now commercially viable for practical services; a new cleaning robot available in San Francisco demonstrates real-world deployment and consumer adoption beyond research stages.",
     "links": [
-     "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-     "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+     "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+     "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-05T11:27:48.706360+00:00",
+  "updatedAt": "2026-11-06T11:25:53.038341+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI through moral, religious, and ethical lenses—especially thoughtful leadership perspectives on technology's impact",
-   "Engages with AI stories from major tech companies (Apple, Google/Waze) and their product implications",
-   "Prefers substantive reporting over developer tool updates and technical release notes"
+   "Interested in AI's intersection with ethics, morality, and religious/leadership perspectives",
+   "Wants substantive AI stories with business or technological impact (Apple, Waze features)",
+   "Uninterested in technical tool updates and release notes without broader context or utility"
   ]
  },
  "items": [
+  {
+   "title": "Why the Tech Right Lost Big This Week",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-11-06T11:00:00+00:00",
+   "summary": "After watching the historic election results on Tuesday night, we sat down with Erin Griffith and Ezra Klein to make sense of what they mean for the tech industry. We talk about the role of anti-A.I. and anti-data-center sentiment, backlash against billionaires and whether Silicon Valley is experiencing a vibe shift away from the Tech Right. Finally, Max sits down with the reporter Theodore Schlei",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/38bdaf0f-4886-47b2-82d6-15ecf803abbf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=38bdaf0f-4886-47b2-82d6-15ecf803abbf&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
+  {
+   "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+   "link": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-06T10:35:21+00:00",
+   "summary": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Inkling 2 Small, a 17A-594B parameter model, was trained in 68 hours on 12 trillion tokens and achieved performance surpassing Muse Spark. The report comes from Latent Space and includes analysis of AI research practices at Anthropic by METR.",
+   "whyMatters": [
+    "Demonstrates rapid scaling and efficient training cycles in frontier model development",
+    "Sets a new benchmark for inference-optimized small models, relevant to practical deployment scenarios"
+   ]
+  },
+  {
+   "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+   "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-06T10:00:00+00:00",
+   "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "A writer from MIT Tech Review tested a new humanoid robot cleaning service available in San Francisco and found the experience compelling enough to overcome her usual reluctance to hire cleaning help. The firsthand account suggests practical viability of robotic domestic service.",
+   "whyMatters": [
+    "Signals that humanoid robotics have crossed into real-world consumer application, moving beyond research prototypes",
+    "Raises questions about labor economics and adoption barriers as such services enter residential markets"
+   ]
+  },
   {
    "title": "OpenAI is stepping back from NDAs for data center projects",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
@@ -2006,25 +2063,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Are We in an A.I. Bubble? We're About to Find Out.",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-10-30T10:00:00+00:00",
-   "summary": "Monday gave us the release of Anthropic’s S-1 filing, providing the clearest view yet into the business side of the A.I. boom and setting the stage for what could be the largest initial public offering in history. We’ll talk to Erin Griffith, who has been reporting on the story, about what it means for the company, the tech industry and the broader economy. Then we’re joined by the tech reporter M",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/232dc2df-a6c6-4c9f-a224-74ca57b10c2c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=232dc2df-a6c6-4c9f-a224-74ca57b10c2c&feed=l2i9YnTd",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
-   ]
-  },
-  {
    "title": "Making it easier for websites to express AI training preferences",
    "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
    "source": "OpenAI News",
@@ -2510,24 +2548,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Pairing industrial AI autonomy and human control",
-   "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-28T12:00:00+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "MIT Tech Review examines how industrial settings can combine AI autonomy with human oversight and control mechanisms. The article explores the technical and organizational challenges of this hybrid approach.",
-   "whyMatters": [
-    "Industrial practice: addresses real-world deployment where full AI autonomy is neither feasible nor desirable",
-    "Safety and trust: human-in-the-loop systems remain critical for high-stakes industrial operations"
-   ]
-  },
-  {
    "title": "Quoting Terk Terkowitz",
    "link": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
    "source": "Simon Willison",
@@ -2916,24 +2936,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Cybersecurity landscape fundamentally shifting as both attack and defense become automated, requiring new business security strategies",
     "Companies must rapidly invest in AI infrastructure (as seen with Meta's stock move) to keep pace with the speed and scale of AI-driven threats"
-   ]
-  },
-  {
-   "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-   "link": "https://latent.space/p/modal-d/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-22T17:40:57+00:00",
-   "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a16579-8537-79c0-86b7-c9fb7a723041/01a16579-85f9-7405-b65b-7eeb25ff90b0.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/42ffcabc-02c3-4715-ba2c-bd338dd3b064/podcast_artwork_20261022-270-vcw8st.jpg?t=1792703827",
-   "themes": [],
-   "aiSummary": "Erik Bernhardsson, Modal's CEO, discusses why compute infrastructure is sold in standardized rectangular form factors and explores the economics of elastic GPUs and sandbox-based cloud services. The talk covers infrastructure design choices in the emerging agent cloud.",
-   "whyMatters": [
-    "Infrastructure standardization affects how enterprises and developers access AI compute resources",
-    "Modal's sandbox approach is reshaping how companies think about deploying agents at scale"
    ]
   },
   {
