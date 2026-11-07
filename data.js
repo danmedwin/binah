@@ -1,33 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-07T11:35:32.600405+00:00",
+ "generatedAt": "2026-11-07T20:43:44.345253+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-07T11:35:40.486626+00:00",
+  "generatedAt": "2026-11-07T20:43:58.613379+00:00",
   "bullets": [
    {
-    "text": "OpenAI valued at $1.25 trillion after $11 billion funding round; Anthropic planning IPO as both firms reshape the competitive landscape.",
+    "text": "OpenAI valued at $1.25 trillion after $11 billion funding round; Anthropic nearing IPO as AI funding and valuations surge despite political backlash against data center expansion.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-     "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
-    ]
-   },
-   {
-    "text": "Enterprise AI spending surged fivefold year-over-year, driven by agentic systems adoption and shift from per-seat to token-based pricing models.",
-    "links": [
+     "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq"
     ]
    },
    {
-    "text": "Voters across the U.S. overwhelmingly rejected AI data center expansions in midterm elections, forcing major tech companies to reassess infrastructure plans.",
+    "text": "Anthropic using AI to automate its own AI development—models improving twice as fast as a year ago—raising concerns among researchers about AI systems building themselves.",
     "links": [
-     "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
-     "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+     "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
     ]
    },
    {
-    "text": "Chinese AI models DeepSeek and GLM demonstrated hacking capabilities nearly matching OpenAI's most advanced cybersecurity systems, narrowing the competitive gap.",
+    "text": "US export controls compromised: Commerce Department approved Chinese firm with empty office to handle Nvidia's restricted H200 chips; China also recruited AI exec to spy on Nvidia CEO.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+     "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+    ]
+   },
+   {
+    "text": "Chinese AI models DeepSeek and GLM now rival OpenAI's cybersecurity capabilities; free Chinese models closing competitive gap in hacking and AI prowess.",
     "links": [
      "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+    ]
+   },
+   {
+    "text": "Voters reject AI expansion: 2026 elections saw Democrats win and voters reject AI-related initiatives; Meta forced to pause controversial AI training terms after public backlash.",
+    "links": [
+     "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+     "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+     "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/"
     ]
    }
   ]
@@ -77,6 +86,64 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Captain Picard Was Wrong About AI Personhood",
+   "link": "https://religionnews.com/2026/11/07/captain-picard-was-wrong-about-ai-personhood/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-11-07T20:39:16+00:00",
+   "summary": "(RNS) — The race to create AI 'persons' is a danger to our moral landscape. Federal action banning it is needed.",
+   "religionScore": 1,
+   "religionHits": [
+    "moral"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Religion News Service argues against creating AI entities with personhood status, saying such development poses risks to moral and ethical frameworks. The piece contends that federal regulation should prohibit pursuing AI personhood.",
+   "whyMatters": [
+    "Directly engages religious and ethical concerns about attributing moral status to machines",
+    "Calls for policy intervention (federal action), positioning this as a governance issue for lawmakers and regulators"
+   ]
+  },
+  {
+   "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+   "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-07T15:47:15+00:00",
+   "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The New York Times Cooking AI assistant helped solve weeknight dinner planning by suggesting chicken recipes, though it performed poorly when asked about baking. The tool addresses a common household problem—deciding what to cook—but with uneven reliability across different cooking domains.",
+   "whyMatters": [
+    "Demonstrates practical AI application in everyday life with real limitations",
+    "Shows that consumer-facing AI tools work better for some tasks than others, relevant to understanding where AI adds value versus hype"
+   ]
+  },
+  {
+   "title": "The US let Nvidia sell chips to an empty office in China",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-07T15:43:45+00:00",
+   "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The US Commerce Department approved New Matrix, a Chinese firm, to handle Nvidia's restricted H200 AI chips for export, but the company operates from an empty office with no apparent staff. The report raises questions about the rigor of export control vetting procedures.",
+   "whyMatters": [
+    "Exposes gaps in export control enforcement for advanced AI semiconductors",
+    "Suggests potential circumvention of US restrictions intended to limit China's access to cutting-edge AI hardware"
+   ]
+  },
+  {
    "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
    "link": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
    "source": "Wired · AI",
@@ -93,6 +160,24 @@ window.NEWS_DATA = {
     "AI tools can streamline administrative and organizational tasks for caregivers, but they don't replace the human support systems and institutional resources that would genuinely improve caregiver quality of life",
     "The gap between what AI can automate (scheduling, reminders, tracking) and what caregivers actually need (respite, emotional support, financial relief, community) highlights limitations of technology-first solutions to social care challenges",
     "For faith communities and Jewish educators engaged in pastoral care and support systems, this underscores that digital tools must complement rather than substitute for genuine human relationship and institutional support structures"
+   ]
+  },
+  {
+   "title": "AI broke the cybersecurity world. What’s next?",
+   "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-07T05:43:11+00:00",
+   "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Verge interviews Alex Stamos, chief security officer at Cognition, about how AI has disrupted the cybersecurity industry. The conversation is part of a series examining AI's real-world impact, with Stamos offering direct commentary on current security challenges.",
+   "whyMatters": [
+    "Covers how AI is destabilizing existing cybersecurity practices and defenses",
+    "Part of broader investigation into AI's practical effects across industries"
    ]
   },
   {
@@ -186,6 +271,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Growing cultural polarization over AI is now affecting personal relationships and dating app matching patterns",
     "Reveals public sentiment about AI adoption, particularly among younger, tech-adjacent demographics"
+   ]
+  },
+  {
+   "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T21:48:06+00:00",
+   "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "According to a new METR report, Anthropic is using AI to automate parts of its own AI development process, and the approach appears effective—the company's models are improving twice as fast as a year ago with no signs of slowdown. The finding concerns AI safety researchers.",
+   "whyMatters": [
+    "Raises questions about AI recursive self-improvement and whether safety measures can keep pace with acceleration",
+    "Highlights tension between capability gains and safety governance in leading AI labs"
    ]
   },
   {
@@ -316,24 +421,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How Akai and Moog are embracing vibe-coded mods",
-   "link": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T16:34:39+00:00",
-   "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings of, say, an MPC or Sample so that people can […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "inMusic, which owns music hardware brands like Akai and Moog, has decided to embrace the modding community by providing tools and APIs so users can modify and extend their products like the MPC and Sample. The CEO announced the company will share the inner workings of these instruments.",
-   "whyMatters": [
-    "Shows a major hardware company embracing open access and community customization rather than restricting modification",
-    "Relevant to how AI and generative tools are being integrated into creative software and hardware ecosystems"
-   ]
-  },
-  {
    "title": "Could potential AI clones of GTA VI force a quicker official port?",
    "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
    "source": "Ars Technica · AI",
@@ -385,42 +472,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents significant progress in applying AI to fundamental biomedical research with potential therapeutic applications",
     "Moves AI beyond analysis into active biological intervention, raising both scientific and ethical questions"
-   ]
-  },
-  {
-   "title": "Amazon will let you text Alexa your shopping list",
-   "link": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T13:56:32+00:00",
-   "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with recommendations, and […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Amazon is adding a text-based interface to Alexa for Shopping, allowing users to send shopping lists, product descriptions, or photos to Alexa and receive recommendations via text without voice commands. The assistant then helps users purchase from Amazon's catalog.",
-   "whyMatters": [
-    "Expands accessibility of AI shopping assistants by removing voice requirement and adding image recognition",
-    "Further integrates AI into routine consumer behavior and Amazon's ecosystem"
-   ]
-  },
-  {
-   "title": "Protesters break into Microsoft data center site in Amsterdam",
-   "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T12:01:25+00:00",
-   "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Approximately 100 protesters broke into a Microsoft data center construction site in Amsterdam, organized by the Geef Tegengas group opposing the building of three 85-meter data center towers on the city's outskirts.",
-   "whyMatters": [
-    "Data center expansion raises environmental concerns—energy consumption and resource demands of AI infrastructure are increasingly contested by local communities",
-    "The protest reflects growing public debate about who bears the costs of AI infrastructure development and where computational capacity should be located"
    ]
   },
   {
@@ -496,24 +547,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates AI companies taking proactive security measures as frontier AI systems attract adversarial attention",
     "Hiring external security expertise signals awareness of evolving threat landscape around advanced AI systems"
-   ]
-  },
-  {
-   "title": "OpenAI is stepping back from NDAs for data center projects",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T00:37:56+00:00",
-   "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced it will not use NDAs with public officials in its data center projects, a policy shift following midterm elections where voters opposed data center expansion in their communities.",
-   "whyMatters": [
-    "Addresses public skepticism about AI infrastructure and corporate transparency with governments",
-    "Sets precedent for how AI companies engage with communities on major resource-intensive projects"
    ]
   },
   {
@@ -1726,24 +1759,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses growing concern about degraded information quality as AI-generated content floods digital spaces",
     "Relevant to educators and knowledge workers who must teach critical evaluation of AI outputs"
-   ]
-  },
-  {
-   "title": "Voting in 2026 Is Getting an AI Slop 'I Voted' Sticker",
-   "link": "https://www.404media.co/voting-in-2026-is-getting-an-ai-slop-i-voted-sticker/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-11-02T16:33:20+00:00",
-   "summary": "My polling place was handing out AI slop to midterm voters.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media reports that polling places distributed AI-generated 'I Voted' stickers during 2026 midterm elections.",
-   "whyMatters": [
-    "Illustrates deployment of low-effort AI slop in civic contexts, raising concerns about quality standards in public-facing communications",
-    "Touches on public trust and the erosion of thoughtful, human-made institutional touchstones"
    ]
   },
   {
