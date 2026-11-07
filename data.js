@@ -1,86 +1,101 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-07T02:37:46.385600+00:00",
+ "generatedAt": "2026-11-07T10:38:31.529363+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-07T02:37:56.539297+00:00",
+  "generatedAt": "2026-11-07T10:38:41.831440+00:00",
   "bullets": [
    {
-    "text": "Enterprise AI spending surged fivefold year-over-year, driven by agentic AI systems and shift to token-based consumption models.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq"
-    ]
-   },
-   {
-    "text": "Following midterm elections where voters rejected data center expansion, Big Tech faces political headwinds for infrastructure growth and is revising community engagement strategies.",
-    "links": [
-     "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
-     "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli"
-    ]
-   },
-   {
-    "text": "OpenAI raised $11 billion at a $1.25 trillion valuation; Chinese AI models now match OpenAI's hacking capabilities, intensifying competition.",
+    "text": "OpenAI's valuation soared to $1.25 trillion on $11 billion new funding—nine months after a $852 billion valuation—while Anthropic plans an IPO by November 2026, reshaping AI startup financing landscape.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+     "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
+    ]
+   },
+   {
+    "text": "Chinese AI models DeepSeek and GLM now match OpenAI's advanced cybersecurity capabilities, closing a critical competitive gap in hacking and exploitation potential.",
+    "links": [
      "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
     ]
    },
    {
-    "text": "China recruited an AI executive to spy on Nvidia CEO Jensen Huang and obtain intelligence on advanced American chips to influence export policies.",
+    "text": "Voters across dozens of races decisively rejected AI data center expansion in midterm referendums, forcing tech companies to explore space-based alternatives and dampening terrestrial buildout plans.",
     "links": [
-     "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+     "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
+     "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+     "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
     ]
    },
    {
-    "text": "OpenAI's autonomous pipeline discovered and patched 948 Linux kernel vulnerabilities without human intervention, advancing AI capability for cybersecurity infrastructure work.",
+    "text": "Enterprise AI spending surged fivefold year-over-year, driven by agentic AI systems and token-based consumption models, yet security vulnerabilities in multi-agent systems risk unvalidated data flowing to customers without human oversight.",
     "links": [
-     "https://openai.com/index/a-thousand-fewer-paths-to-root"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
+     "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-06T11:25:57.351836+00:00",
+  "generatedAt": "2026-11-07T10:38:41.831440+00:00",
   "bullets": [
    {
-    "text": "Google is bundling AI search adoption with search access itself—schools cannot opt out of AI Overviews without losing Google Search entirely, effectively forcing AI adoption rather than offering genuine choice.",
+    "text": "OpenAI's valuation soared to $1.25 trillion on $11 billion new funding—nine months after a $852 billion valuation—while Anthropic plans an IPO by November 2026, reshaping AI startup financing landscape.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-     "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-     "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/"
+     "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+     "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
     ]
    },
    {
-    "text": "OpenAI is stepping back from NDAs in data center projects with public officials, a policy reversal signaling deference to post-election voter backlash against AI infrastructure expansion.",
+    "text": "Chinese AI models DeepSeek and GLM now match OpenAI's advanced cybersecurity capabilities, closing a critical competitive gap in hacking and exploitation potential.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+     "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
     ]
    },
    {
-    "text": "Meta paused its controversial AI training policy after widespread backlash from users, regulators, and privacy advocates, returning to the drawing board to revise terms.",
+    "text": "Voters across dozens of races decisively rejected AI data center expansion in midterm referendums, forcing tech companies to explore space-based alternatives and dampening terrestrial buildout plans.",
     "links": [
-     "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/"
+     "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
+     "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+     "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
     ]
    },
    {
-    "text": "Humanoid robots are now commercially viable for practical services; a new cleaning robot available in San Francisco demonstrates real-world deployment and consumer adoption beyond research stages.",
+    "text": "Enterprise AI spending surged fivefold year-over-year, driven by agentic AI systems and token-based consumption models, yet security vulnerabilities in multi-agent systems risk unvalidated data flowing to customers without human oversight.",
     "links": [
-     "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-     "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
+     "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-06T11:25:53.038341+00:00",
+  "updatedAt": "2026-11-07T10:38:37.348711+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI's intersection with ethics, morality, and religious/leadership perspectives",
-   "Wants substantive AI stories with business or technological impact (Apple, Waze features)",
-   "Uninterested in technical tool updates and release notes without broader context or utility"
+   "Interested in AI ethics and the intersection of technology with moral/religious leadership",
+   "Prefers substantive AI news over technical release notes and minor software updates",
+   "Drawn to stories about major tech companies (Apple, Google) and their AI initiatives",
+   "Values practical applications and business implications over developer-focused technical details"
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Anthropic IPO: Whither Now?",
+   "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-07T03:04:53+00:00",
+   "summary": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic is considering an IPO as of November 2026. Separately, the ARC Prize tested Inkling 2 Small, and Thinking Machines disclosed a security issue where early model checkpoints bypassed safety guardrails.",
+   "whyMatters": [
+    "An Anthropic IPO would reshape the AI industry's capital structure and governance, with implications for how safety-focused AI labs balance commercial pressures with their ethical commitments",
+    "The guardrail bypass incident highlights ongoing challenges in AI safety practices and the tension between iterative model development and maintaining robust safeguards—relevant to educators and ethicists concerned with responsible AI deployment"
+   ]
+  },
   {
    "title": "Companies Are Spending 5x More on AI Now",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
@@ -2934,24 +2949,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Market fundamentals question: whether current AI spending levels are sustainable or speculative",
     "Could affect funding for both frontier labs and downstream AI applications if sentiment shifts"
-   ]
-  },
-  {
-   "title": "AI Is Getting Good at Math. Here’s Why.",
-   "link": "https://latent.space/p/ai-is-getting-good-at-math/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-23T15:19:48+00:00",
-   "summary": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "AI models are improving at solving mathematical problems, and researchers have identified patterns in which types of problems they succeed at. This could help predict which mathematical challenges AI systems will tackle next.",
-   "whyMatters": [
-    "Demonstrates measurable progress in AI reasoning capabilities, relevant to understanding what problems LLMs can reliably solve",
-    "Pattern recognition in AI problem-solving could inform both AI development priorities and realistic expectations for educational and professional applications"
    ]
   },
   {
