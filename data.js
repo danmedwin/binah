@@ -1,35 +1,40 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-06T21:58:58.403753+00:00",
+ "generatedAt": "2026-11-07T02:37:46.385600+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-06T21:59:21.786009+00:00",
+  "generatedAt": "2026-11-07T02:37:56.539297+00:00",
   "bullets": [
    {
-    "text": "Voters across multiple U.S. regions decisively rejected AI data center expansion and pro-AI political initiatives, forcing tech companies to reassess infrastructure buildout strategies and abandon secretive policies.",
+    "text": "Enterprise AI spending surged fivefold year-over-year, driven by agentic AI systems and shift to token-based consumption models.",
     "links": [
-     "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli",
-     "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq"
     ]
    },
    {
-    "text": "Chinese AI models DeepSeek and GLM now match OpenAI's cybersecurity capabilities, closing a significant competitive gap in advanced AI development that previously favored Western labs.",
+    "text": "Following midterm elections where voters rejected data center expansion, Big Tech faces political headwinds for infrastructure growth and is revising community engagement strategies.",
     "links": [
+     "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+     "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli"
+    ]
+   },
+   {
+    "text": "OpenAI raised $11 billion at a $1.25 trillion valuation; Chinese AI models now match OpenAI's hacking capabilities, intensifying competition.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
      "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
     ]
    },
    {
-    "text": "Meta reversed its controversial plan to train AI on Facebook users' content without meaningful consent after public backlash, signaling limits to corporate data harvesting for AI.",
+    "text": "China recruited an AI executive to spy on Nvidia CEO Jensen Huang and obtain intelligence on advanced American chips to influence export policies.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
-     "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/"
+     "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
     ]
    },
    {
-    "text": "OpenAI deployed an autonomous cybersecurity system that discovered and patched 948 Linux kernel vulnerabilities without human intervention, demonstrating practical AI agent capability at scale.",
+    "text": "OpenAI's autonomous pipeline discovered and patched 948 Linux kernel vulnerabilities without human intervention, advancing AI capability for cybersecurity infrastructure work.",
     "links": [
-     "https://openai.com/index/a-thousand-fewer-paths-to-root",
-     "https://openai.com/index/introducing-gpt-6-cyber"
+     "https://openai.com/index/a-thousand-fewer-paths-to-root"
     ]
    }
   ]
@@ -76,6 +81,63 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Companies Are Spending 5x More on AI Now",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-07T00:24:27+00:00",
+   "summary": "Companies are spending nearly five times more on AI than last year, and agents are driving the surge. NLW breaks down Menlo Ventures’ latest enterprise AI report, exploring why spending is blowing past budgets, how Anthropic and OpenAI are capturing the market, and what the shift from seats to tokens means for businesses. In the headlines: a massive market selloff, uncertainty around Anthropic’s I",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128940058/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F436080818-44100-2-1aad56ffe7cd3.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Enterprise companies are increasing AI spending roughly fivefold compared to the prior year, with agentic AI systems driving much of the growth. The spending surge reflects a market shift from per-seat pricing models to token-based consumption, with OpenAI and Anthropic capturing significant share.",
+   "whyMatters": [
+    "Enterprise AI adoption is accelerating rapidly, signaling genuine commercial demand beyond hype",
+    "The token-based pricing model represents a structural change in how AI becomes embedded in business operations",
+    "Budget overruns suggest companies are discovering use cases faster than they can plan for them"
+   ]
+  },
+  {
+   "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T23:46:18+00:00",
+   "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI has raised $11 billion in new funding at a $1.25 trillion valuation, making it one of the world's most valuable companies just nine months after a prior $852 billion valuation in March.",
+   "whyMatters": [
+    "Valuations are doubling within months, reflecting intense investor competition for leading AI companies",
+    "OpenAI's valuation now exceeds most Fortune 500 companies despite limited revenue history, concentrating enormous capital and influence in a single firm",
+    "The rapid fundraising pace suggests investors view AI infrastructure as a foundational technology worth premium multiples"
+   ]
+  },
+  {
+   "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-06T23:00:44+00:00",
+   "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "China's Ministry of State Security recruited an executive from AI chip company Megaspeed to spy on Nvidia CEO Jensen Huang and obtain information about advanced American AI chips, reportedly seeking to influence Nvidia's export policies toward China.",
+   "whyMatters": [
+    "Geopolitical competition over AI chip technology is intensifying, with state actors now directly recruiting insiders",
+    "This illustrates why U.S. export controls on advanced semiconductors are a contested policy priority—foreign governments are actively working to circumvent them",
+    "The incident highlights risks to AI leadership when companies concentrate critical technological advantage that becomes a national security target"
+   ]
+  },
   {
    "title": "AI is the new dating dealbreaker",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
@@ -423,24 +485,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Airbnb is working on an AI travel agent",
-   "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T00:06:12+00:00",
-   "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Airbnb plans to launch an AI travel agent in the first half of 2027 that will help users plan and book travel accommodations and related activities.",
-   "whyMatters": [
-    "Extends AI agent capabilities from simple tasks to complex, multi-step consumer workflows",
-    "Signals major tech companies betting on agentic AI as a next-generation product interface"
-   ]
-  },
-  {
    "title": "Measuring how AI agents handle everyday wet-lab science",
    "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
    "source": "OpenAI News",
@@ -474,24 +518,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shifts market dynamics: reduced capex spending by hyperscalers could strengthen balance sheets and alter competitive positioning in AI infrastructure",
     "Signals potential moderation in AI hype cycle: sustainable investment patterns matter for long-term industry health and realistic deployment scenarios"
-   ]
-  },
-  {
-   "title": "Perplexity launches its own take on AI agents for work",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-05T22:26:50+00:00",
-   "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Perplexity released workplace AI agents called \"Teammates\" that can take on multiple roles and integrate with existing Perplexity tools and workspace projects.",
-   "whyMatters": [
-    "Represents competition intensification in the enterprise AI agents market against OpenAI and Anthropic",
-    "Shows expansion of agentic AI beyond single-task tools into broader workplace automation"
    ]
   },
   {
@@ -3319,25 +3345,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Maps the genuine fault lines in AI industry direction—these debates will determine which companies succeed and which business models survive",
     "Regulation question is particularly relevant to policy and organizational planning; community acceptance of data centers has direct implications for AI infrastructure expansion"
-   ]
-  },
-  {
-   "title": "When AI Solves Your Life’s Work",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/When-AI-Solves-Your-Lifes-Work-e3q8kuq",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-09T21:01:23+00:00",
-   "summary": "OpenAI’s latest mathematical results are forcing researchers to confront what happens when AI can tackle problems that once defined entire careers. With hundreds of proposed proofs awaiting scrutiny, the debate spans scientific discovery, professional identity, and which fields could face similar disruption next. In the headlines: confusion over OpenAI’s revenue numbers rattles markets, a new surv",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127209882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-9%2F433817882-44100-2-390ed54c878cd.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "OpenAI's recent mathematical breakthroughs are raising questions about what happens when AI solves problems that previously defined entire research careers, with hundreds of proposed proofs now awaiting expert review. The situation highlights tensions around scientific discovery, professional identity, and which fields may face disruption.",
-   "whyMatters": [
-    "Forces the research community to confront how AI success in specialized domains affects career paths and identity",
-    "Raises questions about the future of mathematics and theoretical research as a human endeavor",
-    "Demonstrates that disruption from AI is not limited to routine work but extends to prestigious, knowledge-intensive fields"
    ]
   },
   {
