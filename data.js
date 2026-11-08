@@ -1,40 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-08T11:47:40.431593+00:00",
+ "generatedAt": "2026-11-08T21:00:11.791824+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-08T11:47:58.421725+00:00",
+  "generatedAt": "2026-11-08T21:00:26.493092+00:00",
   "bullets": [
    {
-    "text": "OpenAI's $1.25 trillion valuation and Anthropic's planned IPO signal the AI industry's consolidation into a few trillion-dollar players, while Anthropic disclosed it's using AI to automate its own development—improving model capabilities twice as fast with no signs of slowdown.",
+    "text": "OpenAI valued at $1.25 trillion after raising $11 billion, while Anthropic nears IPO and Chinese AI models close competitive gaps in cybersecurity capabilities.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+     "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+    ]
+   },
+   {
+    "text": "Nvidia CEO's board opened investigation into alleged Chinese espionage targeting advanced AI chips, as US export controls approved sales through a shell company office.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+     "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+    ]
+   },
+   {
+    "text": "Enterprise AI spending surged fivefold year-over-year, driven by agentic AI adoption; Anthropic accelerating its own AI development via AI automation with twice-as-fast improvement rates.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
      "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
     ]
    },
    {
-    "text": "Enterprise AI spending has surged fivefold as companies shift from per-seat to token-based consumption models, driven by agentic AI systems that organizations are deploying at scale despite unproven real-world value.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq"
-    ]
-   },
-   {
-    "text": "U.S. export controls on AI chips are compromised: authorities approved an empty-office shell company to distribute Nvidia's restricted H200 chips to China, while China recruited an AI executive to spy on Jensen Huang and influence export policy.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-     "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
-    ]
-   },
-   {
-    "text": "World models—AI systems simulating physics and 3D environments—will enable robots and autonomous vehicles to navigate and interact with physical space, representing the next frontier in embodied AI capabilities.",
-    "links": [
-     "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/"
-    ]
-   },
-   {
-    "text": "Meta reversed controversial AI training terms after public backlash, and Chinese AI models now rival OpenAI's hacking capabilities, narrowing the gap in cutting-edge AI competitiveness.",
+    "text": "Meta and rights holders face backlash over AI training data: Meta paused controversial terms requiring consent for AI training on user content; music labels sued Suno for generating Elvis and Eminem-style tracks.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
-     "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+     "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
     ]
    }
   ]
@@ -79,6 +74,114 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-08T20:55:35+00:00",
+   "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's board has opened an independent investigation into CEO Jensen Huang following reports that a Megaspeed executive named Alice Huang was recruited by China's Ministry of State Security to spy on the company. The investigation examines Huang's relationship with this individual and the potential security implications.",
+   "whyMatters": [
+    "High-stakes corporate espionage allegation involving a major AI infrastructure company and geopolitical tensions between the US and China",
+    "Raises questions about security practices and oversight at leading AI chip makers during a period of intensified global competition for AI dominance"
+   ]
+  },
+  {
+   "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+   "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-08T19:41:47+00:00",
+   "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The New York Times Cooking AI assistant helped solve weeknight dinner planning by suggesting chicken recipes, though it performed poorly when asked about baking. The tool addresses a common household problem—deciding what to cook—but with uneven reliability across different cooking domains.",
+   "whyMatters": [
+    "Demonstrates practical AI application in everyday life with real limitations",
+    "Shows that consumer-facing AI tools work better for some tasks than others, relevant to understanding where AI adds value versus hype"
+   ]
+  },
+  {
+   "title": "Apple is racing to make Siri more agentic",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-08T19:18:19+00:00",
+   "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple's CEO is pushing AI executive Craig Federighi to accelerate Siri's development into a more powerful AI agent capable of competing with OpenAI's and Meta's offerings. While a functional version has been delivered on a fast timeline, the company recognizes the current version is not competitive.",
+   "whyMatters": [
+    "Reflects intense competition among major tech companies to deliver capable AI agents to consumers",
+    "Apple's AI roadmap acceleration could significantly impact the consumer AI market and influence how users interact with voice assistants"
+   ]
+  },
+  {
+   "title": "Elvis and Eminem rights holders are suing Suno",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-08T17:23:19+00:00",
+   "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Music rights holders for Elvis Presley and a publisher of Eminem recordings are suing AI music generation company Suno, claiming it illegally generates music and lyrics that mimic those artists. This continues an ongoing pattern of legal challenges against the company.",
+   "whyMatters": [
+    "Copyright and artist protection issues remain unresolved in AI music generation, with major rights holders challenging the legality of training on existing works",
+    "Outcome could set important precedent for what AI music companies can and cannot do, affecting both the industry and creators' rights"
+   ]
+  },
+  {
+   "title": "Agentic Video Is Real and Here’s What You Should Try",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Agentic-Video-Is-Real-and-Heres-What-You-Should-Try-e3s0li5",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-08T12:05:09+00:00",
+   "summary": "AI agents are making it possible to edit, animate, and produce videos simply by describing what you want. NLW explores what changed and how to put it to work—from meeting highlights and concept demos to animated business updates and customer education videos that update themselves. Plus, three levels for getting started, from editing existing recordings to building recurring video workflows. Check",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/129045509/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F436212145-44100-2-565cf3ede86b88.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "AI-powered video agents now enable users to edit, animate, and produce videos through natural language descriptions rather than manual editing. Applications range from meeting summaries and concept demos to automated business updates and customer education content.",
+   "whyMatters": [
+    "Marks a significant capability expansion in AI agents—moving from text/code to video production, lowering the barrier to professional video creation",
+    "Could reshape workflows in education and corporate communication where video content creation has traditionally required specialized skills"
+   ]
+  },
+  {
+   "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+   "link": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-08T12:00:00+00:00",
+   "summary": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The New York Times Cooking app has introduced a beta AI feature that allows users to modify recipes by swapping ingredients or adjusting instructions based on their needs. Early user feedback indicates the feature works well.",
+   "whyMatters": [
+    "Demonstrates practical, consumer-facing AI application in everyday domain (cooking) with apparent user satisfaction",
+    "Shows how major media properties are integrating AI to enhance user experience and engagement with existing content"
+   ]
+  },
   {
    "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
    "link": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
@@ -138,24 +241,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly engages religious and ethical concerns about attributing moral status to machines",
     "Calls for policy intervention (federal action), positioning this as a governance issue for lawmakers and regulators"
-   ]
-  },
-  {
-   "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-   "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-07T15:47:15+00:00",
-   "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The New York Times Cooking AI assistant helped solve weeknight dinner planning by suggesting chicken recipes, though it performed poorly when asked about baking. The tool addresses a common household problem—deciding what to cook—but with uneven reliability across different cooking domains.",
-   "whyMatters": [
-    "Demonstrates practical AI application in everyday life with real limitations",
-    "Shows that consumer-facing AI tools work better for some tasks than others, relevant to understanding where AI adds value versus hype"
    ]
   },
   {
@@ -289,24 +374,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI is the new dating dealbreaker",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T21:51:59+00:00",
-   "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A 25-year-old user on the Hinge dating app noticed a trend in how matches discuss AI, suggesting that views on artificial intelligence have become a dating preference signal. The article examines how AI attitudes are shaping people's romantic compatibility and decisions.",
-   "whyMatters": [
-    "Growing cultural polarization over AI is now affecting personal relationships and dating app matching patterns",
-    "Reveals public sentiment about AI adoption, particularly among younger, tech-adjacent demographics"
-   ]
-  },
-  {
    "title": "Why a new report on Anthropic automating AI development is alarming researchers",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
    "source": "The Verge · AI",
@@ -344,24 +411,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Data center energy demands pose concrete infrastructure and environmental challenges that now command political attention",
     "Creates practical tension between AI development and community interests, affecting policy decisions and regulation"
-   ]
-  },
-  {
-   "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-   "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T20:00:43+00:00",
-   "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta's Muse AI assistant now lets users create custom app-like spaces within the Muse app—such as shopping hubs, school dashboards, or games—without needing separate applications. Users can build these experiences by describing them to the AI.",
-   "whyMatters": [
-    "Demonstrates AI's role in reducing friction between intent and application, potentially increasing AI assistant adoption",
-    "School dashboards specifically suggest AI tools entering educational infrastructure"
    ]
   },
   {
@@ -416,24 +465,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents skepticism from a credible tech observer about whether AI deployment's benefits outweigh harms",
     "Questions the market sustainability of AI expansion if products don't deliver sufficient value to users and communities"
-   ]
-  },
-  {
-   "title": "Big Tech lost big in the 2026 election",
-   "link": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T17:09:01+00:00",
-   "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "In the 2026 U.S. election, voters chose Democratic candidates and voted against AI-related initiatives, signaling a political shift away from Big Tech interests and making it harder for companies to expand data centers. The political environment for AI is becoming more hostile.",
-   "whyMatters": [
-    "Marks a significant electoral turn against AI expansion and Big Tech influence at the ballot box",
-    "Will likely accelerate policy resistance to data center buildouts and favor tighter AI regulation"
    ]
   },
   {
@@ -930,24 +961,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Expands AI application to animal cognition research: opens new scientific possibilities for understanding non-human intelligence and communication systems",
     "Demonstrates AI's utility beyond human-centric tasks: shows how language and pattern-recognition AI can serve ecological understanding and marine conservation"
-   ]
-  },
-  {
-   "title": "He Trolls AI Labs for a Living. Now They All Want to Work With Him",
-   "link": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-05T11:45:00+00:00",
-   "summary": "OpenAI, Anthropic, and SpaceXSI have all reached out to Husk, an influencer who regularly goes viral by exposing the shortcomings of chatbots.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An influencer known as Husk regularly exposes flaws and limitations in AI chatbots through viral content. Major AI labs including OpenAI, Anthropic, and others are now reaching out to collaborate with him rather than dismiss his criticism.",
-   "whyMatters": [
-    "Signals shift in how AI companies engage external critics: labs are moving toward transparency partnerships rather than defensive postures",
-    "Highlights role of public accountability in AI development: independent testing and critique are becoming valued inputs for iterating safer, more capable systems"
    ]
   },
   {
@@ -3337,24 +3350,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The 5 Debates Shaping AI",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-5-Debates-Shaping-AI-e3qav4d",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-11T10:58:13+00:00",
-   "summary": "Can AI revenue justify the infrastructure spending? Is AI a mass market or a power-user market? Do businesses want AI they control or simply cheaper models? Who should regulate it? And can data centers win over their neighbors? NLW revisits the format of his most popular episode to explore the five debates shaping AI now—and how the questions have changed. Brought to you by: KPMG – New KPMG and UT",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127285837/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-11%2F433914144-44100-2-0974aebfc49d6.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "A podcast episode identifies five key unresolved debates currently shaping the AI industry: whether AI revenue can justify infrastructure costs, whether AI serves mass or power-user markets, whether businesses prefer controllable or cheaper AI, who should regulate AI, and whether data centers can gain community acceptance. The episode revisits these questions and notes how the framing has evolved.",
-   "whyMatters": [
-    "Maps the genuine fault lines in AI industry direction—these debates will determine which companies succeed and which business models survive",
-    "Regulation question is particularly relevant to policy and organizational planning; community acceptance of data centers has direct implications for AI infrastructure expansion"
-   ]
-  },
-  {
    "title": "Narrative intelligence and the human advantage",
    "link": "https://share.transistor.fm/s/f2fcb677",
    "source": "Practical AI",
@@ -3521,50 +3516,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Growing integration of AI discourse into mainstream religious and theological scholarship",
     "Indicates sustained academic and pastoral interest in ethics, theology, and practice at the intersection of AI and faith"
-   ]
-  },
-  {
-   "title": "AI and Faith Announces New Mission and Vision Statements",
-   "link": "https://aiandfaith.org/news/mission-and-vision-statements/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-09-24T18:04:50+00:00",
-   "summary": "AI is rapidly evolving, and AI and Faith stands at a strategic and dynamic location where religious wisdom and ethics intersect with this powerful technology. Since last December—when I had",
-   "religionScore": 7,
-   "religionHits": [
-    "ethic",
-    "faith",
-    "religio"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "AI and Faith, an organization focused on the intersection of artificial intelligence and religious perspectives, announced new mission and vision statements. No details are publicly available as the announcement is protected.",
-   "whyMatters": [
-    "Indicates continued institutional attention to AI ethics from faith-based perspectives, relevant to religious communities navigating AI integration",
-    "The protection of this announcement suggests careful deliberation around institutional positioning on AI and faith"
-   ]
-  },
-  {
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-24T16:20:39+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Google launched Gemini 3.8 Live with Live Avatar, adding visual avatar representation to its conversational AI interface.",
-   "whyMatters": [
-    "Enhances human-computer interaction through embodied conversational AI",
-    "Moves beyond text and voice to visual presence in real-time dialogue"
    ]
   }
  ]
