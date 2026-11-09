@@ -1,39 +1,34 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-09T12:02:13.233277+00:00",
+ "generatedAt": "2026-11-09T13:42:15.068614+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-09T12:02:30.906557+00:00",
+  "generatedAt": "2026-11-09T13:42:23.225510+00:00",
   "bullets": [
    {
-    "text": "OpenAI reached a $1.25 trillion valuation on $11 billion in new funding, nine months after a prior $852 billion valuation, signaling explosive investor confidence in AI despite ongoing product-market fit questions.",
+    "text": "OpenAI now valued at $1.25 trillion after $11B funding round; Anthropic preparing IPO as AI funding accelerates dramatically across enterprise, with spending up fivefold year-over-year.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+     "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
+     "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
     ]
    },
    {
-    "text": "Nvidia's board opened an independent investigation into CEO Jensen Huang's personal relationship with an alleged Chinese intelligence operative, following his public acknowledgment of the affair to staff.",
+    "text": "Nvidia CEO Jensen Huang under board investigation over relationship with alleged Chinese state spy seeking to influence US AI chip policy and obtain restricted technology.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-     "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+     "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
     ]
    },
    {
-    "text": "Chinese AI models DeepSeek and GLM now demonstrate hacking capabilities nearly matching OpenAI's most advanced unpublished cybersecurity model, indicating rapid capability convergence despite US export restrictions.",
+    "text": "Chinese AI models DeepSeek and GLM now match OpenAI's advanced hacking capabilities, closing a significant competitive gap in AI development.",
     "links": [
      "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
     ]
    },
    {
-    "text": "Stanford redesigned its AI-native engineering course to counter AI homework completion by having students contribute to real open-source projects with unfamiliar codebases instead of solving abstract problems.",
+    "text": "Anthropic is automating its own AI development process with measurable results—models improving twice as fast as last year with no signs of slowdown, alarming AI safety researchers.",
     "links": [
-     "https://latent.space/p/cs146s/",
-     "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
-    ]
-   },
-   {
-    "text": "Enterprise spending on AI has surged fivefold year-over-year, driven largely by adoption of agentic systems and token-based consumption models replacing per-seat pricing in production deployments.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq"
+     "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
     ]
    }
   ]
@@ -86,6 +81,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Innovating with AI in the special chemicals industry",
+   "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-09T13:00:00+00:00",
+   "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Lubrizol and other specialty chemicals companies are using AI and cloud computing to speed up research and product development. The main hurdle they face is integrating these new technologies with quality data, scientific knowledge, and the practical constraints of manufacturing and commercialization.",
+   "whyMatters": [
+    "Connects to broader industrial AI adoption—shows that real value from AI depends on foundational data and domain expertise, not just the technology itself",
+    "Relevant to how organizations (including educational institutions) need to think about AI implementation: tools alone don't work without reliable information systems and expert guidance"
+   ]
+  },
   {
    "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
    "link": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
@@ -2700,24 +2713,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Creating AI value with enterprise context",
-   "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-10-28T20:32:02+00:00",
-   "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Enterprise organizations often deploy multiple AI systems simultaneously—chatbots, workflow automation, customer platforms—but coordinating them can produce inconsistent or incorrect outcomes when they interact.",
-   "whyMatters": [
-    "Highlights the infrastructure and integration challenge enterprises face when scaling AI beyond single-point deployments",
-    "Signals growing need for orchestration layers and governance frameworks to align multiple AI systems in business contexts"
-   ]
-  },
-  {
    "title": "Why Agents Love Supabase",
    "link": "https://latent.space/p/supabase/",
    "source": "Latent Space",
@@ -3502,27 +3497,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses intersection of AI, faith, and medical ethics in end-of-life care",
     "Highlights how AI's technical prowess does not resolve the relational and spiritual dimensions of healing that matter to patients and clergy"
-   ]
-  },
-  {
-   "title": "AI and Faith at AAR 2026",
-   "link": "https://aiandfaith.org/news/ai-and-faith-at-aar-2026/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-09-25T12:22:24+00:00",
-   "summary": "November 21-24, the American Academy of Religion conference comes to Denver, drawing over 7,000 attendees and AI-related papers, panels, and events. Based on what we’ve seen the past few years,",
-   "religionScore": 6,
-   "religionHits": [
-    "faith",
-    "religio"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The American Academy of Religion conference in Denver (November 21-24, 2026) will draw over 7,000 attendees and feature multiple AI-related papers, panels, and events.",
-   "whyMatters": [
-    "Growing integration of AI discourse into mainstream religious and theological scholarship",
-    "Indicates sustained academic and pastoral interest in ethics, theology, and practice at the intersection of AI and faith"
    ]
   }
  ]
