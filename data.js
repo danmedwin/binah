@@ -1,35 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-08T21:00:11.791824+00:00",
+ "generatedAt": "2026-11-09T02:29:34.719209+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-08T21:00:26.493092+00:00",
+  "generatedAt": "2026-11-09T02:29:48.520984+00:00",
   "bullets": [
    {
-    "text": "OpenAI valued at $1.25 trillion after raising $11 billion, while Anthropic nears IPO and Chinese AI models close competitive gaps in cybersecurity capabilities.",
+    "text": "OpenAI reached $1.25 trillion valuation on $11 billion funding; Anthropic nears IPO as enterprise AI spending surges fivefold.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-     "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
+     "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
     ]
    },
    {
-    "text": "Nvidia CEO's board opened investigation into alleged Chinese espionage targeting advanced AI chips, as US export controls approved sales through a shell company office.",
+    "text": "Nvidia CEO Jensen Huang faces board investigation over acknowledged affair with Chinese intelligence agent seeking US chip export influence.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-     "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+     "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+     "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
     ]
    },
    {
-    "text": "Enterprise AI spending surged fivefold year-over-year, driven by agentic AI adoption; Anthropic accelerating its own AI development via AI automation with twice-as-fast improvement rates.",
+    "text": "Anthropic's AI now automates its own development with models improving twice as fast yearly; researchers flag risks of recursive AI acceleration.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
      "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
     ]
    },
    {
-    "text": "Meta and rights holders face backlash over AI training data: Meta paused controversial terms requiring consent for AI training on user content; music labels sued Suno for generating Elvis and Eminem-style tracks.",
+    "text": "Chinese AI models DeepSeek and GLM now rival OpenAI's unreleased cybersecurity capabilities, closing competitive gap in hacking skills.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
-     "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+     "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+    ]
+   },
+   {
+    "text": "Stanford revamped AI engineering curriculum to address homework automation, requiring students on real open-source codebases instead of abstract problems.",
+    "links": [
+     "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
     ]
    }
   ]
@@ -79,7 +85,7 @@ window.NEWS_DATA = {
    "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-11-08T20:55:35+00:00",
+   "date": "2026-11-09T02:24:39+00:00",
    "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light […]",
    "religionScore": 0,
    "religionHits": [],
@@ -90,6 +96,78 @@ window.NEWS_DATA = {
    "whyMatters": [
     "High-stakes corporate espionage allegation involving a major AI infrastructure company and geopolitical tensions between the US and China",
     "Raises questions about security practices and oversight at leading AI chip makers during a period of intensified global competition for AI dominance"
+   ]
+  },
+  {
+   "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-08T22:54:50+00:00",
+   "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's board launched an investigation into CEO Jensen Huang's relationship with Alice Huang, described as an AI executive and agent of the Chinese government. Huang acknowledged the affair in a memo to employees.",
+   "whyMatters": [
+    "Raises governance and conflict-of-interest concerns at one of AI's most influential companies during a period of intense U.S.-China tech tension",
+    "May have implications for Nvidia's strategic direction and employee confidence in leadership"
+   ]
+  },
+  {
+   "title": "parse_number() as a SQLite extension: C vs Rust",
+   "link": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-08T22:26:00+00:00",
+   "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I'm thinking about a SQLite custom fu",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A developer explored building a SQLite extension function (parse_number) using Claude to convert formatted strings like currency or percentages into numeric values, comparing C versus Rust implementations.",
+   "whyMatters": [
+    "Demonstrates practical AI-assisted development for database tools that developers actually use",
+    "Shows how LLMs can accelerate building domain-specific database extensions"
+   ]
+  },
+  {
+   "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/cs146s/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-08T21:41:44+00:00",
+   "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Stanford's CS146S course teaches AI-native software engineering, adapting curriculum to account for AI agents that can complete traditional homework assignments in single prompts.",
+   "whyMatters": [
+    "Education practitioners must redesign coursework when AI capabilities make old assignments obsolete; forces rethinking of what engineers actually need to learn",
+    "Represents a concrete shift in how computer science education approaches skill-building in an AI-capable environment"
+   ]
+  },
+  {
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-08T21:23:29+00:00",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1bcf7-771f-7c67-ba1d-94f856e787b0/01a1bcf7-78db-7028-b115-7c753e3b3b76.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/dc6155e4-d68b-4a4f-a3b0-ffa9748c2676/Mihail_Eric_-_Podcast_Cover.jpg?t=1794171820",
+   "themes": [],
+   "aiSummary": "Stanford's second iteration of CS146S addresses the AI homework problem by bringing open-source maintainers into the course, requiring students to learn unfamiliar codebases and propose real changes rather than solving abstract problems.",
+   "whyMatters": [
+    "Education: demonstrates practical pivot toward project-based learning that AI agents cannot trivialize, grounding students in real engineering challenges",
+    "Shows educators building resilience into curricula by focusing on understanding existing systems and contributing to them rather than implementing from scratch"
    ]
   },
   {
@@ -391,26 +469,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises questions about AI recursive self-improvement and whether safety measures can keep pace with acceleration",
     "Highlights tension between capability gains and safety governance in leading AI labs"
-   ]
-  },
-  {
-   "title": "All the latest updates on AI data centers",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-06T20:03:32+00:00",
-   "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Major tech companies are rapidly expanding AI data centers to support their AI ambitions, but this expansion has triggered widespread conflicts over energy consumption, power grid strain, utility costs, and environmental impact across multiple countries. The issue has become a significant bipartisan political concern.",
-   "whyMatters": [
-    "Data center energy demands pose concrete infrastructure and environmental challenges that now command political attention",
-    "Creates practical tension between AI development and community interests, affecting policy decisions and regulation"
    ]
   },
   {
@@ -2771,24 +2829,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Game Boy Color on My Conference Badge",
-   "link": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-27T19:34:18+00:00",
-   "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy C",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg",
-   "themes": [],
-   "aiSummary": "Developers at GitHub Universe demonstrated an NES emulator running on a Game Boy Color emulator, both deployed on a conference badge that is itself a full-color computer with its own processing power.",
-   "whyMatters": [
-    "Shows the practical accessibility of AI-assisted development—developers collaborated with Gemini to rapidly build functional emulators",
-    "Illustrates creative uses of constrained hardware when paired with modern AI coding assistance"
-   ]
-  },
-  {
    "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
    "link": "https://latent.space/p/opus55/",
    "source": "Latent Space",
@@ -2865,24 +2905,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
-   "link": "https://latent.space/p/ainews-anthropic-s1/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-27T07:24:59+00:00",
-   "summary": "The S-1, the numbers, and the reactions.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic filed for an IPO with extraordinary financial metrics: 1400% growth rate, $1B operating profit in Q2, 85% margins, and $134B in cash reserves. The company generates 48% of its revenue through cloud partners and has a $10B lifetime operational burn.",
-   "whyMatters": [
-    "Demonstrates the capital intensity and profitability potential of frontier AI companies, signaling investor confidence in the AI sector's business model and Anthropic's competitive position",
-    "The IPO filing marks a major inflection point for AI safety-focused development—Anthropic's prominence in public markets could influence how the industry prioritizes responsible AI development and governance"
-   ]
-  },
-  {
    "title": "4 Questions for AI This Week",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/4-Questions-for-AI-This-Week-e3r4p63",
    "source": "The AI Daily Brief",
@@ -2936,24 +2958,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical adoption patterns of AI tools by power users, useful for understanding which capabilities are gaining real-world traction",
     "The focus on task-specific model selection shows the industry moving beyond single-model strategies"
-   ]
-  },
-  {
-   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-   "link": "https://latent.space/p/ainews-kimi-31/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-24T07:18:29+00:00",
-   "summary": "We have Fable at home... or so we are being told by paid shills",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Latent Space reports on Kimi 3.1 Pro 104BA-2.8T, an open-weights model claimed to match closed-source AI capabilities with a one-month gap, while also announcing a new Pro API with 2-3× speed improvements.",
-   "whyMatters": [
-    "Indicates open-source models are closing the performance gap with proprietary systems, affecting competitive dynamics",
-    "Faster API speeds could democratize access to frontier-class models"
    ]
   },
   {
