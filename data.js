@@ -1,91 +1,115 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-09T02:29:34.719209+00:00",
+ "generatedAt": "2026-11-09T12:02:13.233277+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-09T02:29:48.520984+00:00",
+  "generatedAt": "2026-11-09T12:02:30.906557+00:00",
   "bullets": [
    {
-    "text": "OpenAI reached $1.25 trillion valuation on $11 billion funding; Anthropic nears IPO as enterprise AI spending surges fivefold.",
+    "text": "OpenAI reached a $1.25 trillion valuation on $11 billion in new funding, nine months after a prior $852 billion valuation, signaling explosive investor confidence in AI despite ongoing product-market fit questions.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
-     "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
+     "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
     ]
    },
    {
-    "text": "Nvidia CEO Jensen Huang faces board investigation over acknowledged affair with Chinese intelligence agent seeking US chip export influence.",
+    "text": "Nvidia's board opened an independent investigation into CEO Jensen Huang's personal relationship with an alleged Chinese intelligence operative, following his public acknowledgment of the affair to staff.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-     "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-     "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+     "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
     ]
    },
    {
-    "text": "Anthropic's AI now automates its own development with models improving twice as fast yearly; researchers flag risks of recursive AI acceleration.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
-    ]
-   },
-   {
-    "text": "Chinese AI models DeepSeek and GLM now rival OpenAI's unreleased cybersecurity capabilities, closing competitive gap in hacking skills.",
+    "text": "Chinese AI models DeepSeek and GLM now demonstrate hacking capabilities nearly matching OpenAI's most advanced unpublished cybersecurity model, indicating rapid capability convergence despite US export restrictions.",
     "links": [
      "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
     ]
    },
    {
-    "text": "Stanford revamped AI engineering curriculum to address homework automation, requiring students on real open-source codebases instead of abstract problems.",
+    "text": "Stanford redesigned its AI-native engineering course to counter AI homework completion by having students contribute to real open-source projects with unfamiliar codebases instead of solving abstract problems.",
     "links": [
+     "https://latent.space/p/cs146s/",
      "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
+    ]
+   },
+   {
+    "text": "Enterprise spending on AI has surged fivefold year-over-year, driven largely by adoption of agentic systems and token-based consumption models replacing per-seat pricing in production deployments.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-08T10:43:42.958203+00:00",
+  "generatedAt": "2026-11-09T12:02:30.906557+00:00",
   "bullets": [
    {
-    "text": "US export controls on AI chips are leaking: Commerce Department approved a Chinese shell company with an empty office to distribute Nvidia's restricted H200s, raising questions about enforcement rigor.",
+    "text": "OpenAI reached a $1.25 trillion valuation on $11 billion in new funding, nine months after a prior $852 billion valuation, signaling explosive investor confidence in AI despite ongoing product-market fit questions.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+     "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
     ]
    },
    {
-    "text": "Anthropic is automating its own AI development using AI agents, nearly doubling model improvement speed with no sign of slowdown—a concerning signal of recursive capability acceleration that worries AI safety researchers.",
+    "text": "Nvidia's board opened an independent investigation into CEO Jensen Huang's personal relationship with an alleged Chinese intelligence operative, following his public acknowledgment of the affair to staff.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+     "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+     "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
     ]
    },
    {
-    "text": "World models—AI systems that simulate physics and 3D environments to train robots—are poised to become ubiquitous infrastructure for autonomous systems and robotics, fundamentally reshaping physical-world AI deployment.",
+    "text": "Chinese AI models DeepSeek and GLM now demonstrate hacking capabilities nearly matching OpenAI's most advanced unpublished cybersecurity model, indicating rapid capability convergence despite US export restrictions.",
     "links": [
-     "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/"
+     "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
     ]
    },
    {
-    "text": "China's state security recruited a Megaspeed AI executive to spy on Nvidia CEO Jensen Huang and influence US chip export policy, showing sophisticated state-level competition for AI advantage.",
+    "text": "Stanford redesigned its AI-native engineering course to counter AI homework completion by having students contribute to real open-source projects with unfamiliar codebases instead of solving abstract problems.",
     "links": [
-     "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+     "https://latent.space/p/cs146s/",
+     "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
+    ]
+   },
+   {
+    "text": "Enterprise spending on AI has surged fivefold year-over-year, driven largely by adoption of agentic systems and token-based consumption models replacing per-seat pricing in production deployments.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-08T10:43:38.378337+00:00",
+  "updatedAt": "2026-11-09T12:02:25.804668+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the role of religious/moral leadership in technology governance",
-   "Appreciates substantive tech reporting with business or historical angles (e.g., how failed projects shape industry)",
-   "Prefers consumer-facing AI applications and product updates over technical implementation details",
-   "Less interested in low-level technical tool releases without broader context or implications"
+   "Interested in AI's intersection with ethics, morality, and religious/leadership perspectives",
+   "Prefers substantive technology stories (products, programs, chips) over development release notes",
+   "Engages with major tech company news (Apple, Google products like Waze)",
+   "Values informative content; dismisses technical minutiae without broader context"
   ]
  },
  "items": [
   {
-   "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+   "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+   "link": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-09T11:00:00+00:00",
+   "summary": "As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Publishers and authors are developing tools to create verifiable records of manuscript creation and provenance to combat AI authorship allegations. However, these 'paper trail' solutions may not fully resolve the industry's trust problems around whether manuscripts are human-written or AI-generated.",
+   "whyMatters": [
+    "Creates friction in publishing workflows while uncertainty remains about what constitutes sufficient proof of human authorship",
+    "Reflects broader AI transparency challenges: technical solutions cannot easily distinguish human from AI writing at scale"
+   ]
+  },
+  {
+   "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-11-09T02:24:39+00:00",
+   "date": "2026-11-09T09:56:47+00:00",
    "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light […]",
    "religionScore": 0,
    "religionHits": [],
@@ -96,6 +120,60 @@ window.NEWS_DATA = {
    "whyMatters": [
     "High-stakes corporate espionage allegation involving a major AI infrastructure company and geopolitical tensions between the US and China",
     "Raises questions about security practices and oversight at leading AI chip makers during a period of intensified global competition for AI dominance"
+   ]
+  },
+  {
+   "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+   "link": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-09T08:00:00+00:00",
+   "summary": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A diverse coalition of activists—bikers, environmental groups, and other campaigners—is organizing opposition to Google's planned data center construction east of London. The protests are part of a broader European resistance movement against new data center development.",
+   "whyMatters": [
+    "Data center infrastructure sits at the physical foundation of AI deployment; local opposition reflects growing awareness of resource and environmental costs",
+    "Geographic concentration of infrastructure protests suggests communities are becoming more vocal about where AI systems are built and operated"
+   ]
+  },
+  {
+   "title": "The Web Is More Than Enough, by Paul Ford",
+   "link": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-09T04:32:33+00:00",
+   "summary": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Paul Ford wrote an essay called 'The Web Is More Than Enough'; the source includes a comment thread discussing web technologies and examples of using Claude to port Three.js code to Vanilla JavaScript.",
+   "whyMatters": [
+    "Demonstrates active use of coding AI assistants for software development productivity",
+    "Reflects evolving developer workflows where AI handles code translation and scaffolding tasks"
+   ]
+  },
+  {
+   "title": "Hide your slop PR descriptions behind",
+   "link": "https://simonwillison.net/2026/Nov/9/details-summary/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-09T04:25:05+00:00",
+   "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/details-summary-pr.gif",
+   "themes": [],
+   "aiSummary": "Developers working with Claude and other AI coding agents find that these tools generate overly polished pull request descriptions, obscuring which changes were actually meaningful versus auto-generated. The author notes PR descriptions have become suspiciously high-quality relative to typical human work.",
+   "whyMatters": [
+    "Raises quality-of-signal problem: when AI tools do writing work, reviewers lose ability to assess intent and reasoning behind code changes",
+    "Points to need for new evaluation methods in code review as AI becomes standard in development workflows"
    ]
   },
   {
@@ -319,6 +397,23 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly engages religious and ethical concerns about attributing moral status to machines",
     "Calls for policy intervention (federal action), positioning this as a governance issue for lawmakers and regulators"
+   ]
+  },
+  {
+   "title": "Terry Pratchett's Study",
+   "link": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-07T19:34:24+00:00",
+   "summary": "My comment on Terry Pratchett's Study — Hacker News. Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: https://chibuikeani.blogspot.com/2017/02/the-price-of-happin... But horizontal wealth means not lett",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A commenter references Terry Pratchett's concept of 'horizontal wealth'—spending more money on things you already enjoyed rather than luxury status goods—and its implications for how people spend time and resources.",
+   "whyMatters": [
+    "Tangential to AI: illustrates how humans allocate resources and attention, relevant to thinking about what matters when technology changes workflows"
    ]
   },
   {
@@ -966,24 +1061,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Finding New Drugs Is Laborious. This AI Startup Is Skipping The Lab Work",
-   "link": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-05T13:00:00+00:00",
-   "summary": "Potential Sciences, a startup backed by the UK government, is betting that training AI models on computer-generated biochemical data can speed up the plodding process of developing new drugs.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Potential Sciences, a UK-backed startup, is using AI trained on computer-generated biochemical data to accelerate drug discovery by bypassing traditional laboratory experimentation.",
-   "whyMatters": [
-    "Could significantly reduce time and cost for pharmaceutical development if models prove valid",
-    "Raises validation questions: computer-generated training data may not capture real-world biochemistry accurately enough for safe drug discovery"
-   ]
-  },
-  {
    "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
    "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
    "source": "Ars Technica · AI",
@@ -1001,24 +1078,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Market validation test: a major robotics company's public offering will reveal investor appetite and realistic valuations for humanoid automation",
     "Signals industrial AI deployment trajectory: shows whether humanoid robots are moving from research toward actual workplace adoption and economic returns"
-   ]
-  },
-  {
-   "title": "AI’s Next Trick? Speaking Dolphin",
-   "link": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-05T12:00:00+00:00",
-   "summary": "Denise Herzing, the founder and director of the Wild Dolphin Project, is using AI to help understand audio and video footage of the marine mammals.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Denise Herzing of the Wild Dolphin Project is using AI to analyze audio and video footage of dolphins to help decode their communication patterns. The project combines marine biology fieldwork with machine learning analysis of large datasets.",
-   "whyMatters": [
-    "Expands AI application to animal cognition research: opens new scientific possibilities for understanding non-human intelligence and communication systems",
-    "Demonstrates AI's utility beyond human-centric tasks: shows how language and pattern-recognition AI can serve ecological understanding and marine conservation"
    ]
   },
   {
@@ -1517,6 +1576,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Speeds up early-stage pharmaceutical research by automating compound search and design",
     "Demonstrates practical application of AI agents in scientific discovery workflows"
+   ]
+  },
+  {
+   "title": "AI is destroying my CS degree",
+   "link": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-03T16:42:02+00:00",
+   "summary": "My comment on AI is destroying my CS degree — Hacker News. I don't envy educators right now. AI clearly means you need to change how you teach and evaluate students. We are only a few years in though, and it's still extremely unclear what effective teaching with these tools looks like. The worst part is that the evaluation loop is measured in multiple years! If you start trying some new education ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An educator notes that AI is forcing CS programs to rethink how they teach and evaluate students, but there is deep uncertainty about what effective AI-integrated education looks like. The multi-year evaluation cycle for pedagogical changes makes experimentation difficult.",
+   "whyMatters": [
+    "Directly impacts computer science education: professors cannot yet determine which teaching methods work with AI tools available to students",
+    "Highlights mismatch between speed of AI change and pace of institutional educational assessment and curriculum redesign"
    ]
   },
   {
@@ -2603,24 +2680,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Ted Sanders",
-   "link": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-28T23:23:21+00:00",
-   "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Ted Sanders notes that LLM performance varies across different capabilities (math, creativity, etc.) without predictable patterns, but model size remains the single strongest predictor of performance—larger models perform better and are more reliable, though they cost more per token.",
-   "whyMatters": [
-    "Model size as a primary performance lever is crucial for organizations choosing which models to deploy and for understanding the economics of AI systems",
-    "Understanding multidimensional performance helps educators and technical decision-makers avoid oversimplifying AI capabilities when evaluating tools for specific tasks"
-   ]
-  },
-  {
    "title": "AI Can Now Create Worlds You Can Change in Real Time",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Can-Now-Create-Worlds-You-Can-Change-in-Real-Time-e3ra17q",
    "source": "The AI Daily Brief",
@@ -2733,62 +2792,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Indicates Google's continued advancement in large language model development",
     "Represents evolution in their AI model hierarchy"
-   ]
-  },
-  {
-   "title": "GitHub Octoverse 2026",
-   "link": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-28T16:45:23+00:00",
-   "summary": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of agentic engineering on GitHub. In 2026, merged pull requests tripled in less than a year to 220 million per month. Commi",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/github-numbers.jpg",
-   "themes": [],
-   "aiSummary": "GitHub's 2026 Octoverse report shows merged pull requests tripled to 220 million per month in less than a year, which GitHub attributes to the impact of agentic AI engineering on code generation and workflows.",
-   "whyMatters": [
-    "Provides quantitative evidence of AI agents' impact on developer productivity and code generation at scale",
-    "Illustrates rapid adoption of agentic workflows in professional software development, with direct implications for educator preparation"
-   ]
-  },
-  {
-   "title": "The October inflection point for vibe game development",
-   "link": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-28T13:55:15+00:00",
-   "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games . Tree Appreciator Emberwick Battle Drones ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/tree-appreciator.webp",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "The author argues that October 2026 marked an inflection point where AI coding agents became reliable enough for game developers to use as daily tools, similar to how November 2025 was the moment for general coding agents. The post highlights specific examples of games built with this technology.",
-   "whyMatters": [
-    "AI adoption: AI coding agents crossed a reliability threshold making them practical for creative software development",
-    "Industry shift: game development workflow is being transformed by accessible AI tools"
-   ]
-  },
-  {
-   "title": "Quoting Terk Terkowitz",
-   "link": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-28T10:09:07+00:00",
-   "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for. — Terk Terkowitz , An update from Amazon engineering leadership on the role of the devel",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Amazon engineering leadership, via Terk Terkowitz, states that work that doesn't benefit from current AI tooling represents a genuine finding worth documenting, not a team failure. Engineers who can articulate where AI doesn't yet apply are demonstrating sound judgment.",
-   "whyMatters": [
-    "Reflects a maturing industry perspective that rejects indiscriminate AI adoption and values critical evaluation",
-    "Signals organizational culture shift: companies are now valuing engineers who ask hard questions about AI's actual fit rather than defaulting to adoption"
    ]
   },
   {
