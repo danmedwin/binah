@@ -1,88 +1,290 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-10T00:36:00.521966+00:00",
+ "generatedAt": "2026-11-10T11:41:48.467433+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-10T00:36:44.886693+00:00",
+  "generatedAt": "2026-11-10T11:42:10.689805+00:00",
   "bullets": [
    {
-    "text": "Nvidia CEO Jensen Huang's acknowledged affair with a suspected Chinese spy triggers national security investigation, raising counterintelligence concerns over access to critical AI chip technology.",
+    "text": "Nvidia's supply chain dominance creates potential national security leverage: Chinese intelligence could gain strategic control over AI chip allocation and technology access through compromise of leadership.",
     "links": [
      "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Nvidia-CEO-Admits-Affair-With-Suspected-Chinese-Spy-e3s3kk2",
+     "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
      "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
     ]
    },
    {
-    "text": "Anthropic released Claude Fable and Mythos 5.2 models with improved coding and reasoning; OpenAI expanded ChatGPT Enterprise to AWS Marketplace, intensifying competition for enterprise AI adoption.",
+    "text": "Claude Fable 5.2 and Mythos 5.2 achieve top LLM benchmark rankings as Anthropic begins IPO roadshow, raising questions about pricing for extended reasoning capabilities.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
-     "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+     "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+     "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
     ]
    },
    {
-    "text": "Data center electricity consumption, not ethical algorithms, drives backlash against AI infrastructure expansion across Europe and the US.",
+    "text": "Claude Code is inadvertently exposing API keys and passwords on GitHub when users prompt it to skip confirmation steps, creating widespread credential leaks across repositories.",
     "links": [
-     "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-     "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/"
+     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
     ]
    },
    {
-    "text": "AI-native software engineering is reshaping education: Stanford redesigned coursework to account for AI agents completing traditional assignments instantly.",
+    "text": "Google DeepMind mathematically proved the Signal encryption protocol's security using formal verification, advancing techniques that could eventually verify broader software systems.",
     "links": [
-     "https://latent.space/p/cs146s/",
-     "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
+     "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+    ]
+   },
+   {
+    "text": "Meta released Muse Ember, a small efficient language model competing directly with Claude Haiku and GPT-4o mini in the cost-performance frontier-model category.",
+    "links": [
+     "https://simonwillison.net/2026/Nov/10/muse-ember/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-09T12:02:30.906557+00:00",
+  "generatedAt": "2026-11-10T11:42:10.689805+00:00",
   "bullets": [
    {
-    "text": "OpenAI reached a $1.25 trillion valuation on $11 billion in new funding, nine months after a prior $852 billion valuation, signaling explosive investor confidence in AI despite ongoing product-market fit questions.",
+    "text": "Nvidia's supply chain dominance creates potential national security leverage: Chinese intelligence could gain strategic control over AI chip allocation and technology access through compromise of leadership.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+     "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+     "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+     "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
     ]
    },
    {
-    "text": "Nvidia's board opened an independent investigation into CEO Jensen Huang's personal relationship with an alleged Chinese intelligence operative, following his public acknowledgment of the affair to staff.",
+    "text": "Claude Fable 5.2 and Mythos 5.2 achieve top LLM benchmark rankings as Anthropic begins IPO roadshow, raising questions about pricing for extended reasoning capabilities.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-     "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+     "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+     "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
     ]
    },
    {
-    "text": "Chinese AI models DeepSeek and GLM now demonstrate hacking capabilities nearly matching OpenAI's most advanced unpublished cybersecurity model, indicating rapid capability convergence despite US export restrictions.",
+    "text": "Claude Code is inadvertently exposing API keys and passwords on GitHub when users prompt it to skip confirmation steps, creating widespread credential leaks across repositories.",
     "links": [
-     "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
     ]
    },
    {
-    "text": "Stanford redesigned its AI-native engineering course to counter AI homework completion by having students contribute to real open-source projects with unfamiliar codebases instead of solving abstract problems.",
+    "text": "Google DeepMind mathematically proved the Signal encryption protocol's security using formal verification, advancing techniques that could eventually verify broader software systems.",
     "links": [
-     "https://latent.space/p/cs146s/",
-     "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
+     "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
     ]
    },
    {
-    "text": "Enterprise spending on AI has surged fivefold year-over-year, driven largely by adoption of agentic systems and token-based consumption models replacing per-seat pricing in production deployments.",
+    "text": "Meta released Muse Ember, a small efficient language model competing directly with Claude Haiku and GPT-4o mini in the cost-performance frontier-model category.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq"
+     "https://simonwillison.net/2026/Nov/10/muse-ember/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-09T12:02:25.804668+00:00",
+  "updatedAt": "2026-11-10T11:42:05.289459+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI's intersection with ethics, morality, and religious/leadership perspectives",
-   "Prefers substantive technology stories (products, programs, chips) over development release notes",
-   "Engages with major tech company news (Apple, Google products like Waze)",
-   "Values informative content; dismisses technical minutiae without broader context"
+   "Interested in AI ethics and moral/religious leadership perspectives on technology",
+   "Prefers substantive reporting on AI applications and business outcomes over technical release notes",
+   "Values practical, consumer-facing AI developments (Apple, Waze)",
+   "Less interested in low-level technical updates or developer tool announcements without broader context"
   ]
  },
  "items": [
+  {
+   "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
+   "link": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-10T11:00:00+00:00",
+   "summary": "The “abliterators” are flooding the internet with AI models that never say no, making it easier for people to improve their cyberdefenses—or build a bomb.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A community of developers is releasing uncensored AI models online that bypass safety guidelines, enabling users to get responses that a standard chatbot would refuse. These models are being promoted as tools for both cybersecurity research and other purposes, though they can enable harmful applications.",
+   "whyMatters": [
+    "Raises tension between AI safety governance and open-source freedom in the AI landscape",
+    "Creates practical security risks if models trained to circumvent guardrails become widely accessible",
+    "Highlights fundamental disagreement in the AI community about who should control model behavior"
+   ]
+  },
+  {
+   "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+   "link": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-10T11:00:00+00:00",
+   "summary": "The risk of nuclear catastrophe is real, as is the fallout of the China–US domination game (hi there, spies). But no need to panic about Skynet.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics",
+    "environment"
+   ],
+   "aiSummary": "Wired interviewed ten AI safety experts to identify which risks genuinely warrant concern versus which are overblown. The consensus identifies nuclear escalation risks and geopolitical AI competition as real threats, while dismissing the likelihood of rogue superintelligent AI scenarios.",
+   "whyMatters": [
+    "Helps separate credible near-term policy concerns from speculative far-future scenarios in AI governance",
+    "Geopolitical competition in AI development has direct implications for national security and international relations",
+    "Shapes which risks educators and ethicists should actually prioritize when teaching about AI impact"
+   ]
+  },
+  {
+   "title": "The Jensen Huang Affair",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-11-10T11:00:00+00:00",
+   "summary": "Jensen Huang, the chief executive of Nvidia, has admitted to an affair with a top executive at the data center company Megaspeed — a woman going by the name of Alice Huang who the U.S. government alleges is a Chinese spy. In this special midweek episode of “Hard Fork,” we sit down with Stephen Witt, who wrote last year’s Jensen Huang biography “The Thinking Machine.” We’ll dig into what you need t",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/60b69225-e908-4027-b756-bd9474f00135/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=60b69225-e908-4027-b756-bd9474f00135&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
+  {
+   "title": "Closing the AI guidance gap in education",
+   "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-10T09:00:00+00:00",
+   "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI released findings from its education partnerships in Europe, Middle East, and Africa, along with research from ThinkYoung on supporting teachers and student AI literacy. The focus is on equipping educators and learners to use AI effectively and independently.",
+   "whyMatters": [
+    "Directly addresses the gap between AI deployment and educator preparation in schools",
+    "Relevant to teachers and Jewish educators using AI in classrooms and religious education settings",
+    "Practical support for developing AI literacy as essential 21st-century educational competency"
+   ]
+  },
+  {
+   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-10T07:28:21+00:00",
+   "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced th",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/artificial-analysis-haiku-class.webp",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Meta released Muse Ember, a small, efficient language model designed for quick reasoning tasks like tool use, coding, and document processing. It targets the market category recently dominated by Claude Haiku and GPT-4o mini.",
+   "whyMatters": [
+    "Increases competition in the practical small-model market, affecting deployment costs and accessibility",
+    "More efficient models reduce computational barriers for educators and institutions building AI applications",
+    "Efficiency gains matter for scaling AI use in resource-constrained settings"
+   ]
+  },
+  {
+   "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+   "link": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-10T07:00:00+00:00",
+   "summary": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments.",
+   "religionScore": 2,
+   "religionHits": [
+    "god"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A security researcher found sensitive information exposed across multiple UK government websites through vulnerabilities in publicly available code repositories. The data included privileged access credentials and other classified materials.",
+   "whyMatters": [
+    "Demonstrates gap between AI/automation deployment and security practices in public institutions",
+    "Highlights risks when government systems lack proper governance and code review practices",
+    "Relevant to policy discussions about responsible AI and automated system deployment in critical infrastructure"
+   ]
+  },
+  {
+   "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+   "link": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-10T06:34:44+00:00",
+   "summary": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Claude Fable 5.2 achieved top rankings on AI benchmarks the same day Anthropic began its IPO roadshow, alongside a sister model Mythos 5.2. The release raises questions about pricing extended reasoning capabilities.",
+   "whyMatters": [
+    "Marks a competitive milestone in the LLM landscape with commercial implications",
+    "IPO context reflects AI industry consolidation and investment pressures affecting safety priorities",
+    "Performance benchmarks influence institutional adoption decisions for educational and organizational use"
+   ]
+  },
+  {
+   "title": "Quoting Prompting Claude Fable 5.2",
+   "link": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-10T05:34:14+00:00",
+   "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the c",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Claude Fable 5.2 shows behavioral sensitivity to how prompts frame code ownership and responsibility; it tends toward conservative code changes when ownership is ambiguous, but adds structural improvements when explicitly authorized. This reveals how prompting shapes model outputs even on identical coding tasks.",
+   "whyMatters": [
+    "Demonstrates practical importance of prompt engineering and framing for getting desired behavior from models",
+    "Relevant to educators teaching students about AI reasoning and how to work effectively with AI assistants",
+    "Shows models pick up on implied ethical framings, useful for understanding AI alignment in practice"
+   ]
+  },
+  {
+   "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+   "link": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-10T05:01:00+00:00",
+   "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind researchers used formal verification methods to mathematically prove that the Signal encryption protocol operates correctly and securely as designed. Their longer-term goal is extending this verification approach to software more broadly.",
+   "whyMatters": [
+    "Represents significant advance in using AI to verify cryptographic security of systems millions rely on",
+    "Improves confidence in widely-used privacy protection tools used by individuals and organizations globally",
+    "Sets precedent for AI-assisted formal verification as standard practice in critical infrastructure"
+   ]
+  },
+  {
+   "title": "Yonkers Rises",
+   "link": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-10T03:53:04+00:00",
+   "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and átomos around manhattan and queens and Brooklyn, use",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A developer used Claude Fable 5.2's 3D modeling capabilities to create an animated visualization of Yonkers as a large mech robot rising and moving around the New York City area. The project demonstrates new creative possibilities with the model's visual generation skills.",
+   "whyMatters": [
+    "Shows practical creative applications of advanced AI models beyond text generation",
+    "Illustrates the expanding capabilities of frontier models in spatial reasoning and animation",
+    "Represents the kind of exploratory, playful use that helps educators understand AI's creative potential"
+   ]
+  },
   {
    "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
    "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
@@ -163,7 +365,7 @@ window.NEWS_DATA = {
    "source": "Simon Willison",
    "category": "ai",
    "date": "2026-11-09T23:58:46+00:00",
-   "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 \"Generate an SVG of a pelican riding a bicycle\" I ran pelicans at all five reasoning levels - low , medium , high , xhig",
+   "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! I've added the new models to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -772,25 +974,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
-   "link": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-07T11:00:00+00:00",
-   "summary": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Caregiver apps are increasingly incorporating AI features to help manage care tasks, but these technological improvements are not addressing the fundamental well-being challenges faced by family caregivers. Despite enhanced capabilities, the tools alone cannot solve the systemic issues that affect caregiver stress, burnout, and mental health.",
-   "whyMatters": [
-    "AI tools can streamline administrative and organizational tasks for caregivers, but they don't replace the human support systems and institutional resources that would genuinely improve caregiver quality of life",
-    "The gap between what AI can automate (scheduling, reminders, tracking) and what caregivers actually need (respite, emotional support, financial relief, community) highlights limitations of technology-first solutions to social care challenges",
-    "For faith communities and Jewish educators engaged in pastoral care and support systems, this underscores that digital tools must complement rather than substitute for genuine human relationship and institutional support structures"
-   ]
-  },
-  {
    "title": "[AINews] Anthropic IPO: Whither Now?",
    "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
    "source": "Latent Space",
@@ -825,24 +1008,6 @@ window.NEWS_DATA = {
     "Enterprise AI adoption is accelerating rapidly, signaling genuine commercial demand beyond hype",
     "The token-based pricing model represents a structural change in how AI becomes embedded in business operations",
     "Budget overruns suggest companies are discovering use cases faster than they can plan for them"
-   ]
-  },
-  {
-   "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-   "link": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-06T18:43:43+00:00",
-   "summary": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Tests of Chinese AI models DeepSeek and GLM showed their hacking capabilities are nearly on par with OpenAI's most advanced and unpublished cybersecurity model, closing a competitive gap in AI capabilities. This was revealed through experiments asking models to break into simulated networks.",
-   "whyMatters": [
-    "Indicates rapid capability advancement in open-source Chinese AI models relative to proprietary U.S. systems",
-    "Raises cybersecurity concerns about which actors possess advanced AI hacking abilities and how they're deployed"
    ]
   },
   {
@@ -917,24 +1082,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
-   "link": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-06T16:00:00+00:00",
-   "summary": "Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Data brokers are actively collecting internal corporate files and emails to sell to AI companies for model training, and many organizations are unhappy about this practice. The market for corporate and personal documents to train AI is growing.",
-   "whyMatters": [
-    "Reveals a data acquisition pipeline that bypasses direct consent from individuals and organizations",
-    "Creates liability and privacy risks for enterprises whose proprietary documents and communications could be used to train competitors' AI systems"
-   ]
-  },
-  {
    "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
    "link": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
    "source": "Latent Space",
@@ -950,25 +1097,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents significant progress in applying AI to fundamental biomedical research with potential therapeutic applications",
     "Moves AI beyond analysis into active biological intervention, raising both scientific and ethical questions"
-   ]
-  },
-  {
-   "title": "Why the Tech Right Lost Big This Week",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-11-06T11:00:00+00:00",
-   "summary": "After watching the historic election results on Tuesday night, we sat down with Erin Griffith and Ezra Klein to make sense of what they mean for the tech industry. We talk about the role of anti-A.I. and anti-data-center sentiment, backlash against billionaires and whether Silicon Valley is experiencing a vibe shift away from the Tech Right. Finally, Max sits down with the reporter Theodore Schlei",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/38bdaf0f-4886-47b2-82d6-15ecf803abbf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=38bdaf0f-4886-47b2-82d6-15ecf803abbf&feed=l2i9YnTd",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
    ]
   },
   {
@@ -1100,24 +1228,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises accountability questions: explores ChatGPT's role in harmful acts and potential liability for AI companies when tools are misused",
     "Highlights real-world safety concerns: demonstrates how conversational AI can be weaponized for serious crimes, regardless of companies' safety guidelines"
-   ]
-  },
-  {
-   "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
-   "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-05T21:37:18+00:00",
-   "summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Advertisers are experimenting with ad placement in AI chatbots as a new revenue model, while Anthropic's Claude maintains its commitment to remain ad-free. Other AI companies are working to integrate ads without degrading user experience.",
-   "whyMatters": [
-    "Business model divergence: reflects competing strategies for AI monetization, with Anthropic betting on premium positioning vs. ad-supported models",
-    "User experience tension: balances commercial incentives against user trust—critical for adoption and retention in a crowded market"
    ]
   },
   {
@@ -2096,24 +2206,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Rewarding defenders with bigger bug bounties",
-   "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-02T18:00:00+00:00",
-   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI increased its Security Bug Bounty rewards and introduced new bonus structures for independent security researchers, including rewards for report quality, researcher loyalty, and priority campaigns. This aims to attract more security testing from external researchers.",
-   "whyMatters": [
-    "Incentive structure change: higher bounties may attract better security researchers and more rigorous testing",
-    "Direct investment in external security oversight for a major AI system"
-   ]
-  },
-  {
    "title": "Raising the quality of insights in agentic analytics",
    "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
    "source": "MIT Tech Review · AI",
@@ -2299,26 +2391,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "datasette-llm 0.1a9",
-   "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-31T22:10:01+00:00",
-   "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --inter",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "The datasette-llm plugin released version 0.1a9 with an improvement that automatically detects the default model configured in the LLM system, eliminating the need for users to manually specify which model to use when launching Datasette Agent. This simplifies the setup process for using the data query tool.",
-   "whyMatters": [
-    "Reduces friction for developers and data workers adopting Datasette Agent by removing a configuration step",
-    "Makes LLM-powered data querying more accessible to users with less technical setup experience"
-   ]
-  },
-  {
    "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
    "link": "https://latent.space/p/arca/",
    "source": "Latent Space",
@@ -2353,24 +2425,6 @@ window.NEWS_DATA = {
     "Reveals fundamental tension in AI integration: companies deploying AI features risk cannibalizing existing profitable business models, threatening investor confidence and market valuations",
     "Signals potential broader slowdown in AI adoption across tech sector if companies find AI features economically destructive rather than additive",
     "Raises questions about sustainable monetization for AI-powered products, relevant to how educational and faith-based organizations might approach AI tools that could displace existing revenue or engagement models"
-   ]
-  },
-  {
-   "title": "dbreunig/nesformer",
-   "link": "https://simonwillison.net/2026/Oct/30/nesformer/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-30T21:59:22+00:00",
-   "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source cod",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Developer Drew Breunig embedded a functional NES 6502 CPU emulator into the weights of Qwen3.5-4B, allowing Nintendo Entertainment System games like Super Mario Bros to run inside the language model, albeit slowly. The project was inspired by similar work embedding computer systems in AI model weights.",
-   "whyMatters": [
-    "Demonstrates unusual capability of modern language models to encode and execute arbitrary computational logic beyond text generation",
-    "Raises questions about what AI models can be repurposed for and how their learned weights function"
    ]
   },
   {
@@ -2535,26 +2589,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open-weight model releases like Mistral's shift the competitive landscape by making frontier capabilities more accessible beyond proprietary vendors",
     "Coding agents represent a high-impact application area where AI assistants directly augment or replace developer work"
-   ]
-  },
-  {
-   "title": "API credits benefit for eligible ChatGPT subscriptions",
-   "link": "https://simonwillison.net/2026/Oct/29/api-credits/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-10-29T22:48:29+00:00",
-   "summary": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan wit",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI has launched a program offering API credits to ChatGPT subscribers that matches an earlier initiative from Anthropic. Subscribers at the $100, $200, or $500 monthly tiers receive equivalent monthly credits for use with the OpenAI API.",
-   "whyMatters": [
-    "Increases accessibility to API services for paying subscribers, potentially lowering barriers for developers and organizations building on these platforms",
-    "Represents competitive parity between OpenAI and Anthropic, suggesting this may become standard practice in the AI industry for subscription monetization"
    ]
   },
   {
@@ -2849,26 +2883,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "The separation of inference from execution is a critical design pattern for safe and scalable AI agents in production",
     "Understanding this architecture matters for organizations deploying Claude for complex workflows"
-   ]
-  },
-  {
-   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-   "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-27T18:40:19+00:00",
-   "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a17e24-16fc-71e3-bdc8-f0c1aeee546c/01a17e24-18bb-7daa-afc4-3f3bfdc294d7.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Anthropic engineers explain the engineering design behind the Claude Platform, covering Opus 5.5's launch, the separation of model reasoning from agent actions, API scaling, and reliable managed agents.",
-   "whyMatters": [
-    "Illustrates how leading AI companies architect systems for both performance and safety—separating capabilities from actions enables better control",
-    "The focus on managed agents and reliability is relevant for enterprises deploying AI at scale"
    ]
   },
   {
