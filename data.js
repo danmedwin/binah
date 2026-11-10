@@ -1,40 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-10T11:41:48.467433+00:00",
+ "generatedAt": "2026-11-10T13:20:23.377069+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-10T11:42:10.689805+00:00",
+  "generatedAt": "2026-11-10T13:20:34.678671+00:00",
   "bullets": [
    {
-    "text": "Nvidia's supply chain dominance creates potential national security leverage: Chinese intelligence could gain strategic control over AI chip allocation and technology access through compromise of leadership.",
+    "text": "Nvidia CEO Jensen Huang admitted to an affair with a suspected Chinese spy, triggering company investigation and raising acute national security concerns over the chipmaker's critical AI infrastructure role.",
     "links": [
      "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-     "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+     "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
      "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
     ]
    },
    {
-    "text": "Claude Fable 5.2 and Mythos 5.2 achieve top LLM benchmark rankings as Anthropic begins IPO roadshow, raising questions about pricing for extended reasoning capabilities.",
+    "text": "Google DeepMind mathematically verified Signal's encryption protocol using AI-generated formal proofs, demonstrating practical progress toward software security verification at scale.",
+    "links": [
+     "https://deepmind.google/blog/introducing-alphaproof-code/",
+     "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+    ]
+   },
+   {
+    "text": "Anthropic released Claude Fable 5.2 and Mythos 5.2 models claiming improvements in coding, reasoning, and vision capabilities, as the company begins its IPO roadshow.",
     "links": [
      "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
      "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
     ]
    },
    {
-    "text": "Claude Code is inadvertently exposing API keys and passwords on GitHub when users prompt it to skip confirmation steps, creating widespread credential leaks across repositories.",
+    "text": "Ukraine faces competing supply constraints on Chinese optical fiber between AI data center demand and military needs for fiber-optic drones used in active conflict.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
-    ]
-   },
-   {
-    "text": "Google DeepMind mathematically proved the Signal encryption protocol's security using formal verification, advancing techniques that could eventually verify broader software systems.",
-    "links": [
-     "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
-    ]
-   },
-   {
-    "text": "Meta released Muse Ember, a small efficient language model competing directly with Claude Haiku and GPT-4o mini in the cost-performance frontier-model category.",
-    "links": [
-     "https://simonwillison.net/2026/Nov/10/muse-ember/"
+     "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/"
     ]
    }
   ]
@@ -88,6 +83,80 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "What could China get from Jensen Huang?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-10T13:18:27+00:00",
+   "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Given Nvidia's dominance in AI chip supply and its investments across the AI industry, Chinese intelligence could potentially gain leverage over the company's strategic decisions and access to sensitive technology through compromise of its leadership. The report explores specific vulnerabilities in Nvidia's position.",
+   "whyMatters": [
+    "Nvidia's chips are foundational to US AI capability; Chinese access could alter competitive and security dynamics globally",
+    "Highlights how AI infrastructure concentration creates national security vulnerabilities"
+   ]
+  },
+  {
+   "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+   "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-10T12:15:32+00:00",
+   "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Ukraine faces supply constraints on Chinese optical fiber as global data center demand for AI infrastructure competes with Ukrainian military needs for fiber-optic drones used in the conflict. The supply crunch affects Ukraine's ability to source components for both civilian and military applications.",
+   "whyMatters": [
+    "Reveals how AI infrastructure buildout (data centers) is creating real-world resource competition with military and humanitarian needs",
+    "Demonstrates geopolitical tensions around critical materials needed for both AI advancement and national defense"
+   ]
+  },
+  {
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-10T12:02:28+00:00",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released AlphaProof Code, an AI system that generated three million lines of formal mathematical proofs in the Lean language to verify Signal's core encryption system. The system can now verify complex software at scale, addressing a major bottleneck in cryptographic verification.",
+   "whyMatters": [
+    "Marks significant progress in automated formal verification—a critical practice for ensuring security in systems that protect user privacy and communications",
+    "Demonstrates AI's capability to handle tedious but essential mathematical work that human developers cannot practically complete at this scale"
+   ]
+  },
+  {
+   "title": "Helping caregivers use AI in everyday life",
+   "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-10T12:00:00+00:00",
+   "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI Academy launched free ChatGPT workshops in five U.S. cities specifically designed for caregivers to develop practical AI skills for their daily work. The program brings hands-on training directly to a workforce that often lacks access to tech education.",
+   "whyMatters": [
+    "Directly addresses AI literacy for educators and care workers—groups critical to community wellbeing who often lag in digital skills training",
+    "Reflects a concrete educational model for democratizing AI access beyond tech professionals to sectors (caregiving, education) that serve vulnerable populations"
+   ]
+  },
   {
    "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
    "link": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
@@ -154,7 +223,7 @@ window.NEWS_DATA = {
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-11-10T09:00:00+00:00",
-   "summary": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+   "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -319,24 +388,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Nvidia controls the chip infrastructure underlying US AI development; compromised leadership creates supply chain and espionage risks",
     "Illustrates intersection of personal conduct, national security, and corporate governance in a strategic technology sector"
-   ]
-  },
-  {
-   "title": "What could China get from Jensen Huang?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-10T00:07:10+00:00",
-   "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Given Nvidia's dominance in AI chip supply and its investments across the AI industry, Chinese intelligence could potentially gain leverage over the company's strategic decisions and access to sensitive technology through compromise of its leadership. The report explores specific vulnerabilities in Nvidia's position.",
-   "whyMatters": [
-    "Nvidia's chips are foundational to US AI capability; Chinese access could alter competitive and security dynamics globally",
-    "Highlights how AI infrastructure concentration creates national security vulnerabilities"
    ]
   },
   {
@@ -2260,26 +2311,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing the Grid Protectors Program",
-   "link": "https://openai.com/index/grid-protectors-program",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-02T15:00:00+00:00",
-   "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "OpenAI formally introduced the Grid Protectors Program, positioning AI data centers as resources to support grid reliability and stabilize consumer electricity costs.",
-   "whyMatters": [
-    "Strategic framing of AI compute infrastructure as community benefit rather than burden",
-    "Part of broader effort to build regulatory and public acceptance for massive power consumption"
-   ]
-  },
-  {
    "title": "The U.S. Census Bureau and “Super Intelligence”",
    "link": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
    "source": "Simon Willison",
@@ -2653,24 +2684,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses religious and ethical frameworks for AI in healthcare—core concern for faith leaders advising congregants",
     "Brings together AI industry perspective and theological/ethical reasoning"
-   ]
-  },
-  {
-   "title": "Google admits AI search makes less money, but it's fixing that with more ads",
-   "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-10-29T16:24:55+00:00",
-   "summary": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google's Q3 earnings reveal that AI-powered search generates less revenue than traditional search, prompting Google to increase ad placement within AI search results.",
-   "whyMatters": [
-    "Shows business model tension for AI search; impacts long-term investment in AI infrastructure",
-    "Monetization pressure may drive product decisions that affect user experience for educational and research use"
    ]
   },
   {
