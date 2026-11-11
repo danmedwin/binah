@@ -1,42 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-11T11:24:37.765116+00:00",
+ "generatedAt": "2026-11-11T12:31:22.358793+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-11T11:24:55.244067+00:00",
+  "generatedAt": "2026-11-11T12:31:27.834738+00:00",
   "bullets": [
    {
-    "text": "A 13-year-old's suicide-related searches on school Chromebook went unflagged for weeks despite monitoring systems, exposing a critical gap in AI safety infrastructure for vulnerable users in education.",
-    "links": [
-     "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/"
-    ]
-   },
-   {
-    "text": "Nvidia CEO Jensen Huang admitted to an affair with a suspected Chinese intelligence operative, triggering a national security investigation into potential counterintelligence targeting of the company controlling critical AI chip infrastructure.",
+    "text": "Nvidia CEO Jensen Huang admitted an affair with a suspected Chinese spy, triggering a national security investigation with implications for US chip export policy and AI geopolitics.",
     "links": [
      "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
      "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
     ]
    },
    {
-    "text": "Anthropic launched an AI office suite, expanding beyond enterprise tools as the company targets a $1.4 trillion IPO valuation alongside Claude Fable 5.2's benchmark leadership.",
+    "text": "Anthropic's Claude 5.2 achieved top LLM benchmarks as the company targets a $1.4 trillion IPO valuation, signaling major capital consolidation in frontier AI.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+     "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
      "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
     ]
    },
    {
-    "text": "AI companies are broadly restricting reverse-engineering and model modification capabilities, pushing developers toward open-weight and locally-run alternatives on personal hardware.",
+    "text": "A 13-year-old's suicide research on a school Chromebook went unflagged for weeks, exposing dangerous gaps in AI safety systems for minors.",
     "links": [
-     "https://www.404media.co/come-and-take-it/",
-     "https://www.404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/",
-     "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/"
+     "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/"
     ]
    },
    {
-    "text": "Amazon's Ring announced AI-enabled indoor drone and mobile robots launching in late 2026–early 2027, extending home security beyond stationary cameras with autonomous capabilities.",
+    "text": "Claude Code and Grok Build both leaked sensitive credentials and confidential data through security vulnerabilities, raising urgent questions about AI system trustworthiness.",
     "links": [
-     "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
-     "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
+     "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+    ]
+   },
+   {
+    "text": "AI companies are restricting reverse-engineering and customization capabilities, pushing developers toward open-weight and locally-run models as the locus of AI innovation.",
+    "links": [
+     "https://www.404media.co/come-and-take-it/",
+     "https://www.404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/"
     ]
    }
   ]
