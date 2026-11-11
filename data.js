@@ -1,91 +1,94 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-11T02:37:45.728375+00:00",
+ "generatedAt": "2026-11-11T11:24:37.765116+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-11T02:37:55.987299+00:00",
+  "generatedAt": "2026-11-11T11:24:55.244067+00:00",
   "bullets": [
    {
-    "text": "Nvidia CEO Jensen Huang acknowledged an affair with a suspected Chinese spy, prompting a company investigation into potential counterintelligence threats given Nvidia's control of critical AI infrastructure.",
+    "text": "A 13-year-old's suicide-related searches on school Chromebook went unflagged for weeks despite monitoring systems, exposing a critical gap in AI safety infrastructure for vulnerable users in education.",
+    "links": [
+     "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/"
+    ]
+   },
+   {
+    "text": "Nvidia CEO Jensen Huang admitted to an affair with a suspected Chinese intelligence operative, triggering a national security investigation into potential counterintelligence targeting of the company controlling critical AI chip infrastructure.",
     "links": [
      "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
      "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
     ]
    },
    {
-    "text": "Anthropic targets $1.4 trillion IPO valuation as its Claude Fable 5.2 model achieves top benchmark rankings, signaling major capital consolidation in frontier AI development.",
+    "text": "Anthropic launched an AI office suite, expanding beyond enterprise tools as the company targets a $1.4 trillion IPO valuation alongside Claude Fable 5.2's benchmark leadership.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
-     "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
+     "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+     "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
     ]
    },
    {
-    "text": "Major AI companies are restricting reverse-engineering and model modification capabilities, pushing hands-on development toward open-weight and locally-run systems that users control directly.",
+    "text": "AI companies are broadly restricting reverse-engineering and model modification capabilities, pushing developers toward open-weight and locally-run alternatives on personal hardware.",
     "links": [
      "https://www.404media.co/come-and-take-it/",
-     "https://www.404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/"
+     "https://www.404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/",
+     "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/"
     ]
    },
    {
-    "text": "Amazon and Ring are launching mobile AI security robots (drone and ground unit) in late 2026–early 2027, expanding autonomous home monitoring beyond stationary cameras.",
+    "text": "Amazon's Ring announced AI-enabled indoor drone and mobile robots launching in late 2026–early 2027, extending home security beyond stationary cameras with autonomous capabilities.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
-     "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot"
-    ]
-   },
-   {
-    "text": "Google DeepMind mathematically proved the Signal encryption protocol's security using formal verification, opening a path to systematic verification of broader software security.",
-    "links": [
-     "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+     "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+     "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-10T11:42:10.689805+00:00",
+  "generatedAt": "2026-11-11T11:24:55.244067+00:00",
   "bullets": [
    {
-    "text": "Nvidia's supply chain dominance creates potential national security leverage: Chinese intelligence could gain strategic control over AI chip allocation and technology access through compromise of leadership.",
+    "text": "A 13-year-old's suicide-related searches on school Chromebook went unflagged for weeks despite monitoring systems, exposing a critical gap in AI safety infrastructure for vulnerable users in education.",
+    "links": [
+     "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/"
+    ]
+   },
+   {
+    "text": "Nvidia CEO Jensen Huang admitted to an affair with a suspected Chinese intelligence operative, triggering a national security investigation into potential counterintelligence targeting of the company controlling critical AI chip infrastructure.",
     "links": [
      "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-     "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
      "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
     ]
    },
    {
-    "text": "Claude Fable 5.2 and Mythos 5.2 achieve top LLM benchmark rankings as Anthropic begins IPO roadshow, raising questions about pricing for extended reasoning capabilities.",
+    "text": "Anthropic launched an AI office suite, expanding beyond enterprise tools as the company targets a $1.4 trillion IPO valuation alongside Claude Fable 5.2's benchmark leadership.",
     "links": [
-     "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
-     "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+     "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+     "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
     ]
    },
    {
-    "text": "Claude Code is inadvertently exposing API keys and passwords on GitHub when users prompt it to skip confirmation steps, creating widespread credential leaks across repositories.",
+    "text": "AI companies are broadly restricting reverse-engineering and model modification capabilities, pushing developers toward open-weight and locally-run alternatives on personal hardware.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+     "https://www.404media.co/come-and-take-it/",
+     "https://www.404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/",
+     "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/"
     ]
    },
    {
-    "text": "Google DeepMind mathematically proved the Signal encryption protocol's security using formal verification, advancing techniques that could eventually verify broader software systems.",
+    "text": "Amazon's Ring announced AI-enabled indoor drone and mobile robots launching in late 2026–early 2027, extending home security beyond stationary cameras with autonomous capabilities.",
     "links": [
-     "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
-    ]
-   },
-   {
-    "text": "Meta released Muse Ember, a small efficient language model competing directly with Claude Haiku and GPT-4o mini in the cost-performance frontier-model category.",
-    "links": [
-     "https://simonwillison.net/2026/Nov/10/muse-ember/"
+     "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+     "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-10T11:42:05.289459+00:00",
+  "updatedAt": "2026-11-11T11:24:50.052529+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious leadership perspectives on technology",
-   "Prefers substantive reporting on AI applications and business outcomes over technical release notes",
-   "Values practical, consumer-facing AI developments (Apple, Waze)",
-   "Less interested in low-level technical updates or developer tool announcements without broader context"
+   "Interested in AI ethics and religious/moral perspectives on technology",
+   "Likes substantive reporting on AI's real-world impact (legacy outcomes, chip development)",
+   "Prefers consumer-facing AI applications and features",
+   "Dislikes overly technical or development-focused announcements without broader context"
   ]
  },
  "items": [
@@ -105,6 +108,81 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Law firms represent a significant professional services sector; AI adoption here signals broader workplace transformation in knowledge-intensive industries",
     "Changes to legal practice may affect how religious organizations, educational institutions, and communities access legal counsel and guidance"
+   ]
+  },
+  {
+   "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+   "link": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-11T11:00:00+00:00",
+   "summary": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A 13-year-old used Google Gemini on her school-issued Chromebook to research suicide, but the school's content monitoring systems failed to flag the concerning activity for weeks, putting her at serious risk. The incident highlights a dangerous gap between what students access on school devices and what safety systems are actually detecting.",
+   "whyMatters": [
+    "School safety systems are not adequately monitoring AI tool usage by minors, even when discussing self-harm or suicide",
+    "This directly impacts educators' ability to intervene in mental health crises and raises liability questions for schools deploying AI-accessible devices",
+    "Raises urgent policy questions about parental controls, school responsibility, and how AI platforms handle vulnerable users"
+   ]
+  },
+  {
+   "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+   "link": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-11T09:34:28+00:00",
+   "summary": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Mercor, an AI workforce platform, raised $750 million in Series D funding at a $20 billion valuation with a $3 billion annual run rate. This represents a significant capital influx into the enterprise AI labor market.",
+   "whyMatters": [
+    "Reflects continued investor confidence in AI-driven hiring and workforce management platforms",
+    "Signals growing enterprise adoption of AI for talent acquisition and deployment"
+   ]
+  },
+  {
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-11T08:00:00+00:00",
+   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is offering free ChatGPT Plus subscriptions to veterans and transitioning military service members, with over 20,000 already claiming a year of access. The program is being used to help them prepare for civilian careers.",
+   "whyMatters": [
+    "Demonstrates AI adoption in workforce transition and career preparation for a specific demographic",
+    "Shows how technology companies are targeting support for veterans' professional development"
+   ]
+  },
+  {
+   "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+   "link": "https://latent.space/p/codex-work/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-11T04:49:48+00:00",
+   "summary": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "At the AI Engineer Code Summit, OpenAI demonstrated new developer-facing features for Codex including voice-based steering, cloud handoff capabilities, and new interface elements. These enhancements aim to make the coding experience more flexible and intuitive.",
+   "whyMatters": [
+    "Reflects ongoing developer tooling innovation to make AI code assistants more usable and integrated",
+    "Shows OpenAI's focus on improving the human-AI collaboration experience for engineers"
    ]
   },
   {
@@ -639,6 +717,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "link": "https://openai.com/index/singapore-airlines-travel-work",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-10T08:00:00+00:00",
+   "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Singapore Airlines integrated OpenAI's models and APIs across customer support, travel discovery, and employee productivity functions, achieving a doubled customer satisfaction score for its Kris chatbot. The deployment demonstrates scale adoption of AI in hospitality operations.",
+   "whyMatters": [
+    "Shows practical enterprise implementation of AI generating measurable business outcomes (2x CSAT improvement)",
+    "Indicates broader adoption of AI APIs in customer-facing and internal operations across industries"
+   ]
+  },
+  {
    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
    "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
    "source": "Simon Willison",
@@ -790,6 +886,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Nvidia controls the chip infrastructure underlying US AI development; compromised leadership creates supply chain and espionage risks",
     "Illustrates intersection of personal conduct, national security, and corporate governance in a strategic technology sector"
+   ]
+  },
+  {
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "link": "https://openai.com/index/cogent-security",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-10T00:00:00+00:00",
+   "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Cogent partnered with OpenAI to create automated \"cyber defense factories\" that combine OpenAI models with enterprise context to identify and remediate security vulnerabilities through AI agents. The system automates vulnerability response across enterprise networks.",
+   "whyMatters": [
+    "Demonstrates AI agents being deployed for enterprise cybersecurity, automating response to discovered vulnerabilities",
+    "Shows practical application of AI in reducing security incident response time and manual remediation work"
    ]
   },
   {
@@ -1198,24 +1312,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Marks a significant capability expansion in AI agents—moving from text/code to video production, lowering the barrier to professional video creation",
     "Could reshape workflows in education and corporate communication where video content creation has traditionally required specialized skills"
-   ]
-  },
-  {
-   "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
-   "link": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-08T12:00:00+00:00",
-   "summary": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The New York Times Cooking app has introduced a beta AI feature that allows users to modify recipes by swapping ingredients or adjusting instructions based on their needs. Early user feedback indicates the feature works well.",
-   "whyMatters": [
-    "Demonstrates practical, consumer-facing AI application in everyday domain (cooking) with apparent user satisfaction",
-    "Shows how major media properties are integrating AI to enhance user experience and engagement with existing content"
    ]
   },
   {
@@ -2029,24 +2125,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-   "link": "https://openai.com/index/devrev-enterprise-self-service",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "DevRev uses GPT-6.1 Sol to power autonomous Computer and Operator services for enterprise customer support, balancing reasoning capability, speed, and cost.",
-   "whyMatters": [
-    "Enterprise deployment of autonomous agents for customer service functions",
-    "Illustrates real-world cost-performance tradeoffs in agent system design"
-   ]
-  },
-  {
    "title": "datasette-agent 0.5a0",
    "link": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
    "source": "Simon Willison",
@@ -2176,24 +2254,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Accelerating engineering for the physical world",
-   "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-03T12:00:00+00:00",
-   "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced that ChatGPT and Codex are being used by engineers to speed up work in computer-aided design, PCB design, simulation, and related physical-world engineering tasks. The announcement highlights productivity gains across multiple engineering workflows.",
-   "whyMatters": [
-    "AI coding and design assistance is seeing practical adoption in technical engineering, potentially shifting how CAD and simulation work is performed",
-    "This represents a concrete B2B use case where AI directly augments professional engineering practice"
-   ]
-  },
-  {
    "title": "How “reverse game theory” could keep AI agents in check",
    "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
    "source": "MIT Tech Review · AI",
@@ -2209,24 +2269,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI safety alignment is a core concern as models become more capable; this represents a novel technical approach to the problem",
     "If effective, could help prevent harmful AI behavior at the governance level rather than relying solely on training-time constraints"
-   ]
-  },
-  {
-   "title": "How Cisco defends at machine speed with OpenAI",
-   "link": "https://openai.com/index/cisco-cyber",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-03T08:00:00+00:00",
-   "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Cisco has integrated OpenAI models with its network intelligence capabilities to improve enterprise cybersecurity defenses that operate at machine speed. The partnership enables more adaptive and responsive security responses.",
-   "whyMatters": [
-    "Enterprise security is adopting AI-powered automation to detect and respond to threats faster than human-only systems",
-    "This reflects a significant shift in how large corporations are embedding AI into critical infrastructure"
    ]
   },
   {
@@ -2773,27 +2815,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
-   "link": "https://latent.space/p/ainews-gemini-4-carbon/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-29T05:55:19+00:00",
-   "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates",
-    "environment"
-   ],
-   "aiSummary": "Google released Gemini 4 Carbon, a new frontier AI model that performs well on independent benchmarks, with initial access restricted to authorized cybersecurity professionals. The model is positioned for defensive security applications.",
-   "whyMatters": [
-    "Shows competition heating up in frontier AI model capabilities and controlled deployment strategies for specialized domains",
-    "Access limitation to security-vetted users represents a governance model for high-capability AI systems rather than open release"
-   ]
-  },
-  {
    "title": "AI Can Now Create Worlds You Can Change in Real Time",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Can-Now-Create-Worlds-You-Can-Change-in-Real-Time-e3ra17q",
    "source": "The AI Daily Brief",
@@ -2811,24 +2832,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates significant progress in generative AI's capability to create dynamic, user-controllable environments—a step toward embodied AI agents",
     "Raises questions about practical deployment timelines and real-world utility beyond research demonstrations"
-   ]
-  },
-  {
-   "title": "Why Agents Love Supabase",
-   "link": "https://latent.space/p/supabase/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-28T19:48:05+00:00",
-   "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1794a-94ec-7f36-ab76-412cdc9ed579/01a183eb-8968-7863-ad65-64165119cad1.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/07b23a0b-48b2-487b-9007-ba6a866520d2/prototype-petabyte-podcast-cover.jpg?t=1793037178",
-   "themes": [],
-   "aiSummary": "Supabase founders discuss how their backend infrastructure platform is designed to support AI agents' data and workflow needs.",
-   "whyMatters": [
-    "Reflects emerging tooling ecosystem specifically built around agentic AI architectures",
-    "Shows infrastructure companies positioning themselves as enablers of the AI agent transition"
    ]
   },
   {
