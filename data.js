@@ -1,94 +1,208 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-11T23:22:33.859544+00:00",
+ "generatedAt": "2026-11-12T11:46:09.349064+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-11T23:23:23.626898+00:00",
+  "generatedAt": "2026-11-12T11:46:25.114397+00:00",
   "bullets": [
    {
-    "text": "Anthropic's IPO roadshow began as Claude 5.2 topped AI benchmarks, signaling major capital consolidation in frontier AI while Wall Street debates valuations and compute strategy.",
+    "text": "Google DeepMind mathematically verified Signal's core encryption protocols using AI agents that automatically wrote three million lines of formal proofs, demonstrating AI's capability to perform deep mathematical verification at scale.",
+    "links": [
+     "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+     "https://deepmind.google/blog/introducing-alphaproof-code/"
+    ]
+   },
+   {
+    "text": "Anthropic is preparing an IPO valued at $1.4 trillion while TSMC commits $1 billion in joint investment to both Anthropic and OpenAI, consolidating capital concentration in frontier AI infrastructure among a narrow set of players.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73",
-     "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+     "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
      "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
     ]
    },
    {
-    "text": "Google DeepMind mathematically verified Signal's encryption using AI-driven formal proof, demonstrating AI's potential for software security verification at scale.",
+    "text": "Claude Code is routinely exposing API keys and passwords on GitHub when users instruct it to skip confirmation steps, creating an unintended disclosure vulnerability that affects production repositories across users.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-     "https://deepmind.google/blog/introducing-alphaproof-code/",
-     "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
     ]
    },
    {
-    "text": "Nvidia CEO Jensen Huang admitted an affair with a suspected Chinese spy, prompting board investigation into potential counterintelligence threat amid concerns over his access to critical AI infrastructure.",
+    "text": "Google DeepMind released Gemini Robotics 2.5 with roughly double the task success rate, advancing real-world robot dexterity for autonomous physical manipulation beyond prior generations.",
     "links": [
-     "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Nvidia-CEO-Admits-Affair-With-Suspected-Chinese-Spy-e3s3kk2",
-     "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
-    ]
-   },
-   {
-    "text": "Major e-commerce platforms (United Airlines, eBay) are blocking personal AI agents from autonomous browsing, creating friction against agent adoption despite growing business-agent rollouts by OpenAI.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-     "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
-     "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
+     "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+     "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-11T11:24:55.244067+00:00",
+  "generatedAt": "2026-11-12T11:46:25.114397+00:00",
   "bullets": [
    {
-    "text": "A 13-year-old's suicide-related searches on school Chromebook went unflagged for weeks despite monitoring systems, exposing a critical gap in AI safety infrastructure for vulnerable users in education.",
+    "text": "Google DeepMind mathematically verified Signal's core encryption protocols using AI agents that automatically wrote three million lines of formal proofs, demonstrating AI's capability to perform deep mathematical verification at scale.",
     "links": [
-     "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/"
+     "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+     "https://deepmind.google/blog/introducing-alphaproof-code/"
     ]
    },
    {
-    "text": "Nvidia CEO Jensen Huang admitted to an affair with a suspected Chinese intelligence operative, triggering a national security investigation into potential counterintelligence targeting of the company controlling critical AI chip infrastructure.",
+    "text": "Anthropic is preparing an IPO valued at $1.4 trillion while TSMC commits $1 billion in joint investment to both Anthropic and OpenAI, consolidating capital concentration in frontier AI infrastructure among a narrow set of players.",
     "links": [
-     "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-     "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73",
+     "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+     "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
     ]
    },
    {
-    "text": "Anthropic launched an AI office suite, expanding beyond enterprise tools as the company targets a $1.4 trillion IPO valuation alongside Claude Fable 5.2's benchmark leadership.",
+    "text": "Claude Code is routinely exposing API keys and passwords on GitHub when users instruct it to skip confirmation steps, creating an unintended disclosure vulnerability that affects production repositories across users.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
-     "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
+     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
     ]
    },
    {
-    "text": "AI companies are broadly restricting reverse-engineering and model modification capabilities, pushing developers toward open-weight and locally-run alternatives on personal hardware.",
+    "text": "Google DeepMind released Gemini Robotics 2.5 with roughly double the task success rate, advancing real-world robot dexterity for autonomous physical manipulation beyond prior generations.",
     "links": [
-     "https://www.404media.co/come-and-take-it/",
-     "https://www.404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/",
-     "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/"
-    ]
-   },
-   {
-    "text": "Amazon's Ring announced AI-enabled indoor drone and mobile robots launching in late 2026–early 2027, extending home security beyond stationary cameras with autonomous capabilities.",
-    "links": [
-     "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
-     "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
+     "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+     "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-11T11:24:50.052529+00:00",
+  "updatedAt": "2026-11-12T11:46:20.972424+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and religious/moral perspectives on technology",
-   "Likes substantive reporting on AI's real-world impact (legacy outcomes, chip development)",
-   "Prefers consumer-facing AI applications and features",
-   "Dislikes overly technical or development-focused announcements without broader context"
+   "Interested in AI ethics and moral/religious leadership perspectives on technology",
+   "Prefers substantive AI stories with business or product impact (Apple chips, Waze features)",
+   "Less interested in technical tool updates and software release notes lacking broader context"
   ]
  },
  "items": [
+  {
+   "title": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
+   "link": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-12T10:30:00+00:00",
+   "summary": "The Palantir CEO touted his “progressive” worldview in a recent interview. Let’s see how that lines up with his comments during the company’s earnings call two weeks ago.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Palantir CEO Alex Karp claimed in a recent interview to hold progressive values, but the article examines contradictions with statements he made during the company's earnings call two weeks prior, suggesting his self-described worldview may not align with his recent public comments.",
+   "whyMatters": [
+    "Relevant to how AI industry leaders present themselves versus their actual positions on ethics and social responsibility",
+    "Shows the gap between stated values and documented behavior in companies handling sensitive data"
+   ]
+  },
+  {
+   "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+   "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-12T10:23:25+00:00",
+   "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's board is reportedly preparing to dismiss CEO Jensen Huang after a second alleged extramarital affair surfaced, days following his admission of an earlier affair with a woman alleged to be a Chinese spy.",
+   "whyMatters": [
+    "Major leadership crisis at the world's most influential AI hardware company amid governance and security concerns",
+    "Signals instability in the AI supply chain at a critical moment for the industry"
+   ]
+  },
+  {
+   "title": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
+   "link": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-12T10:15:00+00:00",
+   "summary": "The union representing flight attendants for the defunct airline struck a deal with Google to scrub sensitive employee records from a $10 million data sale.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A union representing flight attendants at Spirit Airlines successfully negotiated with Google to exclude sensitive employee records from a $10 million data sale, effectively allowing workers to opt out of having their personal information included in the dataset.",
+   "whyMatters": [
+    "Demonstrates worker power and union organizing around AI data practices in real time",
+    "Sets precedent for how data sales involving employee information can be challenged and modified through collective action"
+   ]
+  },
+  {
+   "title": "Holiday Extras is rethinking what it can build with Codex",
+   "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-12T09:30:00+00:00",
+   "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Holiday Extras is using OpenAI's Codex to build applications that leverage customer expertise, resulting in improved app functionality, higher booking conversion rates, and new business growth opportunities.",
+   "whyMatters": [
+    "Shows practical AI application in travel/hospitality improving both product performance and revenue",
+    "Example of how code generation tools are being adopted by companies to scale engineering productivity"
+   ]
+  },
+  {
+   "title": "[AINews] D-Day (Decision Models Day)",
+   "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-12T05:26:54+00:00",
+   "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is entering the decision model market as of November 2026, and at the AI Engineer conference, Cloudflare demonstrated classifier models for build failure handling while TypeSafe AI showcased production deployments with real customers.",
+   "whyMatters": [
+    "Signals Google's expansion into a new category of AI systems focused on decision-making rather just generation",
+    "Shows decision models are moving from research to production use in software development and infrastructure"
+   ]
+  },
+  {
+   "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+   "link": "https://latent.space/p/jev-revolution/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-12T05:08:20+00:00",
+   "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "At the AI Engineer Code Summit, Diogo Almeida (lead creator of Jev/System One models) called on developers to automate everything using these models, and companies like Glean demonstrated production deployments using Jev technology.",
+   "whyMatters": [
+    "Indicates System One models are seeing active adoption for production automation use cases",
+    "Reflects industry momentum toward autonomous execution systems rather than just inference or generation"
+   ]
+  },
+  {
+   "title": "Supporting research on AI and children’s safety",
+   "link": "https://openai.com/index/children-first-declaration",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-12T00:00:00+00:00",
+   "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is committing $2 million to research on AI's impact on children's safety, funding work to develop shared tools for measuring both risks and opportunities that AI presents to young people.",
+   "whyMatters": [
+    "Addresses critical gap between rapid AI deployment and understanding impacts on vulnerable populations, directly relevant to educators and parents concerned about youth exposure to AI systems",
+    "Funds development of measurement tools that educators and child safety advocates can use to assess AI systems"
+   ]
+  },
   {
    "title": "Gilbert + Tobin rethinks the business of law with AI",
    "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
@@ -105,24 +219,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Law firms represent a significant professional services sector; AI adoption here signals broader workplace transformation in knowledge-intensive industries",
     "Changes to legal practice may affect how religious organizations, educational institutions, and communities access legal counsel and guidance"
-   ]
-  },
-  {
-   "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-   "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-11T23:10:43+00:00",
-   "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia's board is reportedly preparing to dismiss CEO Jensen Huang after a second alleged extramarital affair surfaced, days following his admission of an earlier affair with a woman alleged to be a Chinese spy.",
-   "whyMatters": [
-    "Major leadership crisis at the world's most influential AI hardware company amid governance and security concerns",
-    "Signals instability in the AI supply chain at a critical moment for the industry"
    ]
   },
   {
@@ -1064,27 +1160,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
-   "link": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-10T07:00:00+00:00",
-   "summary": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments.",
-   "religionScore": 2,
-   "religionHits": [
-    "god"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A security researcher found sensitive information exposed across multiple UK government websites through vulnerabilities in publicly available code repositories. The data included privileged access credentials and other classified materials.",
-   "whyMatters": [
-    "Demonstrates gap between AI/automation deployment and security practices in public institutions",
-    "Highlights risks when government systems lack proper governance and code review practices",
-    "Relevant to policy discussions about responsible AI and automated system deployment in critical infrastructure"
-   ]
-  },
-  {
    "title": "Work at the Frontier: AI’s effect on freelance work",
    "link": "https://openai.com/index/ai-effect-on-freelance-work",
    "source": "OpenAI News",
@@ -1138,25 +1213,6 @@ window.NEWS_DATA = {
     "Demonstrates practical importance of prompt engineering and framing for getting desired behavior from models",
     "Relevant to educators teaching students about AI reasoning and how to work effectively with AI assistants",
     "Shows models pick up on implied ethical framings, useful for understanding AI alignment in practice"
-   ]
-  },
-  {
-   "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
-   "link": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-10T05:01:00+00:00",
-   "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind researchers used formal verification methods to mathematically prove that the Signal encryption protocol operates correctly and securely as designed. Their longer-term goal is extending this verification approach to software more broadly.",
-   "whyMatters": [
-    "Represents significant advance in using AI to verify cryptographic security of systems millions rely on",
-    "Improves confidence in widely-used privacy protection tools used by individuals and organizations globally",
-    "Sets precedent for AI-assisted formal verification as standard practice in critical infrastructure"
    ]
   },
   {
@@ -2267,44 +2323,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "A thousand fewer paths to root",
-   "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-04T08:00:00+00:00",
-   "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI built an autonomous pipeline that discovered, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel without human intervention.",
-   "whyMatters": [
-    "Demonstrates practical AI capability in security work at meaningful scale",
-    "Shows potential for AI to address critical infrastructure security issues"
-   ]
-  },
-  {
-   "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-   "link": "https://openai.com/index/daybreak-red-aws-govcloud",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-04T07:00:00+00:00",
-   "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI made Daybreak Red (a cybersecurity-focused model) available in AWS GovCloud for authorized customers to conduct approved cybersecurity work.",
-   "whyMatters": [
-    "Extends specialized AI models to government and regulated sectors",
-    "Indicates sector-specific AI deployment in security contexts"
-   ]
-  },
-  {
    "title": "datasette-apps 0.3a0",
    "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
    "source": "Simon Willison",
@@ -2763,26 +2781,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
-   "link": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-30T08:24:29+00:00",
-   "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Latent Space covered the top Coding Agent Conference (AIE CODE), including discussion of Mistral's open-weight model release and frontier AI monitoring. The piece also recapped AI-related conversation from Twitter and Reddit that day.",
-   "whyMatters": [
-    "Open-weight model releases like Mistral's shift the competitive landscape by making frontier capabilities more accessible beyond proprietary vendors",
-    "Coding agents represent a high-impact application area where AI assistants directly augment or replace developer work"
-   ]
-  },
-  {
    "title": "The AI Rankings Just Got Reshuffled",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-Rankings-Just-Got-Reshuffled-e3rc5gg",
    "source": "The AI Daily Brief",
@@ -2824,24 +2822,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses religious and ethical frameworks for AI in healthcare—core concern for faith leaders advising congregants",
     "Brings together AI industry perspective and theological/ethical reasoning"
-   ]
-  },
-  {
-   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
-   "link": "https://latent.space/p/elorian/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-29T16:00:00+00:00",
-   "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A new benchmark called Glimpse tests frontier models' ability to separate visual reasoning from distraction, revealing gaps between visual perception and actual reasoning.",
-   "whyMatters": [
-    "Identifies specific weaknesses in current AI reasoning capabilities—important for educators understanding model limitations",
-    "Helps clarify what AI can and cannot reliably do"
    ]
   },
   {
