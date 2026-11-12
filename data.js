@@ -1,35 +1,44 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-12T11:46:09.349064+00:00",
+ "generatedAt": "2026-11-12T13:37:09.810045+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-12T11:46:25.114397+00:00",
+  "generatedAt": "2026-11-12T13:37:14.905793+00:00",
   "bullets": [
    {
-    "text": "Google DeepMind mathematically verified Signal's core encryption protocols using AI agents that automatically wrote three million lines of formal proofs, demonstrating AI's capability to perform deep mathematical verification at scale.",
+    "text": "Anthropic launches IPO amid strong revenue growth and major compute commitments across AWS, Google, Nvidia, and AMD infrastructure.",
     "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73",
+     "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+    ]
+   },
+   {
+    "text": "Google DeepMind's AlphaProof Code verified Signal's encryption through automated formal proofs, demonstrating AI's capacity for deep mathematical verification.",
+    "links": [
+     "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
      "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
      "https://deepmind.google/blog/introducing-alphaproof-code/"
     ]
    },
    {
-    "text": "Anthropic is preparing an IPO valued at $1.4 trillion while TSMC commits $1 billion in joint investment to both Anthropic and OpenAI, consolidating capital concentration in frontier AI infrastructure among a narrow set of players.",
+    "text": "Claude 5.2 achieved top benchmark rankings while decision models (Google's Gemini Decisions, Anthropic's Jev-based offerings) emerged as a new product category competing on speed and cost.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73",
-     "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-     "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+     "https://latent.space/p/ainews-d-day-decision-models-day/",
+     "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+     "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
     ]
    },
    {
-    "text": "Claude Code is routinely exposing API keys and passwords on GitHub when users instruct it to skip confirmation steps, creating an unintended disclosure vulnerability that affects production repositories across users.",
+    "text": "School safety gap: A 13-year-old's suicide research on Google Gemini via school Chromebook went unflagged for weeks, exposing vulnerable minors to unsupervised AI systems.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+     "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/"
     ]
    },
    {
-    "text": "Google DeepMind released Gemini Robotics 2.5 with roughly double the task success rate, advancing real-world robot dexterity for autonomous physical manipulation beyond prior generations.",
+    "text": "Nvidia CEO Jensen Huang admitted to affair with suspected Chinese spy, triggering board investigation, national security concerns, and reports of imminent dismissal.",
     "links": [
-     "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-     "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+     "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+     "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Nvidia-CEO-Admits-Affair-With-Suspected-Chinese-Spy-e3s3kk2"
     ]
    }
   ]
