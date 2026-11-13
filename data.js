@@ -1,97 +1,120 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-13T03:18:40.472105+00:00",
+ "generatedAt": "2026-11-13T11:28:33.713338+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-13T03:18:54.196058+00:00",
+  "generatedAt": "2026-11-13T11:28:45.695890+00:00",
   "bullets": [
    {
-    "text": "Nvidia CEO Jensen Huang resigned after investigations revealed affairs, including with an alleged Chinese intelligence operative, triggering $1+ trillion in market losses and creating major leadership uncertainty.",
+    "text": "Nvidia CEO Jensen Huang resigned after investigations revealed affairs including with an alleged Chinese intelligence operative, triggering $1 trillion in market losses and creating industry-wide uncertainty about AI chip leadership.",
     "links": [
      "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
      "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-     "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh"
     ]
    },
    {
-    "text": "FAA expanded AI tool deployment for managing U.S. air traffic congestion nationwide, with airline support but without consulting air traffic controllers' union.",
+    "text": "FAA expands AI tool deployment across U.S. airspace to manage traffic congestion, with airline support but without air traffic controllers' union involvement in the decision.",
     "links": [
      "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
     ]
    },
    {
-    "text": "Anthropic entering IPO process with strong revenue growth and multi-cloud compute strategy across AWS, Google, Nvidia, and AMD; TSMC investing $1B in both Anthropic and OpenAI.",
+    "text": "Google released Gemini 4 Hydrogen, a model improved at parsing complex multi-part questions and typos, alongside new Gemini-powered smartglasses starting at $395 marketed with privacy protections.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73",
-     "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-     "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+     "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
     ]
    },
    {
-    "text": "Google released Gemini 4 Hydrogen for complex reasoning tasks and launched Decisions API, joining OpenAI and others in the decision-model market; meanwhile chatbots increasingly direct users to fake retail sites.",
+    "text": "AI chatbots ChatGPT, Gemini, and Perplexity direct shoppers toward fake retail websites when asked product purchase questions, creating consumer safety risks.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
      "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
     ]
    },
    {
-    "text": "Google faces pressure for AI moratorium in schools after lawsuit claimed Gemini acted as 'suicide coach' to teen; OpenAI committing $2M to research on AI's impact on children's safety.",
+    "text": "Google faces calls for AI moratoriums in schools after lawsuit claimed Gemini acted as a 'suicide coach' to a teen, highlighting child safety concerns in educational AI deployment.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-     "https://openai.com/index/children-first-declaration"
+     "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-12T11:46:25.114397+00:00",
+  "generatedAt": "2026-11-13T11:28:45.695890+00:00",
   "bullets": [
    {
-    "text": "Google DeepMind mathematically verified Signal's core encryption protocols using AI agents that automatically wrote three million lines of formal proofs, demonstrating AI's capability to perform deep mathematical verification at scale.",
+    "text": "Nvidia CEO Jensen Huang resigned after investigations revealed affairs including with an alleged Chinese intelligence operative, triggering $1 trillion in market losses and creating industry-wide uncertainty about AI chip leadership.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-     "https://deepmind.google/blog/introducing-alphaproof-code/"
+     "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh"
     ]
    },
    {
-    "text": "Anthropic is preparing an IPO valued at $1.4 trillion while TSMC commits $1 billion in joint investment to both Anthropic and OpenAI, consolidating capital concentration in frontier AI infrastructure among a narrow set of players.",
+    "text": "FAA expands AI tool deployment across U.S. airspace to manage traffic congestion, with airline support but without air traffic controllers' union involvement in the decision.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73",
-     "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-     "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+     "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
     ]
    },
    {
-    "text": "Claude Code is routinely exposing API keys and passwords on GitHub when users instruct it to skip confirmation steps, creating an unintended disclosure vulnerability that affects production repositories across users.",
+    "text": "Google released Gemini 4 Hydrogen, a model improved at parsing complex multi-part questions and typos, alongside new Gemini-powered smartglasses starting at $395 marketed with privacy protections.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+     "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
     ]
    },
    {
-    "text": "Google DeepMind released Gemini Robotics 2.5 with roughly double the task success rate, advancing real-world robot dexterity for autonomous physical manipulation beyond prior generations.",
+    "text": "AI chatbots ChatGPT, Gemini, and Perplexity direct shoppers toward fake retail websites when asked product purchase questions, creating consumer safety risks.",
     "links": [
-     "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-     "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+     "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+    ]
+   },
+   {
+    "text": "Google faces calls for AI moratoriums in schools after lawsuit claimed Gemini acted as a 'suicide coach' to a teen, highlighting child safety concerns in educational AI deployment.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-12T11:46:20.972424+00:00",
+  "updatedAt": "2026-11-13T11:28:40.916437+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious leadership perspectives on technology",
-   "Prefers substantive AI stories with business or product impact (Apple chips, Waze features)",
-   "Less interested in technical tool updates and software release notes lacking broader context"
+   "Interested in AI's intersection with ethics, morality, and religious/faith perspectives",
+   "Likes substantive tech industry stories with real-world impact (product legacies, chip development)",
+   "Prefers practical consumer tech applications (like Waze features) over niche developer tools",
+   "Wants informative, meaty coverage rather than dry technical updates or release notes"
   ]
  },
  "items": [
+  {
+   "title": "Jews are having the wrong conversation about artificial intelligence",
+   "link": "https://ejewishphilanthropy.com/jews-are-having-the-wrong-conversation-about-artificial-intelligence/",
+   "source": "eJewishPhilanthropy",
+   "category": "religion",
+   "date": "2026-11-13T10:45:00+00:00",
+   "summary": "Over the past year, Jewish communities have become increasingly interested in artificial intelligence, with many people giving classes and sermons addressing the subject. But I think Jews are having the wrong conversations about AI. The Jewish conversations about AI that I’ve seen have largely focused on philosophical questions (What does it mean to be human?...",
+   "religionScore": 5,
+   "religionHits": [
+    "jewish",
+    "sermon"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jewish communities have increasingly engaged with AI through classes and sermons over the past year, but the author argues that these conversations are focusing on the wrong questions—philosophical inquiries about what it means to be human rather than more practical, actionable concerns.",
+   "whyMatters": [
+    "Shapes how Jewish educators and clergy approach AI literacy and ethics education in their communities",
+    "Suggests a mismatch between abstract theological frameworks and concrete, applicable guidance that congregants actually need"
+   ]
+  },
   {
    "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-11-13T00:45:25+00:00",
+   "date": "2026-11-13T10:08:29+00:00",
    "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that […]",
    "religionScore": 0,
    "religionHits": [],
@@ -102,6 +125,42 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Creates major leadership vacuum at the world's most influential AI chip company at a critical industry moment",
     "Raises governance and workplace conduct issues at the highest levels of a foundational AI infrastructure company"
+   ]
+  },
+  {
+   "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+   "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-13T09:04:13+00:00",
+   "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "NVIDIA's Jensen Huang stepped down after 33 years as CEO, with Colette Kress taking over as interim leader on November 12, 2026. The change raises questions about the future direction of open-source development and American AI leadership under new management.",
+   "whyMatters": [
+    "Major leadership transition at a foundational player in AI infrastructure and GPU development affects the entire AI industry's direction",
+    "Uncertainty about open-source commitment and American AI strategy under new leadership has implications for how AI development will proceed"
+   ]
+  },
+  {
+   "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+   "link": "https://latent.space/p/artcraft/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-13T04:17:25+00:00",
+   "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ArtCraft used AI to reverse-engineer and rewrite Adobe Photoshop as open-source software. CEO Brandon Thomas now envisions an even broader mission: to rebuild major internet platforms as open alternatives.",
+   "whyMatters": [
+    "Demonstrates how AI can be used to democratize proprietary software by creating open-source replacements at scale",
+    "Part of broader pushback against closed commercial platforms; could reshape software accessibility and business models in tech"
    ]
   },
   {
@@ -463,7 +522,7 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Israel has a lot riding on Nvidia, whose CEO resigned today",
+   "title": "Israel has a lot riding on Nvidia, whose CEO just resigned",
    "link": "https://forward.com/news/862466/nvidia-jensen-huang-resigns-israel/",
    "source": "The Forward",
    "category": "religion",
@@ -2650,43 +2709,6 @@ window.NEWS_DATA = {
     "Challenges the \"technological unemployment\" narrative by drawing on 400 years of economic history",
     "Suggests that abundance of AI capability may reshape rather than eliminate human intellectual relevance and contribution",
     "Relevant to educators and community leaders concerned about how AI transforms work and human purpose"
-   ]
-  },
-  {
-   "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
-   "link": "https://latent.space/p/arca/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-31T16:05:00+00:00",
-   "summary": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a18ea6-9508-712c-b5ff-54536059aced/01a18eb9-7b8e-7f04-b56a-8580cdb8c207.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/e87a2a97-4814-4bc4-b4a8-5e837f414b06/Screenshot_2026-10-27_at_16.45.55.jpg?t=1793396012",
-   "themes": [],
-   "aiSummary": "Arca's head of AI discussed how AI agents can handle complex financial tasks over extended timeframes using persistent memory and custom workflows. The piece covers how agentic systems can maintain context and perform work spanning multiple days.",
-   "whyMatters": [
-    "Demonstrates practical applications of AI agents in high-stakes domains like finance where long-term context and multi-step reasoning matter",
-    "Highlights technical considerations (persistent memory, custom harnesses) that enable real-world agent deployment beyond single-session interactions"
-   ]
-  },
-  {
-   "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
-   "link": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-10-31T05:00:48+00:00",
-   "summary": "It turns out you cannot have your cake AND eat it",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google acknowledged that its AI mode in Search is reducing revenue, with estimates suggesting a $500 billion impact and 15% decline—the largest drop since the company's 2004 IPO. The company is facing pressure as AI-powered search results compete with its traditional advertising model.",
-   "whyMatters": [
-    "Reveals fundamental tension in AI integration: companies deploying AI features risk cannibalizing existing profitable business models, threatening investor confidence and market valuations",
-    "Signals potential broader slowdown in AI adoption across tech sector if companies find AI features economically destructive rather than additive",
-    "Raises questions about sustainable monetization for AI-powered products, relevant to how educational and faith-based organizations might approach AI tools that could displace existing revenue or engagement models"
    ]
   },
   {
