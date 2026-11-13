@@ -1,41 +1,34 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-13T12:55:37.590876+00:00",
+ "generatedAt": "2026-11-13T22:25:38.066448+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-13T12:56:07.256843+00:00",
+  "generatedAt": "2026-11-13T22:25:56.002118+00:00",
   "bullets": [
    {
-    "text": "Nvidia CEO Jensen Huang resigned after investigations into affairs including with alleged Chinese intelligence operative; CFO Colette Kress became interim leader, triggering industry uncertainty and over $1 trillion in market losses.",
+    "text": "Nvidia's sudden leadership crisis—Jensen Huang resigned amid alleged Chinese espionage involving affairs—has erased over $1 trillion in market value and upended AI infrastructure planning across the industry.",
     "links": [
-     "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh",
      "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/"
     ]
    },
    {
-    "text": "FAA expands AI tool deployment across entire U.S. airspace to manage air traffic congestion, marking operational AI governance at national infrastructure scale despite controllers' union concerns.",
+    "text": "OpenAI's new AI agents can now make purchases and conduct transactions via ChatGPT Wallet, marking a meaningful shift toward autonomous commercial actions by consumer-facing AI systems.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+     "https://openai.com/index/introducing-chatgpt-wallet"
     ]
    },
    {
-    "text": "Google released Gemini 4 Hydrogen, a frontier model better at parsing complex multi-part questions; pricing and rollout strategy differ from earlier variants.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
-    ]
-   },
-   {
-    "text": "AI-generated deepfakes and synthetic media create new frontiers for antisemitic propaganda, extending historical patterns where communication technology amplifies discrimination.",
+    "text": "AI-generated synthetic media and deepfakes now represent a new frontier for antisemitic propaganda, building on historical patterns where communication technologies amplify discriminatory content.",
     "links": [
      "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/"
     ]
    },
    {
-    "text": "Google's Gemini smartglasses, starting at $395 and developed with Samsung and Warby Parker, debut as consumer AI hardware; meanwhile, AI chatbots direct shoppers toward fake retail websites, raising consumer safety concerns.",
+    "text": "Google released Gemini 4 Hydrogen, designed to better understand complex multi-part questions and breaking them into component parts, advancing AI's reasoning on nuanced requests.",
     "links": [
-     "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-     "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+     "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
     ]
    }
   ]
@@ -89,6 +82,189 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+   "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-13T21:20:47+00:00",
+   "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The FAA is expanding an AI system to help manage air traffic congestion across US airspace. Airlines have praised the tool, but the air traffic controllers' union was not involved in the decision.",
+   "whyMatters": [
+    "AI is moving into critical infrastructure where labor unions have stakes in the outcome—controllers' exclusion from the process raises governance questions",
+    "Success here could shape adoption of AI in other regulated safety-critical domains where operator feedback matters"
+   ]
+  },
+  {
+   "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-13T20:45:10+00:00",
+   "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI launched ChatGPT Wallet, allowing its Dots AI agents to make purchases on behalf of users with explicit approval. The wallet is rolling out to ChatGPT Pro subscribers in the US aged 18+ with eligible credit cards.",
+   "whyMatters": [
+    "Autonomous agent purchasing represents a shift from AI as tool to AI as transaction executor with real financial consequences",
+    "Raises questions about liability, fraud protection, and user consent when agents act in financial contexts"
+   ]
+  },
+  {
+   "title": "Washington Is Taking Control of AI",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Washington-Is-Taking-Control-of-AI-e3sbe6r",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-13T19:59:53+00:00",
+   "summary": "Jensen Huang’s departure from Nvidia is becoming a turning point in Washington’s battle over AI and China. NLW examines how the fallout is empowering China hawks, accelerating chip export restrictions, and raising questions that go well beyond the disputed spy allegations. Plus, the competing arguments over selling chips to China—and what new leadership at Nvidia could mean for the financing that ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/129398427/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-13%2F436676989-44100-2-009d4f3260eb38.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Jensen Huang's departure from Nvidia is triggering significant shifts in US government policy on AI and China, including accelerated chip export restrictions and empowering China hawks in Washington. The dispute centers on Huang's personal dealings and broader questions about Nvidia's China business.",
+   "whyMatters": [
+    "One executive transition is reshaping US industrial policy and geopolitics around AI—demonstrates how concentrated the AI hardware ecosystem is",
+    "Chip export controls directly affect which nations can train advanced AI models, making this a chokepoint for global AI development"
+   ]
+  },
+  {
+   "title": "What’s really at stake in the Jensen Huang saga",
+   "link": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-13T19:17:15+00:00",
+   "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jensen Huang resigned as Nvidia CEO, marking the end of one chapter but the beginning of larger questions about Nvidia's China operations and US government AI policy. Broader investigations into Nvidia's dealings are expected to unfold in coming months.",
+   "whyMatters": [
+    "Leadership changes at the company controlling AI chip supply have cascading effects on geopolitics, regulation, and industry structure",
+    "US-China competition over AI hardware and training capacity is now playing out through corporate governance rather than just policy"
+   ]
+  },
+  {
+   "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+   "link": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-13T19:08:57+00:00",
+   "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Microsoft 365 experienced a 24-hour global outage caused by a faulty software update, not a cyberattack or AI failure. Services have been restored.",
+   "whyMatters": [
+    "Large-scale infrastructure failures underscore operational risks independent of AI—relevant for planning robust systems",
+    "Not directly AI-related but worth noting when evaluating AI system resilience claims"
+   ]
+  },
+  {
+   "title": "Let’s talk about Jensen Huang’s many affairs!",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-13T19:07:12+00:00",
+   "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "This is commentary on Nvidia leadership news rather than a substantive news item about AI technology or industry development.",
+   "whyMatters": [
+    "Not substantively relevant to AI landscape, policy, or practice; appears to be satirical or cultural commentary"
+   ]
+  },
+  {
+   "title": "Implementing Federated Learning to enhance Agentic AI",
+   "link": "https://share.transistor.fm/s/58a69653",
+   "source": "Practical AI",
+   "category": "podcast",
+   "date": "2026-11-13T17:59:46+00:00",
+   "summary": "How can AI models learn from private data without compromising privacy? Chris is joined by Lorenzo Sani, Research Scientist at Flower Labs and PhD researcher at Cambridge, to explore federated learning and privacy-preserving AI. They discuss how collaborative learning can expand access to private data for LLM training, how model trajectories can help improve agentic AI systems, and the benefits of",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/58a69653/1bd19fd9.mp3",
+   "image": "https://img.transistorcdn.com/Z_yiD5zbawT4ibSILHrGMx5UfIVs1jh9nMexNizXXJI/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lZjFl/YWQ4ODZjMjcyNDc1/ZDExZjg2NjdlZGQy/MDBhMS5wbmc.jpg",
+   "themes": [],
+   "aiSummary": "Researchers are exploring federated learning as a method for AI models to learn from private data without compromising privacy. The approach enables collaborative training and is being applied to improve agentic AI systems.",
+   "whyMatters": [
+    "Federated learning addresses a core ethical tension: accessing diverse training data while respecting privacy and consent—crucial for education and healthcare applications",
+    "Enables decentralized AI training relevant to communities wanting AI benefit without centralized data concentration"
+   ]
+  },
+  {
+   "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-13T17:25:45+00:00",
+   "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An OpenAI board member warns that AI systems could undergo a \"takeover\" of society within months, tracing a path from AI reward hacking to potential extinction-level risks. The researcher presented a technical pathway for this concern.",
+   "whyMatters": [
+    "Existential risk framing from inside an AI company's leadership signals real debate among developers about alignment and control",
+    "Shapes narrative around how quickly AI governance is needed and how urgent safety work must become"
+   ]
+  },
+  {
+   "title": "Jensen Huang and the End of the Founder Fairy Tale",
+   "link": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-13T16:00:00+00:00",
+   "summary": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An analysis examines Jensen Huang's reliance on storytelling and narrative power as a CEO strategy, in the context of his recent resignation over sex scandal allegations. The article notes he has not been able to narrate his way out of these personal misconduct claims.",
+   "whyMatters": [
+    "Founder mythology in tech is colliding with accountability for personal behavior—relevant to how AI companies are led and governed",
+    "Questions whether charismatic leadership narratives should shield executives from consequences"
+   ]
+  },
+  {
+   "title": "Introducing ChatGPT Wallet",
+   "link": "https://openai.com/index/introducing-chatgpt-wallet",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-13T15:00:00+00:00",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "OpenAI announced ChatGPT Wallet, a feature enabling AI agents to complete purchases with user approval while maintaining existing credit card protections. It allows agents in ChatGPT Work, Codex, and Dots to transact securely.",
+   "whyMatters": [
+    "Autonomous financial transactions by agents require clear user controls and liability frameworks—critical consumer protection issue",
+    "Represents normalization of agent autonomy in real-world commerce with potential systemic implications"
+   ]
+  },
   {
    "title": "When seeing shouldn’t be believing: AI and the future of antisemitic libel",
    "link": "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/",
@@ -150,24 +326,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-13T10:08:29+00:00",
-   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jensen Huang resigned as Nvidia CEO following investigation into affairs—first with Megaspeed executive Alice Huang, then with a direct report within Nvidia—reported by the New York Times.",
-   "whyMatters": [
-    "Creates major leadership vacuum at the world's most influential AI chip company at a critical industry moment",
-    "Raises governance and workplace conduct issues at the highest levels of a foundational AI infrastructure company"
-   ]
-  },
-  {
    "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
    "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
    "source": "Latent Space",
@@ -201,6 +359,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates how AI can be used to democratize proprietary software by creating open-source replacements at scale",
     "Part of broader pushback against closed commercial platforms; could reshape software accessibility and business models in tech"
+   ]
+  },
+  {
+   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-13T00:23:32+00:00",
+   "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic released Claude Duet, a consumer-facing AI agent designed to be helpful for non-technical users. The agent notably offers to help write up user experiences with it, displaying self-aware and helpful behavior.",
+   "whyMatters": [
+    "Agents are moving to consumer markets; this one demonstrates personality and self-referential awareness that raises questions about transparency and user expectations",
+    "Consumer agents need different trust and usability frameworks than enterprise tools—relevant to broad adoption and public understanding"
    ]
   },
   {
@@ -259,41 +435,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Nvidia's unprecedented leadership transition raises questions about institutional continuity in a company with no succession plan",
     "The lack of acceptance among industry peers suggests uncertainty about how the AI chip market will evolve without Huang's direction"
-   ]
-  },
-  {
-   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-   "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-12T22:28:47+00:00",
-   "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The FAA is expanding deployment of an AI tool designed to manage air traffic congestion across U.S. airspace, with airline support, though the air traffic controllers' union was not involved in the decision.",
-   "whyMatters": [
-    "Represents significant operational shift in how aviation infrastructure manages capacity, potentially affecting system reliability and worker roles",
-    "Raises governance concerns about introducing AI systems affecting labor without union consultation"
-   ]
-  },
-  {
-   "title": "Let’s talk about Jensen Huang’s many affairs!",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T22:23:27+00:00",
-   "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "This is commentary on Nvidia leadership news rather than a substantive news item about AI technology or industry development.",
-   "whyMatters": [
-    "Not substantively relevant to AI landscape, policy, or practice; appears to be satirical or cultural commentary"
    ]
   },
   {
@@ -675,44 +816,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Jensen Huang is out. What did China want from him?",
-   "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T16:59:00+00:00",
-   "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jensen Huang resigned as Nvidia CEO following news of his affairs, including one with an alleged Chinese spy, creating an emergency industry crisis that unfolded rapidly.",
-   "whyMatters": [
-    "Nvidia CEO departure represents a major leadership disruption affecting AI industry confidence and direction",
-    "Raises serious counterintelligence concerns about access to AI infrastructure leadership",
-    "Reflects vulnerability of centralized leadership in critical technology sectors"
-   ]
-  },
-  {
-   "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T16:11:59+00:00",
-   "summary": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct report and an alleged Chinese spy. The new, and first, Chair of the Board, Harvey Jones, shared news of Huang's resignation […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jensen Huang officially resigned as Nvidia CEO after the board investigated his multiple extramarital affairs, including with a direct report and an alleged Chinese intelligence operative. Harvey Jones became the new board chair and communicated the transition via internal emails.",
-   "whyMatters": [
-    "Confirms organizational instability at Nvidia, which supplies chips critical to AI development globally",
-    "Board communication reflects damage control and need to reassure stakeholders during crisis",
-    "Transition includes first formal board chair role, signaling governance restructuring"
-   ]
-  },
-  {
    "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
    "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
    "source": "Ars Technica · AI",
@@ -753,25 +856,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Jensen Huang Resigns as Nvidia CEO",
-   "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-12T13:58:06+00:00",
-   "summary": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, resigned after the company opened an investigation into his affair with an alleged Chinese intelligence operative.",
-   "whyMatters": [
-    "Loss of Nvidia's longtime leader destabilizes the company controlling the majority of AI chip supply",
-    "Raises counterintelligence red flags affecting U.S. and allied AI infrastructure security",
-    "Creates succession uncertainty that could reshape Nvidia's strategic direction and industry influence"
-   ]
-  },
-  {
    "title": "Gondola doubles revenue as its team builds more with Codex",
    "link": "https://openai.com/business/customer-stories/gondola",
    "source": "OpenAI News",
@@ -787,24 +871,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI coding tools enabling small teams to scale impact and revenue without proportional headcount growth",
     "Demonstrates measurable ROI from AI adoption in production environments"
-   ]
-  },
-  {
-   "title": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
-   "link": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-12T10:30:00+00:00",
-   "summary": "The Palantir CEO touted his “progressive” worldview in a recent interview. Let’s see how that lines up with his comments during the company’s earnings call two weeks ago.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Palantir CEO Alex Karp claimed in a recent interview to hold progressive values, but the article examines contradictions with statements he made during the company's earnings call two weeks prior, suggesting his self-described worldview may not align with his recent public comments.",
-   "whyMatters": [
-    "Relevant to how AI industry leaders present themselves versus their actual positions on ethics and social responsibility",
-    "Shows the gap between stated values and documented behavior in companies handling sensitive data"
    ]
   },
   {
@@ -2386,26 +2452,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
-   "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-05T12:00:41+00:00",
-   "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Agility Robotics, a U.S. leader in deploying humanoid robots, went public on the Nasdaq stock exchange. The IPO is drawing scrutiny about the viability and maturity of the broader humanoid robot market.",
-   "whyMatters": [
-    "Market validation test: a major robotics company's public offering will reveal investor appetite and realistic valuations for humanoid automation",
-    "Signals industrial AI deployment trajectory: shows whether humanoid robots are moving from research toward actual workplace adoption and economic returns"
-   ]
-  },
-  {
    "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
    "link": "https://share.transistor.fm/s/1b301bdc",
    "source": "Practical AI",
@@ -2497,24 +2543,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Policy framework addresses legitimate community concerns about resource use and economic impact from AI data centers",
     "OpenAI positioning itself as governance-conscious player, potentially influencing industry standards"
-   ]
-  },
-  {
-   "title": "Flipsnack grows product signups with conversion optimization",
-   "link": "https://openai.com/ads/customers/flipsnack",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-05T00:45:15+00:00",
-   "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Flipsnack ran ChatGPT-powered advertising campaigns focused on product trial, increasing signups while reducing cost per signup.",
-   "whyMatters": [
-    "Demonstrates measurable ROI from AI-generated ad campaigns in driving conversion metrics",
-    "Shows AI capabilities applied to customer acquisition optimization"
    ]
   },
   {
@@ -3296,24 +3324,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Interpretability of AI systems is foundational to AI safety, ethics, and trustworthiness—clearer understanding of how models work enables better oversight and governance.",
     "If true, this could reshape the entire field's approach to research methodology and reduce the sense that large AI systems are inherently black boxes."
-   ]
-  },
-  {
-   "title": "The Most Important AI News This Week Is Getting Overlooked",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Important-AI-News-This-Week-Is-Getting-Overlooked-e3qk74e",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-16T18:19:09+00:00",
-   "summary": "The most consequential AI announcements this week might be the ones getting the least attention. NLW explores what Microsoft’s MAI Base 2 and Meta’s Muse Spark Open mean for how businesses use, customize, and pay for AI. In the headlines: Anthropic’s embedded safety evaluators, Cognition’s performance-based token budgets, and a community-built AI battle royale. Learn More about the AI Champions Pr",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127588942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-16%2F434325005-44100-2-5490e254caf05.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "Microsoft released MAI Base 2 and Meta released Muse Spark Open, both systems that change how businesses customize and pay for AI models. The podcast also covers Anthropic's embedded safety evaluators, Cognition's token-based pricing, and a community AI competition, arguing these receive less attention than they deserve.",
-   "whyMatters": [
-    "Business AI adoption models are shifting toward customization and performance-based pricing, affecting how enterprises budget and deploy AI systems",
-    "Safety mechanisms like Anthropic's embedded evaluators reflect growing industry focus on responsible AI deployment rather than just capability announcements"
    ]
   },
   {
