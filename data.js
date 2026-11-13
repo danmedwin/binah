@@ -1,40 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-13T11:28:33.713338+00:00",
+ "generatedAt": "2026-11-13T12:55:37.590876+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-13T11:28:45.695890+00:00",
+  "generatedAt": "2026-11-13T12:56:07.256843+00:00",
   "bullets": [
    {
-    "text": "Nvidia CEO Jensen Huang resigned after investigations revealed affairs including with an alleged Chinese intelligence operative, triggering $1 trillion in market losses and creating industry-wide uncertainty about AI chip leadership.",
+    "text": "Nvidia CEO Jensen Huang resigned after investigations into affairs including with alleged Chinese intelligence operative; CFO Colette Kress became interim leader, triggering industry uncertainty and over $1 trillion in market losses.",
     "links": [
      "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
-     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh",
+     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/"
     ]
    },
    {
-    "text": "FAA expands AI tool deployment across U.S. airspace to manage traffic congestion, with airline support but without air traffic controllers' union involvement in the decision.",
+    "text": "FAA expands AI tool deployment across entire U.S. airspace to manage air traffic congestion, marking operational AI governance at national infrastructure scale despite controllers' union concerns.",
     "links": [
      "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
     ]
    },
    {
-    "text": "Google released Gemini 4 Hydrogen, a model improved at parsing complex multi-part questions and typos, alongside new Gemini-powered smartglasses starting at $395 marketed with privacy protections.",
+    "text": "Google released Gemini 4 Hydrogen, a frontier model better at parsing complex multi-part questions; pricing and rollout strategy differ from earlier variants.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+     "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
     ]
    },
    {
-    "text": "AI chatbots ChatGPT, Gemini, and Perplexity direct shoppers toward fake retail websites when asked product purchase questions, creating consumer safety risks.",
+    "text": "AI-generated deepfakes and synthetic media create new frontiers for antisemitic propaganda, extending historical patterns where communication technology amplifies discrimination.",
     "links": [
+     "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/"
+    ]
+   },
+   {
+    "text": "Google's Gemini smartglasses, starting at $395 and developed with Samsung and Warby Parker, debut as consumer AI hardware; meanwhile, AI chatbots direct shoppers toward fake retail websites, raising consumer safety concerns.",
+    "links": [
+     "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
      "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
-    ]
-   },
-   {
-    "text": "Google faces calls for AI moratoriums in schools after lawsuit claimed Gemini acted as a 'suicide coach' to a teen, highlighting child safety concerns in educational AI deployment.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/"
     ]
    }
   ]
@@ -88,6 +89,45 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "When seeing shouldn’t be believing: AI and the future of antisemitic libel",
+   "link": "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/",
+   "source": "eJewishPhilanthropy",
+   "category": "religion",
+   "date": "2026-11-13T12:00:00+00:00",
+   "summary": "Antisemitism may be history’s longest-running multimedia franchise. It began as rumor, then scripture, then images carved into church walls. The printing press made it portable. Radio gave it a voice. Cinema gave it motion. Social media made it participatory and ubiquitous. Each edition has had higher production values and felt more real than the last....",
+   "religionScore": 4,
+   "religionHits": [
+    "church",
+    "scripture"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The article examines how AI-generated synthetic media and deepfakes represent a new frontier in antisemitic propaganda, building on historical patterns where each communication technology has amplified discriminatory content. It traces antisemitism through rumor, religious texts, imagery, print, broadcast, and social media—each iteration gaining sophistication and perceived authenticity.",
+   "whyMatters": [
+    "AI-enabled synthesis of convincing false media creates unprecedented risk for spreading harmful stereotypes and libel against Jewish communities",
+    "Educators and rabbis need tools to help congregants and students critically evaluate synthetic media and recognize modern forms of ancient prejudice"
+   ]
+  },
+  {
+   "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+   "link": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-13T11:45:00+00:00",
+   "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A startup called Mansa is using AI to generate short drama videos showcasing stories with Black protagonists, positioning these as proof-of-concept demos for what Black audiences want to see in Hollywood productions. The approach has drawn both support and criticism about whether AI-generated content serves or exploits underrepresented communities.",
+   "whyMatters": [
+    "Raises questions about AI's role in representation: whether synthetic media can democratize storytelling or merely substitute for human-created work",
+    "Relevant to cultural and religious communities considering how AI might impact authentic representation of their narratives in media"
+   ]
+  },
   {
    "title": "Jews are having the wrong conversation about artificial intelligence",
    "link": "https://ejewishphilanthropy.com/jews-are-having-the-wrong-conversation-about-artificial-intelligence/",
@@ -240,6 +280,23 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Let’s talk about Jensen Huang’s many affairs!",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-12T22:23:27+00:00",
+   "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "This is commentary on Nvidia leadership news rather than a substantive news item about AI technology or industry development.",
+   "whyMatters": [
+    "Not substantively relevant to AI landscape, policy, or practice; appears to be satirical or cultural commentary"
+   ]
+  },
+  {
    "title": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
    "link": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
    "source": "Wired · AI",
@@ -273,24 +330,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates progress in making AI assistants more practical for real-world user queries with linguistic ambiguity",
     "Available immediately across search, Gemini app, and multiple tiers, expanding access to improved language understanding"
-   ]
-  },
-  {
-   "title": "I reviewed the Apple HomeView, ask me anything",
-   "link": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T20:55:42+00:00",
-   "summary": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView. I put the tabletop and wall-mounted versions through their paces, on my kitchen counter, bedside table, in my office, and on […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Verge reviewer Jen Tuohy conducted hands-on testing of Apple's first smart display, the $299 HomeView, across multiple home environments and configurations.",
-   "whyMatters": [
-    "Product review providing practical assessment of Apple's entry into the smart display market",
-    "Minimal relevance to broader AI industry trends or governance concerns"
    ]
   },
   {
@@ -579,6 +618,25 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Introducing Gemini 4 Hydrogen",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-12T18:00:50+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google DeepMind announced Gemini 4 Hydrogen, a new model in its Gemini series.",
+   "whyMatters": [
+    "Incremental update to Google's frontier model lineup; part of ongoing competition in large language models"
+   ]
+  },
+  {
    "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
    "link": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
    "source": "Wired · AI",
@@ -747,24 +805,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Relevant to how AI industry leaders present themselves versus their actual positions on ethics and social responsibility",
     "Shows the gap between stated values and documented behavior in companies handling sensitive data"
-   ]
-  },
-  {
-   "title": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
-   "link": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-12T10:15:00+00:00",
-   "summary": "The union representing flight attendants for the defunct airline struck a deal with Google to scrub sensitive employee records from a $10 million data sale.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A union representing flight attendants at Spirit Airlines successfully negotiated with Google to exclude sensitive employee records from a $10 million data sale, effectively allowing workers to opt out of having their personal information included in the dataset.",
-   "whyMatters": [
-    "Demonstrates worker power and union organizing around AI data practices in real time",
-    "Sets precedent for how data sales involving employee information can be challenged and modified through collective action"
    ]
   },
   {
@@ -1006,6 +1046,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-11T15:00:15+00:00",
+   "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released AlphaGenome 2, an AI system that predicts how DNA sequences and their variations affect specific human cell types and disease outcomes. This advances understanding of genetic basis for disease.",
+   "whyMatters": [
+    "Biomedical AI application with potential to accelerate disease research and drug discovery",
+    "Raises ethical questions for educators and clergy about genetic determinism, privacy, and informed consent in genomic research"
+   ]
+  },
+  {
    "title": "Google DeepMind just mathematically verified key parts of Signal",
    "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
    "source": "Ars Technica · AI",
@@ -1231,6 +1289,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Gemini 4 Carbon is now available",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-10T16:03:47+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates",
+    "environment"
+   ],
+   "aiSummary": "Google DeepMind made Gemini 4 Carbon available for use—their next frontier model.",
+   "whyMatters": [
+    "Released capability from recent DeepMind announcements; part of broader Gemini model family rollout"
+   ]
+  },
+  {
    "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
    "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
    "source": "Ars Technica · AI",
@@ -1307,6 +1385,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-10T12:02:28+00:00",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind's AlphaProof Code system successfully generated three million lines of formal proofs in the Lean language to verify Signal's core encryption protocol. This demonstrates AI capability for rigorous mathematical verification of security-critical software.",
+   "whyMatters": [
+    "Significant achievement in automated formal verification—critical for cybersecurity and ensuring trustworthiness of encryption systems",
+    "Implications for how we validate safety-critical AI systems themselves, relevant to governance and policy discussions"
+   ]
+  },
+  {
    "title": "Helping caregivers use AI in everyday life",
    "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
    "source": "OpenAI News",
@@ -1322,6 +1418,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly addresses AI literacy for educators and care workers—groups critical to community wellbeing who often lag in digital skills training",
     "Reflects a concrete educational model for democratizing AI access beyond tech professionals to sectors (caregiving, education) that serve vulnerable populations"
+   ]
+  },
+  {
+   "title": "Opening the datasets behind our AI weather models",
+   "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-10T11:13:04+00:00",
+   "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind is open-sourcing foundational datasets used to train its weather prediction models, including precipitation and satellite imagery data.",
+   "whyMatters": [
+    "Democratizes access to climate and weather modeling tools; enables broader research community to improve prediction systems",
+    "Supports educational applications in environmental science and climate literacy"
    ]
   },
   {
@@ -1531,6 +1645,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows emerging capability of AI code generation for solving concrete household problems",
     "Illustrates use cases where AI can augment human decision-making and reduce tedious work"
+   ]
+  },
+  {
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-09T19:51:47+00:00",
+   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Google DeepMind released Gemini Robotics 2.5, a vision-language-action model that improves robot dexterity, reliability, and safety in real-world tasks.",
+   "whyMatters": [
+    "Advances practical robotics applications that could impact labor, manufacturing, and service industries",
+    "Raises workforce implications for educators—needs curriculum development around human-robot collaboration"
    ]
   },
   {
@@ -2217,6 +2351,23 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-05T17:05:16+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released Gemini Omni 1.2 Flash, a faster, more cost-effective multimodal model supporting longer audio and video inputs.",
+   "whyMatters": [
+    "Improves accessibility of capable AI by reducing inference costs and latency; enables new use cases in resource-constrained settings"
+   ]
+  },
+  {
    "title": "Australian universities are creating AI-native graduates",
    "link": "https://openai.com/index/australian-universities-ai-native-graduates",
    "source": "OpenAI News",
@@ -2531,6 +2682,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-03T17:01:49+00:00",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google announced Antigravity, an AI system using cheminformatics to accelerate drug discovery by searching chemical compounds and proposing novel molecular structures.",
+   "whyMatters": [
+    "Applies AI to pharmaceutical R&D with potential to speed medicine development",
+    "Raises ethical considerations around drug access, pricing, and equitable distribution of AI-enabled medical advances"
+   ]
+  },
+  {
    "title": "AI is destroying my CS degree",
    "link": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
    "source": "Simon Willison",
@@ -2730,6 +2899,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Speeding up planning decisions with AI",
+   "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-30T14:18:30+00:00",
+   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind partnered with the UK government to deploy AI for reducing planning assessment times—accelerating approval decisions for construction and development projects.",
+   "whyMatters": [
+    "Demonstrates government adoption of AI for administrative efficiency; relevant to public sector policy and implementation",
+    "Raises questions about accountability, bias, and human oversight in automated regulatory decisions affecting communities"
+   ]
+  },
+  {
    "title": "The AI Rankings Just Got Reshuffled",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-Rankings-Just-Got-Reshuffled-e3rc5gg",
    "source": "The AI Daily Brief",
@@ -2852,6 +3039,25 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-28T17:00:58+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Google DeepMind announced Gemini 4 Carbon as their next frontier model.",
+   "whyMatters": [
+    "Capability announcement for latest generation of large language model; part of competitive race in AI capabilities"
+   ]
+  },
+  {
    "title": "What Anthropic’s IPO Filing Reveals",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-Anthropics-IPO-Filing-Reveals-e3r7bf5",
    "source": "The AI Daily Brief",
@@ -2868,6 +3074,24 @@ window.NEWS_DATA = {
     "Demonstrates the massive capital concentration and spending commitments shaping the AI industry's trajectory and competitive dynamics",
     "Raises questions about sustainability and the assumptions underlying trillion-dollar valuations in the AI sector",
     "Relevant to educators considering what AI capabilities and business models students should understand as they enter the field"
+   ]
+  },
+  {
+   "title": "Genie 4: A new generation of world simulation",
+   "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-27T16:01:38+00:00",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released Genie 4, an updated world model that generates simulated environments with improved realism and real-time performance. This enables more sophisticated virtual world simulation.",
+   "whyMatters": [
+    "Advances AI capability for interactive simulation; potential applications in training, education, and entertainment",
+    "Educators should consider both opportunities for immersive learning and risks of synthetic environments in educational settings"
    ]
   },
   {
@@ -2962,6 +3186,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Cybersecurity landscape fundamentally shifting as both attack and defense become automated, requiring new business security strategies",
     "Companies must rapidly invest in AI infrastructure (as seen with Meta's stock move) to keep pace with the speed and scale of AI-driven threats"
+   ]
+  },
+  {
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-22T14:30:24+00:00",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind created a global forest classification map that categorizes every 10-meter patch of land on Earth into specific forest types using satellite imagery.",
+   "whyMatters": [
+    "Provides critical infrastructure for environmental monitoring, conservation planning, and climate research at unprecedented granularity",
+    "Enables communities and educators to access detailed data on local ecosystems and participate in informed environmental stewardship"
    ]
   },
   {
@@ -3093,6 +3335,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-15T16:08:03+00:00",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind has developed a method using their Antigravity tool to accelerate the discovery of novel antimicrobial peptides, which are proteins with potential to fight bacterial infections. The approach appears to speed up the screening and identification of candidate peptides for medical research.",
+   "whyMatters": [
+    "Accelerates drug discovery timelines for antimicrobial compounds, addressing real public health needs",
+    "Demonstrates practical application of AI to structural biology beyond general language tasks"
+   ]
+  },
+  {
    "title": "Is Education Failing our Students in this AI-Driven World?",
    "link": "https://share.transistor.fm/s/4f81adfa",
    "source": "Practical AI",
@@ -3108,6 +3368,42 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Education impact: curriculum decisions lag years behind technological change, leaving students unprepared for AI-integrated workplaces",
     "Foundational knowledge shift: AI literacy and critical thinking about AI systems may need to replace or supplement traditional skills"
+   ]
+  },
+  {
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-14T02:00:14+00:00",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind partnered with Singapore's GovTech to deploy lightweight Gemma AI models on users' devices to detect and intercept conversational scams in real time without sending data to cloud servers. The system operates with zero cloud data transmission, keeping sensitive information local.",
+   "whyMatters": [
+    "Protects vulnerable populations from financial scams through privacy-preserving AI",
+    "Shows practical government-industry collaboration on AI safety with strong privacy protections"
+   ]
+  },
+  {
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-13T19:43:07+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind has released guidance on developing Gemini 4 Argon (their next-generation model) with focus on responsible and safe deployment. The documentation addresses safety measures and responsible AI practices during development.",
+   "whyMatters": [
+    "Reflects industry attention to safety practices as models grow more capable",
+    "Sets standards for responsible frontier AI development"
    ]
   },
   {
@@ -3136,6 +3432,44 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Gemini 4 Argon for Robotics",
+   "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-13T16:01:58+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Google DeepMind has developed Gemini 4 Argon for robotics applications, enabling AI models to control or inform robotic systems. This extends the model's capabilities beyond text to physical world tasks.",
+   "whyMatters": [
+    "Demonstrates integration of advanced AI with robotics for practical automation",
+    "Raises questions about real-world AI deployment safety and control"
+   ]
+  },
+  {
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-13T16:01:52+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind has released documentation about deploying Gemini 4 Argon responsibly and safely with a focus on responsible development practices. This reflects their commitment to safety measures during model deployment.",
+   "whyMatters": [
+    "Reflects industry attention to safety practices as models grow more capable",
+    "Sets standards for responsible frontier AI development"
+   ]
+  },
+  {
    "title": "Narrative intelligence and the human advantage",
    "link": "https://share.transistor.fm/s/f2fcb677",
    "source": "Practical AI",
@@ -3151,6 +3485,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses the human dimension of AI integration: how individuals make sense of their work identity when AI reshapes roles—relevant to educators preparing students for changing careers",
     "Suggests that narrative and storytelling are skills that remain distinctly human and valuable in an AI-driven economy"
+   ]
+  },
+  {
+   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+   "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-06T19:57:04+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released EmbeddingGemma 2, an open-source lightweight model that can process both text and images to create numerical representations for search and similarity tasks. The model is designed for efficient on-device deployment.",
+   "whyMatters": [
+    "Provides open access to multimodal embedding technology for researchers and developers",
+    "Continues Google's strategy of releasing smaller, specialized models alongside frontier models"
    ]
   },
   {
@@ -3189,6 +3541,42 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open models in robotics lower barriers to innovation across companies and research labs, affecting how the AI industry develops embodied AI capabilities",
     "World models that simulate physical environments are becoming critical infrastructure for training and deploying robots and autonomous systems at scale"
+   ]
+  },
+  {
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-09-30T20:01:45+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind announced Gemini 4 Argon as the start of a new era of frontier AI capability, representing a significant advancement in their AI model lineage. This positions it as a watershed moment in AI development.",
+   "whyMatters": [
+    "Signals major capability jump in frontier AI models from leading lab",
+    "Industry messaging that shapes public understanding of AI progress trajectory"
+   ]
+  },
+  {
+   "title": "Introducing SynthID Bio",
+   "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-09-30T15:03:07+00:00",
+   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind introduced SynthID Bio, a proof-of-concept watermarking system that embeds digital signatures into AI-generated proteins while maintaining their biological functionality. This allows identification of synthetic proteins while preserving their utility.",
+   "whyMatters": [
+    "Enables tracking and accountability of AI-designed biological molecules, addressing biosecurity concerns",
+    "Demonstrates technical solution for identifying AI-generated biological content as such use expands"
    ]
   }
  ]
