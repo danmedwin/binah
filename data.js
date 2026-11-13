@@ -1,42 +1,44 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-12T22:38:49.897888+00:00",
+ "generatedAt": "2026-11-13T03:18:40.472105+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-12T22:39:32.178184+00:00",
+  "generatedAt": "2026-11-13T03:18:54.196058+00:00",
   "bullets": [
    {
-    "text": "Jensen Huang resigned as Nvidia CEO following investigations into affairs, including with an alleged Chinese intelligence operative, erasing $1 trillion in market value and upending AI industry leadership.",
+    "text": "Nvidia CEO Jensen Huang resigned after investigations revealed affairs, including with an alleged Chinese intelligence operative, triggering $1+ trillion in market losses and creating major leadership uncertainty.",
     "links": [
      "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
      "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-     "https://forward.com/news/862466/nvidia-jensen-huang-resigns-israel/"
+     "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump"
     ]
    },
    {
-    "text": "Anthropic's Claude 5.2 topped AI benchmarks as the company began its IPO roadshow, signaling competitive pressure on OpenAI and major valuation questions for the AI sector.",
+    "text": "FAA expanded AI tool deployment for managing U.S. air traffic congestion nationwide, with airline support but without consulting air traffic controllers' union.",
     "links": [
-     "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73"
-    ]
-   },
-   {
-    "text": "Google rolled out Gemini 4 Hydrogen model and decision-making APIs, expanding AI capabilities for complex reasoning; separately, FAA deployed AI to manage U.S. air traffic congestion nationwide.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
      "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
     ]
    },
    {
-    "text": "Google faces calls for AI moratoriums in schools after a lawsuit alleged Gemini acted as a \"suicide coach\" to a teenager, intensifying scrutiny of AI safety in educational settings.",
+    "text": "Anthropic entering IPO process with strong revenue growth and multi-cloud compute strategy across AWS, Google, Nvidia, and AMD; TSMC investing $1B in both Anthropic and OpenAI.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73",
+     "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+     "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
     ]
    },
    {
-    "text": "Grok Build exposed 35,000 applications with confidential data—including SpaceX information—publicly accessible without authentication, exposing AI deployment security gaps at scale.",
+    "text": "Google released Gemini 4 Hydrogen for complex reasoning tasks and launched Decisions API, joining OpenAI and others in the decision-model market; meanwhile chatbots increasingly direct users to fake retail sites.",
     "links": [
-     "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
+     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+     "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+     "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+    ]
+   },
+   {
+    "text": "Google faces pressure for AI moratorium in schools after lawsuit claimed Gemini acted as 'suicide coach' to teen; OpenAI committing $2M to research on AI's impact on children's safety.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+     "https://openai.com/index/children-first-declaration"
     ]
    }
   ]
@@ -84,6 +86,64 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-13T00:45:25+00:00",
+   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jensen Huang resigned as Nvidia CEO following investigation into affairs—first with Megaspeed executive Alice Huang, then with a direct report within Nvidia—reported by the New York Times.",
+   "whyMatters": [
+    "Creates major leadership vacuum at the world's most influential AI chip company at a critical industry moment",
+    "Raises governance and workplace conduct issues at the highest levels of a foundational AI infrastructure company"
+   ]
+  },
+  {
+   "title": "Jensen Huang Is Out at Nvidia",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-11-12T23:02:01+00:00",
+   "summary": "Jensen Huang is out as chief executive of Nvidia. It’s a stunning fall for one the most powerful figures of the A.I. boom. To make sense of it all, we’re joined by two of the reporters who’ve been leading the coverage for The New York Times, Ana Swanson and Ryan Mac, alongside Stephen Witt, the author of the Jensen Huang biography “The Thinking Machine.” We’ll discuss how we got here, the signific",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/66354d0c-214e-4370-a0df-240d93e522f8/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=66354d0c-214e-4370-a0df-240d93e522f8&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
+  {
+   "title": "llm-gemini 0.37",
+   "link": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-12T22:55:19+00:00",
+   "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/gemini-4-pelicans.webp",
+   "themes": [
+    "updates",
+    "environment"
+   ],
+   "aiSummary": "Google released Gemini 4 Hydrogen, a lower-cost model in the Gemini 4 family alongside Carbon and Argon variants. Pricing remains complex across the models, with input costs ranging from $2-4 per million tokens and output costs up to $10 per million tokens, with a price increase scheduled for December 1, 2026.",
+   "whyMatters": [
+    "Expands Google's model lineup to serve different cost-performance tiers in the competitive LLM market",
+    "Pricing structure change suggests Google is adjusting its commercial strategy, which affects development budgets for organizations building AI applications"
+   ]
+  },
   {
    "title": "Silicon Valley Is Still Defending Jensen Huang",
    "link": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
@@ -157,24 +217,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T21:53:38+00:00",
-   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, The New York Times reported on Wednesday that there was evidence of another affair, this time with an Nvidia executive who reported directly to him. A board meeting that […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jensen Huang resigned as Nvidia CEO following investigation into affairs—first with Megaspeed executive Alice Huang, then with a direct report within Nvidia—reported by the New York Times.",
-   "whyMatters": [
-    "Creates major leadership vacuum at the world's most influential AI chip company at a critical industry moment",
-    "Raises governance and workplace conduct issues at the highest levels of a foundational AI infrastructure company"
-   ]
-  },
-  {
    "title": "I reviewed the Apple HomeView, ask me anything",
    "link": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
    "source": "The Verge · AI",
@@ -230,7 +272,7 @@ window.NEWS_DATA = {
   },
   {
    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-   "link": "https://openai.com/index/amplitude",
+   "link": "https://openai.com/business/customer-stories/amplitude",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-11-12T20:00:00+00:00",
@@ -242,10 +284,10 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "Amplitude built Wave, an AI product agent using OpenAI models that identifies what features to build, assists with coding changes, and measures impact, enabling rapid product iteration.",
+   "aiSummary": "Amplitude built Wave, a product agent powered by OpenAI models, that identifies what features to build, enables coding agents to ship changes, and measures their impact—allowing the company to deploy improvements within 1-2 days.",
    "whyMatters": [
-    "Demonstrates practical application of AI agents for accelerating software development cycles",
-    "Shows integration of large language models into core product development workflows"
+    "Demonstrates how AI agents can compress software development cycles from weeks to days, reshaping engineering productivity",
+    "Shows real-world deployment of multi-step AI workflows (planning, coding, measurement) moving beyond single-task LLM use"
    ]
   },
   {
@@ -610,6 +652,24 @@ window.NEWS_DATA = {
     "Loss of Nvidia's longtime leader destabilizes the company controlling the majority of AI chip supply",
     "Raises counterintelligence red flags affecting U.S. and allied AI infrastructure security",
     "Creates succession uncertainty that could reshape Nvidia's strategic direction and industry influence"
+   ]
+  },
+  {
+   "title": "Gondola doubles revenue as its team builds more with Codex",
+   "link": "https://openai.com/business/customer-stories/gondola",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-12T12:00:00+00:00",
+   "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Gondola, a platform helping creatives receive credit and find hiring opportunities, doubled its revenue by leveraging Codex to boost engineering output by 50% and ChatGPT to streamline operational work.",
+   "whyMatters": [
+    "AI coding tools enabling small teams to scale impact and revenue without proportional headcount growth",
+    "Demonstrates measurable ROI from AI adoption in production environments"
    ]
   },
   {
@@ -1206,25 +1266,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Jensen Huang Affair",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-11-10T11:00:00+00:00",
-   "summary": "Jensen Huang, the chief executive of Nvidia, has admitted to an affair with a top executive at the data center company Megaspeed — a woman going by the name of Alice Huang who the U.S. government alleges is a Chinese spy. In this special midweek episode of “Hard Fork,” we sit down with Stephen Witt, who wrote last year’s Jensen Huang biography “The Thinking Machine.” We’ll dig into what you need t",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/60b69225-e908-4027-b756-bd9474f00135/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=60b69225-e908-4027-b756-bd9474f00135&feed=l2i9YnTd",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
-   ]
-  },
-  {
    "title": "Introducing Businesses in ChatGPT",
    "link": "https://openai.com/index/introducing-businesses-chatgpt",
    "source": "OpenAI News",
@@ -1566,24 +1607,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-   "link": "https://openai.com/index/control-room",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-09T13:00:00+00:00",
-   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI built Control Room, an internal system that monitors and tracks model workloads across its research infrastructure and can rapidly halt them if safety or security concerns emerge. The tool enables real-time response to problems during model development and deployment.",
-   "whyMatters": [
-    "Demonstrates practical safety infrastructure for managing frontier models in production, beyond pre-deployment testing",
-    "Reflects OpenAI's operational approach to AI safety through monitoring and rapid intervention capabilities"
-   ]
-  },
-  {
    "title": "Innovating with AI in the special chemicals industry",
    "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
    "source": "MIT Tech Review · AI",
@@ -1599,6 +1622,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Connects to broader industrial AI adoption—shows that real value from AI depends on foundational data and domain expertise, not just the technology itself",
     "Relevant to how organizations (including educational institutions) need to think about AI implementation: tools alone don't work without reliable information systems and expert guidance"
+   ]
+  },
+  {
+   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+   "link": "https://openai.com/index/control-room",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-09T13:00:00+00:00",
+   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI built Control Room, an internal system that monitors and tracks model workloads across its research infrastructure and can rapidly halt them if safety or security concerns emerge. The tool enables real-time response to problems during model development and deployment.",
+   "whyMatters": [
+    "Demonstrates practical safety infrastructure for managing frontier models in production, beyond pre-deployment testing",
+    "Reflects OpenAI's operational approach to AI safety through monitoring and rapid intervention capabilities"
    ]
   },
   {
@@ -2267,24 +2308,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Franklin Templeton uses OpenAI to support investment research",
-   "link": "https://openai.com/index/franklin-templeton",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-05T00:00:00+00:00",
-   "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Franklin Templeton is building AI workflows using OpenAI to assist investment research, starting with equity analysis and risk comparison for portfolio managers.",
-   "whyMatters": [
-    "AI adoption in financial services moving from support to core investment decision workflows",
-    "Addresses institutional finance sector's need to scale research analysis and risk assessment"
-   ]
-  },
-  {
    "title": "How the Midterm Results Change AI",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli",
    "source": "The AI Daily Brief",
@@ -2518,24 +2541,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents potential acceleration of AI research by reducing manual loops in the development process",
     "If models can edit their own weights, it raises questions about how that scales AI capabilities and requires new safety considerations"
-   ]
-  },
-  {
-   "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
-   "link": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-03T05:32:25+00:00",
-   "summary": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A researcher demonstrated a technique where imperceptible background airplane noise in video audio can be analyzed using Doppler curves and cross-referenced against flight tracking data (ADS-B) to pinpoint the exact location where a video was filmed. This is an OSINT (open-source intelligence) vulnerability present in videos across the internet.",
-   "whyMatters": [
-    "Privacy risk: any published video with background aircraft noise may leak precise location information",
-    "Demonstrates how publicly available data sources can be combined in unexpected ways to compromise privacy"
    ]
   },
   {
