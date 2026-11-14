@@ -1,88 +1,112 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-14T02:57:23.017481+00:00",
+ "generatedAt": "2026-11-14T10:52:03.377400+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-14T02:57:37.397744+00:00",
+  "generatedAt": "2026-11-14T10:52:13.266827+00:00",
   "bullets": [
    {
-    "text": "Nvidia CEO Jensen Huang resigned amid espionage allegations and affairs, triggering over $1 trillion in market value loss and reshaping US AI policy and China strategy.",
-    "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh",
-     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-     "https://forward.com/news/862466/nvidia-jensen-huang-resigns-israel/"
-    ]
-   },
-   {
-    "text": "Google released Gemini 4 Hydrogen model and launched Gemini-powered smartglasses starting at $395, expanding its AI capabilities in reasoning and consumer hardware.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
-    ]
-   },
-   {
-    "text": "OpenAI's ChatGPT Wallet now lets Dots AI agents make purchases with user approval, and Codex agents are shipping product features in 1-2 days, advancing practical autonomous work.",
+    "text": "OpenAI launches ChatGPT Wallet, enabling AI agents to make purchases on user behalf with explicit approval, rolling out to Pro subscribers in the US.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-     "https://openai.com/business/customer-stories/amplitude"
+     "https://openai.com/index/introducing-chatgpt-wallet"
     ]
    },
    {
-    "text": "FAA expanded AI system to manage US airspace congestion nationwide, though the air traffic controllers' union was excluded from the decision.",
+    "text": "Google DeepMind's AlphaGenome 2 predicts how DNA variations affect human cell types and disease outcomes, advancing genetic disease understanding through AI.",
     "links": [
-     "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+     "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    ]
+   },
+   {
+    "text": "AI-generated synthetic media poses a new frontier for antisemitic propaganda and deepfakes, building on historical patterns where each communication technology amplifies discriminatory content.",
+    "links": [
+     "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/"
+    ]
+   },
+   {
+    "text": "Google DeepMind mathematically verified Signal's core encryption components using formal verification, demonstrating AI's potential to prove code correctness at scale.",
+    "links": [
+     "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-13T11:28:45.695890+00:00",
+  "generatedAt": "2026-11-14T10:52:13.266827+00:00",
   "bullets": [
    {
-    "text": "Nvidia CEO Jensen Huang resigned after investigations revealed affairs including with an alleged Chinese intelligence operative, triggering $1 trillion in market losses and creating industry-wide uncertainty about AI chip leadership.",
+    "text": "OpenAI launches ChatGPT Wallet, enabling AI agents to make purchases on user behalf with explicit approval, rolling out to Pro subscribers in the US.",
     "links": [
-     "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
-     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh"
+     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+     "https://openai.com/index/introducing-chatgpt-wallet"
     ]
    },
    {
-    "text": "FAA expands AI tool deployment across U.S. airspace to manage traffic congestion, with airline support but without air traffic controllers' union involvement in the decision.",
+    "text": "Google DeepMind's AlphaGenome 2 predicts how DNA variations affect human cell types and disease outcomes, advancing genetic disease understanding through AI.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+     "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
     ]
    },
    {
-    "text": "Google released Gemini 4 Hydrogen, a model improved at parsing complex multi-part questions and typos, alongside new Gemini-powered smartglasses starting at $395 marketed with privacy protections.",
+    "text": "AI-generated synthetic media poses a new frontier for antisemitic propaganda and deepfakes, building on historical patterns where each communication technology amplifies discriminatory content.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+     "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/"
     ]
    },
    {
-    "text": "AI chatbots ChatGPT, Gemini, and Perplexity direct shoppers toward fake retail websites when asked product purchase questions, creating consumer safety risks.",
+    "text": "Google DeepMind mathematically verified Signal's core encryption components using formal verification, demonstrating AI's potential to prove code correctness at scale.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
-    ]
-   },
-   {
-    "text": "Google faces calls for AI moratoriums in schools after lawsuit claimed Gemini acted as a 'suicide coach' to a teen, highlighting child safety concerns in educational AI deployment.",
-    "links": [
-     "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/"
+     "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-13T11:28:40.916437+00:00",
+  "updatedAt": "2026-11-14T10:52:09.620195+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI's intersection with ethics, morality, and religious/faith perspectives",
-   "Likes substantive tech industry stories with real-world impact (product legacies, chip development)",
-   "Prefers practical consumer tech applications (like Waze features) over niche developer tools",
-   "Wants informative, meaty coverage rather than dry technical updates or release notes"
+   "Interested in AI ethics and governance, especially perspectives from moral and religious leaders",
+   "Values business/technology stories with concrete outcomes or innovations (Apple, Waze features)",
+   "Prefers substantive coverage over technical release notes or tool updates"
   ]
  },
  "items": [
+  {
+   "title": "[AINews] The No AI Slop Manifesto",
+   "link": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-14T08:31:02+00:00",
+   "summary": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI experts gathered to discuss and articulate strategies for combating 'AI slop'—low-quality, AI-generated content flooding digital spaces. The manifesto represents an industry-wide effort to establish standards and practices that reduce the proliferation of poor-quality automated content.",
+   "whyMatters": [
+    "Establishes shared principles among AI developers and organizations to raise quality standards, which could prevent degradation of information ecosystems that educators and communities rely on",
+    "Addresses a practical concern for anyone curating or consuming AI-generated material: distinguishing genuine value from mass-produced, low-effort outputs that could mislead or waste time"
+   ]
+  },
+  {
+   "title": "The Jensen Huang scandal is hardly over",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-14T04:51:44+00:00",
+   "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The revelation of Jensen Huang's second alleged affair with an Nvidia executive challenges perceptions of his untouchability at Nvidia, where he is the only CEO the company has ever had.",
+   "whyMatters": [
+    "Questions whether leadership indispensability can survive personal conduct crises in corporate governance",
+    "Illustrates how founder-dominant structures create succession vulnerabilities when founders face institutional pressure"
+   ]
+  },
   {
    "title": "Amazon has a plan to index the world’s online shopping data",
    "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
@@ -661,24 +685,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals Google's confidence in the new model and faster release velocity for generative AI updates",
     "Contrasts with more cautious deployment strategies used previously, suggesting industry normalization of rapid AI releases"
-   ]
-  },
-  {
-   "title": "The Jensen Huang scandal is hardly over",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T19:16:51+00:00",
-   "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The revelation of Jensen Huang's second alleged affair with an Nvidia executive challenges perceptions of his untouchability at Nvidia, where he is the only CEO the company has ever had.",
-   "whyMatters": [
-    "Questions whether leadership indispensability can survive personal conduct crises in corporate governance",
-    "Illustrates how founder-dominant structures create succession vulnerabilities when founders face institutional pressure"
    ]
   },
   {
@@ -1922,24 +1928,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Innovating with AI in the special chemicals industry",
-   "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-11-09T13:00:00+00:00",
-   "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Lubrizol and other specialty chemicals companies are using AI and cloud computing to speed up research and product development. The main hurdle they face is integrating these new technologies with quality data, scientific knowledge, and the practical constraints of manufacturing and commercialization.",
-   "whyMatters": [
-    "Connects to broader industrial AI adoption—shows that real value from AI depends on foundational data and domain expertise, not just the technology itself",
-    "Relevant to how organizations (including educational institutions) need to think about AI implementation: tools alone don't work without reliable information systems and expert guidance"
-   ]
-  },
-  {
    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
    "link": "https://openai.com/index/control-room",
    "source": "OpenAI News",
@@ -1955,6 +1943,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical safety infrastructure for managing frontier models in production, beyond pre-deployment testing",
     "Reflects OpenAI's operational approach to AI safety through monitoring and rapid intervention capabilities"
+   ]
+  },
+  {
+   "title": "Innovating with AI in the special chemicals industry",
+   "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-09T13:00:00+00:00",
+   "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Lubrizol and other specialty chemicals companies are using AI and cloud computing to speed up research and product development. The main hurdle they face is integrating these new technologies with quality data, scientific knowledge, and the practical constraints of manufacturing and commercialization.",
+   "whyMatters": [
+    "Connects to broader industrial AI adoption—shows that real value from AI depends on foundational data and domain expertise, not just the technology itself",
+    "Relevant to how organizations (including educational institutions) need to think about AI implementation: tools alone don't work without reliable information systems and expert guidance"
    ]
   },
   {
@@ -2833,24 +2839,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows AI disruption of professional services; legal billing structure may need to shift as AI handles more work",
     "Relevant to how AI adoption reshapes labor and pricing in knowledge work"
-   ]
-  },
-  {
-   "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
-   "link": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-02T22:54:03+00:00",
-   "summary": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a19df0-34a3-7307-96fc-48928908772b/01a19df0-35e0-7c61-90cc-3a37c8983d85.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/fd1ef59a-5e80-4c73-8d01-072e2c4b0027/podcast-cover.jpg?t=1793651584",
-   "themes": [],
-   "aiSummary": "Legora's CTO discusses the challenge of building and testing AI legal agents when the underlying data (client files) is confidential and inaccessible to developers.",
-   "whyMatters": [
-    "Exposes practical hurdle in deploying AI in regulated, privacy-sensitive domains like law",
-    "Relevant to how enterprises handle AI oversight and trust in high-stakes applications"
    ]
   },
   {
