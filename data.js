@@ -1,42 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-14T11:58:55.945210+00:00",
+ "generatedAt": "2026-11-14T21:13:26.967164+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-14T11:59:03.557683+00:00",
+  "generatedAt": "2026-11-14T21:13:40.203706+00:00",
   "bullets": [
    {
-    "text": "Jensen Huang resigned as Nvidia CEO after allegations of affairs involving a Chinese national, wiping over $1 trillion in market value and upending US AI leadership amid geopolitical tensions.",
+    "text": "Nvidia CEO Jensen Huang resigned amid allegations including contacts with suspected Chinese intelligence, triggering major questions about chip export policy and US AI leadership.",
     "links": [
      "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
-     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
      "https://forward.com/news/862466/nvidia-jensen-huang-resigns-israel/"
     ]
    },
    {
-    "text": "FAA expanded AI systems to manage US airspace congestion, but air traffic controllers' union was excluded from decisions on automation that affects their workforce.",
+    "text": "AI agents are now transacting: OpenAI's ChatGPT Wallet lets Dots agents make purchases with user approval, while product teams deploy features in 1-2 days using AI-driven development.",
     "links": [
-     "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-     "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/"
+     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+     "https://openai.com/business/customer-stories/amplitude"
     ]
    },
    {
-    "text": "Google released Gemini 4 Hydrogen and Decisions API; OpenAI launched ChatGPT Wallet enabling AI agents to make purchases autonomously with user approval.",
+    "text": "Attackers are leveraging AI to automate and scale ransomware operations, and the FAA expanded an AI system for air traffic management without consulting controllers' union.",
+    "links": [
+     "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+     "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+    ]
+   },
+   {
+    "text": "Google released Gemini 4 Hydrogen with improved reasoning on complex questions, and Google DeepMind's decision-model API competes directly with OpenAI's systems.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
-    ]
-   },
-   {
-    "text": "AI systems directed shoppers toward fake retail websites in studies of ChatGPT, Gemini, and Perplexity, raising consumer harm risks from chatbot shopping recommendations.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
-    ]
-   },
-   {
-    "text": "Google DeepMind's AlphaGenome 2 predicts how DNA variations affect human cell types and disease, advancing genetic understanding of disease mechanisms.",
-    "links": [
-     "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+     "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
     ]
    }
   ]
@@ -82,6 +75,42 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+   "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-14T15:12:19+00:00",
+   "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jensen Huang delivered a high-profile keynote at a packed arena event on January 6th, 2025, staging an entrance designed to create spectacle and celebrity appeal. The article examines what this moment reveals about the role of visionary founder-CEOs in tech and whether that archetype is declining.",
+   "whyMatters": [
+    "Reflects shifting expectations around corporate leadership in AI—whether the 'rockstar CEO' model remains effective or is becoming dated",
+    "Relevant to how AI industry leaders present themselves and build narratives around their companies' missions and products"
+   ]
+  },
+  {
+   "title": "Beware the New AI-Fueled Ransomware Boom",
+   "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-14T13:00:00+00:00",
+   "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Ransomware attackers are increasingly using AI tools to automate and scale their attacks, even though fully automated ransomware operations haven't yet materialized at scale. The piece warns that even moderately skilled attackers leveraging AI are causing significant damage.",
+   "whyMatters": [
+    "Direct security threat: AI-enabled ransomware could substantially lower barriers to entry for cybercriminals",
+    "Policy and practice implication: Organizations need to reassess ransomware defenses in light of AI-assisted attack sophistication"
+   ]
+  },
+  {
    "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
    "link": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
    "source": "Wired · AI",
@@ -119,21 +148,23 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Jensen Huang scandal is hardly over",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+   "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+   "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-11-14T04:51:44+00:00",
-   "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then […]",
+   "date": "2026-11-14T00:06:40+00:00",
+   "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
-   "themes": [],
-   "aiSummary": "The revelation of Jensen Huang's second alleged affair with an Nvidia executive challenges perceptions of his untouchability at Nvidia, where he is the only CEO the company has ever had.",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Helen Toner, executive director of the Center for Security and Emerging Technology at Georgetown University and former OpenAI board member (known for her role in the 2023 Sam Altman firing), discusses ongoing concerns about trustworthiness in AI leadership. The conversation is part of a series examining AI's real-world impact.",
    "whyMatters": [
-    "Questions whether leadership indispensability can survive personal conduct crises in corporate governance",
-    "Illustrates how founder-dominant structures create succession vulnerabilities when founders face institutional pressure"
+    "Governance and accountability: Raises persistent questions about oversight of AI companies and whether board structures adequately protect public interests",
+    "Policy-relevant: Toner's position at a think tank focused on AI security and emerging technology suggests the conversation touches on regulatory and safety frameworks needed for AI governance"
    ]
   },
   {
@@ -793,25 +824,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI chatbots are recommending fake retail websites, study finds",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T18:35:54+00:00",
-   "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A study by Podqi found that ChatGPT, Gemini, and Perplexity direct shoppers toward fake retail websites and other risky sites when asked about product purchases.",
-   "whyMatters": [
-    "Demonstrates a concrete failure mode of popular AI assistants that consumers rely on",
-    "Exposes broader problem of AI hallucination in commercial contexts with real financial and security consequences",
-    "Highlights need for better fact-checking in AI-generated recommendations before deployment"
-   ]
-  },
-  {
    "title": "Israel has a lot riding on Nvidia, whose CEO just resigned",
    "link": "https://forward.com/news/862466/nvidia-jensen-huang-resigns-israel/",
    "source": "The Forward",
@@ -885,25 +897,6 @@ window.NEWS_DATA = {
    "aiSummary": "Google DeepMind announced Gemini 4 Hydrogen, a new model in its Gemini series.",
    "whyMatters": [
     "Incremental update to Google's frontier model lineup; part of ongoing competition in large language models"
-   ]
-  },
-  {
-   "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
-   "link": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-12T17:59:15+00:00",
-   "summary": "Since the scandal involving an alleged Chinese spy began, Nvidia has lost an eye-watering sum from its market value.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Since the scandal involving alleged Chinese espionage and Huang's affairs became public, Nvidia's market value has lost over $1 trillion, reflecting severe financial consequences from the leadership crisis.",
-   "whyMatters": [
-    "Demonstrates how abruptly market confidence in AI infrastructure leaders can collapse",
-    "Financial damage underscores Huang's centrality to investor perceptions of Nvidia",
-    "May trigger restructuring or strategic shifts that ripple through the entire AI supply chain"
    ]
   },
   {
@@ -2414,24 +2407,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Everyone Everywhere Hated Meta’s New AI Training Terms. Now, They’re On Pause",
-   "link": "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-11-05T21:01:55+00:00",
-   "summary": "Back to the drawing board!",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Meta has paused its controversial AI training terms after widespread backlash from users, regulators, and privacy advocates. The company is returning to the drawing board to revise its policy.",
-   "whyMatters": [
-    "Major policy reversal: demonstrates that coordinated public and regulatory pressure can force course correction on AI data practices",
-    "Privacy and consent implications: affects how Meta can use user data for AI training across its platforms and impacts broader industry norms"
-   ]
-  },
-  {
    "title": "Cult.fit builds operational muscle with Codex",
    "link": "https://openai.com/index/cultfit-builds-with-codex",
    "source": "OpenAI News",
@@ -3549,42 +3524,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Open models in robotics lower barriers to innovation across companies and research labs, affecting how the AI industry develops embodied AI capabilities",
     "World models that simulate physical environments are becoming critical infrastructure for training and deploying robots and autonomous systems at scale"
-   ]
-  },
-  {
-   "title": "Gemini 4 Argon: our next era of frontier intelligence",
-   "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-30T20:01:45+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind announced Gemini 4 Argon as the start of a new era of frontier AI capability, representing a significant advancement in their AI model lineage. This positions it as a watershed moment in AI development.",
-   "whyMatters": [
-    "Signals major capability jump in frontier AI models from leading lab",
-    "Industry messaging that shapes public understanding of AI progress trajectory"
-   ]
-  },
-  {
-   "title": "Introducing SynthID Bio",
-   "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-09-30T15:03:07+00:00",
-   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind introduced SynthID Bio, a proof-of-concept watermarking system that embeds digital signatures into AI-generated proteins while maintaining their biological functionality. This allows identification of synthetic proteins while preserving their utility.",
-   "whyMatters": [
-    "Enables tracking and accountability of AI-designed biological molecules, addressing biosecurity concerns",
-    "Demonstrates technical solution for identifying AI-generated biological content as such use expands"
    ]
   }
  ]
