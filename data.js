@@ -1,32 +1,42 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-14T10:52:03.377400+00:00",
+ "generatedAt": "2026-11-14T11:58:55.945210+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-14T10:52:13.266827+00:00",
+  "generatedAt": "2026-11-14T11:59:03.557683+00:00",
   "bullets": [
    {
-    "text": "OpenAI launches ChatGPT Wallet, enabling AI agents to make purchases on user behalf with explicit approval, rolling out to Pro subscribers in the US.",
+    "text": "Jensen Huang resigned as Nvidia CEO after allegations of affairs involving a Chinese national, wiping over $1 trillion in market value and upending US AI leadership amid geopolitical tensions.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-     "https://openai.com/index/introducing-chatgpt-wallet"
+     "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+     "https://forward.com/news/862466/nvidia-jensen-huang-resigns-israel/"
     ]
    },
    {
-    "text": "Google DeepMind's AlphaGenome 2 predicts how DNA variations affect human cell types and disease outcomes, advancing genetic disease understanding through AI.",
+    "text": "FAA expanded AI systems to manage US airspace congestion, but air traffic controllers' union was excluded from decisions on automation that affects their workforce.",
+    "links": [
+     "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+     "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/"
+    ]
+   },
+   {
+    "text": "Google released Gemini 4 Hydrogen and Decisions API; OpenAI launched ChatGPT Wallet enabling AI agents to make purchases autonomously with user approval.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+     "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+    ]
+   },
+   {
+    "text": "AI systems directed shoppers toward fake retail websites in studies of ChatGPT, Gemini, and Perplexity, raising consumer harm risks from chatbot shopping recommendations.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+    ]
+   },
+   {
+    "text": "Google DeepMind's AlphaGenome 2 predicts how DNA variations affect human cell types and disease, advancing genetic understanding of disease mechanisms.",
     "links": [
      "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
-    ]
-   },
-   {
-    "text": "AI-generated synthetic media poses a new frontier for antisemitic propaganda and deepfakes, building on historical patterns where each communication technology amplifies discriminatory content.",
-    "links": [
-     "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/"
-    ]
-   },
-   {
-    "text": "Google DeepMind mathematically verified Signal's core encryption components using formal verification, demonstrating AI's potential to prove code correctness at scale.",
-    "links": [
-     "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/"
     ]
    }
   ]
@@ -71,6 +81,25 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+   "link": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-14T11:00:00+00:00",
+   "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The article examines how AI is being integrated into aviation systems, including potential roles in piloting and air traffic control functions where historically humans have been essential. Aviation, typically conservative about new technology adoption, is increasingly experimenting with AI capabilities in critical operational areas.",
+   "whyMatters": [
+    "This represents a major shift in how safety-critical industries approach automation—aviation's traditional caution around technology innovation is breaking down in the face of AI pressure",
+    "The stakes are uniquely high: failures in aviation affect lives directly and publicly, making this a test case for how society will govern AI deployment in other essential systems",
+    "It raises concrete questions about liability, redundancy, and human oversight that will likely influence regulatory frameworks beyond just aviation"
+   ]
+  },
   {
    "title": "[AINews] The No AI Slop Manifesto",
    "link": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
@@ -896,25 +925,6 @@ window.NEWS_DATA = {
     "Marks Google's physical product expansion for AI beyond software; early pricing and partnership strategy hint at market positioning",
     "Privacy positioning suggests tech industry awareness of consumer concerns; reflects differentiation strategy",
     "Wearable AI integration brings AI into constant proximity with users, raising ongoing privacy and surveillance considerations"
-   ]
-  },
-  {
-   "title": "Meet Colette Kress, Nvidia’s New Interim CEO",
-   "link": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-12T14:14:33+00:00",
-   "summary": "Nvidia’s longtime chief financial officer helped transform the company into an AI powerhouse. Now she’s taking the reins following Jensen Huang’s resignation on Thursday.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Colette Kress, Nvidia's longtime chief financial officer, is stepping in as interim CEO following Jensen Huang's resignation. She played a key role in Nvidia's transformation into an AI powerhouse.",
-   "whyMatters": [
-    "Finance leader taking CEO role may signal focus on operational stability and investor confidence over strategic innovation",
-    "Kress's deep institutional knowledge of Nvidia may provide continuity during crisis, but questions remain about long-term leadership vision",
-    "Interim status leaves succession open; industry watching to see if this becomes permanent"
    ]
   },
   {
@@ -1928,24 +1938,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-   "link": "https://openai.com/index/control-room",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-09T13:00:00+00:00",
-   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI built Control Room, an internal system that monitors and tracks model workloads across its research infrastructure and can rapidly halt them if safety or security concerns emerge. The tool enables real-time response to problems during model development and deployment.",
-   "whyMatters": [
-    "Demonstrates practical safety infrastructure for managing frontier models in production, beyond pre-deployment testing",
-    "Reflects OpenAI's operational approach to AI safety through monitoring and rapid intervention capabilities"
-   ]
-  },
-  {
    "title": "Innovating with AI in the special chemicals industry",
    "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
    "source": "MIT Tech Review · AI",
@@ -1961,6 +1953,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Connects to broader industrial AI adoption—shows that real value from AI depends on foundational data and domain expertise, not just the technology itself",
     "Relevant to how organizations (including educational institutions) need to think about AI implementation: tools alone don't work without reliable information systems and expert guidance"
+   ]
+  },
+  {
+   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+   "link": "https://openai.com/index/control-room",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-09T13:00:00+00:00",
+   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI built Control Room, an internal system that monitors and tracks model workloads across its research infrastructure and can rapidly halt them if safety or security concerns emerge. The tool enables real-time response to problems during model development and deployment.",
+   "whyMatters": [
+    "Demonstrates practical safety infrastructure for managing frontier models in production, beyond pre-deployment testing",
+    "Reflects OpenAI's operational approach to AI safety through monitoring and rapid intervention capabilities"
    ]
   },
   {
