@@ -1,34 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-13T22:25:38.066448+00:00",
+ "generatedAt": "2026-11-14T02:57:23.017481+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-13T22:25:56.002118+00:00",
+  "generatedAt": "2026-11-14T02:57:37.397744+00:00",
   "bullets": [
    {
-    "text": "Nvidia's sudden leadership crisis—Jensen Huang resigned amid alleged Chinese espionage involving affairs—has erased over $1 trillion in market value and upended AI infrastructure planning across the industry.",
+    "text": "Nvidia CEO Jensen Huang resigned amid espionage allegations and affairs, triggering over $1 trillion in market value loss and reshaping US AI policy and China strategy.",
     "links": [
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh",
-     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/"
+     "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+     "https://forward.com/news/862466/nvidia-jensen-huang-resigns-israel/"
     ]
    },
    {
-    "text": "OpenAI's new AI agents can now make purchases and conduct transactions via ChatGPT Wallet, marking a meaningful shift toward autonomous commercial actions by consumer-facing AI systems.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-     "https://openai.com/index/introducing-chatgpt-wallet"
-    ]
-   },
-   {
-    "text": "AI-generated synthetic media and deepfakes now represent a new frontier for antisemitic propaganda, building on historical patterns where communication technologies amplify discriminatory content.",
-    "links": [
-     "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/"
-    ]
-   },
-   {
-    "text": "Google released Gemini 4 Hydrogen, designed to better understand complex multi-part questions and breaking them into component parts, advancing AI's reasoning on nuanced requests.",
+    "text": "Google released Gemini 4 Hydrogen model and launched Gemini-powered smartglasses starting at $395, expanding its AI capabilities in reasoning and consumer hardware.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+     "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+    ]
+   },
+   {
+    "text": "OpenAI's ChatGPT Wallet now lets Dots AI agents make purchases with user approval, and Codex agents are shipping product features in 1-2 days, advancing practical autonomous work.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+     "https://openai.com/business/customer-stories/amplitude"
+    ]
+   },
+   {
+    "text": "FAA expanded AI system to manage US airspace congestion nationwide, though the air traffic controllers' union was excluded from the decision.",
+    "links": [
+     "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
     ]
    }
   ]
@@ -82,6 +83,62 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Amazon has a plan to index the world’s online shopping data",
+   "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-13T23:49:11+00:00",
+   "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Amazon is building a \"World Product Graph,\" a comprehensive database of products sold across the entire internet, not just through Amazon, to make the information searchable on its own site. The goal is to reduce the likelihood that shoppers leave Amazon to purchase elsewhere by centralizing product data from competitors.",
+   "whyMatters": [
+    "Represents a significant consolidation of e-commerce data that could deepen Amazon's market dominance and control over online shopping",
+    "Raises questions about data aggregation practices, competitive fairness, and how internet-wide information is being collected and monetized"
+   ]
+  },
+  {
+   "title": "datasette-cluster-map 0.19",
+   "link": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-13T23:02:45+00:00",
+   "summary": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's PG&E , also demonstrating Datasette's recently redesigned facets : Tags: datasette , geospatial , op",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/power-plants-pge.webp",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Datasette-cluster-map version 0.19 was released, an older plugin for the Datasette data platform that now works with the latest Datasette version and uses the new datasette-leaflet dependency to properly handle OpenStreetMap tile requests.",
+   "whyMatters": [
+    "Reflects ongoing maintenance of open-source data tools that enable public access to structured datasets",
+    "Technical improvement ensuring compatibility with mapping standards and respecting data provider policies"
+   ]
+  },
+  {
+   "title": "datasette-leaflet 0.3",
+   "link": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-13T22:30:54+00:00",
+   "summary": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy. datasette-leaflet is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Datasette-leaflet 0.3 was released to resolve a technical issue where Datasette's default HTTP headers were preventing plugins from complying with OpenStreetMap's policy requiring referrer headers on tile requests.",
+   "whyMatters": [
+    "Enables open-source projects to respect data provider policies and work correctly with public mapping services",
+    "Represents the kind of infrastructure work necessary for responsible data access and visualization"
+   ]
+  },
   {
    "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
    "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
@@ -341,6 +398,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Major leadership transition at a foundational player in AI infrastructure and GPU development affects the entire AI industry's direction",
     "Uncertainty about open-source commitment and American AI strategy under new leadership has implications for how AI development will proceed"
+   ]
+  },
+  {
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "link": "https://openai.com/business/customer-stories/shield",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-13T08:00:00+00:00",
+   "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Shield is a new tool that leverages OpenAI's models to help IT technicians manage work in legacy systems by having AI agents navigate outdated portals, freeing technicians to focus on problems requiring human judgment.",
+   "whyMatters": [
+    "Demonstrates practical enterprise application of AI agents for routine system navigation tasks",
+    "Could improve IT operations efficiency but raises questions about AI in critical infrastructure and the need for technician oversight of automated system access"
    ]
   },
   {
@@ -794,25 +869,6 @@ window.NEWS_DATA = {
     "Demonstrates how abruptly market confidence in AI infrastructure leaders can collapse",
     "Financial damage underscores Huang's centrality to investor perceptions of Nvidia",
     "May trigger restructuring or strategic shifts that ripple through the entire AI supply chain"
-   ]
-  },
-  {
-   "title": "More game developers are starting to use generative AI",
-   "link": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T17:24:09+00:00",
-   "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers that […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "According to the GDC Festival of Gaming's annual survey, 40% of game developers now use generative AI as part of their work, up from 36% the previous year.",
-   "whyMatters": [
-    "Shows continued AI tool adoption in creative industries despite ongoing copyright and labor concerns",
-    "Indicates developers view AI as mainstream rather than experimental despite unresolved ethical and legal questions",
-    "Suggests generative AI may reshape game development workflows and workforce composition"
    ]
   },
   {
@@ -2526,26 +2582,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Setting a new standard for responsible AI infrastructure",
-   "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-05T02:00:00+00:00",
-   "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI released its National Community Compact and Compute Campus Policy Blueprint, providing guidelines for developing AI infrastructure in ways that protect local resources, create jobs, and balance community needs.",
-   "whyMatters": [
-    "Policy framework addresses legitimate community concerns about resource use and economic impact from AI data centers",
-    "OpenAI positioning itself as governance-conscious player, potentially influencing industry standards"
-   ]
-  },
-  {
    "title": "How the Midterm Results Change AI",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-the-Midterm-Results-Change-AI-e3rotli",
    "source": "The AI Daily Brief",
@@ -2725,42 +2761,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Applies AI to pharmaceutical R&D with potential to speed medicine development",
     "Raises ethical considerations around drug access, pricing, and equitable distribution of AI-enabled medical advances"
-   ]
-  },
-  {
-   "title": "AI is destroying my CS degree",
-   "link": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-03T16:42:02+00:00",
-   "summary": "My comment on AI is destroying my CS degree — Hacker News. I don't envy educators right now. AI clearly means you need to change how you teach and evaluate students. We are only a few years in though, and it's still extremely unclear what effective teaching with these tools looks like. The worst part is that the evaluation loop is measured in multiple years! If you start trying some new education ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An educator notes that AI is forcing CS programs to rethink how they teach and evaluate students, but there is deep uncertainty about what effective AI-integrated education looks like. The multi-year evaluation cycle for pedagogical changes makes experimentation difficult.",
-   "whyMatters": [
-    "Directly impacts computer science education: professors cannot yet determine which teaching methods work with AI tools available to students",
-    "Highlights mismatch between speed of AI change and pace of institutional educational assessment and curriculum redesign"
-   ]
-  },
-  {
-   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-   "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-03T16:29:48+00:00",
-   "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A paper titled \"Sparks of Weight-Space Programming\" found that frontier models including GPT-6 Astra can directly interpret and modify raw neural network weights, and that smaller models like Qwen 3.8 27B can also perform this capability on a local computer. This suggests LLMs can operate at the level of model internals.",
-   "whyMatters": [
-    "Represents significant capability advance: LLMs can now read and modify other model weights, not just generate text",
-    "Raises questions about model reproducibility, modification, and security implications of weight-space programming"
    ]
   },
   {
