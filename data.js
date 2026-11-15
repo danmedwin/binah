@@ -1,41 +1,32 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-15T12:34:50.114053+00:00",
+ "generatedAt": "2026-11-15T21:33:35.424063+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-15T12:34:58.579521+00:00",
+  "generatedAt": "2026-11-15T21:33:45.535029+00:00",
   "bullets": [
    {
-    "text": "Jensen Huang resigned as Nvidia CEO after 33 years, raising major questions about US AI infrastructure, China policy, and open-source development amid industry uncertainty.",
+    "text": "Jensen Huang resigned as Nvidia CEO after 33 years, triggering US government action on AI chip export restrictions and raising questions about the company's China operations.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh",
-     "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-     "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+     "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+     "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
     ]
    },
    {
-    "text": "OpenAI rolled out ChatGPT Wallet, enabling AI agents to autonomously make purchases with user approval, expanding the scope of AI decision-making in commerce.",
+    "text": "FAA is expanding AI systems to manage US airspace congestion, but air traffic controllers' union wasn't consulted on the decision.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-     "https://openai.com/index/introducing-chatgpt-wallet"
+     "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
     ]
    },
    {
-    "text": "Google released Gemini 4 Hydrogen model with improved reasoning, while facing calls for AI moratoriums in schools after a lawsuit claimed the system acted as a 'suicide coach' to a teen.",
+    "text": "OpenAI launched ChatGPT Wallet, enabling AI agents to make purchases on user behalf—extending autonomous agent capabilities into commerce.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/"
+     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
     ]
    },
    {
-    "text": "Ransomware attackers increasingly use AI to automate and scale operations; even moderately skilled attackers leveraging these tools pose growing threats.",
+    "text": "AI-generated synthetic media poses a new frontier for antisemitic propaganda and deepfakes, building on historical patterns where technology amplifies discriminatory content.",
     "links": [
-     "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/"
-    ]
-   },
-   {
-    "text": "AI experts published a 'No AI Slop' manifesto to combat low-quality AI-generated content flooding digital spaces, establishing industry standards to reduce proliferation.",
-    "links": [
-     "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
+     "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/"
     ]
    }
   ]
@@ -82,6 +73,42 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+   "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-15T20:49:29+00:00",
+   "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jensen Huang, Nvidia's co-founder and former CEO, may be attempting to return to the CEO role amid ongoing company drama. The situation is developing rapidly with new developments emerging frequently.",
+   "whyMatters": [
+    "Leadership instability at Nvidia, a dominant AI chip manufacturer, directly affects the entire AI industry's direction and strategic decisions",
+    "Huang's potential return signals how serious the current leadership crisis is at a company central to AI infrastructure"
+   ]
+  },
+  {
+   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-15T19:15:43+00:00",
+   "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Following a scandal involving former CEO Jensen Huang and a suspected Chinese spy, Congress is pushing to tighten export restrictions on AI chips. Both parties support additional measures and have demanded testimony from Huang and other Nvidia executives.",
+   "whyMatters": [
+    "U.S. AI chip export policy is a critical geopolitical lever affecting which countries can access advanced AI capabilities",
+    "Congressional action could reshape the competitive landscape for AI development globally and affect supply chains for AI research"
+   ]
+  },
   {
    "title": "7 Things AI-Native Companies Do Differently",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/7-Things-AI-Native-Companies-Do-Differently-e3sdtgn",
@@ -136,6 +163,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates a novel interaction model for habit formation using ambient AI—applying game mechanics to physical objects rather than screens",
     "Raises practical questions about how AI anthropomorphization influences behavior change in educational and personal development contexts"
+   ]
+  },
+  {
+   "title": "An overview of Jensen Huang’s messy days",
+   "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-15T00:09:10+00:00",
+   "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia is experiencing a significant leadership crisis centered on Jensen Huang's resignation and its aftermath. The situation involves multiple developing issues requiring ongoing coverage.",
+   "whyMatters": [
+    "Instability at Nvidia, which manufactures essential chips for AI systems, creates uncertainty about the company's technical direction and commitment to its products",
+    "The scope and seriousness of the crisis is substantial enough to warrant sustained press attention and public understanding"
    ]
   },
   {
@@ -717,24 +762,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Google’s new Gemini model is better at understanding complicated questions",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T21:55:32+00:00",
-   "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google released Gemini 4 Hydrogen, a new model designed to better understand complex multi-part questions, typos, and specific requests by breaking down queries into component parts.",
-   "whyMatters": [
-    "Demonstrates progress in making AI assistants more practical for real-world user queries with linguistic ambiguity",
-    "Available immediately across search, Gemini app, and multiple tiers, expanding access to improved language understanding"
-   ]
-  },
-  {
    "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
    "link": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
    "source": "Wired · AI",
@@ -808,24 +835,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses emerging physical security threats to digital infrastructure underlying AI and cloud services",
     "Connects to broader resilience concerns for mission-critical systems"
-   ]
-  },
-  {
-   "title": "No, AI agents did not discover a previously unknown Maya site",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T19:42:40+00:00",
-   "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Google researcher claimed AI agents discovered an unmapped Maya archaeological site in Mexico, but archaeologists revealed the site had already been found and published in academic literature the previous year.",
-   "whyMatters": [
-    "Illustrates risks of AI-driven claims lacking rigorous verification against existing knowledge bases",
-    "Undermines credibility of AI applications in specialized fields and highlights need for domain expert oversight"
    ]
   },
   {
@@ -924,25 +933,6 @@ window.NEWS_DATA = {
     "Israel's AI and tech ecosystem relies heavily on Nvidia; leadership disruption has direct regional implications",
     "Illustrates how personal misconduct by industry figures can affect geopolitical and economic relationships",
     "Raises questions about intelligence vetting and supply-chain resilience for critical technology"
-   ]
-  },
-  {
-   "title": "Oh, Palantir is ‘progressive’ now, is it?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-12T18:13:39+00:00",
-   "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vibe shift\" […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Verge published commentary criticizing Palantir CEO Alex Karp's attempt to reposition the company as \"progressive\" following recent election results, suggesting the pivot is opportunistic rather than principled.",
-   "whyMatters": [
-    "Reflects ongoing debate about AI company leadership's political posturing and authenticity",
-    "Raises questions about corporate values alignment in the AI industry",
-    "Commentary rather than news; limited concrete impact on AI landscape beyond internal messaging"
    ]
   },
   {
@@ -1883,24 +1873,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-   "link": "https://openai.com/index/control-room",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-09T13:00:00+00:00",
-   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI built Control Room, an internal system that monitors and tracks model workloads across its research infrastructure and can rapidly halt them if safety or security concerns emerge. The tool enables real-time response to problems during model development and deployment.",
-   "whyMatters": [
-    "Demonstrates practical safety infrastructure for managing frontier models in production, beyond pre-deployment testing",
-    "Reflects OpenAI's operational approach to AI safety through monitoring and rapid intervention capabilities"
-   ]
-  },
-  {
    "title": "Innovating with AI in the special chemicals industry",
    "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
    "source": "MIT Tech Review · AI",
@@ -1916,6 +1888,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Connects to broader industrial AI adoption—shows that real value from AI depends on foundational data and domain expertise, not just the technology itself",
     "Relevant to how organizations (including educational institutions) need to think about AI implementation: tools alone don't work without reliable information systems and expert guidance"
+   ]
+  },
+  {
+   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+   "link": "https://openai.com/index/control-room",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-09T13:00:00+00:00",
+   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI built Control Room, an internal system that monitors and tracks model workloads across its research infrastructure and can rapidly halt them if safety or security concerns emerge. The tool enables real-time response to problems during model development and deployment.",
+   "whyMatters": [
+    "Demonstrates practical safety infrastructure for managing frontier models in production, beyond pre-deployment testing",
+    "Reflects OpenAI's operational approach to AI safety through monitoring and rapid intervention capabilities"
    ]
   },
   {
@@ -3165,24 +3155,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses the human dimension of AI integration: how individuals make sense of their work identity when AI reshapes roles—relevant to educators preparing students for changing careers",
     "Suggests that narrative and storytelling are skills that remain distinctly human and valuable in an AI-driven economy"
-   ]
-  },
-  {
-   "title": "Reclaiming Human Agency – Part 1 #73",
-   "link": "https://aiandfaith.org/aif-podcast/reclaiming-human-agency-1/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-10-01T14:31:32+00:00",
-   "summary": "In this conversation, we discuss the book ⁠Reclaiming Human Agency in the Age of Artificial Intelligence⁠. We are joined by three of the book’s thirteen authors from the AI Research",
-   "religionScore": 5,
-   "religionHits": [],
-   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-9-1/433083457-44100-2-04d5785ddf2c4.m4a",
-   "image": "https://aiandfaith.org/wp-content/uploads/2026/10/AIF-PODCAST-Reclaiming-Human-Agency-Part-1-podcast-image_result.webp",
-   "themes": [],
-   "aiSummary": "An AI and Faith podcast episode discusses the book \"Reclaiming Human Agency in the Age of Artificial Intelligence,\" featuring a conversation with three of the book's thirteen authors from the AI Research program. The episode explores themes of human agency amid AI advancement.",
-   "whyMatters": [
-    "This directly addresses theological and ethical frameworks for understanding human agency in relation to AI systems, relevant to religious educators and communities",
-    "A multi-author scholarly approach suggests growing institutional engagement with AI ethics from religious and humanistic perspectives"
    ]
   }
  ]
