@@ -1,33 +1,35 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-16T11:58:55.921776+00:00",
+ "generatedAt": "2026-11-16T13:26:53.990274+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-16T11:59:07.619054+00:00",
+  "generatedAt": "2026-11-16T13:27:01.214374+00:00",
   "bullets": [
    {
-    "text": "Congress is tightening AI chip export rules in response to Huang's security breach, shifting US policy toward stricter technology controls over China.",
+    "text": "Nvidia's market dominance faces serious challenge as internal leadership crisis and competitive pressure from rival chipmakers create openings for competitors to gain ground.",
+    "links": [
+     "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+     "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down"
+    ]
+   },
+   {
+    "text": "Congress is tightening AI chip export rules and demanding testimony from Nvidia executives following a scandal involving former CEO Jensen Huang, reshaping US government AI policy toward China.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Washington-Is-Taking-Control-of-AI-e3sbe6r"
     ]
    },
    {
-    "text": "OpenAI is expanding into agent commerce via ChatGPT Wallet, letting AI systems execute purchases with user approval—moving beyond chat into autonomous financial transactions.",
+    "text": "OpenAI is expanding AI agents' economic agency through ChatGPT Wallet, enabling autonomous purchases with user approval, while also launching science-focused initiatives and expanding institutional partnerships in media and education.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-     "https://openai.com/index/introducing-chatgpt-wallet"
+     "https://openai.com/index/the-kings-trust-and-openai",
+     "https://openai.com/index/lvmh-media-division-partnership"
     ]
    },
    {
-    "text": "Apple is launching studies to validate whether conversational AI actually helps users with health questions, raising empirical questions about real-world AI tool effectiveness.",
+    "text": "Apple is studying real-world effectiveness of conversational AI for health advice to improve how people use AI tools for medical questions.",
     "links": [
      "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
-    ]
-   },
-   {
-    "text": "OpenAI and LVMH are partnering to integrate AI into journalism and boost content discovery through ChatGPT, exemplifying how generative AI is reshaping publishing business models.",
-    "links": [
-     "https://openai.com/index/lvmh-media-division-partnership"
     ]
    }
   ]
@@ -146,6 +148,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses a critical gap in AI reliability for healthcare—actual effectiveness matters more than capability claims",
     "Results could influence how tech companies design health AI and inform medical professionals' trust in these tools"
+   ]
+  },
+  {
+   "title": "The Nvidia scandal isn’t slowing down",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-16T00:45:34+00:00",
+   "summary": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpaced supply, leading AI CEOs to essentially bow at […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's CEO Jensen Huang maintains extraordinary influence over AI development because the company's chips are foundational to advanced AI systems in the US, and demand consistently exceeds supply, giving Huang and Nvidia outsized power over which AI projects get resources.",
+   "whyMatters": [
+    "Nvidia's near-monopoly on AI chip supply creates a bottleneck that shapes the entire industry's direction and priorities",
+    "Huang's concentrated power raises questions about who controls access to critical AI infrastructure and by what standards those decisions are made"
    ]
   },
   {
@@ -857,24 +877,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates how AI can be used to democratize proprietary software by creating open-source replacements at scale",
     "Part of broader pushback against closed commercial platforms; could reshape software accessibility and business models in tech"
-   ]
-  },
-  {
-   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-13T00:23:32+00:00",
-   "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic released Claude Duet, a consumer-facing AI agent designed to be helpful for non-technical users. The agent notably offers to help write up user experiences with it, displaying self-aware and helpful behavior.",
-   "whyMatters": [
-    "Agents are moving to consumer markets; this one demonstrates personality and self-referential awareness that raises questions about transparency and user expectations",
-    "Consumer agents need different trust and usability frameworks than enterprise tools—relevant to broad adoption and public understanding"
    ]
   },
   {
