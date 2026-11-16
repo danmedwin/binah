@@ -1,80 +1,135 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-16T02:38:12.869053+00:00",
+ "generatedAt": "2026-11-16T11:58:55.921776+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-16T02:38:27.628126+00:00",
+  "generatedAt": "2026-11-16T11:59:07.619054+00:00",
   "bullets": [
    {
-    "text": "Congress is tightening AI chip export rules following a spy scandal involving Nvidia's former CEO Jensen Huang, signaling a major shift in US government oversight of AI technology and China policy.",
+    "text": "Congress is tightening AI chip export rules in response to Huang's security breach, shifting US policy toward stricter technology controls over China.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Washington-Is-Taking-Control-of-AI-e3sbe6r"
     ]
    },
    {
-    "text": "OpenAI launched ChatGPT Wallet, enabling AI agents to make purchases on user behalf with approval, marking a significant expansion of autonomous agent capabilities in commerce.",
+    "text": "OpenAI is expanding into agent commerce via ChatGPT Wallet, letting AI systems execute purchases with user approval—moving beyond chat into autonomous financial transactions.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
      "https://openai.com/index/introducing-chatgpt-wallet"
     ]
    },
    {
-    "text": "Apple initiated a research study with OpenEvidence to measure whether conversational AI actually helps people with health questions, addressing a critical gap in understanding AI health tool effectiveness.",
+    "text": "Apple is launching studies to validate whether conversational AI actually helps users with health questions, raising empirical questions about real-world AI tool effectiveness.",
     "links": [
      "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
     ]
    },
    {
-    "text": "OpenAI published a science-focused blog to document AI-assisted research breakthroughs, including a lattice-based definition of the Standard Model developed with GPT-6 Astra.",
+    "text": "OpenAI and LVMH are partnering to integrate AI into journalism and boost content discovery through ChatGPT, exemplifying how generative AI is reshaping publishing business models.",
     "links": [
-     "https://openai.com/index/step-toward-defining-the-standard-model",
-     "https://openai.com/index/our-new-blog-for-science"
+     "https://openai.com/index/lvmh-media-division-partnership"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-15T11:26:42.354374+00:00",
+  "generatedAt": "2026-11-16T11:59:07.619054+00:00",
   "bullets": [
    {
-    "text": "Jensen Huang resigns as Nvidia CEO following revelations of affairs involving a woman U.S. intelligence suspects is a Chinese spy, reshaping AI leadership and raising questions about China policy and industry direction.",
+    "text": "Congress is tightening AI chip export rules in response to Huang's security breach, shifting US policy toward stricter technology controls over China.",
     "links": [
-     "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Jensen-Huang-Is-Out--Everything-in-AI-Is-Now-Up-for-Grabs-e3s9ioh",
-     "https://forward.com/news/862466/nvidia-jensen-huang-resigns-israel/"
+     "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Washington-Is-Taking-Control-of-AI-e3sbe6r"
     ]
    },
    {
-    "text": "FAA expands AI system to manage U.S. airspace congestion nationwide, praised by airlines but implemented without air traffic controllers' union involvement, marking significant automation in safety-critical aviation.",
+    "text": "OpenAI is expanding into agent commerce via ChatGPT Wallet, letting AI systems execute purchases with user approval—moving beyond chat into autonomous financial transactions.",
     "links": [
-     "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+     "https://openai.com/index/introducing-chatgpt-wallet"
     ]
    },
    {
-    "text": "Google releases Gemini 4 Hydrogen, a new reasoning model better at understanding complex multi-part questions, with deployment across the Gemini 4 family at varying price points.",
+    "text": "Apple is launching studies to validate whether conversational AI actually helps users with health questions, raising empirical questions about real-world AI tool effectiveness.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-     "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+     "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
     ]
    },
    {
-    "text": "Ransomware attackers increasingly use AI tools to automate and scale attacks, with even moderately skilled operators now capable of launching more sophisticated campaigns.",
+    "text": "OpenAI and LVMH are partnering to integrate AI into journalism and boost content discovery through ChatGPT, exemplifying how generative AI is reshaping publishing business models.",
     "links": [
-     "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/"
+     "https://openai.com/index/lvmh-media-division-partnership"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-15T11:26:38.459443+00:00",
+  "updatedAt": "2026-11-16T11:59:04.305786+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and the role of religious/moral leadership in technology governance",
-   "Appreciates stories about major tech companies and their AI initiatives, especially Apple",
-   "Prefers substantive, informative pieces over technical release notes and dev tool updates"
+   "Interested in AI ethics and religious/moral perspectives on technology",
+   "Drawn to narratives about AI's real-world impacts and legacy effects, not just product announcements",
+   "Prefers substantive tech journalism over technical tool release notes",
+   "Engaged by Apple's strategic moves and product development"
   ]
  },
  "items": [
+  {
+   "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
+   "link": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-16T11:00:00+00:00",
+   "summary": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia faces competitive pressure as rival AI chip makers gain ground, with internal disruptions potentially creating openings for competitors to capture market share. The company's dominance in AI accelerators is being challenged by emerging alternatives.",
+   "whyMatters": [
+    "Nvidia's market position in AI infrastructure—critical to LLM training and deployment—is showing cracks, which could reshape the AI hardware landscape",
+    "Competitors gaining traction could diversify the AI supply chain and reduce single-vendor dependency for organizations building AI systems"
+   ]
+  },
+  {
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "link": "https://openai.com/index/lvmh-media-division-partnership",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-16T09:00:00+00:00",
+   "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "LVMH's Media Division and OpenAI announced a partnership to integrate AI capabilities into journalism and make LVMH publications more discoverable through ChatGPT. The collaboration aims to enhance content accessibility and journalistic practice.",
+   "whyMatters": [
+    "Major media conglomerates adopting OpenAI tools signals mainstream commercial integration of LLMs into editorial workflows",
+    "Partnership demonstrates how AI vendors are securing distribution through traditional media channels while shaping how news content reaches audiences"
+   ]
+  },
+  {
+   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+   "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-16T04:17:05+00:00",
+   "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jensen Huang, Nvidia's co-founder and former CEO, may be attempting to return to the CEO role amid ongoing company drama. The situation is developing rapidly with new developments emerging frequently.",
+   "whyMatters": [
+    "Leadership instability at Nvidia, a dominant AI chip manufacturer, directly affects the entire AI industry's direction and strategic decisions",
+    "Huang's potential return signals how serious the current leadership crisis is at a company central to AI infrastructure"
+   ]
+  },
   {
    "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
    "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
@@ -91,6 +146,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses a critical gap in AI reliability for healthcare—actual effectiveness matters more than capability claims",
     "Results could influence how tech companies design health AI and inform medical professionals' trust in these tools"
+   ]
+  },
+  {
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
+   "link": "https://openai.com/index/the-kings-trust-and-openai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The King's Trust and OpenAI launched a £1 million partnership program to teach practical AI skills to up to 25,000 young people in the UK. The initiative focuses on workforce readiness through hands-on AI training.",
+   "whyMatters": [
+    "Educational institutions and youth organizations are formalizing AI literacy programs, treating AI skills as essential workforce preparation comparable to digital literacy",
+    "Partnership reflects growing consensus that educators and community organizations need institutional support and funding to integrate AI competency into youth development—directly relevant for educators preparing the next generation"
    ]
   },
   {
@@ -185,24 +258,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Creates a venue for documenting practical use of AI in science and reducing hype",
     "May influence how the research community adopts and evaluates AI tools"
-   ]
-  },
-  {
-   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
-   "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-15T20:49:29+00:00",
-   "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jensen Huang, Nvidia's co-founder and former CEO, may be attempting to return to the CEO role amid ongoing company drama. The situation is developing rapidly with new developments emerging frequently.",
-   "whyMatters": [
-    "Leadership instability at Nvidia, a dominant AI chip manufacturer, directly affects the entire AI industry's direction and strategic decisions",
-    "Huang's potential return signals how serious the current leadership crisis is at a company central to AI infrastructure"
    ]
   },
   {
@@ -896,24 +951,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Huang's departure creates opportunity for competitors to capture market share and leadership influence",
     "Illustrates fragility of dominance in a rapidly evolving industry when dependent on a single leader"
-   ]
-  },
-  {
-   "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
-   "link": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-12T20:35:11+00:00",
-   "summary": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Wired analysis suggests Jensen Huang's blind spots regarding women's power in tech were revealed by his exclusion from naming his own replacement as a woman leader.",
-   "whyMatters": [
-    "Highlights gender representation gaps in Silicon Valley's highest leadership tiers",
-    "Reflects broader industry patterns in power concentration and succession planning"
    ]
   },
   {
@@ -2451,24 +2488,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Cult.fit builds operational muscle with Codex",
-   "link": "https://openai.com/index/cultfit-builds-with-codex",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-05T20:00:00+00:00",
-   "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Cult.fit, a fitness platform, is using OpenAI's Codex to help teams build internal tools and accelerate development work.",
-   "whyMatters": [
-    "Demonstrates AI-assisted code generation adoption in non-tech industries",
-    "Shows practical impact on internal productivity and tool development velocity"
-   ]
-  },
-  {
    "title": "Hinduism and AI: Ancient Lessons for a Modern Time #76",
    "link": "https://aiandfaith.org/aif-podcast/hinduism-and-ai/",
    "source": "AI and Faith",
@@ -2487,24 +2506,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Religious perspectives on AI ethics: Hindu philosophy may offer frameworks for thinking about consciousness, purpose, and moral agency in AI systems",
     "Interfaith dialogue: expands AI ethics conversations beyond secular frameworks, enriching perspectives available to educators and clergy"
-   ]
-  },
-  {
-   "title": "Australian universities are creating AI-native graduates",
-   "link": "https://openai.com/index/australian-universities-ai-native-graduates",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-05T17:00:00+00:00",
-   "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Australian universities are expanding ChatGPT access and integrating AI into curricula to prepare students for an AI-enabled workforce.",
-   "whyMatters": [
-    "Higher education is directly adopting AI tools as part of teaching and learning, not just about teaching AI",
-    "Educators see AI literacy as foundational workforce preparation, requiring institutional curriculum shifts"
    ]
   },
   {
