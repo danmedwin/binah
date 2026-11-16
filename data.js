@@ -1,32 +1,34 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-15T21:33:35.424063+00:00",
+ "generatedAt": "2026-11-16T02:38:12.869053+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-15T21:33:45.535029+00:00",
+  "generatedAt": "2026-11-16T02:38:27.628126+00:00",
   "bullets": [
    {
-    "text": "Jensen Huang resigned as Nvidia CEO after 33 years, triggering US government action on AI chip export restrictions and raising questions about the company's China operations.",
+    "text": "Congress is tightening AI chip export rules following a spy scandal involving Nvidia's former CEO Jensen Huang, signaling a major shift in US government oversight of AI technology and China policy.",
     "links": [
-     "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
-     "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+     "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Washington-Is-Taking-Control-of-AI-e3sbe6r"
     ]
    },
    {
-    "text": "FAA is expanding AI systems to manage US airspace congestion, but air traffic controllers' union wasn't consulted on the decision.",
+    "text": "OpenAI launched ChatGPT Wallet, enabling AI agents to make purchases on user behalf with approval, marking a significant expansion of autonomous agent capabilities in commerce.",
     "links": [
-     "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+     "https://openai.com/index/introducing-chatgpt-wallet"
     ]
    },
    {
-    "text": "OpenAI launched ChatGPT Wallet, enabling AI agents to make purchases on user behalf—extending autonomous agent capabilities into commerce.",
+    "text": "Apple initiated a research study with OpenEvidence to measure whether conversational AI actually helps people with health questions, addressing a critical gap in understanding AI health tool effectiveness.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+     "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
     ]
    },
    {
-    "text": "AI-generated synthetic media poses a new frontier for antisemitic propaganda and deepfakes, building on historical patterns where technology amplifies discriminatory content.",
+    "text": "OpenAI published a science-focused blog to document AI-assisted research breakthroughs, including a lattice-based definition of the Standard Model developed with GPT-6 Astra.",
     "links": [
-     "https://ejewishphilanthropy.com/ai-and-the-future-of-antisemitic-libel/"
+     "https://openai.com/index/step-toward-defining-the-standard-model",
+     "https://openai.com/index/our-new-blog-for-science"
     ]
    }
   ]
@@ -73,6 +75,118 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+   "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-16T01:47:16+00:00",
+   "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple launched a study with OpenEvidence to understand how people use conversational AI for health questions and whether those AI responses are actually helpful. The research aims to improve the effectiveness of AI health tools by examining real-world interaction patterns and answer quality.",
+   "whyMatters": [
+    "Addresses a critical gap in AI reliability for healthcare—actual effectiveness matters more than capability claims",
+    "Results could influence how tech companies design health AI and inform medical professionals' trust in these tools"
+   ]
+  },
+  {
+   "title": "datasette-maplibre 0.1a0",
+   "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-15T23:58:36+00:00",
+   "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison released datasette-maplibre 0.1a0, a new geospatial plugin for Datasette that combines the MapLibre GL mapping library with OpenFreeMap. He built most of it using Claude to help write the code based on existing similar plugins.",
+   "whyMatters": [
+    "Shows practical use of LLMs for developer productivity in building open-source tools",
+    "Extends Datasette's capabilities for geographic data visualization and analysis"
+   ]
+  },
+  {
+   "title": "datasette 1.0a43",
+   "link": "https://simonwillison.net/2026/Nov/15/datasette/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-15T23:20:27+00:00",
+   "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Datasette 1.0a43 release includes streaming support for output renderers, allowing CSV and TSV exports to handle large tables more efficiently. Willison is using Claude heavily to accelerate progress toward the 1.0 milestone, now 53% complete.",
+   "whyMatters": [
+    "AI-assisted development is accelerating open-source project timelines",
+    "Streaming support improves practical usability for data export at scale"
+   ]
+  },
+  {
+   "title": "datasette 0.65.6",
+   "link": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-15T23:18:17+00:00",
+   "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Datasette 0.65.6 backports a security fix from the 1.0 branch that prevented unauthorized database downloads when a database's route parameter differs from its name. This was a minor but real vulnerability.",
+   "whyMatters": [
+    "Security fixes matter for any data-facing tool, especially in professional use",
+    "Shows attention to security even in stable branches"
+   ]
+  },
+  {
+   "title": "A step toward defining the Standard Model on a lattice",
+   "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-15T22:00:01+00:00",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI researchers used GPT-6 Astra to help develop a mathematical proof for a lattice-based definition of the Standard Model in particle physics. The work addresses a longstanding theoretical physics challenge.",
+   "whyMatters": [
+    "Demonstrates AI's potential for advancing theoretical physics research",
+    "Highlights AI capability for mathematical and scientific reasoning at an advanced level"
+   ]
+  },
+  {
+   "title": "Our new blog for science",
+   "link": "https://openai.com/index/our-new-blog-for-science",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-15T22:00:00+00:00",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI launched a new science-focused blog to share research findings, methods, and firsthand accounts from scientists using AI tools for scientific discovery. It's positioned as a venue for practitioners to document their AI-assisted research work.",
+   "whyMatters": [
+    "Creates a venue for documenting practical use of AI in science and reducing hype",
+    "May influence how the research community adopts and evaluates AI tools"
+   ]
+  },
   {
    "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
    "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
@@ -163,6 +277,46 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates a novel interaction model for habit formation using ambient AI—applying game mechanics to physical objects rather than screens",
     "Raises practical questions about how AI anthropomorphization influences behavior change in educational and personal development contexts"
+   ]
+  },
+  {
+   "title": "datasette-apps 0.4a0",
+   "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-15T04:02:45+00:00",
+   "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Datasette Apps 0.4a0 adds URL fragment linking and reporting of supported URL schemes to help agents write better queries. These are sandboxed JavaScript applications that can query data within Datasette, similar in concept to Claude Artifacts.",
+   "whyMatters": [
+    "Improves interoperability between AI agents and data analysis tools",
+    "Makes it easier for agents to navigate and construct complex data queries"
+   ]
+  },
+  {
+   "title": "datasette-agent 0.6a0",
+   "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-15T03:49:47+00:00",
+   "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent , llm , datasette , llms , ai , generative-ai",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Datasette Agent 0.6a0 accumulated fixes for the agent plugin that lets users ask natural language questions about their data. The update adds a prompt interface directly on the Datasette homepage with support for hashtag mentions of tables and queries.",
+   "whyMatters": [
+    "Makes natural language data querying more accessible to non-technical users",
+    "Improves agent discoverability and ease of use in the Datasette interface"
    ]
   },
   {
@@ -460,23 +614,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Large-scale infrastructure failures underscore operational risks independent of AI—relevant for planning robust systems",
     "Not directly AI-related but worth noting when evaluating AI system resilience claims"
-   ]
-  },
-  {
-   "title": "Let’s talk about Jensen Huang’s many affairs!",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-13T19:07:12+00:00",
-   "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "This is commentary on Nvidia leadership news rather than a substantive news item about AI technology or industry development.",
-   "whyMatters": [
-    "Not substantively relevant to AI landscape, policy, or practice; appears to be satirical or cultural commentary"
    ]
   },
   {
@@ -2075,23 +2212,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Terry Pratchett's Study",
-   "link": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-07T19:34:24+00:00",
-   "summary": "My comment on Terry Pratchett's Study — Hacker News. Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: https://chibuikeani.blogspot.com/2017/02/the-price-of-happin... But horizontal wealth means not lett",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A commenter references Terry Pratchett's concept of 'horizontal wealth'—spending more money on things you already enjoyed rather than luxury status goods—and its implications for how people spend time and resources.",
-   "whyMatters": [
-    "Tangential to AI: illustrates how humans allocate resources and attention, relevant to thinking about what matters when technology changes workflows"
-   ]
-  },
-  {
    "title": "[AINews] Anthropic IPO: Whither Now?",
    "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
    "source": "Latent Space",
@@ -2144,24 +2264,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows corporate vulnerability to public pressure on AI data practices and content use rights",
     "Reflects ongoing tension between AI companies' training data needs and user consent and control"
-   ]
-  },
-  {
-   "title": "Quoting Nilay Patel",
-   "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-06T17:13:12+00:00",
-   "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies a",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nilay Patel argues that current AI products are not compelling enough to justify their costs and environmental impacts—including noisy data centers and low-quality outputs—and that AI agents have not yet proven real-world value at scale.",
-   "whyMatters": [
-    "Represents skepticism from a credible tech observer about whether AI deployment's benefits outweigh harms",
-    "Questions the market sustainability of AI expansion if products don't deliver sufficient value to users and communities"
    ]
   },
   {
@@ -2388,24 +2490,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Paul Ford",
-   "link": "https://simonwillison.net/2026/Nov/5/paul-ford/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-05T17:34:03+00:00",
-   "summary": "The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . — Paul Ford , The Web Is More Than Enough Tags: browsers , paul-ford , web-development",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Paul Ford is quoted observing that web browsers are powerful application platforms and the cost of accessing that power continues to decrease. This reflects ongoing capability expansion of browser-based tools.",
-   "whyMatters": [
-    "Technical infrastructure note: relevant to understanding how AI tools and web applications are increasingly delivered and constrained by browser environments",
-    "Educational delivery: impacts how educators can integrate web-based AI tools into learning environments without requiring specialized installations"
-   ]
-  },
-  {
    "title": "Australian universities are creating AI-native graduates",
    "link": "https://openai.com/index/australian-universities-ai-native-graduates",
    "source": "OpenAI News",
@@ -2439,44 +2523,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Directly relevant to religious and nonprofit organizations wrestling with AI adoption—shows practical framework for maintaining institutional values",
     "Highlights governance as a key lever for AI implementation, not just technical capability"
-   ]
-  },
-  {
-   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-   "link": "https://openai.com/index/introducing-gpt-6-cyber",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-05T09:00:00+00:00",
-   "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI released GPT-6 Cyber, a cybersecurity-specialized model trained to identify exploitable vulnerabilities and develop fixes while remaining scoped to authorized testing.",
-   "whyMatters": [
-    "Demonstrates AI application in defensive security, though scope-limiting training raises questions about real-world constraint effectiveness",
-    "Relevant to institutional security practices and policy around AI's dual-use potential in offensive/defensive cyber operations"
-   ]
-  },
-  {
-   "title": "Merge builds product and business tools with OpenAI technology",
-   "link": "https://openai.com/index/merge-builds-with-openai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-05T08:00:00+00:00",
-   "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Merge uses OpenAI models including GPT-6 Astra to review product code and support marketing, as well as planning executive functions and preparing sales updates.",
-   "whyMatters": [
-    "Shows AI adoption across diverse business functions beyond traditional engineering use cases",
-    "Demonstrates efficiency gains in cross-functional workflows from executive planning to code review"
    ]
   },
   {
@@ -2551,25 +2597,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "datasette-llm 0.1a10",
-   "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-04T15:26:02+00:00",
-   "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: llm , datasette",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison released datasette-llm 0.1a10, a bugfix that corrects model availability restrictions in the agent.datasette.io demo.",
-   "whyMatters": [
-    "Incremental maintenance release for a developer tool; limited impact"
-   ]
-  },
-  {
    "title": "Securing the agentic enterprise with data lineage",
    "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
    "source": "MIT Tech Review · AI",
@@ -2585,25 +2612,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Identifies critical governance gap in autonomous agent workflows that affects enterprise risk and customer trust",
     "Raises operational and ethical concerns for organizations deploying agent systems"
-   ]
-  },
-  {
-   "title": "datasette-apps 0.3a0",
-   "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-04T00:29:36+00:00",
-   "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be tagged in Datasette Agent chat messages by typing # , which autocompletes from the apps the user has permission to view. N",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Datasette Apps 0.3a0 now lets users tag custom HTML applications in Datasette Agent chat using autocomplete, improving the workflow for LLM-assisted app creation.",
-   "whyMatters": [
-    "Developer tool enhancement enabling faster app prototyping with LLM assistance"
    ]
   },
   {
