@@ -1,40 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-19T14:12:45.470025+00:00",
+ "generatedAt": "2026-11-19T23:26:59.441288+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-19T14:13:13.048248+00:00",
+  "generatedAt": "2026-11-19T23:27:25.576361+00:00",
   "bullets": [
    {
-    "text": "Anthropic valued at $107 billion in IPO; OpenAI released GPT-6.2 Astra (frontier model at 80% prior cost) and Sol, reshaping competitive positioning amid frontier AI acceleration.",
+    "text": "Anthropic completed the largest IPO of all time at $107 billion valuation, raising $81.3 billion—a watershed moment testing whether the company's AI-safety founding principles survive investor pressures.",
     "links": [
-     "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
-     "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+     "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+     "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
     ]
    },
    {
-    "text": "Google is bundling Gemini AI with Search for schools, forcing largest U.S. districts to choose between Search access or opting out of AI—raising control concerns.",
+    "text": "OpenAI released GPT-6.2 Astra and Sol models at 20–80% lower costs than prior frontier models, with Astra showing mixed practical reviews despite strong benchmarks and Sol positioning as the production workhorse.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
+     "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+     "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
     ]
    },
    {
-    "text": "Catholic bishops passed formal guidelines on AI investment and divested private prisons, signaling organized religious institutions' emerging governance role in AI ethics.",
+    "text": "Apple is hiring to build its own AI agent capable of web browsing, cross-app work, and code writing—advancing its vertical integration strategy amid broader corporate competition for agentic AI systems.",
+    "links": [
+     "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+    ]
+   },
+   {
+    "text": "An AI gun-detection system falsely flagged a Doritos bag as a firearm with 99% false-positive rates, prompting traumatized students to sue and illustrating the real harms of rushed deployment in safety-critical settings.",
+    "links": [
+     "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/"
+    ]
+   },
+   {
+    "text": "Catholic bishops passed formal guidelines on AI investment and divested from private prisons, signaling organized religious institutions are developing governance frameworks for AI's moral and economic implications.",
     "links": [
      "https://religionnews.com/2026/11/18/catholic-bishops-vote-to-divest-from-private-prisons-pass-guidelines-on-ai-investment/"
-    ]
-   },
-   {
-    "text": "Canva users can now disable all generative AI features via toggle; Google separated AI training from chat-history settings—giving users independent data-use control.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
-     "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/"
-    ]
-   },
-   {
-    "text": "Over one-third of Gen Z rely on AI companions for friendship; Gallup data correlates this with higher loneliness rates, raising questions about social substitution effects.",
-    "links": [
-     "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
-     "https://www.404media.co/gallup-study-friendship-ai-companions/"
     ]
    }
   ]
@@ -83,6 +82,277 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Apple is hiring engineers to build its own AI agent",
+   "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-19T23:13:01+00:00",
+   "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple is hiring engineers to build an AI agent capable of performing multiple tasks including web browsing, working across apps, writing code, and calling services. The job listing signals Apple's effort to develop its own agentic AI assistant.",
+   "whyMatters": [
+    "Demonstrates Apple's commitment to developing proprietary AI capabilities rather than relying solely on third-party partnerships",
+    "Positions Apple to compete directly with other tech companies building AI agents in the crowded agent market"
+   ]
+  },
+  {
+   "title": "A brief history of Nvidia’s recent stock fluctuations",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-19T21:59:35+00:00",
+   "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's stock price dropped nearly 40 percent from its October 6 all-time high to around $150 per share by Thursday following the company's earnings call. The decline wiped out post-earnings gains despite leadership expressing confidence.",
+   "whyMatters": [
+    "Reflects market volatility and investor concerns about Nvidia's growth trajectory despite dominance in AI chip manufacturing",
+    "Signals potential shifts in market confidence in the AI infrastructure sector"
+   ]
+  },
+  {
+   "title": "What’s With All These Outages?",
+   "link": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-19T21:57:01+00:00",
+   "summary": "This week on “Uncanny Valley,” we discuss the outages that have swept digital life over the past week, where new money from Anthropic’s IPO is going, and the AI chip world post-Jensen Huang.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A podcast episode discusses recent digital outages, Anthropic's IPO funding allocation, and competitive dynamics in the AI chip industry following leadership changes at Nvidia.",
+   "whyMatters": [
+    "Covers three significant developments reshaping the AI landscape this week"
+   ]
+  },
+  {
+   "title": "The 10 Biggest Days in AI History",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-10-Biggest-Days-in-AI-History-e3smt2e",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-19T21:39:48+00:00",
+   "summary": "On the day of Anthropic’s IPO, NLW looks back at the 10 days that shaped generative AI. From OpenAI’s founding and the launch of ChatGPT to the DeepSeek selloff and Claude’s coding breakthrough, each changed what AI could do, who was ahead, or who got a say in what happened next. NEW EPISODE: How We Got Here - 'How GTA 6 Explains America\" ⁠⁠⁠https://podcasts.apple.com/us/podcast/how-gta-6-explains",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/129774094/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-19%2F437176160-44100-2-e745ddb3c93a1.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "A retrospective examines ten pivotal days in AI history, from OpenAI's founding and ChatGPT's launch to recent events like Anthropic's IPO and DeepSeek's market impact. Each moment shifted capabilities, competitive positioning, or governance of AI.",
+   "whyMatters": [
+    "Provides historical context for understanding how the AI industry reached its current state",
+    "Highlights inflection points that changed what AI could do and who controls the narrative"
+   ]
+  },
+  {
+   "title": "Anthropic starts trading on Wall Street",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-19T21:22:34+00:00",
+   "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic officially went public on the Nasdaq under ticker \"ANT,\" opening at $111.50 per share (above its $83 IPO price), valuing the company at around $1.5 trillion. This marks one of the largest IPOs ever.",
+   "whyMatters": [
+    "Anthropic becomes a publicly traded company, subject to new accountability and reporting requirements while shifting governance from founders to shareholders",
+    "Sets precedent for AI lab IPOs and validates market appetite for AI safety-focused companies"
+   ]
+  },
+  {
+   "title": "PostgreSQL 19 Released",
+   "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-19T20:43:57+00:00",
+   "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, Postgr",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "PostgreSQL 19 was released two months later than usual due to addressing numerous security vulnerabilities discovered by AI-assisted security tools. The release includes new performance features for read-heavy applications.",
+   "whyMatters": [
+    "Demonstrates how AI-powered vulnerability discovery is accelerating security work in critical infrastructure software",
+    "Shows practical impact of AI tooling on the pace of database development"
+   ]
+  },
+  {
+   "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants",
+   "link": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-19T20:34:17+00:00",
+   "summary": "In Taiwan, some food vendors are distancing themselves from Nvidia’s former CEO. Others stand by him. “It’s not as if he killed someone or set something on fire,” says one shop owner.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "In Taiwan, some food vendors are distancing themselves from Nvidia's former CEO Jensen Huang following recent controversies, while others continue to support him. The situation reflects mixed public sentiment.",
+   "whyMatters": [
+    "Illustrates how leadership crises at major AI companies ripple into broader social contexts",
+    "Shows local reaction to upheaval in the AI hardware industry"
+   ]
+  },
+  {
+   "title": "Meta’s Muse Charm might cost $300",
+   "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-19T20:29:21+00:00",
+   "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta is pricing its Muse Charm—a small screen-based device for interacting with Meta's AI agent—at $300, with expected delivery by December. The device enables conversational interaction with the Muse AI assistant.",
+   "whyMatters": [
+    "Represents Meta's strategy to create dedicated hardware for AI agents, expanding beyond software-only interfaces",
+    "Tests consumer appetite for specialized AI hardware at premium pricing"
+   ]
+  },
+  {
+   "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+   "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-19T20:19:28+00:00",
+   "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Traumatized students are suing a school and police after an AI gun detection system falsely flagged a Doritos bag as a firearm. Data shows over 99 percent of the system's alerts were false positives.",
+   "whyMatters": [
+    "Demonstrates severe real-world harms from deploying inadequately tested AI detection systems in schools and law enforcement",
+    "Raises urgent questions about liability and accuracy standards for AI safety tools in education settings"
+   ]
+  },
+  {
+   "title": "Google is putting AI chats right on the homepage",
+   "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-19T20:14:34+00:00",
+   "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is updating its homepage to include a collapsible sidebar for AI chats, allowing users to access and continue AI conversations directly from the search interface. Users can open the sidebar with a click.",
+   "whyMatters": [
+    "Integrates AI agents deeper into Google's core search experience, reshaping user interaction patterns",
+    "Signals shift from dedicated chat apps toward embedded AI across multiple product surfaces"
+   ]
+  },
+  {
+   "title": "Can AI Care? Rethinking Therapy in the Age of Intelligent Machines #78",
+   "link": "https://aiandfaith.org/aif-podcast/can-ai-care-therapy-in-the-age-of-intelligent-machines/",
+   "source": "AI and Faith",
+   "category": "religion",
+   "date": "2026-11-19T19:44:25+00:00",
+   "summary": "From the promise of expanded access to the risks of over-reliance, listen to Kenneth Wang dive into how AI is changing the landscape of mental healthcare. In this episode, he",
+   "religionScore": 5,
+   "religionHits": [],
+   "audio": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2026-10-19/437168790-44100-2-d23c63e47d643.m4a",
+   "image": "https://aiandfaith.org/wp-content/uploads/2026/11/AIF-PODCAST-kenneth-wang-Pablo-podcast-image_result-300x300.webp",
+   "themes": [],
+   "aiSummary": "An episode of the \"AI and Faith\" podcast explores how AI is transforming mental healthcare delivery, examining both expanded access opportunities and risks of over-reliance on AI for therapy.",
+   "whyMatters": [
+    "Addresses intersection of AI with healthcare ethics and human flourishing from religious/values perspective",
+    "Relevant for clergy and educators grappling with questions about AI's role in pastoral care and counseling"
+   ]
+  },
+  {
+   "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-19T19:10:57+00:00",
+   "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic's IPO raised $81.3 billion and became the largest IPO of all time, surpassing SpaceX. The company was founded on prioritizing AI safety, and the public offering tests whether that reputation survives investor pressures.",
+   "whyMatters": [
+    "Anthropic's founding mission around safety now faces tension with shareholder profit expectations",
+    "Sets important precedent for how AI safety culture either sustains or erodes through public markets"
+   ]
+  },
+  {
+   "title": "Gemini on Mac can now use your computer",
+   "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-19T19:07:41+00:00",
+   "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google's Gemini app for macOS now includes computer use capabilities, enabling the AI to help with multi-step tasks across local files, desktop apps, and the web. Features include workflow acceleration, form filling, and content creation.",
+   "whyMatters": [
+    "Extends agentic AI capabilities from web-only to full machine control on mainstream consumer devices",
+    "Increases surface area and autonomy of AI agents interacting with users' personal files and applications"
+   ]
+  },
+  {
+   "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+   "link": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-19T17:00:00+00:00",
+   "summary": "The company’s alternate-universe internet serves as a massive sandbox that allows the Chrome team to properly train AI browsing agents—without the risk of them going rogue.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google built a large-scale \"Mirror Dimension\" internet—an alternate-universe web sandbox—to safely train AI agents for Chrome without risk of unintended behavior. The system allows controlled testing of browsing agents.",
+   "whyMatters": [
+    "Demonstrates infrastructure investments required to safely develop AI agents at scale",
+    "Reflects industry recognition that testing agents on live internet poses significant risks"
+   ]
+  },
+  {
+   "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-19T15:16:45+00:00",
+   "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ChatGPT added a Live Dictation feature that transcribes audio input in real-time as users speak, rather than waiting for recording completion. The feature is rolling out globally across web, desktop, and mobile apps.",
+   "whyMatters": [
+    "Lowers friction for voice interaction with AI, expanding accessibility for users who prefer dictation",
+    "Demonstrates iterative improvements to AI interfaces making them more natural and conversational"
+   ]
+  },
+  {
    "title": "Canva adds an AI ‘off’ button",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
    "source": "The Verge · AI",
@@ -106,7 +376,7 @@ window.NEWS_DATA = {
    "source": "Wired · AI",
    "category": "ai",
    "date": "2026-11-19T12:00:00+00:00",
-   "summary": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger towards data centers could impact its growth.",
+   "summary": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger toward data centers could impact its growth.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -136,6 +406,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses practical enterprise AI adoption in regulated sectors where trust and human-centered design are critical",
     "Relevant to organizations balancing transformation with stakeholder confidence and compliance requirements"
+   ]
+  },
+  {
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-19T08:00:00+00:00",
+   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI developed the Performance Factory, a system that uses Codex-powered workflows to automatically identify and fix performance issues in ChatGPT's infrastructure. This system helps maintain the speed and responsiveness of ChatGPT at scale.",
+   "whyMatters": [
+    "Affects the AI industry's approach to production maintenance—automated performance optimization could become standard practice across large language model deployments",
+    "Impacts user experience and operational costs for a widely-used AI system that millions of educators, rabbis, and others rely on for research and content creation"
    ]
   },
   {
@@ -198,24 +486,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The nation’s largest school districts consider ditching Google Search",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T23:18:35+00:00",
-   "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "New York, Los Angeles, and Chicago school districts are considering alternatives to Google Search after Google announced it will disable Search for schools that opt out of Gemini AI features. Starting next year, schools cannot disable Gemini-powered features without also disabling Search entirely.",
-   "whyMatters": [
-    "Affects major education institutions and raises questions about choice and autonomy in educational technology adoption",
-    "Creates tension between AI access and user control, particularly relevant to educators concerned about AI integration in schools"
-   ]
-  },
-  {
    "title": "I let Apple’s always-listening AI summarize my life for two weeks",
    "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
    "source": "The Verge · AI",
@@ -231,24 +501,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises privacy implications of always-on ambient listening in consumer devices",
     "Highlights tension between convenience and consent in AI-powered personal devices"
-   ]
-  },
-  {
-   "title": "Nvidia’s rise, visualized",
-   "link": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T22:18:53+00:00",
-   "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary founder CEO due to a series of […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia's profitability has reached extraordinary levels, generating approximately $8,300 in profit per second. The company is experiencing massive financial growth even amid leadership changes.",
-   "whyMatters": [
-    "Demonstrates Nvidia's dominance in AI infrastructure as the primary chip supplier for major AI companies",
-    "Raises questions about concentration of economic value in a single company during rapid AI industry expansion"
    ]
   },
   {
@@ -285,24 +537,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Nvidia scandal is affecting geopolitical AI strategy and US-China technology negotiations",
     "Suggests instability at key infrastructure companies is creating diplomatic complications"
-   ]
-  },
-  {
-   "title": "Trump’s latest land grab is an AI hub in the Philippines",
-   "link": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T21:44:01+00:00",
-   "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls in traditional […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Trump visited the Philippines and is pursuing development of an AI hub there as part of broader strategic positioning.",
-   "whyMatters": [
-    "Indicates US administration interest in building AI infrastructure outside traditional tech centers",
-    "Part of geopolitical competition for AI development capacity and supply chain positioning"
    ]
   },
   {
@@ -380,44 +614,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-   "link": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T19:07:29+00:00",
-   "summary": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted a hearing calling for the end of forced arbitration for online […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Lawmakers are pushing to pass new legal protections against online harms in 2026, specifically targeting deepfakes and forced arbitration clauses that prevent lawsuit filing against platforms.",
-   "whyMatters": [
-    "Deepfake legislation emerging as priority policy area alongside broader tech accountability",
-    "Represents effort to create legal remedies for AI-generated content harms"
-   ]
-  },
-  {
-   "title": "What is Nvidia without AI’s sugar daddy in charge?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T18:34:15+00:00",
-   "summary": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the truth, then Jensen Huang (the former CEO […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Analysis questions whether the AI industry's dependence on key individuals like Nvidia's former CEO Jensen Huang indicates the technology is less fundamentally robust than claimed.",
-   "whyMatters": [
-    "Challenges narrative of AI as inevitable technological progress by highlighting organizational fragility",
-    "Raises concerns about concentration of decision-making power in individual leaders"
-   ]
-  },
-  {
    "title": "Genie 4 is now available",
    "link": "https://deepmind.google/blog/genie-4-is-now-available/",
    "source": "Google DeepMind",
@@ -451,24 +647,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents creative application of AI to generate personalized content from user data",
     "Raises questions about memory, identity, and the role of AI in intimate personal experiences"
-   ]
-  },
-  {
-   "title": "Disney’s new Star Wars animatronics interact with guests using AI",
-   "link": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T17:53:48+00:00",
-   "summary": "As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Imagineering R&D has revealed three new Audio-Animatronic prototypes that rely on Amazon's […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Disney's Imagineering division has created new Audio-Animatronic prototypes that use Amazon's AI to enable spontaneous, interactive behavior with guests rather than relying on preset routines or hidden puppeteers.",
-   "whyMatters": [
-    "Demonstrates practical deployment of AI for real-time interactive entertainment",
-    "Shows application of AI conversational systems in physical spaces and guest experiences"
    ]
   },
   {
@@ -523,42 +701,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates weaponization of accessible AI tools for security threats",
     "Shows democratization of hacking capabilities creating new cybersecurity risks"
-   ]
-  },
-  {
-   "title": "Will Wright’s next game uses AI to map your memories",
-   "link": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T16:27:13+00:00",
-   "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they create on their own. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Game designer Will Wright is creating MyMems, a game built around AI that allows players to explore worlds generated from and mapped to their own personal memories.",
-   "whyMatters": [
-    "Represents significant creative direction combining AI with memory and identity exploration",
-    "Raises implications for how AI interacts with personal data and narrative creation"
-   ]
-  },
-  {
-   "title": "Remember the frontier AI pause? Chip companies don’t either",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T16:25:30+00:00",
-   "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models, warning that they could be used […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Despite calls from OpenAI and Anthropic in summer and fall for pausing frontier AI development due to security risks, chip companies continue pursuing maximum-capability AI training without apparent slowdown.",
-   "whyMatters": [
-    "Shows gap between AI safety rhetoric and industry practice around scaling constraints",
-    "Indicates chip companies prioritizing capacity over alignment with safety research recommendations"
    ]
   },
   {
@@ -672,24 +814,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Lovable Wants You to Vibe Code Your Dream Job",
-   "link": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-18T10:00:00+00:00",
-   "summary": "This Swedish startup dominated the vibe-coded app boom. Two years after launch, Lovable is shifting gears to help users run vibe-coded businesses.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Lovable, a Swedish startup that grew prominent in the \"vibe coding\" space, is pivoting from helping users build individual apps toward enabling users to run full vibe-coded businesses two years after launch.",
-   "whyMatters": [
-    "Signals shift in generative coding tools from one-off creation to sustained business operations",
-    "Tests whether end-users can operate on a business level using AI coding assistance"
-   ]
-  },
-  {
    "title": "The Silent Consensus",
    "link": "https://openai.com/index/the-silent-consensus",
    "source": "OpenAI News",
@@ -708,24 +832,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Research acceleration: The jagged frontier",
-   "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-18T08:00:00+00:00",
-   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI research shows coding agents are accelerating AI research but with uneven performance across different tasks. The findings examine how such agents can contribute to recursive self-improvement and their current limitations.",
-   "whyMatters": [
-    "Demonstrates both capabilities and limitations of AI agents in research acceleration",
-    "Signals realistic assessment of where AI-driven research tools add value versus where human oversight remains essential"
-   ]
-  },
-  {
    "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
    "link": "https://openai.com/business/customer-stories/sumitomo-life",
    "source": "OpenAI News",
@@ -741,6 +847,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates enterprise AI adoption at scale in financial services sector",
     "Leadership engagement is effective lever for organizational AI adoption and practical use case validation"
+   ]
+  },
+  {
+   "title": "Research acceleration: The jagged frontier",
+   "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-18T08:00:00+00:00",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI research shows coding agents are accelerating AI research but with uneven performance across different tasks. The findings examine how such agents can contribute to recursive self-improvement and their current limitations.",
+   "whyMatters": [
+    "Demonstrates both capabilities and limitations of AI agents in research acceleration",
+    "Signals realistic assessment of where AI-driven research tools add value versus where human oversight remains essential"
    ]
   },
   {
@@ -779,24 +903,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates a comprehensive risk framework for large-scale AI systems, addressing safety concerns relevant to policy makers and institutional leaders",
     "Educational value for organizations adopting frontier models or setting their own safety standards"
-   ]
-  },
-  {
-   "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
-   "link": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-18T05:01:00+00:00",
-   "summary": "Young people who have online-only friends or use AI as a social companion face higher odds of loneliness than those who do not, a new Gallup report reveals.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A new Gallup survey found that over one-third of Gen Z individuals rely on AI as a social companion or have only online-only friends; these groups report higher loneliness rates than peers with in-person friendships.",
-   "whyMatters": [
-    "Raises concerns about AI social substitution and genuine emotional wellbeing of young people, relevant to educators and parents",
-    "May inform institutional and community conversations around healthy technology use and in-person connection"
    ]
   },
   {
@@ -907,24 +1013,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Increases model availability across performance tiers with significant cost reduction for enterprise users",
     "Expands API offerings to provide options for different computational complexity needs"
-   ]
-  },
-  {
-   "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
-   "link": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-17T22:19:19+00:00",
-   "summary": "Despite pressure from President Trump, Elon Musk, and Silicon Valley executives, Nvidia’s board says it “does not intend” to reinstate the company’s ousted CEO.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia's board publicly stated they do not intend to reinstate Jensen Huang as CEO despite pressure from President Trump, Elon Musk, and other Silicon Valley figures. The statement came after Huang's resignation and subsequent expressions of willingness to return.",
-   "whyMatters": [
-    "Demonstrates board independence in a high-profile corporate governance situation",
-    "Shows limit to external political and business pressure on major tech company decisions"
    ]
   },
   {
@@ -1237,26 +1325,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Astra for Law leads in legal intelligence",
-   "link": "https://openai.com/index/astra-law-6-2",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-17T00:00:00+00:00",
-   "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Astra for Law, which ranked first in an evaluation across 24 areas of law, is now available to all ChatGPT Enterprise customers on request.",
-   "whyMatters": [
-    "Demonstrates AI's expanding role in legal practice and document analysis",
-    "Major legal specialization could reshape how attorneys research and prepare cases"
-   ]
-  },
-  {
    "title": "Introducing OpenAI for Chile",
    "link": "https://openai.com/index/introducing-openai-for-chile",
    "source": "OpenAI News",
@@ -1274,6 +1342,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Extends AI capability-building to emerging markets and government institutions beyond the US-EU tech centers",
     "Government partnership model could shape how public institutions globally approach AI governance and workforce development"
+   ]
+  },
+  {
+   "title": "Astra for Law leads in legal intelligence",
+   "link": "https://openai.com/index/astra-law-6-2",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-17T00:00:00+00:00",
+   "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Astra for Law, which ranked first in an evaluation across 24 areas of law, is now available to all ChatGPT Enterprise customers on request.",
+   "whyMatters": [
+    "Demonstrates AI's expanding role in legal practice and document analysis",
+    "Major legal specialization could reshape how attorneys research and prepare cases"
    ]
   },
   {
@@ -1314,24 +1402,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Illustrates governance and fraud risks in AI/robotics funding even with prominent backing",
     "Raises questions about investor due diligence and oversight in a rapidly funded sector"
-   ]
-  },
-  {
-   "title": "At Jerusalem AI summit, Nas Daily asks Herzog if his decision to defend Israel was ‘stupid or genius’",
-   "link": "https://www.jta.org/2026/11/16/israel/at-jerusalem-ai-summit-nas-daily-asks-herzog-if-defending-israel-was-stupid-or-genius",
-   "source": "JTA",
-   "category": "religion",
-   "date": "2026-11-16T21:39:25+00:00",
-   "summary": "Between the banana suits and the onstage dancing, serious talk about the perils and potential of artificial intelligence. --",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://www.jta.org/wp-content/uploads/2026/11/11-16-2026-Nas-AI.jpg",
-   "themes": [],
-   "aiSummary": "At a Jerusalem AI summit, public figure Nas Daily engaged Israeli President Herzog in conversation about AI, asking whether Israel's defense strategy was wise. The discussion mixed casual presentation elements with substantive questions about AI's risks and potential.",
-   "whyMatters": [
-    "Demonstrates intersection of AI policy discussions with geopolitical contexts and national security",
-    "Shows AI being debated in Israeli leadership circles alongside broader ethical and strategic concerns"
    ]
   },
   {
@@ -1478,42 +1548,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Exposes vulnerability in copyright enforcement where AI-generated false claims can harm legitimate creators",
     "Points to need for policy and legal frameworks to handle AI-generated copyright disputes at scale"
-   ]
-  },
-  {
-   "title": "A wartime hack becomes an educational tool: Meet Yuvi, the AI platform that encourages children to think",
-   "link": "https://www.jta.org/2026/11/16/israel/a-wartime-hack-becomes-an-educational-tool-meet-yuvi-the-ai-platform-that-encourages-children-to-think",
-   "source": "JTA",
-   "category": "religion",
-   "date": "2026-11-16T15:11:45+00:00",
-   "summary": "Created by an army reservist, YuviLab has grown into a platform reaching tens of thousands of children and bringing personalized AI learning into Israeli classrooms. --",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://www.jta.org/wp-content/uploads/2026/11/11-16-2026-Yuvi.jpg",
-   "themes": [],
-   "aiSummary": "YuviLab, an AI educational platform created by an Israeli army reservist, has expanded to reach tens of thousands of children in Israeli schools with personalized learning capabilities.",
-   "whyMatters": [
-    "Demonstrates AI application in K-12 education with real adoption and scale in classrooms",
-    "Directly relevant to educators—shows practical implementation of personalized AI learning in schools"
-   ]
-  },
-  {
-   "title": "How an AI Content Mill Put a Real Musician Through Copyright Hell",
-   "link": "https://www.404media.co/how-an-ai-content-mill-put-a-real-musician-through-copyright-hell/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-11-16T14:58:28+00:00",
-   "summary": "‘I can’t get in touch with a human being.’ A company founded last year said it owns the copyright on an artist's five year old recording.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A recently founded content mill company falsely claims copyright ownership of a musician's five-year-old recording, leaving the artist unable to contact a human representative to resolve the dispute.",
-   "whyMatters": [
-    "Illustrates concrete harm from automated copyright claims—legitimate creators losing control of their work",
-    "Exposes systemic failure when AI companies operate at scale without accessible dispute resolution"
    ]
   },
   {
@@ -2020,26 +2054,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Existential risk framing from inside an AI company's leadership signals real debate among developers about alignment and control",
     "Shapes narrative around how quickly AI governance is needed and how urgent safety work must become"
-   ]
-  },
-  {
-   "title": "Introducing ChatGPT Wallet",
-   "link": "https://openai.com/index/introducing-chatgpt-wallet",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-13T15:00:00+00:00",
-   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI announced ChatGPT Wallet, a feature enabling AI agents to complete purchases with user approval while maintaining existing credit card protections. It allows agents in ChatGPT Work, Codex, and Dots to transact securely.",
-   "whyMatters": [
-    "Autonomous financial transactions by agents require clear user controls and liability frameworks—critical consumer protection issue",
-    "Represents normalization of agent autonomy in real-world commerce with potential systemic implications"
    ]
   },
   {
@@ -2552,45 +2566,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Benchmark performance alone doesn't predict real-world adoption—practical usability and workflow integration matter more for actual users",
     "Model competition is entering a phase where marginal improvements in capability don't automatically drive user switching behavior"
-   ]
-  },
-  {
-   "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-   "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-10T21:12:59+00:00",
-   "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Researchers discovered that 35,000 Grok Build applications were publicly accessible without authentication, exposing confidential information including data belonging to SpaceX. The security vulnerability left user data and proprietary information vulnerable to anyone searching for these exposed instances.",
-   "whyMatters": [
-    "Significant data security risk affecting tens of thousands of AI applications built on xAI's platform",
-    "Raises concerns about the security practices of AI agent/application platforms handling sensitive enterprise data"
-   ]
-  },
-  {
-   "title": "llm-gemini 0.36",
-   "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-10T20:09:44+00:00",
-   "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5). Here are three pelicans for th",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/carbon-pelican.webp",
-   "themes": [
-    "updates",
-    "environment"
-   ],
-   "aiSummary": "Google's Gemini 4 Carbon, previously available only to cybersecurity professionals, is now rolling out to the general public. The model is priced at $2 per million input tokens and $10 per million output tokens, with prices doubling December 1st—matching pricing strategies of competing frontier models.",
-   "whyMatters": [
-    "Gemini 4 Carbon positioned as Google's strongest model to date, directly competing with Claude Opus 5.5 and GPT-6.1 Sol",
-    "Pricing parity with competitors signals Google's commitment to capturing market share in the frontier model space"
    ]
   },
   {
@@ -3398,26 +3373,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Market fundamentals question: whether current AI spending levels are sustainable or speculative",
     "Could affect funding for both frontier labs and downstream AI applications if sentiment shifts"
-   ]
-  },
-  {
-   "title": "The AI vs AI Battle for the Internet",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-vs-AI-Battle-for-the-Internet-e3qu3ad",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-22T20:15:15+00:00",
-   "summary": "AI attackers and AI defenders are now battling over the internet’s vulnerabilities at superhuman speed. A massive PHP exploit and a wave of attacks reveal why cybersecurity is entering a new era—and why businesses are struggling to keep up. In the headlines: Anthropic unveils Claude Duet, Walmart welcomes shopping agents, and Meta turns to new stock to fund its AI buildout. Learn More about the AI",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127912717/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-22%2F434765371-44100-2-ba24a88164185.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "AI systems are now engaging in automated attacks and defenses across internet infrastructure at superhuman speeds, with major PHP exploits triggering waves of attacks that expose cybersecurity vulnerabilities. Anthropic released Claude Duet, Walmart introduced shopping agents, and Meta announced stock funding for AI expansion.",
-   "whyMatters": [
-    "Cybersecurity landscape fundamentally shifting as both attack and defense become automated, requiring new business security strategies",
-    "Companies must rapidly invest in AI infrastructure (as seen with Meta's stock move) to keep pace with the speed and scale of AI-driven threats"
    ]
   },
   {
