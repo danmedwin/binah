@@ -1,32 +1,37 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-20T13:53:55.320898+00:00",
+ "generatedAt": "2026-11-20T22:59:48.928897+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-20T13:54:03.215728+00:00",
+  "generatedAt": "2026-11-20T23:00:17.519107+00:00",
   "bullets": [
    {
-    "text": "Anthropic's record IPO, valued at $1.5 trillion, makes it the largest public offering ever, testing whether the AI safety-focused company can maintain its values under investor pressure.",
+    "text": "Anthropic's record $1.5 trillion IPO and OpenAI's new GPT-6 models mark major capital and capability milestones, reshaping AI market competition and frontier model access.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-     "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
+     "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+     "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+     "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/"
     ]
    },
    {
-    "text": "OpenAI released GPT-6.2 Astra and Sol models offering 20-600% cost reductions versus prior frontier models, though Astra receives mixed practical reviews while Sol positions as the production standard.",
+    "text": "Meta faces pressure to abandon 2030 net-zero commitment due to record AI data center emissions, surfacing fundamental tension between AI scaling and climate pledges.",
     "links": [
-     "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
-     "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+     "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
     ]
    },
    {
-    "text": "Google and Apple are advancing AI agent capabilities—Gemini gaining Mac computer control for multi-step tasks and Apple hiring to build its own agentic assistant—signaling a shift toward autonomous task execution.",
+    "text": "AI training data privacy is compromised: researchers showed embedded tracking markers leak from supposedly protected datasets into model outputs, exposing supply-chain vulnerabilities.",
     "links": [
-     "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-     "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
     ]
    },
    {
-    "text": "An AI gun detection system falsely flagged a Doritos bag as a firearm with over 99% false positive rates, prompting lawsuits and raising serious questions about deploying high-stakes AI without adequate validation.",
+    "text": "Signal and other apps are blocking OS-level AI agents from accessing user screens, beginning pushback against intrusive permission models for AI assistants.",
+    "links": [
+     "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+    ]
+   },
+   {
+    "text": "An AI gun detection system that generated 99% false positives traumatized students after falsely flagging a Doritos bag, illustrating risks of deploying unreliable AI in high-stakes settings.",
     "links": [
      "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/"
     ]
@@ -79,11 +84,247 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Google rolls out new search homepage with AI chat history and no search button",
+   "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-20T21:58:29+00:00",
+   "summary": "Google search is making it even easier to access AI tools on the search page.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is redesigning its search homepage to integrate AI chat capabilities more prominently, including displaying chat history and removing the traditional search button to streamline access to AI tools.",
+   "whyMatters": [
+    "Signals Google's strategic shift to position search as an AI-first interface rather than a text-query tool",
+    "Reflects intensifying competition to make generative AI the default entry point for information seeking"
+   ]
+  },
+  {
+   "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+   "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-20T21:47:10+00:00",
+   "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Meta is reconsidering its commitment to reach net-zero emissions by 2030 after reporting record emissions driven by the energy demands of its AI data centers.",
+   "whyMatters": [
+    "Demonstrates the material environmental cost of scaling large AI infrastructure at current energy efficiency levels",
+    "May signal to other tech companies that sustainability pledges may need revision, setting precedent for de-commitment"
+   ]
+  },
+  {
+   "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+   "link": "https://latent.space/p/formal-verification/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-20T21:18:41+00:00",
+   "summary": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Formal verification—mathematically proving software correctness—is becoming more automated through AI and tools like Lean, moving beyond traditional specialist-only work to help combat low-quality AI-generated content (\"slop\").",
+   "whyMatters": [
+    "Offers a technical pathway to increase reliability in AI-generated code and outputs",
+    "Could raise the bar for detecting and preventing defective AI content in production systems"
+   ]
+  },
+  {
+   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-20T20:59:08+00:00",
+   "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A researcher embedded unique, trackable secret prompts (\"canaries\") throughout AI training data and found they appeared in model outputs, demonstrating that supposedly private data in the AI supply chain can leak.",
+   "whyMatters": [
+    "Proves a concrete privacy vulnerability in current AI data handling practices",
+    "Has implications for institutions handling sensitive information used in training or fine-tuning models"
+   ]
+  },
+  {
+   "title": "Podcast: I Spoke to an AI Fraud Kingpin",
+   "link": "https://www.404media.co/podcast-i-spoke-to-an-ai-fraud-kingpin/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-11-20T20:12:51+00:00",
+   "summary": "The man who created OnlyFake; a Muse agent is suing Meta; and the Justice Department is using Pangram.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "404 Media podcast features an interview with the creator of OnlyFake (an AI fraud tool), discusses a Muse agent lawsuit against Meta, and reports the Justice Department's use of Pangram, touching on AI-enabled fraud and law enforcement applications.",
+   "whyMatters": [
+    "Highlights criminal use of AI for identity and financial fraud at scale",
+    "Shows law enforcement adoption of AI tools alongside criminal misuse"
+   ]
+  },
+  {
+   "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+   "link": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-20T19:52:21+00:00",
+   "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "According to Wired sources, Nvidia's board was alarmed by former CEO Jensen Huang's \"lack of candor\" regarding multiple alleged affairs (including with direct reports and an alleged Chinese intelligence asset) before his resignation.",
+   "whyMatters": [
+    "Governance and ethics issue at a central AI infrastructure company during a critical period for US-China tech competition",
+    "Raises questions about transparency and accountability at the highest levels of AI leadership"
+   ]
+  },
+  {
+   "title": "Quoting Ravi Vakil",
+   "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-20T19:21:49+00:00",
+   "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Simon Willison quotes mathematician Ravi Vakil noting that Alessandro Masullo has proposed a potential proof of the Generalized Riemann Hypothesis with feedback from Brian Conrad, done entirely without AI and pending peer review before announcement.",
+   "whyMatters": [
+    "Provides context that major mathematical breakthroughs remain human-driven and peer-reviewed before publicity",
+    "Contrasts with concurrent AI claims on the same problem"
+   ]
+  },
+  {
+   "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+   "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-20T18:50:19+00:00",
+   "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "President Trump announced he would impose substantial taxes on companies building AI data centers outside the United States to keep data center infrastructure domestic.",
+   "whyMatters": [
+    "Represents direct government intervention in AI infrastructure location, affecting where companies can operate data centers",
+    "Conflicts with state-level restrictions on new data centers, creating regulatory tension over AI energy and resource use"
+   ]
+  },
+  {
+   "title": "Why You Should Try Gemini Neon (Even if You Love Fable)",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-You-Should-Try-Gemini-Neon-Even-if-You-Love-Fable-e3sod5e",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-20T18:30:51+00:00",
+   "summary": "Google’s Gemini Neon edged out Fable on a coding benchmark, but its best pitch may be as a second opinion. NLW shares how Neon helped him find the story in an oil episode that Claude and ChatGPT kept turning into a Wikipedia entry, and what happened when he pushed back on its ideas. In the headlines: Anthropic closes its first day of trading up 17%, and Chinese AI labs warn that new U.S. chip rest",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/129823342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F437242919-44100-2-60737e935d621.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Google's new Gemini Neon model outperformed competitor Fable on coding benchmarks and offered value as a second-opinion tool for narrative analysis, while Anthropic stock rose 17% on its first trading day and Chinese AI labs warned about US chip restrictions.",
+   "whyMatters": [
+    "Shows model competition intensifying on specific task performance and complementary strengths",
+    "Links to broader market and geopolitical dynamics affecting AI access and development"
+   ]
+  },
+  {
+   "title": "The most misunderstood graph in AI just got a major update",
+   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-20T18:15:15+00:00",
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "METR, an AI evaluation nonprofit, released an updated analysis of the \"time horizon\" plot showing some AI capabilities continue on exponential improvement trajectories, though models perform better at coding than at tasks requiring judgment.",
+   "whyMatters": [
+    "Updates a widely-cited but misunderstood visualization of AI capability trends with new data",
+    "Highlights a gap between technical ability (coding) and reasoning judgment, relevant to assessing AI readiness for high-stakes domains"
+   ]
+  },
+  {
+   "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-20T16:57:47+00:00",
+   "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Levent Alpöge, a mathematician at Anthropic, claims to have proved the Riemann Hypothesis using Claude; if verified, it would be a major mathematical achievement and demonstrate AI's impact on solving century-old open problems.",
+   "whyMatters": [
+    "Would represent a landmark achievement for AI-assisted mathematics if peer-verified",
+    "Raises questions about verification standards and credit attribution when AI and humans collaborate on research"
+   ]
+  },
+  {
+   "title": "Quoting Levent Alpöge",
+   "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-20T16:30:48+00:00",
+   "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principa",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Levent Alpöge states he has discovered a proof of the Riemann Hypothesis and its generalization working with Claude, with formalized arguments, and expects to resolve further extensions with more time.",
+   "whyMatters": [
+    "Same claim as s11; Alpöge's direct statement framing the achievement as collaborative",
+    "Underscores the ongoing question of verification and the role of human versus AI contribution in mathematical breakthrough"
+   ]
+  },
+  {
+   "title": "Apple is hiring engineers to build its own AI agent",
+   "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-20T15:13:37+00:00",
+   "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to lead the creation of an agentic AI […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Apple is hiring engineers to build an AI agent capable of performing multiple tasks including web browsing, working across apps, writing code, and calling services. The job listing signals Apple's effort to develop its own agentic AI assistant.",
+   "whyMatters": [
+    "Demonstrates Apple's commitment to developing proprietary AI capabilities rather than relying solely on third-party partnerships",
+    "Positions Apple to compete directly with other tech companies building AI agents in the crowded agent market"
+   ]
+  },
+  {
    "title": "Signal is blocking Gemini and Siri AI from reading your screen",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-11-20T12:30:47+00:00",
+   "date": "2026-11-20T14:36:42+00:00",
    "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president […]",
    "religionScore": 0,
    "religionHits": [],
@@ -94,6 +335,42 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signal's move highlights a growing tension between OS-level AI features and application-level privacy controls; end-to-end encryption alone no longer suffices when device AI can intercept on-screen content",
     "This sets a precedent for how privacy-focused platforms might respond to agentic AI—relevant for educators and community leaders considering which tools to trust with sensitive communications"
+   ]
+  },
+  {
+   "title": "A brief history of Nvidia’s recent stock fluctuations",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-20T14:20:13+00:00",
+   "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's stock price dropped nearly 40 percent from its October 6 all-time high to around $150 per share by Thursday following the company's earnings call. The decline wiped out post-earnings gains despite leadership expressing confidence.",
+   "whyMatters": [
+    "Reflects market volatility and investor concerns about Nvidia's growth trajectory despite dominance in AI chip manufacturing",
+    "Signals potential shifts in market confidence in the AI infrastructure sector"
+   ]
+  },
+  {
+   "title": "The week everything fell apart",
+   "link": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-20T14:06:59+00:00",
+   "summary": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A series of major outages affected Outlook, air traffic control (a nationwide ground stop), banking systems, and iCloud, suggesting widespread infrastructure fragility and raising concerns about cascading system failures.",
+   "whyMatters": [
+    "Highlights how interdependent critical infrastructure has become and vulnerability to single points of failure",
+    "Relevant to AI governance and deployment risk; underscores need for robust failsafe systems as AI integrates into critical services"
    ]
   },
   {
@@ -170,6 +447,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Combatting adversarial distillation",
+   "link": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-20T10:00:00+00:00",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI describes its layered approach to preventing adversarial distillation—capability extraction attacks—combining model training safeguards, detection mechanisms, and enforcement actions.",
+   "whyMatters": [
+    "Security measure against competitors and bad actors extracting AI model capabilities through probing",
+    "Reflects ongoing arms race between AI safety and adversarial techniques"
+   ]
+  },
+  {
    "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
    "link": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
    "source": "Latent Space",
@@ -224,6 +519,43 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "link": "https://openai.com/business/customer-stories/hebbia",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-20T00:00:00+00:00",
+   "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Financial research firm Hebbia tested OpenAI's GPT-6 Astra model in prerelease and found improvements in source coverage, citation accuracy, and output quality compared to earlier versions.",
+   "whyMatters": [
+    "Demonstrates real-world industry validation of new AI model capabilities in a high-stakes domain (financial research)",
+    "Suggests AI is becoming more reliable for citation and source verification, reducing hallucination in professional contexts"
+   ]
+  },
+  {
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "link": "https://openai.com/index/introducing-medchembench",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-20T00:00:00+00:00",
+   "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Researchers have created MedChemBench, a benchmark that tests how well AI models can interpret molecular structures, reason about experimental data, and select promising drug compounds during early-stage discovery. The benchmark measures AI's capability to assist in the drug development process from initial compound screening.",
+   "whyMatters": [
+    "Tests practical AI application in pharmaceutical research where computational speed could accelerate early-stage drug discovery pipelines",
+    "Provides standardized evaluation for comparing different AI models' chemical reasoning abilities, relevant to pharma and biotech adoption decisions",
+    "Demonstrates AI's potential in a high-stakes domain where errors have real costs, raising questions about validation and trustworthiness in AI-assisted scientific work"
+   ]
+  },
+  {
    "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
    "link": "https://latent.space/p/linear-scaling/",
    "source": "Latent Space",
@@ -239,42 +571,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates AI automation enabling smaller sales teams to reach enterprise scale",
     "Shows practical ROI of AI agents in customer support and sales operations"
-   ]
-  },
-  {
-   "title": "Apple is hiring engineers to build its own AI agent",
-   "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-19T23:13:01+00:00",
-   "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Apple is hiring engineers to build an AI agent capable of performing multiple tasks including web browsing, working across apps, writing code, and calling services. The job listing signals Apple's effort to develop its own agentic AI assistant.",
-   "whyMatters": [
-    "Demonstrates Apple's commitment to developing proprietary AI capabilities rather than relying solely on third-party partnerships",
-    "Positions Apple to compete directly with other tech companies building AI agents in the crowded agent market"
-   ]
-  },
-  {
-   "title": "A brief history of Nvidia’s recent stock fluctuations",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-19T21:59:35+00:00",
-   "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia's stock price dropped nearly 40 percent from its October 6 all-time high to around $150 per share by Thursday following the company's earnings call. The decline wiped out post-earnings gains despite leadership expressing confidence.",
-   "whyMatters": [
-    "Reflects market volatility and investor concerns about Nvidia's growth trajectory despite dominance in AI chip manufacturing",
-    "Signals potential shifts in market confidence in the AI infrastructure sector"
    ]
   },
   {
@@ -441,24 +737,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-19T19:10:57+00:00",
-   "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic's IPO raised $81.3 billion and became the largest IPO of all time, surpassing SpaceX. The company was founded on prioritizing AI safety, and the public offering tests whether that reputation survives investor pressures.",
-   "whyMatters": [
-    "Anthropic's founding mission around safety now faces tension with shareholder profit expectations",
-    "Sets important precedent for how AI safety culture either sustains or erodes through public markets"
-   ]
-  },
-  {
    "title": "Gemini on Mac can now use your computer",
    "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
    "source": "The Verge · AI",
@@ -492,24 +770,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates infrastructure investments required to safely develop AI agents at scale",
     "Reflects industry recognition that testing agents on live internet poses significant risks"
-   ]
-  },
-  {
-   "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-19T15:16:45+00:00",
-   "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "ChatGPT added a Live Dictation feature that transcribes audio input in real-time as users speak, rather than waiting for recording completion. The feature is rolling out globally across web, desktop, and mobile apps.",
-   "whyMatters": [
-    "Lowers friction for voice interaction with AI, expanding accessibility for users who prefer dictation",
-    "Demonstrates iterative improvements to AI interfaces making them more natural and conversational"
    ]
   },
   {
@@ -587,21 +847,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Deploying Daybreak Red",
-   "link": "https://openai.com/business/learn/deploying-daybreak-red",
+   "title": "Explore the Codex Security Plugin",
+   "link": "https://openai.com/business/learn/codex-security-plugin-demo",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-11-19T00:00:00+00:00",
-   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "OpenAI has released Daybreak Red, a reference architecture for conducting supervised security investigations of AI systems, including built-in safety controls, setup guidance, and monitoring tools.",
+   "aiSummary": "OpenAI has released a demo of the Codex Security Plugin, showing how it integrates security analysis into developer workflows from initial setup through results review.",
    "whyMatters": [
-    "Provides tooling for red-teaming and security testing of AI models",
-    "Reflects industry focus on safety validation and adversarial testing as AI systems become more capable"
+    "Extends AI-powered security analysis to code development environments",
+    "Demonstrates OpenAI's focus on embedding AI safety and security into developer tools"
    ]
   },
   {
@@ -623,24 +883,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Explore the Codex Security Plugin",
-   "link": "https://openai.com/business/learn/codex-security-plugin-demo",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-19T00:00:00+00:00",
-   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI has released a demo of the Codex Security Plugin, showing how it integrates security analysis into developer workflows from initial setup through results review.",
-   "whyMatters": [
-    "Extends AI-powered security analysis to code development environments",
-    "Demonstrates OpenAI's focus on embedding AI safety and security into developer tools"
-   ]
-  },
-  {
    "title": "Get started with Daybreak Blue",
    "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
    "source": "OpenAI News",
@@ -656,6 +898,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Makes security investigation tooling more accessible to organizations new to red-teaming",
     "Part of OpenAI's effort to democratize AI safety validation beyond research teams"
+   ]
+  },
+  {
+   "title": "Deploying Daybreak Red",
+   "link": "https://openai.com/business/learn/deploying-daybreak-red",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-19T00:00:00+00:00",
+   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI has released Daybreak Red, a reference architecture for conducting supervised security investigations of AI systems, including built-in safety controls, setup guidance, and monitoring tools.",
+   "whyMatters": [
+    "Provides tooling for red-teaming and security testing of AI models",
+    "Reflects industry focus on safety validation and adversarial testing as AI systems become more capable"
    ]
   },
   {
@@ -677,24 +937,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights ongoing product strategy challenges in the competitive frontier AI model market",
     "Affects developer and enterprise adoption decisions through unclear pricing signals"
-   ]
-  },
-  {
-   "title": "I let Apple’s always-listening AI summarize my life for two weeks",
-   "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-18T22:31:27+00:00",
-   "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The author tested wearable AI summarization features on Apple Watch Ultra 4 and Amazon Bee Frontier that constantly listen to conversations and generate summaries. The piece questions whether this ambient surveillance capability is worth the utility it provides.",
-   "whyMatters": [
-    "Raises privacy implications of always-on ambient listening in consumer devices",
-    "Highlights tension between convenience and consent in AI-powered personal devices"
    ]
   },
   {
@@ -769,24 +1011,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows tension between cost efficiency and user experience in AI model development",
     "Suggests OpenAI may be optimizing for mass-market productivity over developer satisfaction"
-   ]
-  },
-  {
-   "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
-   "link": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-18T21:15:00+00:00",
-   "summary": "The Trump administration announced plans to clamp down on China’s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Trump administration announced plans to restrict China's access to AI chips, with the recent Nvidia cheating scandal cited as motivation for escalating the chip trade conflict.",
-   "whyMatters": [
-    "Nvidia governance crisis is influencing US export control policy on AI semiconductors",
-    "Demonstrates how company-level issues can drive broader geopolitical technology restrictions"
    ]
   },
   {
@@ -972,24 +1196,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Research acceleration: The jagged frontier",
-   "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-18T08:00:00+00:00",
-   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI research shows coding agents are accelerating AI research but with uneven performance across different tasks. The findings examine how such agents can contribute to recursive self-improvement and their current limitations.",
-   "whyMatters": [
-    "Demonstrates both capabilities and limitations of AI agents in research acceleration",
-    "Signals realistic assessment of where AI-driven research tools add value versus where human oversight remains essential"
-   ]
-  },
-  {
    "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
    "link": "https://openai.com/business/customer-stories/sumitomo-life",
    "source": "OpenAI News",
@@ -1005,6 +1211,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates enterprise AI adoption at scale in financial services sector",
     "Leadership engagement is effective lever for organizational AI adoption and practical use case validation"
+   ]
+  },
+  {
+   "title": "Research acceleration: The jagged frontier",
+   "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-18T08:00:00+00:00",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI research shows coding agents are accelerating AI research but with uneven performance across different tasks. The findings examine how such agents can contribute to recursive self-improvement and their current limitations.",
+   "whyMatters": [
+    "Demonstrates both capabilities and limitations of AI agents in research acceleration",
+    "Signals realistic assessment of where AI-driven research tools add value versus where human oversight remains essential"
    ]
   },
   {
@@ -1356,24 +1580,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The AI in ‘Musk’ Is Cringe",
-   "link": "https://www.404media.co/the-ai-in-musk-is-cringe/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-11-17T14:09:37+00:00",
-   "summary": "The sprawling four hour long documentary is weighed down by an AI Elon and pointless video game sequences.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A four-hour documentary about Elon Musk includes AI-generated sequences of Musk and video game content that reviewers found ineffective and detracted from the film's overall quality.",
-   "whyMatters": [
-    "Illustrates current limitations and poor user experience of AI content generation in documentary filmmaking",
-    "Highlights gap between AI hype and actual creative utility in media production"
-   ]
-  },
-  {
    "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
    "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
    "source": "Ars Technica · AI",
@@ -1465,26 +1671,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing OpenAI for Chile",
-   "link": "https://openai.com/index/introducing-openai-for-chile",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-17T00:00:00+00:00",
-   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI is launching a partnership with the Chilean government to advance responsible AI adoption, develop public-sector expertise, and support local startup development of AI applications.",
-   "whyMatters": [
-    "Extends AI capability-building to emerging markets and government institutions beyond the US-EU tech centers",
-    "Government partnership model could shape how public institutions globally approach AI governance and workforce development"
-   ]
-  },
-  {
    "title": "Astra for Law leads in legal intelligence",
    "link": "https://openai.com/index/astra-law-6-2",
    "source": "OpenAI News",
@@ -1502,6 +1688,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates AI's expanding role in legal practice and document analysis",
     "Major legal specialization could reshape how attorneys research and prepare cases"
+   ]
+  },
+  {
+   "title": "Introducing OpenAI for Chile",
+   "link": "https://openai.com/index/introducing-openai-for-chile",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-17T00:00:00+00:00",
+   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "OpenAI is launching a partnership with the Chilean government to advance responsible AI adoption, develop public-sector expertise, and support local startup development of AI applications.",
+   "whyMatters": [
+    "Extends AI capability-building to emerging markets and government institutions beyond the US-EU tech centers",
+    "Government partnership model could shape how public institutions globally approach AI governance and workforce development"
    ]
   },
   {
@@ -1673,24 +1879,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "AI-Powered Copyright Hell",
-   "link": "https://www.404media.co/ai-powered-copyright-hell/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-11-16T15:25:10+00:00",
-   "summary": "\"Any human would agree with me that there’s something clearly wrong here.\"",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A report examines systemic copyright problems created by AI content mills that claim ownership of works and make it impossible for creators to contact humans to resolve disputes.",
-   "whyMatters": [
-    "Exposes vulnerability in copyright enforcement where AI-generated false claims can harm legitimate creators",
-    "Points to need for policy and legal frameworks to handle AI-generated copyright disputes at scale"
-   ]
-  },
-  {
    "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
    "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
    "source": "Ars Technica · AI",
@@ -1780,64 +1968,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Major media conglomerates adopting OpenAI tools signals mainstream commercial integration of LLMs into editorial workflows",
     "Partnership demonstrates how AI vendors are securing distribution through traditional media channels while shaping how news content reaches audiences"
-   ]
-  },
-  {
-   "title": "Our first phase of embedded assessments",
-   "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-16T08:00:00+00:00",
-   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI is launching an embedded assessments program with Apollo Research, METR, Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-   "whyMatters": [
-    "Creates external accountability mechanisms for AI safety evaluation rather than relying solely on internal testing",
-    "Advances transparency and rigor in assessing whether AI systems behave as designed"
-   ]
-  },
-  {
-   "title": "More ways to move care forward with ChatGPT for Healthcare",
-   "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-16T06:00:00+00:00",
-   "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI is expanding ChatGPT for Healthcare with computer-use agents, improved clinical question-answering, and new plugins that integrate with healthcare software systems.",
-   "whyMatters": [
-    "Moves ChatGPT toward operational integration in clinical workflows rather than standalone tool use",
-    "Requires healthcare organizations to trust AI for direct involvement in patient care operations"
-   ]
-  },
-  {
-   "title": "Advancing computer-use agents for healthcare teams",
-   "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-16T06:00:00+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is developing computer-use agents specifically designed to assist healthcare teams with their workflows.",
-   "whyMatters": [
-    "Applies AI agents to healthcare where autonomous task execution could improve clinical efficiency",
-    "Introduces AI autonomy into high-stakes medical settings where safety and reliability are critical"
    ]
   },
   {
@@ -2413,23 +2543,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Browse tools.simonwillison.net by tag",
-   "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-11T18:42:50+00:00",
-   "summary": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool. The homepage now features tag clouds for browsing by each of thos",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp",
-   "themes": [],
-   "aiSummary": "Simon Willison added tag-based browsing to his tools collection using an AI model to analyze code for JavaScript APIs and web hosts, indexing 244+ tools.",
-   "whyMatters": [
-    "Demonstrates practical use of AI for code analysis and information organization in developer tools"
-   ]
-  },
-  {
    "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
    "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
    "source": "Ars Technica · AI",
@@ -2448,44 +2561,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
-   "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-11T17:37:32+00:00",
-   "summary": "Any amount of AI coding is too much for many Independent Games Festival judges.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "An indie game developer used AI to fix a bug, triggering debate within the Independent Games Festival judging community about the acceptability of any AI use in game development.",
-   "whyMatters": [
-    "Reveals emerging friction in creative communities over AI tool use and artistic integrity standards",
-    "Suggests gatekeeping will intensify around AI-assisted work in competitive creative fields"
-   ]
-  },
-  {
-   "title": "llm 0.37.2",
-   "link": "https://simonwillison.net/2026/Nov/11/llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-11T17:19:52+00:00",
-   "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers. Daniel reported two ways this could accidentally send your configured OpenAI API key to",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "LLM version 0.37.2 fixes a security vulnerability where configured OpenAI API keys could be accidentally sent to third-party endpoints through the extra-openai-models.yaml mechanism.",
-   "whyMatters": [
-    "Highlights API key management risks in tools that broker multiple LLM providers",
-    "Important for developers managing credentials across OpenAI-compatible endpoints"
-   ]
-  },
-  {
    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
    "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
    "source": "Google DeepMind",
@@ -2501,24 +2576,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents significant application of AI to biomedical research with direct health implications",
     "Could accelerate disease understanding and drug development workflows"
-   ]
-  },
-  {
-   "title": "Google DeepMind just mathematically verified key parts of Signal",
-   "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-11T14:08:57+00:00",
-   "summary": "The four-week project hints that AI could make formal verification far more practical.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind mathematically verified core encryption components of Signal using formal verification methods, completing the four-week project successfully. The work demonstrates that AI could make formal verification—proving code is correct—practical at scale.",
-   "whyMatters": [
-    "Enables rigorous security verification of widely-used privacy tools that millions depend on for secure communication",
-    "Suggests AI could transform software verification from expensive specialty work into deployable practice, improving security across the field"
    ]
   },
   {
@@ -2557,26 +2614,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reflects ongoing developer tooling innovation to make AI code assistants more usable and integrated",
     "Shows OpenAI's focus on improving the human-AI collaboration experience for engineers"
-   ]
-  },
-  {
-   "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
-   "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-10T22:35:01+00:00",
-   "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Amazon is launching AI-powered robotic devices under its Ring brand—a mobile security drone and a ground robot—with availability starting in late 2026 and early 2027. These devices expand Ring's capabilities beyond stationary cameras.",
-   "whyMatters": [
-    "Represents escalation in consumer surveillance technology and autonomous systems in residential spaces, raising privacy and safety questions for households and communities",
-    "Deployment timeline and features may influence discussions around home security ethics and what level of automated monitoring households should accept"
    ]
   },
   {
@@ -2808,24 +2845,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Innovating with AI in the specialty chemicals industry",
-   "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-   "source": "MIT Tech Review · AI",
-   "category": "ai",
-   "date": "2026-11-09T13:00:00+00:00",
-   "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Lubrizol and other specialty chemicals companies are using AI and cloud computing to speed up research and product development. The main hurdle they face is integrating these new technologies with quality data, scientific knowledge, and the practical constraints of manufacturing and commercialization.",
-   "whyMatters": [
-    "Connects to broader industrial AI adoption—shows that real value from AI depends on foundational data and domain expertise, not just the technology itself",
-    "Relevant to how organizations (including educational institutions) need to think about AI implementation: tools alone don't work without reliable information systems and expert guidance"
-   ]
-  },
-  {
    "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
    "link": "https://latent.space/p/cs146s/",
    "source": "Latent Space",
@@ -2841,24 +2860,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Education practitioners must redesign coursework when AI capabilities make old assignments obsolete; forces rethinking of what engineers actually need to learn",
     "Represents a concrete shift in how computer science education approaches skill-building in an AI-capable environment"
-   ]
-  },
-  {
-   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-   "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-08T21:23:29+00:00",
-   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1bcf7-771f-7c67-ba1d-94f856e787b0/01a1bcf7-78db-7028-b115-7c753e3b3b76.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/dc6155e4-d68b-4a4f-a3b0-ffa9748c2676/Mihail_Eric_-_Podcast_Cover.jpg?t=1794171820",
-   "themes": [],
-   "aiSummary": "Stanford's second iteration of CS146S addresses the AI homework problem by bringing open-source maintainers into the course, requiring students to learn unfamiliar codebases and propose real changes rather than solving abstract problems.",
-   "whyMatters": [
-    "Education: demonstrates practical pivot toward project-based learning that AI agents cannot trivialize, grounding students in real engineering challenges",
-    "Shows educators building resilience into curricula by focusing on understanding existing systems and contributing to them rather than implementing from scratch"
    ]
   },
   {
@@ -3353,24 +3354,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Most Concerning AI Bubble Signals",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-Most-Concerning-AI-Bubble-Signals-e3qvpih",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-23T18:50:38+00:00",
-   "summary": "AI bubble fears are getting louder as Anthropic’s IPO approaches. From GPUs sitting in warehouses to shaky data center debt and revenue concentrated among venture-backed startups, NLW examines which warning signs deserve attention and what would turn today’s market jitters into something much more serious. Learn More about the AI Champions Program: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://www.besuper.ai/champions⁠⁠⁠⁠⁠⁠⁠",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/127968273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-23%2F434838595-44100-2-2b56a37789614.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "As Anthropic approaches its IPO, concerns about an AI bubble are intensifying, with warning signs including idle GPU inventory, risky data center financing, and revenue concentration among venture-backed companies.",
-   "whyMatters": [
-    "Market fundamentals question: whether current AI spending levels are sustainable or speculative",
-    "Could affect funding for both frontier labs and downstream AI applications if sentiment shifts"
-   ]
-  },
-  {
    "title": "Beyond tree cover: mapping the world’s forest types",
    "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
    "source": "Google DeepMind",
@@ -3575,24 +3558,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses the human dimension of AI integration: how individuals make sense of their work identity when AI reshapes roles—relevant to educators preparing students for changing careers",
     "Suggests that narrative and storytelling are skills that remain distinctly human and valuable in an AI-driven economy"
-   ]
-  },
-  {
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "source": "Google DeepMind",
-   "category": "ai",
-   "date": "2026-10-06T19:57:04+00:00",
-   "summary": "",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google DeepMind released EmbeddingGemma 2, an open-source lightweight multimodal embedding model that processes both text and images into numerical representations. It is designed for efficiency and accessibility.",
-   "whyMatters": [
-    "Open-source release enables wider adoption in research and applications; democratizes access to multimodal AI",
-    "Smaller footprint allows deployment on-device and in resource-constrained settings, reducing dependence on cloud infrastructure"
    ]
   }
  ]
