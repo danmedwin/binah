@@ -1,37 +1,34 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-20T12:06:45.415105+00:00",
+ "generatedAt": "2026-11-20T13:53:55.320898+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-20T12:07:06.834034+00:00",
+  "generatedAt": "2026-11-20T13:54:03.215728+00:00",
   "bullets": [
    {
-    "text": "Anthropic completed the largest IPO in history at $1.5 trillion valuation, raising $81.3 billion and joining public markets—testing whether the AI safety-focused company can maintain its values under investor pressure.",
+    "text": "Anthropic's record IPO, valued at $1.5 trillion, makes it the largest public offering ever, testing whether the AI safety-focused company can maintain its values under investor pressure.",
     "links": [
-     "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
-     "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-     "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
+     "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+     "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
     ]
    },
    {
-    "text": "OpenAI released GPT-6.2 Astra and Sol models offering 20–600% lower costs than prior frontier models, with Astra showing mixed practical reviews but positioned as a production workhorse across reasoning and coding tasks.",
+    "text": "OpenAI released GPT-6.2 Astra and Sol models offering 20-600% cost reductions versus prior frontier models, though Astra receives mixed practical reviews while Sol positions as the production standard.",
     "links": [
      "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
-     "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-     "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+     "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
     ]
    },
    {
-    "text": "Google built a \"Mirror Dimension\" sandbox internet and deployed Gemini 4 Neon and Genie 4, advancing AI agent infrastructure; meanwhile, Apple is hiring engineers to build its own agentic AI assistant across apps and services.",
+    "text": "Google and Apple are advancing AI agent capabilities—Gemini gaining Mac computer control for multi-step tasks and Apple hiring to build its own agentic assistant—signaling a shift toward autonomous task execution.",
     "links": [
-     "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-     "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-     "https://deepmind.google/blog/introducing-gemini-4-neon/"
+     "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+     "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
     ]
    },
    {
-    "text": "An Israeli nonprofit built Raboti, a WhatsApp chatbot that helped Israeli reservists claim $31 million in unclaimed government benefits, demonstrating measurable AI impact on institutional access and social welfare delivery.",
+    "text": "An AI gun detection system falsely flagged a Doritos bag as a firearm with over 99% false positive rates, prompting lawsuits and raising serious questions about deploying high-stakes AI without adequate validation.",
     "links": [
-     "https://ejewishphilanthropy.com/nonprofits-are-embracing-ai-are-their-funders-ready/"
+     "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/"
     ]
    }
   ]
@@ -81,6 +78,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-20T12:30:47+00:00",
+   "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Signal is blocking operating system-level AI agents like Google's Gemini and Apple's Siri from accessing screenshots on Android and iOS, preventing these tools from reading private messages and user data on the platform. The messaging app implemented this restriction because it views these on-screen AI capabilities as a threat to its core privacy guarantees.",
+   "whyMatters": [
+    "Signal's move highlights a growing tension between OS-level AI features and application-level privacy controls; end-to-end encryption alone no longer suffices when device AI can intercept on-screen content",
+    "This sets a precedent for how privacy-focused platforms might respond to agentic AI—relevant for educators and community leaders considering which tools to trust with sensitive communications"
+   ]
+  },
   {
    "title": "Muse Is Unleashing a World of Pettiness on Instagram",
    "link": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
@@ -495,24 +510,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Lowers friction for voice interaction with AI, expanding accessibility for users who prefer dictation",
     "Demonstrates iterative improvements to AI interfaces making them more natural and conversational"
-   ]
-  },
-  {
-   "title": "Canva adds an AI ‘off’ button",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-19T13:08:05+00:00",
-   "summary": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn off every AI-powered […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Canva is introducing a toggle that allows users to disable all generative AI features on its graphic design platform, including image generation, photo extension, and chatbot functionality. Users who prefer not to use AI tools can now opt out entirely.",
-   "whyMatters": [
-    "Responds to growing user demand for AI opt-out controls in consumer software",
-    "Addresses privacy and consent concerns by giving users explicit control over data processing for AI features"
    ]
   },
   {
