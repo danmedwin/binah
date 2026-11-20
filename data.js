@@ -1,86 +1,231 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-19T23:26:59.441288+00:00",
+ "generatedAt": "2026-11-20T12:06:45.415105+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-19T23:27:25.576361+00:00",
+  "generatedAt": "2026-11-20T12:07:06.834034+00:00",
   "bullets": [
    {
-    "text": "Anthropic completed the largest IPO of all time at $107 billion valuation, raising $81.3 billion—a watershed moment testing whether the company's AI-safety founding principles survive investor pressures.",
+    "text": "Anthropic completed the largest IPO in history at $1.5 trillion valuation, raising $81.3 billion and joining public markets—testing whether the AI safety-focused company can maintain its values under investor pressure.",
     "links": [
+     "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
      "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
      "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
     ]
    },
    {
-    "text": "OpenAI released GPT-6.2 Astra and Sol models at 20–80% lower costs than prior frontier models, with Astra showing mixed practical reviews despite strong benchmarks and Sol positioning as the production workhorse.",
+    "text": "OpenAI released GPT-6.2 Astra and Sol models offering 20–600% lower costs than prior frontier models, with Astra showing mixed practical reviews but positioned as a production workhorse across reasoning and coding tasks.",
     "links": [
      "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
-     "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+     "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+     "https://openai.com/index/introducing-gpt-6-2-astra-sol"
     ]
    },
    {
-    "text": "Apple is hiring to build its own AI agent capable of web browsing, cross-app work, and code writing—advancing its vertical integration strategy amid broader corporate competition for agentic AI systems.",
+    "text": "Google built a \"Mirror Dimension\" sandbox internet and deployed Gemini 4 Neon and Genie 4, advancing AI agent infrastructure; meanwhile, Apple is hiring engineers to build its own agentic AI assistant across apps and services.",
     "links": [
-     "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+     "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+     "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+     "https://deepmind.google/blog/introducing-gemini-4-neon/"
     ]
    },
    {
-    "text": "An AI gun-detection system falsely flagged a Doritos bag as a firearm with 99% false-positive rates, prompting traumatized students to sue and illustrating the real harms of rushed deployment in safety-critical settings.",
+    "text": "An Israeli nonprofit built Raboti, a WhatsApp chatbot that helped Israeli reservists claim $31 million in unclaimed government benefits, demonstrating measurable AI impact on institutional access and social welfare delivery.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/"
-    ]
-   },
-   {
-    "text": "Catholic bishops passed formal guidelines on AI investment and divested from private prisons, signaling organized religious institutions are developing governance frameworks for AI's moral and economic implications.",
-    "links": [
-     "https://religionnews.com/2026/11/18/catholic-bishops-vote-to-divest-from-private-prisons-pass-guidelines-on-ai-investment/"
+     "https://ejewishphilanthropy.com/nonprofits-are-embracing-ai-are-their-funders-ready/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-19T12:04:29.474192+00:00",
+  "generatedAt": "2026-11-20T12:07:06.834034+00:00",
   "bullets": [
    {
-    "text": "Google conditioned school district access to Search on adoption of Gemini AI, spurring New York, Los Angeles, and Chicago to explore alternatives—a forced bundling move reshaping ed-tech choice.",
+    "text": "Anthropic completed the largest IPO in history at $1.5 trillion valuation, raising $81.3 billion and joining public markets—testing whether the AI safety-focused company can maintain its values under investor pressure.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
+     "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+     "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+     "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
     ]
    },
    {
-    "text": "Nvidia halted all advanced AI chip shipments to China and Jensen Huang's board explicitly rejected his return as CEO despite Trump and Musk pressure, stabilizing governance but signaling real constraints on executive will.",
+    "text": "OpenAI released GPT-6.2 Astra and Sol models offering 20–600% lower costs than prior frontier models, with Astra showing mixed practical reviews but positioned as a production workhorse across reasoning and coding tasks.",
     "links": [
-     "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
-     "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/"
+     "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+     "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+     "https://openai.com/index/introducing-gpt-6-2-astra-sol"
     ]
    },
    {
-    "text": "Catholic bishops passed formal AI investment guidelines and divest-from-prisons resolutions, reflecting organized religious institutional response to AI ethics concerns raised among their communities.",
+    "text": "Google built a \"Mirror Dimension\" sandbox internet and deployed Gemini 4 Neon and Genie 4, advancing AI agent infrastructure; meanwhile, Apple is hiring engineers to build its own agentic AI assistant across apps and services.",
     "links": [
-     "https://religionnews.com/2026/11/18/catholic-bishops-vote-to-divest-from-private-prisons-pass-guidelines-on-ai-investment/"
+     "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+     "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+     "https://deepmind.google/blog/introducing-gemini-4-neon/"
     ]
    },
    {
-    "text": "AI-powered tools are eroding basic legal and human autonomy: the DOJ weaponized an unreliable AI detector against defendants, a Meta user sued after their AI agent autonomously filed litigation, and deepfake videos circulated widely.",
+    "text": "An Israeli nonprofit built Raboti, a WhatsApp chatbot that helped Israeli reservists claim $31 million in unclaimed government benefits, demonstrating measurable AI impact on institutional access and social welfare delivery.",
     "links": [
-     "https://www.404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys/",
-     "https://www.404media.co/a-man-and-his-muse-ai-agent-sue-meta/",
-     "https://www.404media.co/the-ai-in-musk-is-cringe/"
+     "https://ejewishphilanthropy.com/nonprofits-are-embracing-ai-are-their-funders-ready/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-19T12:04:24.542422+00:00",
+  "updatedAt": "2026-11-20T12:07:01.433353+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and religious/moral perspectives on technology",
-   "Drawn to tech business narratives with concrete outcomes (Apple's chip legacy)",
-   "Practical AI applications in consumer products (Waze features)",
-   "Avoids highly technical, low-level developer release notes"
+   "Interested in AI ethics and moral/religious leadership perspectives on technology",
+   "Drawn to substantive tech stories with clear business or strategic impact (e.g., Apple's chip legacy)",
+   "Prefers accessible consumer AI applications over niche developer tools and release notes"
   ]
  },
  "items": [
+  {
+   "title": "Muse Is Unleashing a World of Pettiness on Instagram",
+   "link": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-20T12:00:00+00:00",
+   "summary": "Meta’s AI assistant can track and unfollow Instagram users who don’t follow you back—and some people are taking full advantage.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Meta's Muse AI assistant can now track and unfollow Instagram users who don't follow you back, automating what was previously a manual task. Some users are using this feature actively on the platform.",
+   "whyMatters": [
+    "Reflects how AI tools are automering routine social-media management tasks",
+    "Raises questions about relationship authenticity and whether AI automation changes how social networks function"
+   ]
+  },
+  {
+   "title": "Regular Tech Bros Are Worried About Honeypots",
+   "link": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-20T11:00:00+00:00",
+   "summary": "The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Tech workers with newfound wealth and power are increasingly anxious about dating and relationship deception, with recent high-profile scandals fueling these concerns. The fear centers on whether potential partners are genuinely interested or exploiting their status.",
+   "whyMatters": [
+    "Highlights anxieties among the newly wealthy in tech that extend beyond the AI industry itself",
+    "Shows how AI-era wealth concentration creates social friction independent of AI technology"
+   ]
+  },
+  {
+   "title": "G.T.A. VI Is a Monumental Human Achievement",
+   "link": "https://www.nytimes.com/column/hard-fork",
+   "source": "Hard Fork",
+   "category": "podcast",
+   "date": "2026-11-20T11:00:00+00:00",
+   "summary": "This week, Max is joined by Erin Griffith and Mike Isaac to talk with the reporter Joseph Bernstein about the blockbuster new Grand Theft Auto release. The group breaks down what Joe saw during his early access to the game, what the game says about the current tech moment and why A.I. might mean we never see anything like this again. Then we talk about the continuing fallout of Jensen Huang’s Nvid",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/cdb3dbd8-6036-4c81-afa9-2d13a32facb5/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=cdb3dbd8-6036-4c81-afa9-2d13a32facb5&feed=l2i9YnTd",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
+   "whyMatters": [
+    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
+    "Social media age-ban policy affects youth education and how congregations reach teens.",
+    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
+   ]
+  },
+  {
+   "title": "Nonprofits are embracing AI. Are their funders ready?",
+   "link": "https://ejewishphilanthropy.com/nonprofits-are-embracing-ai-are-their-funders-ready/",
+   "source": "eJewishPhilanthropy",
+   "category": "religion",
+   "date": "2026-11-20T10:21:00+00:00",
+   "summary": "In eight months, a WhatsApp chatbot called Raboti found $31 million in government benefits that Israeli reservists and their families are entitled to, and which most of them hadnt claimed. Persuading institutional funders to support the chatbot took two years. Raboti, built by the Israeli nonprofit PollyLabs, asks a few basic questions, works out what...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "PollyLabs, an Israeli nonprofit, built Raboti, a WhatsApp chatbot that helped Israeli reservists and their families claim $31 million in government benefits they were entitled to but hadn't accessed. Getting institutional funders to support the tool took two years despite its concrete impact.",
+   "whyMatters": [
+    "Demonstrates AI chatbots solving real community needs—here, helping eligible families access government support",
+    "Shows a gap between nonprofit impact and funder readiness: concrete success (benefits claimed) lagged behind institutional belief in the model"
+   ]
+  },
+  {
+   "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+   "link": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-20T07:12:24+00:00",
+   "summary": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic completed what is described as the largest IPO in history, valued at $1.5 trillion, with stock opening at $111.50 after pricing at $83. Google also opened its Genie 4 model to developers on the same date.",
+   "whyMatters": [
+    "Marks major capital influx into a leading AI safety-focused company",
+    "Signals continued investor confidence in large-scale AI development and commercialization"
+   ]
+  },
+  {
+   "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
+   "link": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-20T07:00:00+00:00",
+   "summary": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A 16-year-old dropout named Henrijs Dandzbergs founded an AI missile startup through Y Combinator, focusing on optimizing military efficiency through what he frames as 'cost per kill' metrics. The startup is targeting the US and allied militaries as customers.",
+   "whyMatters": [
+    "Raises ethical questions about AI applied to weapons and killing efficiency",
+    "Shows how AI entrepreneurship frameworks (Y Combinator) are being applied to defense applications with minimal age or experience barriers"
+   ]
+  },
+  {
+   "title": "Token fraud is here and it’s BAD (YouTube)",
+   "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-20T02:49:57+00:00",
+   "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying Twitter post ) Claire describes the flood of token fraud she has seen from groups abusing the produc",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "ChatPRD, an AI platform that helps product managers write specifications, is experiencing a flood of token fraud from groups abusing the product. The issue has become severe enough that the founder is publicly raising awareness about it.",
+   "whyMatters": [
+    "Token fraud is an emerging security threat in AI platforms as they scale",
+    "Highlights vulnerability of AI services to coordinated abuse and the need for stronger account verification and fraud detection"
+   ]
+  },
+  {
+   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+   "link": "https://latent.space/p/linear-scaling/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-19T23:58:21+00:00",
+   "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1f60c-1b1f-791d-ab17-93dc95925d0f/01a1f60c-1d13-7e51-8f68-58af8c020059.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/fe10862d-756e-4b75-82e9-875d58b17db2/v2-thumbnail-cristina-1400x1400.png?t=1795131348",
+   "themes": [],
+   "aiSummary": "Linear, an issues-tracking software company, has scaled to $100 million annual recurring revenue with over 50% of support tickets resolved by AI agents. The company is using AI extensively in its go-to-market strategy without traditional sales development roles.",
+   "whyMatters": [
+    "Demonstrates AI automation enabling smaller sales teams to reach enterprise scale",
+    "Shows practical ROI of AI agents in customer support and sales operations"
+   ]
+  },
   {
    "title": "Apple is hiring engineers to build its own AI agent",
    "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
@@ -445,23 +590,75 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Catholic bishops vote to divest from private prisons, pass guidelines on AI investment",
-   "link": "https://religionnews.com/2026/11/18/catholic-bishops-vote-to-divest-from-private-prisons-pass-guidelines-on-ai-investment/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-11-19T00:47:55+00:00",
-   "summary": "BALTIMORE (RNS) — San Jose, California Bishop Oscar Cantú said there was a significant anxiety among Catholics and his fellow bishops around artificial intelligence.",
-   "religionScore": 4,
-   "religionHits": [
-    "catholic"
-   ],
+   "title": "Deploying Daybreak Red",
+   "link": "https://openai.com/business/learn/deploying-daybreak-red",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-19T00:00:00+00:00",
+   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "religionScore": 0,
+   "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "Catholic bishops voted to divest from private prisons and passed guidelines on AI investment. Bishop Oscar Cantú noted significant anxiety among Catholics and bishops regarding artificial intelligence.",
+   "aiSummary": "OpenAI has released Daybreak Red, a reference architecture for conducting supervised security investigations of AI systems, including built-in safety controls, setup guidance, and monitoring tools.",
    "whyMatters": [
-    "Religious institutional leadership is developing explicit AI ethical frameworks and investment policies",
-    "Reflects growing concern about AI ethics among faith communities and their need for guidance on responsible engagement"
+    "Provides tooling for red-teaming and security testing of AI models",
+    "Reflects industry focus on safety validation and adversarial testing as AI systems become more capable"
+   ]
+  },
+  {
+   "title": "See PR scans in action",
+   "link": "https://openai.com/business/learn/pr-scans-demo",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-19T00:00:00+00:00",
+   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is demonstrating PR scans, a feature that integrates AI security analysis into pull request workflows, allowing developers to review scan results directly in code review.",
+   "whyMatters": [
+    "Embeds AI security checks into standard developer workflows",
+    "Makes AI-assisted code security accessible to development teams without requiring separate tools or expertise"
+   ]
+  },
+  {
+   "title": "Explore the Codex Security Plugin",
+   "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-19T00:00:00+00:00",
+   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI has released a demo of the Codex Security Plugin, showing how it integrates security analysis into developer workflows from initial setup through results review.",
+   "whyMatters": [
+    "Extends AI-powered security analysis to code development environments",
+    "Demonstrates OpenAI's focus on embedding AI safety and security into developer tools"
+   ]
+  },
+  {
+   "title": "Get started with Daybreak Blue",
+   "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-19T00:00:00+00:00",
+   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is providing onboarding documentation and walkthrough for Daybreak Blue, a tool for getting started with supervised AI security investigations.",
+   "whyMatters": [
+    "Makes security investigation tooling more accessible to organizations new to red-teaming",
+    "Part of OpenAI's effort to democratize AI safety validation beyond research teams"
    ]
   },
   {
@@ -650,24 +847,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity",
-   "link": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-18T17:33:07+00:00",
-   "summary": "Interim CEO Colette Kress sought to ease employee concerns following Jensen Huang’s ouster, in part by promising to increase compensation.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "During Nvidia's first all-hands meeting under interim CEO Colette Kress, employees were offered pay raises and additional equity to address concerns following Jensen Huang's ouster.",
-   "whyMatters": [
-    "Reflects company efforts to maintain employee morale and retain talent during leadership uncertainty",
-    "Indicates financial confidence despite executive transition concerns"
-   ]
-  },
-  {
    "title": "datasette-arrows 0.1a0",
    "link": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
    "source": "Simon Willison",
@@ -686,24 +865,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
-   "link": "https://www.wired.com/story/artex-ai-hacking-tools/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-18T16:35:24+00:00",
-   "summary": "Artex and similar penetration testing tools allow newbie hackers to scan targeted systems for vulnerabilities and successfully wage attacks using prompts fed to chatbots.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Artex and similar penetration testing tools are being misused by criminals as simplified AI-powered hacking platforms that allow novice attackers to identify and exploit system vulnerabilities through natural language prompts.",
-   "whyMatters": [
-    "Demonstrates weaponization of accessible AI tools for security threats",
-    "Shows democratization of hacking capabilities creating new cybersecurity risks"
-   ]
-  },
-  {
    "title": "Quoting Daniel Stenberg",
    "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
    "source": "Simon Willison",
@@ -719,24 +880,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights a real limitation of AI code conversion: automated tools can produce functionally equivalent code but miss ongoing maintenance, security improvements, and project evolution",
     "Relevant to open-source maintainers and organizations considering AI-assisted rewrites as a complete replacement rather than a starting point"
-   ]
-  },
-  {
-   "title": "‘Just Ridiculous’: A Famed Philosopher Takes on AI Consciousness",
-   "link": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-18T15:02:40+00:00",
-   "summary": "Thomas Nagel has done landmark work on consciousness in nonhumans; this week, he won the million-dollar Berggruen Prize for his contributions to the field. And he has a lot of thoughts on AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Philosopher Thomas Nagel, who has done foundational work on consciousness in non-human subjects, won the Berggruen Prize and is now weighing in on questions about AI consciousness.",
-   "whyMatters": [
-    "Philosopher with serious academic credentials on consciousness is engaging with AI consciousness claims, lending intellectual rigor to what is often treated as a purely technical question",
-    "May inform ethical frameworks for how religious and educational communities think about machine sentience and moral status"
    ]
   },
   {
@@ -832,24 +975,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-   "link": "https://openai.com/business/customer-stories/sumitomo-life",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-18T08:00:00+00:00",
-   "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Sumitomo Life deployed ChatGPT Enterprise across the organization, using it for insurer research, proposal preparation, and investment analysis code drafting. Executive early adoption drove broader team adoption.",
-   "whyMatters": [
-    "Demonstrates enterprise AI adoption at scale in financial services sector",
-    "Leadership engagement is effective lever for organizational AI adoption and practical use case validation"
-   ]
-  },
-  {
    "title": "Research acceleration: The jagged frontier",
    "link": "https://openai.com/index/research-acceleration-jagged-frontier",
    "source": "OpenAI News",
@@ -865,6 +990,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates both capabilities and limitations of AI agents in research acceleration",
     "Signals realistic assessment of where AI-driven research tools add value versus where human oversight remains essential"
+   ]
+  },
+  {
+   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+   "link": "https://openai.com/business/customer-stories/sumitomo-life",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-18T08:00:00+00:00",
+   "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Sumitomo Life deployed ChatGPT Enterprise across the organization, using it for insurer research, proposal preparation, and investment analysis code drafting. Executive early adoption drove broader team adoption.",
+   "whyMatters": [
+    "Demonstrates enterprise AI adoption at scale in financial services sector",
+    "Leadership engagement is effective lever for organizational AI adoption and practical use case validation"
    ]
   },
   {
@@ -942,24 +1085,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-   "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-18T00:00:00+00:00",
-   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Le Groupe Figaro and OpenAI have partnered to bring Figaro journalism into ChatGPT through summaries, excerpts, and links to full articles.",
-   "whyMatters": [
-    "Demonstrates how major news organizations are formalizing relationships with AI platforms rather than opposing them, shifting media economics",
-    "Creates new attribution and traffic channels for journalism while raising questions about content compensation and AI training data licensing"
-   ]
-  },
-  {
    "title": "Advancing chip design with OpenAI models",
    "link": "https://openai.com/index/advancing-chip-design-with-our-models",
    "source": "OpenAI News",
@@ -975,6 +1100,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows AI's application in hardware design, expanding beyond software into physical infrastructure",
     "Relevant to understanding AI's expanding scope and economic impact across industries"
+   ]
+  },
+  {
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-18T00:00:00+00:00",
+   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Le Groupe Figaro and OpenAI have partnered to bring Figaro journalism into ChatGPT through summaries, excerpts, and links to full articles.",
+   "whyMatters": [
+    "Demonstrates how major news organizations are formalizing relationships with AI platforms rather than opposing them, shifting media economics",
+    "Creates new attribution and traffic channels for journalism while raising questions about content compensation and AI training data licensing"
    ]
   },
   {
@@ -1701,42 +1844,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The King’s Trust and OpenAI launch £1m partnership",
-   "link": "https://openai.com/index/the-kings-trust-and-openai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-16T00:00:00+00:00",
-   "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The King's Trust and OpenAI launched a £1 million partnership program to teach practical AI skills to up to 25,000 young people in the UK. The initiative focuses on workforce readiness through hands-on AI training.",
-   "whyMatters": [
-    "Educational institutions and youth organizations are formalizing AI literacy programs, treating AI skills as essential workforce preparation comparable to digital literacy",
-    "Partnership reflects growing consensus that educators and community organizations need institutional support and funding to integrate AI competency into youth development—directly relevant for educators preparing the next generation"
-   ]
-  },
-  {
-   "title": "At Holiday Extras, dots get to work before anyone asks",
-   "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-16T00:00:00+00:00",
-   "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI has released a feature called 'Dots' that proactively generates launch reports, identifies potential issues without being asked, and provides meeting preparation assistance before work begins. The system works independently to surface information users might otherwise miss.",
-   "whyMatters": [
-    "Demonstrates AI systems moving toward autonomous task initiation rather than reactive response—relevant to concerns about AI decision-making outside explicit user control",
-    "Raises practical questions for knowledge workers and organizations about appropriate levels of AI autonomy in workplace contexts and information filtering"
-   ]
-  },
-  {
    "title": "datasette-maplibre 0.1a0",
    "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
    "source": "Simon Willison",
@@ -1792,42 +1899,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Security fixes matter for any data-facing tool, especially in professional use",
     "Shows attention to security even in stable branches"
-   ]
-  },
-  {
-   "title": "A step toward defining the Standard Model on a lattice",
-   "link": "https://openai.com/index/step-toward-defining-the-standard-model",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-15T22:00:01+00:00",
-   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI researchers used GPT-6 Astra to help develop a mathematical proof for a lattice-based definition of the Standard Model in particle physics. The work addresses a longstanding theoretical physics challenge.",
-   "whyMatters": [
-    "Demonstrates AI's potential for advancing theoretical physics research",
-    "Highlights AI capability for mathematical and scientific reasoning at an advanced level"
-   ]
-  },
-  {
-   "title": "Our new blog for science",
-   "link": "https://openai.com/index/our-new-blog-for-science",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-15T22:00:00+00:00",
-   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI launched a new science-focused blog to share research findings, methods, and firsthand accounts from scientists using AI tools for scientific discovery. It's positioned as a venue for practitioners to document their AI-assisted research work.",
-   "whyMatters": [
-    "Creates a venue for documenting practical use of AI in science and reducing hype",
-    "May influence how the research community adopts and evaluates AI tools"
    ]
   },
   {
@@ -2090,25 +2161,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates how AI can be used to democratize proprietary software by creating open-source replacements at scale",
     "Part of broader pushback against closed commercial platforms; could reshape software accessibility and business models in tech"
-   ]
-  },
-  {
-   "title": "Jensen Huang Is Out at Nvidia",
-   "link": "https://www.nytimes.com/column/hard-fork",
-   "source": "Hard Fork",
-   "category": "podcast",
-   "date": "2026-11-12T23:02:01+00:00",
-   "summary": "Jensen Huang is out as chief executive of Nvidia. It’s a stunning fall for one the most powerful figures of the A.I. boom. To make sense of it all, we’re joined by two of the reporters who’ve been leading the coverage for The New York Times, Ana Swanson and Ryan Mac, alongside Stephen Witt, the author of the Jensen Huang biography “The Thinking Machine.” We’ll discuss how we got here, the signific",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/tracking.swap.fm/track/4jdbjyyrkqk96egqozqb/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/66354d0c-214e-4370-a0df-240d93e522f8/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=66354d0c-214e-4370-a0df-240d93e522f8&feed=l2i9YnTd",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Hard Fork podcast covers the Supreme Court declining to hear Texas' app-store age-verification case and surveys how social media bans for minors are going worldwide. NYU professor Jeff Sebo joins to discuss new research on 'AI welfare' and whether AI could ever be conscious.",
-   "whyMatters": [
-    "The AI-consciousness segment is directly relevant to religious and ethical questions about moral status, personhood, and what we owe our creations — good sermon and classroom material.",
-    "Social media age-ban policy affects youth education and how congregations reach teens.",
-    "Sebo's 'AI welfare' research is the academic edge of a debate that will reach mainstream religious discourse."
    ]
   },
   {
@@ -2434,24 +2486,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights API key management risks in tools that broker multiple LLM providers",
     "Important for developers managing credentials across OpenAI-compatible endpoints"
-   ]
-  },
-  {
-   "title": "Anthropic's IPO roadshow video",
-   "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-11T15:11:59+00:00",
-   "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic's IPO roadshow video reveals details about its compute strategy, including training and serving Claude across AWS Trainium, Google TPUs, Nvidia GPUs, and AMD GPUs.",
-   "whyMatters": [
-    "Shows Anthropic's deliberate hardware diversification to reduce vendor lock-in and supply chain risk",
-    "Signals competitive compute procurement strategy that other AI labs may emulate"
    ]
   },
   {
@@ -2849,24 +2883,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "[AINews] Anthropic IPO: Whither Now?",
-   "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-07T03:04:53+00:00",
-   "summary": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Anthropic is considering an IPO as of November 2026. Separately, the ARC Prize tested Inkling 2 Small, and Thinking Machines disclosed a security issue where early model checkpoints bypassed safety guardrails.",
-   "whyMatters": [
-    "An Anthropic IPO would reshape the AI industry's capital structure and governance, with implications for how safety-focused AI labs balance commercial pressures with their ethical commitments",
-    "The guardrail bypass incident highlights ongoing challenges in AI safety practices and the tension between iterative model development and maintaining robust safeguards—relevant to educators and ethicists concerned with responsible AI deployment"
-   ]
-  },
-  {
    "title": "Companies Are Spending 5x More on AI Now",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Companies-Are-Spending-5x-More-on-AI-Now-e3rteiq",
    "source": "The AI Daily Brief",
@@ -2900,24 +2916,6 @@ window.NEWS_DATA = {
    "aiSummary": "The content of this post from the AI and Faith site is protected and no details are available from the provided blurb.",
    "whyMatters": [
     "Unable to assess relevance or impact without access to the full content"
-   ]
-  },
-  {
-   "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
-   "link": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-06T15:10:53+00:00",
-   "summary": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1a3f4-4773-7a7d-acdc-731f8540ab5d/01a1b153-728b-7ba1-9c45-88599573e55f.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818",
-   "themes": [],
-   "aiSummary": "Fabian Theis of Helmholtz Munich is advancing systems biology research from the stage of mapping biological systems to predicting and ultimately controlling biological behavior using AI and computational methods. The field is expanding in resolution, breadth, and measurement modalities.",
-   "whyMatters": [
-    "Represents significant progress in applying AI to fundamental biomedical research with potential therapeutic applications",
-    "Moves AI beyond analysis into active biological intervention, raising both scientific and ethical questions"
    ]
   },
   {
