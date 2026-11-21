@@ -1,33 +1,32 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-21T11:41:51.703137+00:00",
+ "generatedAt": "2026-11-21T13:17:37.000222+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-21T11:42:22.763214+00:00",
+  "generatedAt": "2026-11-21T13:17:48.874677+00:00",
   "bullets": [
    {
-    "text": "Mathematician at Anthropic claims to have proved the Riemann Hypothesis using Claude; if verified, it would solve a 160-year-old Millennium Prize problem and demonstrate AI's capability on pure mathematics.",
+    "text": "Anthropic completed a record-breaking $1.5 trillion IPO, signaling massive investor confidence in AI development amid competition with OpenAI and others.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-     "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+     "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+     "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
     ]
    },
    {
-    "text": "Meta is reconsidering its 2030 net-zero emissions commitment after reporting record emissions from AI data centers, signaling a tension between climate pledges and infrastructure expansion.",
+    "text": "AI training data privacy remains critical: researchers proved personal information embedded in datasets leaks into model outputs despite security assumptions.",
+    "links": [
+     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+    ]
+   },
+   {
+    "text": "Major infrastructure fragility exposed as widespread outages across Outlook, air traffic control, banking, and iCloud cascaded simultaneously, raising AI-system-dependency risks.",
+    "links": [
+     "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast"
+    ]
+   },
+   {
+    "text": "Meta is reconsidering its 2030 net-zero commitment after AI data centers drove record emissions, highlighting the environmental cost of scaling AI infrastructure.",
     "links": [
      "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
-    ]
-   },
-   {
-    "text": "Signal is blocking OS-level AI agents (Gemini, Siri) from accessing screenshots, preventing private message exposure; privacy-focused platforms are building technical defenses against system-level AI access.",
-    "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
-    ]
-   },
-   {
-    "text": "Google is redesigning its search homepage to prioritize AI chat over traditional search, integrating chat history into the interface and removing the search button—a structural shift toward conversation-first discovery.",
-    "links": [
-     "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-     "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
     ]
    }
   ]
@@ -73,6 +72,24 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "The Outages Are Just Getting Started",
+   "link": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-21T13:00:00+00:00",
+   "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "As AI systems become more prevalent, attackers are increasingly racing to exploit newly discovered vulnerabilities before patches can be deployed, forcing companies into a faster patching cycle. This acceleration of the vulnerability-exploitation window is creating a new landscape of internet instability and outage risks.",
+   "whyMatters": [
+    "The speed advantage AI gives attackers means security patches must move faster, stretching organizational resources and creating broader systemic risk across critical infrastructure",
+    "Organizations relying on AI-dependent systems face heightened operational vulnerability, particularly important for educational institutions and community organizations that lack large security teams"
+   ]
+  },
   {
    "title": "[AINews] Riemann Hypothesis proved...twice independently",
    "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
@@ -966,24 +983,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
-   "link": "https://www.wired.com/story/guys-really-we-got-this/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-18T22:16:23+00:00",
-   "summary": "WIRED is tallying up how many times Nvidia’s interim CEO has assured everyone that the company has everything under control.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Nvidia's interim CEO Colette Kress has repeatedly publicly stated that the company has everything under control following leadership transitions.",
-   "whyMatters": [
-    "Reflects investor and stakeholder concerns about stability during executive succession",
-    "Part of broader narrative about Nvidia's ability to maintain operations and direction without its founding CEO"
-   ]
-  },
-  {
    "title": "Introducing Gemini 4 Neon",
    "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
    "source": "Google DeepMind",
@@ -1532,24 +1531,6 @@ window.NEWS_DATA = {
    "aiSummary": "This appears to be a news roundup item covering multiple stories including birdwatching in GTA VI and DOJ use of AI tools; insufficient detail provided in the blurb to summarize specific content.",
    "whyMatters": [
     "Unable to determine substantive impact from the provided text"
-   ]
-  },
-  {
-   "title": "The Department of Justice Is Using AI Detector Pangram Against Defense Attorneys",
-   "link": "https://www.404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-11-17T15:14:27+00:00",
-   "summary": "\"This case has turned into defense by ChatGPT.\"",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Department of Justice is using an AI detector tool called Pangram against defense attorneys in legal proceedings, with at least one attorney characterizing the case as being decided by ChatGPT.",
-   "whyMatters": [
-    "Raises due process concerns about using AI detection tools in criminal defense without established reliability",
-    "Highlights tension between AI adoption in law enforcement and defendants' rights to fair evaluation"
    ]
   },
   {
