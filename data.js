@@ -1,39 +1,41 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-21T22:04:59.569753+00:00",
+ "generatedAt": "2026-11-22T02:54:56.748213+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-21T22:05:12.148908+00:00",
+  "generatedAt": "2026-11-22T02:55:06.372809+00:00",
   "bullets": [
    {
-    "text": "Anthropic went public at $83/share (later $111.50), raising capital to sustain its stated AI safety commitments against investor pressure as a public company.",
+    "text": "Anthropic went public at $107 billion valuation, though the company faces investor scrutiny over AI safety commitments amid record data center emissions industry-wide.",
     "links": [
      "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-     "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/"
+     "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+     "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/"
     ]
    },
    {
-    "text": "A mathematician at Anthropic claims Claude helped prove the Riemann Hypothesis, potentially demonstrating AI's breakthrough capacity on century-old open mathematics problems.",
+    "text": "UN diplomats failed to agree on autonomous weapons regulations, reaching only vague commitments to future discussions despite intense pressure to establish governance.",
+    "links": [
+     "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+    ]
+   },
+   {
+    "text": "AI researchers using Claude claim to have proved the Riemann Hypothesis, a 160-year-old mathematics problem, pending peer verification.",
     "links": [
      "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
      "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
     ]
    },
    {
-    "text": "Meta is reconsidering its 2030 net-zero emissions goal after reporting record emissions from AI data center expansion, signaling tension between AI scaling and climate commitments.",
+    "text": "Apple is hiring to build its own AI agent for multi-app task completion, while Signal blocks OS-level AI agents from accessing user screenshots to protect privacy.",
+    "links": [
+     "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+     "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+    ]
+   },
+   {
+    "text": "Meta is reconsidering its 2030 net-zero emissions goal after reporting record AI data center emissions, raising questions about sustainability amid infrastructure expansion.",
     "links": [
      "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
-    ]
-   },
-   {
-    "text": "UN diplomats failed to reach binding agreement on autonomous weapons regulation, leaving only a vague future commitment to discuss governance frameworks for killer robots.",
-    "links": [
-     "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
-    ]
-   },
-   {
-    "text": "Google is redesigning search with AI chat integration prominent and removing the traditional search button, fundamentally reshaping access to its core product.",
-    "links": [
-     "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
     ]
    }
   ]
@@ -79,6 +81,45 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Muru",
+   "link": "https://simonwillison.net/2026/Nov/21/muru/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-21T23:56:28+00:00",
+   "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Graham Dumpleton, creator of mod_wsgi, has built Muru, a new Rust-based server designed to run Python ASGI and WSGI applications in both development and production environments. The project incorporates AI assistance and is documented in detailed technical accounts.",
+   "whyMatters": [
+    "Provides developers with a modern alternative for Python web app deployment, addressing infrastructure needs in the AI and web development community",
+    "Demonstrates a practitioner's long-term thinking (20+ years) about production tooling for Python applications, relevant to developers building AI-backed services"
+   ]
+  },
+  {
+   "title": "AI is Going to Change Your Faith with DZ Kalman",
+   "link": "https://religionnews.com/2026/11/21/ai-is-going-to-change-your-faith-with-dz-kalman/",
+   "source": "Religion News Service",
+   "category": "religion",
+   "date": "2026-11-21T23:05:58+00:00",
+   "summary": "A leading scholar on AI and religion tells host Rev. Paul Brandeis Raushenbush what artificial intelligence can offer religion - and, importantly, what religion can offer to today's fast-changing technology",
+   "religionScore": 6,
+   "religionHits": [
+    "faith",
+    "religio"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "DZ Kalman, a scholar focusing on AI and religion, discusses in an interview how artificial intelligence can serve religious communities while also explaining what religious and ethical traditions can contribute to AI development.",
+   "whyMatters": [
+    "Directly addresses the intersection of AI with religion and faith communities, exploring both how tech can enhance religious practice and how theological frameworks can inform AI ethics",
+    "Relevant to educators and clergy considering how to engage with AI thoughtfully from a faith perspective"
+   ]
+  },
   {
    "title": "The UN fails to agree on rules regulating ‘killer robots’",
    "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
@@ -2444,24 +2485,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Indicates System One models are seeing active adoption for production automation use cases",
     "Reflects industry momentum toward autonomous execution systems rather than just inference or generation"
-   ]
-  },
-  {
-   "title": "Gemini Decisions API",
-   "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-11T22:03:25+00:00",
-   "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google has launched Gemini Decisions API, a decision model that mirrors competitors like Jev and OpenAI's offerings, supporting yes/no, choice, and rubric-scoring questions at the same 10 cents per million input tokens pricing.",
-   "whyMatters": [
-    "Google enters the decision model category, joining OpenAI and other providers in a growing decision-automation segment",
-    "Competitive pricing and feature parity suggest this market segment is becoming standardized"
    ]
   },
   {
