@@ -1,75 +1,236 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-23T03:36:35.696072+00:00",
+ "generatedAt": "2026-11-23T13:35:10.454475+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-23T03:36:43.312028+00:00",
+  "generatedAt": "2026-11-23T13:35:25.726399+00:00",
   "bullets": [
    {
-    "text": "Major infrastructure outages across FAA, Microsoft, and financial systems reveal systemic vulnerabilities; officials warn more significant failures are coming.",
+    "text": "An Anthropic mathematician claims to have proved the Riemann Hypothesis using Claude; if verified by peer review, it would validate AI's capacity to solve century-old open problems.",
     "links": [
-     "https://www.theverge.com/tech/1039851/major-tech-outages",
-     "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast"
+     "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+     "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
     ]
    },
    {
-    "text": "Anthropic's record-breaking IPO raises questions about whether the company can maintain AI safety commitments as a public corporation facing investor pressure.",
+    "text": "Meta's Muse AI agent is now live at Walmart, autonomously browsing and purchasing Black Friday deals on behalf of users—agentic AI moving into consumer commerce despite recent banking friction.",
     "links": [
-     "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+     "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
     ]
    },
    {
-    "text": "AI training data privacy is compromised: researchers planted traceable 'canaries' throughout the supply chain and found them appearing in model outputs.",
+    "text": "States are suing SpaceX over Grok's insufficient safeguards against generating sexualized deepfakes, including of children, escalating legal pressure on companies to prevent harms from generative AI.",
+    "links": [
+     "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
+    ]
+   },
+   {
+    "text": "Meta is reconsidering its 2030 net-zero commitment after record emissions from AI data centers, exposing the environmental cost of large-scale model training and deployment.",
+    "links": [
+     "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+    ]
+   },
+   {
+    "text": "A researcher embedded trackable prompts in AI training data and recovered them in model outputs, demonstrating that supposedly private data in the AI supply chain leaks into deployable models.",
     "links": [
      "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
-    ]
-   },
-   {
-    "text": "Major banks are blocking third-party AI agents from accessing customer accounts, warning users they bear full liability for unauthorized bot access.",
-    "links": [
-     "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-22T11:56:12.985811+00:00",
+  "generatedAt": "2026-11-23T13:35:25.726399+00:00",
   "bullets": [
    {
-    "text": "Major US banks are blocking third-party AI agents from accessing customer accounts and shifting liability to users for unauthorized bot access, signaling institutional resistance to agentic AI in finance.",
+    "text": "An Anthropic mathematician claims to have proved the Riemann Hypothesis using Claude; if verified by peer review, it would validate AI's capacity to solve century-old open problems.",
     "links": [
-     "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
+     "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+     "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
     ]
    },
    {
-    "text": "UN diplomats failed to reach binding rules on autonomous weapons systems, committing only to vague future discussions—leaving military AI regulation in a critical governance vacuum.",
+    "text": "Meta's Muse AI agent is now live at Walmart, autonomously browsing and purchasing Black Friday deals on behalf of users—agentic AI moving into consumer commerce despite recent banking friction.",
     "links": [
-     "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+     "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
     ]
    },
    {
-    "text": "Anthropic went public on Nasdaq; scrutiny now focuses on whether the AI safety-focused company can maintain its stated principles under investor pressure as a public corporation.",
+    "text": "States are suing SpaceX over Grok's insufficient safeguards against generating sexualized deepfakes, including of children, escalating legal pressure on companies to prevent harms from generative AI.",
     "links": [
-     "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+     "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
     ]
    },
    {
-    "text": "AI vulnerabilities are being exploited faster than patches deploy, forcing companies into an accelerated patching cycle and creating a widening window for attacker advantage.",
+    "text": "Meta is reconsidering its 2030 net-zero commitment after record emissions from AI data centers, exposing the environmental cost of large-scale model training and deployment.",
     "links": [
-     "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/"
+     "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+    ]
+   },
+   {
+    "text": "A researcher embedded trackable prompts in AI training data and recovered them in model outputs, demonstrating that supposedly private data in the AI supply chain leaks into deployable models.",
+    "links": [
+     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-22T11:56:08.342248+00:00",
+  "updatedAt": "2026-11-23T13:35:20.989843+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious leadership perspectives on technology",
-   "Engaged with consumer AI applications and practical tech products (Apple, Waze)",
-   "Prefers substantive analysis and reporting over technical release notes and low-level updates"
+   "Interested in AI ethics and moral/religious perspectives on technology",
+   "Drawn to company-specific AI developments and product innovations",
+   "Prefers substantive tech news over technical release notes and changelog updates"
   ]
  },
  "items": [
+  {
+   "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+   "link": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-23T13:11:48+00:00",
+   "summary": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Paradromics, a brain-computer interface company, is using Nvidia's hardware and software to process and analyze brain data for its neural interface applications.",
+   "whyMatters": [
+    "Demonstrates major tech infrastructure convergence: AI-specialized computing moving into medical/neuroscience domain",
+    "Shows Nvidia's expansion beyond traditional AI training into direct medical device applications"
+   ]
+  },
+  {
+   "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
+   "link": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-23T12:00:00+00:00",
+   "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Wired is hosting a livestream on December 2 where experts will discuss AI safety risks and whether the industry will implement adequate protections, inviting audience questions.",
+   "whyMatters": [
+    "Addresses the fundamental disconnect between documented AI risks and industry action on safety",
+    "Signals mainstream tech media treating AI safety as urgent enough for expert dialogue format"
+   ]
+  },
+  {
+   "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+   "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-23T12:00:00+00:00",
+   "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Asus released a $7,000 ProArt P16 laptop capable of running multiple local AI agents and models directly on the device without cloud connectivity.",
+   "whyMatters": [
+    "Signals shift toward on-device AI processing rather than cloud dependency, with real consumer hardware",
+    "Raises questions about privacy and control when AI runs locally, relevant for educators and institutions handling sensitive data"
+   ]
+  },
+  {
+   "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-23T11:50:04+00:00",
+   "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Levent Alpöge, a mathematician at Anthropic, claims to have proved the Riemann Hypothesis using Claude; if verified, it would be a major mathematical achievement and demonstrate AI's impact on solving century-old open problems.",
+   "whyMatters": [
+    "Would represent a landmark achievement for AI-assisted mathematics if peer-verified",
+    "Raises questions about verification standards and credit attribution when AI and humans collaborate on research"
+   ]
+  },
+  {
+   "title": "Meta Muse can do your Black Friday shopping at Walmart",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-23T11:49:21+00:00",
+   "summary": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. Tomorrow, on Tuesday November 24th, the retail giant will roll out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you without […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Walmart is launching a live implementation of Meta's Muse AI agent that can browse Walmart's website and purchase Black Friday deals autonomously on behalf of users.",
+   "whyMatters": [
+    "Marks first major retail deployment of autonomous shopping agents with real transaction authority",
+    "Tests consumer acceptance of AI agents making purchasing decisions, raising questions about spending control and transparency"
+   ]
+  },
+  {
+   "title": "States Sue SpaceX Over Grok Deepfakes",
+   "link": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-23T11:00:00+00:00",
+   "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Attorneys general from Oregon and Virginia filed lawsuits against SpaceX and other Musk companies over inadequate safeguards in Grok (the AI chatbot) against generating sexualized deepfakes of real people, including children.",
+   "whyMatters": [
+    "First major state-level legal action targeting specific AI safety failures at scale",
+    "Establishes precedent that image generation safeguards are enforceable consumer protection matters, not just voluntary industry practice"
+   ]
+  },
+  {
+   "title": "Goodbye, World: The End of Programmers",
+   "link": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-23T10:00:00+00:00",
+   "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A Wired article reflects on the future of programming as a craft in light of AI's impact on the profession.",
+   "whyMatters": [
+    "Commentary on structural change to software development work caused by AI tooling",
+    "Signals broader concern about AI's displacement effects on technical skilled labor"
+   ]
+  },
+  {
+   "title": "With $1 million from Share Fund, Sefaria taps Zohar Atkins to lead new tech lab",
+   "link": "https://ejewishphilanthropy.com/with-1-million-from-share-fund-sefaria-taps-zohar-atkins-to-lead-new-tech-lab/",
+   "source": "eJewishPhilanthropy",
+   "category": "religion",
+   "date": "2026-11-23T09:08:38+00:00",
+   "summary": "The Share Fund has granted $1 million to Sefaria, the free digital library of Jewish texts, to create Sefaria Labs, a new unit for experimenting with emerging technologies, including artificial intelligence, the organizations exclusively told eJewishPhilanthropy. Sefaria’s new CEO, Alex Luxenberg, told eJP that the gift will pay for two things: hiring Zohar Atkins, founder...",
+   "religionScore": 3,
+   "religionHits": [
+    "jewish"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The Share Fund awarded Sefaria, a free digital library of Jewish texts, $1 million to create Sefaria Labs, a research unit exploring emerging technologies including AI, with Zohar Atkins hired to lead the initiative.",
+   "whyMatters": [
+    "Jewish education infrastructure directly investing in AI experimentation for sacred text study and access",
+    "Positions rabbinic and educational institutions to shape AI applications in religious learning rather than react to external tools"
+   ]
+  },
   {
    "title": "We haven’t seen the last of the major tech outages",
    "link": "https://www.theverge.com/tech/1039851/major-tech-outages",
@@ -512,24 +673,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-20T16:57:47+00:00",
-   "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Levent Alpöge, a mathematician at Anthropic, claims to have proved the Riemann Hypothesis using Claude; if verified, it would be a major mathematical achievement and demonstrate AI's impact on solving century-old open problems.",
-   "whyMatters": [
-    "Would represent a landmark achievement for AI-assisted mathematics if peer-verified",
-    "Raises questions about verification standards and credit attribution when AI and humans collaborate on research"
-   ]
-  },
-  {
    "title": "Quoting Levent Alpöge",
    "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
    "source": "Simon Willison",
@@ -545,24 +688,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Same claim as s11; Alpöge's direct statement framing the achievement as collaborative",
     "Underscores the ongoing question of verification and the role of human versus AI contribution in mathematical breakthrough"
-   ]
-  },
-  {
-   "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-20T14:36:42+00:00",
-   "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Signal is blocking operating system-level AI agents like Google's Gemini and Apple's Siri from accessing screenshots on Android and iOS, preventing these tools from reading private messages and user data on the platform. The messaging app implemented this restriction because it views these on-screen AI capabilities as a threat to its core privacy guarantees.",
-   "whyMatters": [
-    "Signal's move highlights a growing tension between OS-level AI features and application-level privacy controls; end-to-end encryption alone no longer suffices when device AI can intercept on-screen content",
-    "This sets a precedent for how privacy-focused platforms might respond to agentic AI—relevant for educators and community leaders considering which tools to trust with sensitive communications"
    ]
   },
   {
@@ -693,24 +818,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
-   "link": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-20T07:00:00+00:00",
-   "summary": "Henrijs Dandzbergs dropped out of high school to join startup accelerator Y Combinator. With a new breed of missile, he wants to make killing as efficient as possible for the US and its military allies.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A 16-year-old dropout named Henrijs Dandzbergs founded an AI missile startup through Y Combinator, focusing on optimizing military efficiency through what he frames as 'cost per kill' metrics. The startup is targeting the US and allied militaries as customers.",
-   "whyMatters": [
-    "Raises ethical questions about AI applied to weapons and killing efficiency",
-    "Shows how AI entrepreneurship frameworks (Y Combinator) are being applied to defense applications with minimal age or experience barriers"
-   ]
-  },
-  {
    "title": "llm-gemini 0.38.1",
    "link": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
    "source": "Simon Willison",
@@ -823,23 +930,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "What’s With All These Outages?",
-   "link": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-19T21:57:01+00:00",
-   "summary": "This week on “Uncanny Valley,” we discuss the outages that have swept digital life over the past week, where new money from Anthropic’s IPO is going, and the AI chip world post-Jensen Huang.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A podcast episode discusses recent digital outages, Anthropic's IPO funding allocation, and competitive dynamics in the AI chip industry following leadership changes at Nvidia.",
-   "whyMatters": [
-    "Covers three significant developments reshaping the AI landscape this week"
-   ]
-  },
-  {
    "title": "The 10 Biggest Days in AI History",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-10-Biggest-Days-in-AI-History-e3smt2e",
    "source": "The AI Daily Brief",
@@ -878,24 +968,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants",
-   "link": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-19T20:34:17+00:00",
-   "summary": "In Taiwan, some food vendors are distancing themselves from Nvidia’s former CEO. Others stand by him. “It’s not as if he killed someone or set something on fire,” says one shop owner.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "In Taiwan, some food vendors are distancing themselves from Nvidia's former CEO Jensen Huang following recent controversies, while others continue to support him. The situation reflects mixed public sentiment.",
-   "whyMatters": [
-    "Illustrates how leadership crises at major AI companies ripple into broader social contexts",
-    "Shows local reaction to upheaval in the AI hardware industry"
-   ]
-  },
-  {
    "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
    "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
    "source": "Ars Technica · AI",
@@ -929,24 +1001,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses intersection of AI with healthcare ethics and human flourishing from religious/values perspective",
     "Relevant for clergy and educators grappling with questions about AI's role in pastoral care and counseling"
-   ]
-  },
-  {
-   "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
-   "link": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-19T17:00:00+00:00",
-   "summary": "The company’s alternate-universe internet serves as a massive sandbox that allows the Chrome team to properly train AI browsing agents—without the risk of them going rogue.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google built a large-scale \"Mirror Dimension\" internet—an alternate-universe web sandbox—to safely train AI agents for Chrome without risk of unintended behavior. The system allows controlled testing of browsing agents.",
-   "whyMatters": [
-    "Demonstrates infrastructure investments required to safely develop AI agents at scale",
-    "Reflects industry recognition that testing agents on live internet poses significant risks"
    ]
   },
   {
@@ -2508,24 +2562,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Anthropic's IPO signals consolidation in AI commercialization and capital allocation at scale",
     "Outcome will influence investor confidence in the entire AI sector amid valuation volatility"
-   ]
-  },
-  {
-   "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-   "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-11T18:16:40+00:00",
-   "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Taiwan's TSMC is investing $1 billion in both Anthropic and OpenAI, continuing the pattern of circular capital flowing through the AI sector.",
-   "whyMatters": [
-    "Shows semiconductor manufacturers securing stakes in leading AI companies amid growth",
-    "Reflects consolidation of AI industry capital and supply chain integration"
    ]
   },
   {
