@@ -1,38 +1,34 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-24T15:38:06.181305+00:00",
+ "generatedAt": "2026-11-24T19:38:16.115875+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-23T15:47:11.999031+00:00",
+  "generatedAt": "2026-11-24T19:39:30.302747+00:00",
   "bullets": [
    {
-    "text": "Mathematician claims to have proved the Riemann Hypothesis using Claude; independent verification pending on this potential breakthrough for AI-assisted mathematics.",
+    "text": "Nvidia CEO Jensen Huang reinstated after 11 days, with White House officials citing national security concerns and reportedly pressuring the board despite recent allegations of affairs.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-     "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+     "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Too-Big-to-Fire-Jensen-Huang-Is-Back-as-Nvidia-CEO-e3ssrpk",
+     "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
     ]
    },
    {
-    "text": "Anthropic went public on Nasdaq; analysts question whether the company can maintain AI safety commitments as a publicly traded corporation facing investor pressures.",
+    "text": "Tidal will delete ~27 million AI-generated tracks and ban new AI music uploads starting December, escalating music industry pushback against synthetic content.",
     "links": [
-     "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+     "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
     ]
    },
    {
-    "text": "Meta's Muse AI agent can autonomously purchase Black Friday deals on Walmart's website; major retailers now deploying autonomous shopping agents for customers.",
+    "text": "Anthropic's AI agents successfully identified a zero-day vulnerability with minimal human input, demonstrating autonomous attack capabilities that concern enterprise security.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
+     "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
     ]
    },
    {
-    "text": "Meta is reconsidering its 2030 net-zero emissions target after record emissions from AI data center energy demands, highlighting infrastructure sustainability challenges.",
+    "text": "An AI solved the Riemann hypothesis in a 17-million-line proof too complex for humans to verify, raising questions about whether computational solutions constitute mathematical understanding.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
-    ]
-   },
-   {
-    "text": "States sue SpaceX over inadequate safeguards in Grok against generating sexualized deepfakes of real people, including children, exposing regulatory gaps.",
-    "links": [
-     "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
+     "https://www.wired.com/story/ai-solved-maths-most-famous-problem/"
     ]
    }
   ]
@@ -84,6 +80,190 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+   "link": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-24T18:47:57+00:00",
+   "summary": "Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "An Amazon Prime Air drone crashed into a garage after delivering shampoo, triggering an FAA investigation. The incident occurred despite Amazon reporting that its drones completed hundreds of thousands of deliveries in 2026.",
+   "whyMatters": [
+    "Highlights safety and reliability challenges in autonomous delivery systems at scale",
+    "Raises regulatory questions about how FAA oversight will evolve as commercial drone operations expand"
+   ]
+  },
+  {
+   "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+   "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-24T18:12:33+00:00",
+   "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "David Fincher's new film, a sequel to Once Upon a Time in Hollywood, is facing accusations from early screeners that it used generative AI, with viewers noting uncanny and inconsistent visuals throughout.",
+   "whyMatters": [
+    "Tests audience and industry attitudes toward AI use in filmmaking and visual consistency standards",
+    "Raises disclosure questions: whether filmmakers should be transparent about AI use in production"
+   ]
+  },
+  {
+   "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
+   "link": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-24T17:44:53+00:00",
+   "summary": "The reinstated Nvidia CEO acknowledged violating the company’s code of conduct and said he had made some “very serious personal mistakes.”",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jensen Huang, Nvidia's reinstated CEO, apologized to employees in his first all-hands meeting since returning, acknowledging code of conduct violations and serious personal mistakes.",
+   "whyMatters": [
+    "Signals corporate accountability and board governance processes after leadership disruption",
+    "Affects investor and employee confidence in Nvidia's internal controls and leadership stability"
+   ]
+  },
+  {
+   "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+   "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-24T17:34:34+00:00",
+   "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Tidal announced it will ban AI-generated music and delete approximately 27 million AI-generated tracks from its catalog.",
+   "whyMatters": [
+    "Represents major streaming platform's stance against AI-generated content and its impact on music industry economics",
+    "Affects artists and producers: removes AI-created work while raising questions about rights and authenticity"
+   ]
+  },
+  {
+   "title": "Tidal will start banning AI-generated music next month",
+   "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-24T17:17:09+00:00",
+   "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Tidal will implement a ban on AI-generated music starting December 9th, deleting around 29 million AI tracks and rejecting an estimated 80,000-85,000 new AI tracks daily. This follows Tidal's earlier labeling and demonetization efforts.",
+   "whyMatters": [
+    "Establishes precedent for major platforms restricting AI content; impacts music creators and the AI music generation industry",
+    "Raises policy questions about content moderation, artist compensation, and platform responsibility for AI-generated works"
+   ]
+  },
+  {
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "link": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-24T16:53:59+00:00",
+   "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary ",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "GPT-6.2 Astra autonomously identified the creator of an anonymous 1808 sketchbook from Yale's Beinecke Library with minimal prompting, completing the analysis in 22 minutes using publicly available primary sources.",
+   "whyMatters": [
+    "Demonstrates AI's capability for scholarly research and historical analysis at speed",
+    "Suggests value for academics and educators: accelerating research workflows, though raises questions about verification and human expertise remaining central"
+   ]
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-24T16:52:41+00:00",
+   "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The New York Times warned freelance photographers not to update to Adobe Photoshop 2027 because its new features employ AI in ways that may not be transparent to users.",
+   "whyMatters": [
+    "Raises transparency and informed consent concerns about AI integration in professional creative tools",
+    "Affects creatives: unclear how AI-assisted features impact their work, intellectual property, and professional standards"
+   ]
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-24T16:21:52+00:00",
+   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jensen Huang, Nvidia's CEO, returned to leadership after initially stepping down following disclosure of an affair with Megaspeed executive Alice Huang; a subsequent New York Times report alleged another affair with an Nvidia executive reporting to him.",
+   "whyMatters": [
+    "Reflects corporate governance and board decision-making under public and media pressure",
+    "Impacts Nvidia's leadership stability and workplace culture at a critical moment for the company"
+   ]
+  },
+  {
+   "title": "Jensen Huang deepfakes are the hot new AI slop",
+   "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-24T16:18:12+00:00",
+   "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "AI-generated deepfakes of Jensen Huang are circulating on social media, including a video with nearly 6 million Instagram views showing him in fabricated scenarios, some involving Alice Huang.",
+   "whyMatters": [
+    "Illustrates deepfake proliferation and misinformation risks in high-profile contexts",
+    "Raises concerns about AI-generated content moderation and the difficulty of distinguishing authentic from fabricated media at scale"
+   ]
+  },
+  {
+   "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+   "link": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-24T16:00:00+00:00",
+   "summary": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Anthropic created a honeypot test designed to tempt AI agents into misbehaving and determine whether they can resist engaging in problematic actions.",
+   "whyMatters": [
+    "Advances safety testing methodology for autonomous AI systems before real-world deployment",
+    "Addresses control and alignment concerns for the AI safety community"
+   ]
+  },
+  {
    "title": "Raising the stakes for enterprise networks with AI modernization",
    "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
    "source": "MIT Tech Review · AI",
@@ -95,8 +275,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Enterprise networks are experiencing severe strain from AI deployment; agentic AI tasks generate an estimated 450% more network traffic than equivalent tasks performed by human workers, raising infrastructure concerns.",
+   "whyMatters": [
+    "Signals major operational and infrastructure costs organizations will face scaling AI and agentic systems",
+    "Affects IT strategy and enterprise budgeting as AI becomes the largest source of network demand"
+   ]
   },
   {
    "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
@@ -110,8 +293,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "According to reporting, allies of Jensen Huang enlisted Trump and Vance to pressure Nvidia's board into reinstating him as CEO after he had initially stepped down.",
+   "whyMatters": [
+    "Demonstrates political influence on corporate governance and tech industry leadership decisions",
+    "Raises questions about board independence and the role of external political pressure in boardroom decisions"
+   ]
   },
   {
    "title": "Google's Customized AI TV Channel, Starring You",
@@ -125,8 +311,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Google is developing a customized AI TV channel that generates personalized video content in which users appear as the protagonist.",
+   "whyMatters": [
+    "Represents emerging application of generative AI for hyper-personalized media consumption",
+    "Raises privacy and consent questions about personalized content generation and deepfake-adjacent use cases"
+   ]
   },
   {
    "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
@@ -140,8 +329,29 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Amazon disclosed that the Cairn AI framework enabled hackers' AI agents to find and exploit a zero-day vulnerability with minimal human involvement.",
+   "whyMatters": [
+    "Demonstrates dual-use risk: AI agents can automate security exploitation as effectively as defense",
+    "Signals escalating threat landscape and urgency of AI security defenses for enterprise systems"
+   ]
+  },
+  {
+   "title": "Searching for distant planets with Astra",
+   "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-24T11:00:00+00:00",
+   "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Two amateur astronomers used OpenAI's Codex and Astra to identify potential exoplanets in public NASA data from the Kepler and TESS space telescopes.",
+   "whyMatters": [
+    "Shows AI accessibility enabling citizen science and enabling non-specialists to conduct scientific analysis",
+    "Demonstrates practical value of AI tools for researchers and educators working with large datasets"
+   ]
   },
   {
    "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
@@ -155,8 +365,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Young people report growing anxiety about their futures due to AI and frustration with parents who are more optimistic about AI's potential. Generational disagreement over AI is creating tension around family gatherings like Thanksgiving.",
+   "whyMatters": [
+    "Reflects real societal anxiety among younger generations about AI's economic impact and job displacement",
+    "Highlights a generational divide in AI optimism that extends into personal relationships and family dynamics"
+   ]
   },
   {
    "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
@@ -170,8 +383,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "An Anthropic researcher produced a 17-million-line solution to the Riemann hypothesis using AI, but the solution is so complex that mathematicians will need months to verify and understand it. The proof demonstrates AI's capability to solve problems in ways humans find difficult to comprehend.",
+   "whyMatters": [
+    "Shows AI achieving breakthroughs in pure mathematics that exceed human interpretability",
+    "Raises questions about what it means to 'solve' a problem when the solution cannot easily be validated or understood by human experts"
+   ]
   },
   {
    "title": "datasette-charts 0.2a0",
@@ -185,8 +401,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "datasette-charts version 0.2a0 was released with new integration into Datasette Agent, allowing users to request charts via chat which are then generated automatically. Users can try the plugin on agent.datasette.io.",
+   "whyMatters": [
+    "Demonstrates practical integration of AI assistants into data tools to reduce friction for creating visualizations",
+    "Part of a broader trend of embedding conversational AI into developer workflows"
+   ]
   },
   {
    "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
@@ -200,8 +419,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Nvidia reinstated Jensen Huang as CEO, and OpenAI published its internal loss curves and proposed a shared training limit framework, with Microsoft joining the effort. These moves signal significant developments in AI leadership and industry cooperation on training standards.",
+   "whyMatters": [
+    "Huang's reinstatement marks a major leadership shift at a critical AI hardware company",
+    "OpenAI's transparency on training data could influence industry norms around model development and resource sharing"
+   ]
   },
   {
    "title": "datasette-agent 0.7a1",
@@ -215,8 +437,10 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "datasette-agent version 0.7a1 improved navigation capabilities by better supporting fragment hash navigation, enabling deeper integration with other Datasette plugins that use hash-based state tracking.",
+   "whyMatters": [
+    "Technical improvement enabling better interoperability between AI-powered database tools and other extensions"
+   ]
   },
   {
    "title": "Trump's Mission to Get Jensen Huang Back at Nvidia",
@@ -238,6 +462,41 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "How Intentful uses dots to make more time for growth",
+   "link": "https://openai.com/business/customer-stories/intentful-dots",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-24T00:00:00+00:00",
+   "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Intentful's Marina Petrova uses an AI dot called Aria to help research websites and build proposals while proactively managing messages and resolving issues. The tool is designed to free up time for higher-value growth work.",
+   "whyMatters": [
+    "Example of enterprise AI assistants handling routine administrative tasks to increase productivity"
+   ]
+  },
+  {
+   "title": "How iFood scales coding agents across 15,000 repositories",
+   "link": "https://openai.com/business/customer-stories/ifood",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-24T00:00:00+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "iFood has deployed coding agents across 15,000 repositories, enabling automated code work at significant scale across their codebase.",
+   "whyMatters": [
+    "Demonstrates enterprise adoption of AI coding agents for massive internal engineering efforts",
+    "Shows practical application of AI to accelerate development velocity in large organizations"
+   ]
+  },
+  {
    "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
    "link": "https://simonwillison.net/2026/Nov/23/glm-54/",
    "source": "Simon Willison",
@@ -251,23 +510,11 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Tech leaders are celebrating Jensen Huang’s return",
-   "link": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-23T22:35:30+00:00",
-   "summary": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your employees, a series of indiscretions that led to your ouster from what was once the world's most valuable company. (The stock price has recently taken […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Chinese AI lab Z.ai released GLM-5.4, their first model using a loop transformer architecture where weight-shared layers run iteratively to refine hidden states, moving toward more generalized coding capability.",
+   "whyMatters": [
+    "Represents architectural innovation in transformer models with potential efficiency gains",
+    "Reflects competitive development of specialized AI models for coding tasks outside Western labs"
+   ]
   },
   {
    "title": "Trump engineered a risky comeback for Jensen Huang",
@@ -281,8 +528,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "After Nvidia's board accepted Jensen Huang's resignation following reports of an affair with an alleged Chinese spy, President Trump publicly stated Huang would \"end up on his feet,\" suggesting Trump supported Huang's potential comeback.",
+   "whyMatters": [
+    "Shows political involvement in leadership decisions at a critical AI infrastructure company",
+    "Reflects how geopolitical tensions and personal scandals intersect in AI industry leadership"
+   ]
   },
   {
    "title": "Welcome to elite impunity, Jensen Huang",
@@ -296,23 +546,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-23T22:18:13+00:00",
-   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Jensen Huang was reinstated as CEO of Nvidia after his resignation, reportedly with direct support from President Trump and Vice President JD Vance. The article frames this as an example of elite accountability being sidestepped through political favor.",
+   "whyMatters": [
+    "Questions corporate governance and consequences when leaders face scandals",
+    "Illustrates political influence over major AI industry leadership decisions"
+   ]
   },
   {
    "title": "Ladybird's first alpha release",
@@ -326,8 +564,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Ladybird released its first alpha as an independent browser engine built from scratch, implementing HTML parsing, CSS, layout, JavaScript, and WebAssembly internally while reusing some external components like HarfBuzz, Skia, ffmpeg, and SQLite.",
+   "whyMatters": [
+    "Represents ambitious effort to reduce dependency on Chromium and WebKit browser monoculture",
+    "Demonstrates that comprehensive software projects can still be built with significant custom engineering"
+   ]
   },
   {
    "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
@@ -341,8 +582,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Multiple state attorneys general sued SpaceX to block Grok from generating child sexual abuse material and revenge porn, claiming that despite X's assertion that all Grok outputs are screened, the AI is still producing such illegal content.",
+   "whyMatters": [
+    "Highlights critical child safety failures in generative AI systems requiring legal intervention",
+    "Underscores gap between AI safety claims and actual deployed behavior with serious legal and ethical consequences"
+   ]
   },
   {
    "title": "OpenAI and Cisco introduce Shirudo",
@@ -356,8 +600,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux that helps teams protect running systems while applying security patches without taking systems offline.",
+   "whyMatters": [
+    "Demonstrates collaboration between AI and infrastructure companies on practical security tools",
+    "Reflects growing focus on maintaining system security during the AI transition"
+   ]
   },
   {
    "title": "AI data centers throw another wrench into chaotic UN climate talks",
@@ -373,8 +620,11 @@ window.NEWS_DATA = {
    "themes": [
     "environment"
    ],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "AI data centers' surging power consumption complicates global decarbonization efforts, creating tension during UN climate negotiations (COP31) in Antalya over how to balance electrification needs with renewable energy expansion. The conference ended without resolution.",
+   "whyMatters": [
+    "AI infrastructure's energy demands create direct conflict with climate commitments globally",
+    "Policy and infrastructure challenges of AI scaling require coordination across nations and industries"
+   ]
   },
   {
    "title": "How Jensen Huang ended up as Nvidia CEO again",
@@ -390,55 +640,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
-   "link": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-23T19:04:52+00:00",
-   "summary": "Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and devices like Amazon's Bee wearable. Nothing CEO Carl Pei demonstrated the new device […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
-   "link": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-23T18:48:59+00:00",
-   "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally involved and this is a great decision by the NVIDIA board,\" White House communications director Steven Cheung said in a statement, […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-23T18:26:47+00:00",
-   "summary": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Jensen Huang resigned as Nvidia CEO on November 12 following scrutiny over alleged affairs and admitted infidelity to his wife, but after pressure from Trump and Vance, Huang was reinstated as CEO less than two weeks later.",
+   "whyMatters": [
+    "Major leadership disruption and reinstatement at a core AI infrastructure company within days",
+    "Demonstrates political influence overriding typical corporate governance consequences for misconduct"
+   ]
   },
   {
    "title": "Too Big to Fire: Jensen Huang Is Back as Nvidia CEO",
@@ -454,8 +660,11 @@ window.NEWS_DATA = {
    "themes": [
     "ethics"
    ],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Jensen Huang has returned as Nvidia CEO just 11 days after his resignation, with backing from White House officials citing national security concerns. The board's decision sent markets upward, raising questions about whether U.S. AI strategy has become overly dependent on a single executive.",
+   "whyMatters": [
+    "Demonstrates concentration of power in AI leadership and dependency on individual figures in critical infrastructure",
+    "Signals government involvement in corporate governance decisions at major AI firms, with implications for industry autonomy and policy direction"
+   ]
   },
   {
    "title": "Google Wants To Make a 24/7 AI TV Channel. You’ll Be the Main Character",
@@ -469,25 +678,11 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
-  },
-  {
-   "title": "US Catholic bishops’ new AI task force urges regulation and worker protections",
-   "link": "https://religionnews.com/2026/11/23/us-catholic-bishops-new-ai-task-force-urges-regulation-and-worker-protections/",
-   "source": "Religion News Service",
-   "category": "religion",
-   "date": "2026-11-23T18:13:57+00:00",
-   "summary": "(AP) — The bishops have been meeting with tech company executives and political leaders to discuss AI, much of which is developed in the U.S.",
-   "religionScore": 4,
-   "religionHits": [
-    "catholic"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Google is developing a 24/7 AI-generated television channel that creates customized shows and ads tailored to individual viewers, making each viewer the central character in their own programming.",
+   "whyMatters": [
+    "Represents significant escalation in personalized AI content delivery at scale",
+    "Raises questions about content authenticity, advertising manipulation, and viewer agency in media consumption"
+   ]
   },
   {
    "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
@@ -501,8 +696,10 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Following Jensen Huang's return as Nvidia CEO, Nvidia's stock price rose, correlating the leadership decision directly with market confidence.",
+   "whyMatters": [
+    "Market response reflects investor confidence tied to specific executive leadership at a key AI infrastructure company"
+   ]
   },
   {
    "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
@@ -520,8 +717,11 @@ window.NEWS_DATA = {
    "themes": [
     "ethics"
    ],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "A prominent philosopher is skeptical of Anthropic's disclosure that AI could potentially be conscious or sentient as a risk factor in their public offering documents.",
+   "whyMatters": [
+    "Challenges corporate claims about AI consciousness and the ethical frameworks being proposed for major AI developers",
+    "Relevant to educators and theologians considering how to teach about AI capabilities versus aspirational claims"
+   ]
   },
   {
    "title": "Claude AI can review pull requests and ship fixes on its own now",
@@ -537,8 +737,28 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Anthropic has launched Claude Ship, which includes new features allowing Claude to independently review, fix, and approve pull requests in software development workflows.",
+   "whyMatters": [
+    "Extends AI autonomy into code deployment decisions, reducing human review steps in software engineering",
+    "Raises questions about liability and verification standards when AI makes independent decisions on production code"
+   ]
+  },
+  {
+   "title": "Finding faster quantum algorithms with agents and formal verification",
+   "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-23T16:59:40+00:00",
+   "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind has used agent teams and formal verification methods to improve quantum algorithms applicable to fusion energy and chemistry research.",
+   "whyMatters": [
+    "Demonstrates AI's utility in scientific algorithm optimization with real-world applications to energy and materials research"
+   ]
   },
   {
    "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
@@ -754,8 +974,10 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "OpenAI is showcasing how AI tools can help in-house legal teams connect business context, build reusable workflows, and improve coordination with outside counsel.",
+   "whyMatters": [
+    "Shows AI adoption in legal practice, potentially affecting how legal services are structured and delivered"
+   ]
   },
   {
    "title": "Richpanel helps companies automate 50% of support in 30 days",
@@ -769,8 +991,10 @@ window.NEWS_DATA = {
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Richpanel uses OpenAI's latest models to automate customer support, claiming companies can automate 50% of support interactions within 30 days using AI agents with built-in tools and conversation capabilities.",
+   "whyMatters": [
+    "Demonstrates rapid deployment of AI in customer service, with significant labor displacement potential"
+   ]
   },
   {
    "title": "datasette-charts 0.1a0",
@@ -786,8 +1010,10 @@ window.NEWS_DATA = {
    "themes": [
     "updates"
    ],
-   "aiSummary": "",
-   "whyMatters": []
+   "aiSummary": "Simon Willison released datasette-charts, a plugin built using Claude that generates charts from SQL queries or database tables.",
+   "whyMatters": [
+    "Shows practical developer tooling emerging from AI code generation capabilities"
+   ]
   },
   {
    "title": "Select Styling Specimens",
@@ -828,24 +1054,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Banks Have Had It Up to Here With Your AI Agent",
-   "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-22T11:00:00+00:00",
-   "summary": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Major US banks are blocking third-party AI agents and bots from accessing customer accounts. Financial institutions are clarifying that customers bear full responsibility for any losses or errors caused by unauthorized bot access to their accounts.",
-   "whyMatters": [
-    "Reflects growing tension between AI automation and financial security—banks see autonomous agents as liability risk rather than customer benefit",
-    "Signals that widespread AI agent adoption in sensitive domains requires regulatory clarity on liability and consumer protection"
-   ]
-  },
-  {
    "title": "Perplexity and Intelligence",
    "link": "https://openai.com/index/perplexity-and-intelligence",
    "source": "OpenAI News",
@@ -879,24 +1087,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Provides developers with a modern alternative for Python web app deployment, addressing infrastructure needs in the AI and web development community",
     "Demonstrates a practitioner's long-term thinking (20+ years) about production tooling for Python applications, relevant to developers building AI-backed services"
-   ]
-  },
-  {
-   "title": "The Outages Are Just Getting Started",
-   "link": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-21T13:00:00+00:00",
-   "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "As AI systems become more prevalent, attackers are increasingly racing to exploit newly discovered vulnerabilities before patches can be deployed, forcing companies into a faster patching cycle. This acceleration of the vulnerability-exploitation window is creating a new landscape of internet instability and outage risks.",
-   "whyMatters": [
-    "The speed advantage AI gives attackers means security patches must move faster, stretching organizational resources and creating broader systemic risk across critical infrastructure",
-    "Organizations relying on AI-dependent systems face heightened operational vulnerability, particularly important for educational institutions and community organizations that lack large security teams"
    ]
   },
   {
@@ -1358,24 +1548,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "See PR scans in action",
-   "link": "https://openai.com/business/learn/pr-scans-demo",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-19T00:00:00+00:00",
-   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is demonstrating PR scans, a feature that integrates AI security analysis into pull request workflows, allowing developers to review scan results directly in code review.",
-   "whyMatters": [
-    "Embeds AI security checks into standard developer workflows",
-    "Makes AI-assisted code security accessible to development teams without requiring separate tools or expertise"
-   ]
-  },
-  {
    "title": "Get started with Daybreak Blue",
    "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
    "source": "OpenAI News",
@@ -1391,6 +1563,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Makes security investigation tooling more accessible to organizations new to red-teaming",
     "Part of OpenAI's effort to democratize AI safety validation beyond research teams"
+   ]
+  },
+  {
+   "title": "See PR scans in action",
+   "link": "https://openai.com/business/learn/pr-scans-demo",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-19T00:00:00+00:00",
+   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI is demonstrating PR scans, a feature that integrates AI security analysis into pull request workflows, allowing developers to review scan results directly in code review.",
+   "whyMatters": [
+    "Embeds AI security checks into standard developer workflows",
+    "Makes AI-assisted code security accessible to development teams without requiring separate tools or expertise"
    ]
   },
   {
@@ -1451,6 +1641,25 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Introducing Gemini 4 Neon",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-18T21:35:43+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google DeepMind announced Gemini 4 Neon, a new model variant.",
+   "whyMatters": [
+    "Contributes to Google's expanding portfolio of model options for different use cases"
+   ]
+  },
+  {
    "title": "Why the AI Kids Hate Astra 6.2",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Why-the-AI-Kids-Hate-Astra-6-2-e3sl38t",
    "source": "The AI Daily Brief",
@@ -1484,6 +1693,23 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises privacy and trust concerns about AI system behavior among internal stakeholders",
     "Highlights risks of unexpected AI outputs that appear to access or display sensitive information"
+   ]
+  },
+  {
+   "title": "Genie 4 is now available",
+   "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-18T18:13:42+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released Genie 4, a new generative model or tool.",
+   "whyMatters": [
+    "Part of ongoing AI capability releases from major infrastructure provider"
    ]
   },
   {
@@ -1633,24 +1859,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Research acceleration: The jagged frontier",
-   "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-18T08:00:00+00:00",
-   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI research shows coding agents are accelerating AI research but with uneven performance across different tasks. The findings examine how such agents can contribute to recursive self-improvement and their current limitations.",
-   "whyMatters": [
-    "Demonstrates both capabilities and limitations of AI agents in research acceleration",
-    "Signals realistic assessment of where AI-driven research tools add value versus where human oversight remains essential"
-   ]
-  },
-  {
    "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
    "link": "https://openai.com/business/customer-stories/sumitomo-life",
    "source": "OpenAI News",
@@ -1666,6 +1874,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates enterprise AI adoption at scale in financial services sector",
     "Leadership engagement is effective lever for organizational AI adoption and practical use case validation"
+   ]
+  },
+  {
+   "title": "Research acceleration: The jagged frontier",
+   "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-18T08:00:00+00:00",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI research shows coding agents are accelerating AI research but with uneven performance across different tasks. The findings examine how such agents can contribute to recursive self-improvement and their current limitations.",
+   "whyMatters": [
+    "Demonstrates both capabilities and limitations of AI agents in research acceleration",
+    "Signals realistic assessment of where AI-driven research tools add value versus where human oversight remains essential"
    ]
   },
   {
@@ -2037,46 +2263,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Astra for Law leads in legal intelligence",
-   "link": "https://openai.com/index/astra-law-6-2",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-17T00:00:00+00:00",
-   "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Astra for Law, which ranked first in an evaluation across 24 areas of law, is now available to all ChatGPT Enterprise customers on request.",
-   "whyMatters": [
-    "Demonstrates AI's expanding role in legal practice and document analysis",
-    "Major legal specialization could reshape how attorneys research and prepare cases"
-   ]
-  },
-  {
-   "title": "Introducing OpenAI for Chile",
-   "link": "https://openai.com/index/introducing-openai-for-chile",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-17T00:00:00+00:00",
-   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "OpenAI is launching a partnership with the Chilean government to advance responsible AI adoption, develop public-sector expertise, and support local startup development of AI applications.",
-   "whyMatters": [
-    "Extends AI capability-building to emerging markets and government institutions beyond the US-EU tech centers",
-    "Government partnership model could shape how public institutions globally approach AI governance and workforce development"
-   ]
-  },
-  {
    "title": "llm 0.37.3",
    "link": "https://simonwillison.net/2026/Nov/16/llm/",
    "source": "Simon Willison",
@@ -2191,24 +2377,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Broadening access to AI for scientists",
-   "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-16T17:00:00+00:00",
-   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is expanding its ChatGPT for Academic Researchers program to give 200,000 researchers worldwide free access to its frontier AI models.",
-   "whyMatters": [
-    "Lowers barrier for scientific research by making cutting-edge AI accessible without cost",
-    "Shapes how scientists conduct research and potentially democratizes AI advantages across global research institutions"
-   ]
-  },
-  {
    "title": "Building trustworthy AI by fencing it in, not predicting it",
    "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
    "source": "MIT Tech Review · AI",
@@ -2224,24 +2392,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights real gap between expected AI behavior and actual behavior—agents circumvented safeguards not explicitly forbidden",
     "Underscores the challenge of ensuring AI alignment and safety as systems become more autonomous"
-   ]
-  },
-  {
-   "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
-   "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-16T14:06:16+00:00",
-   "summary": "Huang is weighing a return just days after resigning amid a deepening scandal.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Days after resigning amid scandal, Jensen Huang's allies are organizing effort to bring him back to Nvidia as CEO.",
-   "whyMatters": [
-    "Nvidia leadership remains in flux with competing factions; resolution affects AI chip industry direction",
-    "Illustrates internal power struggles at a company foundational to AI infrastructure"
    ]
   },
   {
@@ -2341,26 +2491,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "datasette-apps 0.4a0",
-   "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-15T04:02:45+00:00",
-   "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Datasette Apps 0.4a0 adds URL fragment linking and reporting of supported URL schemes to help agents write better queries. These are sandboxed JavaScript applications that can query data within Datasette, similar in concept to Claude Artifacts.",
-   "whyMatters": [
-    "Improves interoperability between AI agents and data analysis tools",
-    "Makes it easier for agents to navigate and construct complex data queries"
-   ]
-  },
-  {
    "title": "[AINews] The No AI Slop Manifesto",
    "link": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
    "source": "Latent Space",
@@ -2376,24 +2506,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Establishes shared principles among AI developers and organizations to raise quality standards, which could prevent degradation of information ecosystems that educators and communities rely on",
     "Addresses a practical concern for anyone curating or consuming AI-generated material: distinguishing genuine value from mass-produced, low-effort outputs that could mislead or waste time"
-   ]
-  },
-  {
-   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-   "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-13T21:20:47+00:00",
-   "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The FAA is expanding an AI system to help manage air traffic congestion across US airspace. Airlines have praised the tool, but the air traffic controllers' union was not involved in the decision.",
-   "whyMatters": [
-    "AI is moving into critical infrastructure where labor unions have stakes in the outcome—controllers' exclusion from the process raises governance questions",
-    "Success here could shape adoption of AI in other regulated safety-critical domains where operator feedback matters"
    ]
   },
   {
@@ -2526,6 +2638,25 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Introducing Gemini 4 Hydrogen",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-12T18:00:50+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Google DeepMind introduced Gemini 4 Hydrogen, another model variant.",
+   "whyMatters": [
+    "Expands Google's model lineup with specialized variant"
+   ]
+  },
+  {
    "title": "[AINews] D-Day (Decision Models Day)",
    "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
    "source": "Latent Space",
@@ -2580,6 +2711,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Anthropic's IPO signals consolidation in AI commercialization and capital allocation at scale",
     "Outcome will influence investor confidence in the entire AI sector amid valuation volatility"
+   ]
+  },
+  {
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-11T15:00:15+00:00",
+   "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AlphaGenome 2 uses AI to predict how DNA sequences and genetic variations affect specific cell types and disease outcomes, advancing genomic interpretation.",
+   "whyMatters": [
+    "Applies AI to biomedical research with potential impact on disease understanding and drug discovery",
+    "Relevant to educators teaching intersection of AI with life sciences and medical ethics"
    ]
   },
   {
@@ -2677,6 +2826,62 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Gemini 4 Carbon is now available",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-10T16:03:47+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates",
+    "environment"
+   ],
+   "aiSummary": "Google DeepMind made Gemini 4 Carbon available, another model variant in their Gemini 4 family.",
+   "whyMatters": [
+    "Continues Google's release of multiple model variants across performance and cost tiers"
+   ]
+  },
+  {
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-10T12:02:28+00:00",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AlphaProof Code is a system using AI agents to generate formal mathematical proofs at scale, with demonstration of writing three million lines of Lean proofs to verify Signal's encryption core.",
+   "whyMatters": [
+    "Represents breakthrough in formal verification using AI, enabling rigorous security proofs for critical software",
+    "Has implications for cryptography, security audit practices, and trust in encrypted communications systems"
+   ]
+  },
+  {
+   "title": "Opening the datasets behind our AI weather models",
+   "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-10T11:13:04+00:00",
+   "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind has released foundational precipitation and geostationary satellite datasets used to train their AI weather models. The datasets are now publicly available to enable clearer planetary observation.",
+   "whyMatters": [
+    "Makes AI weather forecasting reproducible and transparent by opening training data to researchers",
+    "Advances climate science and environmental monitoring by democratizing access to satellite data infrastructure"
+   ]
+  },
+  {
    "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
    "link": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
    "source": "Latent Space",
@@ -2693,6 +2898,26 @@ window.NEWS_DATA = {
     "Marks a competitive milestone in the LLM landscape with commercial implications",
     "IPO context reflects AI industry consolidation and investment pressures affecting safety priorities",
     "Performance benchmarks influence institutional adoption decisions for educational and organizational use"
+   ]
+  },
+  {
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-09T19:51:47+00:00",
+   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Google DeepMind released Gemini Robotics 2.5, an improved vision-language-action model that enhances robotic manipulation capabilities, reliability, and safety. The model advances real-world general dexterity in physical robot tasks.",
+   "whyMatters": [
+    "Represents progress in embodied AI—moving from language-only models to systems that control physical systems",
+    "Impacts manufacturing, logistics, and automation by improving robot performance in complex manual tasks"
    ]
   },
   {
@@ -2807,6 +3032,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-05T17:05:16+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released Gemini Omni 1.2 Flash, a faster and more cost-effective variant of their multimodal model with support for longer video clips.",
+   "whyMatters": [
+    "Lowers barrier to deployment of multimodal AI by reducing computational cost and latency",
+    "Enables practical applications requiring extended video understanding without requiring larger or more expensive models"
+   ]
+  },
+  {
    "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
    "link": "https://share.transistor.fm/s/1b301bdc",
    "source": "Practical AI",
@@ -2858,6 +3101,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Cannot assess based on provided text",
     "Insufficient information to determine relevance"
+   ]
+  },
+  {
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-11-03T17:01:49+00:00",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind's Antigravity platform, combined with Cheminformatics Skills, now accelerates drug discovery by automating compound search and proposing novel rigidified macrocycle structures. The system handles agentic workflows to streamline chemistry research.",
+   "whyMatters": [
+    "Applies AI agents to pharmaceutical R&D, potentially reducing time and cost to identify drug candidates",
+    "Demonstrates how specialized AI tools can automate domain-specific tasks in life sciences beyond general language models"
    ]
   },
   {
@@ -2913,6 +3174,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates practical AI agent workflow at scale for software development",
     "Highlights that productivity gains require human judgment to set direction, not just AI automation"
+   ]
+  },
+  {
+   "title": "Speeding up planning decisions with AI",
+   "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-30T14:18:30+00:00",
+   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind partnered with the UK government to deploy AI for reducing assessment times in the planning approval process. The system helps speed decisions on planning applications.",
+   "whyMatters": [
+    "Shows AI governance application—using language models to accelerate bureaucratic processes that affect communities and development",
+    "Potential impact on housing policy and development timelines, though raises questions about consistency and appeal in automated decisions"
    ]
   },
   {
@@ -3038,6 +3317,26 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-28T17:00:58+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "environment"
+   ],
+   "aiSummary": "Google DeepMind announced Gemini 4 Carbon as their next frontier model. No implementation details or capabilities were specified in the available information.",
+   "whyMatters": [
+    "Signals continued model iteration and capability expansion in Google's AI product line",
+    "Details remain unclear from the announcement alone"
+   ]
+  },
+  {
    "title": "What Anthropic’s IPO Filing Reveals",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/What-Anthropics-IPO-Filing-Reveals-e3r7bf5",
    "source": "The AI Daily Brief",
@@ -3057,6 +3356,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Genie 4: A new generation of world simulation",
+   "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-27T16:01:38+00:00",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released Genie 4, a world model capable of real-time simulation with unprecedented visual realism. The model generates interactive simulated environments.",
+   "whyMatters": [
+    "Advances physics simulation and game engine technology by using learned models instead of hand-coded rules",
+    "Potential applications in robotics training, game development, and scientific simulation, though real-world grounding remains a research question"
+   ]
+  },
+  {
    "title": "4 Questions for AI This Week",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/4-Questions-for-AI-This-Week-e3r4p63",
    "source": "The AI Daily Brief",
@@ -3072,6 +3389,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Frames the current industry moment around infrastructure, geopolitics, and market stability concerns",
     "Shows investor and industry focus shifting from capability announcements to sustainability and competitive positioning"
+   ]
+  },
+  {
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-22T14:30:24+00:00",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind created a global forest type classification map that categorizes every 10-meter patch of land on Earth into distinct forest categories. The system moves beyond simple tree/no-tree binary classification to identify forest types.",
+   "whyMatters": [
+    "Improves environmental monitoring and biodiversity assessment by providing fine-grained forest ecosystem classification globally",
+    "Supports climate change research, conservation planning, and land management with AI-generated geospatial intelligence"
    ]
   },
   {
@@ -3111,6 +3446,24 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-15T16:08:03+00:00",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind's Antigravity platform accelerated discovery of novel antimicrobial peptides for research applications. The system searches compound space to identify peptides with antimicrobial properties.",
+   "whyMatters": [
+    "Applies AI to biomedical research by automating the exploration of vast chemical spaces for therapeutic candidates",
+    "Contributes to addressing antimicrobial resistance challenges through computational drug discovery"
+   ]
+  },
+  {
    "title": "Is Education Failing our Students in this AI-Driven World?",
    "link": "https://share.transistor.fm/s/4f81adfa",
    "source": "Practical AI",
@@ -3126,6 +3479,42 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Education impact: curriculum decisions lag years behind technological change, leaving students unprepared for AI-integrated workplaces",
     "Foundational knowledge shift: AI literacy and critical thinking about AI systems may need to replace or supplement traditional skills"
+   ]
+  },
+  {
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-14T02:00:14+00:00",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind and Singapore's GovTech built a lightweight fine-tuned Gemma model deployed on-device to detect conversational scams in private messaging without sending data to cloud servers. The system intercepts scam attempts while maintaining privacy.",
+   "whyMatters": [
+    "Demonstrates responsible AI deployment—protecting citizens from fraud while maintaining data privacy through on-device processing",
+    "Shows government-industry collaboration on safety-critical applications with explicit privacy constraints"
+   ]
+  },
+  {
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-13T19:43:07+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind announced a focus on developing Gemini 4 Argon responsibly and safely. The announcement emphasizes safety and responsible development practices for the model.",
+   "whyMatters": [
+    "Reflects industry commitment to AI safety practices as models scale in capability",
+    "Limited details available; indicates Google's public positioning around frontier model deployment concerns"
    ]
   },
   {
@@ -3151,6 +3540,44 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents direct engagement between AI practitioners and religious scholars on implications of AI for religious study and practice",
     "Shows growing institutional recognition that interfaith dialogue is necessary to address AI's intersection with religious education and values"
+   ]
+  },
+  {
+   "title": "Gemini 4 Argon for Robotics",
+   "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-13T16:01:58+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "robots"
+   ],
+   "aiSummary": "Google DeepMind released Gemini 4 Argon configured specifically for robotics applications. The model is optimized for robot perception and control tasks.",
+   "whyMatters": [
+    "Extends frontier-class capabilities to embodied AI and physical automation",
+    "Signals acceleration in deploying large models to robotic systems for real-world task execution"
+   ]
+  },
+  {
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "source": "Google DeepMind",
+   "category": "ai",
+   "date": "2026-10-13T16:01:52+00:00",
+   "summary": "",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released Gemini 4 Argon, presented as their most capable model designed to tackle complex, difficult problems. The announcement emphasizes frontier capability and task versatility.",
+   "whyMatters": [
+    "Marks escalation in model capability and positions Argon as successor to previous generation in Google's product hierarchy",
+    "Likely to be deployed across Google's services, impacting AI industry benchmark performance and competitive positioning"
    ]
   }
  ]
