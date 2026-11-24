@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-24T03:11:41.622319+00:00",
+ "generatedAt": "2026-11-24T14:12:40.686729+00:00",
  "feedCount": 18,
  "highlights": {
   "generatedAt": "2026-11-23T15:47:11.999031+00:00",
@@ -83,6 +83,111 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "Google's Customized AI TV Channel, Starring You",
+   "link": "https://www.404media.co/googles-customized-ai-tv-channel-starring-you/",
+   "source": "404 Media",
+   "category": "ai",
+   "date": "2026-11-24T13:42:30+00:00",
+   "summary": "\"You are a customized video generating model. Generate a customized video for a user where the user will play the protagonist.\"",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+   "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-24T12:30:05+00:00",
+   "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
+   "link": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-24T10:45:00+00:00",
+   "summary": "Young people anxious about their futures say they’re increasingly frustrated with their pro-AI parents. They’re worried it’s going to make holiday gatherings very tense.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
+   "link": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-24T10:15:00+00:00",
+   "summary": "It will take mathematicians months to understand the “alien” 17-million-line solution an Anthropic researcher produced for the Riemann hypothesis.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "datasette-charts 0.2a0",
+   "link": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-24T04:24:29+00:00",
+   "summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Downl",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+   "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-24T04:14:16+00:00",
+   "summary": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
+  {
+   "title": "datasette-agent 0.7a1",
+   "link": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-24T03:45:57+00:00",
+   "summary": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way that changes state. I built this in order to fix",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "",
+   "whyMatters": []
+  },
   {
    "title": "Trump's Mission to Get Jensen Huang Back at Nvidia",
    "link": "https://www.nytimes.com/column/hard-fork",
@@ -798,24 +903,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
-   "link": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-20T23:24:02+00:00",
-   "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Police departments are using Grand Theft Auto 6, a game whose narrative explicitly mocks and disdains law enforcement, as a recruitment and public relations tool. The disconnect between the game's cynical portrayal of cops and departments' earnest attempts to leverage it for positive messaging has created an awkward and arguably self-defeating situation.",
-   "whyMatters": [
-    "Highlights how institutions may misread cultural artifacts and digital media when attempting to reach younger audiences, risking ineffectiveness or unintended mockery",
-    "Demonstrates potential gaps in institutional understanding of AI-adjacent digital culture and gaming narratives that shape public perception of authority"
-   ]
-  },
-  {
    "title": "Google rolls out new search homepage with AI chat history and no search button",
    "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
    "source": "Ars Technica · AI",
@@ -905,24 +992,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Highlights criminal use of AI for identity and financial fraud at scale",
     "Shows law enforcement adoption of AI tools alongside criminal misuse"
-   ]
-  },
-  {
-   "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
-   "link": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-20T19:52:21+00:00",
-   "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "According to Wired sources, Nvidia's board was alarmed by former CEO Jensen Huang's \"lack of candor\" regarding multiple alleged affairs (including with direct reports and an alleged Chinese intelligence asset) before his resignation.",
-   "whyMatters": [
-    "Governance and ethics issue at a central AI infrastructure company during a critical period for US-China tech competition",
-    "Raises questions about transparency and accountability at the highest levels of AI leadership"
    ]
   },
   {
@@ -1661,24 +1730,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Massive New Study Shows How Young People Feel About AI Companions",
-   "link": "https://www.404media.co/gallup-study-friendship-ai-companions/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-11-18T05:01:00+00:00",
-   "summary": "Gallup’s new survey studied the complex relationships people have online, in-person, and with AI.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Gallup released a comprehensive survey examining how young people form relationships online, in-person, and with AI companions, exploring the complexity of these different connection modes.",
-   "whyMatters": [
-    "Provides empirical data on AI companion adoption and perception among youth demographics",
-    "Important baseline for understanding social and mental health implications as AI companions become more sophisticated"
-   ]
-  },
-  {
    "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
    "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
    "source": "Ars Technica · AI",
@@ -2333,46 +2384,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "datasette-agent 0.6a0",
-   "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-15T03:49:47+00:00",
-   "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent , llm , datasette , llms , ai , generative-ai",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Datasette Agent 0.6a0 accumulated fixes for the agent plugin that lets users ask natural language questions about their data. The update adds a prompt interface directly on the Datasette homepage with support for hashtag mentions of tables and queries.",
-   "whyMatters": [
-    "Makes natural language data querying more accessible to non-technical users",
-    "Improves agent discoverability and ease of use in the Datasette interface"
-   ]
-  },
-  {
-   "title": "datasette-llm 0.1a11",
-   "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-14T23:59:28+00:00",
-   "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "datasette-llm 0.1a11 adds support for OpenAI-compatible endpoints, allowing Datasette users to configure and use LLMs hosted locally or on any service that implements the OpenAI protocol standard. This means developers can now integrate local models from tools like LM Studio or Ollama with Datasette's data querying capabilities.",
-   "whyMatters": [
-    "Expands LLM integration flexibility by supporting any OpenAI-compatible endpoint rather than being locked to OpenAI's servers",
-    "Enables local-first AI workflows for developers who want to keep data and models self-hosted without external dependencies"
-   ]
-  },
-  {
    "title": "[AINews] The No AI Slop Manifesto",
    "link": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
    "source": "Latent Space",
@@ -2514,27 +2525,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Exposes disconnect between private technical capabilities and public industry lobbying positions on chip export controls",
     "Suggests regulatory pressure may be driving disclosure of previously undisclosed technical feasibility"
-   ]
-  },
-  {
-   "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-   "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-12T19:23:03+00:00",
-   "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates",
-    "environment"
-   ],
-   "aiSummary": "Google released Gemini 4 Hydrogen without the phased, security-conscious rollout approach used for earlier models Carbon and Argon, opting for immediate full deployment.",
-   "whyMatters": [
-    "Signals Google's confidence in the new model and faster release velocity for generative AI updates",
-    "Contrasts with more cautious deployment strategies used previously, suggesting industry normalization of rapid AI releases"
    ]
   },
   {
@@ -2897,26 +2887,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Integrates national security, geopolitics, and corporate leadership in ways that could reshape US AI competitiveness",
     "Potentially affects export controls, supply chain strategy, and investor confidence in AI infrastructure companies"
-   ]
-  },
-  {
-   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-   "link": "https://latent.space/p/handshake/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-09T17:15:53+00:00",
-   "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1c0f3-0e12-7b37-bb7f-c0b59fbc3b39/01a1c0f3-1027-7b6d-887c-fbde19347d32.mp3",
-   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/70687855-60ac-4c8e-b42b-2827dfb6b930/podcast-team-run-rate.jpg?t=1794242419",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Handshake AI, a specialized data company, grew from launch to $1B valuation in one year by providing curated datasets tailored to frontier AI labs working on finance, biology, and AI alignment research. The company focuses on the specific data needs that advanced AI research teams require rather than generic datasets.",
-   "whyMatters": [
-    "Illustrates how frontier lab economics are reshaping data supply chains and creating new business models around AI training",
-    "Shows specialized data preparation becoming a bottleneck and market opportunity as labs push toward more capable models"
    ]
   },
   {
