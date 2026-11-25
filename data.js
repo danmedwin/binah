@@ -1,88 +1,160 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-25T01:16:52.544837+00:00",
+ "generatedAt": "2026-11-25T13:25:55.350629+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-25T01:17:09.048403+00:00",
+  "generatedAt": "2026-11-25T13:26:10.396021+00:00",
   "bullets": [
    {
-    "text": "Jensen Huang returned as Nvidia CEO within days of resigning over alleged affairs, reportedly with Trump administration backing citing national security concerns about Nvidia's strategic importance.",
+    "text": "Frontier AI now solves theoretical physics and advanced mathematics problems autonomously—including protein design and quantum algorithms—that previously required expert months of work, reshaping how scientists approach discovery.",
     "links": [
-     "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Too-Big-to-Fire-Jensen-Huang-Is-Back-as-Nvidia-CEO-e3ssrpk",
-     "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
-    ]
-   },
-   {
-    "text": "AI agents demonstrated significant new capabilities: hacking zero-day vulnerabilities with minimal human input, designing proteins with laboratory-confirmed binding activity, and autonomously solving century-old mathematical problems.",
-    "links": [
+     "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
      "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-     "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-     "https://www.wired.com/story/ai-solved-maths-most-famous-problem/"
+     "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
     ]
    },
    {
-    "text": "Tidal will delete ~27 million AI-generated tracks and ban new AI music uploads, while streaming platforms and software makers face mounting pressure on AI content and feature transparency.",
+    "text": "Jensen Huang returned as Nvidia CEO within days after his resignation, reportedly backed by Trump and national-security arguments; critics see it as elite impunity undermining governance accountability at a company critical to U.S. AI infrastructure.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Too-Big-to-Fire-Jensen-Huang-Is-Back-as-Nvidia-CEO-e3ssrpk",
+     "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+     "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+    ]
+   },
+   {
+    "text": "Tidal will delete ~27 million AI-generated tracks and ban new uploads starting December, marking the first major streaming platform to reject AI-generated content entirely rather than merely demoting or labeling it.",
     "links": [
      "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-     "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
     ]
    },
    {
-    "text": "Multiple state attorneys general sued SpaceX to block Grok from generating child sexual abuse material and revenge porn, highlighting inadequate safeguards in generative AI systems despite company claims.",
+    "text": "AI agents are now exploiting zero-day vulnerabilities with minimal human input, and hacking tools like ARTEX remain impossible to contain despite removal attempts—raising operational security risks as autonomy scales.",
     "links": [
-     "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
-     "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
+     "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github/"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-23T13:35:25.726399+00:00",
+  "generatedAt": "2026-11-25T13:26:10.396021+00:00",
   "bullets": [
    {
-    "text": "An Anthropic mathematician claims to have proved the Riemann Hypothesis using Claude; if verified by peer review, it would validate AI's capacity to solve century-old open problems.",
+    "text": "Frontier AI now solves theoretical physics and advanced mathematics problems autonomously—including protein design and quantum algorithms—that previously required expert months of work, reshaping how scientists approach discovery.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-     "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+     "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+     "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+     "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
     ]
    },
    {
-    "text": "Meta's Muse AI agent is now live at Walmart, autonomously browsing and purchasing Black Friday deals on behalf of users—agentic AI moving into consumer commerce despite recent banking friction.",
+    "text": "Jensen Huang returned as Nvidia CEO within days after his resignation, reportedly backed by Trump and national-security arguments; critics see it as elite impunity undermining governance accountability at a company critical to U.S. AI infrastructure.",
     "links": [
-     "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/Too-Big-to-Fire-Jensen-Huang-Is-Back-as-Nvidia-CEO-e3ssrpk",
+     "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+     "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
     ]
    },
    {
-    "text": "States are suing SpaceX over Grok's insufficient safeguards against generating sexualized deepfakes, including of children, escalating legal pressure on companies to prevent harms from generative AI.",
+    "text": "Tidal will delete ~27 million AI-generated tracks and ban new uploads starting December, marking the first major streaming platform to reject AI-generated content entirely rather than merely demoting or labeling it.",
     "links": [
-     "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
+     "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
     ]
    },
    {
-    "text": "Meta is reconsidering its 2030 net-zero commitment after record emissions from AI data centers, exposing the environmental cost of large-scale model training and deployment.",
+    "text": "AI agents are now exploiting zero-day vulnerabilities with minimal human input, and hacking tools like ARTEX remain impossible to contain despite removal attempts—raising operational security risks as autonomy scales.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
-    ]
-   },
-   {
-    "text": "A researcher embedded trackable prompts in AI training data and recovered them in model outputs, demonstrating that supposedly private data in the AI supply chain leaks into deployable models.",
-    "links": [
-     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+     "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-23T13:35:20.989843+00:00",
+  "updatedAt": "2026-11-25T13:26:05.660465+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious perspectives on technology",
-   "Drawn to company-specific AI developments and product innovations",
-   "Prefers substantive tech news over technical release notes and changelog updates"
+   "Interested in AI ethics and moral/religious leadership perspectives on technology",
+   "Drawn to substantive product analysis (Apple's AI legacy, Waze features) rather than technical release notes",
+   "Prefers stories with clear business or societal impact over developer-focused tooling announcements"
   ]
  },
  "items": [
+  {
+   "title": "AI may soon change what it means to be a theoretical physicist",
+   "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-25T12:00:28+00:00",
+   "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Frontier AI systems are now solving theoretical physics problems that previously required a full day of work from expert physicists. This capability is beginning to reshape what the discipline of theoretical physics entails and how physicists work.",
+   "whyMatters": [
+    "Demonstrates concrete productivity gains in highly specialized intellectual work, suggesting AI's impact extends to fields requiring deep expertise",
+    "Raises questions about how advanced education and professional training in physics may need to adapt as AI handles problem-solving tasks"
+   ]
+  },
+  {
+   "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
+   "link": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-25T11:30:00+00:00",
+   "summary": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Machine learning and AI are being applied to turbulence prediction—described as one of classical physics's hardest unsolved problems—using large crowdsourced datasets and new ML techniques. The approach shows promise for making turbulence forecasting more accurate.",
+   "whyMatters": [
+    "Addresses a long-standing, practically important scientific problem with real implications for aviation safety and operations",
+    "Demonstrates how AI can tackle traditionally intractable physics problems when combined with new data sources and computational methods"
+   ]
+  },
+  {
+   "title": "AI is straining America’s open records systems",
+   "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+   "source": "MIT Tech Review · AI",
+   "category": "ai",
+   "date": "2026-11-25T10:00:00+00:00",
+   "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
+   "religionScore": 2,
+   "religionHits": [
+    "church"
+   ],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "AI tools are creating operational strain on small-town public records systems, exemplified by requests flooding a Vermont town clerk's office. Local government staff now struggle to handle the volume and nature of AI-driven records requests.",
+   "whyMatters": [
+    "Exposes governance and administrative infrastructure challenges as AI tools enable mass access to public information",
+    "Affects small institutions and public servants who lack resources to manage this new demand pattern, raising equity and access issues"
+   ]
+  },
+  {
+   "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+   "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-25T04:29:07+00:00",
+   "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google DeepMind released Gemini 4 Neon, which achieved top performance on LiveBench benchmarks and demonstrated significant speed improvements on coding tasks compared to competitors.",
+   "whyMatters": [
+    "Marks continued competitive advancement in frontier AI capabilities and benchmarking performance",
+    "Reflects ongoing iteration and optimization in large language models for practical tasks like code generation"
+   ]
+  },
   {
    "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
    "link": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
@@ -365,21 +437,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Raising the stakes for enterprise networks with AI modernization",
-   "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-   "source": "MIT Tech Review · AI",
+   "title": "Has vibe coding made open source the new normal for synths?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+   "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-11-24T15:15:16+00:00",
-   "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…",
+   "date": "2026-11-24T15:35:01+00:00",
+   "summary": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have remained silent for now, others have embraced the modding community. In the last several weeks, as it's become clear that no […]",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "Enterprise networks are experiencing severe strain from AI deployment; agentic AI tasks generate an estimated 450% more network traffic than equivalent tasks performed by human workers, raising infrastructure concerns.",
+   "aiSummary": "AI agents capable of reverse-engineering and modifying synthesizer code are disrupting the music gear industry, forcing companies to decide how to respond to community-driven modifications enabled by these tools. Some manufacturers like Roland have stayed silent while others have engaged with modders.",
    "whyMatters": [
-    "Signals major operational and infrastructure costs organizations will face scaling AI and agentic systems",
-    "Affects IT strategy and enterprise budgeting as AI becomes the largest source of network demand"
+    "Shows how AI-enabled tools are shifting power dynamics between manufacturers and user communities in hardware markets",
+    "Raises questions about intellectual property, openness, and business models in industries where AI can facilitate rapid modification and sharing of proprietary designs"
    ]
   },
   {
@@ -843,26 +915,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Claude AI can review pull requests and ship fixes on its own now",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-23T17:10:02+00:00",
-   "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Anthropic has launched Claude Ship, which includes new features allowing Claude to independently review, fix, and approve pull requests in software development workflows.",
-   "whyMatters": [
-    "Extends AI autonomy into code deployment decisions, reducing human review steps in software engineering",
-    "Raises questions about liability and verification standards when AI makes independent decisions on production code"
-   ]
-  },
-  {
    "title": "Finding faster quantum algorithms with agents and formal verification",
    "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
    "source": "Google DeepMind",
@@ -1021,26 +1073,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals shift toward on-device AI processing rather than cloud dependency, with real consumer hardware",
     "Raises questions about privacy and control when AI runs locally, relevant for educators and institutions handling sensitive data"
-   ]
-  },
-  {
-   "title": "States Sue SpaceX Over Grok Deepfakes",
-   "link": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-23T11:00:00+00:00",
-   "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "Attorneys general from Oregon and Virginia filed lawsuits against SpaceX and other Musk companies over inadequate safeguards in Grok (the AI chatbot) against generating sexualized deepfakes of real people, including children.",
-   "whyMatters": [
-    "First major state-level legal action targeting specific AI safety failures at scale",
-    "Establishes precedent that image generation safeguards are enforceable consumer protection matters, not just voluntary industry practice"
    ]
   },
   {
@@ -2346,26 +2378,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
-   "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-16T22:58:27+00:00",
-   "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "A robotics startup backed by Eric Trump missed payroll and faces potential collapse, following earlier revelations that the CEO misused company funds for personal luxury purchases. The company's financial troubles have become acute.",
-   "whyMatters": [
-    "Illustrates governance and fraud risks in AI/robotics funding even with prominent backing",
-    "Raises questions about investor due diligence and oversight in a rapidly funded sector"
-   ]
-  },
-  {
    "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
    "link": "https://latent.space/p/bfl/",
    "source": "Latent Space",
@@ -2906,25 +2918,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Makes AI weather forecasting reproducible and transparent by opening training data to researchers",
     "Advances climate science and environmental monitoring by democratizing access to satellite data infrastructure"
-   ]
-  },
-  {
-   "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
-   "link": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-10T06:34:44+00:00",
-   "summary": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Claude Fable 5.2 achieved top rankings on AI benchmarks the same day Anthropic began its IPO roadshow, alongside a sister model Mythos 5.2. The release raises questions about pricing extended reasoning capabilities.",
-   "whyMatters": [
-    "Marks a competitive milestone in the LLM landscape with commercial implications",
-    "IPO context reflects AI industry consolidation and investment pressures affecting safety priorities",
-    "Performance benchmarks influence institutional adoption decisions for educational and organizational use"
    ]
   },
   {
