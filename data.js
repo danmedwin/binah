@@ -1,34 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-24T19:38:16.115875+00:00",
+ "generatedAt": "2026-11-25T01:16:52.544837+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-24T19:39:30.302747+00:00",
+  "generatedAt": "2026-11-25T01:17:09.048403+00:00",
   "bullets": [
    {
-    "text": "Nvidia CEO Jensen Huang reinstated after 11 days, with White House officials citing national security concerns and reportedly pressuring the board despite recent allegations of affairs.",
+    "text": "Jensen Huang returned as Nvidia CEO within days of resigning over alleged affairs, reportedly with Trump administration backing citing national security concerns about Nvidia's strategic importance.",
     "links": [
-     "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+     "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
      "https://podcasters.spotify.com/pod/show/nlw/episodes/Too-Big-to-Fire-Jensen-Huang-Is-Back-as-Nvidia-CEO-e3ssrpk",
      "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
     ]
    },
    {
-    "text": "Tidal will delete ~27 million AI-generated tracks and ban new AI music uploads starting December, escalating music industry pushback against synthetic content.",
+    "text": "AI agents demonstrated significant new capabilities: hacking zero-day vulnerabilities with minimal human input, designing proteins with laboratory-confirmed binding activity, and autonomously solving century-old mathematical problems.",
+    "links": [
+     "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+     "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "https://www.wired.com/story/ai-solved-maths-most-famous-problem/"
+    ]
+   },
+   {
+    "text": "Tidal will delete ~27 million AI-generated tracks and ban new AI music uploads, while streaming platforms and software makers face mounting pressure on AI content and feature transparency.",
     "links": [
      "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+     "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
     ]
    },
    {
-    "text": "Anthropic's AI agents successfully identified a zero-day vulnerability with minimal human input, demonstrating autonomous attack capabilities that concern enterprise security.",
+    "text": "Multiple state attorneys general sued SpaceX to block Grok from generating child sexual abuse material and revenge porn, highlighting inadequate safeguards in generative AI systems despite company claims.",
     "links": [
-     "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
-    ]
-   },
-   {
-    "text": "An AI solved the Riemann hypothesis in a 17-million-line proof too complex for humans to verify, raising questions about whether computational solutions constitute mathematical understanding.",
-    "links": [
-     "https://www.wired.com/story/ai-solved-maths-most-famous-problem/"
+     "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+     "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
     ]
    }
   ]
@@ -80,6 +84,121 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
+   "link": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-24T23:39:04+00:00",
+   "summary": "Nvidia’s place at the center of the US economy may have outweighed concerns about its CEO’s ties to a suspected Chinese intelligence asset, national security and foreign policy experts say.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Nvidia's dominant position in the US AI infrastructure landscape appears to have shielded CEO Jensen Huang from consequences related to alleged ties to a suspected Chinese intelligence asset, according to national security experts cited by Wired. The company's centrality to American economic and technological interests may have outweighed foreign policy concerns.",
+   "whyMatters": [
+    "Raises questions about accountability and national security vetting when companies reach critical infrastructure status",
+    "Signals that geopolitical risk management may take backseat to economic dependencies in US policy",
+    "Affects trust in institutions' ability to enforce consistent standards across leadership"
+   ]
+  },
+  {
+   "title": "Three LLM inflection points in twelve months",
+   "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-24T23:02:07+00:00",
+   "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply. Coding agents in November 2025 Today, Novemb",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/fable-class.webp",
+   "themes": [],
+   "aiSummary": "Simon Willison identified three major inflection points in large language model and coding agent capabilities over the past twelve months, presented in a keynote at the AI Engineer Code Summit. He published a video and writeup exploring what these inflection points reveal about LLM development trajectories.",
+   "whyMatters": [
+    "Helps developers and researchers understand pace and pattern of capability improvements in AI tooling",
+    "Relevant to educators teaching AI: inflection points mark moments when AI agents' usefulness for coding tasks shifted meaningfully",
+    "Provides concrete framework for tracking progress beyond hype"
+   ]
+  },
+  {
+   "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-24T21:41:37+00:00",
+   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jensen Huang, Nvidia's CEO, returned to leadership after initially stepping down following disclosure of an affair with Megaspeed executive Alice Huang; a subsequent New York Times report alleged another affair with an Nvidia executive reporting to him.",
+   "whyMatters": [
+    "Reflects corporate governance and board decision-making under public and media pressure",
+    "Impacts Nvidia's leadership stability and workplace culture at a critical moment for the company"
+   ]
+  },
+  {
+   "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+   "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-24T20:52:19+00:00",
+   "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "During his first all-hands meeting since returning as Nvidia CEO, Jensen Huang apologized to staff and denied that the Trump White House or tech leaders directly intervened to restore his position, contradicting some reporting on the circumstances. The meeting occurred amid ongoing scrutiny of his rehiring.",
+   "whyMatters": [
+    "Addresses internal company narrative and morale during period of external controversy",
+    "Reflects broader tension between official explanations and media reporting on CEO restoration",
+    "Matters for stakeholders trying to understand what actually happened versus spin"
+   ]
+  },
+  {
+   "title": "What's going on with the Riemann hypothesis?",
+   "link": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+   "source": "Ars Technica · AI",
+   "category": "ai",
+   "date": "2026-11-24T20:34:53+00:00",
+   "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "An AI-assisted mathematical proof of the Riemann hypothesis has emerged and appears mathematically sound, though the proof's significance and what it reveals about mathematical understanding remain unclear. Ars Technica examines the proof's validity and implications.",
+   "whyMatters": [
+    "Demonstrates AI's expanding capability in formal mathematics and proof verification",
+    "Raises epistemological questions for education: does AI-assisted proof count the same way, and what does it teach students about mathematical reasoning?",
+    "Unclear whether the proof advances human understanding or simply verifies a conjecture computationally"
+   ]
+  },
+  {
+   "title": "AI Just Made History in the Middle of a Meltdown",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Just-Made-History-in-the-Middle-of-a-Meltdown-e3sv3tf",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-24T20:12:22+00:00",
+   "summary": "Claude may have helped prove the Riemann hypothesis just as the Nvidia scandal and Anthropic’s IPO are fueling a backlash over who profits from AI and who gets to call the shots. In the headlines: Grok falls behind and Z.ai previews GLM 5.4. New Episode: How Anthropic Went from AI Safety Outcast to World's Most Important Company Spotify: ⁠https://open.spotify.com/episode/1MJpqbn3HWleuU9fUoeCX7⁠ Ap",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/130043247/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F437541143-44100-2-3f2cc326c94d7.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "Anthropic's Claude may have contributed to proving the Riemann hypothesis while the AI industry faces backlash over Nvidia's governance issues and Anthropic's IPO, centering debates about AI profits and decision-making power. The timing highlights tensions between AI capability breakthroughs and industry accountability concerns.",
+   "whyMatters": [
+    "Creates awkward framing: major mathematical achievement overshadowed by corporate and governance controversies",
+    "Raises stakes for AI ethics and governance: breakthroughs alone don't resolve questions about who profits and who controls AI development",
+    "Relevant to clergy and educators considering AI's role in institutions: success without trust creates long-term problems"
+   ]
+  },
+  {
    "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
    "link": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
    "source": "Ars Technica · AI",
@@ -104,7 +223,7 @@ window.NEWS_DATA = {
    "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
    "source": "The Verge · AI",
    "category": "ai",
-   "date": "2026-11-24T18:12:33+00:00",
+   "date": "2026-11-24T18:38:16+00:00",
    "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it […]",
    "religionScore": 0,
    "religionHits": [],
@@ -123,7 +242,7 @@ window.NEWS_DATA = {
    "source": "Wired · AI",
    "category": "ai",
    "date": "2026-11-24T17:44:53+00:00",
-   "summary": "The reinstated Nvidia CEO acknowledged violating the company’s code of conduct and said he had made some “very serious personal mistakes.”",
+   "summary": "The Nvidia CEO opened up about his personal life, defended his reinstatement, and acknowledged that his intense management style had hurt his staff.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
@@ -205,24 +324,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Raises transparency and informed consent concerns about AI integration in professional creative tools",
     "Affects creatives: unclear how AI-assisted features impact their work, intellectual property, and professional standards"
-   ]
-  },
-  {
-   "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-24T16:21:52+00:00",
-   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jensen Huang, Nvidia's CEO, returned to leadership after initially stepping down following disclosure of an affair with Megaspeed executive Alice Huang; a subsequent New York Times report alleged another affair with an Nvidia executive reporting to him.",
-   "whyMatters": [
-    "Reflects corporate governance and board decision-making under public and media pressure",
-    "Impacts Nvidia's leadership stability and workplace culture at a critical moment for the company"
    ]
   },
   {
@@ -315,6 +416,25 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Represents emerging application of generative AI for hyper-personalized media consumption",
     "Raises privacy and consent questions about personalized content generation and deepfake-adjacent use cases"
+   ]
+  },
+  {
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-24T13:00:00+00:00",
+   "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI's GPT-6 models can now design protein structures and sequences by using reasoning and code generation, with laboratory testing confirming binding activity across five protein targets. This demonstrates practical capability in computational biology without specialized training.",
+   "whyMatters": [
+    "Expands AI application from language and coding into wet-lab relevant domains like drug discovery and bioengineering",
+    "Could accelerate protein design workflows but raises questions about validation, safety testing, and who controls access to such tools",
+    "Matters for science education: students may soon use AI for initial hypothesis generation in structural biology"
    ]
   },
   {
@@ -497,6 +617,25 @@ window.NEWS_DATA = {
    ]
   },
   {
+   "title": "Clay helps sales teams win with Codex and ChatGPT",
+   "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-24T00:00:00+00:00",
+   "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Clay integrated ChatGPT and Codex (now part of GPT models) to help sales teams conduct deal research and develop go-to-market strategies, with GPT-6 handling the reasoning tasks. Users can convert raw data into actionable sales insights through these integrations.",
+   "whyMatters": [
+    "Shows AI embedding into specific business workflows rather than remaining general-purpose",
+    "Relevant to business education and vocational training: students entering sales roles will work with AI-augmented research tools",
+    "Practical use case that likely influences hiring and skillset expectations in the sales function"
+   ]
+  },
+  {
    "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
    "link": "https://simonwillison.net/2026/Nov/23/glm-54/",
    "source": "Simon Willison",
@@ -624,26 +763,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI infrastructure's energy demands create direct conflict with climate commitments globally",
     "Policy and infrastructure challenges of AI scaling require coordination across nations and industries"
-   ]
-  },
-  {
-   "title": "How Jensen Huang ended up as Nvidia CEO again",
-   "link": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-23T20:38:44+00:00",
-   "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfaithful\" to his wife […]",
-   "religionScore": 2,
-   "religionHits": [
-    "faith"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Jensen Huang resigned as Nvidia CEO on November 12 following scrutiny over alleged affairs and admitted infidelity to his wife, but after pressure from Trump and Vance, Huang was reinstated as CEO less than two weeks later.",
-   "whyMatters": [
-    "Major leadership disruption and reinstatement at a core AI infrastructure company within days",
-    "Demonstrates political influence overriding typical corporate governance consequences for misconduct"
    ]
   },
   {
@@ -922,24 +1041,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "First major state-level legal action targeting specific AI safety failures at scale",
     "Establishes precedent that image generation safeguards are enforceable consumer protection matters, not just voluntary industry practice"
-   ]
-  },
-  {
-   "title": "Goodbye, World: The End of Programmers",
-   "link": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-23T10:00:00+00:00",
-   "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A Wired article reflects on the future of programming as a craft in light of AI's impact on the profession.",
-   "whyMatters": [
-    "Commentary on structural change to software development work caused by AI tooling",
-    "Signals broader concern about AI's displacement effects on technical skilled labor"
    ]
   },
   {
@@ -1548,24 +1649,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Get started with Daybreak Blue",
-   "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-19T00:00:00+00:00",
-   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI is providing onboarding documentation and walkthrough for Daybreak Blue, a tool for getting started with supervised AI security investigations.",
-   "whyMatters": [
-    "Makes security investigation tooling more accessible to organizations new to red-teaming",
-    "Part of OpenAI's effort to democratize AI safety validation beyond research teams"
-   ]
-  },
-  {
    "title": "See PR scans in action",
    "link": "https://openai.com/business/learn/pr-scans-demo",
    "source": "OpenAI News",
@@ -1581,6 +1664,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Embeds AI security checks into standard developer workflows",
     "Makes AI-assisted code security accessible to development teams without requiring separate tools or expertise"
+   ]
+  },
+  {
+   "title": "Deploying Daybreak Red",
+   "link": "https://openai.com/business/learn/deploying-daybreak-red",
+   "source": "OpenAI News",
+   "category": "ai",
+   "date": "2026-11-19T00:00:00+00:00",
+   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "OpenAI has released Daybreak Red, a reference architecture for conducting supervised security investigations of AI systems, including built-in safety controls, setup guidance, and monitoring tools.",
+   "whyMatters": [
+    "Provides tooling for red-teaming and security testing of AI models",
+    "Reflects industry focus on safety validation and adversarial testing as AI systems become more capable"
    ]
   },
   {
@@ -1602,21 +1703,21 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Deploying Daybreak Red",
-   "link": "https://openai.com/business/learn/deploying-daybreak-red",
+   "title": "Get started with Daybreak Blue",
+   "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
    "source": "OpenAI News",
    "category": "ai",
    "date": "2026-11-19T00:00:00+00:00",
-   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
    "religionScore": 0,
    "religionHits": [],
    "audio": "",
    "image": "",
    "themes": [],
-   "aiSummary": "OpenAI has released Daybreak Red, a reference architecture for conducting supervised security investigations of AI systems, including built-in safety controls, setup guidance, and monitoring tools.",
+   "aiSummary": "OpenAI is providing onboarding documentation and walkthrough for Daybreak Blue, a tool for getting started with supervised AI security investigations.",
    "whyMatters": [
-    "Provides tooling for red-teaming and security testing of AI models",
-    "Reflects industry focus on safety validation and adversarial testing as AI systems become more capable"
+    "Makes security investigation tooling more accessible to organizations new to red-teaming",
+    "Part of OpenAI's effort to democratize AI safety validation beyond research teams"
    ]
   },
   {
@@ -2208,26 +2309,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Introducing ChatGPT for Sales",
-   "link": "https://openai.com/index/introducing-chatgpt-for-sales",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-17T08:00:00+00:00",
-   "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI introduced ChatGPT for Sales, a new plugin enabling sales teams to research prospects, prepare pitches, and manage CRM updates through the platform.",
-   "whyMatters": [
-    "Expands ChatGPT's commercial application into enterprise sales workflows",
-    "Signals OpenAI's focus on integrating AI into established business processes"
-   ]
-  },
-  {
    "title": "Quoting Go Proverbs",
    "link": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
    "source": "Simon Willison",
@@ -2242,24 +2323,6 @@ window.NEWS_DATA = {
    "aiSummary": "A reference to a Go programming proverb stating \"A little copying is better than a little dependency\" was shared as a quote.",
    "whyMatters": [
     "Reflects software engineering philosophy rather than AI-specific news; minimal relevance to AI landscape or practice"
-   ]
-  },
-  {
-   "title": "Strengthening NATO and allied cyber defenses with AI",
-   "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-   "source": "OpenAI News",
-   "category": "ai",
-   "date": "2026-11-17T00:00:00+00:00",
-   "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "OpenAI announced it is working with NATO and allied cyber agencies to help defensive teams identify vulnerabilities, test security patches, and protect critical infrastructure using AI tools. The partnership focuses on strengthening allied cyber defenses.",
-   "whyMatters": [
-    "Demonstrates AI deployment in national security and critical infrastructure protection",
-    "Represents formal institutional adoption of AI by Western military and defense alliances"
    ]
   },
   {
@@ -2338,24 +2401,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "IPO and leadership changes affect investor confidence and capital allocation across AI sector",
     "Congressional action could establish precedent for regulatory frameworks governing AI development and company governance"
-   ]
-  },
-  {
-   "title": "US moves to cut China’s remote access to AI chips",
-   "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-   "source": "Ars Technica · AI",
-   "category": "ai",
-   "date": "2026-11-16T19:10:09+00:00",
-   "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Trump administration is moving to restrict China's remote access capabilities to US-designed AI chips, betting that China will accept these limitations. The measure targets a specific technical vulnerability in chip control.",
-   "whyMatters": [
-    "Core US national security strategy around AI chip export and intellectual property",
-    "Will affect global AI development dynamics and China's access to frontier computing resources"
    ]
   },
   {
@@ -2450,24 +2495,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "AI-assisted development is accelerating open-source project timelines",
     "Streaming support improves practical usability for data export at scale"
-   ]
-  },
-  {
-   "title": "datasette 0.65.6",
-   "link": "https://simonwillison.net/2026/Nov/15/datasette-2/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-15T23:18:17+00:00",
-   "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Datasette 0.65.6 backports a security fix from the 1.0 branch that prevented unauthorized database downloads when a database's route parameter differs from its name. This was a minor but real vulnerability.",
-   "whyMatters": [
-    "Security fixes matter for any data-facing tool, especially in professional use",
-    "Shows attention to security even in stable branches"
    ]
   },
   {
@@ -3371,24 +3398,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Advances physics simulation and game engine technology by using learned models instead of hand-coded rules",
     "Potential applications in robotics training, game development, and scientific simulation, though real-world grounding remains a research question"
-   ]
-  },
-  {
-   "title": "4 Questions for AI This Week",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/4-Questions-for-AI-This-Week-e3r4p63",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-26T19:49:36+00:00",
-   "summary": "Is China closing the AI gap? Is cyber chaos the new normal? Is data center funding drying up? And what happens if Anthropic’s IPO disappoints? From Kimi K3.1 to rogue agent swarms to Elon Musk’s debt market warning, NLW examines the four questions shaping AI this week. Listen to the new How We Got Here with NLW: ⁠https://podcasts.apple.com/us/podcast/how-we-got-here-with-nlw/id6822359990⁠ ⁠https:/",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128131715/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-26%2F435051380-44100-2-16afd38d48655.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [],
-   "aiSummary": "An episode of The AI Daily Brief examines four key questions shaping AI: whether China is closing the AI gap, whether cyber chaos is becoming normalized, whether data center funding is declining, and what an Anthropic IPO disappointment would mean. It references recent events including Kimi K3.1 and autonomous agent systems.",
-   "whyMatters": [
-    "Frames the current industry moment around infrastructure, geopolitics, and market stability concerns",
-    "Shows investor and industry focus shifting from capability announcements to sustainability and competitive positioning"
    ]
   },
   {
