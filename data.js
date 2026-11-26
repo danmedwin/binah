@@ -1,91 +1,165 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-26T00:51:57.733632+00:00",
+ "generatedAt": "2026-11-26T13:04:55.307513+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-26T00:52:34.083668+00:00",
+  "generatedAt": "2026-11-26T13:05:10.457915+00:00",
   "bullets": [
    {
-    "text": "AI systems now solve complex mathematics—Riemann hypothesis, matrix multiplication improvements—faster than humans can verify them, reshaping theoretical fields including physics.",
+    "text": "Meta is stonewalling UK regulators over its Muse AI shopping agent, refusing joint testing before UK launch—the FCA warns this regulatory defiance represents a new risk vector as AI agents scale into commerce.",
     "links": [
-     "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
-     "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
-     "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+     "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
     ]
    },
    {
-    "text": "Nvidia CEO Jensen Huang reinstated after 11 days, with White House citing national security concerns, raising questions about whether geopolitical pressure now drives AI governance decisions.",
+    "text": "Forty-two state AGs are blocking Character.AI from selling 21 million users' private chat histories in bankruptcy, signaling aggressive legal pushback against data monetization schemes involving intimate AI conversations.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Too-Big-to-Fire-Jensen-Huang-Is-Back-as-Nvidia-CEO-e3ssrpk",
-     "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
+     "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
     ]
    },
    {
-    "text": "FCC approved SpaceX's plan to deploy up to 1 million AI-equipped satellites as orbital data centers, marking the first regulatory approval for space-based AI infrastructure.",
+    "text": "Amazon and Meta are negotiating to let Muse access Amazon's marketplace after Amazon's initial block, reshaping e-commerce competition as AI shopping agents demand platform access.",
     "links": [
-     "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+     "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
     ]
    },
    {
-    "text": "Tidal will ban AI-generated music and delete 27 million AI tracks starting December 9, creating first major streaming platform rejection of synthetic content.",
+    "text": "Deepfakes of Jensen Huang (some with 6 million Instagram views) show generative AI slop now targets real executives at scale, complicating corporate communication and reputation management.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
-    ]
-   },
-   {
-    "text": "Google developing personalized 24/7 AI TV channel generating custom shows with users as protagonists, alongside patent for algorithmic video feeds, signaling entertainment's generative future.",
-    "links": [
-     "https://www.404media.co/google-wants-to-make-a-24-7-ai-tv-channel-youll-be-the-main-character/",
-     "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent"
+     "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
     ]
    }
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-25T13:26:10.396021+00:00",
+  "generatedAt": "2026-11-26T13:05:10.457915+00:00",
   "bullets": [
    {
-    "text": "Frontier AI now solves theoretical physics and advanced mathematics problems autonomously—including protein design and quantum algorithms—that previously required expert months of work, reshaping how scientists approach discovery.",
+    "text": "Meta is stonewalling UK regulators over its Muse AI shopping agent, refusing joint testing before UK launch—the FCA warns this regulatory defiance represents a new risk vector as AI agents scale into commerce.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-     "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-     "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+     "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
     ]
    },
    {
-    "text": "Jensen Huang returned as Nvidia CEO within days after his resignation, reportedly backed by Trump and national-security arguments; critics see it as elite impunity undermining governance accountability at a company critical to U.S. AI infrastructure.",
+    "text": "Forty-two state AGs are blocking Character.AI from selling 21 million users' private chat histories in bankruptcy, signaling aggressive legal pushback against data monetization schemes involving intimate AI conversations.",
     "links": [
-     "https://podcasters.spotify.com/pod/show/nlw/episodes/Too-Big-to-Fire-Jensen-Huang-Is-Back-as-Nvidia-CEO-e3ssrpk",
-     "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
-     "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+     "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
     ]
    },
    {
-    "text": "Tidal will delete ~27 million AI-generated tracks and ban new uploads starting December, marking the first major streaming platform to reject AI-generated content entirely rather than merely demoting or labeling it.",
+    "text": "Amazon and Meta are negotiating to let Muse access Amazon's marketplace after Amazon's initial block, reshaping e-commerce competition as AI shopping agents demand platform access.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+     "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
     ]
    },
    {
-    "text": "AI agents are now exploiting zero-day vulnerabilities with minimal human input, and hacking tools like ARTEX remain impossible to contain despite removal attempts—raising operational security risks as autonomy scales.",
+    "text": "Deepfakes of Jensen Huang (some with 6 million Instagram views) show generative AI slop now targets real executives at scale, complicating corporate communication and reputation management.",
     "links": [
-     "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-     "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github/"
+     "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-25T13:26:05.660465+00:00",
+  "updatedAt": "2026-11-26T13:05:05.866343+00:00",
   "voteCount": 7,
   "bullets": [
-   "Interested in AI ethics and moral/religious leadership perspectives on technology",
-   "Drawn to substantive product analysis (Apple's AI legacy, Waze features) rather than technical release notes",
-   "Prefers stories with clear business or societal impact over developer-focused tooling announcements"
+   "Interested in AI ethics and moral/religious frameworks for AI governance",
+   "Drawn to AI's real-world applications and business implications (Apple hardware, navigation features)",
+   "Prefers substantive tech analysis over release notes and technical documentation"
   ]
  },
  "items": [
+  {
+   "title": "Jensen Huang deepfakes are the hot new AI slop",
+   "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-26T12:29:18+00:00",
+   "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "AI-generated deepfakes of Jensen Huang are circulating on social media, including a video with nearly 6 million Instagram views showing him in fabricated scenarios, some involving Alice Huang.",
+   "whyMatters": [
+    "Illustrates deepfake proliferation and misinformation risks in high-profile contexts",
+    "Raises concerns about AI-generated content moderation and the difficulty of distinguishing authentic from fabricated media at scale"
+   ]
+  },
+  {
+   "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+   "link": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+   "source": "Wired · AI",
+   "category": "ai",
+   "date": "2026-11-26T10:51:27+00:00",
+   "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The UK Financial Conduct Authority has criticized Meta for refusing to share its Muse personal AI agent for joint testing before the company's planned UK rollout. The FCA warned that this lack of regulatory collaboration represents another risk vector for AI agent deployment.",
+   "whyMatters": [
+    "Highlights regulatory friction between tech companies and financial watchdogs over AI safety testing before market launch",
+    "Reflects growing tension between rapid AI deployment and regulatory oversight in jurisdictions like the UK"
+   ]
+  },
+  {
+   "title": "Humans in a Post-Human World",
+   "link": "https://share.transistor.fm/s/45701c1a",
+   "source": "Practical AI",
+   "category": "podcast",
+   "date": "2026-11-26T10:00:00+00:00",
+   "summary": "I’ve spent more than forty years writing software. AI agents now write it better than I do. My daughter Athena is fourteen and earns straight A’s in high school. How do I help her choose a career when her AI study partner will likely do that work better than she can? Today those agents are my teammates, and I still decide what we’re trying to build. If machines eventually do all the work, where do",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/45701c1a/c3f3fb4a.mp3",
+   "image": "https://img.transistorcdn.com/Mefc_SaFfVSSZQCRS1_qN4WT1sgjGp-FvlDgwld98ZY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83YjQy/MGEzZjczMmRjYjli/NGUyYTdmODMzNzQ4/YjhmNS5wbmc.jpg",
+   "themes": [],
+   "aiSummary": "A software engineer reflects on how AI agents now outperform him at coding tasks he spent forty years mastering, and raises the question of how to guide his teenage daughter toward meaningful work when AI will likely exceed human capabilities in most domains.",
+   "whyMatters": [
+    "Surfaces urgent questions about career guidance and education in an age of AI capability displacement",
+    "Relevant to educators and parents making decisions about student preparation for a rapidly shifting job landscape"
+   ]
+  },
+  {
+   "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+   "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-26T09:54:40+00:00",
+   "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Forty-two state attorneys general are seeking to block Character.AI from selling user data as part of its bankruptcy proceedings, specifically the private chat histories of over 21 million U.S. accounts.",
+   "whyMatters": [
+    "Major privacy enforcement action signaling coordinated state-level pushback against data monetization in AI bankruptcy cases",
+    "Establishes legal precedent for protecting user conversations with AI systems as sensitive personal information"
+   ]
+  },
+  {
+   "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+   "link": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-26T06:08:25+00:00",
+   "summary": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the bac",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "SQLite has introduced a sqlite3_rsync tool, added as experimental in October 2024 and enhanced in May 2025, that simplifies remote copying of SQLite databases without traditional backup procedures.",
+   "whyMatters": [
+    "Minor infrastructure improvement; not directly relevant to your audience"
+   ]
+  },
   {
    "title": "Quoting Scott Aaronson",
    "link": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
@@ -176,6 +250,23 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses need for accessible education on AI impacts for general audiences and families",
     "Suggests practical use cases for AI that resonate with everyday frustrations"
+   ]
+  },
+  {
+   "title": "datasette-charts 0.3a0",
+   "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-25T18:16:50+00:00",
+   "summary": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite , where you can tweak the annotations using the chart builder UI: If you also install Datasette Agent the agent can build an",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/chart-with-annotations.webp",
+   "themes": [],
+   "aiSummary": "An update to datasette-charts adds the ability to annotate charts with lines, shaded areas, and labels, with a UI builder available in Datasette Lite and integration with Datasette Agent for autonomous chart construction.",
+   "whyMatters": [
+    "Incremental tool improvement; not directly relevant to your audience"
    ]
   },
   {
@@ -550,44 +641,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The New York Times warns photographers not to update Photoshop over AI features",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-24T16:52:41+00:00",
-   "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The New York Times warned freelance photographers not to update to Adobe Photoshop 2027 because its new features employ AI in ways that may not be transparent to users.",
-   "whyMatters": [
-    "Raises transparency and informed consent concerns about AI integration in professional creative tools",
-    "Affects creatives: unclear how AI-assisted features impact their work, intellectual property, and professional standards"
-   ]
-  },
-  {
-   "title": "Jensen Huang deepfakes are the hot new AI slop",
-   "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-24T16:18:12+00:00",
-   "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "AI-generated deepfakes of Jensen Huang are circulating on social media, including a video with nearly 6 million Instagram views showing him in fabricated scenarios, some involving Alice Huang.",
-   "whyMatters": [
-    "Illustrates deepfake proliferation and misinformation risks in high-profile contexts",
-    "Raises concerns about AI-generated content moderation and the difficulty of distinguishing authentic from fabricated media at scale"
-   ]
-  },
-  {
    "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
    "link": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
    "source": "Wired · AI",
@@ -766,6 +819,23 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows AI achieving breakthroughs in pure mathematics that exceed human interpretability",
     "Raises questions about what it means to 'solve' a problem when the solution cannot easily be validated or understood by human experts"
+   ]
+  },
+  {
+   "title": "datasette-charts 0.2a1",
+   "link": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-24T06:07:19+00:00",
+   "summary": "Release: datasette-charts 0.2a1 Minor UI improvements: Collapsing the suggested charts section now leaves the chart visible. Following a link to a chart opens it with the suggestions collapsed for that visit. On table pages the panel now sits below the \"4,235 rows where country = CHN\" line. The \"Data\" table under each chart has been replaced by Copy TSV and Copy CSV buttons. Removed the \"Chart thi",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "A minor UI update to datasette-charts improves chart navigation and data export options.",
+   "whyMatters": [
+    "Routine software release; not directly relevant to your audience"
    ]
   },
   {
@@ -1172,24 +1242,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
-   "link": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
-   "source": "Wired · AI",
-   "category": "ai",
-   "date": "2026-11-23T12:00:00+00:00",
-   "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Wired is hosting a livestream on December 2 where experts will discuss AI safety risks and whether the industry will implement adequate protections, inviting audience questions.",
-   "whyMatters": [
-    "Addresses the fundamental disconnect between documented AI risks and industry action on safety",
-    "Signals mainstream tech media treating AI safety as urgent enough for expert dialogue format"
-   ]
-  },
-  {
    "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
    "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
    "source": "Ars Technica · AI",
@@ -1444,24 +1496,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Proves a concrete privacy vulnerability in current AI data handling practices",
     "Has implications for institutions handling sensitive information used in training or fine-tuning models"
-   ]
-  },
-  {
-   "title": "Podcast: I Spoke to an AI Fraud Kingpin",
-   "link": "https://www.404media.co/podcast-i-spoke-to-an-ai-fraud-kingpin/",
-   "source": "404 Media",
-   "category": "ai",
-   "date": "2026-11-20T20:12:51+00:00",
-   "summary": "The man who created OnlyFake; a Muse agent is suing Meta; and the Justice Department is using Pangram.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "404 Media podcast features an interview with the creator of OnlyFake (an AI fraud tool), discusses a Muse agent lawsuit against Meta, and reports the Justice Department's use of Pangram, touching on AI-enabled fraud and law enforcement applications.",
-   "whyMatters": [
-    "Highlights criminal use of AI for identity and financial fraud at scale",
-    "Shows law enforcement adoption of AI tools alongside criminal misuse"
    ]
   },
   {
@@ -2457,43 +2491,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "Quoting Go Proverbs",
-   "link": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-17T06:16:26+00:00",
-   "summary": "A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "A reference to a Go programming proverb stating \"A little copying is better than a little dependency\" was shared as a quote.",
-   "whyMatters": [
-    "Reflects software engineering philosophy rather than AI-specific news; minimal relevance to AI landscape or practice"
-   ]
-  },
-  {
-   "title": "llm 0.37.3",
-   "link": "https://simonwillison.net/2026/Nov/16/llm/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-16T23:57:26+00:00",
-   "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {\"a\":[1]} But in 3.54.1 the same query returns this: {\"a\":",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison released LLM 0.37.3, a bug fix addressing a compatibility issue with SQLite 3.54.1 included in the latest Homebrew distribution. The update corrects broken logging code that resulted from changes in SQLite's JSON object handling.",
-   "whyMatters": [
-    "Affects developers using LLM via Homebrew who rely on the tool for database work and logging",
-    "Demonstrates how dependencies in AI/data tooling can introduce unexpected breaks across ecosystems"
-   ]
-  },
-  {
    "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
    "link": "https://latent.space/p/bfl/",
    "source": "Latent Space",
@@ -2583,26 +2580,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Signals shift from experimental AI to mission-critical deployment in business operations",
     "Organizations need new frameworks for governance and coordination as AI becomes operationally embedded"
-   ]
-  },
-  {
-   "title": "datasette-maplibre 0.1a0",
-   "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-15T23:58:36+00:00",
-   "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "Simon Willison released datasette-maplibre 0.1a0, a new geospatial plugin for Datasette that combines the MapLibre GL mapping library with OpenFreeMap. He built most of it using Claude to help write the code based on existing similar plugins.",
-   "whyMatters": [
-    "Shows practical use of LLMs for developer productivity in building open-source tools",
-    "Extends Datasette's capabilities for geographic data visualization and analysis"
    ]
   },
   {
