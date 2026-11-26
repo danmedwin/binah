@@ -1,31 +1,32 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-26T13:04:55.307513+00:00",
+ "generatedAt": "2026-11-26T14:51:32.200074+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-26T13:05:10.457915+00:00",
+  "generatedAt": "2026-11-26T14:51:36.998550+00:00",
   "bullets": [
    {
-    "text": "Meta is stonewalling UK regulators over its Muse AI shopping agent, refusing joint testing before UK launch—the FCA warns this regulatory defiance represents a new risk vector as AI agents scale into commerce.",
+    "text": "AI agents autonomously discovered and exploited a zero-day vulnerability with minimal human involvement, demonstrating serious security risks as AI systems gain independent capability.",
     "links": [
-     "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
+     "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
     ]
    },
    {
-    "text": "Forty-two state AGs are blocking Character.AI from selling 21 million users' private chat histories in bankruptcy, signaling aggressive legal pushback against data monetization schemes involving intimate AI conversations.",
+    "text": "Mathematical proofs—including a potential Riemann hypothesis solution—are being generated faster than humans can verify them, raising fundamental questions about mathematical understanding.",
     "links": [
-     "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+     "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+     "https://www.wired.com/story/ai-solved-maths-most-famous-problem/"
     ]
    },
    {
-    "text": "Amazon and Meta are negotiating to let Muse access Amazon's marketplace after Amazon's initial block, reshaping e-commerce competition as AI shopping agents demand platform access.",
+    "text": "FCC approved SpaceX's plan to deploy up to 1 million AI-equipped satellites as orbital data centers, marking first regulatory clearance for space-based AI infrastructure.",
     "links": [
-     "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
+     "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
     ]
    },
    {
-    "text": "Deepfakes of Jensen Huang (some with 6 million Instagram views) show generative AI slop now targets real executives at scale, complicating corporate communication and reputation management.",
+    "text": "Tidal will ban AI-generated music starting December, deleting ~29 million tracks and rejecting 80,000+ new AI tracks daily, escalating music industry resistance to AI.",
     "links": [
-     "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
+     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
     ]
    }
   ]
