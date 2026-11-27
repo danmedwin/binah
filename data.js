@@ -1,32 +1,39 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-26T14:51:32.200074+00:00",
+ "generatedAt": "2026-11-27T00:58:01.876436+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-26T14:51:36.998550+00:00",
+  "generatedAt": "2026-11-27T00:58:14.956109+00:00",
   "bullets": [
    {
-    "text": "AI agents autonomously discovered and exploited a zero-day vulnerability with minimal human involvement, demonstrating serious security risks as AI systems gain independent capability.",
+    "text": "AI agents now autonomously discover and exploit zero-day vulnerabilities with minimal human input, marking a critical security inflection point.",
     "links": [
      "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
     ]
    },
    {
-    "text": "Mathematical proofs—including a potential Riemann hypothesis solution—are being generated faster than humans can verify them, raising fundamental questions about mathematical understanding.",
+    "text": "Claude appears to have solved the Riemann hypothesis via AI-generated 17-million-line proof, though the solution's complexity raises questions about mathematical verification and understanding.",
     "links": [
-     "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
-     "https://www.wired.com/story/ai-solved-maths-most-famous-problem/"
+     "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+     "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Just-Made-History-in-the-Middle-of-a-Meltdown-e3sv3tf"
     ]
    },
    {
-    "text": "FCC approved SpaceX's plan to deploy up to 1 million AI-equipped satellites as orbital data centers, marking first regulatory clearance for space-based AI infrastructure.",
+    "text": "Anthropic achieved $81B annual revenue by 2026 through Claude's success and AI coding capabilities, transforming from safety-focused lab to frontier AI company.",
+    "links": [
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/How-Anthropic-Went-From-Anti-Product-to-81B-a-Year-e3t0vt0"
+    ]
+   },
+   {
+    "text": "Widespread AI output reuse—same models appearing across YouTube, presentations, and professional work—is creating homogenized digital culture and de-individualization.",
+    "links": [
+     "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+    ]
+   },
+   {
+    "text": "FCC approved SpaceX's plan to deploy up to 1 million AI-equipped satellites as orbital data centers, with Google and Blue Origin pursuing similar strategies.",
     "links": [
      "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
-    ]
-   },
-   {
-    "text": "Tidal will ban AI-generated music starting December, deleting ~29 million tracks and rejecting 80,000+ new AI tracks daily, escalating music industry resistance to AI.",
-    "links": [
-     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
     ]
    }
   ]
@@ -70,6 +77,60 @@ window.NEWS_DATA = {
   ]
  },
  "items": [
+  {
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "link": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-26T23:02:48+00:00",
+   "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a21990-d1c6-7a0c-b8e0-fa2c1f04b55c/01a21990-d354-76be-8342-c5bfbf222b77.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/a8df01b2-299a-40ee-b051-ae5c45440978/image__19_.png?t=1795732954",
+   "themes": [],
+   "aiSummary": "Clay is building go-to-market infrastructure and tools for AI agents, positioning low-cost agent access ($1,500) as sufficient for most companies. The company is focused on solving real customer pain points, particularly around how users interact with model selection in agent systems.",
+   "whyMatters": [
+    "Demonstrates the commercialization phase of agentic AI moving beyond research into practical infrastructure that companies actually deploy",
+    "Shows market consolidation around agent tooling as a category—companies choosing specialized platforms over building from scratch"
+   ]
+  },
+  {
+   "title": "Quoting Jack Despain Zhou",
+   "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-26T15:09:31+00:00",
+   "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputa",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Jack Despain Zhou observes that widespread AI adoption has led to de-individualization, with the same AI outputs (particularly Claude) appearing across diverse contexts—YouTube videos, conference presentations, professional emails and articles—making it harder to distinguish authentic individual voices and credentials.",
+   "whyMatters": [
+    "Raises concerns about AI-generated homogenization eroding trust markers (credentials, institutions, individual voices) that audiences rely on to evaluate information",
+    "Particularly relevant for educators and community leaders who depend on authentic, varied communication to build relationships and credibility with audiences"
+   ]
+  },
+  {
+   "title": "How Anthropic Went From Anti-Product to $81B a Year",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-Anthropic-Went-From-Anti-Product-to-81B-a-Year-e3t0vt0",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-26T15:00:00+00:00",
+   "summary": "A Thanksgiving extra from my new show, How We Got Here. In 2021, Anthropic was a safety lab meeting in a park, and its founders had ruled out selling anything. Five years later it was bringing in $81 billion a year. This excerpt from this week's episode covers how that happened: the chatbot they wouldn't release, the investor who turned out to be a fraud, and the bet on coding that changed the bus",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/130104672/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F437622914-44100-2-85d3ae3be3d62.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [],
+   "aiSummary": "Anthropic transformed from a safety-focused research lab founded in 2021 (with no product ambitions) to a $81 billion annual revenue company by 2026, pivoting through the success of Claude and strategic bets on AI coding capabilities while navigating challenges including an investor fraud case.",
+   "whyMatters": [
+    "Illustrates how AI safety research transitioned into commercial success, reshaping incentives across the industry",
+    "Relevant to understanding how contemporary AI companies balance founding principles with revenue pressure and investor expectations"
+   ]
+  },
   {
    "title": "Jensen Huang deepfakes are the hot new AI slop",
    "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
@@ -159,6 +220,24 @@ window.NEWS_DATA = {
    "aiSummary": "SQLite has introduced a sqlite3_rsync tool, added as experimental in October 2024 and enhanced in May 2025, that simplifies remote copying of SQLite databases without traditional backup procedures.",
    "whyMatters": [
     "Minor infrastructure improvement; not directly relevant to your audience"
+   ]
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-26T05:08:46+00:00",
+   "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balan",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "The New York Times advises photographers not to update Adobe Photoshop due to AI-powered editing features that could compromise the photographic integrity journalists rely on. Professional photographers maintain strict editorial standards around presenting images as originally captured, with only cropping and basic balancing allowed.",
+   "whyMatters": [
+    "Highlights emerging professional and ethical standards around AI-assisted image manipulation in journalism and documentary work",
+    "Reflects broader questions about maintaining authenticity and trust in visual media as AI tools become embedded in production software"
    ]
   },
   {
@@ -2307,26 +2386,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-   "link": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-17T22:38:52+00:00",
-   "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as ",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
-   "themes": [
-    "updates"
-   ],
-   "aiSummary": "OpenAI announced two new models: GPT-6.2 Astra for complex tasks and GPT-6.2 Sol for everyday work, both available via API. Astra is priced at 80% of the previous frontier model cost ($8/MTok input, $40/MTok output).",
-   "whyMatters": [
-    "Increases model availability across performance tiers with significant cost reduction for enterprise users",
-    "Expands API offerings to provide options for different computational complexity needs"
-   ]
-  },
-  {
    "title": "How Business AI Use is Changing",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-Business-AI-Use-is-Changing-e3sj17g",
    "source": "The AI Daily Brief",
@@ -2398,24 +2457,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Addresses privacy concerns around AI training data use in consumer applications",
     "Enables opt-out from training data contribution for users uncomfortable with that practice"
-   ]
-  },
-  {
-   "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
-   "link": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-17T16:48:33+00:00",
-   "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io : Load client-side Datasette to brow",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
-   "themes": [],
-   "aiSummary": "Simon Willison completed a full rewrite of Datasette Lite, a Python data analysis application now running in the browser via WebAssembly and Pyodide using service workers. The rewrite makes the browser-based version functionally equivalent to the server-side application.",
-   "whyMatters": [
-    "Enables full Python data analysis workflows without server infrastructure requirements",
-    "Demonstrates advances in bringing complex server applications to browser environments via WebAssembly"
    ]
   },
   {
@@ -2843,26 +2884,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates AI's impact on genomics research and disease understanding with practical applications for medicine",
     "Builds on previous AlphaFold success to extend AI into related biological domains"
-   ]
-  },
-  {
-   "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
-   "link": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-11T09:34:28+00:00",
-   "summary": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "environment"
-   ],
-   "aiSummary": "Mercor, an AI workforce platform, raised $750 million in Series D funding at a $20 billion valuation with a $3 billion annual run rate. This represents a significant capital influx into the enterprise AI labor market.",
-   "whyMatters": [
-    "Reflects continued investor confidence in AI-driven hiring and workforce management platforms",
-    "Signals growing enterprise adoption of AI for talent acquisition and deployment"
    ]
   },
   {
@@ -3336,26 +3357,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Demonstrates emerging best practices for responsible AI adoption in organizations, emphasizing participation over imposition",
     "Relevant to educators and community leaders considering how to responsibly integrate AI into their work with proper stakeholder engagement"
-   ]
-  },
-  {
-   "title": "AI Can Now Create Worlds You Can Change in Real Time",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-Can-Now-Create-Worlds-You-Can-Change-in-Real-Time-e3ra17q",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-28T20:43:55+00:00",
-   "summary": "Google’s Genie 4 brings AI-generated worlds closer to reality, with live prompting, native audio, and more realistic interactions. NLW explores what this means for gaming, robotics, and the path from impressive demos to useful tools. Plus: Anthropic’s one-person biotech acquisition and the debate over access to OpenAI’s scientific breakthroughs. Listen to the new How We Got Here with NLW: ⁠⁠⁠https",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128303802/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435269554-44100-2-27523823ae90a.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "robots"
-   ],
-   "aiSummary": "Google released Genie 4, an AI system that generates interactive virtual worlds users can modify in real-time using natural language prompts, with improved audio and realistic interactions. The announcement discusses implications for gaming, robotics, and the broader challenge of moving from impressive demos to practical applications.",
-   "whyMatters": [
-    "Demonstrates significant progress in generative AI's capability to create dynamic, user-controllable environments—a step toward embodied AI agents",
-    "Raises questions about practical deployment timelines and real-world utility beyond research demonstrations"
    ]
   },
   {
