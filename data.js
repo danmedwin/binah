@@ -1,40 +1,38 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-27T13:02:03.963378+00:00",
+ "generatedAt": "2026-11-27T14:49:53.287660+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-27T13:02:16.986214+00:00",
+  "generatedAt": "2026-11-27T14:50:03.302930+00:00",
   "bullets": [
    {
-    "text": "AI systems are now solving long-standing mathematical problems faster than humans can verify them, including apparent progress on the Riemann hypothesis and improvements to core algorithms.",
+    "text": "AI systems now generate mathematical proofs faster than humans can verify them, recently touching long-standing problems like the Riemann hypothesis and algorithmic improvements.",
     "links": [
      "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
      "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
     ]
    },
    {
-    "text": "Frontier AI is reshaping scientific work: theoretical physicists report systems solve full-day problems in hours, while mathematicians debate whether AI-generated proofs constitute genuine understanding.",
+    "text": "Frontier AI is reshaping scientific work: systems solve theoretical physics problems in minutes that required expert physicists a full day, changing what the discipline entails.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-     "https://simonwillison.net/2026/Nov/25/scott-aaronson/"
+     "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
     ]
    },
    {
-    "text": "FCC approved SpaceX's plan to deploy up to 1 million AI-equipped satellites as orbital data centers, marking the first regulatory green light for distributed space-based AI infrastructure.",
+    "text": "FCC approved SpaceX's plan to deploy up to 1 million AI-equipped satellites as orbital data centers, marking first regulatory approval for space-based AI infrastructure.",
     "links": [
      "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
     ]
    },
    {
-    "text": "Tidal will ban and delete approximately 27 million AI-generated tracks starting December 9th, escalating music industry pushback against synthetic content flooding streaming catalogs.",
+    "text": "Meta refused to share its Muse AI shopping agent with UK regulators for testing ahead of rollout, drawing complaints from financial watchdog over regulatory collaboration gaps.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+     "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
     ]
    },
    {
-    "text": "Anthropic created a honeypot test to measure whether AI agents can resist misbehaving when tempted, addressing core safety questions as autonomous systems face real-world decision points.",
+    "text": "Forty-two state attorneys general are blocking Character.AI from selling 21 million users' private chat histories in bankruptcy proceedings, raising data-protection stakes for AI platforms.",
     "links": [
-     "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/"
+     "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
     ]
    }
   ]
@@ -178,26 +176,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Illustrates how AI safety research transitioned into commercial success, reshaping incentives across the industry",
     "Relevant to understanding how contemporary AI companies balance founding principles with revenue pressure and investor expectations"
-   ]
-  },
-  {
-   "title": "Jensen Huang deepfakes are the hot new AI slop",
-   "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
-   "source": "The Verge · AI",
-   "category": "ai",
-   "date": "2026-11-26T12:29:18+00:00",
-   "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he […]",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [
-    "ethics"
-   ],
-   "aiSummary": "AI-generated deepfakes of Jensen Huang are circulating on social media, including a video with nearly 6 million Instagram views showing him in fabricated scenarios, some involving Alice Huang.",
-   "whyMatters": [
-    "Illustrates deepfake proliferation and misinformation risks in high-profile contexts",
-    "Raises concerns about AI-generated content moderation and the difficulty of distinguishing authentic from fabricated media at scale"
    ]
   },
   {
@@ -359,6 +337,24 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Reveals corporate direction toward AI-generated content replacing human-created entertainment at scale",
     "Raises concerns about content diversity, labor displacement, and regulatory scrutiny of generative AI applications"
+   ]
+  },
+  {
+   "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+   "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+   "source": "The Verge · AI",
+   "category": "ai",
+   "date": "2026-11-25T21:43:14+00:00",
+   "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Google is adding AI-powered customizable widgets to Android that let users create personalized tools without coding, such as real-time transit arrival displays. The feature uses AI to generate widgets based on natural language descriptions, addressing a common user need for quick access to specific information.",
+   "whyMatters": [
+    "Demonstrates practical AI application in consumer OS—moving AI from behind-the-scenes processing to direct user-facing customization",
+    "Lowers the barrier for non-technical users to create functional tools, potentially shifting how people interact with their phones and information access"
    ]
   },
   {
