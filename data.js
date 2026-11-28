@@ -1,31 +1,30 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-28T00:24:09.430463+00:00",
+ "generatedAt": "2026-11-28T12:15:55.209903+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-28T00:24:20.656200+00:00",
+  "generatedAt": "2026-11-28T12:16:04.838591+00:00",
   "bullets": [
    {
-    "text": "Forty-two state AGs block Character.AI from selling 21 million users' private chat histories in bankruptcy, setting precedent for data protection in consumer AI.",
+    "text": "Frontier labs are spending heavily on coding data as a critical training input, creating a new market where AI companies weigh exclusive datasets against cheaper non-exclusive options.",
     "links": [
-     "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+     "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+     "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/"
     ]
    },
    {
-    "text": "AI is now solving theoretical physics and mathematical problems faster than humans can verify them, reshaping disciplines from complexity theory to proof-checking.",
+    "text": "The U.S. government has become structurally committed to AI industry success—treating it as central to economic growth and national security—making a sector collapse politically untenable, echoing 2008 bank-bailout logic.",
     "links": [
-     "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
-     "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-is-Too-Big-to-Fail-e3t47qv"
     ]
    },
    {
-    "text": "FCC approves SpaceX's plan for up to 1 million AI-equipped satellites in orbit; military strategists meanwhile treat data centers as legitimate wartime targets.",
+    "text": "New photonic chips using light waves instead of electronics could significantly reduce energy consumption for running AI models, addressing the mounting power demands of training and inference.",
     "links": [
-     "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-     "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/"
+     "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/"
     ]
    },
    {
-    "text": "UK's Financial Conduct Authority criticizes Meta for refusing to share Muse AI agent for regulatory testing before UK rollout, exposing gaps in AI oversight.",
+    "text": "Meta is resisting UK financial regulators' requests to jointly test its Muse personal AI agent before UK launch, signaling broader friction between tech companies and regulatory collaboration.",
     "links": [
      "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
     ]
@@ -33,53 +32,64 @@ window.NEWS_DATA = {
   ]
  },
  "lastDigestBrief": {
-  "generatedAt": "2026-11-27T13:02:16.986214+00:00",
+  "generatedAt": "2026-11-28T12:16:04.838591+00:00",
   "bullets": [
    {
-    "text": "AI systems are now solving long-standing mathematical problems faster than humans can verify them, including apparent progress on the Riemann hypothesis and improvements to core algorithms.",
+    "text": "Frontier labs are spending heavily on coding data as a critical training input, creating a new market where AI companies weigh exclusive datasets against cheaper non-exclusive options.",
     "links": [
-     "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
-     "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
+     "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+     "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/"
     ]
    },
    {
-    "text": "Frontier AI is reshaping scientific work: theoretical physicists report systems solve full-day problems in hours, while mathematicians debate whether AI-generated proofs constitute genuine understanding.",
+    "text": "The U.S. government has become structurally committed to AI industry success—treating it as central to economic growth and national security—making a sector collapse politically untenable, echoing 2008 bank-bailout logic.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-     "https://simonwillison.net/2026/Nov/25/scott-aaronson/"
+     "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-is-Too-Big-to-Fail-e3t47qv"
     ]
    },
    {
-    "text": "FCC approved SpaceX's plan to deploy up to 1 million AI-equipped satellites as orbital data centers, marking the first regulatory green light for distributed space-based AI infrastructure.",
+    "text": "New photonic chips using light waves instead of electronics could significantly reduce energy consumption for running AI models, addressing the mounting power demands of training and inference.",
     "links": [
-     "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+     "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/"
     ]
    },
    {
-    "text": "Tidal will ban and delete approximately 27 million AI-generated tracks starting December 9th, escalating music industry pushback against synthetic content flooding streaming catalogs.",
+    "text": "Meta is resisting UK financial regulators' requests to jointly test its Muse personal AI agent before UK launch, signaling broader friction between tech companies and regulatory collaboration.",
     "links": [
-     "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
-    ]
-   },
-   {
-    "text": "Anthropic created a honeypot test to measure whether AI agents can resist misbehaving when tempted, addressing core safety questions as autonomous systems face real-world decision points.",
-    "links": [
-     "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/"
+     "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
     ]
    }
   ]
  },
  "tasteProfile": {
-  "updatedAt": "2026-11-27T13:02:11.810094+00:00",
+  "updatedAt": "2026-11-28T12:16:00.518428+00:00",
   "voteCount": 7,
   "bullets": [
    "Interested in AI ethics and moral/religious perspectives on technology",
-   "Drawn to practical AI applications and their real-world impacts",
-   "Prefers substantive tech reporting over niche developer tool updates"
+   "Engaged by substantive product developments and technical legacy stories (Apple chips, AI features)",
+   "Prefers stories with clear business or societal impact over developer tool release notes"
   ]
  },
  "items": [
+  {
+   "title": "[AINews] Inside the exploding Coding Data Market",
+   "link": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-28T03:45:59+00:00",
+   "summary": "November 27, 2026 — How frontier labs buy training data.",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [],
+   "aiSummary": "Frontier AI labs are increasingly acquiring large volumes of coding data to train their models, creating a rapidly growing market for such datasets. The article examines how these labs source, purchase, and utilize coding data as a critical component of their training infrastructure.",
+   "whyMatters": [
+    "Coding data has become a valuable commodity in AI development, affecting which companies can compete in frontier model training and raising questions about data sourcing practices and sustainability",
+    "Access to quality coding data influences AI capabilities in software development, with implications for how AI tools will be built and deployed in professional and educational settings",
+    "The market dynamics around data acquisition could affect pricing and availability of AI coding assistants used by developers and in computer science education programs"
+   ]
+  },
   {
    "title": "datasette-charts 0.4a0",
    "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
@@ -2760,24 +2770,6 @@ window.NEWS_DATA = {
     "Nvidia dominates AI chip supply; leadership instability directly affects the entire AI buildout's trajectory",
     "Huang's China relationships and policy influence are now in flux, affecting geopolitical dimensions of AI",
     "Ripple effects extend to venture capital commitments and strategic partnerships across the industry"
-   ]
-  },
-  {
-   "title": "[AINews] D-Day (Decision Models Day)",
-   "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-12T05:26:54+00:00",
-   "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Google is entering the decision model market as of November 2026, and at the AI Engineer conference, Cloudflare demonstrated classifier models for build failure handling while TypeSafe AI showcased production deployments with real customers.",
-   "whyMatters": [
-    "Signals Google's expansion into a new category of AI systems focused on decision-making rather just generation",
-    "Shows decision models are moving from research to production use in software development and infrastructure"
    ]
   },
   {
