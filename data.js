@@ -1,38 +1,33 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-27T14:49:53.287660+00:00",
+ "generatedAt": "2026-11-28T00:24:09.430463+00:00",
  "feedCount": 18,
  "highlights": {
-  "generatedAt": "2026-11-27T14:50:03.302930+00:00",
+  "generatedAt": "2026-11-28T00:24:20.656200+00:00",
   "bullets": [
    {
-    "text": "AI systems now generate mathematical proofs faster than humans can verify them, recently touching long-standing problems like the Riemann hypothesis and algorithmic improvements.",
+    "text": "Forty-two state AGs block Character.AI from selling 21 million users' private chat histories in bankruptcy, setting precedent for data protection in consumer AI.",
     "links": [
-     "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
-     "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
+     "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
     ]
    },
    {
-    "text": "Frontier AI is reshaping scientific work: systems solve theoretical physics problems in minutes that required expert physicists a full day, changing what the discipline entails.",
+    "text": "AI is now solving theoretical physics and mathematical problems faster than humans can verify them, reshaping disciplines from complexity theory to proof-checking.",
     "links": [
+     "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
      "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
     ]
    },
    {
-    "text": "FCC approved SpaceX's plan to deploy up to 1 million AI-equipped satellites as orbital data centers, marking first regulatory approval for space-based AI infrastructure.",
+    "text": "FCC approves SpaceX's plan for up to 1 million AI-equipped satellites in orbit; military strategists meanwhile treat data centers as legitimate wartime targets.",
     "links": [
-     "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+     "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+     "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/"
     ]
    },
    {
-    "text": "Meta refused to share its Muse AI shopping agent with UK regulators for testing ahead of rollout, drawing complaints from financial watchdog over regulatory collaboration gaps.",
+    "text": "UK's Financial Conduct Authority criticizes Meta for refusing to share Muse AI agent for regulatory testing before UK rollout, exposing gaps in AI oversight.",
     "links": [
      "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
-    ]
-   },
-   {
-    "text": "Forty-two state attorneys general are blocking Character.AI from selling 21 million users' private chat histories in bankruptcy proceedings, raising data-protection stakes for AI platforms.",
-    "links": [
-     "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
     ]
    }
   ]
@@ -86,6 +81,64 @@ window.NEWS_DATA = {
  },
  "items": [
   {
+   "title": "datasette-charts 0.4a0",
+   "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-27T23:57:17+00:00",
+   "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart p",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "https://static.simonwillison.net/static/2026/datasette-charts-gallery.webp",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison released datasette-charts 0.4a0, a plugin update that improves the plugin hook system for defining new chart types. The update addresses friction points discovered when Claude Opus built an experimental plugin to test the hook.",
+   "whyMatters": [
+    "Improves developer experience for extending datasette functionality with custom visualization types",
+    "Demonstrates practical use of AI assistance in identifying and fixing API design problems in open-source tools"
+   ]
+  },
+  {
+   "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+   "link": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+   "source": "Latent Space",
+   "category": "podcast",
+   "date": "2026-11-27T22:19:18+00:00",
+   "summary": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a21efa-24c7-769b-afbe-cd7e135e4e85/01a21efa-28a3-7145-a228-ed763afc8f37.mp3",
+   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/0215d0ff-181b-4f75-aef5-94cd873ea1b0/g2i-how-labs-buy-ai-data-podcast.jpg?t=1795817915",
+   "themes": [],
+   "aiSummary": "Gabe Greenberg of G2i discussed how AI labs decide whether to pay premium prices for exclusive training data or accept discounts for data other labs can also purchase. The decision involves trade-offs between cost, exclusivity, and competitive advantage.",
+   "whyMatters": [
+    "Reveals market dynamics in AI development where data sourcing strategy significantly impacts lab economics and competitive positioning",
+    "Shows how frontier labs allocate budgets and weigh exclusivity against cost in the race to train capable models"
+   ]
+  },
+  {
+   "title": "AI is Too Big to Fail",
+   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/AI-is-Too-Big-to-Fail-e3t47qv",
+   "source": "The AI Daily Brief",
+   "category": "podcast",
+   "date": "2026-11-27T18:00:01+00:00",
+   "summary": "As Senator Adam Schiff pushes to rule out an AI bailout, NLW examines whether Washington could actually let the industry fail. He traces how AI became central to U.S. economic growth and national security under two administrations, then revisits the bank bailouts of 2008 to explore what a government rescue might look like if the AI boom collapses. New Episode: How Anthropic Went from AI Safety Out",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "https://anchor.fm/s/f7cac464/podcast/play/130211103/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2F437768288-44100-2-88439098df2f68.mp3",
+   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
+   "themes": [
+    "ethics"
+   ],
+   "aiSummary": "NLW examines whether the U.S. government could allow the AI industry to fail if the boom collapses, tracing how AI became central to economic growth and national security policy, and drawing parallels to the 2008 bank bailouts. Senator Adam Schiff has pushed to rule out an AI bailout.",
+   "whyMatters": [
+    "Raises critical policy questions about government intervention and moral hazard in emerging AI industry",
+    "Connects AI development trajectory to national security doctrine, with implications for how governments may support or restrict AI advancement"
+   ]
+  },
+  {
    "title": "How A.I. Is Transforming Mathematics",
    "link": "https://www.nytimes.com/column/hard-fork",
    "source": "Hard Fork",
@@ -122,6 +175,26 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Energy efficiency in AI infrastructure reduces operational costs and environmental impact, which is critical as AI deployment scales globally",
     "Optical computing represents a potential breakthrough in hardware that could reshape the competitive landscape of AI chip development"
+   ]
+  },
+  {
+   "title": "datasette-mcp 0.4",
+   "link": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+   "source": "Simon Willison",
+   "category": "ai",
+   "date": "2026-11-27T00:26:17+00:00",
+   "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette",
+   "religionScore": 0,
+   "religionHits": [],
+   "audio": "",
+   "image": "",
+   "themes": [
+    "updates"
+   ],
+   "aiSummary": "Simon Willison released datasette-mcp 0.4, a maintenance update ensuring compatibility with Datasette 1.0a44 and updating support for the model-context-protocol.",
+   "whyMatters": [
+    "Maintains interoperability between datasette tooling and emerging MCP standards as both projects develop",
+    "Reflects incremental work keeping open-source data infrastructure aligned with evolving AI integration patterns"
    ]
   },
   {
@@ -2082,24 +2155,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The PSF end-of-year fundraiser",
-   "link": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-18T14:44:48+00:00",
-   "summary": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider donating this year! The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports commu",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "The Python Software Foundation launched its end-of-year fundraiser to support Python development, the PyPI package repository, core developer sprints, and community initiatives.",
-   "whyMatters": [
-    "PSF funding directly supports infrastructure that underpins a major tool ecosystem used in AI development, education, and research",
-    "Relevant to educators and organizations building on Python for AI, ML, and scientific work"
-   ]
-  },
-  {
    "title": "The AI Hype Index: AI is everywhere",
    "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
    "source": "MIT Tech Review · AI",
@@ -2299,24 +2354,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Shows AI's application in hardware design, expanding beyond software into physical infrastructure",
     "Relevant to understanding AI's expanding scope and economic impact across industries"
-   ]
-  },
-  {
-   "title": "External sandboxes for coding agents",
-   "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
-   "source": "Simon Willison",
-   "category": "ai",
-   "date": "2026-11-17T22:52:29+00:00",
-   "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind Superpowers and other projects . My post on th",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "https://static.simonwillison.net/static/2026/sandbox-proxy.png",
-   "themes": [],
-   "aiSummary": "Simon Willison documented new approaches to sandboxing code executed by AI agents, focusing on making local model experimentation safer against mistakes and prompt injection attacks. The work was done in collaboration with Prime Radiant research lab.",
-   "whyMatters": [
-    "Addresses critical safety concern for developers deploying coding agents locally",
-    "Practical engineering solution to reduce risk of autonomous AI systems causing unintended damage during development and testing"
    ]
   },
   {
@@ -2744,24 +2781,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
-   "link": "https://latent.space/p/jev-revolution/",
-   "source": "Latent Space",
-   "category": "podcast",
-   "date": "2026-11-12T05:08:20+00:00",
-   "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "At the AI Engineer Code Summit, Diogo Almeida (lead creator of Jev/System One models) called on developers to automate everything using these models, and companies like Glean demonstrated production deployments using Jev technology.",
-   "whyMatters": [
-    "Indicates System One models are seeing active adoption for production automation use cases",
-    "Reflects industry momentum toward autonomous execution systems rather than just inference or generation"
-   ]
-  },
-  {
    "title": "Wall Street Has No Idea What Anthropic Is Worth",
    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Wall-Street-Has-No-Idea-What-Anthropic-Is-Worth-e3s7t73",
    "source": "The AI Daily Brief",
@@ -3023,27 +3042,6 @@ window.NEWS_DATA = {
    ]
   },
   {
-   "title": "The AI Rankings Just Got Reshuffled",
-   "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/The-AI-Rankings-Just-Got-Reshuffled-e3rc5gg",
-   "source": "The AI Daily Brief",
-   "category": "podcast",
-   "date": "2026-10-29T19:31:10+00:00",
-   "summary": "A major overhaul of AI’s most-watched benchmark is reshuffling the model rankings and revealing a wider gap between open and closed models. NLW examines what the new tests reveal about real-world capabilities—and how much those rankings should matter when choosing your AI tools. In the headlines: Google unveils Gemini 4 Carbon, Microsoft and Google report surging cloud revenue, and Nvidia faces br",
-   "religionScore": 0,
-   "religionHits": [],
-   "audio": "https://anchor.fm/s/f7cac464/podcast/play/128373712/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-29%2F435359682-44100-2-ea262663c4827.mp3",
-   "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41472609/41472609-1752234663609-8665756a468e5.jpg",
-   "themes": [
-    "updates",
-    "environment"
-   ],
-   "aiSummary": "A major AI benchmark overhaul is reshuffling model rankings and exposing widening performance gaps between open-source and closed commercial AI models. The update provides new insight into real-world capabilities beyond headline numbers.",
-   "whyMatters": [
-    "Benchmark changes directly affect which models enterprises and educators select for deployment",
-    "Growing gap between open and closed models has implications for AI accessibility in schools and community organizations"
-   ]
-  },
-  {
    "title": "AI and Ethics of Healthcare #75",
    "link": "https://aiandfaith.org/aif-podcast/ai-and-ethics-of-healthcare-75/",
    "source": "AI and Faith",
@@ -3176,31 +3174,6 @@ window.NEWS_DATA = {
    "whyMatters": [
     "Education impact: curriculum decisions lag years behind technological change, leaving students unprepared for AI-integrated workplaces",
     "Foundational knowledge shift: AI literacy and critical thinking about AI systems may need to replace or supplement traditional skills"
-   ]
-  },
-  {
-   "title": "AI and Faith Leaders To Join Interfaith Panel",
-   "link": "https://aiandfaith.org/news/aif-leaders-join-interfaith-panel/",
-   "source": "AI and Faith",
-   "category": "religion",
-   "date": "2026-10-13T16:58:02+00:00",
-   "summary": "AI and Faith Leaders will join interfaith panel at “New Discoveries and New Directions in Biblical, Hebrew, and Theological Studies” Conference. Rabbi Dr. Harris Bor, a leader and advisor at",
-   "religionScore": 18,
-   "religionHits": [
-    "biblical",
-    "faith",
-    "hebrew",
-    "interfaith",
-    "rabbi",
-    "theolog"
-   ],
-   "audio": "",
-   "image": "",
-   "themes": [],
-   "aiSummary": "Leaders from AI and Faith organization, including Rabbi Dr. Harris Bor, will participate in an interfaith panel at a conference on Biblical, Hebrew, and Theological Studies.",
-   "whyMatters": [
-    "Represents direct engagement between AI practitioners and religious scholars on implications of AI for religious study and practice",
-    "Shows growing institutional recognition that interfaith dialogue is necessary to address AI's intersection with religious education and values"
    ]
   }
  ]
